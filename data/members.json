@@ -112,7 +112,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://clairevaldezforcongress.com",
+        "fec": "C00933515"
+      }
     },
     {
       "id": "ny-10-lander",
@@ -152,7 +156,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://micahlasher.com",
+        "fec": "C00918565"
+      }
     },
     {
       "id": "nj-12-hamawy",
@@ -171,7 +179,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://hamawyfornj.com",
+        "fec": "C00934588"
+      }
     },
     {
       "id": "oh-07-poindexter",
@@ -237,7 +249,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.brooksforcongress.com",
+        "fec": "C00917096"
+      }
     },
     {
       "id": "tx-23-padilla-stout",
@@ -324,7 +340,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://littleforcongress.com",
+        "fec": "C00903807"
+      }
     },
     {
       "id": "ca-14-wahab",
@@ -345,7 +365,11 @@
       },
       "office": "house",
       "incumbent": true,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.aishawahab.com",
+        "fec": "C00933036"
+      }
     },
     {
       "id": "mi-13-mckinney",
@@ -387,7 +411,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.haynesforcongress.com",
+        "fec": "C00931667"
+      }
     },
     {
       "id": "nj-11-mejia",
@@ -406,7 +434,11 @@
       },
       "office": "house",
       "incumbent": true,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.analiliafornj.com",
+        "fec": "C00927681"
+      }
     },
     {
       "id": "dc-al-white",
@@ -606,7 +638,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.jacksonformaine.com",
+        "fec": "C00955609"
+      }
     },
     {
       "id": "tx-sen-talarico",
@@ -712,7 +748,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-2-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.jaredhuffman.com",
+        "fec": "C00536680"
+      }
     },
     {
       "id": "ca-8-garamendi",
@@ -862,7 +902,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-28-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.judychu.org",
+        "fec": "C00458125"
+      }
     },
     {
       "id": "ca-29-rivas",
@@ -968,11 +1012,7 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-36-results"
       },
-      "checkedAt": "2026-11-08",
-      "campaign": {
-        "url": "https://tedlieu.com",
-        "fec": "C00556506"
-      }
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-37-kamlager-dove",
@@ -1056,11 +1096,7 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-43-results"
       },
-      "checkedAt": "2026-11-08",
-      "campaign": {
-        "url": "https://maxinewatersforcongress.com",
-        "fec": "C00167585"
-      }
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-44-barragan",
@@ -1078,7 +1114,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-44-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://barraganforcongress.com",
+        "fec": "C00577353"
+      }
     },
     {
       "id": "ca-47-min",
@@ -1162,7 +1202,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-52-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.votevargas.com",
+        "fec": "C00497321"
+      }
     },
     {
       "id": "co-2-neguse",
@@ -1356,7 +1400,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/illinois-us-house-district-1-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.jacksonforcongress.com",
+        "fec": "C00802603"
+      }
     },
     {
       "id": "il-3-ramirez",
@@ -1440,7 +1488,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/louisiana-us-house-district-2-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://congressmantroycarter.com",
+        "fec": "C00763649"
+      }
     },
     {
       "id": "me-1-pingree",
@@ -1744,7 +1796,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-10-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.lamonicaforcongress.com",
+        "fec": "C00878603"
+      }
     },
     {
       "id": "nm-1-stansbury",
