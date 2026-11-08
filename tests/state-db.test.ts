@@ -5,6 +5,7 @@ import { Client } from "pg";
 import { STATES } from "../lib/states";
 import { batchContents, publicationProblems, publishInTransaction } from "../scripts/state-offices";
 import { canonical } from "../lib/canonical";
+import { migrate } from "../scripts/db";
 
 const url = process.env.STATE_TEST_DATABASE_URL;
 test("database gates reconciliation and multi-member seat capacity", { skip: !url }, async () => {
@@ -12,6 +13,7 @@ test("database gates reconciliation and multi-member seat capacity", { skip: !ur
   const batch = `test-${randomUUID()}`;
   await db.connect();
   try {
+    await migrate(db, "state_offices", "db/state-offices");
     await db.query("BEGIN");
     await db.query("INSERT INTO state_offices.batches(id, content_hash) VALUES($1,$1)", [batch]);
     await db.query("INSERT INTO state_offices.people(batch_id,id,name) VALUES($1,'a','Person A'),($1,'b','Person B'),($1,'c','Person C')", [batch]);
