@@ -1,0 +1,1028 @@
+{
+  "state": "NM",
+  "researched_at": "2026-11-08",
+  "chambers": {
+    "upper": "Senate",
+    "lower": "House of Representatives"
+  },
+  "endorsements": [
+    {
+      "person": "Melissa Armijo",
+      "office": "lower",
+      "district": "12",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/04/new-mexico-working-families-party-announces-first-round-of-endorsements-for-june-primary/",
+        "excerpt": "Melissa Armijo for House District 12"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2022_New_Mexico_House_of_Representatives_election",
+        "excerpt": "Melissa Armijo and Nicole Michelle Olonovich unsuccessfully challenged Cruz for the Democratic nomination."
+      },
+      "current": null,
+      "notes": "WFP first-round slate announced 2022-04-25, before the 2022-06-07 primary, so stage is primary. Result from Wikipedia's 2022 NM House page, which cites SOS official results (the SOS results site electionresults.sos.nm.gov returns 403 to automated fetches); not read from the SOS directly. Lost the 2022 Democratic primary (446 of 1,498 votes to Art De La Cruz's 789), per the same page. "
+    },
+    {
+      "person": "Eleanor Chavez",
+      "office": "lower",
+      "district": "26",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/04/new-mexico-working-families-party-announces-first-round-of-endorsements-for-june-primary/",
+        "excerpt": "Eleanor Chavez for House District 26"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2022_New_Mexico_House_of_Representatives_election",
+        "excerpt": "Democratic Eleanor Chavez 4,032 60.41% Republican Patrick Sais 2,642 39.59%"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "WFP first-round slate announced 2022-04-25, before the 2022-06-07 primary, so stage is primary. Result from Wikipedia's 2022 NM House page, which cites SOS official results (the SOS results site electionresults.sos.nm.gov returns 403 to automated fetches); not read from the SOS directly. Won 2022 primary and general. House term is 2 years, so a term won in 2022 ended before today under any start date (NM Legislature page on Wikipedia: 'Length of term Senate : 4 years House : 2 years'); status not_serving does not depend on the unsourced start rule. Any 2024 or 2026 re-election is a separate term and is not an endorsed entry unless listed. "
+    },
+    {
+      "person": "Tara Jaramillo",
+      "office": "lower",
+      "district": "38",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/04/new-mexico-working-families-party-announces-first-round-of-endorsements-for-june-primary/",
+        "excerpt": "Tara Jaramillo for House District 38"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2022_New_Mexico_House_of_Representatives_election",
+        "excerpt": "Democratic Tara Jaramillo 4,500 50.69% Republican Sandra Kay Hammack 4,377 49.31%"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "WFP first-round slate announced 2022-04-25, before the 2022-06-07 primary, so stage is primary. Result from Wikipedia's 2022 NM House page, which cites SOS official results (the SOS results site electionresults.sos.nm.gov returns 403 to automated fetches); not read from the SOS directly. Won 2022 general. House term is 2 years, so a term won in 2022 ended before today under any start date (NM Legislature page on Wikipedia: 'Length of term Senate : 4 years House : 2 years'); status not_serving does not depend on the unsourced start rule. Any 2024 or 2026 re-election is a separate term and is not an endorsed entry unless listed. "
+    },
+    {
+      "person": "Karen Whitlock",
+      "office": "lower",
+      "district": "39",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/04/new-mexico-working-families-party-announces-first-round-of-endorsements-for-june-primary/",
+        "excerpt": "Karen Whitlock for House District 39"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2022_New_Mexico_House_of_Representatives_election",
+        "excerpt": "Former representative Rodolpho Martinez defeated Karen Whitlock for the Democratic nomination."
+      },
+      "current": null,
+      "notes": "WFP first-round slate announced 2022-04-25, before the 2022-06-07 primary, so stage is primary. Result from Wikipedia's 2022 NM House page, which cites SOS official results (the SOS results site electionresults.sos.nm.gov returns 403 to automated fetches); not read from the SOS directly. Lost the 2022 Democratic primary 1,682 to 1,770. "
+    },
+    {
+      "person": "Susan Herrera",
+      "office": "lower",
+      "district": "41",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/04/new-mexico-working-families-party-announces-first-round-of-endorsements-for-june-primary/",
+        "excerpt": "Susan Herrera for House District 41"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2022_New_Mexico_House_of_Representatives_election",
+        "excerpt": "Democratic Susan Herrera (incumbent) 7,521 100% Total votes 7,521 100%"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "WFP first-round slate announced 2022-04-25, before the 2022-06-07 primary, so stage is primary. Result from Wikipedia's 2022 NM House page, which cites SOS official results (the SOS results site electionresults.sos.nm.gov returns 403 to automated fetches); not read from the SOS directly. Won 2022 general unopposed. House term is 2 years, so a term won in 2022 ended before today under any start date (NM Legislature page on Wikipedia: 'Length of term Senate : 4 years House : 2 years'); status not_serving does not depend on the unsourced start rule. Any 2024 or 2026 re-election is a separate term and is not an endorsed entry unless listed. "
+    },
+    {
+      "person": "Kristina Ortez",
+      "office": "lower",
+      "district": "42",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/04/new-mexico-working-families-party-announces-first-round-of-endorsements-for-june-primary/",
+        "excerpt": "Kristina Ortez for House District 42"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2022_New_Mexico_House_of_Representatives_election",
+        "excerpt": "Democratic Kristina Ortez (incumbent) 9,267 100% Total votes 9,267 100%"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "WFP first-round slate announced 2022-04-25, before the 2022-06-07 primary, so stage is primary. Result from Wikipedia's 2022 NM House page, which cites SOS official results (the SOS results site electionresults.sos.nm.gov returns 403 to automated fetches); not read from the SOS directly. Won 2022 general unopposed. House term is 2 years, so a term won in 2022 ended before today under any start date (NM Legislature page on Wikipedia: 'Length of term Senate : 4 years House : 2 years'); status not_serving does not depend on the unsourced start rule. Any 2024 or 2026 re-election is a separate term and is not an endorsed entry unless listed. "
+    },
+    {
+      "person": "Andrea Romero",
+      "office": "lower",
+      "district": "46",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/04/new-mexico-working-families-party-announces-first-round-of-endorsements-for-june-primary/",
+        "excerpt": "Andrea Romero for House District 46"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2022_New_Mexico_House_of_Representatives_election",
+        "excerpt": "Democratic Andrea Romero (incumbent) 10,921 77.32% Republican Jay Groseclose 3,203 22.68%"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "WFP first-round slate announced 2022-04-25, before the 2022-06-07 primary, so stage is primary. Result from Wikipedia's 2022 NM House page, which cites SOS official results (the SOS results site electionresults.sos.nm.gov returns 403 to automated fetches); not read from the SOS directly. Won 2022 general. House term is 2 years, so a term won in 2022 ended before today under any start date (NM Legislature page on Wikipedia: 'Length of term Senate : 4 years House : 2 years'); status not_serving does not depend on the unsourced start rule. Any 2024 or 2026 re-election is a separate term and is not an endorsed entry unless listed. "
+    },
+    {
+      "person": "Anita Gonzales",
+      "office": "lower",
+      "district": "70",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/04/new-mexico-working-families-party-announces-first-round-of-endorsements-for-june-primary/",
+        "excerpt": "Anita Gonzales for House District 70"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2022_New_Mexico_House_of_Representatives_election",
+        "excerpt": "Anita Amalia Gonzales unsuccessfully challenged Castellano for the Democratic nomination."
+      },
+      "current": null,
+      "notes": "WFP first-round slate announced 2022-04-25, before the 2022-06-07 primary, so stage is primary. Result from Wikipedia's 2022 NM House page, which cites SOS official results (the SOS results site electionresults.sos.nm.gov returns 403 to automated fetches); not read from the SOS directly. Lost the 2022 Democratic primary 1,983 to 2,061. "
+    },
+    {
+      "person": "Katherine Gauer",
+      "office": "lower",
+      "district": "8",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Katherine Gauer / State Representative, District 8'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "G. Andres Romero",
+      "office": "lower",
+      "district": "10",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'G. Andres Romero / State Representative, District 10'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Javier Martinez",
+      "office": "lower",
+      "district": "11",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Javier Martinez / State Representative, District 11'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Patricia Roybal Caballero",
+      "office": "lower",
+      "district": "13",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Patricia Roybal Caballero / State Representative, District 13'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Miguel Garcia",
+      "office": "lower",
+      "district": "14",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Miguel Garcia / State Representative, District 14'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Marianna Anaya",
+      "office": "lower",
+      "district": "18",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Marianna Anaya / State Representative, District 18'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). Also an RFS 2024 endorsee (separate entry). "
+    },
+    {
+      "person": "Janelle Anyanonu",
+      "office": "lower",
+      "district": "19",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Janelle Anyanonu / State Representative, District 19'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Liz Thomson",
+      "office": "lower",
+      "district": "24",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Liz Thomson / State Representative, District 24'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Cristina Parajon",
+      "office": "lower",
+      "district": "25",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Cristina Parajon / State Representative, District 25'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Eleanor Chavez",
+      "office": "lower",
+      "district": "26",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Eleanor Chavez / State Representative, District 26'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). Also endorsed by Albuquerque DSA (separate entry). "
+    },
+    {
+      "person": "Abby Foster",
+      "office": "lower",
+      "district": "27",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Abby Foster / State Representative, District 27'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). WFP's 2026-06-03 recap (https://workingfamilies.org/2026/06/nm-working-families-party-candidates-notch-statewide-wins/) says its endorsed candidates won House primaries and names this person among them, so the endorsement predates the primary; stage primary. "
+    },
+    {
+      "person": "Pamelya Herndon",
+      "office": "lower",
+      "district": "28",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Pamelya Herndon / State Representative, District 28'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Joy Garratt",
+      "office": "lower",
+      "district": "29",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Joy Garratt / State Representative, District 29'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Elizabeth Diane Torrez-Velasquez",
+      "office": "lower",
+      "district": "30",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Elizabeth Diane Torrez-Velasquez / State Representative, District 30'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Laura Parra",
+      "office": "lower",
+      "district": "32",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Laura Parra / State Representative, District 32'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Micaela Lara Cadena",
+      "office": "lower",
+      "district": "33",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Micaela Lara Cadena / State Representative, District 33'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Angelica Rubio",
+      "office": "lower",
+      "district": "35",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Angelica Rubio / State Representative, District 35'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Lori Martinez",
+      "office": "lower",
+      "district": "37",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Lori Martinez / State Representative, District 37'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). WFP's 2026-06-03 recap (https://workingfamilies.org/2026/06/nm-working-families-party-candidates-notch-statewide-wins/) says its endorsed candidates won House primaries and names this person among them, so the endorsement predates the primary; stage primary. "
+    },
+    {
+      "person": "David Mooney",
+      "office": "lower",
+      "district": "38",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'David Mooney / State Representative, District 38'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Kristina Ortez",
+      "office": "lower",
+      "district": "42",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Kristina Ortez / State Representative, District 42'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Kathleen Cates",
+      "office": "lower",
+      "district": "44",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Kathleen Cates / State Representative, District 44'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Linda Serrato",
+      "office": "lower",
+      "district": "45",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Linda Serrato / State Representative, District 45'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Andrea Romero",
+      "office": "lower",
+      "district": "46",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Andrea Romero / State Representative, District 46'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Reena Szczepanski",
+      "office": "lower",
+      "district": "47",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Reena Szczepanski / State Representative, District 47'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Sarah Silva",
+      "office": "lower",
+      "district": "53",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Sarah Silva / State Representative, District 53'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Luke Jungmann",
+      "office": "lower",
+      "district": "60",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Luke Jungmann / State Representative, District 60'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). Also RFS and Albuquerque DSA (separate entries). Listed on WFP as Luke Jungmann. "
+    },
+    {
+      "person": "Charlotte Little",
+      "office": "lower",
+      "district": "68",
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Source is WFP's 'Our 2026 Candidates' list at https://workingfamilies.org/candidates/ (Working Families Party national site, New Mexico section). The NM rows beyond the first ten load through a 'View More' AJAX call (admin-ajax.php action more_candidates, state 17), so they are not in the static HTML and the excerpt is null. Row text: 'Charlotte Little / State Representative, District 68'. The list is undated, so stage defaults to general. Outcome unknown: the 2026 general (2026-11-03) result could not be sourced; SOS results site returns 403 and Wikipedia's 2026 NM House page carries no general results. Wikipedia lists the person as the Democratic nominee (primary 2026-06-02). "
+    },
+    {
+      "person": "Deb Haaland",
+      "office": "governor",
+      "district": null,
+      "issuer": "New Mexico Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/new-mexico/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Deb Haaland Governor"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election",
+        "excerpt": "Popular vote 412,834 308,315 Percentage 57.2% 42.8%"
+      },
+      "current": {
+        "status": "unknown",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Listed as 'Deb Haaland / Governor' in WFP's 'Our 2026 Candidates' (one of the first ten rows, present in the static HTML). WFP 2026-06-03 recap says Haaland won the Democratic nomination, so stage primary. Result: Wikipedia gubernatorial page shows Haaland 57.2% to Gregg Hull 42.8% at '95% as of 2:12 AM MST', labelled elected; unofficial and uncertified, SOS results site returns 403. Term-start rule not sourced: NM Const. art. XX sec. 3 (Justia) and nmlegis.gov returned HTTP 403 to automated fetches, so no term_start/term_end or roster could be cited. Incumbent Lujan Grisham is term-limited, so the term almost certainly has not started, but status is left unknown until the rule is cited."
+    },
+    {
+      "person": "Cindy Nava",
+      "office": "upper",
+      "district": "9",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/190d42873f5ba22343560732d4c403a6/nava-cindy/",
+        "excerpt": "Cindy Nava State Senate, District 9 , NM 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2024_New_Mexico_Senate_election",
+        "excerpt": "Cindy Nava 15,588 55.85% Republican Audrey Trujillo 12,320 44.15%"
+      },
+      "current": {
+        "status": "unknown",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "RFS directory card; no endorsement date, so stage general. Won 2024 Democratic primary 2,664 to 2,229 over Heather Balas and the general 15,588 to 12,320 (Wikipedia, citing SOS; SOS site 403). Senate seats elected 2024 run four years, next election 2028. Term-start rule not sourced: NM Const. art. XX sec. 3 (Justia) and nmlegis.gov returned HTTP 403 to automated fetches, so no term_start/term_end or roster could be cited. Almost certainly serving, but no roster could be cited."
+    },
+    {
+      "person": "Marianna Anaya",
+      "office": "lower",
+      "district": "18",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/0cc062d1aada96048b63f796318eb88c/anaya-marianna/",
+        "excerpt": "Marianna Anaya State House, District 18 , NM 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://en.wikipedia.org/wiki/2024_New_Mexico_House_of_Representatives_election",
+        "excerpt": "Democratic Marianna Anaya 11,668 100.0 Total votes 11,668 100.0"
+      },
+      "current": {
+        "status": "unknown",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "RFS directory card; no endorsement date, so stage general. Unopposed in the 2024 general (Wikipedia, citing SOS; SOS site 403). House term is 2 years, so the 2024 term ends in the 2026 cycle. Term-start rule not sourced: NM Const. art. XX sec. 3 (Justia) and nmlegis.gov returned HTTP 403 to automated fetches, so no term_start/term_end or roster could be cited. Almost certainly serving, but no roster could be cited. Also WFP 2026 (separate entry)."
+    },
+    {
+      "person": "Luke Jungmann",
+      "office": "lower",
+      "district": "60",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/c94a94929ee103799277f413270bd0e6/jungmann-luke/",
+        "excerpt": "Luke Jungmann State Representative, District 60 , NM 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "RFS directory card; the 2026 directory list page (static HTML) does not show NM cards, the profile page does. RFS press release dated 2026-07-07 also names him (https://runforsomething.net/rfs-press/run-for-something-endorses-nearly-50-young-candidates-across-24-states/, not fetched here). Stage general: card undated. Democratic nominee for HD60 per Wikipedia; 2026-11-03 general result not sourced (see gaps)."
+    },
+    {
+      "person": "Luke Alfaro-Jungmann",
+      "office": "lower",
+      "district": "60",
+      "issuer": "Albuquerque DSA",
+      "group": "dsa",
+      "issuer_source": "https://abqdsa.org/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://abqdsa.org/electoral-work/",
+        "excerpt": "Albuquerque DSA is proud to support Luke Alfaro-Jungmann, a DSA member running to flip a longtime Republican district"
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Same person as 'Luke Jungmann' on WFP and RFS (Wikipedia: Luke Nicholas Jungmann). Chapter page says 'support' under heading 'State House District 60'; DSA's national endorsement table (https://electoral.dsausa.org/our-campaigns/, Airtable embed) lists him as endorsing chapter Albuquerque, election date 11/3/2026, per saved evidence in research_notes (grid is script-rendered; not re-read here). Stage general: undated. General result not sourced."
+    },
+    {
+      "person": "Eleanor Chavez",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Albuquerque DSA",
+      "group": "dsa",
+      "issuer_source": "https://abqdsa.org/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://abqdsa.org/electoral-work/",
+        "excerpt": "immigrants’ rights, expanded access to healthcare, and standing up for Palestinian rights. Albuquerque DSA is proud to endorse her for reelection"
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Entry on the chapter's electoral page under 'State House District 26 Eleanor Chavez' (excerpt omits the name to fit the 30-word limit). The page gives no year; year 2026 is inferred because it sits beside the 2026 HD60 item and she is the 2026 HD26 nominee. She is not in DSA's national table in saved evidence. Stage general: undated. General result not sourced."
+    }
+  ],
+  "coverage": [
+    {
+      "group": "wfp",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://workingfamilies.org/state/new-mexico/",
+        "https://workingfamilies.org/candidates/",
+        "https://workingfamilies.org/2022/04/new-mexico-working-families-party-announces-first-round-of-endorsements-for-june-primary/",
+        "https://workingfamilies.org/2026/06/nm-working-families-party-candidates-notch-statewide-wins/",
+        "https://workingfamilies.org/affiliation/new-mexico-working-families-party",
+        "https://workingfamilies.org/wp-json/wp/v2/posts?search=new%20mexico"
+      ],
+      "note": "2022 first-round slate and 2026 candidate list captured. No 2024 WFP NM post found on workingfamilies.org; 2024 and 2022 later rounds are open (see gaps). 2022 and 2026 governor: only Haaland 2026 found."
+    },
+    {
+      "group": "or",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://ourrevolution.com/our-champions/",
+        "https://ourrevolution.com/category/past-endorsement/"
+      ],
+      "note": "Champions page state filter has no NM; past-endorsement archive page 1 has no NM item. Archive pagination and a chapter list were not walked; /groups/ 404 per saved notes."
+    },
+    {
+      "group": "dsa",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://abqdsa.org/",
+        "https://abqdsa.org/electoral-work/",
+        "https://electoral.dsausa.org/our-campaigns/",
+        "https://www.dsausa.org/chapters/"
+      ],
+      "note": "Albuquerque chapter page read. Santa Fe DSA site (dsasantafe.org) did not resolve; San Juan County is an organizing committee and Paso del Norte has no readable site, so those are unchecked."
+    },
+    {
+      "group": "rfs",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://directory.runforsomething.net/candidates/2022/",
+        "https://directory.runforsomething.net/candidates/2023/",
+        "https://directory.runforsomething.net/candidates/2024/",
+        "https://directory.runforsomething.net/candidates/2025/",
+        "https://directory.runforsomething.net/candidates/2026/"
+      ],
+      "note": "2022, 2023, 2025 pages list no NM state-legislative cards; 2024 lists Nava and Anaya; 2026 list page shows none but the profile for Jungmann exists. 2020 Linda Serrato (HD45) is out of scope."
+    },
+    {
+      "group": "pccc",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://www.boldprogressives.org/candidates/our-endorsements-2026/"
+      ],
+      "note": "2026 endorsements page has no NM state office. 2022 and 2024 endorsement pages and champions lists were not re-fetched; champions lists are not endorsements."
+    },
+    {
+      "group": "sunrise",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://www.sunrisemovement.org/endorsements/",
+        "https://www.sunrisemovement.org/hubs/"
+      ],
+      "note": "Endorsements archive first page and hubs page show no NM item. Older archive pages were not paged through."
+    }
+  ],
+  "gaps": [
+    "Official results unreachable: electionresults.sos.nm.gov, nmresults.azurewebsites.net and nmlegis.gov all returned 403 or no connection to automated fetches (not circumvented). All results cite Wikipedia pages that themselves cite SOS official results; every outcome should be re-checked against the SOS.",
+    "2026-11-03 general results for the legislature are not sourced: Wikipedia's 2026 NM House page has no general results. 30 WFP/RFS/DSA 2026 legislative entries are outcome unknown; all were Democratic nominees. Haaland won is from an uncertified Wikipedia tally at 95% reporting.",
+    "Term-start rule not cited: NM Const. art. XX sec. 3 ('Date terms of office begin', Justia) and art. IV sec. 4 returned 403; the constitution PDF at api.realfile.rtsclients.com is font-encoded and unreadable by my tools. The 2024 winners (Nava, Anaya) are therefore status unknown rather than serving, and no term_start/term_end is filled. Wikipedia and Ballotpedia say legislators take office January 1 after the election; not used as a source.",
+    "No nmlegis.gov member pages could be read, so contact_url is null throughout and no service_source exists for any serving claim.",
+    "Vacancies: no appointed legislators were identified among endorsees; county-commission appointments since 2022 were not checked against the roster (nmlegis.gov blocked). Any appointee without a qualifying election would be excluded.",
+    "2024 WFP slate not found on an issuer page. Third-party guides attribute NM WFP 2024 endorsements to: Veronica Krupnik (SD24, Progressive Voters Guide, 'Endorsed By ... Working Families Party New Mexico'), and Patricia Roybal Caballero (HD13), Miguel Garcia (HD14), Yanira Gurrola Valenzuela (HD16), Abby Foster (HD27), Elizabeth Torres-Velasquez (HD30), Joseph Hernandez (HD4) on Blue Voter Guide (403 to my fetch). These are not issuer sources, so not entries. WFP's 2026 recap names Hernandez (HD4), Gurrola (HD16), Michelle Abeyta (HD69), Anita Gonzales (HD70) and Yolanda Jaramillo (HD41) as 'aligned', 'supported' or 'champion' without saying endorsed; also not entries. Yolanda Jaramillo is not on the 2026 list.",
+    "WFP 2022 was a 'first round' only; later 2022 rounds and the 2022 governor race were not found. The 2022 slate also had county commission endorsees (Barbara Baca, Eric Olivas), out of scope.",
+    "Our Revolution, PCCC and Sunrise: no NM entries found, but archive pagination and older endorsement pages were not exhaustively walked.",
+    "WFP 2026 legislative rows (27) have excerpt null because the rows load by AJAX; the verifier cannot confirm them. Reviewer can reproduce with POST https://workingfamilies.org/wp-admin/admin-ajax.php action=more_candidates state=17 count=10.",
+    "Albuquerque DSA page for Eleanor Chavez is undated; year 2026 is inferred (noted in entry). DSA Airtable grid for Jungmann is script-rendered; cited via chapter page instead."
+  ]
+}

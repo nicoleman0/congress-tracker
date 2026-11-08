@@ -1,0 +1,395 @@
+{
+  "state": "ME",
+  "researched_at": "2026-11-08",
+  "chambers": {
+    "upper": "Senate",
+    "lower": "House of Representatives"
+  },
+  "endorsements": [
+    {
+      "person": "Nina Milliken",
+      "office": "lower",
+      "district": "16",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2022/",
+        "excerpt": "Nina Milliken Maine House, District 16 , ME Nina has spent much of her life fighting for social"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Nina_Milliken",
+        "excerpt": "Nina Milliken (D) defeated Stephen Hanrahan (R) in the general election for Maine House of Representatives District 16 on November 8, 2022."
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-12-06",
+        "term_end": "2024-12-02",
+        "service_source": {
+          "url": "https://legislature.maine.gov/house/house/MemberProfiles/QualificationsForOffice",
+          "excerpt": "hold their office 2 years from the day next preceding the first Wednesday in December following the general election"
+        },
+        "contact_url": null
+      },
+      "notes": "2022 term ended. Re-elected 2026 (Ballotpedia) but that is a separate election with no endorsement found. Endorsement date not shown on the directory page, so stage set to general. Result source is Ballotpedia because maine.gov/sos returned HTTP 403. Term rule: Maine Constitution Art. IV, Part First, Sec. 2 as quoted on the legislature page (term runs 2 years from the day before the first Wednesday in December after the general election). term_start computed from that rule (first Wednesday in December: 2022-12-07, 2024-12-04, 2026-12-02); term_end computed as the day before the successor term starts. Matches Ballotpedia profile dates."
+    },
+    {
+      "person": "Cameron Reny",
+      "office": "upper",
+      "district": "13",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2022/",
+        "excerpt": "Cameron Reny Maine Senate, District 13 , ME Cameron grew up in a working class family in Bristol."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Cameron_Reny",
+        "excerpt": "Cameron Reny (D) defeated Abden Simmons (R) in the general election for Maine State Senate District 13 on November 8, 2022."
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-12-06",
+        "term_end": "2024-12-02",
+        "service_source": {
+          "url": "https://legislature.maine.gov/house/house/MemberProfiles/QualificationsForOffice",
+          "excerpt": "hold their office 2 years from the day next preceding the first Wednesday in December following the general election"
+        },
+        "contact_url": null
+      },
+      "notes": "2022 term ended. Re-elected 2024 and 2026 (Ballotpedia); not separately endorsed. Senate term rule text not retrieved from an official page; the House rule is cited and the Senate dates match Ballotpedia ('assumed office on December 6, 2022'). Endorsement date not shown on the directory page, so stage set to general. Result source is Ballotpedia (SOS 403). Term rule: Maine Constitution Art. IV, Part First, Sec. 2 as quoted on the legislature page (term runs 2 years from the day before the first Wednesday in December after the general election). term_start computed from that rule (first Wednesday in December: 2022-12-07, 2024-12-04, 2026-12-02); term_end computed as the day before the successor term starts. Matches Ballotpedia profile dates."
+    },
+    {
+      "person": "Danielle Fienberg",
+      "office": "upper",
+      "district": "2",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2022/",
+        "excerpt": "Danielle Fienberg Maine Senate, District 2 , ME Danielle lives in Presque Isle with her husband"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Danielle_Fienberg",
+        "excerpt": "Incumbent Harold Stewart (R) defeated Danielle A. Fienberg (D) in the general election for Maine State Senate District 2 on November 8, 2022."
+      },
+      "current": null,
+      "notes": "Replaced a withdrawn nominee on 2022-07-25 per Wikipedia citing the SOS; endorsement date unknown, stage set to general. Endorsement date not shown on the directory page, so stage set to general."
+    },
+    {
+      "person": "Eleanor (Ellie) Sato",
+      "office": "lower",
+      "district": "109",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2024/",
+        "excerpt": "Ellie Sato State Representative, District 109, Gorham , ME Ellie is a dedicated professional with a background in dance and hospitality"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Eleanor_Sato",
+        "excerpt": "Eleanor Sato (D) defeated Alan Livingston (R) in the general election for Maine House of Representatives District 109 on November 5, 2024."
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-12-03",
+        "term_end": "2026-11-30",
+        "service_source": {
+          "url": "https://legislature.maine.gov/house/house/MemberProfiles/QualificationsForOffice",
+          "excerpt": "hold their office 2 years from the day next preceding the first Wednesday in December following the general election"
+        },
+        "contact_url": "https://legislature.maine.gov/house/MemberProfiles/Details/3134"
+      },
+      "notes": "Directory says Ellie Sato; Ballotpedia and ballot use Eleanor Sato. Matched on district 109 and Gorham. Not running for re-election; lost 2026 Senate primary (Ballotpedia). Term ends before the 2026 term starts. Endorsement date not shown on the directory page, so stage set to general. Result source is Ballotpedia (SOS 403). Term rule: Maine Constitution Art. IV, Part First, Sec. 2 as quoted on the legislature page (term runs 2 years from the day before the first Wednesday in December after the general election). term_start computed from that rule (first Wednesday in December: 2022-12-07, 2024-12-04, 2026-12-02); term_end computed as the day before the successor term starts. Matches Ballotpedia profile dates."
+    },
+    {
+      "person": "Kiernan Majerus-Collins",
+      "office": "lower",
+      "district": "95",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2026/",
+        "excerpt": "Kiernan Majerus-Collins State Representative, District 95 , ME Kiernan Majerus-Collins is an immigration and civil rights lawyer in Lewiston."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Kiernan_Majerus-Collins",
+        "excerpt": "Kiernan Majerus-Collins (D) defeated Bret Martel (R) in the general election for Maine House of Representatives District 95 on November 3, 2026."
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2026-12-01",
+        "term_end": "2028-12-04",
+        "service_source": {
+          "url": "https://legislature.maine.gov/house/house/MemberProfiles/QualificationsForOffice",
+          "excerpt": "hold their office 2 years from the day next preceding the first Wednesday in December following the general election"
+        },
+        "contact_url": "https://legislature.maine.gov/house/house/MemberProfiles"
+      },
+      "notes": "New member, no profile page yet; contact_url is the House member directory. RFS release dated 2026-02-17 (saved research notes), before the 2026-06-09 primary, so stage is primary. Result is unofficial per Ballotpedia ('Vote totals may change until results are certified'); SOS 403. Term rule: Maine Constitution Art. IV, Part First, Sec. 2 as quoted on the legislature page (term runs 2 years from the day before the first Wednesday in December after the general election). term_start computed from that rule (first Wednesday in December: 2022-12-07, 2024-12-04, 2026-12-02); term_end computed as the day before the successor term starts. Matches Ballotpedia profile dates."
+    },
+    {
+      "person": "Kiernan Majerus-Collins",
+      "office": "lower",
+      "district": "95",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/kiernan-majerus-collins-for-maine-house-hd-95/",
+        "excerpt": "Our Revolution is proud to endorse Kiernan Majerus-Collins for Maine House of Representatives, District 95"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Kiernan_Majerus-Collins",
+        "excerpt": "Kiernan Majerus-Collins (D) defeated Bret Martel (R) in the general election for Maine House of Representatives District 95 on November 3, 2026."
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2026-12-01",
+        "term_end": "2028-12-04",
+        "service_source": {
+          "url": "https://legislature.maine.gov/house/house/MemberProfiles/QualificationsForOffice",
+          "excerpt": "hold their office 2 years from the day next preceding the first Wednesday in December following the general election"
+        },
+        "contact_url": "https://legislature.maine.gov/house/house/MemberProfiles"
+      },
+      "notes": "New member, no profile page yet; contact_url is the House member directory. Page published 2026-05-01 per its page metadata (before the 2026-06-09 primary), so stage is primary. Result is unofficial (Ballotpedia, SOS 403). Term rule: Maine Constitution Art. IV, Part First, Sec. 2 as quoted on the legislature page (term runs 2 years from the day before the first Wednesday in December after the general election). term_start computed from that rule (first Wednesday in December: 2022-12-07, 2024-12-04, 2026-12-02); term_end computed as the day before the successor term starts. Matches Ballotpedia profile dates."
+    },
+    {
+      "person": "Laurie Osher",
+      "office": "lower",
+      "district": "25",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/laurie-osher-and-cheryl-golek-for-maine-state-house/",
+        "excerpt": "Our Revolution is proud to endorse two progressive champions for the Maine State House: Laurie Osher in House District 25 and Cheryl Golek in House District 99."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Laurie_Osher",
+        "excerpt": "Incumbent Laurie Osher (D) defeated Anthony Weaver (R) in the general election for Maine House of Representatives District 25 on November 3, 2026."
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2026-12-01",
+        "term_end": "2028-12-04",
+        "service_source": {
+          "url": "https://legislature.maine.gov/house/house/MemberProfiles/QualificationsForOffice",
+          "excerpt": "hold their office 2 years from the day next preceding the first Wednesday in December following the general election"
+        },
+        "contact_url": "https://legislature.maine.gov/house/MemberProfiles/Details/1436"
+      },
+      "notes": "Incumbent, re-elected; contact_url is the member's current legislature profile. Page published 2026-09-03 per its page metadata (after the 2026-06-09 primary), so stage is general. This entry covers the 2026 term only. Result is unofficial (Ballotpedia, SOS 403). Term rule: Maine Constitution Art. IV, Part First, Sec. 2 as quoted on the legislature page (term runs 2 years from the day before the first Wednesday in December after the general election). term_start computed from that rule (first Wednesday in December: 2022-12-07, 2024-12-04, 2026-12-02); term_end computed as the day before the successor term starts. Matches Ballotpedia profile dates."
+    },
+    {
+      "person": "Cheryl Golek",
+      "office": "lower",
+      "district": "99",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/laurie-osher-and-cheryl-golek-for-maine-state-house/",
+        "excerpt": "Our Revolution is proud to endorse two progressive champions for the Maine State House: Laurie Osher in House District 25 and Cheryl Golek in House District 99."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Cheryl_Golek",
+        "excerpt": "Incumbent Cheryl Golek (D) defeated Braeden Webber (R) in the general election for Maine House of Representatives District 99 on November 3, 2026."
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2026-12-01",
+        "term_end": "2028-12-04",
+        "service_source": {
+          "url": "https://legislature.maine.gov/house/house/MemberProfiles/QualificationsForOffice",
+          "excerpt": "hold their office 2 years from the day next preceding the first Wednesday in December following the general election"
+        },
+        "contact_url": "https://legislature.maine.gov/house/MemberProfiles/Details/1494"
+      },
+      "notes": "Incumbent, re-elected; contact_url is the member's current legislature profile. Page published 2026-09-03 per its page metadata (after the 2026-06-09 primary), so stage is general. This entry covers the 2026 term only. Result is unofficial (Ballotpedia, SOS 403). Term rule: Maine Constitution Art. IV, Part First, Sec. 2 as quoted on the legislature page (term runs 2 years from the day before the first Wednesday in December after the general election). term_start computed from that rule (first Wednesday in December: 2022-12-07, 2024-12-04, 2026-12-02); term_end computed as the day before the successor term starts. Matches Ballotpedia profile dates."
+    },
+    {
+      "person": "Lucy Perkins",
+      "office": "lower",
+      "district": "121",
+      "issuer": "Maine Democratic Socialists of America",
+      "group": "dsa",
+      "issuer_source": "https://www.mainedsa.org/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://www.mainedsa.org/endorsements/",
+        "excerpt": "Lucy Perkins - 2026 Maine State House - District 121 (South Portland and Cape Elizabeth)"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Lucy_Perkins",
+        "excerpt": "Lucy Perkins (D) defeated Meagan Smith (R) in the general election for Maine House of Representatives District 121 on November 3, 2026."
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2026-12-01",
+        "term_end": "2028-12-04",
+        "service_source": {
+          "url": "https://legislature.maine.gov/house/house/MemberProfiles/QualificationsForOffice",
+          "excerpt": "hold their office 2 years from the day next preceding the first Wednesday in December following the general election"
+        },
+        "contact_url": "https://legislature.maine.gov/house/house/MemberProfiles"
+      },
+      "notes": "New member, no profile page yet; contact_url is the House member directory. Endorsement date not shown on the chapter page, so stage set to general. Chapter page lists the name, office and year only. Result is unofficial (Ballotpedia, SOS 403). Term rule: Maine Constitution Art. IV, Part First, Sec. 2 as quoted on the legislature page (term runs 2 years from the day before the first Wednesday in December after the general election). term_start computed from that rule (first Wednesday in December: 2022-12-07, 2024-12-04, 2026-12-02); term_end computed as the day before the successor term starts. Matches Ballotpedia profile dates."
+    },
+    {
+      "person": "Troy Jackson",
+      "office": "governor",
+      "district": null,
+      "issuer": "Maine Democratic Socialists of America",
+      "group": "dsa",
+      "issuer_source": "https://www.mainedsa.org/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://bsky.app/profile/mainedsa.org/post/3mlgc3yloxs2s",
+        "excerpt": "We’re proud to endorse Troy Jackson for Governor, an active union member who represents the working class."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Troy_Jackson",
+        "excerpt": "The following candidates advanced from the Democratic ranked-choice voting primary for Governor of Maine on June 9, 2026: Hannah Pingree in round 4."
+      },
+      "current": null,
+      "notes": "Post dated 2026-05-09 (primary 2026-06-09). Final RCV round 4 result: Pingree nominated. Jackson later became the Democratic US Senate nominee; that office is out of scope. Result source is Ballotpedia (SOS 403)."
+    }
+  ],
+  "coverage": [
+    {
+      "group": "wfp",
+      "status": "blocked",
+      "checked": [
+        "https://workingfamilies.org/candidates/",
+        "https://workingfamilies.org/states/",
+        "https://workingfamilies.org/state/maine/"
+      ],
+      "note": "Current national candidates page lists Maine only for Troy Jackson (US Senate, out of scope); /state/maine/ is 404. No 2022 or 2024 archive and no 2022 or 2026 governor endorsement page was found, so those cycles are unchecked. Web search found only Platner (US Senate, 2026) and 2018 governor endorsements."
+    },
+    {
+      "group": "or",
+      "status": "blocked",
+      "checked": [
+        "https://ourrevolution.com/category/me/",
+        "https://ourrevolution.com/category/endorsement/",
+        "https://ourrevolution.com/category/past-endorsement/",
+        "https://ourrevolution.com/our-champions/"
+      ],
+      "note": "The ME category holds only 2026 items (three legislative; Dunlap ME-02 and Jackson US Senate are out of scope), so no 2022 or 2024 Maine entries and no governor entry were found. Local Our Revolution groups in Maine were not enumerated."
+    },
+    {
+      "group": "dsa",
+      "status": "blocked",
+      "checked": [
+        "https://www.mainedsa.org/",
+        "https://www.mainedsa.org/endorsements/",
+        "https://bsky.app/profile/mainedsa.org/post/3mlgc3yloxs2s"
+      ],
+      "note": "Maine DSA is the only Maine chapter. Its endorsements page lists only 2024 to 2026 items (none for the legislature before 2026). 2022 and earlier-cycle legislative and governor endorsements unchecked: electoral.dsausa.org past-endorsements returned 403."
+    },
+    {
+      "group": "rfs",
+      "status": "blocked",
+      "checked": [
+        "https://directory.runforsomething.net/candidates/2022/",
+        "https://directory.runforsomething.net/candidates/2024/",
+        "https://directory.runforsomething.net/candidates/2026/"
+      ],
+      "note": "Static directory pages show five Maine cards but may be partial (saved notes: RFS 2026 count unreconciled, name variants and release-only candidacies unreviewed). RFS does not endorse governors. Special elections not checked."
+    },
+    {
+      "group": "pccc",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://www.boldprogressives.org/candidates/our-endorsements-2022/",
+        "https://www.boldprogressives.org/candidates/our-endorsements-2024/",
+        "https://www.boldprogressives.org/candidates/our-endorsements-2026/",
+        "https://www.boldprogressives.org/2022-champions/",
+        "https://www.boldprogressives.org/2020-champions/"
+      ],
+      "note": "2022, 2024 and 2026 endorsement pages and the 2022 champions list show no Maine state-office entries (only Troy Jackson, US Senate 2026, out of scope). The 2020 champion Thomas Harnett (HD83) is out of scope and a champions list alone is not an endorsement. Web search found no PCCC governor endorsement."
+    },
+    {
+      "group": "sunrise",
+      "status": "blocked",
+      "checked": [
+        "https://www.sunrisemovement.org/hubs/",
+        "https://instagram.com/sunrisemvmtfranklincounty"
+      ],
+      "note": "Saved notes show one Maine hub (Franklin County) with only an Instagram presence, which is inaccessible. No national Sunrise endorsement list was checked for any cycle, nor was any governor endorsement."
+    }
+  ],
+  "gaps": [
+    "Maine SOS pages blocked (HTTP 403 to automated fetch): https://www.maine.gov/sos/cec/elec/results/index.html, https://www.maine.gov/sos/cec/elec/results/results22.html, https://www.maine.gov/sos/cec/elec/results/results26.html. The 2024 results page was not requested. All results therefore cite Ballotpedia; 2026 figures are unofficial and uncertified.",
+    "Senate term rule text (Art. IV, Part Second) not retrieved from an official page; Senate dates for Reny rely on the House rule plus Ballotpedia.",
+    "contact_url: Sato, Osher and Golek use their legislature.maine.gov profile pages. Majerus-Collins (two entries) and Perkins are not yet on the roster, so they use the House member directory (https://legislature.maine.gov/house/house/MemberProfiles). The roster still lists the 131st Legislature (e.g. HD121 Christopher Kessler), so service for the 2026 term rests on the constitutional rule only.",
+    "Endorsement dates unknown for RFS 2022 and 2024 cards and for Lucy Perkins (DSA); stage set to general.",
+    "Governor 2022 and 2026: no endorsement found beyond DSA for Jackson, but WFP and Sunrise sources for those cycles were not available (see coverage). Web searches found no OR, PCCC, Sunrise or WFP governor endorsement.",
+    "Special elections since 2022 were not checked for any group.",
+    "Maine DSA Bluesky post is a JS page; excerpt depends on server-rendered text."
+  ]
+}
