@@ -359,7 +359,9 @@ p {
   :root { --header-h: 4.5rem; }
   .site-header { padding-block: var(--s-2); }
   .nav-link { font-size: 0.95rem; }
-  .member-search { order: 1; margin-left: auto; }
+  .member-search { --bar: calc(100vw - 2 * var(--gutter)); order: 1; margin-left: auto; }
+  /* The open bar spans the title row; hide the title so no sliver shows. */
+  .site-header:has(.member-search.open) .site-title { visibility: hidden; }
   .site-header nav { order: 2; flex-basis: 100%; margin-left: 0; }
   .hero-id { width: auto; min-width: 0; }
   .hero-card { flex-direction: column; align-items: flex-start; margin-top: var(--s-3); }
