@@ -12,7 +12,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/member/[id]">) {
   const m = getMember((await params).id);
-  return { title: m ? `${m.name} · Progressive Bloc` : "Not found" };
+  return { title: m ? m.name : "Not found" };
 }
 
 // Every real path is prerendered, so blocking costs nothing. proxy.ts 404s unknown ids.

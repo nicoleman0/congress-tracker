@@ -1,7 +1,7 @@
 import { MemberList } from "@/components/ui";
 import { toWatch } from "@/lib/data";
 
-export const metadata = { title: "Races to watch · Progressive Bloc" };
+export const metadata = { title: "Races to watch" };
 
 export default function Watch() {
   const races = toWatch();

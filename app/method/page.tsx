@@ -1,6 +1,6 @@
 import { groupList } from "@/lib/data";
 
-export const metadata = { title: "How we pick · Progressive Bloc" };
+export const metadata = { title: "How we pick" };
 
 export default function Method() {
   return (

@@ -1,13 +1,14 @@
 import { cacheLife } from "next/cache";
 import type { Member } from "@/lib/data";
 import { aboutMember, newsUrl, parseRss, type Headline } from "@/lib/news";
+import { USER_AGENT } from "@/lib/site";
 
 type News = { headlines: Headline[] } | { error: string };
 
 async function getNews(m: Member): Promise<News> {
   "use cache";
   try {
-    const res = await fetch(newsUrl(m), { headers: { "user-agent": "Mozilla/5.0 (congress-tracker news)" } });
+    const res = await fetch(newsUrl(m), { headers: { "user-agent": USER_AGENT } });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const headlines = aboutMember(m, parseRss(await res.text()));
     cacheLife("hours");

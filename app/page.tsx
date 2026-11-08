@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { MemberList } from "@/components/ui";
 import { allMembers, lastChecked, membersIn, newClass } from "@/lib/data";
+import { SITE_NAME } from "@/lib/site";
 import { STATES } from "@/lib/states";
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
     <>
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-id">
-          <h1 id="hero-title" className="hero-title hero-title--display">Progressive<br />Bloc</h1>
+          <h1 id="hero-title" className="hero-title hero-title--display">{SITE_NAME}</h1>
           <div className="hero-card">
             <p className="hero-role">The progressives in Congress</p>
             <p className="hero-detail">{total} listed · checked {lastChecked}</p>

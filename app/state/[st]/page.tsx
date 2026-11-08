@@ -11,7 +11,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/state/[st]">) {
   const state = getState((await params).st.toUpperCase());
-  return { title: state ? `${state.name} · Progressive Bloc` : "Not found" };
+  return { title: state ? state.name : "Not found" };
 }
 
 function NoProgressive({ what }: { what: string }) {

@@ -5,10 +5,11 @@ import "@fontsource-variable/funnel-display";
 import "@fontsource-variable/funnel-sans";
 import { NavLinks } from "@/components/NavLinks";
 import { lastChecked } from "@/lib/data";
+import { REPO_URL, SITE_NAME } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Progressive Bloc",
+  title: { default: SITE_NAME, template: `%s · ${SITE_NAME}` },
   description: "Who the progressives in Congress are, how to back them, and where to plug in locally.",
 };
 
@@ -26,7 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <a className="skip-link" href="#main">Skip to content</a>
         <header className="site-header">
-          <Link href="/" className="site-title">Progressive Bloc</Link>
+          <Link href="/" className="site-title">{SITE_NAME}</Link>
           <nav aria-label="Main">
             <NavLinks links={NAV} />
           </nav>
@@ -39,7 +40,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <p>Last checked {lastChecked}.</p>
             <nav className="footer-links" aria-label="Site">
               <Link href="/method">method and sources</Link>
-              <a href="https://github.com/nicoleman0/congress-tracker">source code</a>
+              <a href={REPO_URL}>source code</a>
             </nav>
           </div>
         </footer>
