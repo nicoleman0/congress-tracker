@@ -45,18 +45,17 @@ export function decide(m: Member, races: Race[]): Decision {
   const me = race.candidates.find((c) => matches(m, c))!;
   const ranked = [...race.candidates].sort((a, b) => b.percentVote - a.percentVote);
   const rival = ranked.find((c) => c !== me);
-  const tally = rival
-    ? `${me.percentVote}% to ${rival.name}'s ${rival.percentVote}%, with ${race.percentIn}% of expected votes in.`
-    : "Unopposed.";
   const winner = race.candidates.find((c) => c.isWinner);
+  // Called races state the result. Vote shares are left out: they're a mid-count snapshot that is never rechecked.
   if (race.callStatusCode && winner) {
-    return winner === me
-      ? { status: "won", note: `NBC News projects ${m.name} the winner. ${tally}` }
-      : { status: "lost", note: `NBC News projects ${winner.name} the winner. ${tally}` };
+    if (winner !== me) return { status: "lost", note: `Lost to ${winner.name}.` };
+    return { status: "won", note: rival ? `Beat ${rival.name}.` : "Ran unopposed." };
   }
+  if (!rival) return { status: "leading", note: "Unopposed, not yet called." };
+  const tally = `${me.percentVote}% to ${rival.percentVote}%, with ${race.percentIn}% of the vote counted.`;
   return ranked[0] === me
-    ? { status: "leading", note: `Leading, no projection yet. ${tally}` }
-    : { status: "pending", note: `Trailing, no projection yet. ${tally}` };
+    ? { status: "leading", note: `Leads ${rival.name}, ${tally}` }
+    : { status: "pending", note: `Trails ${rival.name}, ${tally}` };
 }
 
 async function main() {

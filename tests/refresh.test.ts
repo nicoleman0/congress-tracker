@@ -15,19 +15,20 @@ const race = (call: string, cands: [string, number, boolean][]): Race => ({
 
 test("projected winner becomes won", () => {
   const d = decide(member({}), [race("P", [["Cait Conley", 53, true], ["Mike Lawler", 46.9, false]])]);
-  assert.equal("status" in d && d.status, "won");
+  assert.deepEqual(d, { status: "won", note: "Beat Mike Lawler." });
 });
 
 test("another projected winner means lost", () => {
   const d = decide(member({ name: "Justin J. Pearson" }), [race("P", [["Brent Taylor", 49.6, true], ["Justin Pearson", 48.5, false]])]);
-  assert.equal("status" in d && d.status, "lost");
+  assert.deepEqual(d, { status: "lost", note: "Lost to Brent Taylor." });
 });
 
 test("no call: ahead is leading, behind is pending", () => {
   const r = [race("", [["Cait Conley", 51, false], ["Mike Lawler", 49, false]])];
   assert.equal(("status" in decide(member({}), r)) && (decide(member({}), r) as { status: string }).status, "leading");
+  assert.deepEqual(decide(member({}), r), { status: "leading", note: "Leads Mike Lawler, 51% to 49%, with 95% of the vote counted." });
   const r2 = [race("", [["Mike Lawler", 51, false], ["Cait Conley", 49, false]])];
-  assert.equal((decide(member({}), r2) as { status: string }).status, "pending");
+  assert.deepEqual(decide(member({}), r2), { status: "pending", note: "Trails Mike Lawler, 49% to 51%, with 95% of the vote counted." });
 });
 
 test("name suffixes and accents still match; wrong person is an error", () => {
@@ -47,5 +48,5 @@ test("multi-word last names match and unopposed races don't crash", () => {
   const r: Race = { officeCode: "H", callStatusCode: "P", percentIn: 90,
     candidates: [{ name: "Darializa Avila Chevalier", lastName: "Avila Chevalier", percentVote: 100, isWinner: true }] };
   const d = decide(member({ name: "Darializa Avila Chevalier" }), [r]);
-  assert.deepEqual(d, { status: "won", note: "NBC News projects Darializa Avila Chevalier the winner. Unopposed." });
+  assert.deepEqual(d, { status: "won", note: "Ran unopposed." });
 });
