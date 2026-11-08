@@ -56,6 +56,7 @@ export function shapeProblems(r: Research, today = new Date().toISOString().slic
     const expected = end && end <= today ? "not_serving" : start && start <= today ? "serving" : start ? "incoming" : null;
     add(expected && e.current.status !== "unknown" && e.current.status !== expected, `${at}: status ${e.current.status} contradicts term ${start} to ${end}`);
     add(e.current.contact_url !== null && !/^https:\/\//.test(e.current.contact_url ?? ""), `${at}: contact_url must be https`);
+    add(["serving", "incoming"].includes(e.current.status) && !e.current.contact_url, `${at}: contact_url required for a listed term`);
   });
   const groups = r.coverage.map((c) => c.group).sort();
   add(groups.join() !== [...GROUPS].sort().join(), "coverage needs exactly one row per group");

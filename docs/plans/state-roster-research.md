@@ -76,6 +76,9 @@ Include endorsees who lost. Every discovered endorsement must appear, so the rev
 - **`term_start` and `term_end`:** take these from an official source, such as a roster or the state's term rules in its constitution or statute. Cite it in `service_source` or `notes`. Compute `term_end` from the term length when no roster gives it.
 - **`election.stage`:** the stage the endorsement was announced for. Announced before that cycle's primary means `primary`; after it, `general`. If the date is unknown, use `general` and say so in `notes`. `outcome` is always the final result for the seat in that cycle.
 - **No election named:** an endorsement that names no election (for example "our endorsed legislators") is not an entry. List it in `gaps`.
+- **`contact_url`:** required for every `serving` or `incoming` entry, because the site won't list anyone without one. Use the member's official legislature or governor page. For a new member with no page yet, use the chamber's member directory and say so in `notes`.
+- **Results sources:** use official state results. Only when an official source blocks automated access or renders no text, cite Ballotpedia or reliable reporting, and record the blocked official URL in `gaps`.
+- **Coverage rows:** `complete_*` means every in-scope cycle (2022 to 2026, governor included) was checked for that group. If any cycle or chapter wasn't checked, the status is `blocked` and the note names what's missing.
 - **Run for Something:** a card in its endorsed-candidate directory counts as its endorsement. Use the card's text naming the person as the excerpt.
 - **`coverage`:** give exactly one row per group, six in all.
   - `complete_*` means you checked the group's available sources for this state.

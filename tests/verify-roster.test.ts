@@ -8,7 +8,7 @@ const good = () => ({
   endorsements: [{
     person: "Test Person", office: "lower", district: "12", issuer: "Test WFP", group: "wfp", issuer_source: null,
     election: { year: 2024, stage: "general" }, source: cite, withdrawn: false, outcome: "won", result_source: cite,
-    current: { status: "serving", term_start: "2024-11-06", term_end: "2026-11-04", service_source: cite, contact_url: null }, notes: "",
+    current: { status: "serving", term_start: "2024-11-06", term_end: "2026-11-04", service_source: cite, contact_url: "https://example.org/" as string | null }, notes: "",
   }],
   coverage: ["wfp", "or", "dsa", "rfs", "pccc", "sunrise"].map((group) => ({ group, status: group === "wfp" ? "complete_with_entries" : "complete_no_entries", checked: [], note: "checked" })),
 });
@@ -19,6 +19,12 @@ test("a well-formed research file has no shape problems", () => {
 
 test("serving status must match the term dates", () => {
   assert.ok(shapeProblems(good(), "2027-01-01").some((p) => /status serving contradicts term/.test(p)));
+});
+
+test("a listed term needs a contact link", () => {
+  const r = good();
+  r.endorsements[0].current.contact_url = null;
+  assert.ok(shapeProblems(r, "2025-06-01").some((p) => /contact_url required/.test(p)));
 });
 
 test("research shape catches unsourced wins and contradictory coverage", () => {
