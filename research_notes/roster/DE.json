@@ -452,9 +452,9 @@
           "url": "https://legis.delaware.gov/Chambers/House/District",
           "excerpt": "District 2: Michelle H. Booker (D)"
         },
-        "contact_url": null
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
       },
-      "notes": "Primary 2026-09-15: Booker 943 to incumbent Stephanie T. Bolden 876. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. New member; legislature profile page (personId 25079) returns an error, so no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general."
+      "notes": "Primary 2026-09-15: Booker 943 to incumbent Stephanie T. Bolden 876. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. New member; legislature profile page (personId 25079) returns an error, so no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general. contact_url is the chamber district listing page because the member profile page errors."
     },
     {
       "person": "Branden Fletcher-Dominguez",
@@ -485,9 +485,9 @@
           "url": "https://legis.delaware.gov/Chambers/House/District",
           "excerpt": "District 3: Branden Fletcher-Dominguez (D)"
         },
-        "contact_url": null
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
       },
-      "notes": "Primary 2026-09-15: plurality 875 of 2,026 (43.19%) in a four-way race. General: 4,360 votes (82.14%) over Shawn L. Dottery and Dexter Bland. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Withdrew from the 2024 race (separate entry). Profile page (personId 25080) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general."
+      "notes": "Primary 2026-09-15: plurality 875 of 2,026 (43.19%) in a four-way race. General: 4,360 votes (82.14%) over Shawn L. Dottery and Dexter Bland. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Withdrew from the 2024 race (separate entry). Profile page (personId 25080) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general. contact_url is the chamber district listing page because the member profile page errors."
     },
     {
       "person": "Rae Krantz",
@@ -650,9 +650,9 @@
           "url": "https://legis.delaware.gov/Chambers/House/District",
           "excerpt": "District 16: Pamela Salaam (D)"
         },
-        "contact_url": null
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
       },
-      "notes": "Primary 2026-09-15: Salaam 1,348 to incumbent Franklin D. Cooke Jr. 1,001. General: 6,018 to Enala A. Mwashitete 1,073. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Profile page (personId 25084) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary. Also listed on the WFP candidates page."
+      "notes": "Primary 2026-09-15: Salaam 1,348 to incumbent Franklin D. Cooke Jr. 1,001. General: 6,018 to Enala A. Mwashitete 1,073. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Profile page (personId 25084) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary. Also listed on the WFP candidates page. contact_url is the chamber district listing page because the member profile page errors."
     },
     {
       "person": "Sophie Phillips",
@@ -782,9 +782,9 @@
           "url": "https://legis.delaware.gov/Chambers/House/District",
           "excerpt": "District 28: Tyeisha Grier (D)"
         },
-        "contact_url": null
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
       },
-      "notes": "Source is WHYY listing her under \"Working Families Party September primary winners\"; the WFP candidates page row (behind View More) also lists her as \"Tyeisha Grier State Representative, District 28\". Primary 2026-09-15: Grier 1,085 to incumbent William Carson Jr. 957. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Profile page (personId 25086) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general."
+      "notes": "Source is WHYY listing her under \"Working Families Party September primary winners\"; the WFP candidates page row (behind View More) also lists her as \"Tyeisha Grier State Representative, District 28\". Primary 2026-09-15: Grier 1,085 to incumbent William Carson Jr. 957. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Profile page (personId 25086) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general. contact_url is the chamber district listing page because the member profile page errors."
     },
     {
       "person": "Shay Frisby",
@@ -815,9 +815,9 @@
           "url": "https://legis.delaware.gov/Chambers/Senate/SenateDistrict",
           "excerpt": "District 5: Shay Frisby (D)"
         },
-        "contact_url": null
+        "contact_url": "https://legis.delaware.gov/Chambers/Senate/SenateDistrict"
       },
-      "notes": "Primary 2026-09-15: Frisby 3,059 to incumbent Ray Seigfried 2,181. General: 12,275 (68.6%) over Brent Burdge and Carolyn Frank. Also endorsed by Delaware DSA (separate entry). 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Four-year Senate term. Profile page (personId 25077) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (Senate 4 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Senate seat on the 2026 ballot again in 2030 assumed from 4-year term. Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary."
+      "notes": "Primary 2026-09-15: Frisby 3,059 to incumbent Ray Seigfried 2,181. General: 12,275 (68.6%) over Brent Burdge and Carolyn Frank. Also endorsed by Delaware DSA (separate entry). 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Four-year Senate term. Profile page (personId 25077) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (Senate 4 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Senate seat on the 2026 ballot again in 2030 assumed from 4-year term. Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary. contact_url is the chamber district listing page because the member profile page errors."
     },
     {
       "person": "Shané Darby",
@@ -1181,9 +1181,9 @@
           "url": "https://legis.delaware.gov/Chambers/Senate/SenateDistrict",
           "excerpt": "District 5: Shay Frisby (D)"
         },
-        "contact_url": null
+        "contact_url": "https://legis.delaware.gov/Chambers/Senate/SenateDistrict"
       },
-      "notes": "Post dated 2026-11-03. Earlier DSA primary-stage endorsement not found. Also WFP-endorsed (separate entry). 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (Senate 4 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Senate seat on the 2026 ballot again in 2030 assumed from 4-year term. Stage: post dated 2026-11-03, after the primary."
+      "notes": "Post dated 2026-11-03. Earlier DSA primary-stage endorsement not found. Also WFP-endorsed (separate entry). 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (Senate 4 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Senate seat on the 2026 ballot again in 2030 assumed from 4-year term. Stage: post dated 2026-11-03, after the primary. contact_url is the chamber district listing page because the member profile page errors."
     },
     {
       "person": "Branden Fletcher-Dominguez",
@@ -1214,15 +1214,15 @@
           "url": "https://legis.delaware.gov/Chambers/House/District",
           "excerpt": "District 3: Branden Fletcher-Dominguez (D)"
         },
-        "contact_url": null
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
       },
-      "notes": "Post dated 2026-11-03. Earlier DSA primary-stage endorsement not found. Also WFP-endorsed (separate entry). 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: post dated 2026-11-03, after the primary."
+      "notes": "Post dated 2026-11-03. Earlier DSA primary-stage endorsement not found. Also WFP-endorsed (separate entry). 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: post dated 2026-11-03, after the primary. contact_url is the chamber district listing page because the member profile page errors."
     }
   ],
   "coverage": [
     {
       "group": "wfp",
-      "status": "complete_with_entries",
+      "status": "blocked",
       "checked": [
         "https://workingfamilies.org/state/delaware/",
         "https://workingfamilies.org/candidates/",
@@ -1233,27 +1233,27 @@
         "https://whyy.org/articles/delaware-election-2026-wfp-candidates/",
         "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html"
       ],
-      "note": "State page, candidates page (13 DE rows incl. 3 behind View More via admin-ajax), 2022 primary recap, 2024 slate (Delaware News Journal via Yahoo) and 2026 slate release read. No full 2022 general slate or 2025 special-election endorsement list found. 2020 endorsements (Pinkney, Lambert, Moore, Morrison, Wilson-Anton) skipped as out of scope."
+      "note": "Unchecked: the full 2022 WFP slate (only candidates named in a Sept 2022 recap and a later summary were found), and any WFP endorsements in the 2025-02-15 SD1 and SD5 special elections. Read: state page, candidates page (incl. rows behind View More), 2022 recap, 2024 slate, 2026 slate release. 2020 endorsements skipped as out of scope."
     },
     {
       "group": "or",
-      "status": "complete_no_entries",
+      "status": "blocked",
       "checked": [
         "https://ourrevolution.com/our-champions/",
         "https://ourrevolution.com/category/past-endorsement/"
       ],
-      "note": "No Delaware entry on either page. No Delaware chapter page found (saved evidence: /groups/ returns 404). Absence on these pages is not proof of no endorsements."
+      "note": "Unchecked: Delaware chapter pages (saved evidence: /groups/ returns 404, no chapter page found) and a per-cycle 2022 to 2026 endorsement archive. Read: https://ourrevolution.com/our-champions/ and the past-endorsement category page; neither lists Delaware."
     },
     {
       "group": "dsa",
-      "status": "complete_with_entries",
+      "status": "blocked",
       "checked": [
         "https://dedsa.org",
         "https://bsky.app/profile/delawaredsa.bsky.social",
         "https://linktr.ee/delawaredsa",
         "https://electoral.dsausa.org/our-campaigns/past-endorsements/"
       ],
-      "note": "dedsa.org and the national Airtable/past-endorsements pages render no text. Entries come from the chapter Bluesky feed (all posts and replies read, 205 items back to 2023-11-05); the saved Airtable extract lists Wilson-Anton as Endorsed 2024. Lambert (HD7) and Pinkney (SD13) are named as endorsed non-members in a 2025-01-03 post with no election given, so they are not recorded (format needs a year and stage). Municipal endorsees (Darby, Owens, Hoover, Theodoropoulos) excluded as out of scope. Primary-stage 2026 DSA endorsements not found."
+      "note": "Unchecked: dedsa.org and the DSA national Airtable/past-endorsements pages render no text, so the full 2022 to 2026 endorsement list could not be read. Entries come from the chapter Bluesky feed (205 items back to 2023-11-05) plus a saved Airtable extract for Wilson-Anton 2024. No 2022 or 2026 primary-stage DSA endorsements found. Lambert and Pinkney are named as endorsed with no election, so they are in gaps, not entries."
     },
     {
       "group": "rfs",
@@ -1267,13 +1267,13 @@
     },
     {
       "group": "pccc",
-      "status": "complete_no_entries",
+      "status": "blocked",
       "checked": [
         "https://www.boldprogressives.org/2022-champions/",
         "https://www.boldprogressives.org/candidates/our-endorsements-2026/",
         "https://www.boldprogressives.org/2024-champions/"
       ],
-      "note": "2022 champions list includes Kyra Hoffner (SD-14); a champions list alone is not an endorsement per the brief, so not recorded. 2026 endorsements page has no Delaware row. 2024 champions page returned no text."
+      "note": "Unchecked: the 2024 champions page returned no text, so 2024 could not be checked. Read: 2022 champions list (Kyra Hoffner, SD-14, a champions list only, not an endorsement) and the 2026 endorsements page (no Delaware row)."
     },
     {
       "group": "sunrise",
