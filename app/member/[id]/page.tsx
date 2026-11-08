@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { MemberNews } from "@/components/MemberNews";
 import { ActionList, STATUS_TEXT } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, campaignAction } from "@/lib/actions";
-import { allMembers, getGroup, getMember, getState, seatLabel } from "@/lib/data";
+import { allMembers, getGroup, getMember, getState, platformOf, seatLabel } from "@/lib/data";
 
 export function generateStaticParams() {
   return allMembers().map((m) => ({ id: m.id }));
@@ -23,6 +23,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
   if (!m) notFound();
   const state = getState(m.state)!;
   const campaign = campaignAction(m);
+  const platform = platformOf(m.id);
 
   return (
     <>
@@ -80,7 +81,25 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
 
       <section className="section" aria-labelledby="record-title">
         <h2 id="record-title">Platform and record</h2>
-        <p className="note">Platform positions coming soon.</p>
+        {platform.length === 0 ? (
+          <p className="note">No sourced positions yet.</p>
+        ) : (
+          <dl className="platform">
+            {platform.map((g) => (
+              <div key={g.issue} className="platform-issue">
+                <dt>{g.name}</dt>
+                {g.stances.map((s) => (
+                  <dd key={s.source.url + s.text}>
+                    {s.kind === "congress" && <span className="chip chip--record">Record</span>} {s.text}{" "}
+                    <a href={s.source.url} target="_blank" rel="noopener noreferrer" className="platform-source">
+                      {s.source.label} ↗
+                    </a>
+                  </dd>
+                ))}
+              </div>
+            ))}
+          </dl>
+        )}
       </section>
     </>
   );

@@ -1,0 +1,3303 @@
+{
+  "issues": {
+    "healthcare": "Health care",
+    "gaza": "Gaza and arms to Israel",
+    "climate": "Climate",
+    "housing": "Housing",
+    "labor": "Labor",
+    "immigration": "Immigration",
+    "money": "Money in politics"
+  },
+  "stances": {
+    "ca-14-wahab": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nj-11-mejia": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "az-3-ansari": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "az-7-grijalva": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-2-huffman": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-8-garamendi": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-10-desaulnier": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-12-simon": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-15-mullin": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-17-khanna": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-19-panetta": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-28-chu": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-29-rivas": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-30-friedman": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-32-sherman": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-34-gomez": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-36-lieu": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-37-kamlager-dove": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-39-takano": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-42-garcia": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-43-waters": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-44-barragan": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-47-min": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-49-levin": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-51-jacobs": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-52-vargas": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "co-2-neguse": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "fl-10-frost": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ga-4-johnson": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ga-5-williams": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "hi-2-tokuda": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "il-1-jackson": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "il-3-ramirez": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Sponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "in-7-carson": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ky-3-mcgarvey": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "la-2-carter": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "me-1-pingree": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "md-7-mfume": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "md-8-raskin": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ma-2-mcgovern": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ma-3-trahan": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ma-7-pressley": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "mi-6-dingell": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "mi-12-tlaib": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "mn-5-omar": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nj-6-pallone": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nj-10-mciver": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nm-1-stansbury": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nm-3-fernandez": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ny-6-meng": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ny-9-clarke": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ny-14-ocasio-cortez": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ny-20-tonko": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nc-4-foushee": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nc-12-adams": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "oh-11-brown": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "or-1-bonamici": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "or-3-dexter": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "or-4-hoyle": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "or-6-salinas": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "pa-2-boyle": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "pa-12-lee": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "pa-17-deluzio": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "tx-16-escobar": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "tx-18-menefee": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "vt-al-balint": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "va-8-beyer": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "wa-6-randall": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "wa-7-jayapal": [
+      {
+        "issue": "healthcare",
+        "text": "Sponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "wa-9-smith": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "wi-2-pocan": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "vt-sen-sanders": [
+      {
+        "issue": "healthcare",
+        "text": "Sponsored the Medicare for All Act (S. 1506).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1506"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nv-4-horsford": [
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nj-9-pou": [
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "pa-4-dean": [
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "pa-5-scanlon": [
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "tx-20-castro": [
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "va-4-mcclellan": [
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ct-3-delauro": [
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "de-al-mcbride": [
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "fl-9-soto": [
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nj-1-norcross": [
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "wi-4-moore": [
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "co-01-kiros": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.kirosforco.com/priorities-2"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Supports an arms embargo and ending military aid to Israel.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.kirosforco.com/priorities-2"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Supports Housing First.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.kirosforco.com/priorities-2"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for abolishing ICE.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.kirosforco.com/priorities-2"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Rejects all corporate PAC money.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.kirosforco.com/priorities-2"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ny-13-avila-chevalier": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All, including dental, vision, hearing and long-term care.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://darializaforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for fully funding Section 8 and NYCHA and building affordable housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://darializaforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Calls for raising the minimum wage and increasing union density.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://darializaforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for abolishing ICE, expanding paths to citizenship and free legal representation for immigrants.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://darializaforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Refuses corporate PAC money.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://darializaforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "mi-sen-el-sayed": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://abdulforsenate.com/priorities/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Calls for banning corporate money in politics.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://abdulforsenate.com/priorities/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "mi-07-lawrence": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://wewill2026.com/platform/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Calls for the U.S. to stop arming Israel and calls the war in Gaza a genocide.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://wewill2026.com/platform/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for federal investment to curb climate change and lower energy bills.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://wewill2026.com/platform/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Supports major federal housing investment, a federal tenant bill of rights and Housing First.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://wewill2026.com/platform/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports the PRO Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://wewill2026.com/platform/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for ending ICE operations in American cities and a path to citizenship.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://wewill2026.com/platform/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ny-07-valdez": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All, including gender-affirming care, contraception and PrEP.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://clairevaldezforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Calls for ending all weapons sales and military aid to Israel.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://clairevaldezforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports a Green New Deal.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://clairevaldezforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for tenant power and landlord accountability.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://clairevaldezforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports a strengthened PRO Act and ending at-will employment.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://clairevaldezforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "oh-07-poindexter": [
+      {
+        "issue": "healthcare",
+        "text": "Pledges to protect Medicare and Social Security.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://poindexterforcongress.com/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Backs workers' freedom to organize without intimidation.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://poindexterforcongress.com/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "pa-03-rabb": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.chrisrabb.com/platform"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Calls for an immediate, permanent ceasefire and says the genocide in Gaza must end.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.chrisrabb.com/platform"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for a Civilian Climate Corps and a transition to renewable energy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.chrisrabb.com/platform"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for abolishing ICE.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.chrisrabb.com/platform"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "tx-23-padilla-stout": [
+      {
+        "issue": "healthcare",
+        "text": "Supports expanding Medicare to all Americans and, short of that, strengthening the ACA.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.katyforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Says the U.S. must act on climate change based on science.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.katyforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports raising the minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.katyforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for bipartisan reform that secures the border with humane immigration laws.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.katyforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ny-12-lasher": [
+      {
+        "issue": "housing",
+        "text": "Calls for expanding housing tax credits and rental assistance.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://micahlasher.com/platform-and-policies/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Pledges to cosponsor the PRO Act and to index the minimum wage to inflation.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://micahlasher.com/platform-and-policies/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for aggressive oversight hearings on ICE abuses.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://micahlasher.com/platform-and-policies/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "nj-12-hamawy": [
+      {
+        "issue": "healthcare",
+        "text": "Supports single-payer Medicare for All with no out-of-pocket costs.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://hamawyfornj.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Supports cutting off military aid to Israel and equal rights for Palestinians.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://hamawyfornj.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for rejoining international climate agreements.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://hamawyfornj.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports the PRO Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://hamawyfornj.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for abolishing ICE, dismantling DHS and a path to citizenship.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://hamawyfornj.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ny-17-conley": [
+      {
+        "issue": "healthcare",
+        "text": "Defends the ACA and Medicaid and would expand Medicare to cover vision, dental and hearing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://caitconley.com/policy/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for rejoining the Paris Agreement.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://caitconley.com/policy/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for easing zoning rules and more federal funding for affordable housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://caitconley.com/policy/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for comprehensive reform, with enforcement focused on violent criminals.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://caitconley.com/policy/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Supports overturning Citizens United.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://caitconley.com/policy/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "mn-02-little": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://littleforcongress.com/key-issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Calls for an end to violence and genocide in Israel and Palestine.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://littleforcongress.com/key-issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for getting ICE out of Minnesota.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://littleforcongress.com/key-issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Rejects AIPAC, super PAC and corporate PAC money and supports ending Citizens United.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://littleforcongress.com/key-issues/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "mi-13-mckinney": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.donavanforcongress.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Pledges to cosponsor the Block the Bombs Act and end military aid to Israel.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.donavanforcongress.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports a Green New Deal and 100% clean energy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.donavanforcongress.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Supports a national homes guarantee, new public housing and nationwide rent control.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.donavanforcongress.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports every worker's right to form a union and a living wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.donavanforcongress.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for a path to citizenship for all immigrants and closing for-profit detention centers.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.donavanforcongress.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Supports banning political donations from monopoly utilities and government contractors.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.donavanforcongress.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-07-vang": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Supports a federal renters' bill of rights and limits on corporate purchases of homes.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports the PRO Act and a minimum wage tied to inflation.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for defunding mass deportation and ending qualified immunity for ICE agents.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Refuses corporate PAC money.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.maiforus.com/platform"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-34-gonzales-torres": [
+      {
+        "issue": "healthcare",
+        "text": "Pledges to cosponsor Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.angela4congress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Calls for an arms embargo and a ceasefire in Gaza.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.angela4congress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports a Green New Deal and a climate emergency declaration.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.angela4congress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Supports guaranteed housing vouchers, community land trusts and permanently affordable housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.angela4congress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports the right to unionize for gig workers.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.angela4congress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for abolishing ICE and a path to citizenship.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.angela4congress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Refuses corporate PAC and super PAC money and supports overturning Citizens United.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.angela4congress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "mt-01-forstag": [
+      {
+        "issue": "healthcare",
+        "text": "Would let everyone join Medicare, free for working people.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://samformontana.com/policies/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for large-scale federal investment in affordable housing and zoning reform.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://samformontana.com/policies/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Calls for more union jobs in construction and the trades.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://samformontana.com/policies/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "me-sen-jackson": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All and would cosponsor it in the Senate.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Calls the war in Gaza a genocide and would stop U.S. funding for Israel's military.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Backs the right to organize a union without retaliation.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for abolishing ICE.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Rejects corporate PAC, AIPAC and Big Oil money and supports overturning Citizens United.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jacksonformaine.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ca-22-villegas": [
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All, including dental and vision.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://villegasforcongress.com/issues/immigration"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for holding corporate polluters accountable and protecting farmworkers from extreme heat.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://villegasforcongress.com/issues/environment"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for an ambitious federal program to build affordable housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://villegasforcongress.com/issues/housing"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Opposes blanket detention and deportation.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://villegasforcongress.com/issues/immigration-1"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Supports ending Citizens United, banning corporate PACs and banning stock trading by members of Congress.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://villegasforcongress.com/issues/fight-political-corruption"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "tx-sen-talarico": [
+      {
+        "issue": "healthcare",
+        "text": "Calls health care a human right and pledges to protect Medicaid and lower drug costs.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://jamestalarico.com/issue/health-care/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Supports stopping offensive weapons sales to the Netanyahu government while funding defensive systems like Iron Dome.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://jamestalarico.com/issue/foreign-policy/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Backs an all-of-the-above energy strategy, including oil and gas, with more climate disaster preparedness.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://jamestalarico.com/issue/energy-environment/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports the PRO Act and a $15 federal minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://jamestalarico.com/issue/labor-business/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for comprehensive reform, more Border Patrol agents and focusing ICE on cartels and gangs.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://jamestalarico.com/issue/immigration-border-security/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Has never taken corporate PAC money and supports banning super PACs and corporate PACs.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://jamestalarico.com/issue/corruption-democracy/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "ny-10-lander": [
+      {
+        "issue": "healthcare",
+        "text": "Pledges to champion Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradlanderforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Pledges to cosponsor the Block the Bombs Act and calls Israel's destruction of Gaza a genocide.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradlanderforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports a Green New Deal and ending reliance on fossil fuels.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradlanderforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Proposes federal \"Street-to-Home\" housing vouchers and national standards for investor-owned rental housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradlanderforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports workers' right to organize and protections for gig workers.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradlanderforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Has called for abolishing ICE since 2018.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradlanderforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Rejects corporate PAC and AIPAC money and supports overturning Citizens United and a stock trading ban.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradlanderforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "dc-al-white": [
+      {
+        "issue": "housing",
+        "text": "Calls for securing federal resources for affordable housing in D.C.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.joinrobertwhite.com/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Pledges to protect Washingtonians from ICE.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.joinrobertwhite.com/"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ],
+    "tx-30-haynes": [
+      {
+        "issue": "housing",
+        "text": "Calls for expanding access to affordable housing, childcare, health care and paid family leave.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.haynesforcongress.com/issues/congressional-priorities-for-economic-security"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Calls for closing loopholes that let corporate interests hide spending through super PACs and nonprofits.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.haynesforcongress.com/issues/legislative-agenda-for-ethical-accountability-and-public-trust"
+        },
+        "checkedAt": "2026-11-08"
+      }
+    ]
+  }
+}

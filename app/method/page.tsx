@@ -40,6 +40,15 @@ export default function Method() {
         <p>Campaign links come from FEC filings. When a filing lists no site, or a dead one, we use the campaign&apos;s own site as cited by news coverage or the member&apos;s Wikipedia page. Headlines come from Google News.</p>
       </section>
 
+      <section className="section" aria-labelledby="platform-title">
+        <h2 id="platform-title">Platform and record</h2>
+        <p>
+          Positions are summarized in our words from each member&apos;s campaign site, and every one links to the page
+          it came from. Entries marked Record are sponsorships or cosponsorships of a few benchmark bills, taken from
+          Congress.gov. A missing issue means we found nothing on it, not that the member opposes it.
+        </p>
+      </section>
+
       <section className="section" aria-labelledby="coming-title">
         <h2 id="coming-title">What&apos;s coming</h2>
         <ul className="list">
