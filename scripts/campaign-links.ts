@@ -46,6 +46,13 @@ export function normalizeSite(raw: string | null): string | null {
   return url.toString().replace(/\/$/, "");
 }
 
+// Still on FEC filings but taken over by spam; a page that loads is not proof it's the campaign.
+const HIJACKED = new Set(["tedlieu.com", "maxinewatersforcongress.com"]);
+
+export function hijacked(url: string) {
+  return HIJACKED.has(new URL(url).hostname.replace(/^www\./, ""));
+}
+
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 // Keys allow 60 requests per rolling window: pace at one per second and wait out a 429.
@@ -92,6 +99,7 @@ async function main() {
     const [detail] = await fec(`/committee/${committee.committee_id}/`, {});
     const url = normalizeSite(detail?.website ?? null);
     if (!url) { problems.push(`${m.id}: ${committee.committee_id} lists no usable website (${detail?.website ?? "none"})`); continue; }
+    if (hijacked(url)) { problems.push(`${m.id}: ${url} is a known hijacked domain; FEC ${committee.committee_id}`); continue; }
     const err = await loads(url);
     if (err) { problems.push(`${m.id}: ${url} did not load (${err}); FEC ${committee.committee_id}`); continue; }
 

@@ -3,6 +3,7 @@
 // Usage: tsx scripts/refresh.ts [report-path]
 import fs from "node:fs";
 import type { Member, Status } from "@/lib/data";
+import { checkedNow } from "@/lib/freshness";
 import { bare } from "@/lib/names";
 import { USER_AGENT } from "@/lib/site";
 import { STATES } from "@/lib/states";
@@ -61,7 +62,7 @@ export function decide(m: Member, races: Race[]): Decision {
 async function main() {
   const reportPath = process.argv[2];
   const data = JSON.parse(fs.readFileSync(DATA, "utf8")) as { members: Member[] };
-  const today = new Date().toISOString().slice(0, 10);
+  const now = checkedNow();
   const changes: string[] = [];
   const problems: string[] = [];
   let checked = 0;
@@ -88,7 +89,7 @@ async function main() {
 
     checked++;
     if (decision.status !== m.status) changes.push(`${m.name} (${m.id}): ${m.status} → **${decision.status}**. ${decision.note}`);
-    Object.assign(m, { status: decision.status, note: decision.note, checkedAt: today, source: { label: "NBC News", url } });
+    Object.assign(m, { status: decision.status, note: decision.note, checkedAt: now, source: { label: "NBC News", url } });
   }
 
   // Most pages failing to load or parse means NBC changed its site; don't write half-updated data.
@@ -99,7 +100,7 @@ async function main() {
   fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + "\n");
 
   const report = [
-    `Checked ${checked} races against NBC News on ${today}.`,
+    `Checked ${checked} races against NBC News on ${now}.`,
     "", `### Status changes (${changes.length})`, ...(changes.length ? changes.map((c) => `- ${c}`) : ["None."]),
     "", `### Needs a manual check (${problems.length})`, ...(problems.length ? problems.map((p) => `- ${p}`) : ["None."]),
   ].join("\n");

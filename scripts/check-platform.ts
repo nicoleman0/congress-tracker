@@ -1,8 +1,9 @@
 // Rechecks campaign and office stances against their source pages. A stance whose quote is still on the
-// page gets today's checkedAt. Drifted or unreachable sources keep their old date and are reported.
+// page gets the current checkedAt. Drifted or unreachable sources keep their old date and are reported.
 // Usage: tsx scripts/check-platform.ts [report.md]
 import fs from "node:fs";
 import type { Stance } from "@/lib/data";
+import { checkedNow } from "@/lib/freshness";
 
 const PLATFORM = "data/platform.json";
 // Some campaign sites refuse non-browser agents.
@@ -49,7 +50,7 @@ async function fetchPage(url: string): Promise<string | null> {
 async function main() {
   const out = process.argv[2];
   const data = JSON.parse(fs.readFileSync(PLATFORM, "utf8")) as { stances: Record<string, Stance[]> };
-  const today = new Date().toISOString().slice(0, 10);
+  const now = checkedNow();
   const checked = Object.entries(data.stances).flatMap(([id, list]) =>
     list.filter((s) => s.kind !== "congress").map((s) => ({ id, s })),
   );
@@ -67,7 +68,7 @@ async function main() {
   let confirmed = 0;
   for (const { id, s } of checked) {
     const r = judge(pages.get(s.source.url) ?? null, s.quote!);
-    if (r === "confirmed") { s.checkedAt = today; confirmed++; }
+    if (r === "confirmed") { s.checkedAt = now; confirmed++; }
     else problems[r].push(`- ${id} (${s.issue}): ${s.source.url} — last confirmed ${s.checkedAt}`);
   }
   fs.writeFileSync(PLATFORM, JSON.stringify(data, null, 2) + "\n");

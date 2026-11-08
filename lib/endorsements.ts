@@ -2,6 +2,7 @@
 // site's 2026 pages are untouched. Not wired into the UI yet.
 import raw from "@/data/endorsements-2028.json";
 import { groupList, type Office } from "@/lib/data";
+import { CHECKED_AT } from "@/lib/freshness";
 import { STATES } from "@/lib/states";
 
 export type Seat = "open" | "incumbent" | "challenger";
@@ -24,7 +25,6 @@ export type EndorsementFile = { cycle: number; candidates: Candidate[] };
 // No race to resolve, so only the endorsement itself can go stale. Warned about, never fails the build.
 export const ENDORSEMENT_STALE_AFTER_DAYS = 180;
 const SEATS: Seat[] = ["open", "incumbent", "challenger"];
-const DATE = /^\d{4}-\d{2}-\d{2}$/;
 
 export function validateEndorsements(file: EndorsementFile, groups: Set<string>): EndorsementFile {
   const fail = (msg: string): never => { throw new Error(`data/endorsements-${file.cycle}.json: ${msg}`); };
@@ -45,7 +45,7 @@ export function validateEndorsements(file: EndorsementFile, groups: Set<string>)
       if (seen.has(e.group)) fail(`${c.id}: ${e.group} listed twice`);
       seen.add(e.group);
       if (!e.url?.startsWith("https://")) fail(`${c.id}: ${e.group} needs an https url`);
-      if (!DATE.test(e.checkedAt)) fail(`${c.id}: ${e.group} checkedAt must be YYYY-MM-DD`);
+      if (!CHECKED_AT.test(e.checkedAt)) fail(`${c.id}: ${e.group} checkedAt must be YYYY-MM-DD or YYYY-MM-DDTHH:MMZ`);
     }
   }
   return file;

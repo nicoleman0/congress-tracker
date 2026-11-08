@@ -5,11 +5,12 @@
 import fs from "node:fs";
 import { parseArgs } from "node:util";
 import type { Office } from "@/lib/data";
+import { checkedNow } from "@/lib/freshness";
 import { validateEndorsements, type Candidate, type EndorsementFile, type Seat } from "@/lib/endorsements";
 
 export const FILE = "data/endorsements-2028.json";
 
-export function upsert(file: EndorsementFile, group: string, id: string, url: string, today: string, c: Partial<Candidate>) {
+export function upsert(file: EndorsementFile, group: string, id: string, url: string, checkedAt: string, c: Partial<Candidate>) {
   let cand = file.candidates.find((x) => x.id === id);
   if (!cand) {
     cand = { id, name: "", office: "house", state: "", district: null, seat: "open", note: "", endorsements: [] };
@@ -17,8 +18,8 @@ export function upsert(file: EndorsementFile, group: string, id: string, url: st
   }
   Object.assign(cand, Object.fromEntries(Object.entries(c).filter(([, v]) => v !== undefined)));
   const e = cand.endorsements.find((x) => x.group === group);
-  if (e) Object.assign(e, { url, checkedAt: today });
-  else cand.endorsements.push({ group, url, checkedAt: today });
+  if (e) Object.assign(e, { url, checkedAt });
+  else cand.endorsements.push({ group, url, checkedAt });
   file.candidates.sort((a, b) => a.id.localeCompare(b.id));
   return file;
 }
@@ -35,7 +36,7 @@ function main() {
   if (!group || !id || !url) throw new Error("usage: add-endorsement.ts <group> <id> <url> [options]");
   const file = JSON.parse(fs.readFileSync(FILE, "utf8")) as EndorsementFile;
   const office = values.office as Office | undefined;
-  upsert(file, group, id, url, new Date().toISOString().slice(0, 10), {
+  upsert(file, group, id, url, checkedNow(), {
     name: values.name, office, state: values.state, seat: values.seat as Seat | undefined,
     district: values.district ?? (office === "senate" ? null : undefined), memberId: values.member, note: values.note,
   });
