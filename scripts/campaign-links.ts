@@ -63,7 +63,9 @@ async function fec(path: string, params: Record<string, string>) {
 async function loads(url: string) {
   try {
     const res = await fetch(url, { redirect: "follow", headers: { "user-agent": "Mozilla/5.0 (congress-tracker link check)" } });
-    return res.ok ? null : `HTTP ${res.status}`;
+    // A Cloudflare bot challenge means the site is up; visitors pass it, scripts don't.
+    if (res.ok || res.headers.get("cf-mitigated") === "challenge") return null;
+    return `HTTP ${res.status}`;
   } catch (e) {
     return (e as Error).message;
   }
