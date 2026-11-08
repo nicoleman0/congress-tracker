@@ -689,7 +689,7 @@ p {
 .footer-scape {
   display: block;
   width: 100%;
-  height: clamp(24rem, 52.5vw, 60rem);
+  height: clamp(18rem, 40vw, 46rem);
   pointer-events: none;
 }
 .riso-overprint { mix-blend-mode: multiply; }

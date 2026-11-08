@@ -1,7 +1,7 @@
 // Antonietta Brandeis, Il Foro Romano: https://commons.wikimedia.org/wiki/File:Antonietta_Brandeis_Il_Foro_Romano.jpg
 export function FooterArt() {
   return (
-    <svg className="footer-scape" viewBox="0 0 2000 1050" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <svg className="footer-scape" viewBox="0 0 2000 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
       <defs>
         {[
           { ink: "lime", seed: 11, density: 1, shift: true },
