@@ -11,6 +11,7 @@ export const STATUS_TEXT: Record<Status, string> = {
 };
 
 export function StatusBadge({ status }: { status: Status }) {
+  if (status === "incumbent") return null;
   return <span className={`chip chip--${status}`}>{STATUS_TEXT[status]}</span>;
 }
 
