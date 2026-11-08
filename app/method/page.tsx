@@ -27,14 +27,15 @@ export default function Method() {
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">Race status</h2>
         <ul className="list-disc pl-5">
-          <li><b>Won</b>: a news outlet reported a race call, usually from the AP.</li>
+          <li><b>Won</b>: a news outlet projected them the winner.</li>
           <li><b>Leading</b>: ahead in reported counts, with no call found yet.</li>
-          <li><b>Too early to call</b>: close, or no result found yet.</li>
+          <li><b>Not called</b>: behind in the count, or no result found yet.</li>
           <li><b>Incumbent</b>: a current caucus member. Their 2026 results are not yet verified.</li>
+          <li><b>Lost</b>: another candidate was projected the winner.</li>
         </ul>
         <p className="text-muted">
-          Each profile shows when its status was last checked. Races that are leading or too early to call
-          are rechecked at least every 3 days.
+          Each profile shows when its status was last checked. Unresolved races are rechecked daily against
+          NBC News race pages, and every change is reviewed before it goes live.
         </p>
       </section>
 

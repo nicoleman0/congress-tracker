@@ -26,7 +26,7 @@ test("every House district exists in its state", () => {
 
 test("no two House members share a seat unless the race is unresolved", () => {
   const seats = new Map<string, string[]>();
-  for (const m of allMembers().filter((x) => x.office === "house")) {
+  for (const m of allMembers().filter((x) => x.office === "house" && x.status !== "lost")) {
     const k = `${m.state}-${m.district}`;
     seats.set(k, [...(seats.get(k) ?? []), m.id]);
   }

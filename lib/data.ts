@@ -3,7 +3,7 @@ import raw from "@/data/members.json";
 import { STATES, type State } from "@/lib/states";
 
 export type Office = "house" | "senate";
-export type Status = "won" | "leading" | "pending" | "incumbent";
+export type Status = "won" | "leading" | "pending" | "incumbent" | "lost";
 
 export type Group = { code: string; name: string; url: string };
 export type Source = { label: string; url: string };
@@ -27,7 +27,7 @@ const UNRESOLVED: Status[] = ["leading", "pending"];
 const DAY_MS = 86_400_000;
 
 const OFFICES: Office[] = ["house", "senate"];
-const STATUSES: Status[] = ["won", "leading", "pending", "incumbent"];
+const STATUSES: Status[] = ["won", "leading", "pending", "incumbent", "lost"];
 
 function fail(msg: string): never {
   throw new Error(`data/members.json: ${msg}`);
@@ -74,7 +74,8 @@ export const newClass = () =>
   db.members.filter((m) => !m.incumbent && (m.status === "won" || m.status === "leading"));
 export const toWatch = () => db.members.filter((m) => m.status === "pending" || m.status === "leading");
 
-export const membersIn = (state: string) => db.members.filter((m) => m.state === state);
+export const membersIn = (state: string) => db.members.filter((m) => m.state === state && m.status !== "lost");
+export const lostRaces = () => db.members.filter((m) => m.status === "lost");
 export const getState = (code: string): State | undefined => STATES.find((s) => s.code === code);
 
 export function districtsOf(state: State): string[] {

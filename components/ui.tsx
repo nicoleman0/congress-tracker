@@ -5,14 +5,16 @@ import { getGroup, seatLabel, type Member, type Status } from "@/lib/data";
 const STATUS_TEXT: Record<Status, string> = {
   won: "Won",
   leading: "Leading",
-  pending: "Too early to call",
+  pending: "Not called",
   incumbent: "Incumbent",
+  lost: "Lost",
 };
 const STATUS_CLASS: Record<Status, string> = {
   won: "text-won border-won",
   leading: "text-leading border-leading",
   pending: "text-pending border-pending",
   incumbent: "text-muted border-line",
+  lost: "text-muted border-line line-through",
 };
 
 export function StatusBadge({ status }: { status: Status }) {

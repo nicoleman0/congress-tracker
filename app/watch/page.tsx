@@ -1,5 +1,5 @@
 import { MemberCard } from "@/components/ui";
-import { toWatch } from "@/lib/data";
+import { lostRaces, toWatch } from "@/lib/data";
 
 export const metadata = { title: "Races to watch · Progressive Bloc" };
 
@@ -18,10 +18,17 @@ export default function Watch() {
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{leading.map((m) => <MemberCard key={m.id} m={m} />)}</div>
       </section>
       <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Too early to call</h2>
-        <p className="text-sm text-muted">Includes safe seats where we haven&apos;t found a race call yet.</p>
+        <h2 className="text-xl font-semibold">Not called, trailing or unknown</h2>
+        <p className="text-sm text-muted">Behind in the count, or no result found yet.</p>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{pending.map((m) => <MemberCard key={m.id} m={m} />)}</div>
       </section>
+      {lostRaces().length > 0 && (
+        <section className="space-y-3">
+          <h2 className="text-xl font-semibold">Lost</h2>
+          <p className="text-sm text-muted">Kept here for the record. They don&apos;t appear on state pages.</p>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{lostRaces().map((m) => <MemberCard key={m.id} m={m} />)}</div>
+        </section>
+      )}
     </div>
   );
 }
