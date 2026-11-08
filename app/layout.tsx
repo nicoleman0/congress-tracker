@@ -3,8 +3,9 @@ import Link from "next/link";
 // Self-hosted variable fonts, as on corvus-dev.com.
 import "@fontsource-variable/funnel-display";
 import "@fontsource-variable/funnel-sans";
+import { MemberSearch } from "@/components/MemberSearch";
 import { NavLinks } from "@/components/NavLinks";
-import { lastChecked } from "@/lib/data";
+import { lastChecked, searchEntries } from "@/lib/data";
 import { REPO_URL, SITE_NAME } from "@/lib/site";
 import "./globals.css";
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <a className="skip-link" href="#main">Skip to content</a>
         <header className="site-header">
           <Link href="/" className="site-title">{SITE_NAME}</Link>
+          <MemberSearch entries={searchEntries()} />
           <nav aria-label="Main">
             <NavLinks links={NAV} />
           </nav>
