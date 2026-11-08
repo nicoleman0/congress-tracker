@@ -4,6 +4,7 @@ import Link from "next/link";
 import "@fontsource-variable/funnel-display";
 import "@fontsource-variable/funnel-sans";
 import { MemberSearch } from "@/components/MemberSearch";
+import { FooterArt } from "@/components/FooterArt";
 import { NavLinks } from "@/components/NavLinks";
 import { lastChecked, searchEntries } from "@/lib/data";
 import { formatChecked } from "@/lib/freshness";
@@ -38,16 +39,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <div className="page-wrap page-wrap--wide">
           <main id="main">{children}</main>
         </div>
-        <footer className="page-wrap page-wrap--wide">
-          <div className="footer-inner">
-            <p>Last checked {formatChecked(lastChecked)}.</p>
-            <nav className="footer-links" aria-label="Site">
-              <Link href="/faq">faq</Link>
-              <Link href="/method">method and sources</Link>
-              <a href={REPO_URL}>source code</a>
-              <a href="mailto:info@gracchi.org">info@gracchi.org</a>
-            </nav>
+        <footer className="site-footer">
+          <div className="page-wrap page-wrap--wide">
+            <div className="footer-inner">
+              <p>Last checked {formatChecked(lastChecked)}.</p>
+              <nav className="footer-links" aria-label="Site">
+                <Link href="/faq">faq</Link>
+                <Link href="/method">method and sources</Link>
+                <a href={REPO_URL}>source code</a>
+                <a href="mailto:info@gracchi.org">info@gracchi.org</a>
+              </nav>
+            </div>
           </div>
+          <FooterArt />
         </footer>
       </body>
     </html>

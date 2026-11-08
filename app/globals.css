@@ -667,6 +667,8 @@ p {
    Footer
    ============================================================ */
 .footer-inner {
+  position: relative;
+  z-index: 1;
   border-top: 2px solid var(--ultra);
   padding: var(--s-4) 0 var(--s-5);
   display: grid;
@@ -684,6 +686,15 @@ p {
 }
 .footer-links a { color: var(--ink); text-decoration: none; }
 .footer-links a:hover { color: var(--ultra); text-decoration: underline; }
+.footer-scape {
+  display: block;
+  width: 100%;
+  height: clamp(24rem, 52.5vw, 60rem);
+  pointer-events: none;
+}
+.riso-overprint { mix-blend-mode: multiply; }
+.riso-ultra { flood-color: var(--ultra); }
+.riso-lime { flood-color: var(--lime); }
 @media (max-width: 40rem) {
   .footer-inner { grid-template-columns: 1fr; }
 }
