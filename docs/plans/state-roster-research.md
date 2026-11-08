@@ -28,7 +28,12 @@ Include endorsees who lost. Every discovered endorsement must appear, so the rev
 - **Name the actual issuer.** "Delaware Working Families Party", not "WFP". For chapters, also give the chapter's page as `issuer_source`.
 - **Withdrawn endorsements** stay in the list with `"withdrawn": true`.
 - **Stay in scope.** Skip federal, municipal, judicial, school board and other statewide offices (attorney general, lieutenant governor and so on).
-- **Start from saved evidence.** First grep `research_notes/` and `reports/state-endorsement-gap-review.tsv` for the state code and its name. Reuse the source URLs found there. Then search for what's missing.
+- **Start from saved evidence.** These national lists are already saved. Use them before searching, and don't re-fetch them:
+  - **WFP 2026:** `research_notes/national/wfp-2026-candidates.tsv` is the full list, including rows hidden behind "View More". Cite `https://workingfamilies.org/candidates/` with the row's name and office as the excerpt; the verifier checks it against the saved file. Earlier WFP cycles still need the state pages and news.
+  - **DSA national tables:** the `records` in `research_notes/State endorsement gap review/dsa_sunrise_dsa_current_state_sources.json` and `..._past_state_sources.json`. Chapter sites and social feeds are still needed.
+  - **Run for Something 2020–2026:** `research_notes/State endorsement gap review/rfs_pccc_directory_cards.tsv` (one row per card, with `profile_url`). Cite the `profile_url` and use the card text as the excerpt.
+  - **Current legislators:** `research_notes/openstates/<ST>.csv` (Open States, CC0). Its `links` column has each member's official page. Use it for `service_source` and `contact_url` (see below).
+  - Then grep `research_notes/` and `reports/state-endorsement-gap-review.tsv` for the state code and name, and search for what's missing: chapter pages, earlier cycles, OR, PCCC, Sunrise.
 - **Bound the work.** Check each group's state pages, chapter pages and past-endorsement archives, then stop. When a source is unreachable or incomplete, record it as a gap. Don't keep searching indefinitely.
 
 ## Output
@@ -72,17 +77,15 @@ Include endorsees who lost. Every discovered endorsement must appear, so the rev
 
 - **`district`:** `null` for governor. Use the state's own district label, which may not be a number.
 - **`current`:** fill this only when `outcome` is `won`, otherwise `null`. It describes **the term won in this election only**, never a later one. A 2022 winner whose 2022 term has ended is `not_serving`, even if re-elected; the re-election is its own entry only if a group endorsed it.
-- **`current.status`:** follows the state's official term-start rule, cited in `notes`. `serving` if that term has started by today, `incoming` if it starts later. Swearing-in and profile pages don't matter.
+- **`current.status`:** follows the state's official term-start rule, cited in `notes`. `serving` if that term has started by today, `incoming` if it starts later. Swearing-in and profile pages don't matter. Someone who left mid-term (resigned, died, took another office) is `not_serving`, with the reason and its source in `notes`.
 - **`term_start` and `term_end`:** take these from an official source, such as a roster or the state's term rules in its constitution or statute. Cite it in `service_source` or `notes`. Compute `term_end` from the term length when no roster gives it.
 - **`election.stage`:** the stage the endorsement was announced for. Announced before that cycle's primary means `primary`; after it, `general`. If the date is unknown, use `general` and say so in `notes`. `outcome` is always the final result for the seat in that cycle.
 - **No election named:** an endorsement that names no election (for example "our endorsed legislators") is not an entry. List it in `gaps`.
-- **`contact_url`:** required for every `serving` or `incoming` entry, because the site won't list anyone without one. Use the member's official legislature or governor page. For a new member with no page yet, use the chamber's member directory and say so in `notes`.
-- **Results sources:** use official state results. Only when an official source blocks automated access or renders no text, cite Ballotpedia or reliable reporting, and record the blocked official URL in `gaps`.
+- **`service_source` and `contact_url`:** for a legislator in the Open States file, cite `https://data.openstates.org/people/current/<st>.csv` (lowercase state) with the member's name as the excerpt, and use the official page from the `links` column as `contact_url`. Members appear there only once seated, so for an `incoming` member use the chamber's official member directory and say so in `notes`. Governors: use the governor's official site. `contact_url` is required for every `serving` or `incoming` entry, because the site won't list anyone without one.
+- **Results sources:** use official state results. Only when an official source blocks automated access or renders no text, cite Ballotpedia, Wikipedia or reliable reporting, and record the blocked official URL in `gaps`. If the race isn't called yet, `outcome` is `pending`. If you can't find a result at all, it is `unknown` with the reason in `notes`.
 - **Coverage rows:** `complete_*` means every in-scope cycle (2022 to 2026, governor included) was checked for that group. If any cycle or chapter wasn't checked, the status is `blocked` and the note names what's missing.
 - **Run for Something:** a card in its endorsed-candidate directory counts as its endorsement. Use the card's text naming the person as the excerpt.
 - **`coverage`:** give exactly one row per group, six in all.
-  - `complete_*` means you checked the group's available sources for this state.
-  - `blocked` means a source you needed was unavailable.
 
 ## When done
 

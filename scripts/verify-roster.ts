@@ -53,8 +53,12 @@ export function shapeProblems(r: Research, today = new Date().toISOString().slic
     add(e.current.term_end !== null && !DATE.test(e.current.term_end), `${at}: term_end must be YYYY-MM-DD`);
     cite(e.current.service_source, `${at} service`, e.current.status === "serving");
     const { term_start: start, term_end: end } = e.current;
-    const expected = end && end <= today ? "not_serving" : start && start <= today ? "serving" : start ? "incoming" : null;
-    add(expected && e.current.status !== "unknown" && e.current.status !== expected, `${at}: status ${e.current.status} contradicts term ${start} to ${end}`);
+    const ended = !!end && end <= today, started = !!start && start <= today;
+    const status = e.current.status;
+    // Leaving early (resignation, death, another office) is allowed mid-term; the notes must say why.
+    const contradicts = (status === "serving" && (ended || (!!start && !started))) || (status === "incoming" && started) || (status === "not_serving" && !!start && !started)
+      || (status === "not_serving" && started && !ended && !e.notes?.trim());
+    add(contradicts, `${at}: status ${status} contradicts term ${start} to ${end}`);
     add(e.current.contact_url !== null && !/^https:\/\//.test(e.current.contact_url ?? ""), `${at}: contact_url must be https`);
     add(["serving", "incoming"].includes(e.current.status) && !e.current.contact_url, `${at}: contact_url required for a listed term`);
   });
