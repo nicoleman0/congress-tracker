@@ -1,0 +1,2034 @@
+{
+  "groups": {
+    "JD": {
+      "name": "Justice Democrats",
+      "url": "https://justicedemocrats.com/candidates/"
+    },
+    "CPC": {
+      "name": "Congressional Progressive Caucus PAC",
+      "url": "https://weareprogressives.org/press-releases/"
+    },
+    "WFP": {
+      "name": "Working Families Party",
+      "url": "https://workingfamilies.org/2026/11/what-happened-on-tuesday/"
+    },
+    "OR": {
+      "name": "Our Revolution",
+      "url": "https://ourrevolution.com/revolution-report-november-7th-2026/"
+    },
+    "CAUCUS": {
+      "name": "Congressional Progressive Caucus (member)",
+      "url": "https://progressives.house.gov/caucus-members"
+    }
+  },
+  "members": [
+    {
+      "id": "ca-22-villegas",
+      "name": "Randy Villegas",
+      "state": "CA",
+      "district": "22",
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated incumbent Rep. David Valadao (R).",
+      "source": {
+        "label": "Patch, AP call",
+        "url": "https://patch.com/california/across-ca/ca-house-races-2026-real-time-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "co-01-kiros",
+      "name": "Melat Kiros",
+      "state": "CO",
+      "district": "1",
+      "endorsedBy": [
+        "JD",
+        "CPC",
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Beat 15-term Rep. Diana DeGette in the primary.",
+      "source": {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "mi-07-lawrence",
+      "name": "Will Lawrence",
+      "state": "MI",
+      "district": "7",
+      "endorsedBy": [
+        "CPC",
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Rep. Tom Barrett (R).",
+      "source": {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ny-07-valdez",
+      "name": "Claire Valdez",
+      "state": "NY",
+      "district": "7",
+      "endorsedBy": [
+        "JD",
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Open seat.",
+      "source": {
+        "label": "NBC News, projected",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-7-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ny-10-lander",
+      "name": "Brad Lander",
+      "state": "NY",
+      "district": "10",
+      "endorsedBy": [
+        "WFP"
+      ],
+      "status": "won",
+      "note": "Former NYC Comptroller.",
+      "source": {
+        "label": "ABC7 NY, AP call",
+        "url": "https://abc7ny.com/politics/elections/local/"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ny-12-lasher",
+      "name": "Micah Lasher",
+      "state": "NY",
+      "district": "12",
+      "endorsedBy": [
+        "CPC"
+      ],
+      "status": "won",
+      "note": "New York Assemblymember.",
+      "source": {
+        "label": "ABC7 NY, AP call",
+        "url": "https://abc7ny.com/politics/elections/local/"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nj-12-hamawy",
+      "name": "Adam Hamawy",
+      "state": "NJ",
+      "district": "12",
+      "endorsedBy": [
+        "JD",
+        "WFP"
+      ],
+      "status": "won",
+      "note": "Succeeds retiring Rep. Bonnie Watson Coleman.",
+      "source": {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "oh-07-poindexter",
+      "name": "Brian Poindexter",
+      "state": "OH",
+      "district": "7",
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Rep. Max Miller (R).",
+      "source": {
+        "label": "News 5 Cleveland, AP projection",
+        "url": "https://www.news5cleveland.com/politics/america-votes/poindexter-declared-winner-in-ohios-hotly-contested-7th-district-race"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "pa-03-rabb",
+      "name": "Chris Rabb",
+      "state": "PA",
+      "district": "3",
+      "endorsedBy": [
+        "JD",
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Succeeds retiring Rep. Dwight Evans.",
+      "source": {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "pa-07-brooks",
+      "name": "Bob Brooks",
+      "state": "PA",
+      "district": "7",
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Rep. Ryan Mackenzie (R).",
+      "source": {
+        "label": "FOX 29, AP call",
+        "url": "https://www.fox29.com/news/bob-brooks-wins-u-s-house-seat-representing-pennsylvanias-7th-district-ap"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "tx-23-padilla-stout",
+      "name": "Katy Padilla Stout",
+      "state": "TX",
+      "district": "23",
+      "endorsedBy": [
+        "CPC",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Flipped the seat; defeated Brandon Herrera (R).",
+      "source": {
+        "label": "KSAT",
+        "url": "https://www.ksat.com/news/texas/2026/11/04/katy-padilla-stout-democratic-newcomer-flips-west-texas-congressional-seat/"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ny-13-avila-chevalier",
+      "name": "Darializa Avila Chevalier",
+      "state": "NY",
+      "district": "13",
+      "endorsedBy": [
+        "JD",
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "NBC News projects Darializa Avila Chevalier the winner. 87.5% to Jomo Williams's 11.4%, with 89.5% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-13-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ny-17-conley",
+      "name": "Cait Conley",
+      "state": "NY",
+      "district": "17",
+      "endorsedBy": [
+        "WFP"
+      ],
+      "status": "won",
+      "note": "NBC News projects Cait Conley the winner. 53% to Mike Lawler's 46.9%, with 95.1% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-17-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "mn-02-little",
+      "name": "Matt Little",
+      "state": "MN",
+      "district": "2",
+      "endorsedBy": [
+        "CPC"
+      ],
+      "status": "won",
+      "note": "NBC News projects Matt Little the winner. 57.1% to Eric Pratt's 42.8%, with 98.9% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-us-house-district-2-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-14-wahab",
+      "name": "Aisha Wahab",
+      "state": "CA",
+      "district": "14",
+      "endorsedBy": [
+        "CPC",
+        "WFP",
+        "OR",
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Aisha Wahab the winner. 57.5% to Melissa Hernandez's 42.5%, with 66.9% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-14-results"
+      },
+      "office": "house",
+      "incumbent": true,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "mi-13-mckinney",
+      "name": "Donavan McKinney",
+      "state": "MI",
+      "district": "13",
+      "endorsedBy": [
+        "JD",
+        "CPC",
+        "WFP"
+      ],
+      "status": "won",
+      "note": "NBC News projects Donavan McKinney the winner. 76.5% to T.P. Nykoriak's 19.9%, with 69.4% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-13-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "tx-30-haynes",
+      "name": "Frederick Haynes III",
+      "state": "TX",
+      "district": "30",
+      "endorsedBy": [
+        "JD"
+      ],
+      "status": "won",
+      "note": "NBC News projects Frederick Haynes III the winner. 82.6% to Everett Jackson's 17.4%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-30-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nj-11-mejia",
+      "name": "Analilia Mejia",
+      "state": "NJ",
+      "district": "11",
+      "endorsedBy": [
+        "WFP",
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Analilia Mejia the winner. 60.8% to Joe Hathaway's 38.3%, with 95.7% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-11-results"
+      },
+      "office": "house",
+      "incumbent": true,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "dc-al-white",
+      "name": "Robert White Jr.",
+      "state": "DC",
+      "district": "AL",
+      "endorsedBy": [
+        "WFP"
+      ],
+      "status": "pending",
+      "note": "Non-voting delegate seat. No general-election call found yet.",
+      "source": {
+        "label": "FOX 5 DC",
+        "url": "https://www.fox5dc.com/news/2026-midterm-elections-washington-dc-us-delegate-race-live-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "tn-09-pearson",
+      "name": "Justin J. Pearson",
+      "state": "TN",
+      "district": "9",
+      "endorsedBy": [
+        "JD",
+        "CPC",
+        "WFP"
+      ],
+      "status": "lost",
+      "note": "NBC News projects Brent Taylor the winner. 48.5% to Brent Taylor's 49.6%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/tennessee-us-house-district-9-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-07-vang",
+      "name": "Mai Vang",
+      "state": "CA",
+      "district": "7",
+      "endorsedBy": [
+        "JD",
+        "WFP"
+      ],
+      "status": "pending",
+      "note": "Trailing, no projection yet. 44.3% to Doris Matsui's 55.7%, with 67% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-7-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-34-gonzales-torres",
+      "name": "Angela Gonzales-Torres",
+      "state": "CA",
+      "district": "34",
+      "endorsedBy": [
+        "JD",
+        "WFP"
+      ],
+      "status": "won",
+      "note": "NBC News projects Angela Gonzales-Torres the winner. 61.9% to Jimmy Gomez's 38.1%, with 92.3% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-34-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "va-05-perriello",
+      "name": "Tom Perriello",
+      "state": "VA",
+      "district": "5",
+      "endorsedBy": [
+        "CPC"
+      ],
+      "status": "lost",
+      "note": "NBC News projects John McGuire III the winner. 48% to John McGuire III's 50.2%, with 98.1% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-5-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "mt-01-forstag",
+      "name": "Sam Forstag",
+      "state": "MT",
+      "district": "1",
+      "endorsedBy": [
+        "OR"
+      ],
+      "status": "won",
+      "note": "NBC News projects Sam Forstag the winner. 50.3% to Aaron Flint's 46.8%, with 97.7% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/montana-us-house-district-1-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "fl-24-jones",
+      "name": "Shevrin Jones",
+      "state": "FL",
+      "district": "24",
+      "endorsedBy": [
+        "CPC"
+      ],
+      "status": "lost",
+      "note": "Not on the November ballot. Oliver Gilbert III (D) won the seat.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-24-results"
+      },
+      "office": "house",
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "mi-sen-el-sayed",
+      "name": "Abdul El-Sayed",
+      "office": "senate",
+      "incumbent": false,
+      "state": "MI",
+      "district": null,
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Open seat.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/michigan-senate-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "me-sen-jackson",
+      "name": "Troy Jackson",
+      "office": "senate",
+      "incumbent": false,
+      "state": "ME",
+      "district": null,
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Sen. Susan Collins (R).",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "tx-sen-talarico",
+      "name": "James Talarico",
+      "office": "senate",
+      "incumbent": false,
+      "state": "TX",
+      "district": null,
+      "endorsedBy": [
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Ken Paxton (R).",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "vt-sen-sanders",
+      "name": "Bernie Sanders",
+      "office": "senate",
+      "incumbent": true,
+      "state": "VT",
+      "district": null,
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "Independent; caucuses with Democrats. Not up in 2026.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "az-3-ansari",
+      "name": "Yassamin Ansari",
+      "office": "house",
+      "incumbent": true,
+      "state": "AZ",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Yassamin Ansari the winner. 87.6% to Alan Aversa's 6.1%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/arizona-us-house-district-3-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "az-7-grijalva",
+      "name": "Adelita Grijalva",
+      "office": "house",
+      "incumbent": true,
+      "state": "AZ",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Adelita Grijalva the winner. 72% to Daniel Butierez Sr.'s 28%, with 95.6% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/arizona-us-house-district-7-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-2-huffman",
+      "name": "Jared Huffman",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Jared Huffman the winner. 65% to Robin Littau's 35%, with 56.4% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-2-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-8-garamendi",
+      "name": "John Garamendi",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "8",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects John Garamendi the winner. 72.7% to Rudy Recile's 27.3%, with 86.4% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-8-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-10-desaulnier",
+      "name": "Mark DeSaulnier",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "10",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Mark DeSaulnier the winner. 69.7% to Jeff Frese's 30.3%, with 79.1% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-10-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-12-simon",
+      "name": "Lateefah Simon",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "12",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Lateefah Simon the winner. 80.6% to Jamie Joyce's 19.4%, with 73.7% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-12-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-15-mullin",
+      "name": "Kevin Mullin",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "15",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Kevin Mullin the winner. 78.5% to Charles Hoelter's 21.5%, with 66.9% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-15-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-17-khanna",
+      "name": "Ro Khanna",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "17",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Ro Khanna the winner. 71.4% to Ritesh Tandon's 28.6%, with 65% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-17-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-19-panetta",
+      "name": "Jimmy Panetta",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "19",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Jimmy Panetta the winner. 72.7% to Peter Verbica's 27.3%, with 70.3% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-19-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-28-chu",
+      "name": "Judy Chu",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "28",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Judy Chu the winner. 69.6% to April Verlato's 30.4%, with 91% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-28-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-29-rivas",
+      "name": "Luz Rivas",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "29",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Luz Rivas the winner. 57.6% to Angélica Dueñas's 42.4%, with 92.6% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-29-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-30-friedman",
+      "name": "Laura Friedman",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "30",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Laura Friedman the winner. 77.4% to Scott Meyers's 22.6%, with 91% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-30-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-32-sherman",
+      "name": "Brad Sherman",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "32",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Brad Sherman the winner. 67.7% to Larry Thompson's 32.3%, with 85% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-32-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-34-gomez",
+      "name": "Jimmy Gomez",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "34",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "lost",
+      "note": "NBC News projects Angela Gonzales-Torres the winner. 38.1% to Angela Gonzales-Torres's 61.9%, with 92.3% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-34-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-36-lieu",
+      "name": "Ted Lieu",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "36",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Ted Lieu the winner. 72.6% to Houston Brignano's 27.4%, with 91.5% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-36-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-37-kamlager-dove",
+      "name": "Sydney Kamlager-Dove",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "37",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Sydney Kamlager-Dove the winner. 61.1% to Samantha Mota's 38.9%, with 90.8% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-37-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-39-takano",
+      "name": "Mark Takano",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "39",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Mark Takano the winner. 66.7% to Steve Manos's 33.3%, with 58.7% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-39-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-42-garcia",
+      "name": "Robert Garcia",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "42",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Robert Garcia the winner. 61.8% to Brian Burley's 38.2%, with 88.1% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-42-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-43-waters",
+      "name": "Maxine Waters",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "43",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Maxine Waters the winner. 82.7% to Cristian Morales's 17.3%, with 92.4% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-43-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-44-barragan",
+      "name": "Nanette Barragán",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "44",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Nanette Barragán the winner. 81.5% to Genevieve Angel's 18.5%, with 92.3% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-44-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-47-min",
+      "name": "Dave Min",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "47",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Dave Min the winner. 57.8% to Jenny Rae Le Roux's 42.2%, with 82.7% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-47-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-49-levin",
+      "name": "Mike Levin",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "49",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Mike Levin the winner. 57.7% to Armen Kurdian's 42.3%, with 70.1% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-49-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-51-jacobs",
+      "name": "Sara Jacobs",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "51",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Sara Jacobs the winner. 64% to Ricardo Cabrera's 36%, with 69.2% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-51-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ca-52-vargas",
+      "name": "Juan Vargas",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "52",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Juan Vargas the winner. 69.7% to Jeff Belle's 30.3%, with 68.9% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-52-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "co-2-neguse",
+      "name": "Joe Neguse",
+      "office": "house",
+      "incumbent": true,
+      "state": "CO",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Joe Neguse the winner. 74.5% to Kelley Dennison's 23.6%, with 96.6% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/colorado-us-house-district-2-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ct-3-delauro",
+      "name": "Rosa DeLauro",
+      "office": "house",
+      "incumbent": true,
+      "state": "CT",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Rosa DeLauro the winner. 61.4% to Christopher Lancia's 35.6%, with 98.1% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/connecticut-us-house-district-3-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "de-al-mcbride",
+      "name": "Sarah McBride",
+      "office": "house",
+      "incumbent": true,
+      "state": "DE",
+      "district": "AL",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Sarah McBride the winner. 64.3% to Joseph Arminio's 35.7%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/delaware-us-house-district-1-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "fl-9-soto",
+      "name": "Darren Soto",
+      "office": "house",
+      "incumbent": true,
+      "state": "FL",
+      "district": "9",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "leading",
+      "note": "Leading, no projection yet. 50.3% to Dan Green's 49.7%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-9-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "fl-10-frost",
+      "name": "Maxwell Frost",
+      "office": "house",
+      "incumbent": true,
+      "state": "FL",
+      "district": "10",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Maxwell Frost the winner. Unopposed.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-10-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ga-4-johnson",
+      "name": "Hank Johnson",
+      "office": "house",
+      "incumbent": true,
+      "state": "GA",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Hank Johnson the winner. 82.6% to Jim Duffie's 17.4%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/georgia-us-house-district-4-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ga-5-williams",
+      "name": "Nikema Williams",
+      "office": "house",
+      "incumbent": true,
+      "state": "GA",
+      "district": "5",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Nikema Williams the winner. 90.2% to John Salvesen's 9.8%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/georgia-us-house-district-5-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "hi-2-tokuda",
+      "name": "Jill Tokuda",
+      "office": "house",
+      "incumbent": true,
+      "state": "HI",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Jill Tokuda the winner. 66.5% to Brenton Awa's 33.5%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/hawaii-us-house-district-2-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "il-1-jackson",
+      "name": "Jonathan Jackson",
+      "office": "house",
+      "incumbent": true,
+      "state": "IL",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Jonathan Jackson the winner. 71.7% to Christian Maxwell's 28.3%, with 93% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/illinois-us-house-district-1-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "il-3-ramirez",
+      "name": "Delia Ramirez",
+      "office": "house",
+      "incumbent": true,
+      "state": "IL",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Delia Ramirez the winner. 76.6% to Angel Oakley's 23.4%, with 93.8% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/illinois-us-house-district-3-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "in-7-carson",
+      "name": "André Carson",
+      "office": "house",
+      "incumbent": true,
+      "state": "IN",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects André Carson the winner. 77% to Patrick McAuley's 20.4%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/indiana-us-house-district-7-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ky-3-mcgarvey",
+      "name": "Morgan McGarvey",
+      "office": "house",
+      "incumbent": true,
+      "state": "KY",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Morgan McGarvey the winner. 70.3% to Maria Rodriguez's 29.7%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/kentucky-us-house-district-3-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "la-2-carter",
+      "name": "Troy Carter",
+      "office": "house",
+      "incumbent": true,
+      "state": "LA",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Troy Carter the winner. 79.9% to Peter Williams's 15.1%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/louisiana-us-house-district-2-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "me-1-pingree",
+      "name": "Chellie Pingree",
+      "office": "house",
+      "incumbent": true,
+      "state": "ME",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Chellie Pingree the winner. 65.9% to Ronald Russell's 34.1%, with 92.4% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/maine-us-house-district-1-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "md-7-mfume",
+      "name": "Kweisi Mfume",
+      "office": "house",
+      "incumbent": true,
+      "state": "MD",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Kweisi Mfume the winner. 84.4% to Scott Collier's 15.6%, with 81.8% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/maryland-us-house-district-7-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "md-8-raskin",
+      "name": "Jamie Raskin",
+      "office": "house",
+      "incumbent": true,
+      "state": "MD",
+      "district": "8",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Jamie Raskin the winner. 82.9% to Cheryl Riley's 15.4%, with 77.9% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/maryland-us-house-district-8-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ma-2-mcgovern",
+      "name": "Jim McGovern",
+      "office": "house",
+      "incumbent": true,
+      "state": "MA",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Jim McGovern the winner. Unopposed.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-2-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ma-3-trahan",
+      "name": "Lori Trahan",
+      "office": "house",
+      "incumbent": true,
+      "state": "MA",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Lori Trahan the winner. 67.2% to Gary Grossi's 30.3%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-3-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ma-7-pressley",
+      "name": "Ayanna Pressley",
+      "office": "house",
+      "incumbent": true,
+      "state": "MA",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Ayanna Pressley the winner. Unopposed.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-7-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "mi-6-dingell",
+      "name": "Debbie Dingell",
+      "office": "house",
+      "incumbent": true,
+      "state": "MI",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Debbie Dingell the winner. 67.4% to Heather Smiley's 30.3%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-6-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "mi-12-tlaib",
+      "name": "Rashida Tlaib",
+      "office": "house",
+      "incumbent": true,
+      "state": "MI",
+      "district": "12",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Rashida Tlaib the winner. 76% to James Hooper's 21.2%, with 98.5% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-12-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "mn-5-omar",
+      "name": "Ilhan Omar",
+      "office": "house",
+      "incumbent": true,
+      "state": "MN",
+      "district": "5",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Ilhan Omar the winner. 76.5% to John Nagel's 16.2%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-us-house-district-5-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nv-4-horsford",
+      "name": "Steven Horsford",
+      "office": "house",
+      "incumbent": true,
+      "state": "NV",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Steven Horsford the winner. 60.4% to Cody Whipple's 37.7%, with 98.6% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/nevada-us-house-district-4-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nj-1-norcross",
+      "name": "Donald Norcross",
+      "office": "house",
+      "incumbent": true,
+      "state": "NJ",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Donald Norcross the winner. 70.4% to Damon Galdo's 29.6%, with 96.2% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-1-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nj-6-pallone",
+      "name": "Frank Pallone",
+      "office": "house",
+      "incumbent": true,
+      "state": "NJ",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Frank Pallone the winner. 69.4% to Hillary Herzig's 30.6%, with 96.6% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-6-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nj-9-pou",
+      "name": "Nellie Pou",
+      "office": "house",
+      "incumbent": true,
+      "state": "NJ",
+      "district": "9",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Nellie Pou the winner. 66.7% to Rosie Pino's 31.8%, with 94.6% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-9-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nj-10-mciver",
+      "name": "LaMonica McIver",
+      "office": "house",
+      "incumbent": true,
+      "state": "NJ",
+      "district": "10",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects LaMonica McIver the winner. 84.6% to Carmen Bucco's 15.4%, with 96% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-10-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nm-1-stansbury",
+      "name": "Melanie Stansbury",
+      "office": "house",
+      "incumbent": true,
+      "state": "NM",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Melanie Stansbury the winner. 63.6% to Ndidiamaka Okpareke's 36.4%, with 98.7% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-mexico-us-house-district-1-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nm-3-fernandez",
+      "name": "Teresa Leger Fernandez",
+      "office": "house",
+      "incumbent": true,
+      "state": "NM",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Teresa Leger Fernandez the winner. 61.7% to Martin Zamora's 38.3%, with 98.3% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-mexico-us-house-district-3-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ny-6-meng",
+      "name": "Grace Meng",
+      "office": "house",
+      "incumbent": true,
+      "state": "NY",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Grace Meng the winner. 68.6% to Joseph Chou's 30.6%, with 88.2% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-6-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ny-9-clarke",
+      "name": "Yvette Clarke",
+      "office": "house",
+      "incumbent": true,
+      "state": "NY",
+      "district": "9",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Yvette Clarke the winner. 82.1% to Joel Azumah's 17%, with 87.1% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-9-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ny-14-ocasio-cortez",
+      "name": "Alexandria Ocasio-Cortez",
+      "office": "house",
+      "incumbent": true,
+      "state": "NY",
+      "district": "14",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Alexandria Ocasio-Cortez the winner. 78.2% to Diamant Hysenaj's 21.5%, with 91.5% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-14-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "ny-20-tonko",
+      "name": "Paul Tonko",
+      "office": "house",
+      "incumbent": true,
+      "state": "NY",
+      "district": "20",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Paul Tonko the winner. 63.6% to Ralph Ambrosio's 36.3%, with 96.4% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-20-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nc-4-foushee",
+      "name": "Valerie Foushee",
+      "office": "house",
+      "incumbent": true,
+      "state": "NC",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Valerie Foushee the winner. 79.1% to Max Ganorkar's 18.9%, with 98.9% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/north-carolina-us-house-district-4-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "nc-12-adams",
+      "name": "Alma Adams",
+      "office": "house",
+      "incumbent": true,
+      "state": "NC",
+      "district": "12",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Alma Adams the winner. 81.2% to Jack Codiga's 18.8%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/north-carolina-us-house-district-12-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "oh-11-brown",
+      "name": "Shontel Brown",
+      "office": "house",
+      "incumbent": true,
+      "state": "OH",
+      "district": "11",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Shontel Brown the winner. 83.5% to Mike Kirchner's 16.5%, with 97.8% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/ohio-us-house-district-11-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "or-1-bonamici",
+      "name": "Suzanne Bonamici",
+      "office": "house",
+      "incumbent": true,
+      "state": "OR",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Suzanne Bonamici the winner. 71% to Barbara Kahl's 28.8%, with 88.4% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-1-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "or-3-dexter",
+      "name": "Maxine Dexter",
+      "office": "house",
+      "incumbent": true,
+      "state": "OR",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Maxine Dexter the winner. 77.3% to Loran Ayles's 22.5%, with 91.4% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-3-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "or-4-hoyle",
+      "name": "Val Hoyle",
+      "office": "house",
+      "incumbent": true,
+      "state": "OR",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Val Hoyle the winner. 53.7% to Monique DeSpain's 42.8%, with 95.1% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-4-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "or-6-salinas",
+      "name": "Andrea Salinas",
+      "office": "house",
+      "incumbent": true,
+      "state": "OR",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Andrea Salinas the winner. 58.2% to David Russ's 41.6%, with 75.7% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-6-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "pa-2-boyle",
+      "name": "Brendan Boyle",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Brendan Boyle the winner. 80.8% to Jessica Arriaga's 19.2%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-2-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "pa-4-dean",
+      "name": "Madeleine Dean",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Madeleine Dean the winner. 67.1% to Aurora Stuski's 32.9%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-4-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "pa-5-scanlon",
+      "name": "Mary Gay Scanlon",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "5",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Mary Gay Scanlon the winner. 72.1% to Nick Manganaro's 27.9%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-5-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "pa-12-lee",
+      "name": "Summer Lee",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "12",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Summer Lee the winner. 65.4% to James Hayes's 34.6%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-12-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "pa-17-deluzio",
+      "name": "Chris Deluzio",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "17",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Chris Deluzio the winner. 62.8% to Tony Guy's 37.2%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-17-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "tx-16-escobar",
+      "name": "Veronica Escobar",
+      "office": "house",
+      "incumbent": true,
+      "state": "TX",
+      "district": "16",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Veronica Escobar the winner. 70.8% to Adam Bauman's 29.2%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-16-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "tx-18-menefee",
+      "name": "Christian Menefee",
+      "office": "house",
+      "incumbent": true,
+      "state": "TX",
+      "district": "18",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Christian Menefee the winner. 86% to Ronald Whitfield's 14%, with 97.7% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-18-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "tx-20-castro",
+      "name": "Joaquin Castro",
+      "office": "house",
+      "incumbent": true,
+      "state": "TX",
+      "district": "20",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Joaquin Castro the winner. 77.6% to Edgardo Baez's 22.4%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-20-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "tx-37-casar",
+      "name": "Greg Casar",
+      "office": "house",
+      "incumbent": true,
+      "state": "TX",
+      "district": "37",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Greg Casar the winner. 83.8% to Lauren Peña's 16.2%. Ran in the 37th District after Texas redrew its map.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-37-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "vt-al-balint",
+      "name": "Becca Balint",
+      "office": "house",
+      "incumbent": true,
+      "state": "VT",
+      "district": "AL",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Becca Balint the winner. 65.2% to Gerald Malloy's 30.9%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/vermont-us-house-district-1-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "va-4-mcclellan",
+      "name": "Jennifer McClellan",
+      "office": "house",
+      "incumbent": true,
+      "state": "VA",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Jennifer McClellan the winner. 72.2% to Robert Murray Jr.'s 26.2%, with 97.9% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-4-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "va-8-beyer",
+      "name": "Don Beyer",
+      "office": "house",
+      "incumbent": true,
+      "state": "VA",
+      "district": "8",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Don Beyer the winner. 79.4% to Tony Sabio's 17.9%, with 96% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-8-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "wa-6-randall",
+      "name": "Emily Randall",
+      "office": "house",
+      "incumbent": true,
+      "state": "WA",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Emily Randall the winner. 63.6% to Teresa Fox's 36.2%, with 86% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-6-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "wa-7-jayapal",
+      "name": "Pramila Jayapal",
+      "office": "house",
+      "incumbent": true,
+      "state": "WA",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Pramila Jayapal the winner. 87.4% to Nirav Sheth's 12.2%, with 83% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-7-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "wa-9-smith",
+      "name": "Adam Smith",
+      "office": "house",
+      "incumbent": true,
+      "state": "WA",
+      "district": "9",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Adam Smith the winner. 75.2% to Doug Basler's 24.1%, with 83% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-9-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "wi-2-pocan",
+      "name": "Mark Pocan",
+      "office": "house",
+      "incumbent": true,
+      "state": "WI",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Mark Pocan the winner. Unopposed.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/wisconsin-us-house-district-2-results"
+      },
+      "checkedAt": "2026-11-08"
+    },
+    {
+      "id": "wi-4-moore",
+      "name": "Gwen Moore",
+      "office": "house",
+      "incumbent": true,
+      "state": "WI",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "won",
+      "note": "NBC News projects Gwen Moore the winner. 80% to Tim Rogers's 17.5%, with 99% of expected votes in.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/wisconsin-us-house-district-4-results"
+      },
+      "checkedAt": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# Daily recheck of unresolved races. Keeps one rolling PR on the data-refresh branch for review.
+name: Refresh race data
+
+on:
+  schedule:
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/refresh.ts report.md
+      # PRs opened with GITHUB_TOKEN don't trigger other workflows, so test here.
+      - run: npm test
+      - name: Open or update the refresh PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet data/; then echo "No data changes."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898182+github-actions[bot]@users.noreply.github.com"
+          git checkout -B data-refresh
+          git commit -am "Refresh race data $(date -u +%F)"
+          git push --force origin data-refresh
+          if gh pr view data-refresh --json state -q .state 2>/dev/null | grep -q OPEN; then
+            gh pr edit data-refresh --body-file report.md
+          else
+            gh pr create --head data-refresh --base main --title "Refresh race data" --body-file report.md
+          fi
