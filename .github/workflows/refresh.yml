@@ -1,4 +1,4 @@
-# Daily recheck of unresolved races. Keeps one rolling PR on the data-refresh branch for review.
+# Daily recheck of unresolved races. Opens a PR on the data-refresh branch and merges it once tests pass.
 name: Refresh race data
 
 on:
@@ -23,7 +23,7 @@ jobs:
       - run: npx tsx scripts/refresh.ts report.md
       # PRs opened with GITHUB_TOKEN don't trigger other workflows, so test here.
       - run: npm test
-      - name: Open or update the refresh PR
+      - name: Open and merge the refresh PR
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -38,3 +38,5 @@ jobs:
           else
             gh pr create --head data-refresh --base main --title "Refresh race data" --body-file report.md
           fi
+          # Merging deploys; the build gate fails if race data goes stale.
+          gh pr merge data-refresh --squash --delete-branch
