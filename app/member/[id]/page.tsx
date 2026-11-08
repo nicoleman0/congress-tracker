@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { ActionList, StatusBadge } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, helpActions } from "@/lib/actions";
@@ -14,16 +13,10 @@ export async function generateMetadata({ params }: PageProps<"/member/[id]">) {
   return { title: m ? `${m.name} · Progressive Bloc` : "Not found" };
 }
 
-// Params are known at build time, but the shell must render before they resolve.
-export default function MemberPage({ params }: PageProps<"/member/[id]">) {
-  return (
-    <Suspense fallback={<p className="text-muted">Loading…</p>}>
-      <Content params={params} />
-    </Suspense>
-  );
-}
+// Every real path is prerendered, so blocking costs nothing. proxy.ts 404s unknown ids.
+export const instant = false;
 
-async function Content({ params }: { params: PageProps<"/member/[id]">["params"] }) {
+export default async function MemberPage({ params }: PageProps<"/member/[id]">) {
   const m = getMember((await params).id);
   if (!m) notFound();
   const state = getState(m.state)!;
@@ -46,6 +39,7 @@ async function Content({ params }: { params: PageProps<"/member/[id]">["params"]
           <a href={m.source.url} target="_blank" rel="noopener noreferrer" className="underline">
             {m.source.label}
           </a>
+          {" · "}Last checked {m.checkedAt}
         </p>
       </div>
 

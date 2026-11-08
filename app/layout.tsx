@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Link from "next/link";
-import { asOf } from "@/lib/data";
+import { lastChecked } from "@/lib/data";
 import "./globals.css";
 
 const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main className="mx-auto w-full max-w-5xl px-4 py-8 flex-1">{children}</main>
         <footer className="border-t border-line text-sm text-muted">
           <div className="mx-auto max-w-5xl px-4 py-6">
-            Data as of {asOf}. Results can change as races are called. Every listing links to its source.{" "}
+            Last checked {lastChecked}. Results can change as races are called. Every listing links to its source.{" "}
             <Link href="/method" className="underline">Method and sources</Link>.
           </div>
         </footer>

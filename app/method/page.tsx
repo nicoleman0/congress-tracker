@@ -1,4 +1,4 @@
-import { asOf, groupList } from "@/lib/data";
+import { groupList } from "@/lib/data";
 
 export const metadata = { title: "How we pick · Progressive Bloc" };
 
@@ -32,7 +32,10 @@ export default function Method() {
           <li><b>Too early to call</b>: close, or no result found yet.</li>
           <li><b>Incumbent</b>: a current caucus member. Their 2026 results are not yet verified.</li>
         </ul>
-        <p className="text-muted">Data as of {asOf}. Results change as counting continues.</p>
+        <p className="text-muted">
+          Each profile shows when its status was last checked. Races that are leading or too early to call
+          are rechecked at least every 3 days.
+        </p>
       </section>
 
       <section className="space-y-2">

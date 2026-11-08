@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { ActionList, MemberCard } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN } from "@/lib/actions";
@@ -24,16 +23,10 @@ function NoProgressive({ what }: { what: string }) {
   );
 }
 
-// Params are known at build time, but the shell must render before they resolve.
-export default function StatePage({ params }: PageProps<"/state/[st]">) {
-  return (
-    <Suspense fallback={<p className="text-muted">Loading…</p>}>
-      <Content params={params} />
-    </Suspense>
-  );
-}
+// Every real path is prerendered, so blocking costs nothing. proxy.ts 404s unknown ids.
+export const instant = false;
 
-async function Content({ params }: { params: PageProps<"/state/[st]">["params"] }) {
+export default async function StatePage({ params }: PageProps<"/state/[st]">) {
   const state = getState((await params).st.toUpperCase());
   if (!state) notFound();
 

@@ -1,5 +1,4 @@
 {
-  "asOf": "2026-11-08",
   "groups": {
     "JD": {
       "name": "Justice Democrats",
@@ -39,7 +38,8 @@
         "url": "https://patch.com/california/across-ca/ca-house-races-2026-real-time-results"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "co-01-kiros",
@@ -59,7 +59,8 @@
         "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "mi-07-lawrence",
@@ -78,7 +79,8 @@
         "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ny-07-valdez",
@@ -97,7 +99,8 @@
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-7-results"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ny-10-lander",
@@ -114,7 +117,8 @@
         "url": "https://abc7ny.com/politics/elections/local/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ny-12-lasher",
@@ -131,7 +135,8 @@
         "url": "https://abc7ny.com/politics/elections/local/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nj-12-hamawy",
@@ -149,7 +154,8 @@
         "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "oh-07-poindexter",
@@ -167,7 +173,8 @@
         "url": "https://www.news5cleveland.com/politics/america-votes/poindexter-declared-winner-in-ohios-hotly-contested-7th-district-race"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "pa-03-rabb",
@@ -186,7 +193,8 @@
         "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "pa-07-brooks",
@@ -204,7 +212,8 @@
         "url": "https://www.fox29.com/news/bob-brooks-wins-u-s-house-seat-representing-pennsylvanias-7th-district-ap"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "tx-23-padilla-stout",
@@ -222,7 +231,8 @@
         "url": "https://www.ksat.com/news/texas/2026/11/04/katy-padilla-stout-democratic-newcomer-flips-west-texas-congressional-seat/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ny-13-avila-chevalier",
@@ -241,7 +251,8 @@
         "url": "https://abc7ny.com/politics/elections/local/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ny-17-conley",
@@ -258,7 +269,8 @@
         "url": "https://abc7ny.com/politics/elections/local/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "mn-02-little",
@@ -275,7 +287,8 @@
         "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-house-results"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-14-wahab",
@@ -295,7 +308,8 @@
         "url": "https://www.kqed.org/news/12106988/wahab-well-ahead-of-hernandez-in-east-bay-congressional-race"
       },
       "office": "house",
-      "incumbent": true
+      "incumbent": true,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "mi-13-mckinney",
@@ -314,7 +328,8 @@
         "url": "https://ballotpedia.org/Michigan's_13th_Congressional_District_election,_2026"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "tx-30-haynes",
@@ -331,7 +346,8 @@
         "url": "https://wtop.com/news/2026/03/frederick-haynes-wins-democratic-nomination-for-u-s-house-in-texas-30th-congressional-district"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nj-11-mejia",
@@ -349,7 +365,8 @@
         "url": "https://en.wikipedia.org/wiki/Analilia_Mejia"
       },
       "office": "house",
-      "incumbent": true
+      "incumbent": true,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "dc-al-white",
@@ -366,7 +383,8 @@
         "url": "https://www.fox5dc.com/news/2026-midterm-elections-washington-dc-us-delegate-race-live-results"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "tn-09-pearson",
@@ -385,7 +403,8 @@
         "url": "https://workingfamilies.org/2026/11/what-happened-on-tuesday/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-07-vang",
@@ -403,7 +422,8 @@
         "url": "https://justicedemocrats.com/candidate/mai-vang/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-34-gonzales-torres",
@@ -421,7 +441,8 @@
         "url": "https://justicedemocrats.com/candidates/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "va-05-perriello",
@@ -438,7 +459,8 @@
         "url": "https://www.nbcnews.com/politics/2026-primary-elections/virginia-house-results"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "mt-01-forstag",
@@ -455,7 +477,8 @@
         "url": "https://ourrevolution.com/revolution-report-november-7th-2026/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "fl-24-jones",
@@ -472,7 +495,8 @@
         "url": "https://weareprogressives.org/press-releases/"
       },
       "office": "house",
-      "incumbent": false
+      "incumbent": false,
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "mi-sen-el-sayed",
@@ -490,7 +514,8 @@
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/michigan-senate-results"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "me-sen-jackson",
@@ -508,7 +533,8 @@
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "tx-sen-talarico",
@@ -525,7 +551,8 @@
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "vt-sen-sanders",
@@ -542,7 +569,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "az-3-ansari",
@@ -559,7 +587,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "az-7-grijalva",
@@ -576,7 +605,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-2-huffman",
@@ -593,7 +623,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-8-garamendi",
@@ -610,7 +641,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-10-desaulnier",
@@ -627,7 +659,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-12-simon",
@@ -644,7 +677,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-15-mullin",
@@ -661,7 +695,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-17-khanna",
@@ -678,7 +713,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-19-panetta",
@@ -695,7 +731,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-28-chu",
@@ -712,7 +749,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-29-rivas",
@@ -729,7 +767,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-30-friedman",
@@ -746,7 +785,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-32-sherman",
@@ -763,7 +803,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-34-gomez",
@@ -780,7 +821,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-36-lieu",
@@ -797,7 +839,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-37-kamlager-dove",
@@ -814,7 +857,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-38-sanchez",
@@ -831,7 +875,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-39-takano",
@@ -848,7 +893,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-42-garcia",
@@ -865,7 +911,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-43-waters",
@@ -882,7 +929,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-44-barragan",
@@ -899,7 +947,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-47-min",
@@ -916,7 +965,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-49-levin",
@@ -933,7 +983,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-51-jacobs",
@@ -950,7 +1001,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ca-52-vargas",
@@ -967,7 +1019,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "co-2-neguse",
@@ -984,7 +1037,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ct-3-delauro",
@@ -1001,7 +1055,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "de-al-mcbride",
@@ -1018,7 +1073,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "fl-9-soto",
@@ -1035,7 +1091,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "fl-10-frost",
@@ -1052,7 +1109,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "fl-24-wilson",
@@ -1069,7 +1127,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ga-4-johnson",
@@ -1086,7 +1145,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ga-5-williams",
@@ -1103,7 +1163,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ga-13-blair",
@@ -1120,7 +1181,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "hi-2-tokuda",
@@ -1137,7 +1199,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "il-1-jackson",
@@ -1154,7 +1217,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "il-3-ramirez",
@@ -1171,7 +1235,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "il-4-garcia",
@@ -1188,7 +1253,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "il-7-davis",
@@ -1205,7 +1271,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "il-9-schakowsky",
@@ -1222,7 +1289,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "in-7-carson",
@@ -1239,7 +1307,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ky-3-mcgarvey",
@@ -1256,7 +1325,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "la-2-carter",
@@ -1273,7 +1343,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "me-1-pingree",
@@ -1290,7 +1361,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "md-7-mfume",
@@ -1307,7 +1379,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "md-8-raskin",
@@ -1324,7 +1397,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ma-2-mcgovern",
@@ -1341,7 +1415,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ma-3-trahan",
@@ -1358,7 +1433,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ma-7-pressley",
@@ -1375,7 +1451,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "mi-6-dingell",
@@ -1392,7 +1469,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "mi-12-tlaib",
@@ -1409,7 +1487,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "mn-5-omar",
@@ -1426,7 +1505,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nv-4-horsford",
@@ -1443,7 +1523,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nj-1-norcross",
@@ -1460,7 +1541,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nj-6-pallone",
@@ -1477,7 +1559,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nj-9-pou",
@@ -1494,7 +1577,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nj-10-mciver",
@@ -1511,7 +1595,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nm-1-stansbury",
@@ -1528,7 +1613,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nm-3-fernandez",
@@ -1545,7 +1631,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ny-6-meng",
@@ -1562,7 +1649,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ny-9-clarke",
@@ -1579,7 +1667,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ny-14-ocasio-cortez",
@@ -1596,7 +1685,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "ny-20-tonko",
@@ -1613,7 +1703,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nc-4-foushee",
@@ -1630,7 +1721,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "nc-12-adams",
@@ -1647,7 +1739,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "oh-11-brown",
@@ -1664,7 +1757,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "or-1-bonamici",
@@ -1681,7 +1775,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "or-3-dexter",
@@ -1698,7 +1793,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "or-4-hoyle",
@@ -1715,7 +1811,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "or-6-salinas",
@@ -1732,7 +1829,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "pa-2-boyle",
@@ -1749,7 +1847,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "pa-4-dean",
@@ -1766,7 +1865,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "pa-5-scanlon",
@@ -1783,7 +1883,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "pa-12-lee",
@@ -1800,7 +1901,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "pa-17-deluzio",
@@ -1817,7 +1919,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "tx-16-escobar",
@@ -1834,7 +1937,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "tx-18-menefee",
@@ -1851,7 +1955,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "tx-20-castro",
@@ -1868,7 +1973,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "tx-35-casar",
@@ -1885,7 +1991,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "tx-37-doggett",
@@ -1902,7 +2009,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "vt-al-balint",
@@ -1919,7 +2027,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "va-4-mcclellan",
@@ -1936,7 +2045,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "va-8-beyer",
@@ -1953,7 +2063,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "wa-6-randall",
@@ -1970,7 +2081,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "wa-7-jayapal",
@@ -1987,7 +2099,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "wa-9-smith",
@@ -2004,7 +2117,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "wi-2-pocan",
@@ -2021,7 +2135,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     },
     {
       "id": "wi-4-moore",
@@ -2038,7 +2153,8 @@
       "source": {
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      }
+      },
+      "checkedAt": "2026-11-08"
     }
   ]
 }

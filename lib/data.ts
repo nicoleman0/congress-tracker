@@ -18,7 +18,13 @@ export type Member = {
   status: Status;
   note: string;
   source: Source;
+  checkedAt: string;
 };
+
+// Unresolved races older than this fail the build (scripts/check-stale.ts).
+export const STALE_AFTER_DAYS = 3;
+const UNRESOLVED: Status[] = ["leading", "pending"];
+const DAY_MS = 86_400_000;
 
 const OFFICES: Office[] = ["house", "senate"];
 const STATUSES: Status[] = ["won", "leading", "pending", "incumbent"];
@@ -44,14 +50,21 @@ function load() {
     if (m.endorsedBy.length === 0) fail(`${m.id}: no reason for listing`);
     for (const g of m.endorsedBy) if (!groups.has(g)) fail(`${m.id}: unknown group ${g}`);
     if (!m.source?.url.startsWith("https://")) fail(`${m.id}: source needs an https url`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(m.checkedAt)) fail(`${m.id}: checkedAt must be YYYY-MM-DD`);
     return m;
   });
-  return { asOf: raw.asOf, groups, members };
+  return { groups, members };
+}
+
+export function staleMembers(members: Member[], now: Date): Member[] {
+  return members.filter(
+    (m) => UNRESOLVED.includes(m.status) && now.getTime() - Date.parse(m.checkedAt) > STALE_AFTER_DAYS * DAY_MS,
+  );
 }
 
 const db = load();
 
-export const asOf = db.asOf;
+export const lastChecked = db.members.map((m) => m.checkedAt).sort().at(-1)!;
 export const allMembers = (): Member[] => db.members;
 export const getMember = (id: string) => db.members.find((m) => m.id === id);
 export const getGroup = (code: string) => db.groups.get(code)!;
