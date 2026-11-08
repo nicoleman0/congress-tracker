@@ -38,11 +38,15 @@ export default function Home() {
       <section className="section" id="states" aria-labelledby="states-title">
         <h2 id="states-title" className="section-title"><span className="ink">Browse by state</span></h2>
         <ul className="state-grid">
-          {STATES.filter((s) => membersIn(s.code).length > 0).map((s) => (
-            <li key={s.code}>
-              <Link href={`/state/${s.code.toLowerCase()}`}>{s.name}</Link>
-            </li>
-          ))}
+          {STATES.map((s) => {
+            const n = membersIn(s.code).length;
+            return (
+              <li key={s.code}>
+                <Link href={`/state/${s.code.toLowerCase()}`} className={n ? undefined : "state-none"}>{s.name}</Link>
+                {n > 0 && <span className="state-count">{n}</span>}
+              </li>
+            );
+          })}
         </ul>
       </section>
     </>

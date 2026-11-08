@@ -600,6 +600,10 @@ p {
   text-decoration: none;
 }
 .state-grid a:hover { text-decoration: underline; text-decoration-thickness: 2px; }
+.state-grid li { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-1); }
+/* States with no listed member stay reachable but recede. */
+.state-grid a.state-none { color: var(--muted); font-weight: 500; }
+.state-count { color: var(--muted); font-size: 0.9rem; font-variant-numeric: tabular-nums; }
 
 /* Full roster in columns, dense enough to scan in one screen. */
 .roster {
