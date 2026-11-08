@@ -1,6 +1,6 @@
 // Writes "congress" stances from sponsors and cosponsors of the bills below, via api.congress.gov.
 // Campaign stances and record stances for other bills are left alone. Withdrawn cosponsors are skipped.
-// Usage: CONGRESS_API_KEY=... tsx scripts/record.ts   (free key at https://api.data.gov/signup/)
+// Usage: DATA_GOV_API_KEY=... tsx scripts/record.ts   (free key at https://api.data.gov/signup/)
 import fs from "node:fs";
 import type { Member, Stance } from "@/lib/data";
 import { bare } from "@/lib/names";
@@ -46,7 +46,7 @@ export function stanceFor(b: Bill, role: "Sponsored" | "Cosponsored", checkedAt:
 }
 
 async function api(path: string, params: Record<string, string> = {}) {
-  const qs = new URLSearchParams({ ...params, format: "json", api_key: process.env.CONGRESS_API_KEY! });
+  const qs = new URLSearchParams({ ...params, format: "json", api_key: process.env.DATA_GOV_API_KEY! });
   const res = await fetch(`${API}${path}?${qs}`);
   if (!res.ok) throw new Error(`congress.gov ${path}: HTTP ${res.status}`);
   return res.json();
@@ -63,7 +63,7 @@ async function sponsorsOf(b: Bill) {
 }
 
 async function main() {
-  if (!process.env.CONGRESS_API_KEY) throw new Error("set CONGRESS_API_KEY (free at https://api.data.gov/signup/)");
+  if (!process.env.DATA_GOV_API_KEY) throw new Error("set DATA_GOV_API_KEY (free at https://api.data.gov/signup/)");
   const members = (JSON.parse(fs.readFileSync(MEMBERS, "utf8")) as { members: Member[] }).members.filter((m) => m.incumbent);
   const platform = JSON.parse(fs.readFileSync(PLATFORM, "utf8")) as { stances: Record<string, Stance[]> };
   const today = new Date().toISOString().slice(0, 10);

@@ -1,6 +1,6 @@
 // Fills in campaign sites from each member's principal FEC committee (the website on its Form 1).
 // Only writes links that load. Anything ambiguous or unreachable is reported for a manual check.
-// Usage: FEC_API_KEY=... tsx scripts/campaign-links.ts [--all]
+// Usage: DATA_GOV_API_KEY=... tsx scripts/campaign-links.ts [--all]
 import fs from "node:fs";
 import type { Member } from "@/lib/data";
 import { bare } from "@/lib/names";
@@ -50,7 +50,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 // Keys allow 60 requests per rolling window: pace at one per second and wait out a 429.
 async function fec(path: string, params: Record<string, string>) {
-  const qs = new URLSearchParams({ ...params, api_key: process.env.FEC_API_KEY! });
+  const qs = new URLSearchParams({ ...params, api_key: process.env.DATA_GOV_API_KEY! });
   for (let attempt = 0; attempt < 5; attempt++) {
     await sleep(1100);
     const res = await fetch(`${FEC}${path}?${qs}`);
@@ -73,7 +73,7 @@ async function loads(url: string) {
 }
 
 async function main() {
-  if (!process.env.FEC_API_KEY) throw new Error("set FEC_API_KEY (free at https://api.data.gov/signup/)");
+  if (!process.env.DATA_GOV_API_KEY) throw new Error("set DATA_GOV_API_KEY (free at https://api.data.gov/signup/)");
   const all = process.argv.includes("--all");
   const data = JSON.parse(fs.readFileSync(DATA, "utf8")) as { members: Member[] };
   const added: string[] = [];

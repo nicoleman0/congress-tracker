@@ -25,10 +25,8 @@ jobs:
       - run: npx tsx scripts/check-platform.ts report.md
       - name: Rebuild bill records
         env:
-          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
-        run: |
-          if [ -z "$CONGRESS_API_KEY" ]; then echo "CONGRESS_API_KEY not set; bill records not refreshed." | tee -a report.md; exit 0; fi
-          npx tsx scripts/record.ts | tee -a report.md
+          DATA_GOV_API_KEY: ${{ secrets.DATA_GOV_API_KEY }}
+        run: npx tsx scripts/record.ts | tee -a report.md
       - run: npm test
       - name: Open and merge the recheck PR
         env:
