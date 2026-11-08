@@ -1,8 +1,8 @@
-# Progressive Bloc
+# Gracchi
 
 Who the progressives in Congress are, how to back them, and where to plug in locally.
 
-Live: https://congress-tracker-tawny-one.vercel.app
+Live: https://gracchi.vercel.app
 
 ## Who is listed
 

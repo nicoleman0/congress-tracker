@@ -80,7 +80,6 @@ export const newClass = () =>
 export const toWatch = () => db.members.filter((m) => m.status === "pending" || m.status === "leading");
 
 export const membersIn = (state: string) => db.members.filter((m) => m.state === state && m.status !== "lost");
-export const lostRaces = () => db.members.filter((m) => m.status === "lost");
 export const getState = (code: string): State | undefined => STATES.find((s) => s.code === code);
 
 export function districtsOf(state: State): string[] {

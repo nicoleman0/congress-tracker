@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ActionList, MemberCard } from "@/components/ui";
+import { ActionList, MemberList } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN } from "@/lib/actions";
 import { districtsOf, getState, membersIn } from "@/lib/data";
 import { STATES } from "@/lib/states";
@@ -11,15 +11,12 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/state/[st]">) {
   const state = getState((await params).st.toUpperCase());
-  return { title: state ? `${state.name} · Progressive Bloc` : "Not found" };
+  return { title: state ? state.name : "Not found" };
 }
 
 function NoProgressive({ what }: { what: string }) {
   return (
-    <div className="rounded-lg border border-dashed border-line p-4 text-sm text-muted">
-      No progressive {what} listed. Use the links under &ldquo;Oppose and plug in&rdquo; to reach your
-      member and the groups organizing here.
-    </div>
+    <p className="empty">No progressive {what} listed.</p>
   );
 }
 
@@ -32,61 +29,45 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
 
   const members = membersIn(state.code);
   const senators = members.filter((m) => m.office === "senate");
-  const house = members.filter((m) => m.office === "house");
+  const house = members
+    .filter((m) => m.office === "house")
+    .sort((a, b) => Number(a.district) - Number(b.district));
   const listed = new Set(house.map((m) => m.district));
   const unlisted = districtsOf(state).filter((d) => !listed.has(d));
 
   return (
-    <div className="space-y-10">
-      <div>
-        <Link href="/#states" className="text-sm text-muted underline">All states</Link>
-        <h1 className="text-3xl font-bold mt-2">{state.name}</h1>
-        <p className="text-muted">
+    <>
+      <header className="page-header">
+        <Link href="/#states" className="crumb">All states</Link>
+        <h1>{state.name}</h1>
+        <p className="meta">
           {house.length} progressive House {house.length === 1 ? "listing" : "listings"} across {state.seats}{" "}
           {state.seats === 1 ? "seat" : "seats"}.
         </p>
-      </div>
+      </header>
 
       {state.senators && (
-        <section className="space-y-3">
-          <h2 className="text-xl font-semibold">Senate</h2>
-          {senators.length ? (
-            <div className="grid gap-3 sm:grid-cols-2">{senators.map((m) => <MemberCard key={m.id} m={m} />)}</div>
-          ) : (
-            <NoProgressive what="senator" />
-          )}
+        <section className="section" aria-labelledby="senate-title">
+          <h2 id="senate-title">Senate</h2>
+          {senators.length ? <MemberList members={senators} /> : <NoProgressive what="senator" />}
         </section>
       )}
 
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold">House</h2>
-        {house.length ? (
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {house
-              .sort((a, b) => Number(a.district) - Number(b.district))
-              .map((m) => <MemberCard key={m.id} m={m} />)}
-          </div>
-        ) : (
-          <NoProgressive what="House member" />
-        )}
+      <section className="section" aria-labelledby="house-title">
+        <h2 id="house-title">House</h2>
+        {house.length ? <MemberList members={house} /> : <NoProgressive what="House member" />}
         {unlisted.length > 0 && house.length > 0 && (
-          <p className="text-sm text-muted">
-            No progressive listed in {unlisted.length === 1 ? "district" : "districts"}{" "}
-            {unlisted.join(", ")}.
+          <p className="note">
+            No progressive listed in {unlisted.length === 1 ? "district" : "districts"} {unlisted.join(", ")}.
           </p>
         )}
-        <p className="text-xs text-muted">
-          District numbers can shift: several states redrew their maps for 2026. Address lookup comes later.
-        </p>
+        <p className="note">Several states redrew their district maps for 2026.</p>
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Oppose and plug in</h2>
-        <p className="text-sm text-muted">
-          If your member isn&apos;t listed above, contact them directly and join the people organizing near you.
-        </p>
+      <section className="section" aria-labelledby="plug-in-title">
+        <h2 id="plug-in-title">Oppose and plug in</h2>
         <ActionList actions={[CONTACT_HOUSE, ...(state.senators ? [CONTACT_SENATE] : []), ...PLUG_IN]} />
       </section>
-    </div>
+    </>
   );
 }

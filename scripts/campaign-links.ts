@@ -4,6 +4,7 @@
 import fs from "node:fs";
 import type { Member } from "@/lib/data";
 import { bare } from "@/lib/names";
+import { USER_AGENT } from "@/lib/site";
 
 const DATA = "data/members.json";
 const FEC = "https://api.open.fec.gov/v1";
@@ -62,7 +63,7 @@ async function fec(path: string, params: Record<string, string>) {
 
 async function loads(url: string) {
   try {
-    const res = await fetch(url, { redirect: "follow", headers: { "user-agent": "Mozilla/5.0 (congress-tracker link check)" } });
+    const res = await fetch(url, { redirect: "follow", headers: { "user-agent": USER_AGENT } });
     // A Cloudflare bot challenge means the site is up; visitors pass it, scripts don't.
     if (res.ok || res.headers.get("cf-mitigated") === "challenge") return null;
     return `HTTP ${res.status}`;

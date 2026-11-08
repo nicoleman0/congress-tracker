@@ -4,6 +4,7 @@
 import fs from "node:fs";
 import type { Member, Status } from "@/lib/data";
 import { bare } from "@/lib/names";
+import { USER_AGENT } from "@/lib/site";
 import { STATES } from "@/lib/states";
 
 const DATA = "data/members.json";
@@ -74,7 +75,7 @@ async function main() {
     if (!url) { problems.push(`${m.id}: no NBC page for this seat; check by hand`); continue; }
     let decision: Decision;
     try {
-      const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0 (congress-tracker refresh)" } });
+      const res = await fetch(url, { headers: { "user-agent": USER_AGENT } });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const races = parseRaces(await res.text());
       fetched++;

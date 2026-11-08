@@ -2,61 +2,45 @@ import Link from "next/link";
 import type { Action } from "@/lib/actions";
 import { getGroup, seatLabel, type Member, type Status } from "@/lib/data";
 
-const STATUS_TEXT: Record<Status, string> = {
+export const STATUS_TEXT: Record<Status, string> = {
   won: "Won",
   leading: "Leading",
   pending: "Not called",
   incumbent: "Incumbent",
   lost: "Lost",
 };
-const STATUS_CLASS: Record<Status, string> = {
-  won: "text-won border-won",
-  leading: "text-leading border-leading",
-  pending: "text-pending border-pending",
-  incumbent: "text-muted border-line",
-  lost: "text-muted border-line line-through",
-};
 
 export function StatusBadge({ status }: { status: Status }) {
-  return (
-    <span className={`inline-block rounded-full border px-2 py-0.5 text-xs font-medium ${STATUS_CLASS[status]}`}>
-      {STATUS_TEXT[status]}
-    </span>
-  );
+  return <span className={`chip chip--${status}`}>{STATUS_TEXT[status]}</span>;
 }
 
-export function MemberCard({ m }: { m: Member }) {
+export function MemberList({ members }: { members: Member[] }) {
   return (
-    <Link
-      href={`/member/${m.id}`}
-      className="block rounded-lg border border-line bg-surface p-4 hover:border-accent transition-colors"
-    >
-      <div className="flex items-start justify-between gap-3">
-        <div>
-          <div className="font-semibold">{m.name}</div>
-          <div className="text-sm text-muted">{seatLabel(m)}</div>
-        </div>
-        <StatusBadge status={m.status} />
-      </div>
-      <div className="mt-3 text-xs text-muted">{m.endorsedBy.map((c) => getGroup(c).name).join(" · ")}</div>
-    </Link>
+    <ul className="member-list">
+      {members.map((m) => (
+        <li key={m.id}>
+          <Link href={`/member/${m.id}`} className="member-row">
+            <span className="member-name">{m.name}</span>
+            <span className="member-seat">
+              {seatLabel(m)} <StatusBadge status={m.status} />
+            </span>
+            <span className="member-groups">{m.endorsedBy.map((c) => getGroup(c).name).join(" · ")}</span>
+          </Link>
+        </li>
+      ))}
+    </ul>
   );
 }
 
 export function ActionList({ actions }: { actions: Action[] }) {
   return (
-    <ul className="space-y-2">
+    <ul className="action-list">
       {actions.map((a) => (
         <li key={a.href + a.label}>
-          <a
-            href={a.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block rounded-md border border-line bg-surface px-4 py-3 hover:border-accent"
-          >
-            <span className="font-medium text-accent">{a.label} ↗</span>
-            {a.detail && <span className="block text-sm text-muted">{a.detail}</span>}
+          <a href={a.href} target="_blank" rel="noopener noreferrer" className="action-link">
+            {a.label} ↗
           </a>
+          {a.detail && <span className="action-detail">{a.detail}</span>}
         </li>
       ))}
     </ul>
