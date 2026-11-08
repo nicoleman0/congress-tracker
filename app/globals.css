@@ -442,6 +442,8 @@ p {
 .platform dd + dd { margin-top: 0.35rem; }
 .platform-source { font-size: 0.9rem; color: var(--muted); white-space: nowrap; }
 .platform-source:hover { color: var(--ultra); }
+.platform-checked { font-size: 0.85rem; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.platform-stale { font-size: 0.85rem; color: var(--ultra); font-style: italic; white-space: nowrap; }
 
 /* ============================================================
    Member rows: hairline-ruled, whole row clickable.

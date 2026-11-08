@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import { CheckedDate } from "@/components/CheckedDate";
 import { MemberNews } from "@/components/MemberNews";
 import { ActionList, STATUS_TEXT } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, campaignAction } from "@/lib/actions";
@@ -84,21 +85,27 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
         {platform.length === 0 ? (
           <p className="note">No sourced positions yet.</p>
         ) : (
-          <dl className="platform">
-            {platform.map((g) => (
-              <div key={g.issue} className="platform-issue">
-                <dt>{g.name}</dt>
-                {g.stances.map((s) => (
-                  <dd key={s.source.url + s.text}>
-                    {s.kind === "congress" && <span className="chip chip--record">Record</span>} {s.text}{" "}
-                    <a href={s.source.url} target="_blank" rel="noopener noreferrer" className="platform-source">
-                      {s.source.label} ↗
-                    </a>
-                  </dd>
-                ))}
-              </div>
-            ))}
-          </dl>
+          <>
+            <p className="note">
+              Summarized from the linked pages and rechecked against them weekly. <Link href="/method">How we source this</Link>.
+            </p>
+            <dl className="platform">
+              {platform.map((g) => (
+                <div key={g.issue} className="platform-issue">
+                  <dt>{g.name}</dt>
+                  {g.stances.map((s) => (
+                    <dd key={s.source.url + s.text}>
+                      {s.kind === "congress" && <span className="chip chip--record">Record</span>} {s.text}{" "}
+                      <a href={s.source.url} target="_blank" rel="noopener noreferrer" className="platform-source">
+                        {s.source.label} ↗
+                      </a>{" "}
+                      <CheckedDate date={s.checkedAt} />
+                    </dd>
+                  ))}
+                </div>
+              ))}
+            </dl>
+          </>
         )}
       </section>
     </>

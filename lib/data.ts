@@ -26,10 +26,14 @@ export type Member = {
   checkedAt: string;
 };
 
-// "campaign": the member's own site or statements. "congress": a vote or cosponsorship on the public record.
-export type StanceKind = "campaign" | "congress";
-export type Stance = { issue: string; text: string; kind: StanceKind; source: Source; checkedAt: string };
+// "campaign": the member's campaign site. "office": their official House or Senate site.
+// "congress": a vote or cosponsorship on the public record.
+export type StanceKind = "campaign" | "office" | "congress";
+// `quote` is the passage on the source page the stance paraphrases; scripts/check-platform.ts rechecks it.
+// Record stances have none: scripts/record.ts rebuilds them from Congress.gov.
+export type Stance = { issue: string; text: string; kind: StanceKind; quote?: string; source: Source; checkedAt: string };
 const RECORD_HOSTS = /^https:\/\/(www\.)?(congress\.gov|clerk\.house\.gov|senate\.gov)\//;
+const OFFICE_HOSTS = /^https:\/\/[a-z-]+\.(house|senate)\.gov\//;
 
 // Unresolved races older than this fail the build (scripts/check-stale.ts).
 export const STALE_AFTER_DAYS = 3;
@@ -73,9 +77,11 @@ function load() {
     for (const s of list) {
       if (!issues.has(s.issue)) fail(`platform ${id}: unknown issue ${s.issue}`);
       if (!s.text.trim()) fail(`platform ${id}: empty stance on ${s.issue}`);
-      if (s.kind !== "campaign" && s.kind !== "congress") fail(`platform ${id}: bad kind ${s.kind}`);
+      if (!["campaign", "office", "congress"].includes(s.kind)) fail(`platform ${id}: bad kind ${s.kind}`);
       if (!s.source?.url.startsWith("https://")) fail(`platform ${id}: source needs an https url`);
       if (s.kind === "congress" && !RECORD_HOSTS.test(s.source.url)) fail(`platform ${id}: congress stance must cite congress.gov, clerk.house.gov or senate.gov`);
+      if (s.kind !== "congress" && !s.quote?.trim()) fail(`platform ${id}: ${s.issue} needs the quote it paraphrases`);
+      if (s.kind === "office" && !OFFICE_HOSTS.test(s.source.url)) fail(`platform ${id}: office stance must cite a house.gov or senate.gov member site`);
       if (!/^\d{4}-\d{2}-\d{2}$/.test(s.checkedAt)) fail(`platform ${id}: checkedAt must be YYYY-MM-DD`);
     }
     stances.set(id, list);
