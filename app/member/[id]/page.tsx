@@ -29,7 +29,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
       <section className="hero" aria-labelledby="member-name">
         <Link href={`/state/${m.state.toLowerCase()}`} className="crumb">{state.name}</Link>
         <div className="hero-id">
-          <h1 id="member-name" className="hero-title">{m.name}</h1>
+          <h1 id="member-name" className="hero-title"><span className="ink">{m.name}</span></h1>
           <div className="hero-card">
             <p className="hero-role">{seatLabel(m)}</p>
             <p className="hero-detail">

@@ -146,12 +146,12 @@ p {
 }
 
 /* Display type prints unevenly: blotchy ink density, and a lime pass that
-   slipped a little. no-clip keeps descenders and the ghost unmasked. */
-h1,
-.section-title {
+   slipped a little. Inline, so the masked box covers descenders: Chrome
+   clips a block's mask to its tight line box despite no-clip. */
+.ink {
   text-shadow: max(2px, 0.03em) max(1px, 0.02em) 0 var(--lime);
-  -webkit-mask: var(--ink-mask) 0 0 / 260px 260px repeat no-clip;
-  mask: var(--ink-mask) 0 0 / 260px 260px repeat no-clip;
+  -webkit-mask: var(--ink-mask) 0 0 / 260px 260px repeat;
+  mask: var(--ink-mask) 0 0 / 260px 260px repeat;
 }
 
 /* ============================================================
@@ -316,8 +316,6 @@ h1,
   letter-spacing: -0.02em;
   margin: 0;
 }
-/* The home h1 prints on lime: no ink mask (it clipped descenders) and no lime ghost. */
-h1.hero-role { text-shadow: none; -webkit-mask: none; mask: none; }
 .hero-detail {
   font-size: 1rem;
   margin: 0;

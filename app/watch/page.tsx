@@ -10,7 +10,7 @@ export default function Watch() {
   return (
     <>
       <header className="page-header">
-        <h1>Races to watch</h1>
+        <h1><span className="ink">Races to watch</span></h1>
       </header>
       <section className="section" aria-labelledby="leading-title">
         <h2 id="leading-title">Leading, not yet called</h2>
