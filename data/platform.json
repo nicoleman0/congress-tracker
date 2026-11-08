@@ -29,6 +29,46 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls climate change a crisis and backs investment in wildfire and extreme-heat resilience.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.aishawahab.com/issues-1"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for more funding for affordable housing, strong renter protections and paths to homeownership.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.aishawahab.com/issues-1"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports raising the federal minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.aishawahab.com/issues-1"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for humane immigration with due process and faster legal pathways.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.aishawahab.com/issues-1"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "nj-11-mejia": [
@@ -59,6 +99,16 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Led New Jersey's fights for a $15 minimum wage and paid sick leave.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.analiliafornj.com/about"
         },
         "checkedAt": "2026-11-08"
       }
@@ -93,6 +143,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Has called for abolishing ICE and introduced the DRAIN ICE Act to repeal its new funding.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://yassaminforcongress.com/accomplishments"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Introduced the HAVEN Act to cap rent at 20% of income for families on housing assistance.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://yassaminforcongress.com/accomplishments"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Backs a clean energy future and holding polluters accountable.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://yassaminforcongress.com/about"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "az-7-grijalva": [
@@ -123,6 +203,56 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports protecting and expanding the ACA and extending premium assistance.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.adelitaforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for investing in clean energy, climate resilience and water security.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.adelitaforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for expanding affordable housing and preventing displacement.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.adelitaforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports the PRO Act and the Raise the Wage Act's $17 minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.adelitaforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for comprehensive immigration reform and has made oversight visits to ICE detention facilities.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.adelitaforcongress.com/issues"
         },
         "checkedAt": "2026-11-08"
       }
@@ -157,6 +287,16 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Helped shape the climate provisions of the Inflation Reduction Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jaredhuffman.com/about-jared"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ca-8-garamendi": [
@@ -187,6 +327,26 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Defends the Affordable Care Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.garamendi.org/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Backs investment in clean energy, weatherization, public transit and biking to cut carbon emissions.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.garamendi.org/issues"
         },
         "checkedAt": "2026-11-08"
       }
@@ -221,6 +381,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports transition programs for fossil fuel workers and defending California's vehicle emission standards.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://desaulnierforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Created a permanent state funding source for affordable housing as a state senator.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://desaulnierforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for immigration reform that fixes the system without using fear.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://desaulnierforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ca-12-simon": [
@@ -253,6 +443,46 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Calls health care a human right and backs a public option leading to single-payer.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.lateefahsimon.com/issues/healthcare-for-all"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Calls for an immediate and lasting ceasefire in the Middle East.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.lateefahsimon.com/issues/global-security"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports the Green New Deal and net-zero emissions.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.lateefahsimon.com/issues/climate-and-environmental-justice"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls housing a fundamental right and backs higher rental subsidies and an end to landlord discrimination.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.lateefahsimon.com/issues/affordable-housing"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ca-15-mullin": [
@@ -273,6 +503,26 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "His first bill would help low-income homeowners and affordable housing providers make properties resilient to climate disasters.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.kevinmullinforcongress.com"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Calls for getting dark money out of elections.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.kevinmullinforcongress.com/fighting-for-our-democracy"
         },
         "checkedAt": "2026-11-08"
       }
@@ -307,6 +557,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports passing Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://rokhanna.com/en/platform"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsors the PRO Act and wants a livable national minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://rokhanna.com/en/platform"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ca-19-panetta": [
@@ -327,6 +597,36 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports universal health care and fought efforts to repeal the ACA.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jimmypanetta.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Authored bills to block offshore oil drilling and protect clean air and water.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jimmypanetta.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Backs expanding federal tax credits to build low- and middle-income housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jimmypanetta.com/issues"
         },
         "checkedAt": "2026-11-08"
       }
@@ -383,6 +683,16 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Has called for abolishing ICE and conducted oversight of ICE detention centers.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.luzforcongress.com"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ca-30-friedman": [
@@ -405,6 +715,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports universal health care.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.lauraforcongress.org"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for expanding access to affordable housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.lauraforcongress.org"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ca-32-sherman": [
@@ -425,6 +755,36 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Calls Israel a stalwart ally and worked to pass the 2024 national security supplemental.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradsherman.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Cosponsored the Green New Deal resolution and supports declaring a national climate emergency.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradsherman.com/priorities"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "His Housing Unhoused Disabled Veterans Act passed the House unanimously.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.bradsherman.com/priorities"
         },
         "checkedAt": "2026-11-08"
       }
@@ -503,6 +863,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Lists backing single-payer health care for every Californian among her accomplishments.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://sydneykamlager.com/accomplishments/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Worked to establish emergency shelter and transitional housing in Culver City.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://sydneykamlager.com/accomplishments/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ca-39-takano": [
@@ -565,6 +945,66 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://robertgarcia.com/what-im-fighting-for/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports the Green New Deal and a transition away from fossil fuels.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://robertgarcia.com/what-im-fighting-for/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls housing a human right and backs building quality public housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://robertgarcia.com/what-im-fighting-for/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Pledges to make it easier to form a union; proposed a $15 minimum wage as Long Beach mayor.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://robertgarcia.com/what-im-fighting-for/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for expanding paths to citizenship for undocumented residents.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://robertgarcia.com/what-im-fighting-for/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Supports ending Citizens United and a lobbying ban for former members of Congress.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://robertgarcia.com/what-im-fighting-for/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -631,6 +1071,46 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for transitioning to clean, renewable energy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://barraganforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for investing in affordable housing and mental health services to address homelessness.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://barraganforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports raising the minimum wage and equal pay for equal work.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://barraganforcongress.com"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Has fought for Dreamers in Congress.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://barraganforcongress.com/about/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ca-47-min": [
@@ -661,6 +1141,36 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for aggressively reducing reliance on fossil fuels.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.davemin.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls the cost of housing California's biggest challenge and passed state bills to increase workforce housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.davemin.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Has called out abuses by ICE agents.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.davemin.com"
         },
         "checkedAt": "2026-11-08"
       }
@@ -717,6 +1227,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Calls health care a human right.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://sarajacobsforca.com"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for bold action on climate change.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://sarajacobsforca.com"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for housing that is affordable for everyone.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://sarajacobsforca.com"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ca-52-vargas": [
@@ -737,6 +1277,16 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Coauthored the House-passed Dream and Promise Act, which offers Dreamers a path to citizenship.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.votevargas.com"
         },
         "checkedAt": "2026-11-08"
       }
@@ -793,6 +1343,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Pledges to win Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.frostforcongress.com"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Pledges to end the climate crisis.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.frostforcongress.com"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ga-4-johnson": [
@@ -825,6 +1395,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Backs affordable, quality health care for every American.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://hankforcongress.com/congressman-hank-johnson-on-the-issues/health-care/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Supports DACA, TPS and refugees and opposes holding children in detention.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://hankforcongress.com/congressman-hank-johnson-on-the-issues/immigration/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ga-5-williams": [
@@ -845,6 +1435,16 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Backs the End Hedge Fund Control of American Homes Act to phase out corporate ownership of single-family homes.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.nikemaforcongress.com/issues-2026"
         },
         "checkedAt": "2026-11-08"
       }
@@ -877,6 +1477,36 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Calls health care a human right and sponsored the 2023 Medicare for All Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.tokudaforhawaii.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for aggressive action on climate change and more renewable energy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.tokudaforhawaii.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Co-led the Stop Wall Street Landlords Act to keep outside investors from buying up homes.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.tokudaforhawaii.com/issues/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -943,6 +1573,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All under a single-payer model.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.deliaforcongress.com/issues/healthcare"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Sponsored legislation to guarantee tenants' right to organize.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.deliaforcongress.com"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Sponsored legislation to create a path to citizenship for DACA recipients.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.deliaforcongress.com"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "in-7-carson": [
@@ -1007,6 +1667,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Calls health care a basic human right and supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.morganmcgarvey.com/issues/health-care"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls climate change an existential threat.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.morganmcgarvey.com"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "la-2-carter": [
@@ -1069,6 +1749,36 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Pledges to lower prescription drug costs and strengthen Medicare.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://chelliepingree.com/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Pledges to tackle climate change with clean energy jobs.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://chelliepingree.com/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Pledges to make sure working families can earn a livable wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://chelliepingree.com/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -1157,6 +1867,16 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Leads efforts to overturn Citizens United.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.jimmcgovern.com/about/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ma-3-trahan": [
@@ -1177,6 +1897,36 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Pledges to defend and expand the Affordable Care Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://loritrahan.com/healthcare/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Supports a path to citizenship and bipartisan reform for DACA recipients.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://loritrahan.com/immigration/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Supports overturning Citizens United and the DISCLOSE Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://loritrahan.com/election-and-political-reform/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -1211,6 +1961,16 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for a justice-centered approach to the climate crisis.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://ayannapressley.com/issues/educational/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "mi-6-dingell": [
@@ -1231,6 +1991,46 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Says everyone in America has a right to quality health care and opposes Medicaid cuts.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://debbiedingellforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls climate change a real problem that needs federal action.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://debbiedingellforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Leads the House Labor Caucus.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://debbiedingellforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Criticizes ICE enforcement for spreading fear beyond violent criminals.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://debbiedingellforcongress.com/issues/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -1265,6 +2065,46 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Calls health care a human right and cosponsored the Medicare for All Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://rashidaforcongress.com/issues/healthcare-for-all/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Introduced the Fossil Free Finance Act to curb bank financing of fossil fuel projects.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://rashidaforcongress.com/issues/environmental-justice/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls housing a human right; her Housing Our Communities Act to fund affordable housing became law in July 2026.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://rashidaforcongress.com/issues/economic-and-housing-justice/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Added an amendment to the House-passed PRO Act requiring timely notice of union elections.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://rashidaforcongress.com/issues/economic-and-housing-justice/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "mn-5-omar": [
@@ -1297,6 +2137,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Co-chairs the Medicare for All Caucus.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://ilhanomar.com/my-record/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Supports a two-state solution and nonviolent movements to hold Israel accountable for its treatment of Palestinians.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://ilhanomar.com/my-record/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Helped pass the Inflation Reduction Act's climate investments.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://ilhanomar.com/my-record/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "nj-6-pallone": [
@@ -1317,6 +2187,26 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Led House passage of the Affordable Care Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.pallonefornewjersey.com/about"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Introduced the CLEAN Future Act to decarbonize the economy and reach net-zero emissions.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.pallonefornewjersey.com/about"
         },
         "checkedAt": "2026-11-08"
       }
@@ -1383,6 +2273,46 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Calls health care a human right and supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports a $15 federal minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for reuniting separated families and a path to citizenship.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Has not accepted corporate or corporate PAC money since 2018.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.melaniefornewmexico.com/issues"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "nm-3-fernandez": [
@@ -1415,6 +2345,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Calls for access to quality, affordable health care for all Americans.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.teresaforall.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Pledges to champion a humane, comprehensive immigration policy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.teresaforall.com/issues"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ny-6-meng": [
@@ -1437,6 +2387,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Founding member of the Medicare for All Caucus and an original cosponsor of the 2019 Medicare for All Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.gracefornewyork.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports the Green New Deal and calls climate disaster the top threat to the planet.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.gracefornewyork.com/issues"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ny-9-clarke": [
@@ -1457,6 +2427,36 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All as the path to universal coverage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://voteyvette.com/about-yvette/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Introduced the Affordable Housing and Area Median Income Fairness Act (H.R. 4984) to help renters.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://voteyvette.com/about-yvette/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for action to end family separation and inhumane conditions in immigration detention.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://voteyvette.com"
         },
         "checkedAt": "2026-11-08"
       }
@@ -1523,6 +2523,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports improving the Affordable Care Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://paultonko.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls climate change the top global security threat.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://paultonko.com/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports the right to collectively bargain and form a union, and living wages.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://paultonko.com/issues"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "nc-4-foushee": [
@@ -1553,6 +2583,36 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Calls health care a universal right and is fighting Medicaid cuts.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://valeriefoushee.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports the Green New Deal and a transition to a clean energy economy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://valeriefoushee.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls Trump's immigration policy cruel and an abuse of power.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://valeriefoushee.com/issues/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -1587,6 +2647,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports a single-payer health care system.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://almaadamsforcongress.com"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Scored 100 on the League of Conservation Voters' most recent scorecard.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://almaadamsforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports raising the minimum wage and indexing it to inflation.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://almaadamsforcongress.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "oh-11-brown": [
@@ -1607,6 +2697,26 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Lists the Israel Relations Normalization Act, which expands the Abraham Accords, among bills she backed.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://shontelbrown.com/accomplishments/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the Raise the Wage Act for a $15 minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://shontelbrown.com/accomplishments/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -1639,6 +2749,16 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Prioritizes confronting the climate crisis and creating a clean energy economy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://bonamiciforcongress.com/priorities/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -1705,6 +2825,56 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports universal health care legislation and restoring expired ACA premium tax credits.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.valhoyle.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports restoring clean energy tax credits and a transition to clean energy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.valhoyle.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls for major investment in affordable housing and more Housing Choice Vouchers.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.valhoyle.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports the PRO Act and a higher national minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.valhoyle.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Supports overturning Citizens United.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.valhoyle.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "or-6-salinas": [
@@ -1735,6 +2905,56 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Pledges to expand access to affordable health care; capped prescription costs as a state legislator.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://andreasalinasfororegon.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Supported legislation to build two million affordable homes in the next decade.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://andreasalinasfororegon.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Helped raise Oregon's minimum wage and pass paid family and medical leave.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://andreasalinasfororegon.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Serves on the Border Security Task Force and backs streamlining the immigration system.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://andreasalinasfororegon.com/issues/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Says combating climate change now will have generational impacts.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://andreasalinasfororegon.com/issues/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -1855,6 +3075,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://veronicaescobar.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Pledges legislation to address the climate crisis.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://veronicaescobar.com/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Calls for fair, humane immigration reform.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://veronicaescobar.com/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "tx-18-menefee": [
@@ -1919,6 +3169,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Calls for transforming the economy into a climate economy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://beccabalint.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Calls housing fundamental and names Vermont's housing crisis a priority.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://beccabalint.com/issues"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "va-8-beyer": [
@@ -1949,6 +3219,26 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Sponsors the Healthy Climate and Family Security Act, a carbon cap-and-dividend bill.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.friendsofdonbeyer.com/priorities/energyandenvironment"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Supports expanding the Affordable Housing Tax Credit.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.friendsofdonbeyer.com/priorities/economy"
         },
         "checkedAt": "2026-11-08"
       }
@@ -2005,6 +3295,56 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Lead sponsor of the Medicare for All Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.pramilaforcongress.com/real-results"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Helped pass the Inflation Reduction Act's climate investment as Progressive Caucus chair.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.pramilaforcongress.com/real-results"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Lists the Housing Is a Human Right Act among bills she leads.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.pramilaforcongress.com/real-results"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Lists the PRO Act and the Raise the Wage Act among bills she leads.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.pramilaforcongress.com/real-results"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Lists the Dignity for Detained Immigrants Act among bills she leads.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.pramilaforcongress.com/real-results"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "wa-9-smith": [
@@ -2025,6 +3365,56 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Supports creating a universal health care system.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://electadamsmith.com/priorities/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Sponsored legislation to make it easier to build affordable housing near transit.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://electadamsmith.com/priorities/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports a $20 federal minimum wage and cosponsored the PRO Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://electadamsmith.com/priorities/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Cosponsored the VISIBLE Act requiring immigration officers to display identification.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://electadamsmith.com/priorities/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Supports banning stock trading by members of Congress.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://electadamsmith.com/priorities/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -2059,6 +3449,26 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Sponsored legislation to invest in clean energy.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://pocanforcongress.com/meet-mark/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Sponsored legislation to raise the minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://pocanforcongress.com/meet-mark/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "vt-sen-sanders": [
@@ -2069,6 +3479,16 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1506"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "As Burlington mayor, made major strides in affordable housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://berniesanders.com/about"
         },
         "checkedAt": "2026-11-08"
       }
@@ -2113,6 +3533,16 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Pledges to expand access to health care and lower prescription drug costs.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://nelliepoufornewjersey.com/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -2203,6 +3633,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Defends the ACA and supports extending its enhanced premium tax credits.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://jennifermcclellan.com/issue/healthcare/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Passed state laws to combat climate change.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://jennifermcclellan.com/about/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Works to expand the supply of affordable housing.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://jennifermcclellan.com/issue/economic-opportunity/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "ct-3-delauro": [
@@ -2227,6 +3687,36 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Voted for a failed House amendment to eliminate aid to Israel.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://sarahmcbride.com/2026/10/icymi-sarah-mcbrides-record-highlighted-in-the-delaware-news-journal/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Cosponsored the Energy Bills Relief Act to expand clean energy and restore clean energy tax credits.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://sarahmcbride.com/priority/climate-change-sustainability/"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Helped pass paid family leave and a minimum wage increase as a state senator.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://sarahmcbride.com/priorities/"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "fl-9-soto": [
@@ -2237,6 +3727,16 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Opposes Medicaid and ACA cuts.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.darrensoto.com"
         },
         "checkedAt": "2026-11-08"
       }
@@ -2251,6 +3751,16 @@
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
         },
         "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Supports a $15 minimum wage.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.donaldnorcrossforcongress.com/about"
+        },
+        "checkedAt": "2026-11-08"
       }
     ],
     "wi-4-moore": [
@@ -2261,6 +3771,16 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "Has fought predatory lending in minority neighborhoods.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://gwenmooreforcongress.com/about-gwen/"
         },
         "checkedAt": "2026-11-08"
       }
@@ -3327,6 +4847,66 @@
         "source": {
           "label": "Congress.gov",
           "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "healthcare",
+        "text": "Calls health care a human right and helped reintroduce Medicare for All.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.casarforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "climate",
+        "text": "Supports the Green New Deal.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.casarforcongress.com/about"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "housing",
+        "text": "As Progressive Caucus chair, unveiled the New Affordability Agenda on rent and other costs.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.casarforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsors the PRO Act.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.casarforcongress.com/about"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "immigration",
+        "text": "Says every immigrant family deserves to live free from fear and leads Oversight scrutiny of federal law enforcement.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.casarforcongress.com/issues"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "money",
+        "text": "Takes no corporate PAC money and supports abolishing super PACs and overturning Citizens United.",
+        "kind": "campaign",
+        "source": {
+          "label": "Campaign site",
+          "url": "https://www.casarforcongress.com/issues"
         },
         "checkedAt": "2026-11-08"
       }
