@@ -6,8 +6,13 @@ import { bare, SUFFIX } from "@/lib/names";
 export type Headline = { title: string; url: string; source: string; date: string };
 
 // Middle initials and suffixes make the exact-phrase match miss most coverage.
-export function searchName(m: Member) {
+export function searchName(m: Pick<Member, "name">) {
   return m.name.replace(SUFFIX, "").replace(/,?\s*$/, "").split(" ").filter((w) => !/^[A-Z]\.$/.test(w)).join(" ");
+}
+
+export function stateNewsUrl(m: { name: string; stateName: string; chamber: string }) {
+  const q = `"${searchName(m)}" "${m.stateName}" ("${m.chamber}" OR legislature OR governor) when:90d`;
+  return `https://news.google.com/rss/search?${new URLSearchParams({ q, hl: "en-US", gl: "US", ceid: "US:en" })}`;
 }
 
 // Context words keep out namesakes (boxers, economists) without requiring "Congress", which hid most coverage.
@@ -46,7 +51,7 @@ export function parseRss(xml: string): Headline[] {
 }
 
 // Roundups that mention a member in passing rarely name them in the headline, so require the last name there.
-export function aboutMember(m: Member, items: Headline[]): Headline[] {
+export function aboutMember(m: Pick<Member, "name">, items: Headline[]): Headline[] {
   const last = bare(m.name.replace(SUFFIX, "")).split(" ").at(-1)!;
   const seen = new Set<string>();
   return items

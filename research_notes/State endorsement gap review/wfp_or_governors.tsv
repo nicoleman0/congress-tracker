@@ -1,0 +1,101 @@
+state	organization	status	election_years	source_urls	limits
+AL	WFP	not_established			Endorsement source only; no result/service/current-term join.
+AK	WFP	not_established			Endorsement source only; no result/service/current-term join.
+AZ	WFP	not_established			Endorsement source only; no result/service/current-term join.
+AR	WFP	not_established			Endorsement source only; no result/service/current-term join.
+CA	WFP	not_established			Endorsement source only; no result/service/current-term join.
+CO	WFP	not_established			Endorsement source only; no result/service/current-term join.
+CT	WFP	baseline_national_governor_source	2022;2026	https://workingfamilies.org/2022/08/connecticut-working-families-party-endorses-ned-lamont-and-susan-bysiewicz-for-re-election/;https://workingfamilies.org/candidates/	Endorsement source only; no result/service/current-term join.2026 national source carried from prior audit; not re-fetched in follow-up.
+DE	WFP	not_established			Endorsement source only; no result/service/current-term join.
+FL	WFP	not_established			Endorsement source only; no result/service/current-term join.
+GA	WFP	not_established			Endorsement source only; no result/service/current-term join.2022 national memo describes support, not accepted here as explicit endorsement proof.
+HI	WFP	not_established			Endorsement source only; no result/service/current-term join.
+ID	WFP	not_established			Endorsement source only; no result/service/current-term join.
+IL	WFP	not_established			Endorsement source only; no result/service/current-term join.
+IN	WFP	not_established			Endorsement source only; no result/service/current-term join.
+IA	WFP	not_established			Endorsement source only; no result/service/current-term join.
+KS	WFP	not_established			Endorsement source only; no result/service/current-term join.
+KY	WFP	not_established			Endorsement source only; no result/service/current-term join.
+LA	WFP	not_established			Endorsement source only; no result/service/current-term join.
+ME	WFP	not_established			Endorsement source only; no result/service/current-term join.
+MD	WFP	not_established			Endorsement source only; no result/service/current-term join.
+MA	WFP	not_established			Endorsement source only; no result/service/current-term join.
+MI	WFP	not_established			Endorsement source only; no result/service/current-term join.
+MN	WFP	not_established			Endorsement source only; no result/service/current-term join.
+MS	WFP	not_established			Endorsement source only; no result/service/current-term join.
+MO	WFP	not_established			Endorsement source only; no result/service/current-term join.
+MT	WFP	not_established			Endorsement source only; no result/service/current-term join.
+NE	WFP	not_established			Endorsement source only; no result/service/current-term join.
+NV	WFP	not_established			Endorsement source only; no result/service/current-term join.
+NH	WFP	not_established			Endorsement source only; no result/service/current-term join.
+NJ	WFP	not_established			Endorsement source only; no result/service/current-term join.
+NM	WFP	baseline_national_governor_source	2026	https://workingfamilies.org/candidates/	Endorsement source only; no result/service/current-term join.2026 national source carried from prior audit; not re-fetched in follow-up.
+NY	WFP	baseline_national_governor_source	2022;2026	https://workingfamilies.org/candidates/;https://workingfamilies.org/2022/10/nywfp-voting-guide-for-the-2022-midterm-election/;https://workingfamilies.org/2022/02/were-endorsing-jumaane-williams-for-ny-governor/	Endorsement source only; no result/service/current-term join.2026 national source carried from prior audit; not re-fetched in follow-up.Prior2022 verification retained; follow-up fetch transient SSL failed.Explicit2022 primary endorsement of Williams newly retrieved; do not transfer it to the general winner.
+NC	WFP	not_established			Endorsement source only; no result/service/current-term join.
+ND	WFP	not_established			Endorsement source only; no result/service/current-term join.
+OH	WFP	not_established			Endorsement source only; no result/service/current-term join.
+OK	WFP	not_established			Endorsement source only; no result/service/current-term join.
+OR	WFP	baseline_national_governor_source	2026	https://workingfamilies.org/2026/08/oregon-working-families-party-cross-nominates-tina-kotek/;https://workingfamilies.org/candidates/	Endorsement source only; no result/service/current-term join.2026 national source carried from prior audit; not re-fetched in follow-up.2022 national memo describes support, not accepted here as explicit endorsement proof.
+PA	WFP	not_established			Endorsement source only; no result/service/current-term join.
+RI	WFP	not_established			Endorsement source only; no result/service/current-term join.
+SC	WFP	not_established			Endorsement source only; no result/service/current-term join.
+SD	WFP	not_established			Endorsement source only; no result/service/current-term join.
+TN	WFP	not_established			Endorsement source only; no result/service/current-term join.
+TX	WFP	not_established			Endorsement source only; no result/service/current-term join.
+UT	WFP	not_established			Endorsement source only; no result/service/current-term join.
+VT	WFP	not_established			Endorsement source only; no result/service/current-term join.
+VA	WFP	not_established			Endorsement source only; no result/service/current-term join.
+WA	WFP	not_established			Endorsement source only; no result/service/current-term join.
+WV	WFP	not_established			Endorsement source only; no result/service/current-term join.
+WI	WFP	baseline_national_governor_source	2026	https://workingfamilies.org/candidates/	Endorsement source only; no result/service/current-term join.2026 national source carried from prior audit; not re-fetched in follow-up.2022 national memo describes support, not accepted here as explicit endorsement proof.
+WY	WFP	not_established			Endorsement source only; no result/service/current-term join.
+AL	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+AK	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+AZ	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+AR	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+CA	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+CO	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+CT	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+DE	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+FL	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+GA	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+HI	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+ID	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+IL	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+IN	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+IA	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+KS	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+KY	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+LA	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+ME	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+MD	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+MA	Our Revolution	verified_endorsement_source	2022	https://ourrevolutionma.com/endorsement-sonia-chang-diaz-for-governor/	Endorsement source only; no result/service/current-term join.
+MI	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+MN	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+MS	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+MO	Our Revolution	baseline_national_governor_source	2024	https://ourrevolution.com/missouri-endorsements-2024/	Endorsement source only; no result/service/current-term join.Prior source carried; result not checked.
+MT	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+NE	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+NV	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+NH	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+NJ	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+NM	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+NY	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+NC	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+ND	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+OH	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+OK	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+OR	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+PA	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+RI	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+SC	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+SD	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+TN	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+TX	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+UT	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+VT	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+VA	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+WA	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+WV	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.
+WI	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.Image-backed governor endorsements not individually inspected; affiliation pending.
+WY	Our Revolution	not_established			Endorsement source only; no result/service/current-term join.

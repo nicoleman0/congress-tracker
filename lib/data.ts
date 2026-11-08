@@ -5,6 +5,7 @@ import rawPlatform from "@/data/platform.json";
 import type { SearchEntry } from "@/lib/search";
 import { CHECKED_AT } from "@/lib/freshness";
 import { STATES, type State } from "@/lib/states";
+import { stateMembers, stateSeatLabel } from "@/lib/state-offices";
 
 export type Office = "house" | "senate";
 export type Status = "won" | "leading" | "pending" | "incumbent" | "lost";
@@ -141,5 +142,13 @@ export function seatLabel(m: Member) {
   return m.district === "AL" ? `${m.state} at-large` : `${m.state}-${m.district}`;
 }
 
-export const searchEntries = (): SearchEntry[] =>
-  db.members.map((m) => ({ id: m.id, name: m.name, seat: seatLabel(m), stateName: getState(m.state)!.name }));
+export const searchEntries = (): SearchEntry[] => {
+  const federalIds = new Set(db.members.map((m) => m.id));
+  const state = new Map<string, SearchEntry>();
+  for (const m of stateMembers()) {
+    if (federalIds.has(m.id)) throw new Error(`state publication: duplicate federal id ${m.id}`);
+    const previous = state.get(m.id);
+    state.set(m.id, { id: m.id, name: m.name, seat: previous ? `${previous.seat} · ${stateSeatLabel(m)}` : stateSeatLabel(m), stateName: getState(m.state)!.name });
+  }
+  return [...db.members.map((m) => ({ id: m.id, name: m.name, seat: seatLabel(m), stateName: getState(m.state)!.name })), ...state.values()];
+};

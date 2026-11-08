@@ -2,20 +2,22 @@ import Link from "next/link";
 import { MemberList } from "@/components/ui";
 import { listedMembers, membersIn, newClass } from "@/lib/data";
 import { STATES } from "@/lib/states";
+import { stateMembers, statePublicationVersion } from "@/lib/state-offices";
 
 export default function Home() {
   const fresh = newClass();
   const senate = fresh.filter((m) => m.office === "senate");
   const house = fresh.filter((m) => m.office === "house");
   const total = listedMembers().length;
+  const stateTotal = stateMembers().filter((m) => m.term.status !== "unresolved").length;
 
   return (
     <>
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-id hero-id--home">
           <div className="hero-card">
-            <h1 id="hero-title" className="hero-role">The progressives in Congress</h1>
-            <p className="hero-detail">{total} listed</p>
+            <h1 id="hero-title" className="hero-role">{statePublicationVersion ? "Progressives in Congress and state offices" : "The progressives in Congress"}</h1>
+            <p className="hero-detail">{statePublicationVersion ? `${total} in Congress · ${stateTotal} state office listings` : `${total} listed`}</p>
             <a className="hero-action" href="#states">Find your state</a>
           </div>
         </div>
@@ -39,7 +41,7 @@ export default function Home() {
         <h2 id="states-title" className="section-title"><span className="ink">Browse by state</span></h2>
         <ul className="state-grid">
           {STATES.map((s) => {
-            const n = membersIn(s.code).length;
+            const n = membersIn(s.code).length + stateMembers().filter((m) => m.state === s.code && m.term.status !== "unresolved").length;
             return (
               <li key={s.code}>
                 <Link href={`/state/${s.code.toLowerCase()}`} className={n ? undefined : "state-none"}>{s.name}</Link>

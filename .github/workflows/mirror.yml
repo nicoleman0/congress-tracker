@@ -1,0 +1,39 @@
+# Mirrors committed data/ JSON on main into Neon for analysis. Loads are idempotent.
+name: Mirror data to Neon
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/*.json"
+      - "db/**"
+      - scripts/db.ts
+      - scripts/federal-mirror.ts
+  # Refresh merges push with GITHUB_TOKEN, which never triggers workflows, so also run after the daily refresh.
+  schedule:
+    - cron: "30 14 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: neon-mirror
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The loader finds the last commit that touched data/ and checks it is on origin/main.
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/federal-mirror.ts load
+        env:
+          DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}

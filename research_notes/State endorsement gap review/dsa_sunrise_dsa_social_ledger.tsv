@@ -1,0 +1,53 @@
+source_url	checked_at	method	http_status	final_url	review_status	reason	years	short_evidence
+https://www.facebook.com/fortsmithdsa	2026-11-08	direct_public_http	200	https://www.facebook.com/fortsmithdsa	inaccessible	Challenge, loading shell or insufficient readable content		
+https://linktr.ee/NCVDSA	2026-11-08	direct_public_http	200	https://linktr.ee/NCVDSA	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2021;2026	
+https://bsky.app/profile/ncvdsa.bsky.social	2026-11-08	direct_public_http	200	https://bsky.app/profile/ncvdsa.bsky.social	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.instagram.com/northcentralvalleydsa	2026-11-08	direct_public_http	200	https://www.instagram.com/northcentralvalleydsa	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.facebook.com/ShastaDSA	2026-11-08	direct_public_http	200	https://www.facebook.com/ShastaDSA	inaccessible	Challenge, loading shell or insufficient readable content		
+https://twitter.com/ShastaDSA	2026-11-08	direct_public_http			inaccessible	<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1147)>		
+https://www.instagram.com/western_colorado_dsa	2026-11-08	direct_public_http	200	https://www.instagram.com/western_colorado_dsa	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years		
+https://solo.to/volusiadsa	2026-11-08	direct_public_http	200	https://solo.to/volusiadsa	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years		
+https://www.facebook.com/p/Volusia-County-DSA-61582536968633/	2026-11-08	direct_public_http	200	https://www.facebook.com/p/Volusia-County-DSA-61582536968633/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.instagram.com/volusiadsa/	2026-11-08	direct_public_http	200	https://www.instagram.com/volusiadsa/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://linktr.ee/westgadsa	2026-11-08	direct_public_http	200	https://linktr.ee/westgadsa	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2025;2026	
+https://bsky.app/profile/westgadsa.bsky.social	2026-11-08	direct_public_http	200	https://bsky.app/profile/westgadsa.bsky.social	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.instagram.com/westgadsa/	2026-11-08	direct_public_http	200	https://www.instagram.com/westgadsa/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.facebook.com/cedarrapidsdsa	2026-11-08	direct_public_http	200	https://www.facebook.com/cedarrapidsdsa	inaccessible	Challenge, loading shell or insufficient readable content		
+https://x.com/cedarrapidsdsa	2026-11-08	direct_public_http	200	https://x.com/cedarrapidsdsa	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2021;2023;2026	
+https://www.facebook.com/IowaCityDSA/	2026-11-08	direct_public_http	200	https://www.facebook.com/IowaCityDSA/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://twitter.com/dsaiowacity	2026-11-08	direct_public_http			inaccessible	<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1147)>		
+https://www.instagram.com/iowacitydsa	2026-11-08	direct_public_http	200	https://www.instagram.com/iowacitydsa	inaccessible	Challenge, loading shell or insufficient readable content		
+https://linktr.ee/southernidahodsa	2026-11-08	direct_public_http	200	https://linktr.ee/southernidahodsa	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2025;2026	
+https://www.facebook.com/share/15kJ7DMixW/?mibextid=wwXIfr	2026-11-08	direct_public_http	200	https://www.facebook.com/people/Southern-Idaho-DSA/61571164962082/?mibextid=wwXIfr&rdid=PDwKcBTWjhO5BCpK&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15kJ7DMixW%2F%3Fmibextid%3DwwXIfr	inaccessible	Challenge, loading shell or insufficient readable content		
+https://x.com/SouthIdahoDSA	2026-11-08	direct_public_http	200	https://x.com/SouthIdahoDSA	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2025;2026	
+https://www.instagram.com/southernidahodsa	2026-11-08	direct_public_http	200	https://www.instagram.com/southernidahodsa	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.facebook.com/DSASalina/	2026-11-08	direct_public_http	200	https://www.facebook.com/DSASalina/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.instagram.com/dsasalina	2026-11-08	direct_public_http	200	https://www.instagram.com/dsasalina	inaccessible	Challenge, loading shell or insufficient readable content		
+https://linktr.ee/SaginawBayDSA	2026-11-08	direct_public_http	200	https://linktr.ee/SaginawBayDSA	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2025;2026	
+https://www.facebook.com/saginawbaydsa/	2026-11-08	direct_public_http	200	https://www.facebook.com/saginawbaydsa/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://bsky.app/profile/saginawbaydsa.bsky.social	2026-11-08	direct_public_http	200	https://bsky.app/profile/saginawbaydsa.bsky.social	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.instagram.com/saginawbaydsa/	2026-11-08	direct_public_http	200	https://www.instagram.com/saginawbaydsa/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://linktr.ee/ozarksdsa	2026-11-08	direct_public_http	200	https://linktr.ee/ozarksdsa	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2025;2026	
+https://www.instagram.com/dsa_ozarks/	2026-11-08	direct_public_http	200	https://www.instagram.com/dsa_ozarks/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.facebook.com/groups/1591322872138371/	2026-11-08	direct_public_http	200	https://www.facebook.com/groups/1591322872138371/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.instagram.com/woosterdsa/	2026-11-08	direct_public_http	200	https://www.instagram.com/woosterdsa/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.facebook.com/centrecodsa/	2026-11-08	direct_public_http			inaccessible	<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1147)>		
+https://x.com/centrecodsa	2026-11-08	direct_public_http	200	https://x.com/centrecodsa	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2025;2026	
+https://www.instagram.com/centrecounty_dsa/	2026-11-08	direct_public_http	200	https://www.instagram.com/centrecounty_dsa/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.facebook.com/eriedsa/	2026-11-08	direct_public_http	200	https://www.facebook.com/eriedsa/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://twitter.com/eriedsa	2026-11-08	direct_public_http	200	https://x.com/eriedsa	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2025;2026	
+https://www.facebook.com/DSAFortWorth/	2026-11-08	direct_public_http	200	https://www.facebook.com/DSAFortWorth/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://x.com/DSAFortWorth	2026-11-08	direct_public_http	200	https://x.com/DSAFortWorth	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2022;2024;2026	
+https://www.instagram.com/dsafortworth/	2026-11-08	direct_public_http	200	https://www.instagram.com/dsafortworth/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.facebook.com/DSANorthTexas	2026-11-08	direct_public_http	200	https://www.facebook.com/DSANorthTexas	inaccessible	Challenge, loading shell or insufficient readable content		
+https://twitter.com/DSA_NorthTexas	2026-11-08	direct_public_http			inaccessible	<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1147)>		
+https://www.instagram.com/dsanorthtexas/	2026-11-08	direct_public_http	200	https://www.instagram.com/dsanorthtexas/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.facebook.com/Democratic-Socialists-of-America-Rio-Grande-Valley-Chapter-112267827929901	2026-11-08	direct_public_http			inaccessible	<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1147)>		
+https://twitter.com/dsa_rgv	2026-11-08	direct_public_http	200	https://x.com/dsa_rgv	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2024;2026	link. We hope to see you there! 4 798 DSA Rio Grande Valley @dsa_rgv Oct 31, 2024 DSARGV endorses Robin
+https://www.instagram.com/dsa_rgv/	2026-11-08	direct_public_http	200	https://www.instagram.com/dsa_rgv/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.facebook.com/groups/1602347166757894/	2026-11-08	direct_public_http	200	https://www.facebook.com/groups/1602347166757894/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.instagram.com/pasodelnortedsa/	2026-11-08	direct_public_http			inaccessible	<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1147)>		
+https://www.facebook.com/SpokaneDSA/	2026-11-08	direct_public_http	200	https://www.facebook.com/SpokaneDSA/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://x.com/spokanedsa	2026-11-08	direct_public_http	200	https://x.com/spokanedsa	readable_page	Readable public page; source relevance requires review; year mentions are not verified endorsement years	2026	
+https://www.instagram.com/spokanedsa/	2026-11-08	direct_public_http	200	https://www.instagram.com/spokanedsa/	inaccessible	Challenge, loading shell or insufficient readable content		
+https://www.instagram.com/dsawallawalla/	2026-11-08	direct_public_http			inaccessible	<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1147)>		

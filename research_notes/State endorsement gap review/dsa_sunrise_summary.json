@@ -1,0 +1,92 @@
+{
+  "checked_at": "2026-11-08",
+  "dsa_directory_records": 252,
+  "dsa_directory_types": {
+    "Chapter": 211,
+    "Organizing Committee": 41
+  },
+  "dsa_no_website_types": {
+    "Organizing Committee": 36,
+    "Chapter": 25
+  },
+  "dsa_root_urls_attempted": 191,
+  "dsa_root_readable": 164,
+  "dsa_linked_electoral_urls_attempted": 126,
+  "dsa_no_website_chapter_social_urls_attempted": 52,
+  "sunrise_directory_records": 111,
+  "sunrise_root_urls_attempted": 129,
+  "sunrise_root_readable": 66,
+  "sunrise_linked_electoral_urls_attempted": 9,
+  "sunrise_directory_records_with_any_url_attempt": 110,
+  "national_dsa_past_grid_rows": 327,
+  "national_dsa_current_grid_rows": 50,
+  "national_dsa_State_label_rows": 86,
+  "national_dsa_in_scope_legislative_records": 85,
+  "national_dsa_other_statewide_records": 1,
+  "review_rows": 363,
+  "review_status_counts": {
+    "DSA": {
+      "inspected_no_relevant_page_found": 133,
+      "inaccessible": 35,
+      "unreviewed": 36,
+      "readable_source": 48
+    },
+    "Sunrise": {
+      "inspected_no_relevant_page_found": 42,
+      "inaccessible": 60,
+      "readable_source": 7,
+      "image_only_unresolved": 1,
+      "unreviewed": 1
+    }
+  },
+  "coverage_counts": {
+    "DSA": {
+      "verified_in_scope_source": 27,
+      "not_established": 23
+    },
+    "Sunrise": {
+      "not_established": 44,
+      "verified_in_scope_source": 6
+    }
+  },
+  "verified_states": {
+    "DSA": [
+      "AL",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "FL",
+      "GA",
+      "IL",
+      "KS",
+      "KY",
+      "ME",
+      "MD",
+      "MA",
+      "MI",
+      "MN",
+      "MO",
+      "MT",
+      "NV",
+      "NM",
+      "NY",
+      "OR",
+      "PA",
+      "RI",
+      "UT",
+      "VT",
+      "WA",
+      "WI"
+    ],
+    "Sunrise": [
+      "CA",
+      "CT",
+      "IL",
+      "NY",
+      "PA",
+      "VA"
+    ]
+  },
+  "limits": "Source availability only; no complete current-term eligible-person roster. DSA committees retained separately. Direct HTTP errors are method-specific access results, not proof site unavailable to all visitors."
+}

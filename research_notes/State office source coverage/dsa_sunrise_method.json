@@ -1,0 +1,24 @@
+{
+  "access_date": "2026-11-08",
+  "method": "Public primary-source web retrieval plus urllib retrieval of official embedded hub map and its declared JSON source; no browser extraction or contact",
+  "hub_directory_source": "https://storage.googleapis.com/hub-data/hubs.json",
+  "hub_map_source": "https://storage.googleapis.com/hub-data/hub_map.html",
+  "hub_directory_updated_at": "2026-11-08 18:50:46 +0000",
+  "download_sha256": "c61c7f6586c31343ae914012a7f7582548ed38e5e12d4dec70e126a3be68a96e",
+  "directory_records": 111,
+  "records_in_50_states": 107,
+  "dc_records": 4,
+  "states_with_directory_records": 33,
+  "coverage_counts": {
+    "DSA": {
+      "blocked": 45,
+      "verified_in_scope_source": 5
+    },
+    "Sunrise": {
+      "not_established": 46,
+      "blocked": 3,
+      "verified_in_scope_source": 1
+    }
+  },
+  "limits": "Directory enumeration is complete only for this retrieved JSON; no assertion of active hubs or exhaustive historical directory; DSA chapter enumeration blocked; local endorsements sampled."
+}

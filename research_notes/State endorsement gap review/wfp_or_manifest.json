@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-11-08",
+  "distinct_attempted_urls": 145,
+  "successful_distinct_urls": 92,
+  "source_ledger_rows": 178,
+  "discovered_unreviewed_rows": 0,
+  "chapter_review_rows": 29,
+  "wfp_state_pages_retrieved": 19,
+  "dated_wfp_batch_attempts": 20,
+  "dated_wfp_batch_successful": 19,
+  "coverage_statuses": {
+    "WFP": {
+      "not_established": 18,
+      "verified_in_scope_source": 24,
+      "inspected_no_in_scope_entries": 8
+    },
+    "Our Revolution": {
+      "not_established": 32,
+      "verified_in_scope_source": 18
+    }
+  },
+  "http_page_api_requests": 145,
+  "separate_original_image_downloads": 1,
+  "web_reader_attempts": 49,
+  "conditional_affiliate_states": [
+    "WI"
+  ],
+  "second_screening_pass": {
+    "previous_discovered_rows": 88,
+    "metadata_screened_exclusions": 32,
+    "additional_direct_page_attempts": 56,
+    "additional_direct_successes": 14,
+    "direct_http202_no_content": 42,
+    "reader_distinct_remaining_pages": 42,
+    "reader_distinct_statuses": {
+      "blocked": 21,
+      "keyword_screened": 19,
+      "full_endorsement_content": 1,
+      "full_recap_content": 1
+    },
+    "remaining_discovered_unreviewed": 0,
+    "source_ledger_rows": 178,
+    "http_page_api_requests": 145,
+    "new_api_http202": 1
+  },
+  "initial_http_page_api_requests": 88,
+  "http202_without_content": 43,
+  "web_reader_successful_attempts": 22,
+  "web_reader_distinct_recovered_remaining_pages": 21,
+  "all_recorded_attempts": 195
+}
