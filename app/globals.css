@@ -269,7 +269,6 @@ h1,
 
 /* ============================================================
    Hero: title in ultramarine, lime overprint strip for the one action.
-   Home uses the display size; member pages keep the headline size.
    ============================================================ */
 .hero {
   padding: var(--s-4) 0 0;
@@ -285,11 +284,6 @@ h1,
   z-index: 1;
   margin: 0;
   mix-blend-mode: multiply;
-}
-.hero-title--display {
-  font-size: clamp(3.5rem, 9vw, 8.5rem);
-  line-height: 0.86;
-  letter-spacing: -0.035em;
 }
 .hero-card {
   position: relative;
@@ -314,6 +308,7 @@ h1,
       wobble 0.6s ease-in-out;
   }
 }
+.hero-card:first-child { margin-top: 0; }
 .hero-role {
   font: 800 clamp(1.4rem, 2.1vw, 1.85rem)/1 var(--font-display);
   letter-spacing: -0.02em;
