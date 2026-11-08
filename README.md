@@ -12,7 +12,9 @@ A member is listed if they were endorsed in 2026 by Justice Democrats, the Congr
 
 The roster is in [`data/members.json`](data/members.json). Corrections are welcome as issues or pull requests; include a source link.
 
-Campaign links come from the website each member's committee filed with the FEC. Fill missing ones with `FEC_API_KEY=... npx tsx scripts/campaign-links.ts` (free key at https://api.data.gov/signup/).
+Campaign links come from the website each member's committee filed with the FEC. Fill missing ones with `DATA_GOV_API_KEY=... npx tsx scripts/campaign-links.ts`.
+
+One free api.data.gov key (https://api.data.gov/signup/) serves both the FEC and Congress.gov APIs. Scripts read it from `DATA_GOV_API_KEY`; the weekly platform job reads the repository secret of the same name.
 
 Leading and pending races must be rechecked every 3 days. `npm run build` fails if any are stale.
 
