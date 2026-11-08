@@ -9,6 +9,7 @@ import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, campaignAction } from "@/lib/ac
 import { formatChecked } from "@/lib/freshness";
 import { allMembers, getGroup, getMember, getPhoto, getState, platformOf, seatLabel } from "@/lib/data";
 import { getStateMember, stateMembers } from "@/lib/state-offices";
+import { dollars, fecSpenderUrl, moneyFile, spendingOn, sum } from "@/lib/money";
 import { StateMemberProfile } from "@/components/StateMemberProfile";
 
 export function generateStaticParams() {
@@ -34,6 +35,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
   const campaign = campaignAction(m);
   const platform = platformOf(m.id);
   const photo = getPhoto(m.id);
+  const spends = spendingOn(m.id);
 
   return (
     <>
@@ -126,6 +128,37 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
                 </div>
               ))}
             </dl>
+          </>
+        )}
+      </section>
+      <section className="section" aria-labelledby="money-title">
+        <h2 id="money-title">Outside money</h2>
+        {spends.length === 0 ? (
+          <p className="note">No outside spending for or against {m.name} reported to the FEC in {moneyFile().cycle}.</p>
+        ) : (
+          <>
+            <p>
+              Groups reported spending {dollars(sum(spends, "oppose"))} against {m.name} and {dollars(sum(spends, "support"))} for them in {moneyFile().cycle}.{" "}
+              <Link href="/data#money-title">How this compares</Link>.
+            </p>
+            <dl className="platform">
+              {(["oppose", "support"] as const).map((side) => {
+                const list = spends.filter((s) => s.side === side);
+                return list.length > 0 && (
+                  <div key={side} className="platform-issue">
+                    <dt>{side === "oppose" ? "Against" : "For"}</dt>
+                    {list.slice(0, 8).map((s) => (
+                      <dd key={s.committee + s.stage}>
+                        <a href={fecSpenderUrl(s.committee)} target="_blank" rel="noopener noreferrer">{s.name}</a>: {dollars(s.total)}{" "}
+                        <span className="platform-checked">{s.stage}</span>
+                      </dd>
+                    ))}
+                    {list.length > 8 && <dd className="note">and {list.length - 8} smaller</dd>}
+                  </div>
+                );
+              })}
+            </dl>
+            <p className="note">Independent expenditures from FEC regular reports, checked {formatChecked(moneyFile().checkedAt)}. Late-October spending appears after December 3 filings.</p>
           </>
         )}
       </section>
