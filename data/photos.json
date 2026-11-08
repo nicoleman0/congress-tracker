@@ -1,0 +1,590 @@
+{
+  "ca-14-wahab": {
+    "src": "/photos/ca-14-wahab.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "W000832",
+    "credit": "Image courtesy of the Member"
+  },
+  "nj-11-mejia": {
+    "src": "/photos/nj-11-mejia.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "M001246",
+    "credit": "Image courtesy of the Member"
+  },
+  "vt-sen-sanders": {
+    "src": "/photos/vt-sen-sanders.jpg",
+    "width": 180,
+    "height": 225,
+    "bioguide": "S000033",
+    "credit": "Courtesy U.S. Senate Historical Office"
+  },
+  "az-3-ansari": {
+    "src": "/photos/az-3-ansari.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "A000381",
+    "credit": "Image courtesy of the Member"
+  },
+  "az-7-grijalva": {
+    "src": "/photos/az-7-grijalva.jpg",
+    "width": 480,
+    "height": 720,
+    "bioguide": "G000606",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-2-huffman": {
+    "src": "/photos/ca-2-huffman.jpg",
+    "width": 175,
+    "height": 215,
+    "bioguide": "H001068",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-8-garamendi": {
+    "src": "/photos/ca-8-garamendi.jpg",
+    "width": 175,
+    "height": 237,
+    "bioguide": "G000559",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-10-desaulnier": {
+    "src": "/photos/ca-10-desaulnier.jpg",
+    "width": 200,
+    "height": 244,
+    "bioguide": "D000623",
+    "credit": "Congressional Pictorial Directory"
+  },
+  "ca-12-simon": {
+    "src": "/photos/ca-12-simon.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "S001231",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-15-mullin": {
+    "src": "/photos/ca-15-mullin.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "M001225",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-17-khanna": {
+    "src": "/photos/ca-17-khanna.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "K000389",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-19-panetta": {
+    "src": "/photos/ca-19-panetta.jpg",
+    "width": 200,
+    "height": 244,
+    "bioguide": "P000613",
+    "credit": "Congressional Pictorial Directory"
+  },
+  "ca-28-chu": {
+    "src": "/photos/ca-28-chu.jpg",
+    "width": 175,
+    "height": 229,
+    "bioguide": "C001080",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-29-rivas": {
+    "src": "/photos/ca-29-rivas.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "R000620",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-30-friedman": {
+    "src": "/photos/ca-30-friedman.jpg",
+    "width": 480,
+    "height": 420,
+    "bioguide": "F000483",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-32-sherman": {
+    "src": "/photos/ca-32-sherman.jpg",
+    "width": 175,
+    "height": 214,
+    "bioguide": "S000344",
+    "credit": "Image, Congressional Pictorial Directory, 109th."
+  },
+  "ca-34-gomez": {
+    "src": "/photos/ca-34-gomez.jpg",
+    "width": 200,
+    "height": 244,
+    "bioguide": "G000585",
+    "credit": "Congressional Pictorial Directory"
+  },
+  "ca-36-lieu": {
+    "src": "/photos/ca-36-lieu.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "L000582",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-37-kamlager-dove": {
+    "src": "/photos/ca-37-kamlager-dove.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "K000400",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-39-takano": {
+    "src": "/photos/ca-39-takano.jpg",
+    "width": 175,
+    "height": 195,
+    "bioguide": "T000472",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-42-garcia": {
+    "src": "/photos/ca-42-garcia.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "G000598",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-43-waters": {
+    "src": "/photos/ca-43-waters.jpg",
+    "width": 175,
+    "height": 222,
+    "bioguide": "W000187",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-44-barragan": {
+    "src": "/photos/ca-44-barragan.jpg",
+    "width": 175,
+    "height": 226,
+    "bioguide": "B001300",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-47-min": {
+    "src": "/photos/ca-47-min.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "M001241",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-49-levin": {
+    "src": "/photos/ca-49-levin.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "L000593",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-51-jacobs": {
+    "src": "/photos/ca-51-jacobs.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "J000305",
+    "credit": "Image courtesy of the Member"
+  },
+  "ca-52-vargas": {
+    "src": "/photos/ca-52-vargas.jpg",
+    "width": 175,
+    "height": 225,
+    "bioguide": "V000130",
+    "credit": "Image courtesy of the Member"
+  },
+  "co-2-neguse": {
+    "src": "/photos/co-2-neguse.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "N000191",
+    "credit": "Image courtesy of the Member"
+  },
+  "ct-3-delauro": {
+    "src": "/photos/ct-3-delauro.jpg",
+    "width": 200,
+    "height": 244,
+    "bioguide": "D000216",
+    "credit": "Congressional Pictorial Directory"
+  },
+  "de-al-mcbride": {
+    "src": "/photos/de-al-mcbride.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "M001238",
+    "credit": "Image courtesy of the Member"
+  },
+  "fl-9-soto": {
+    "src": "/photos/fl-9-soto.jpg",
+    "width": 200,
+    "height": 244,
+    "bioguide": "S001200",
+    "credit": "Congressional Pictorial Directory"
+  },
+  "fl-10-frost": {
+    "src": "/photos/fl-10-frost.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "F000476",
+    "credit": "Image courtesy of the Member"
+  },
+  "ga-4-johnson": {
+    "src": "/photos/ga-4-johnson.jpg",
+    "width": 175,
+    "height": 217,
+    "bioguide": "J000288",
+    "credit": "Image courtesy of the Member"
+  },
+  "ga-5-williams": {
+    "src": "/photos/ga-5-williams.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "W000788",
+    "credit": "Image courtesy of the Member"
+  },
+  "hi-2-tokuda": {
+    "src": "/photos/hi-2-tokuda.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "T000487",
+    "credit": "Image courtesy of the Member"
+  },
+  "il-1-jackson": {
+    "src": "/photos/il-1-jackson.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "J000309",
+    "credit": "Image courtesy of the Member"
+  },
+  "il-3-ramirez": {
+    "src": "/photos/il-3-ramirez.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "R000617",
+    "credit": "Image courtesy of the Member"
+  },
+  "in-7-carson": {
+    "src": "/photos/in-7-carson.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "C001072",
+    "credit": "Image courtesy of the Member"
+  },
+  "ky-3-mcgarvey": {
+    "src": "/photos/ky-3-mcgarvey.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "M001220",
+    "credit": "Image courtesy of the Member"
+  },
+  "la-2-carter": {
+    "src": "/photos/la-2-carter.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "C001125",
+    "credit": "Image courtesy of the Member"
+  },
+  "me-1-pingree": {
+    "src": "/photos/me-1-pingree.jpg",
+    "width": 175,
+    "height": 231,
+    "bioguide": "P000597",
+    "credit": "Image courtesy of the Member"
+  },
+  "md-7-mfume": {
+    "src": "/photos/md-7-mfume.jpg",
+    "width": 175,
+    "height": 275,
+    "bioguide": "M000687",
+    "credit": "Image courtesy of the Member"
+  },
+  "md-8-raskin": {
+    "src": "/photos/md-8-raskin.jpg",
+    "width": 175,
+    "height": 227,
+    "bioguide": "R000606",
+    "credit": "Image courtesy of the Member"
+  },
+  "ma-2-mcgovern": {
+    "src": "/photos/ma-2-mcgovern.jpg",
+    "width": 450,
+    "height": 550,
+    "bioguide": "M000312",
+    "credit": "Congressional Pictorial Directory"
+  },
+  "ma-3-trahan": {
+    "src": "/photos/ma-3-trahan.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "T000482",
+    "credit": "Image courtesy of the Member"
+  },
+  "ma-7-pressley": {
+    "src": "/photos/ma-7-pressley.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "P000617",
+    "credit": "Image courtesy of the Member"
+  },
+  "mi-6-dingell": {
+    "src": "/photos/mi-6-dingell.jpg",
+    "width": 175,
+    "height": 256,
+    "bioguide": "D000624",
+    "credit": "Image courtesy of the Member"
+  },
+  "mi-12-tlaib": {
+    "src": "/photos/mi-12-tlaib.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "T000481",
+    "credit": "Image courtesy of the Member"
+  },
+  "mn-5-omar": {
+    "src": "/photos/mn-5-omar.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "O000173",
+    "credit": "Image courtesy of the Member"
+  },
+  "nv-4-horsford": {
+    "src": "/photos/nv-4-horsford.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "H001066",
+    "credit": "Image courtesy of the Member"
+  },
+  "nj-1-norcross": {
+    "src": "/photos/nj-1-norcross.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "N000188",
+    "credit": "Image courtesy of the Member"
+  },
+  "nj-6-pallone": {
+    "src": "/photos/nj-6-pallone.jpg",
+    "width": 175,
+    "height": 214,
+    "bioguide": "P000034",
+    "credit": "Image, Congressional Pictorial Directory, 109th."
+  },
+  "nj-9-pou": {
+    "src": "/photos/nj-9-pou.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "P000621",
+    "credit": "Image courtesy of the Member"
+  },
+  "nj-10-mciver": {
+    "src": "/photos/nj-10-mciver.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "M001229",
+    "credit": "Image courtesy of the Member"
+  },
+  "nm-1-stansbury": {
+    "src": "/photos/nm-1-stansbury.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "S001218",
+    "credit": "Image courtesy of the Member"
+  },
+  "nm-3-fernandez": {
+    "src": "/photos/nm-3-fernandez.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "L000273",
+    "credit": "Image courtesy of the Member"
+  },
+  "ny-6-meng": {
+    "src": "/photos/ny-6-meng.jpg",
+    "width": 175,
+    "height": 244,
+    "bioguide": "M001188",
+    "credit": "Image courtesy of the Member"
+  },
+  "ny-9-clarke": {
+    "src": "/photos/ny-9-clarke.jpg",
+    "width": 480,
+    "height": 595,
+    "bioguide": "C001067",
+    "credit": "Image courtesy of the Member"
+  },
+  "ny-14-ocasio-cortez": {
+    "src": "/photos/ny-14-ocasio-cortez.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "O000172",
+    "credit": "Image courtesy of the Member"
+  },
+  "ny-20-tonko": {
+    "src": "/photos/ny-20-tonko.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "T000469",
+    "credit": "Image courtesy of the Member"
+  },
+  "nc-4-foushee": {
+    "src": "/photos/nc-4-foushee.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "F000477",
+    "credit": "Image courtesy of the Member"
+  },
+  "nc-12-adams": {
+    "src": "/photos/nc-12-adams.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "A000370",
+    "credit": "Image courtesy of the Member"
+  },
+  "oh-11-brown": {
+    "src": "/photos/oh-11-brown.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "B001313",
+    "credit": "Image courtesy of the Member"
+  },
+  "or-1-bonamici": {
+    "src": "/photos/or-1-bonamici.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "B001278",
+    "credit": "Image courtesy of the Member"
+  },
+  "or-3-dexter": {
+    "src": "/photos/or-3-dexter.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "D000635",
+    "credit": "Image courtesy of the Member"
+  },
+  "or-4-hoyle": {
+    "src": "/photos/or-4-hoyle.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "H001094",
+    "credit": "Image courtesy of the Member"
+  },
+  "or-6-salinas": {
+    "src": "/photos/or-6-salinas.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "S001226",
+    "credit": "Image courtesy of the Member"
+  },
+  "pa-2-boyle": {
+    "src": "/photos/pa-2-boyle.jpg",
+    "width": 480,
+    "height": 721,
+    "bioguide": "B001296",
+    "credit": "Image courtesy of the Member"
+  },
+  "pa-4-dean": {
+    "src": "/photos/pa-4-dean.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "D000631",
+    "credit": "Image courtesy of the Member"
+  },
+  "pa-5-scanlon": {
+    "src": "/photos/pa-5-scanlon.jpg",
+    "width": 200,
+    "height": 244,
+    "bioguide": "S001205",
+    "credit": "Congressional Pictorial Directory"
+  },
+  "pa-12-lee": {
+    "src": "/photos/pa-12-lee.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "L000602",
+    "credit": "Image courtesy of the Member"
+  },
+  "pa-17-deluzio": {
+    "src": "/photos/pa-17-deluzio.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "D000530",
+    "credit": "Image courtesy of the Member"
+  },
+  "tx-16-escobar": {
+    "src": "/photos/tx-16-escobar.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "E000299",
+    "credit": "Image courtesy of the Member"
+  },
+  "tx-18-menefee": {
+    "src": "/photos/tx-18-menefee.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "M001245",
+    "credit": "Image courtesy of the Member"
+  },
+  "tx-20-castro": {
+    "src": "/photos/tx-20-castro.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "C001091",
+    "credit": "Image courtesy of the Member"
+  },
+  "tx-37-casar": {
+    "src": "/photos/tx-37-casar.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "C001131",
+    "credit": "Image courtesy of the Member"
+  },
+  "vt-al-balint": {
+    "src": "/photos/vt-al-balint.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "B001318",
+    "credit": "Image courtesy of the Member"
+  },
+  "va-4-mcclellan": {
+    "src": "/photos/va-4-mcclellan.jpg",
+    "width": 175,
+    "height": 219,
+    "bioguide": "M001227",
+    "credit": "Image courtesy of the Member"
+  },
+  "va-8-beyer": {
+    "src": "/photos/va-8-beyer.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "B001292",
+    "credit": "Image courtesy of the Member"
+  },
+  "wa-6-randall": {
+    "src": "/photos/wa-6-randall.jpg",
+    "width": 480,
+    "height": 600,
+    "bioguide": "R000621",
+    "credit": "Image courtesy of the Member"
+  },
+  "wa-7-jayapal": {
+    "src": "/photos/wa-7-jayapal.jpg",
+    "width": 200,
+    "height": 244,
+    "bioguide": "J000298",
+    "credit": "Congressional Pictorial Directory"
+  },
+  "wa-9-smith": {
+    "src": "/photos/wa-9-smith.jpg",
+    "width": 200,
+    "height": 244,
+    "bioguide": "S000510",
+    "credit": "Congressional Pictorial Directory"
+  },
+  "wi-2-pocan": {
+    "src": "/photos/wi-2-pocan.jpg",
+    "width": 175,
+    "height": 263,
+    "bioguide": "P000607",
+    "credit": "Image courtesy of the Member"
+  },
+  "wi-4-moore": {
+    "src": "/photos/wi-4-moore.jpg",
+    "width": 199,
+    "height": 244,
+    "bioguide": "M001160",
+    "credit": "Congressional Pictorial Directory"
+  }
+}

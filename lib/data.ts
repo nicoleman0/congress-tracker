@@ -1,7 +1,9 @@
 // The only module that knows where roster data lives. Swap this for a database later.
 import raw from "@/data/members.json";
+import rawPhotos from "@/data/photos.json";
 import rawPlatform from "@/data/platform.json";
 import type { SearchEntry } from "@/lib/search";
+import { CHECKED_AT } from "@/lib/freshness";
 import { STATES, type State } from "@/lib/states";
 
 export type Office = "house" | "senate";
@@ -32,6 +34,8 @@ export type StanceKind = "campaign" | "office" | "congress";
 // `quote` is the passage on the source page the stance paraphrases; scripts/check-platform.ts rechecks it.
 // Record stances have none: scripts/record.ts rebuilds them from Congress.gov.
 export type Stance = { issue: string; text: string; kind: StanceKind; quote?: string; source: Source; checkedAt: string };
+// Official portrait from Congress.gov, saved by scripts/photos.ts. `bioguide` links back to the source.
+export type Photo = { src: string; width: number; height: number; bioguide: string; credit: string };
 const RECORD_HOSTS = /^https:\/\/(www\.)?(congress\.gov|clerk\.house\.gov|senate\.gov)\//;
 const OFFICE_HOSTS = /^https:\/\/[a-z-]+\.(house|senate)\.gov\//;
 
@@ -66,7 +70,7 @@ function load() {
     if (!m.source?.url.startsWith("https://")) fail(`${m.id}: source needs an https url`);
     if (m.campaign && !m.campaign.url.startsWith("https://")) fail(`${m.id}: campaign needs an https url`);
     if (m.campaign && !/^C\d{8}$/.test(m.campaign.fec)) fail(`${m.id}: campaign.fec must be an FEC committee id`);
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(m.checkedAt)) fail(`${m.id}: checkedAt must be YYYY-MM-DD`);
+    if (!CHECKED_AT.test(m.checkedAt)) fail(`${m.id}: checkedAt must be YYYY-MM-DD or YYYY-MM-DDTHH:MMZ`);
     return m;
   });
 
@@ -82,11 +86,16 @@ function load() {
       if (s.kind === "congress" && !RECORD_HOSTS.test(s.source.url)) fail(`platform ${id}: congress stance must cite congress.gov, clerk.house.gov or senate.gov`);
       if (s.kind !== "congress" && !s.quote?.trim()) fail(`platform ${id}: ${s.issue} needs the quote it paraphrases`);
       if (s.kind === "office" && !OFFICE_HOSTS.test(s.source.url)) fail(`platform ${id}: office stance must cite a house.gov or senate.gov member site`);
-      if (!/^\d{4}-\d{2}-\d{2}$/.test(s.checkedAt)) fail(`platform ${id}: checkedAt must be YYYY-MM-DD`);
+      if (!CHECKED_AT.test(s.checkedAt)) fail(`platform ${id}: checkedAt must be YYYY-MM-DD or YYYY-MM-DDTHH:MMZ`);
     }
     stances.set(id, list);
   }
-  return { groups, members, issues, stances };
+  const photos = new Map(Object.entries(rawPhotos as Record<string, Photo>));
+  for (const [id, ph] of photos) {
+    if (!ids.has(id)) fail(`photos: unknown member ${id}`);
+    if (ph.src !== `/photos/${id}.jpg`) fail(`photos ${id}: src must be /photos/${id}.jpg`);
+  }
+  return { groups, members, issues, stances, photos };
 }
 
 export function staleMembers(members: Member[], now: Date): Member[] {
@@ -100,6 +109,7 @@ const db = load();
 export const lastChecked = db.members.map((m) => m.checkedAt).sort().at(-1)!;
 export const allMembers = (): Member[] => db.members;
 export const getMember = (id: string) => db.members.find((m) => m.id === id);
+export const getPhoto = (id: string) => db.photos.get(id);
 export const getGroup = (code: string) => db.groups.get(code)!;
 export const groupList = () => [...db.groups.values()];
 

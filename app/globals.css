@@ -279,6 +279,30 @@ p {
   min-width: min(100%, 34rem);
   max-width: 100%;
 }
+/* wrap-reverse puts the portrait above the name once the row no longer fits. */
+.hero-row {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--s-3) var(--s-5);
+}
+.hero-photo { margin: 0; width: 10rem; }
+.hero-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: top;
+  filter: grayscale(1) contrast(1.05);
+  mix-blend-mode: multiply;
+}
+.hero-photo figcaption { margin-top: 0.35rem; font-size: 0.7rem; line-height: 1.3; }
+.hero-photo figcaption a { color: var(--muted); }
+@media (max-width: 40rem) {
+  .hero-photo { width: 6.5rem; }
+}
 .hero-title {
   position: relative;
   z-index: 1;
@@ -515,7 +539,6 @@ p {
 .chip--pending { border-style: dashed; }
 .chip--incumbent { border-color: var(--rule); color: var(--muted); }
 .chip--lost { border-color: var(--rule); color: var(--muted); text-decoration: line-through; }
-.chip--record { font-size: 0.75rem; vertical-align: 0.1em; }
 
 /* ============================================================
    Action rows: outbound links with a muted detail line.

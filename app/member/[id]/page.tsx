@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
@@ -5,7 +6,8 @@ import { CheckedDate } from "@/components/CheckedDate";
 import { MemberNews } from "@/components/MemberNews";
 import { ActionList, STATUS_TEXT } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, campaignAction } from "@/lib/actions";
-import { allMembers, getGroup, getMember, getState, platformOf, seatLabel } from "@/lib/data";
+import { formatChecked } from "@/lib/freshness";
+import { allMembers, getGroup, getMember, getPhoto, getState, platformOf, seatLabel } from "@/lib/data";
 
 export function generateStaticParams() {
   return allMembers().map((m) => ({ id: m.id }));
@@ -25,23 +27,36 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
   const state = getState(m.state)!;
   const campaign = campaignAction(m);
   const platform = platformOf(m.id);
+  const photo = getPhoto(m.id);
 
   return (
     <>
       <section className="hero" aria-labelledby="member-name">
         <Link href={`/state/${m.state.toLowerCase()}`} className="crumb">{state.name}</Link>
-        <div className="hero-id">
-          <h1 id="member-name" className="hero-title"><span className="ink">{m.name}</span></h1>
-          <div className="hero-card">
-            <p className="hero-role">{seatLabel(m)}</p>
-            <p className="hero-detail">
-              {STATUS_TEXT[m.status]}
-              {!m.incumbent && " · New member"}
-            </p>
-            <a className="hero-action" href={campaign.href} target="_blank" rel="noopener noreferrer">
-              {campaign.label} ↗
-            </a>
+        <div className="hero-row">
+          <div className="hero-id">
+            <h1 id="member-name" className="hero-title"><span className="ink">{m.name}</span></h1>
+            <div className="hero-card">
+              <p className="hero-role">{seatLabel(m)}</p>
+              <p className="hero-detail">
+                {STATUS_TEXT[m.status]}
+                {!m.incumbent && " · New member"}
+              </p>
+              <a className="hero-action" href={campaign.href} target="_blank" rel="noopener noreferrer">
+                {campaign.label} ↗
+              </a>
+            </div>
           </div>
+          {photo && (
+            <figure className="hero-photo">
+              <Image src={photo.src} width={photo.width} height={photo.height} alt={`Official portrait of ${m.name}`} sizes="10rem" preload />
+              <figcaption>
+                <a href={`https://bioguide.congress.gov/search/bio/${photo.bioguide}`} target="_blank" rel="noopener noreferrer">
+                  {photo.credit}
+                </a>
+              </figcaption>
+            </figure>
+          )}
         </div>
       </section>
 
@@ -50,7 +65,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
         <p className="meta">
           Source:{" "}
           <a href={m.source.url} target="_blank" rel="noopener noreferrer">{m.source.label}</a>
-          {" · "}Last checked {m.checkedAt}
+          {" · "}Last checked {formatChecked(m.checkedAt)}
         </p>
       </div>
 
@@ -87,7 +102,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
         ) : (
           <>
             <p className="note">
-              Summarized from the linked pages and rechecked against them weekly. <Link href="/method">How we source this</Link>.
+              <Link href="/method">How we source this</Link>.
             </p>
             <dl className="platform">
               {platform.map((g) => (
@@ -95,7 +110,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
                   <dt>{g.name}</dt>
                   {g.stances.map((s) => (
                     <dd key={s.source.url + s.text}>
-                      {s.kind === "congress" && <span className="chip chip--record">Record</span>} {s.text}{" "}
+                      {s.text}{" "}
                       <a href={s.source.url} target="_blank" rel="noopener noreferrer" className="platform-source">
                         {s.source.label} ↗
                       </a>{" "}

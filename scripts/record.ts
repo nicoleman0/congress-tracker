@@ -3,6 +3,7 @@
 // Usage: DATA_GOV_API_KEY=... tsx scripts/record.ts   (free key at https://api.data.gov/signup/)
 import fs from "node:fs";
 import type { Member, Stance } from "@/lib/data";
+import { checkedNow } from "@/lib/freshness";
 import { bare } from "@/lib/names";
 
 const MEMBERS = "data/members.json";
@@ -66,7 +67,7 @@ async function main() {
   if (!process.env.DATA_GOV_API_KEY) throw new Error("set DATA_GOV_API_KEY (free at https://api.data.gov/signup/)");
   const members = (JSON.parse(fs.readFileSync(MEMBERS, "utf8")) as { members: Member[] }).members.filter((m) => m.incumbent);
   const platform = JSON.parse(fs.readFileSync(PLATFORM, "utf8")) as { stances: Record<string, Stance[]> };
-  const today = new Date().toISOString().slice(0, 10);
+  const now = checkedNow();
   const ours = new Set(BILLS.map(billUrl));
 
   for (const id of Object.keys(platform.stances)) {
@@ -79,7 +80,7 @@ async function main() {
     for (const m of members) {
       const role = sponsors.some((s) => matches(m, s)) ? "Sponsored" : cosponsors.some((s) => matches(m, s)) ? "Cosponsored" : null;
       if (!role) continue;
-      (platform.stances[m.id] ??= []).push(stanceFor(b, role, today));
+      (platform.stances[m.id] ??= []).push(stanceFor(b, role, now));
       n++;
     }
     counts.push(`${label(b)} ${b.name}: ${n} of ours (of ${sponsors.length + cosponsors.length} total)`);

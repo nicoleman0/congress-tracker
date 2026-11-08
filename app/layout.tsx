@@ -6,6 +6,7 @@ import "@fontsource-variable/funnel-sans";
 import { MemberSearch } from "@/components/MemberSearch";
 import { NavLinks } from "@/components/NavLinks";
 import { lastChecked, searchEntries } from "@/lib/data";
+import { formatChecked } from "@/lib/freshness";
 import { REPO_URL, SITE_NAME } from "@/lib/site";
 import "./globals.css";
 
@@ -39,7 +40,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </div>
         <footer className="page-wrap page-wrap--wide">
           <div className="footer-inner">
-            <p>Last checked {lastChecked}.</p>
+            <p>Last checked {formatChecked(lastChecked)}.</p>
             <nav className="footer-links" aria-label="Site">
               <Link href="/faq">faq</Link>
               <Link href="/method">method and sources</Link>
