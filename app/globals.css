@@ -577,6 +577,30 @@ p {
 }
 .state-grid a:hover { text-decoration: underline; text-decoration-thickness: 2px; }
 
+/* Full roster in columns, dense enough to scan in one screen. */
+.roster {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 17rem;
+  column-gap: var(--s-4);
+}
+.roster li {
+  break-inside: avoid;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--s-1);
+  padding: 0.3rem 0;
+  border-top: 1px solid var(--rule);
+}
+.roster a {
+  font: 600 1.05rem var(--font-display);
+  text-decoration: none;
+}
+.roster a:hover { text-decoration: underline; text-decoration-thickness: 2px; }
+.roster-seat { color: var(--muted); font-size: 0.9rem; white-space: nowrap; }
+
 /* ============================================================
    Footer
    ============================================================ */

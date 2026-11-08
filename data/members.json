@@ -416,11 +416,11 @@
       "endorsedBy": [
         "WFP"
       ],
-      "status": "pending",
-      "note": "Non-voting delegate seat. No general-election call found yet.",
+      "status": "won",
+      "note": "Beat Denise Rosado.",
       "source": {
-        "label": "FOX 5 DC",
-        "url": "https://www.fox5dc.com/news/2026-midterm-elections-washington-dc-us-delegate-race-live-results"
+        "label": "WTOP",
+        "url": "https://wtop.com/dc/2026/11/dc-election-results-democratic-socialists-poised-to-win-top-jobs/"
       },
       "office": "house",
       "incumbent": false,
