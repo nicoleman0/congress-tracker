@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <section className="hero" aria-labelledby="hero-title">
-        <div className="hero-id">
+        <div className="hero-id hero-id--home">
           <div className="hero-card">
             <h1 id="hero-title" className="hero-role">The progressives in Congress</h1>
             <p className="hero-detail">{total} listed</p>

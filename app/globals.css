@@ -308,12 +308,16 @@ h1,
       wobble 0.6s ease-in-out;
   }
 }
-.hero-card:first-child { margin-top: 0; }
+/* Home: the card is the headline, so it runs full width and sits level. */
+.hero-id--home { width: 100%; }
+.hero-id--home .hero-card { margin-top: 0; transform: none; animation: none; }
 .hero-role {
-  font: 800 clamp(1.4rem, 2.1vw, 1.85rem)/1 var(--font-display);
+  font: 800 clamp(1.4rem, 2.1vw, 1.85rem)/1.15 var(--font-display);
   letter-spacing: -0.02em;
   margin: 0;
 }
+/* The home h1 prints on lime: no ink mask (it clipped descenders) and no lime ghost. */
+h1.hero-role { text-shadow: none; -webkit-mask: none; mask: none; }
 .hero-detail {
   font-size: 1rem;
   margin: 0;
