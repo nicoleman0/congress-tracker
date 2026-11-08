@@ -585,25 +585,14 @@
       },
       {
         "issue": "healthcare",
-        "text": "Supports passing Medicare for All.",
-        "kind": "campaign",
+        "text": "Supports a single-payer health care system, or Medicare for All.",
+        "kind": "office",
         "source": {
-          "label": "Campaign site",
-          "url": "https://rokhanna.com/en/platform"
+          "label": "House website",
+          "url": "https://khanna.house.gov/issues/health"
         },
         "checkedAt": "2026-11-08",
-        "quote": "Guarantee creators healthcare by passing Medicare for All"
-      },
-      {
-        "issue": "labor",
-        "text": "Cosponsors and strongly supports the PRO Act.",
-        "kind": "campaign",
-        "source": {
-          "label": "Campaign site",
-          "url": "https://rokhanna.com/en/platform"
-        },
-        "checkedAt": "2026-11-08",
-        "quote": "Ro is a cosponsor and strong supporter of the PRO Act"
+        "quote": "I support the creation of a single-payer health care system, or Medicare for All."
       }
     ],
     "ca-19-panetta": [
