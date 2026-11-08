@@ -1,0 +1,2044 @@
+{
+  "asOf": "2026-11-08",
+  "groups": {
+    "JD": {
+      "name": "Justice Democrats",
+      "url": "https://justicedemocrats.com/candidates/"
+    },
+    "CPC": {
+      "name": "Congressional Progressive Caucus PAC",
+      "url": "https://weareprogressives.org/press-releases/"
+    },
+    "WFP": {
+      "name": "Working Families Party",
+      "url": "https://workingfamilies.org/2026/11/what-happened-on-tuesday/"
+    },
+    "OR": {
+      "name": "Our Revolution",
+      "url": "https://ourrevolution.com/revolution-report-november-7th-2026/"
+    },
+    "CAUCUS": {
+      "name": "Congressional Progressive Caucus (member)",
+      "url": "https://progressives.house.gov/caucus-members"
+    }
+  },
+  "members": [
+    {
+      "id": "ca-22-villegas",
+      "name": "Randy Villegas",
+      "state": "CA",
+      "district": "22",
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated incumbent Rep. David Valadao (R).",
+      "source": {
+        "label": "Patch, AP call",
+        "url": "https://patch.com/california/across-ca/ca-house-races-2026-real-time-results"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "co-01-kiros",
+      "name": "Melat Kiros",
+      "state": "CO",
+      "district": "1",
+      "endorsedBy": [
+        "JD",
+        "CPC",
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Beat 15-term Rep. Diana DeGette in the primary.",
+      "source": {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "mi-07-lawrence",
+      "name": "Will Lawrence",
+      "state": "MI",
+      "district": "7",
+      "endorsedBy": [
+        "CPC",
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Rep. Tom Barrett (R).",
+      "source": {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "ny-07-valdez",
+      "name": "Claire Valdez",
+      "state": "NY",
+      "district": "7",
+      "endorsedBy": [
+        "JD",
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Open seat.",
+      "source": {
+        "label": "NBC News, projected",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-7-results"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "ny-10-lander",
+      "name": "Brad Lander",
+      "state": "NY",
+      "district": "10",
+      "endorsedBy": [
+        "WFP"
+      ],
+      "status": "won",
+      "note": "Former NYC Comptroller.",
+      "source": {
+        "label": "ABC7 NY, AP call",
+        "url": "https://abc7ny.com/politics/elections/local/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "ny-12-lasher",
+      "name": "Micah Lasher",
+      "state": "NY",
+      "district": "12",
+      "endorsedBy": [
+        "CPC"
+      ],
+      "status": "won",
+      "note": "New York Assemblymember.",
+      "source": {
+        "label": "ABC7 NY, AP call",
+        "url": "https://abc7ny.com/politics/elections/local/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "nj-12-hamawy",
+      "name": "Adam Hamawy",
+      "state": "NJ",
+      "district": "12",
+      "endorsedBy": [
+        "JD",
+        "WFP"
+      ],
+      "status": "won",
+      "note": "Succeeds retiring Rep. Bonnie Watson Coleman.",
+      "source": {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "oh-07-poindexter",
+      "name": "Brian Poindexter",
+      "state": "OH",
+      "district": "7",
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Rep. Max Miller (R).",
+      "source": {
+        "label": "News 5 Cleveland, AP projection",
+        "url": "https://www.news5cleveland.com/politics/america-votes/poindexter-declared-winner-in-ohios-hotly-contested-7th-district-race"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "pa-03-rabb",
+      "name": "Chris Rabb",
+      "state": "PA",
+      "district": "3",
+      "endorsedBy": [
+        "JD",
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Succeeds retiring Rep. Dwight Evans.",
+      "source": {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "pa-07-brooks",
+      "name": "Bob Brooks",
+      "state": "PA",
+      "district": "7",
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Rep. Ryan Mackenzie (R).",
+      "source": {
+        "label": "FOX 29, AP call",
+        "url": "https://www.fox29.com/news/bob-brooks-wins-u-s-house-seat-representing-pennsylvanias-7th-district-ap"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "tx-23-padilla-stout",
+      "name": "Katy Padilla Stout",
+      "state": "TX",
+      "district": "23",
+      "endorsedBy": [
+        "CPC",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Flipped the seat; defeated Brandon Herrera (R).",
+      "source": {
+        "label": "KSAT",
+        "url": "https://www.ksat.com/news/texas/2026/11/04/katy-padilla-stout-democratic-newcomer-flips-west-texas-congressional-seat/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "ny-13-avila-chevalier",
+      "name": "Darializa Avila Chevalier",
+      "state": "NY",
+      "district": "13",
+      "endorsedBy": [
+        "JD",
+        "WFP",
+        "OR"
+      ],
+      "status": "leading",
+      "note": "About 88% of the vote with 89% reported. Beat Rep. Adriano Espaillat in the primary.",
+      "source": {
+        "label": "ABC7 NY",
+        "url": "https://abc7ny.com/politics/elections/local/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "ny-17-conley",
+      "name": "Cait Conley",
+      "state": "NY",
+      "district": "17",
+      "endorsedBy": [
+        "WFP"
+      ],
+      "status": "leading",
+      "note": "53% to 47% over Rep. Mike Lawler (R) with 95% reported.",
+      "source": {
+        "label": "ABC7 NY",
+        "url": "https://abc7ny.com/politics/elections/local/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "mn-02-little",
+      "name": "Matt Little",
+      "state": "MN",
+      "district": "2",
+      "endorsedBy": [
+        "CPC"
+      ],
+      "status": "leading",
+      "note": "57% to 43% with about 99% counted.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-house-results"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "ca-14-wahab",
+      "name": "Aisha Wahab",
+      "state": "CA",
+      "district": "14",
+      "endorsedBy": [
+        "CPC",
+        "WFP",
+        "OR",
+        "CAUCUS"
+      ],
+      "status": "leading",
+      "note": "Seated after the August 2026 special election. Headed for a full term.",
+      "source": {
+        "label": "KQED",
+        "url": "https://www.kqed.org/news/12106988/wahab-well-ahead-of-hernandez-in-east-bay-congressional-race"
+      },
+      "office": "house",
+      "incumbent": true
+    },
+    {
+      "id": "mi-13-mckinney",
+      "name": "Donavan McKinney",
+      "state": "MI",
+      "district": "13",
+      "endorsedBy": [
+        "JD",
+        "CPC",
+        "WFP"
+      ],
+      "status": "pending",
+      "note": "Safe Democratic seat. Beat Rep. Shri Thanedar in the primary. No general-election call found yet.",
+      "source": {
+        "label": "Ballotpedia",
+        "url": "https://ballotpedia.org/Michigan's_13th_Congressional_District_election,_2026"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "tx-30-haynes",
+      "name": "Frederick Haynes III",
+      "state": "TX",
+      "district": "30",
+      "endorsedBy": [
+        "JD"
+      ],
+      "status": "pending",
+      "note": "Safe Democratic seat. No general-election call found yet.",
+      "source": {
+        "label": "WTOP",
+        "url": "https://wtop.com/news/2026/03/frederick-haynes-wins-democratic-nomination-for-u-s-house-in-texas-30th-congressional-district"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "nj-11-mejia",
+      "name": "Analilia Mejia",
+      "state": "NJ",
+      "district": "11",
+      "endorsedBy": [
+        "WFP",
+        "CAUCUS"
+      ],
+      "status": "pending",
+      "note": "Seated after the April 2026 special election. No full-term call found yet.",
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Analilia_Mejia"
+      },
+      "office": "house",
+      "incumbent": true
+    },
+    {
+      "id": "dc-al-white",
+      "name": "Robert White Jr.",
+      "state": "DC",
+      "district": "AL",
+      "endorsedBy": [
+        "WFP"
+      ],
+      "status": "pending",
+      "note": "Non-voting delegate seat. No general-election call found yet.",
+      "source": {
+        "label": "FOX 5 DC",
+        "url": "https://www.fox5dc.com/news/2026-midterm-elections-washington-dc-us-delegate-race-live-results"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "tn-09-pearson",
+      "name": "Justin J. Pearson",
+      "state": "TN",
+      "district": "9",
+      "endorsedBy": [
+        "JD",
+        "CPC",
+        "WFP"
+      ],
+      "status": "pending",
+      "note": "Too close to call against Brent Taylor (R).",
+      "source": {
+        "label": "Working Families Party",
+        "url": "https://workingfamilies.org/2026/11/what-happened-on-tuesday/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "ca-07-vang",
+      "name": "Mai Vang",
+      "state": "CA",
+      "district": "7",
+      "endorsedBy": [
+        "JD",
+        "WFP"
+      ],
+      "status": "pending",
+      "note": "Democrat-vs-Democrat race against Rep. Doris Matsui. No result found yet.",
+      "source": {
+        "label": "Justice Democrats",
+        "url": "https://justicedemocrats.com/candidate/mai-vang/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "ca-34-gonzales-torres",
+      "name": "Angela Gonzales-Torres",
+      "state": "CA",
+      "district": "34",
+      "endorsedBy": [
+        "JD",
+        "WFP"
+      ],
+      "status": "pending",
+      "note": "Democrat-vs-Democrat race against Rep. Jimmy Gomez. No result found yet.",
+      "source": {
+        "label": "Justice Democrats",
+        "url": "https://justicedemocrats.com/candidates/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "va-05-perriello",
+      "name": "Tom Perriello",
+      "state": "VA",
+      "district": "5",
+      "endorsedBy": [
+        "CPC"
+      ],
+      "status": "pending",
+      "note": "Close race against Rep. John McGuire (R). No call found yet.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-primary-elections/virginia-house-results"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "mt-01-forstag",
+      "name": "Sam Forstag",
+      "state": "MT",
+      "district": "1",
+      "endorsedBy": [
+        "OR"
+      ],
+      "status": "pending",
+      "note": "No call from a major outlet found yet.",
+      "source": {
+        "label": "Our Revolution",
+        "url": "https://ourrevolution.com/revolution-report-november-7th-2026/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "fl-24-jones",
+      "name": "Shevrin Jones",
+      "state": "FL",
+      "district": "24",
+      "endorsedBy": [
+        "CPC"
+      ],
+      "status": "pending",
+      "note": "Endorsed before the August primary. Primary and general results not yet confirmed.",
+      "source": {
+        "label": "CPC PAC",
+        "url": "https://weareprogressives.org/press-releases/"
+      },
+      "office": "house",
+      "incumbent": false
+    },
+    {
+      "id": "mi-sen-el-sayed",
+      "name": "Abdul El-Sayed",
+      "office": "senate",
+      "incumbent": false,
+      "state": "MI",
+      "district": null,
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Open seat.",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/michigan-senate-results"
+      }
+    },
+    {
+      "id": "me-sen-jackson",
+      "name": "Troy Jackson",
+      "office": "senate",
+      "incumbent": false,
+      "state": "ME",
+      "district": null,
+      "endorsedBy": [
+        "WFP",
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Sen. Susan Collins (R).",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+      }
+    },
+    {
+      "id": "tx-sen-talarico",
+      "name": "James Talarico",
+      "office": "senate",
+      "incumbent": false,
+      "state": "TX",
+      "district": null,
+      "endorsedBy": [
+        "OR"
+      ],
+      "status": "won",
+      "note": "Defeated Ken Paxton (R).",
+      "source": {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+      }
+    },
+    {
+      "id": "vt-sen-sanders",
+      "name": "Bernie Sanders",
+      "office": "senate",
+      "incumbent": true,
+      "state": "VT",
+      "district": null,
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "Independent; caucuses with Democrats. Not up in 2026.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "az-3-ansari",
+      "name": "Yassamin Ansari",
+      "office": "house",
+      "incumbent": true,
+      "state": "AZ",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "az-7-grijalva",
+      "name": "Adelita Grijalva",
+      "office": "house",
+      "incumbent": true,
+      "state": "AZ",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-2-huffman",
+      "name": "Jared Huffman",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-8-garamendi",
+      "name": "John Garamendi",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "8",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-10-desaulnier",
+      "name": "Mark DeSaulnier",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "10",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-12-simon",
+      "name": "Lateefah Simon",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "12",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-15-mullin",
+      "name": "Kevin Mullin",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "15",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-17-khanna",
+      "name": "Ro Khanna",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "17",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-19-panetta",
+      "name": "Jimmy Panetta",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "19",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-28-chu",
+      "name": "Judy Chu",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "28",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-29-rivas",
+      "name": "Luz Rivas",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "29",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-30-friedman",
+      "name": "Laura Friedman",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "30",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-32-sherman",
+      "name": "Brad Sherman",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "32",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-34-gomez",
+      "name": "Jimmy Gomez",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "34",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "pending",
+      "note": "Democrat-vs-Democrat race against Angela Gonzales-Torres. No result found yet.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-36-lieu",
+      "name": "Ted Lieu",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "36",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-37-kamlager-dove",
+      "name": "Sydney Kamlager-Dove",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "37",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-38-sanchez",
+      "name": "Linda Sánchez",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "38",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-39-takano",
+      "name": "Mark Takano",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "39",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-42-garcia",
+      "name": "Robert Garcia",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "42",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-43-waters",
+      "name": "Maxine Waters",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "43",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-44-barragan",
+      "name": "Nanette Barragán",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "44",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-47-min",
+      "name": "Dave Min",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "47",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-49-levin",
+      "name": "Mike Levin",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "49",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-51-jacobs",
+      "name": "Sara Jacobs",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "51",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ca-52-vargas",
+      "name": "Juan Vargas",
+      "office": "house",
+      "incumbent": true,
+      "state": "CA",
+      "district": "52",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "co-2-neguse",
+      "name": "Joe Neguse",
+      "office": "house",
+      "incumbent": true,
+      "state": "CO",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ct-3-delauro",
+      "name": "Rosa DeLauro",
+      "office": "house",
+      "incumbent": true,
+      "state": "CT",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "de-al-mcbride",
+      "name": "Sarah McBride",
+      "office": "house",
+      "incumbent": true,
+      "state": "DE",
+      "district": "AL",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "fl-9-soto",
+      "name": "Darren Soto",
+      "office": "house",
+      "incumbent": true,
+      "state": "FL",
+      "district": "9",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "fl-10-frost",
+      "name": "Maxwell Frost",
+      "office": "house",
+      "incumbent": true,
+      "state": "FL",
+      "district": "10",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "fl-24-wilson",
+      "name": "Frederica Wilson",
+      "office": "house",
+      "incumbent": true,
+      "state": "FL",
+      "district": "24",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "pending",
+      "note": "Faced a 2026 primary challenge from Shevrin Jones. Result not yet verified.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ga-4-johnson",
+      "name": "Hank Johnson",
+      "office": "house",
+      "incumbent": true,
+      "state": "GA",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ga-5-williams",
+      "name": "Nikema Williams",
+      "office": "house",
+      "incumbent": true,
+      "state": "GA",
+      "district": "5",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ga-13-blair",
+      "name": "Everton Blair",
+      "office": "house",
+      "incumbent": true,
+      "state": "GA",
+      "district": "13",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "hi-2-tokuda",
+      "name": "Jill Tokuda",
+      "office": "house",
+      "incumbent": true,
+      "state": "HI",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "il-1-jackson",
+      "name": "Jonathan Jackson",
+      "office": "house",
+      "incumbent": true,
+      "state": "IL",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "il-3-ramirez",
+      "name": "Delia Ramirez",
+      "office": "house",
+      "incumbent": true,
+      "state": "IL",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "il-4-garcia",
+      "name": "Jesús García",
+      "office": "house",
+      "incumbent": true,
+      "state": "IL",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "il-7-davis",
+      "name": "Danny Davis",
+      "office": "house",
+      "incumbent": true,
+      "state": "IL",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "il-9-schakowsky",
+      "name": "Jan Schakowsky",
+      "office": "house",
+      "incumbent": true,
+      "state": "IL",
+      "district": "9",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "in-7-carson",
+      "name": "André Carson",
+      "office": "house",
+      "incumbent": true,
+      "state": "IN",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ky-3-mcgarvey",
+      "name": "Morgan McGarvey",
+      "office": "house",
+      "incumbent": true,
+      "state": "KY",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "la-2-carter",
+      "name": "Troy Carter",
+      "office": "house",
+      "incumbent": true,
+      "state": "LA",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "me-1-pingree",
+      "name": "Chellie Pingree",
+      "office": "house",
+      "incumbent": true,
+      "state": "ME",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "md-7-mfume",
+      "name": "Kweisi Mfume",
+      "office": "house",
+      "incumbent": true,
+      "state": "MD",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "md-8-raskin",
+      "name": "Jamie Raskin",
+      "office": "house",
+      "incumbent": true,
+      "state": "MD",
+      "district": "8",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ma-2-mcgovern",
+      "name": "Jim McGovern",
+      "office": "house",
+      "incumbent": true,
+      "state": "MA",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ma-3-trahan",
+      "name": "Lori Trahan",
+      "office": "house",
+      "incumbent": true,
+      "state": "MA",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ma-7-pressley",
+      "name": "Ayanna Pressley",
+      "office": "house",
+      "incumbent": true,
+      "state": "MA",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "mi-6-dingell",
+      "name": "Debbie Dingell",
+      "office": "house",
+      "incumbent": true,
+      "state": "MI",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "mi-12-tlaib",
+      "name": "Rashida Tlaib",
+      "office": "house",
+      "incumbent": true,
+      "state": "MI",
+      "district": "12",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "mn-5-omar",
+      "name": "Ilhan Omar",
+      "office": "house",
+      "incumbent": true,
+      "state": "MN",
+      "district": "5",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "nv-4-horsford",
+      "name": "Steven Horsford",
+      "office": "house",
+      "incumbent": true,
+      "state": "NV",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "nj-1-norcross",
+      "name": "Donald Norcross",
+      "office": "house",
+      "incumbent": true,
+      "state": "NJ",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "nj-6-pallone",
+      "name": "Frank Pallone",
+      "office": "house",
+      "incumbent": true,
+      "state": "NJ",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "nj-9-pou",
+      "name": "Nellie Pou",
+      "office": "house",
+      "incumbent": true,
+      "state": "NJ",
+      "district": "9",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "nj-10-mciver",
+      "name": "LaMonica McIver",
+      "office": "house",
+      "incumbent": true,
+      "state": "NJ",
+      "district": "10",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "nm-1-stansbury",
+      "name": "Melanie Stansbury",
+      "office": "house",
+      "incumbent": true,
+      "state": "NM",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "nm-3-fernandez",
+      "name": "Teresa Leger Fernandez",
+      "office": "house",
+      "incumbent": true,
+      "state": "NM",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ny-6-meng",
+      "name": "Grace Meng",
+      "office": "house",
+      "incumbent": true,
+      "state": "NY",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ny-9-clarke",
+      "name": "Yvette Clarke",
+      "office": "house",
+      "incumbent": true,
+      "state": "NY",
+      "district": "9",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ny-14-ocasio-cortez",
+      "name": "Alexandria Ocasio-Cortez",
+      "office": "house",
+      "incumbent": true,
+      "state": "NY",
+      "district": "14",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "ny-20-tonko",
+      "name": "Paul Tonko",
+      "office": "house",
+      "incumbent": true,
+      "state": "NY",
+      "district": "20",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "nc-4-foushee",
+      "name": "Valerie Foushee",
+      "office": "house",
+      "incumbent": true,
+      "state": "NC",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "nc-12-adams",
+      "name": "Alma Adams",
+      "office": "house",
+      "incumbent": true,
+      "state": "NC",
+      "district": "12",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "oh-11-brown",
+      "name": "Shontel Brown",
+      "office": "house",
+      "incumbent": true,
+      "state": "OH",
+      "district": "11",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "or-1-bonamici",
+      "name": "Suzanne Bonamici",
+      "office": "house",
+      "incumbent": true,
+      "state": "OR",
+      "district": "1",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "or-3-dexter",
+      "name": "Maxine Dexter",
+      "office": "house",
+      "incumbent": true,
+      "state": "OR",
+      "district": "3",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "or-4-hoyle",
+      "name": "Val Hoyle",
+      "office": "house",
+      "incumbent": true,
+      "state": "OR",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "or-6-salinas",
+      "name": "Andrea Salinas",
+      "office": "house",
+      "incumbent": true,
+      "state": "OR",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "pa-2-boyle",
+      "name": "Brendan Boyle",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "pa-4-dean",
+      "name": "Madeleine Dean",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "pa-5-scanlon",
+      "name": "Mary Gay Scanlon",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "5",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "pa-12-lee",
+      "name": "Summer Lee",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "12",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "pa-17-deluzio",
+      "name": "Chris Deluzio",
+      "office": "house",
+      "incumbent": true,
+      "state": "PA",
+      "district": "17",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "tx-16-escobar",
+      "name": "Veronica Escobar",
+      "office": "house",
+      "incumbent": true,
+      "state": "TX",
+      "district": "16",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "tx-18-menefee",
+      "name": "Christian Menefee",
+      "office": "house",
+      "incumbent": true,
+      "state": "TX",
+      "district": "18",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "tx-20-castro",
+      "name": "Joaquin Castro",
+      "office": "house",
+      "incumbent": true,
+      "state": "TX",
+      "district": "20",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "tx-35-casar",
+      "name": "Greg Casar",
+      "office": "house",
+      "incumbent": true,
+      "state": "TX",
+      "district": "35",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "tx-37-doggett",
+      "name": "Lloyd Doggett",
+      "office": "house",
+      "incumbent": true,
+      "state": "TX",
+      "district": "37",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "vt-al-balint",
+      "name": "Becca Balint",
+      "office": "house",
+      "incumbent": true,
+      "state": "VT",
+      "district": "AL",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "va-4-mcclellan",
+      "name": "Jennifer McClellan",
+      "office": "house",
+      "incumbent": true,
+      "state": "VA",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "va-8-beyer",
+      "name": "Don Beyer",
+      "office": "house",
+      "incumbent": true,
+      "state": "VA",
+      "district": "8",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "wa-6-randall",
+      "name": "Emily Randall",
+      "office": "house",
+      "incumbent": true,
+      "state": "WA",
+      "district": "6",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "wa-7-jayapal",
+      "name": "Pramila Jayapal",
+      "office": "house",
+      "incumbent": true,
+      "state": "WA",
+      "district": "7",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "wa-9-smith",
+      "name": "Adam Smith",
+      "office": "house",
+      "incumbent": true,
+      "state": "WA",
+      "district": "9",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "wi-2-pocan",
+      "name": "Mark Pocan",
+      "office": "house",
+      "incumbent": true,
+      "state": "WI",
+      "district": "2",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    },
+    {
+      "id": "wi-4-moore",
+      "name": "Gwen Moore",
+      "office": "house",
+      "incumbent": true,
+      "state": "WI",
+      "district": "4",
+      "endorsedBy": [
+        "CAUCUS"
+      ],
+      "status": "incumbent",
+      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "source": {
+        "label": "Wikipedia, CPC membership",
+        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+      }
+    }
+  ]
+}
