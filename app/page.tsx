@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { MemberList } from "@/components/ui";
-import { allMembers, membersIn, newClass } from "@/lib/data";
+import { listedMembers, membersIn, newClass } from "@/lib/data";
 import { STATES } from "@/lib/states";
 
 export default function Home() {
   const fresh = newClass();
   const senate = fresh.filter((m) => m.office === "senate");
   const house = fresh.filter((m) => m.office === "house");
-  const total = allMembers().length;
+  const total = listedMembers().length;
 
   return (
     <>
@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <ul className="hero-links" aria-label="Sections">
           <li><Link href="#new-class">The new class</Link></li>
-          <li><Link href="/watch">Races to watch</Link></li>
+          <li><Link href="/members">All members</Link></li>
           <li><Link href="/method">How we pick</Link></li>
         </ul>
       </section>
@@ -33,7 +33,6 @@ export default function Home() {
         <MemberList members={senate} />
         <h3 className="subhead">House</h3>
         <MemberList members={house} />
-        <Link href="/watch" className="more-link">Races still too early to call</Link>
       </section>
 
       <section className="section" id="states" aria-labelledby="states-title">

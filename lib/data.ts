@@ -78,9 +78,10 @@ export const groupList = () => [...db.groups.values()];
 
 export const newClass = () =>
   db.members.filter((m) => !m.incumbent && (m.status === "won" || m.status === "leading"));
-export const toWatch = () => db.members.filter((m) => m.status === "pending" || m.status === "leading");
 
-export const membersIn = (state: string) => db.members.filter((m) => m.state === state && m.status !== "lost");
+// Members who lost keep their page but drop out of lists and counts.
+export const listedMembers = () => db.members.filter((m) => m.status !== "lost");
+export const membersIn = (state: string) => listedMembers().filter((m) => m.state === state);
 export const getState = (code: string): State | undefined => STATES.find((s) => s.code === code);
 
 export function districtsOf(state: State): string[] {

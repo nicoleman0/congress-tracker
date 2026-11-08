@@ -18,7 +18,7 @@ export const viewport: Viewport = { themeColor: "#eef0f9" };
 
 const NAV = [
   { href: "/#states", label: "states" },
-  { href: "/watch", label: "races to watch" },
+  { href: "/members", label: "members" },
   { href: "/method", label: "how we pick" },
 ];
 
