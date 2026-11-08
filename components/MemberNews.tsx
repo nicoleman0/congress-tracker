@@ -24,14 +24,14 @@ const day = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", t
 
 export async function MemberNews({ m }: { m: Member }) {
   const news = await getNews(m);
-  if ("error" in news) return <p className="text-muted">Couldn&apos;t load headlines right now.</p>;
-  if (news.headlines.length === 0) return <p className="text-muted">No headlines naming them in the past 30 days.</p>;
+  if ("error" in news) return <p className="empty">Couldn&apos;t load headlines right now.</p>;
+  if (news.headlines.length === 0) return <p className="empty">No headlines naming them in the past 30 days.</p>;
   return (
-    <ul className="divide-y divide-line">
+    <ul className="news-list">
       {news.headlines.map((h) => (
-        <li key={h.url} className="py-2">
-          <a href={h.url} target="_blank" rel="noopener noreferrer" className="hover:text-accent">{h.title}</a>
-          <div className="text-sm text-muted">{h.source} · {day.format(new Date(h.date))}</div>
+        <li key={h.url}>
+          <a href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
+          <span className="news-source">{h.source} · {day.format(new Date(h.date))}</span>
         </li>
       ))}
     </ul>

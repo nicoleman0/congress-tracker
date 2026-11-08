@@ -1,35 +1,49 @@
-import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
+// Self-hosted variable fonts, as on corvus-dev.com.
+import "@fontsource-variable/funnel-display";
+import "@fontsource-variable/funnel-sans";
+import { NavLinks } from "@/components/NavLinks";
 import { lastChecked } from "@/lib/data";
 import "./globals.css";
-
-const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Progressive Bloc",
   description: "Who the progressives in Congress are, how to back them, and where to plug in locally.",
 };
 
+export const viewport: Viewport = { themeColor: "#eef0f9" };
+
+const NAV = [
+  { href: "/#states", label: "states" },
+  { href: "/watch", label: "races to watch" },
+  { href: "/method", label: "how we pick" },
+];
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${geist.variable} antialiased`}>
-      <body className="min-h-screen font-sans flex flex-col">
-        <header className="border-b border-line bg-surface">
-          <nav className="mx-auto max-w-5xl px-4 py-3 flex flex-wrap items-center gap-x-6 gap-y-2">
-            <Link href="/" className="font-semibold text-lg">Progressive Bloc</Link>
-            <div className="flex gap-5 text-sm text-muted">
-              <Link href="/#states" className="hover:text-ink">Browse by state</Link>
-              <Link href="/watch" className="hover:text-ink">Races to watch</Link>
-              <Link href="/method" className="hover:text-ink">How we pick</Link>
-            </div>
+    <html lang="en">
+      <body>
+        <a className="skip-link" href="#main">Skip to content</a>
+        <header className="site-header">
+          <Link href="/" className="site-title">Progressive Bloc</Link>
+          <nav aria-label="Main">
+            <NavLinks links={NAV} />
           </nav>
         </header>
-        <main className="mx-auto w-full max-w-5xl px-4 py-8 flex-1">{children}</main>
-        <footer className="border-t border-line text-sm text-muted">
-          <div className="mx-auto max-w-5xl px-4 py-6">
-            Last checked {lastChecked}. Results can change as races are called. Every listing links to its source.{" "}
-            <Link href="/method" className="underline">Method and sources</Link>.
+        <div className="page-wrap page-wrap--wide">
+          <main id="main">{children}</main>
+        </div>
+        <footer className="page-wrap page-wrap--wide">
+          <div className="footer-inner">
+            <p>
+              Last checked {lastChecked}. Results can change as races are called. Every listing links to its
+              source.
+            </p>
+            <nav className="footer-links" aria-label="Site">
+              <Link href="/method">method and sources</Link>
+              <a href="https://github.com/nicoleman0/congress-tracker">source code</a>
+            </nav>
           </div>
         </footer>
       </body>

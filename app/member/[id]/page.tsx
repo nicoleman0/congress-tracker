@@ -2,8 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { MemberNews } from "@/components/MemberNews";
-import { ActionList, StatusBadge } from "@/components/ui";
-import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, helpActions } from "@/lib/actions";
+import { ActionList, STATUS_TEXT } from "@/components/ui";
+import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, campaignAction } from "@/lib/actions";
 import { allMembers, getGroup, getMember, getState, seatLabel } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -22,70 +22,71 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
   const m = getMember((await params).id);
   if (!m) notFound();
   const state = getState(m.state)!;
+  const campaign = campaignAction(m);
 
   return (
-    <div className="space-y-10 max-w-3xl">
-      <div>
-        <Link href={`/state/${m.state.toLowerCase()}`} className="text-sm text-muted underline">
-          {state.name}
-        </Link>
-        <h1 className="text-3xl font-bold mt-2">{m.name}</h1>
-        <div className="mt-2 flex flex-wrap items-center gap-3 text-muted">
-          <span>{seatLabel(m)}</span>
-          <StatusBadge status={m.status} />
-          {!m.incumbent && <span className="text-sm">New member</span>}
+    <>
+      <section className="hero" aria-labelledby="member-name">
+        <Link href={`/state/${m.state.toLowerCase()}`} className="crumb">{state.name}</Link>
+        <div className="hero-id">
+          <h1 id="member-name" className="hero-title">{m.name}</h1>
+          <div className="hero-card">
+            <p className="hero-role">{seatLabel(m)}</p>
+            <p className="hero-detail">
+              {STATUS_TEXT[m.status]}
+              {!m.incumbent && " · New member"}
+            </p>
+            <a className="hero-action" href={campaign.href} target="_blank" rel="noopener noreferrer">
+              {campaign.label} ↗
+            </a>
+          </div>
         </div>
-        <p className="mt-3">{m.note}</p>
-        <p className="mt-1 text-sm text-muted">
+        <p className="meta">{campaign.detail}</p>
+      </section>
+
+      <div className="page-header">
+        <p className="lede">{m.note}</p>
+        <p className="meta">
           Source:{" "}
-          <a href={m.source.url} target="_blank" rel="noopener noreferrer" className="underline">
-            {m.source.label}
-          </a>
+          <a href={m.source.url} target="_blank" rel="noopener noreferrer">{m.source.label}</a>
           {" · "}Last checked {m.checkedAt}
         </p>
       </div>
 
-      <section className="space-y-2">
-        <h2 className="text-xl font-semibold">In the news</h2>
-        <Suspense fallback={<p className="text-muted">Loading headlines…</p>}>
+      <section className="section" aria-labelledby="news-title">
+        <h2 id="news-title">In the news</h2>
+        <Suspense fallback={<p className="note">Loading headlines…</p>}>
           <MemberNews m={m} />
         </Suspense>
-        <p className="text-xs text-muted">
-          Headlines from Google News that name them, past 30 days. Not reviewed by us.
-        </p>
+        <p className="note">Headlines from Google News that name them, past 30 days. Not reviewed by us.</p>
       </section>
 
-      <section className="space-y-2">
-        <h2 className="text-xl font-semibold">Why they&apos;re listed</h2>
-        <ul className="list-disc pl-5">
+      <section className="section" aria-labelledby="why-title">
+        <h2 id="why-title">Why they&apos;re listed</h2>
+        <ul className="list">
           {m.endorsedBy.map((c) => {
             const g = getGroup(c);
             return (
               <li key={c}>
-                <a href={g.url} target="_blank" rel="noopener noreferrer" className="underline">{g.name}</a>
+                <a href={g.url} target="_blank" rel="noopener noreferrer">{g.name}</a>
               </li>
             );
           })}
         </ul>
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold">How to back them</h2>
-        <ActionList actions={helpActions(m)} />
-      </section>
-
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Contact and plug in</h2>
+      <section className="section" aria-labelledby="plug-in-title">
+        <h2 id="plug-in-title">Contact and plug in</h2>
         <ActionList actions={[m.office === "senate" ? CONTACT_SENATE : CONTACT_HOUSE, ...PLUG_IN]} />
       </section>
 
-      <section className="space-y-2">
-        <h2 className="text-xl font-semibold">Platform and record</h2>
-        <p className="text-muted">
-          Platform positions are coming soon. Once members are seated in January, this section will
-          compare their votes with what they campaigned on.
+      <section className="section" aria-labelledby="record-title">
+        <h2 id="record-title">Platform and record</h2>
+        <p className="note">
+          Platform positions are coming soon. Once members are seated in January, this section will compare
+          their votes with what they campaigned on.
         </p>
       </section>
-    </div>
+    </>
   );
 }

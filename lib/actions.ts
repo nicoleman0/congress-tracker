@@ -1,6 +1,5 @@
 // Standing actions built from a member's fields. Outbound tools are linked, not rebuilt.
 import type { Member } from "@/lib/data";
-import { getGroup } from "@/lib/data";
 
 export type Action = { label: string; href: string; detail?: string };
 
@@ -21,24 +20,15 @@ export const CONTACT_SENATE: Action = {
   href: "https://www.senate.gov/senators/senators-contact.htm",
 };
 
+// The member page's one action: their own campaign site when the FEC has it, otherwise a search.
 export function campaignAction(m: Member): Action {
   if (m.campaign) {
-    return { label: "Donate or volunteer on their campaign site", href: m.campaign.url, detail: new URL(m.campaign.url).hostname };
+    return { label: "Donate or volunteer", href: m.campaign.url, detail: new URL(m.campaign.url).hostname };
   }
   const office = m.office === "senate" ? "Senate" : "Congress";
   return {
-    label: "Find their campaign: donate or volunteer",
+    label: "Search for their campaign",
     href: `https://duckduckgo.com/?q=${encodeURIComponent(`${m.name} for ${office} campaign`)}`,
     detail: "No campaign site on file with the FEC yet, so this opens a search.",
   };
-}
-
-export function helpActions(m: Member): Action[] {
-  return [
-    campaignAction(m),
-    ...m.endorsedBy.map((code) => {
-      const g = getGroup(code);
-      return { label: `See ${g.name}`, href: g.url };
-    }),
-  ];
 }

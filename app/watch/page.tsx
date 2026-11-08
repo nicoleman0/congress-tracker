@@ -1,4 +1,4 @@
-import { MemberCard } from "@/components/ui";
+import { MemberList } from "@/components/ui";
 import { lostRaces, toWatch } from "@/lib/data";
 
 export const metadata = { title: "Races to watch · Progressive Bloc" };
@@ -7,28 +7,29 @@ export default function Watch() {
   const races = toWatch();
   const leading = races.filter((m) => m.status === "leading");
   const pending = races.filter((m) => m.status === "pending");
+  const lost = lostRaces();
   return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="text-3xl font-bold">Races to watch</h1>
-        <p className="text-muted">Progressive candidates whose races aren&apos;t confirmed yet.</p>
-      </div>
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Leading, not yet called</h2>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{leading.map((m) => <MemberCard key={m.id} m={m} />)}</div>
+    <>
+      <header className="page-header">
+        <h1>Races to watch</h1>
+        <p className="lede">Progressive candidates whose races aren&apos;t confirmed yet.</p>
+      </header>
+      <section className="section" aria-labelledby="leading-title">
+        <h2 id="leading-title">Leading, not yet called</h2>
+        {leading.length ? <MemberList members={leading} /> : <p className="empty">None right now.</p>}
       </section>
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Not called, trailing or unknown</h2>
-        <p className="text-sm text-muted">Behind in the count, or no result found yet.</p>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{pending.map((m) => <MemberCard key={m.id} m={m} />)}</div>
+      <section className="section" aria-labelledby="pending-title">
+        <h2 id="pending-title">Not called, trailing or unknown</h2>
+        <p className="section-intro">Behind in the count, or no result found yet.</p>
+        {pending.length ? <MemberList members={pending} /> : <p className="empty">None right now.</p>}
       </section>
-      {lostRaces().length > 0 && (
-        <section className="space-y-3">
-          <h2 className="text-xl font-semibold">Lost</h2>
-          <p className="text-sm text-muted">Kept here for the record. They don&apos;t appear on state pages.</p>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{lostRaces().map((m) => <MemberCard key={m.id} m={m} />)}</div>
+      {lost.length > 0 && (
+        <section className="section" aria-labelledby="lost-title">
+          <h2 id="lost-title">Lost</h2>
+          <p className="section-intro">Kept here for the record. They don&apos;t appear on state pages.</p>
+          <MemberList members={lost} />
         </section>
       )}
-    </div>
+    </>
   );
 }

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { MemberCard } from "@/components/ui";
-import { allMembers, newClass } from "@/lib/data";
+import { MemberList } from "@/components/ui";
+import { allMembers, lastChecked, newClass } from "@/lib/data";
 import { STATES } from "@/lib/states";
 
 export default function Home() {
@@ -10,48 +10,48 @@ export default function Home() {
   const total = allMembers().length;
 
   return (
-    <div className="space-y-12">
-      <section className="space-y-3">
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">The progressive bloc in Congress</h1>
-        <p className="text-lg text-muted max-w-2xl">
-          Who they are, how to back them, and where to plug in locally. Pick your state to see your
-          district. If your member isn&apos;t a progressive, we point you to the groups organizing there.
-        </p>
-        <p className="text-sm text-muted">
-          {total} listed. Every listing cites why it&apos;s here. <Link href="/method" className="underline">How we pick</Link>.
-        </p>
+    <>
+      <section className="hero" aria-labelledby="hero-title">
+        <div className="hero-id">
+          <h1 id="hero-title" className="hero-title hero-title--display">Progressive<br />Bloc</h1>
+          <div className="hero-card">
+            <p className="hero-role">The progressives in Congress</p>
+            <p className="hero-detail">{total} listed · checked {lastChecked}</p>
+            <a className="hero-action" href="#states">Find your state</a>
+          </div>
+        </div>
+        <ul className="hero-links" aria-label="Sections">
+          <li><Link href="#new-class">The new class</Link></li>
+          <li><Link href="/watch">Races to watch</Link></li>
+          <li><Link href="/method">How we pick</Link></li>
+        </ul>
       </section>
 
-      <section className="space-y-4">
-        <div>
-          <h2 className="text-xl font-semibold">The new class</h2>
-          <p className="text-sm text-muted">Won or leading on November 3, 2026. Sworn in January 3, 2027.</p>
-        </div>
-        <h3 className="text-sm font-semibold uppercase tracking-wide text-muted">Senate</h3>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {senate.map((m) => <MemberCard key={m.id} m={m} />)}
-        </div>
-        <h3 className="text-sm font-semibold uppercase tracking-wide text-muted pt-2">House</h3>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {house.map((m) => <MemberCard key={m.id} m={m} />)}
-        </div>
-        <Link href="/watch" className="inline-block text-sm text-accent underline">Races still too early to call →</Link>
+      <p className="lede">
+        Who they are, how to back them, and where to plug in locally. If your member isn&apos;t a progressive,
+        your state page points you to the groups organizing there.
+      </p>
+
+      <section className="section" id="new-class" aria-labelledby="new-class-title">
+        <h2 id="new-class-title" className="section-title">The new class</h2>
+        <p className="section-intro">Won or leading on November 3, 2026. Sworn in January 3, 2027.</p>
+        <h3 className="subhead">Senate</h3>
+        <MemberList members={senate} />
+        <h3 className="subhead">House</h3>
+        <MemberList members={house} />
+        <Link href="/watch" className="more-link">Races still too early to call</Link>
       </section>
 
-      <section id="states" className="space-y-4 scroll-mt-4">
-        <h2 className="text-xl font-semibold">Browse by state</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2">
+      <section className="section" id="states" aria-labelledby="states-title">
+        <h2 id="states-title" className="section-title">Browse by state</h2>
+        <ul className="state-grid">
           {STATES.map((s) => (
-            <Link
-              key={s.code}
-              href={`/state/${s.code.toLowerCase()}`}
-              className="rounded-md border border-line bg-surface px-3 py-2 text-sm hover:border-accent"
-            >
-              {s.name}
-            </Link>
+            <li key={s.code}>
+              <Link href={`/state/${s.code.toLowerCase()}`}>{s.name}</Link>
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
-    </div>
+    </>
   );
 }
