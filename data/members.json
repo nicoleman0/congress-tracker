@@ -39,7 +39,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://villegasforcongress.com",
+        "fec": "C00902379"
+      }
     },
     {
       "id": "co-01-kiros",
@@ -60,7 +64,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.kirosforco.com",
+        "fec": "C00909481"
+      }
     },
     {
       "id": "mi-07-lawrence",
@@ -80,7 +88,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://wewill2026.com",
+        "fec": "C00916809"
+      }
     },
     {
       "id": "ny-07-valdez",
@@ -118,7 +130,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://landerfornyc.com",
+        "fec": "C00930123"
+      }
     },
     {
       "id": "ny-12-lasher",
@@ -174,7 +190,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://poindexterforcongress.com",
+        "fec": "C00933366"
+      }
     },
     {
       "id": "pa-03-rabb",
@@ -194,7 +214,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.chrisrabb.com",
+        "fec": "C00852475"
+      }
     },
     {
       "id": "pa-07-brooks",
@@ -232,7 +256,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.katyforcongress.com",
+        "fec": "C00926121"
+      }
     },
     {
       "id": "ny-13-avila-chevalier",
@@ -252,7 +280,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://darializaforcongress.com",
+        "fec": "C00927541"
+      }
     },
     {
       "id": "ny-17-conley",
@@ -270,7 +302,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.caitconley.com",
+        "fec": "C00900431"
+      }
     },
     {
       "id": "mn-02-little",
@@ -329,7 +365,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.donavanforcongress.com",
+        "fec": "C00903591"
+      }
     },
     {
       "id": "tx-30-haynes",
@@ -384,7 +424,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://joinrobertwhite.com",
+        "fec": "C00921502"
+      }
     },
     {
       "id": "tn-09-pearson",
@@ -404,7 +448,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://votejustinj.com",
+        "fec": "C00922633"
+      }
     },
     {
       "id": "ca-07-vang",
@@ -423,7 +471,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.maiforus.com",
+        "fec": "C00918037"
+      }
     },
     {
       "id": "ca-34-gonzales-torres",
@@ -442,7 +494,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.angela4congress.com",
+        "fec": "C00901652"
+      }
     },
     {
       "id": "va-05-perriello",
@@ -460,7 +516,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.tomperriellova.com",
+        "fec": "C00929968"
+      }
     },
     {
       "id": "mt-01-forstag",
@@ -478,7 +538,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://samformontana.com",
+        "fec": "C00932822"
+      }
     },
     {
       "id": "fl-24-jones",
@@ -496,7 +560,11 @@
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.shevrinjones.com",
+        "fec": "C00952556"
+      }
     },
     {
       "id": "mi-sen-el-sayed",
@@ -515,7 +583,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/michigan-senate-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://abdulforsenate.com",
+        "fec": "C00902668"
+      }
     },
     {
       "id": "me-sen-jackson",
@@ -552,7 +624,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://jamestalarico.com",
+        "fec": "C00919084"
+      }
     },
     {
       "id": "vt-sen-sanders",
@@ -570,7 +646,11 @@
         "label": "Wikipedia, CPC membership",
         "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.bernie.org",
+        "fec": "C00411330"
+      }
     },
     {
       "id": "az-3-ansari",
@@ -588,7 +668,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/arizona-us-house-district-3-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.yassaminforcongress.com",
+        "fec": "C00836767"
+      }
     },
     {
       "id": "az-7-grijalva",
@@ -606,7 +690,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/arizona-us-house-district-7-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://adelitaforcongress.com",
+        "fec": "C00901116"
+      }
     },
     {
       "id": "ca-2-huffman",
@@ -642,7 +730,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-8-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://garamendi.org",
+        "fec": "C00462697"
+      }
     },
     {
       "id": "ca-10-desaulnier",
@@ -660,7 +752,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-10-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://desaulnierforcongress.com",
+        "fec": "C00554709"
+      }
     },
     {
       "id": "ca-12-simon",
@@ -678,7 +774,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-12-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://lateefahsimon.com",
+        "fec": "C00834291"
+      }
     },
     {
       "id": "ca-15-mullin",
@@ -696,7 +796,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-15-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.kevinmullinforcongress.com",
+        "fec": "C00795005"
+      }
     },
     {
       "id": "ca-17-khanna",
@@ -714,7 +818,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-17-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.rokhanna.com",
+        "fec": "C00503185"
+      }
     },
     {
       "id": "ca-19-panetta",
@@ -732,7 +840,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-19-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://jimmypanettaforcongress.com",
+        "fec": "C00592154"
+      }
     },
     {
       "id": "ca-28-chu",
@@ -768,7 +880,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-29-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.luzforcongress.com",
+        "fec": "C00857417"
+      }
     },
     {
       "id": "ca-30-friedman",
@@ -786,7 +902,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-30-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.lauraforcongress.org",
+        "fec": "C00831321"
+      }
     },
     {
       "id": "ca-32-sherman",
@@ -804,7 +924,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-32-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://bradsherman.com",
+        "fec": "C00308742"
+      }
     },
     {
       "id": "ca-34-gomez",
@@ -822,7 +946,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-34-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://jimmygomezforcongress.com",
+        "fec": "C00629659"
+      }
     },
     {
       "id": "ca-36-lieu",
@@ -840,7 +968,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-36-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://tedlieu.com",
+        "fec": "C00556506"
+      }
     },
     {
       "id": "ca-37-kamlager-dove",
@@ -858,7 +990,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-37-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://sydneykamlager.com",
+        "fec": "C00795823"
+      }
     },
     {
       "id": "ca-39-takano",
@@ -876,7 +1012,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-39-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.marktakano.com",
+        "fec": "C00498667"
+      }
     },
     {
       "id": "ca-42-garcia",
@@ -894,7 +1034,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-42-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://robertgarcia.com",
+        "fec": "C00797795"
+      }
     },
     {
       "id": "ca-43-waters",
@@ -912,7 +1056,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-43-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://maxinewatersforcongress.com",
+        "fec": "C00167585"
+      }
     },
     {
       "id": "ca-44-barragan",
@@ -948,7 +1096,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-47-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.davemin.com",
+        "fec": "C00831537"
+      }
     },
     {
       "id": "ca-49-levin",
@@ -966,7 +1118,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-49-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.mikelevin.org",
+        "fec": "C00634253"
+      }
     },
     {
       "id": "ca-51-jacobs",
@@ -984,7 +1140,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-51-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://sarajacobsforca.com",
+        "fec": "C00719559"
+      }
     },
     {
       "id": "ca-52-vargas",
@@ -1020,7 +1180,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/colorado-us-house-district-2-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://joeneguseforcongress.com",
+        "fec": "C00648253"
+      }
     },
     {
       "id": "ct-3-delauro",
@@ -1038,7 +1202,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/connecticut-us-house-district-3-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.rosadelauro.com",
+        "fec": "C00238865"
+      }
     },
     {
       "id": "de-al-mcbride",
@@ -1056,7 +1224,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/delaware-us-house-district-1-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.sarahmcbride.com",
+        "fec": "C00843763"
+      }
     },
     {
       "id": "fl-9-soto",
@@ -1074,7 +1246,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-9-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.darrensoto.com",
+        "fec": "C00581074"
+      }
     },
     {
       "id": "fl-10-frost",
@@ -1092,7 +1268,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-10-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.frostforcongress.com",
+        "fec": "C00786822"
+      }
     },
     {
       "id": "ga-4-johnson",
@@ -1110,7 +1290,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/georgia-us-house-district-4-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://hankforcongress.com",
+        "fec": "C00418293"
+      }
     },
     {
       "id": "ga-5-williams",
@@ -1128,7 +1312,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/georgia-us-house-district-5-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://nikemaforcongress.com",
+        "fec": "C00752584"
+      }
     },
     {
       "id": "hi-2-tokuda",
@@ -1146,7 +1334,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/hawaii-us-house-district-2-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://tokudaforhawaii.com",
+        "fec": "C00813758"
+      }
     },
     {
       "id": "il-1-jackson",
@@ -1182,7 +1374,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/illinois-us-house-district-3-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.deliaforcongress.com",
+        "fec": "C00796672"
+      }
     },
     {
       "id": "in-7-carson",
@@ -1200,7 +1396,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/indiana-us-house-district-7-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.andrecarsonforcongress.com",
+        "fec": "C00442921"
+      }
     },
     {
       "id": "ky-3-mcgarvey",
@@ -1218,7 +1418,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/kentucky-us-house-district-3-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.morganmcgarvey.com",
+        "fec": "C00791392"
+      }
     },
     {
       "id": "la-2-carter",
@@ -1254,7 +1458,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/maine-us-house-district-1-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.chelliepingree.com",
+        "fec": "C00433391"
+      }
     },
     {
       "id": "md-7-mfume",
@@ -1272,7 +1480,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/maryland-us-house-district-7-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://mfumeforcongress.com",
+        "fec": "C00726372"
+      }
     },
     {
       "id": "md-8-raskin",
@@ -1290,7 +1502,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/maryland-us-house-district-8-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.jamieraskin.com",
+        "fec": "C00575126"
+      }
     },
     {
       "id": "ma-2-mcgovern",
@@ -1308,7 +1524,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-2-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://jimmcgovern.com",
+        "fec": "C00285171"
+      }
     },
     {
       "id": "ma-3-trahan",
@@ -1326,7 +1546,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-3-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.loritrahan.com",
+        "fec": "C00655647"
+      }
     },
     {
       "id": "ma-7-pressley",
@@ -1344,7 +1568,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-7-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://ayannapressley.com",
+        "fec": "C00667741"
+      }
     },
     {
       "id": "mi-6-dingell",
@@ -1362,7 +1590,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-6-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.debbiedingellforcongress.com",
+        "fec": "C00558213"
+      }
     },
     {
       "id": "mi-12-tlaib",
@@ -1380,7 +1612,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-12-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://rashidaforcongress.com",
+        "fec": "C00668608"
+      }
     },
     {
       "id": "mn-5-omar",
@@ -1398,7 +1634,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-us-house-district-5-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://ilhanomar.com",
+        "fec": "C00680934"
+      }
     },
     {
       "id": "nv-4-horsford",
@@ -1416,7 +1656,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/nevada-us-house-district-4-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.stevenhorsford.com",
+        "fec": "C00668228"
+      }
     },
     {
       "id": "nj-1-norcross",
@@ -1434,7 +1678,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-1-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.donaldnorcrossforcongress.com",
+        "fec": "C00558320"
+      }
     },
     {
       "id": "nj-6-pallone",
@@ -1452,7 +1700,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-6-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.pallonefornewjersey.com",
+        "fec": "C00226928"
+      }
     },
     {
       "id": "nj-9-pou",
@@ -1470,7 +1722,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-9-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.nelliepoufornewjersey.com",
+        "fec": "C00887547"
+      }
     },
     {
       "id": "nj-10-mciver",
@@ -1506,7 +1762,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-mexico-us-house-district-1-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://melaniefornm.com",
+        "fec": "C00765099"
+      }
     },
     {
       "id": "nm-3-fernandez",
@@ -1524,7 +1784,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-mexico-us-house-district-3-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.teresaforall.com",
+        "fec": "C00704049"
+      }
     },
     {
       "id": "ny-6-meng",
@@ -1542,7 +1806,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-6-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.gracefornewyork.com",
+        "fec": "C00516666"
+      }
     },
     {
       "id": "ny-9-clarke",
@@ -1560,7 +1828,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-9-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://voteyvette.com",
+        "fec": "C00415331"
+      }
     },
     {
       "id": "ny-14-ocasio-cortez",
@@ -1578,7 +1850,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-14-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.ocasiocortez.com",
+        "fec": "C00639591"
+      }
     },
     {
       "id": "ny-20-tonko",
@@ -1596,7 +1872,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-20-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.paultonko.com",
+        "fec": "C00450049"
+      }
     },
     {
       "id": "nc-4-foushee",
@@ -1614,7 +1894,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/north-carolina-us-house-district-4-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.valeriefoushee.com",
+        "fec": "C00794727"
+      }
     },
     {
       "id": "nc-12-adams",
@@ -1632,7 +1916,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/north-carolina-us-house-district-12-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://almaadamsforcongress.com",
+        "fec": "C00546358"
+      }
     },
     {
       "id": "oh-11-brown",
@@ -1650,7 +1938,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/ohio-us-house-district-11-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://shontelbrown.com",
+        "fec": "C00764381"
+      }
     },
     {
       "id": "or-1-bonamici",
@@ -1668,7 +1960,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-1-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://bonamiciforcongress.com",
+        "fec": "C00500421"
+      }
     },
     {
       "id": "or-3-dexter",
@@ -1686,7 +1982,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-3-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.maxinefororegon.com",
+        "fec": "C00859108"
+      }
     },
     {
       "id": "or-4-hoyle",
@@ -1704,7 +2004,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-4-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.valhoyle.com",
+        "fec": "C00796144"
+      }
     },
     {
       "id": "or-6-salinas",
@@ -1722,7 +2026,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-6-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://andreasalinasfororegon.com",
+        "fec": "C00793703"
+      }
     },
     {
       "id": "pa-2-boyle",
@@ -1740,7 +2048,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-2-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.voteboyle.com",
+        "fec": "C00543363"
+      }
     },
     {
       "id": "pa-4-dean",
@@ -1758,7 +2070,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-4-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.mad4pa.com",
+        "fec": "C00670844"
+      }
     },
     {
       "id": "pa-5-scanlon",
@@ -1776,7 +2092,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-5-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.scanlonforcongress.com",
+        "fec": "C00669358"
+      }
     },
     {
       "id": "pa-12-lee",
@@ -1794,7 +2114,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-12-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://summerforpa.com",
+        "fec": "C00791780"
+      }
     },
     {
       "id": "pa-17-deluzio",
@@ -1812,7 +2136,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-17-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.chrisforpa.com",
+        "fec": "C00787648"
+      }
     },
     {
       "id": "tx-16-escobar",
@@ -1830,7 +2158,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-16-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.veronicaescobar.com",
+        "fec": "C00653923"
+      }
     },
     {
       "id": "tx-18-menefee",
@@ -1848,7 +2180,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-18-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.christianmenefee.com",
+        "fec": "C00899831"
+      }
     },
     {
       "id": "tx-20-castro",
@@ -1866,7 +2202,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-20-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.castroforcongress.com",
+        "fec": "C00497933"
+      }
     },
     {
       "id": "tx-37-casar",
@@ -1884,7 +2224,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-37-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.casarforcongress.com",
+        "fec": "C00791897"
+      }
     },
     {
       "id": "vt-al-balint",
@@ -1902,7 +2246,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/vermont-us-house-district-1-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.beccabalint.com",
+        "fec": "C00797175"
+      }
     },
     {
       "id": "va-4-mcclellan",
@@ -1920,7 +2268,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-4-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://jennifermcclellan.com",
+        "fec": "C00829812"
+      }
     },
     {
       "id": "va-8-beyer",
@@ -1938,7 +2290,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-8-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://friendsofdonbeyer.com",
+        "fec": "C00555888"
+      }
     },
     {
       "id": "wa-6-randall",
@@ -1956,7 +2312,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-6-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.electemilyrandall.com",
+        "fec": "C00857094"
+      }
     },
     {
       "id": "wa-7-jayapal",
@@ -1974,7 +2334,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-7-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.pramilaforcongress.com",
+        "fec": "C00605592"
+      }
     },
     {
       "id": "wa-9-smith",
@@ -1992,7 +2356,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-9-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.electadamsmith.com",
+        "fec": "C00304709"
+      }
     },
     {
       "id": "wi-2-pocan",
@@ -2010,7 +2378,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/wisconsin-us-house-district-2-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://pocanforcongress.com",
+        "fec": "C00502179"
+      }
     },
     {
       "id": "wi-4-moore",
@@ -2028,7 +2400,11 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/wisconsin-us-house-district-4-results"
       },
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-08",
+      "campaign": {
+        "url": "https://www.gwenmooreforcongress.com",
+        "fec": "C00397505"
+      }
     }
   ]
 }

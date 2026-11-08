@@ -7,6 +7,8 @@ export type Status = "won" | "leading" | "pending" | "incumbent" | "lost";
 
 export type Group = { code: string; name: string; url: string };
 export type Source = { label: string; url: string };
+// Campaign site as filed on the committee's FEC Form 1. `fec` is the committee id, for provenance.
+export type Campaign = { url: string; fec: string };
 export type Member = {
   id: string;
   name: string;
@@ -18,6 +20,7 @@ export type Member = {
   status: Status;
   note: string;
   source: Source;
+  campaign?: Campaign;
   checkedAt: string;
 };
 
@@ -50,6 +53,8 @@ function load() {
     if (m.endorsedBy.length === 0) fail(`${m.id}: no reason for listing`);
     for (const g of m.endorsedBy) if (!groups.has(g)) fail(`${m.id}: unknown group ${g}`);
     if (!m.source?.url.startsWith("https://")) fail(`${m.id}: source needs an https url`);
+    if (m.campaign && !m.campaign.url.startsWith("https://")) fail(`${m.id}: campaign needs an https url`);
+    if (m.campaign && !/^C\d{8}$/.test(m.campaign.fec)) fail(`${m.id}: campaign.fec must be an FEC committee id`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(m.checkedAt)) fail(`${m.id}: checkedAt must be YYYY-MM-DD`);
     return m;
   });
@@ -82,6 +87,8 @@ export function districtsOf(state: State): string[] {
   if (state.seats === 1) return ["AL"];
   return Array.from({ length: state.seats }, (_, i) => String(i + 1));
 }
+
+export const fecCommitteeUrl = (c: Campaign) => `https://www.fec.gov/data/committee/${c.fec}/`;
 
 export function seatLabel(m: Member) {
   if (m.office === "senate") return `${m.state} Senate`;

@@ -21,14 +21,21 @@ export const CONTACT_SENATE: Action = {
   href: "https://www.senate.gov/senators/senators-contact.htm",
 };
 
-export function helpActions(m: Member): Action[] {
+export function campaignAction(m: Member): Action {
+  if (m.campaign) {
+    return { label: "Donate or volunteer on their campaign site", href: m.campaign.url, detail: new URL(m.campaign.url).hostname };
+  }
   const office = m.office === "senate" ? "Senate" : "Congress";
+  return {
+    label: "Find their campaign: donate or volunteer",
+    href: `https://duckduckgo.com/?q=${encodeURIComponent(`${m.name} for ${office} campaign`)}`,
+    detail: "No campaign site on file with the FEC yet, so this opens a search.",
+  };
+}
+
+export function helpActions(m: Member): Action[] {
   return [
-    {
-      label: "Find their campaign: donate or volunteer",
-      href: `https://duckduckgo.com/?q=${encodeURIComponent(`${m.name} for ${office} campaign`)}`,
-      detail: "We haven't verified campaign links yet, so this opens a search.",
-    },
+    campaignAction(m),
     ...m.endorsedBy.map((code) => {
       const g = getGroup(code);
       return { label: `See ${g.name}`, href: g.url };

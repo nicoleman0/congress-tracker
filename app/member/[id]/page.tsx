@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
+import { MemberNews } from "@/components/MemberNews";
 import { ActionList, StatusBadge } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, helpActions } from "@/lib/actions";
 import { allMembers, getGroup, getMember, getState, seatLabel } from "@/lib/data";
@@ -42,6 +44,16 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
           {" · "}Last checked {m.checkedAt}
         </p>
       </div>
+
+      <section className="space-y-2">
+        <h2 className="text-xl font-semibold">In the news</h2>
+        <Suspense fallback={<p className="text-muted">Loading headlines…</p>}>
+          <MemberNews m={m} />
+        </Suspense>
+        <p className="text-xs text-muted">
+          Headlines from Google News that name them, past 30 days. Not reviewed by us.
+        </p>
+      </section>
 
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">Why they&apos;re listed</h2>

@@ -3,6 +3,7 @@
 // Usage: tsx scripts/refresh.ts [report-path]
 import fs from "node:fs";
 import type { Member, Status } from "@/lib/data";
+import { bare } from "@/lib/names";
 import { STATES } from "@/lib/states";
 
 const DATA = "data/members.json";
@@ -28,10 +29,6 @@ export function parseRaces(html: string): Race[] {
   if (!Array.isArray(races)) throw new Error("no races in page data");
   return races.map((r: { summary: Race }) => r.summary);
 }
-
-const SUFFIX = /\b(jr|sr|ii|iii|iv)\.?$/i;
-const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
-const bare = (name: string) => norm(name.replace(SUFFIX, "")).replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim();
 
 // Same first initial, and our full name ends with their last name (handles "Avila Chevalier").
 function matches(m: Member, c: Candidate) {
