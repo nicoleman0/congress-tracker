@@ -39,7 +39,7 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
     <>
       <header className="page-header">
         <Link href="/#states" className="crumb">All states</Link>
-        <h1>{state.name}</h1>
+        <h1><span className="ink">{state.name}</span></h1>
         <p className="meta">
           {house.length} progressive House {house.length === 1 ? "listing" : "listings"} across {state.seats}{" "}
           {state.seats === 1 ? "seat" : "seats"}.

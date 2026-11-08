@@ -27,7 +27,7 @@ export default function Home() {
       </section>
 
       <section className="section" id="new-class" aria-labelledby="new-class-title">
-        <h2 id="new-class-title" className="section-title">The new class</h2>
+        <h2 id="new-class-title" className="section-title"><span className="ink">The new class</span></h2>
         <p className="section-intro">Won or leading on November 3, 2026. Sworn in January 3, 2027.</p>
         <h3 className="subhead">Senate</h3>
         <MemberList members={senate} />
@@ -37,7 +37,7 @@ export default function Home() {
       </section>
 
       <section className="section" id="states" aria-labelledby="states-title">
-        <h2 id="states-title" className="section-title">Browse by state</h2>
+        <h2 id="states-title" className="section-title"><span className="ink">Browse by state</span></h2>
         <ul className="state-grid">
           {STATES.filter((s) => membersIn(s.code).length > 0).map((s) => (
             <li key={s.code}>
