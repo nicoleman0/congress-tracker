@@ -1,0 +1,3 @@
+# BMAD install (regenerate with: npx bmad-method install)
+_bmad/
+.claude/skills/bmad-*/
