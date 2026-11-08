@@ -3298,6 +3298,38 @@
         },
         "checkedAt": "2026-11-08"
       }
+    ],
+    "tx-37-casar": [
+      {
+        "issue": "healthcare",
+        "text": "Cosponsored the Medicare for All Act (H.R. 3069).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "gaza",
+        "text": "Cosponsored the Block the Bombs Act (H.R. 3565).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3565"
+        },
+        "checkedAt": "2026-11-08"
+      },
+      {
+        "issue": "labor",
+        "text": "Cosponsored the PRO Act (H.R. 20).",
+        "kind": "congress",
+        "source": {
+          "label": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20"
+        },
+        "checkedAt": "2026-11-08"
+      }
     ]
   }
 }
