@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 // Self-hosted variable fonts, as on corvus-dev.com.
 import "@fontsource-variable/funnel-display";
 import "@fontsource-variable/funnel-sans";
@@ -53,6 +54,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </div>
           <FooterArt />
         </footer>
+        <Analytics />
       </body>
     </html>
   );
