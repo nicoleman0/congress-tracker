@@ -18,6 +18,19 @@ One free api.data.gov key (https://api.data.gov/signup/) serves both the FEC and
 
 Leading and pending races must be rechecked every 3 days. `npm run build` fails if any are stale.
 
+## 2028 endorsements
+
+Kept in [`data/endorsements-2028.json`](data/endorsements-2028.json), apart from the 2026 roster, and not shown on the site yet. Each candidate is `open` (no incumbent running), `incumbent` or `challenger`, with one source URL per endorsing group.
+
+Add one by hand after reading the group's endorsement page:
+
+```bash
+npx tsx scripts/add-endorsement.ts JD ny-10-x https://justicedemocrats.com/candidates/ \
+  --name "X Person" --office house --state NY --district 10 --seat open
+```
+
+Run it again with another group code to add a second endorsement, or the same one to refresh it. There is no scraper: the groups publish in different formats, and a person has to confirm the seat is open. Endorsements not rechecked in 180 days print a warning in `npm run build`; they never fail it.
+
 ## Development
 
 ```bash
