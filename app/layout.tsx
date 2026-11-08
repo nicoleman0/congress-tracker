@@ -45,6 +45,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/faq">faq</Link>
               <Link href="/method">method and sources</Link>
               <a href={REPO_URL}>source code</a>
+              <a href="mailto:info@gracchi.org">info@gracchi.org</a>
             </nav>
           </div>
         </footer>
