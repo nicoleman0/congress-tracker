@@ -244,11 +244,11 @@
         "WFP",
         "OR"
       ],
-      "status": "leading",
-      "note": "About 88% of the vote with 89% reported. Beat Rep. Adriano Espaillat in the primary.",
+      "status": "won",
+      "note": "NBC News projects Darializa Avila Chevalier the winner. 87.5% to Jomo Williams's 11.4%, with 89.5% of expected votes in.",
       "source": {
-        "label": "ABC7 NY",
-        "url": "https://abc7ny.com/politics/elections/local/"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-13-results"
       },
       "office": "house",
       "incumbent": false,
@@ -262,11 +262,11 @@
       "endorsedBy": [
         "WFP"
       ],
-      "status": "leading",
-      "note": "53% to 47% over Rep. Mike Lawler (R) with 95% reported.",
+      "status": "won",
+      "note": "NBC News projects Cait Conley the winner. 53% to Mike Lawler's 46.9%, with 95.1% of expected votes in.",
       "source": {
-        "label": "ABC7 NY",
-        "url": "https://abc7ny.com/politics/elections/local/"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-17-results"
       },
       "office": "house",
       "incumbent": false,
@@ -280,11 +280,11 @@
       "endorsedBy": [
         "CPC"
       ],
-      "status": "leading",
-      "note": "57% to 43% with about 99% counted.",
+      "status": "won",
+      "note": "NBC News projects Matt Little the winner. 57.1% to Eric Pratt's 42.8%, with 98.9% of expected votes in.",
       "source": {
         "label": "NBC News",
-        "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-house-results"
+        "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-us-house-district-2-results"
       },
       "office": "house",
       "incumbent": false,
@@ -301,11 +301,11 @@
         "OR",
         "CAUCUS"
       ],
-      "status": "leading",
-      "note": "Seated after the August 2026 special election. Headed for a full term.",
+      "status": "won",
+      "note": "NBC News projects Aisha Wahab the winner. 57.5% to Melissa Hernandez's 42.5%, with 66.9% of expected votes in.",
       "source": {
-        "label": "KQED",
-        "url": "https://www.kqed.org/news/12106988/wahab-well-ahead-of-hernandez-in-east-bay-congressional-race"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-14-results"
       },
       "office": "house",
       "incumbent": true,
@@ -321,11 +321,11 @@
         "CPC",
         "WFP"
       ],
-      "status": "pending",
-      "note": "Safe Democratic seat. Beat Rep. Shri Thanedar in the primary. No general-election call found yet.",
+      "status": "won",
+      "note": "NBC News projects Donavan McKinney the winner. 76.5% to T.P. Nykoriak's 19.9%, with 69.4% of expected votes in.",
       "source": {
-        "label": "Ballotpedia",
-        "url": "https://ballotpedia.org/Michigan's_13th_Congressional_District_election,_2026"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-13-results"
       },
       "office": "house",
       "incumbent": false,
@@ -339,11 +339,11 @@
       "endorsedBy": [
         "JD"
       ],
-      "status": "pending",
-      "note": "Safe Democratic seat. No general-election call found yet.",
+      "status": "won",
+      "note": "NBC News projects Frederick Haynes III the winner. 82.6% to Everett Jackson's 17.4%, with 99% of expected votes in.",
       "source": {
-        "label": "WTOP",
-        "url": "https://wtop.com/news/2026/03/frederick-haynes-wins-democratic-nomination-for-u-s-house-in-texas-30th-congressional-district"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-30-results"
       },
       "office": "house",
       "incumbent": false,
@@ -358,11 +358,11 @@
         "WFP",
         "CAUCUS"
       ],
-      "status": "pending",
-      "note": "Seated after the April 2026 special election. No full-term call found yet.",
+      "status": "won",
+      "note": "NBC News projects Analilia Mejia the winner. 60.8% to Joe Hathaway's 38.3%, with 95.7% of expected votes in.",
       "source": {
-        "label": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Analilia_Mejia"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-11-results"
       },
       "office": "house",
       "incumbent": true,
@@ -396,11 +396,11 @@
         "CPC",
         "WFP"
       ],
-      "status": "pending",
-      "note": "Too close to call against Brent Taylor (R).",
+      "status": "lost",
+      "note": "NBC News projects Brent Taylor the winner. 48.5% to Brent Taylor's 49.6%, with 99% of expected votes in.",
       "source": {
-        "label": "Working Families Party",
-        "url": "https://workingfamilies.org/2026/11/what-happened-on-tuesday/"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/tennessee-us-house-district-9-results"
       },
       "office": "house",
       "incumbent": false,
@@ -416,10 +416,10 @@
         "WFP"
       ],
       "status": "pending",
-      "note": "Democrat-vs-Democrat race against Rep. Doris Matsui. No result found yet.",
+      "note": "Trailing, no projection yet. 44.3% to Doris Matsui's 55.7%, with 67% of expected votes in.",
       "source": {
-        "label": "Justice Democrats",
-        "url": "https://justicedemocrats.com/candidate/mai-vang/"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-7-results"
       },
       "office": "house",
       "incumbent": false,
@@ -434,11 +434,11 @@
         "JD",
         "WFP"
       ],
-      "status": "pending",
-      "note": "Democrat-vs-Democrat race against Rep. Jimmy Gomez. No result found yet.",
+      "status": "won",
+      "note": "NBC News projects Angela Gonzales-Torres the winner. 61.9% to Jimmy Gomez's 38.1%, with 92.3% of expected votes in.",
       "source": {
-        "label": "Justice Democrats",
-        "url": "https://justicedemocrats.com/candidates/"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-34-results"
       },
       "office": "house",
       "incumbent": false,
@@ -452,11 +452,11 @@
       "endorsedBy": [
         "CPC"
       ],
-      "status": "pending",
-      "note": "Close race against Rep. John McGuire (R). No call found yet.",
+      "status": "lost",
+      "note": "NBC News projects John McGuire III the winner. 48% to John McGuire III's 50.2%, with 98.1% of expected votes in.",
       "source": {
         "label": "NBC News",
-        "url": "https://www.nbcnews.com/politics/2026-primary-elections/virginia-house-results"
+        "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-5-results"
       },
       "office": "house",
       "incumbent": false,
@@ -470,11 +470,11 @@
       "endorsedBy": [
         "OR"
       ],
-      "status": "pending",
-      "note": "No call from a major outlet found yet.",
+      "status": "won",
+      "note": "NBC News projects Sam Forstag the winner. 50.3% to Aaron Flint's 46.8%, with 97.7% of expected votes in.",
       "source": {
-        "label": "Our Revolution",
-        "url": "https://ourrevolution.com/revolution-report-november-7th-2026/"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/montana-us-house-district-1-results"
       },
       "office": "house",
       "incumbent": false,
@@ -488,11 +488,11 @@
       "endorsedBy": [
         "CPC"
       ],
-      "status": "pending",
-      "note": "Endorsed before the August primary. Primary and general results not yet confirmed.",
+      "status": "lost",
+      "note": "Not on the November ballot. Oliver Gilbert III (D) won the seat.",
       "source": {
-        "label": "CPC PAC",
-        "url": "https://weareprogressives.org/press-releases/"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-24-results"
       },
       "office": "house",
       "incumbent": false,
@@ -582,11 +582,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Yassamin Ansari the winner. 87.6% to Alan Aversa's 6.1%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/arizona-us-house-district-3-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -600,11 +600,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Adelita Grijalva the winner. 72% to Daniel Butierez Sr.'s 28%, with 95.6% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/arizona-us-house-district-7-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -618,11 +618,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Jared Huffman the winner. 65% to Robin Littau's 35%, with 56.4% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-2-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -636,11 +636,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects John Garamendi the winner. 72.7% to Rudy Recile's 27.3%, with 86.4% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-8-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -654,11 +654,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Mark DeSaulnier the winner. 69.7% to Jeff Frese's 30.3%, with 79.1% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-10-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -672,11 +672,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Lateefah Simon the winner. 80.6% to Jamie Joyce's 19.4%, with 73.7% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-12-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -690,11 +690,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Kevin Mullin the winner. 78.5% to Charles Hoelter's 21.5%, with 66.9% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-15-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -708,11 +708,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Ro Khanna the winner. 71.4% to Ritesh Tandon's 28.6%, with 65% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-17-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -726,11 +726,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Jimmy Panetta the winner. 72.7% to Peter Verbica's 27.3%, with 70.3% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-19-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -744,11 +744,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Judy Chu the winner. 69.6% to April Verlato's 30.4%, with 91% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-28-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -762,11 +762,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Luz Rivas the winner. 57.6% to Angélica Dueñas's 42.4%, with 92.6% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-29-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -780,11 +780,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Laura Friedman the winner. 77.4% to Scott Meyers's 22.6%, with 91% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-30-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -798,11 +798,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Brad Sherman the winner. 67.7% to Larry Thompson's 32.3%, with 85% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-32-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -816,11 +816,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "pending",
-      "note": "Democrat-vs-Democrat race against Angela Gonzales-Torres. No result found yet.",
+      "status": "lost",
+      "note": "NBC News projects Angela Gonzales-Torres the winner. 38.1% to Angela Gonzales-Torres's 61.9%, with 92.3% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-34-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -834,11 +834,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Ted Lieu the winner. 72.6% to Houston Brignano's 27.4%, with 91.5% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-36-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -852,29 +852,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Sydney Kamlager-Dove the winner. 61.1% to Samantha Mota's 38.9%, with 90.8% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      },
-      "checkedAt": "2026-11-08"
-    },
-    {
-      "id": "ca-38-sanchez",
-      "name": "Linda Sánchez",
-      "office": "house",
-      "incumbent": true,
-      "state": "CA",
-      "district": "38",
-      "endorsedBy": [
-        "CAUCUS"
-      ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
-      "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-37-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -888,11 +870,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Mark Takano the winner. 66.7% to Steve Manos's 33.3%, with 58.7% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-39-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -906,11 +888,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Robert Garcia the winner. 61.8% to Brian Burley's 38.2%, with 88.1% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-42-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -924,11 +906,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Maxine Waters the winner. 82.7% to Cristian Morales's 17.3%, with 92.4% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-43-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -942,11 +924,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Nanette Barragán the winner. 81.5% to Genevieve Angel's 18.5%, with 92.3% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-44-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -960,11 +942,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Dave Min the winner. 57.8% to Jenny Rae Le Roux's 42.2%, with 82.7% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-47-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -978,11 +960,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Mike Levin the winner. 57.7% to Armen Kurdian's 42.3%, with 70.1% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-49-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -996,11 +978,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Sara Jacobs the winner. 64% to Ricardo Cabrera's 36%, with 69.2% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-51-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1014,11 +996,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Juan Vargas the winner. 69.7% to Jeff Belle's 30.3%, with 68.9% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-52-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1032,11 +1014,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Joe Neguse the winner. 74.5% to Kelley Dennison's 23.6%, with 96.6% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/colorado-us-house-district-2-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1050,11 +1032,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Rosa DeLauro the winner. 61.4% to Christopher Lancia's 35.6%, with 98.1% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/connecticut-us-house-district-3-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1068,11 +1050,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Sarah McBride the winner. 64.3% to Joseph Arminio's 35.7%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/delaware-us-house-district-1-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1086,11 +1068,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "leading",
+      "note": "Leading, no projection yet. 50.3% to Dan Green's 49.7%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-9-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1104,29 +1086,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Maxwell Frost the winner. Unopposed.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      },
-      "checkedAt": "2026-11-08"
-    },
-    {
-      "id": "fl-24-wilson",
-      "name": "Frederica Wilson",
-      "office": "house",
-      "incumbent": true,
-      "state": "FL",
-      "district": "24",
-      "endorsedBy": [
-        "CAUCUS"
-      ],
-      "status": "pending",
-      "note": "Faced a 2026 primary challenge from Shevrin Jones. Result not yet verified.",
-      "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-10-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1140,11 +1104,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Hank Johnson the winner. 82.6% to Jim Duffie's 17.4%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/georgia-us-house-district-4-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1158,29 +1122,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Nikema Williams the winner. 90.2% to John Salvesen's 9.8%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      },
-      "checkedAt": "2026-11-08"
-    },
-    {
-      "id": "ga-13-blair",
-      "name": "Everton Blair",
-      "office": "house",
-      "incumbent": true,
-      "state": "GA",
-      "district": "13",
-      "endorsedBy": [
-        "CAUCUS"
-      ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
-      "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/georgia-us-house-district-5-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1194,11 +1140,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Jill Tokuda the winner. 66.5% to Brenton Awa's 33.5%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/hawaii-us-house-district-2-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1212,11 +1158,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Jonathan Jackson the winner. 71.7% to Christian Maxwell's 28.3%, with 93% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/illinois-us-house-district-1-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1230,65 +1176,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Delia Ramirez the winner. 76.6% to Angel Oakley's 23.4%, with 93.8% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      },
-      "checkedAt": "2026-11-08"
-    },
-    {
-      "id": "il-4-garcia",
-      "name": "Jesús García",
-      "office": "house",
-      "incumbent": true,
-      "state": "IL",
-      "district": "4",
-      "endorsedBy": [
-        "CAUCUS"
-      ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
-      "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      },
-      "checkedAt": "2026-11-08"
-    },
-    {
-      "id": "il-7-davis",
-      "name": "Danny Davis",
-      "office": "house",
-      "incumbent": true,
-      "state": "IL",
-      "district": "7",
-      "endorsedBy": [
-        "CAUCUS"
-      ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
-      "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      },
-      "checkedAt": "2026-11-08"
-    },
-    {
-      "id": "il-9-schakowsky",
-      "name": "Jan Schakowsky",
-      "office": "house",
-      "incumbent": true,
-      "state": "IL",
-      "district": "9",
-      "endorsedBy": [
-        "CAUCUS"
-      ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
-      "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/illinois-us-house-district-3-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1302,11 +1194,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects André Carson the winner. 77% to Patrick McAuley's 20.4%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/indiana-us-house-district-7-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1320,11 +1212,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Morgan McGarvey the winner. 70.3% to Maria Rodriguez's 29.7%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/kentucky-us-house-district-3-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1338,11 +1230,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Troy Carter the winner. 79.9% to Peter Williams's 15.1%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/louisiana-us-house-district-2-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1356,11 +1248,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Chellie Pingree the winner. 65.9% to Ronald Russell's 34.1%, with 92.4% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/maine-us-house-district-1-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1374,11 +1266,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Kweisi Mfume the winner. 84.4% to Scott Collier's 15.6%, with 81.8% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/maryland-us-house-district-7-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1392,11 +1284,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Jamie Raskin the winner. 82.9% to Cheryl Riley's 15.4%, with 77.9% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/maryland-us-house-district-8-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1410,11 +1302,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Jim McGovern the winner. Unopposed.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-2-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1428,11 +1320,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Lori Trahan the winner. 67.2% to Gary Grossi's 30.3%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-3-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1446,11 +1338,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Ayanna Pressley the winner. Unopposed.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-7-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1464,11 +1356,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Debbie Dingell the winner. 67.4% to Heather Smiley's 30.3%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-6-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1482,11 +1374,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Rashida Tlaib the winner. 76% to James Hooper's 21.2%, with 98.5% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-12-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1500,11 +1392,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Ilhan Omar the winner. 76.5% to John Nagel's 16.2%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-us-house-district-5-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1518,11 +1410,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Steven Horsford the winner. 60.4% to Cody Whipple's 37.7%, with 98.6% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/nevada-us-house-district-4-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1536,11 +1428,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Donald Norcross the winner. 70.4% to Damon Galdo's 29.6%, with 96.2% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-1-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1554,11 +1446,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Frank Pallone the winner. 69.4% to Hillary Herzig's 30.6%, with 96.6% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-6-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1572,11 +1464,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Nellie Pou the winner. 66.7% to Rosie Pino's 31.8%, with 94.6% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-9-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1590,11 +1482,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects LaMonica McIver the winner. 84.6% to Carmen Bucco's 15.4%, with 96% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-10-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1608,11 +1500,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Melanie Stansbury the winner. 63.6% to Ndidiamaka Okpareke's 36.4%, with 98.7% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-mexico-us-house-district-1-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1626,11 +1518,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Teresa Leger Fernandez the winner. 61.7% to Martin Zamora's 38.3%, with 98.3% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-mexico-us-house-district-3-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1644,11 +1536,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Grace Meng the winner. 68.6% to Joseph Chou's 30.6%, with 88.2% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-6-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1662,11 +1554,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Yvette Clarke the winner. 82.1% to Joel Azumah's 17%, with 87.1% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-9-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1680,11 +1572,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Alexandria Ocasio-Cortez the winner. 78.2% to Diamant Hysenaj's 21.5%, with 91.5% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-14-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1698,11 +1590,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Paul Tonko the winner. 63.6% to Ralph Ambrosio's 36.3%, with 96.4% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-20-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1716,11 +1608,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Valerie Foushee the winner. 79.1% to Max Ganorkar's 18.9%, with 98.9% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/north-carolina-us-house-district-4-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1734,11 +1626,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Alma Adams the winner. 81.2% to Jack Codiga's 18.8%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/north-carolina-us-house-district-12-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1752,11 +1644,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Shontel Brown the winner. 83.5% to Mike Kirchner's 16.5%, with 97.8% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/ohio-us-house-district-11-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1770,11 +1662,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Suzanne Bonamici the winner. 71% to Barbara Kahl's 28.8%, with 88.4% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-1-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1788,11 +1680,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Maxine Dexter the winner. 77.3% to Loran Ayles's 22.5%, with 91.4% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-3-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1806,11 +1698,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Val Hoyle the winner. 53.7% to Monique DeSpain's 42.8%, with 95.1% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-4-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1824,11 +1716,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Andrea Salinas the winner. 58.2% to David Russ's 41.6%, with 75.7% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-6-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1842,11 +1734,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Brendan Boyle the winner. 80.8% to Jessica Arriaga's 19.2%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-2-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1860,11 +1752,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Madeleine Dean the winner. 67.1% to Aurora Stuski's 32.9%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-4-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1878,11 +1770,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Mary Gay Scanlon the winner. 72.1% to Nick Manganaro's 27.9%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-5-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1896,11 +1788,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Summer Lee the winner. 65.4% to James Hayes's 34.6%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-12-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1914,11 +1806,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Chris Deluzio the winner. 62.8% to Tony Guy's 37.2%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-17-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1932,11 +1824,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Veronica Escobar the winner. 70.8% to Adam Bauman's 29.2%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-16-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1950,11 +1842,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Christian Menefee the winner. 86% to Ronald Whitfield's 14%, with 97.7% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-18-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -1968,35 +1860,17 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Joaquin Castro the winner. 77.6% to Edgardo Baez's 22.4%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-20-results"
       },
       "checkedAt": "2026-11-08"
     },
     {
-      "id": "tx-35-casar",
+      "id": "tx-37-casar",
       "name": "Greg Casar",
-      "office": "house",
-      "incumbent": true,
-      "state": "TX",
-      "district": "35",
-      "endorsedBy": [
-        "CAUCUS"
-      ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
-      "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
-      },
-      "checkedAt": "2026-11-08"
-    },
-    {
-      "id": "tx-37-doggett",
-      "name": "Lloyd Doggett",
       "office": "house",
       "incumbent": true,
       "state": "TX",
@@ -2004,11 +1878,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Greg Casar the winner. 83.8% to Lauren Peña's 16.2%. Ran in the 37th District after Texas redrew its map.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-37-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -2022,11 +1896,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Becca Balint the winner. 65.2% to Gerald Malloy's 30.9%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/vermont-us-house-district-1-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -2040,11 +1914,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Jennifer McClellan the winner. 72.2% to Robert Murray Jr.'s 26.2%, with 97.9% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-4-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -2058,11 +1932,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Don Beyer the winner. 79.4% to Tony Sabio's 17.9%, with 96% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-8-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -2076,11 +1950,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Emily Randall the winner. 63.6% to Teresa Fox's 36.2%, with 86% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-6-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -2094,11 +1968,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Pramila Jayapal the winner. 87.4% to Nirav Sheth's 12.2%, with 83% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-7-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -2112,11 +1986,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Adam Smith the winner. 75.2% to Doug Basler's 24.1%, with 83% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-9-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -2130,11 +2004,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Mark Pocan the winner. Unopposed.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/wisconsin-us-house-district-2-results"
       },
       "checkedAt": "2026-11-08"
     },
@@ -2148,11 +2022,11 @@
       "endorsedBy": [
         "CAUCUS"
       ],
-      "status": "incumbent",
-      "note": "2026 result not yet verified. District number is from the 2025 map.",
+      "status": "won",
+      "note": "NBC News projects Gwen Moore the winner. 80% to Tim Rogers's 17.5%, with 99% of expected votes in.",
       "source": {
-        "label": "Wikipedia, CPC membership",
-        "url": "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus#Membership"
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/wisconsin-us-house-district-4-results"
       },
       "checkedAt": "2026-11-08"
     }
