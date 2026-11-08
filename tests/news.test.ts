@@ -13,7 +13,12 @@ test("searchName drops middle initials and suffixes", () => {
   assert.equal(searchName(member({ name: "Justin J. Pearson" })), "Justin Pearson");
   assert.equal(searchName(member({ name: "Frederick Haynes III" })), "Frederick Haynes");
   assert.equal(searchName(member({ name: "Robert White Jr." })), "Robert White");
-  assert.match(new URL(newsUrl(member({}))).searchParams.get("q")!, /^"Melat Kiros" Congress when:30d$/);
+});
+
+test("newsUrl adds office and place context over 90 days", () => {
+  const q = (m: Member, place: string) => new URL(newsUrl(m, place)).searchParams.get("q")!;
+  assert.equal(q(member({}), "Colorado"), '"Melat Kiros" (Congress OR Rep OR Congressman OR Congresswoman OR House OR Democrat OR "Colorado") when:90d');
+  assert.match(q(member({ name: "Troy Jackson", office: "senate", district: null }), "Maine"), /^"Troy Jackson" \(Senate OR Sen OR .* OR "Maine"\) when:90d$/);
 });
 
 test("parseRss strips the source suffix and decodes entities", () => {

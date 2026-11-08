@@ -57,7 +57,6 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
         <Suspense fallback={<p className="note">Loading headlines…</p>}>
           <MemberNews m={m} />
         </Suspense>
-        <p className="note">Headlines from Google News.</p>
       </section>
 
       <section className="section" aria-labelledby="why-title">

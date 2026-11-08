@@ -1,5 +1,6 @@
 import { cacheLife } from "next/cache";
-import type { Member } from "@/lib/data";
+import { NewsPager } from "@/components/NewsPager";
+import { getState, type Member } from "@/lib/data";
 import { aboutMember, newsUrl, parseRss, type Headline } from "@/lib/news";
 import { USER_AGENT } from "@/lib/site";
 
@@ -8,7 +9,7 @@ type News = { headlines: Headline[] } | { error: string };
 async function getNews(m: Member): Promise<News> {
   "use cache";
   try {
-    const res = await fetch(newsUrl(m), { headers: { "user-agent": USER_AGENT } });
+    const res = await fetch(newsUrl(m, getState(m.state)!.name), { headers: { "user-agent": USER_AGENT } });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const headlines = aboutMember(m, parseRss(await res.text()));
     cacheLife("hours");
@@ -21,20 +22,17 @@ async function getNews(m: Member): Promise<News> {
   }
 }
 
-const day = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
-
 export async function MemberNews({ m }: { m: Member }) {
   const news = await getNews(m);
   if ("error" in news) return <p className="empty">Couldn&apos;t load headlines right now.</p>;
-  if (news.headlines.length === 0) return <p className="empty">No recent headlines.</p>;
+  if (news.headlines.length === 0) return <p className="empty">No headlines in the last 90 days.</p>;
+  const outlets = new Set(news.headlines.map((h) => h.source)).size;
   return (
-    <ul className="news-list">
-      {news.headlines.map((h) => (
-        <li key={h.url}>
-          <a href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
-          <span className="news-source">{h.source} · {day.format(new Date(h.date))}</span>
-        </li>
-      ))}
-    </ul>
+    <>
+      <NewsPager headlines={news.headlines} />
+      <p className="note">
+        {news.headlines.length} headlines from {outlets} {outlets === 1 ? "outlet" : "outlets"} in the last 90 days, via Google News.
+      </p>
+    </>
   );
 }
