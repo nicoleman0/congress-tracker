@@ -1,0 +1,324 @@
+{
+  "state": "NE",
+  "researched_at": "2026-11-08",
+  "chambers": {
+    "unicameral": "Legislature"
+  },
+  "endorsements": [
+    {
+      "person": "Sarah Slattery",
+      "office": "unicameral",
+      "district": "2",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/1993/slattery-sarah/",
+        "excerpt": "Sarah Slattery Nebraska Legislature, District 2 , NE 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2022/2022%20General%20Canvass%20Book.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Advanced from 2022-05-10 primary LD2: Robert Clements 5,154, Sarah J. Slattery 2,221, Janet Chung 1,674 (Primary Canvass Book, PDF page 31). General 2022-11-08 LD2: Robert Clements 9,261, Sarah J. Slattery 7,117 (General Canvass Book, LD2, PDF page 21 by index). Result evidence is a PDF so excerpt is null."
+    },
+    {
+      "person": "Michael Young",
+      "office": "unicameral",
+      "district": "18",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3115/young-michael/",
+        "excerpt": "Michael Young Nebraska Senate, District 18 , NE 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2022/2022%20General%20Canvass%20Book.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Primary 2022-05-10 LD18: Clarice Jackson 2,358, Christy Armendariz 2,378, Michael Young 2,498 (Primary Canvass Book, PDF page 31; recount 2022-06-08 unchanged). General: Christy Armendariz 7,430, Michael Young 5,784 (General Canvass Book, PDF page 21). PDF so excerpt null."
+    },
+    {
+      "person": "John Fredrickson",
+      "office": "unicameral",
+      "district": "20",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2248/fredrickson-john/",
+        "excerpt": "John Fredrickson Nebraska Senate, District 20 , NE 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2022/2022%20General%20Canvass%20Book.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "unknown",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Primary 2022-05-10 LD20: Julie Fredrickson 2,284, Stu Dornan 4,431, John A. Fredrickson 3,686 (Primary Canvass, PDF page 32). General LD20: Stu Dornan 8,057, John A. Fredrickson 8,139 (General Canvass Book, PDF page 21); winner by column order in the PDF text extract, not by a checkmark, so confirm against the PDF. PDF so excerpt null. Term start unverified: the Legislature's constitution and statute pages (nebraskalegislature.gov) were unreachable from the research host (TLS connect timeout), so the term-start rule could not be cited and status is left unknown. SOS Elected Offices and Maps 2022 (https://sos.nebraska.gov/sites/default/files/doc/elections/2022/2022%20Elected%20Offices%20and%20Maps.pdf, PDF) lists Members of the Legislature as 4-Year Terms, even-numbered districts elected 2022 and 2026, odd-numbered 2020 and 2024. Term would run 4 years from the 2022 election cycle but the start date is not sourced."
+    },
+    {
+      "person": "Rachel Benzoni",
+      "office": "unicameral",
+      "district": "18",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2353/benzoni-rachel/",
+        "excerpt": "Rachel Benzoni Nebraska Senate, District 18 , NE 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Not on the official 2022 LD18 primary or general ballot in the Primary and General Canvass Books (name absent from both PDFs). No source found for withdrawal or non-filing, so outcome is unknown rather than lost or withdrew."
+    },
+    {
+      "person": "Michelle Smith",
+      "office": "unicameral",
+      "district": "33",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/cdda236b906cd3800a14bd2bcdaa80a3/smith-michelle/",
+        "excerpt": "Michelle Smith State Senate, District 33 , NE 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2024/2024%20General%20Canvass%20Book.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Primary 2024-05-14 LD33: Michelle R. Smith 2,516, Dan Lonowski 3,475, Paul C. Hamelink 1,595, Joshua Frederick 1,120 (Primary Canvass, PDF page 27). General LD33: Smith 5,767, Dan Lonowski 11,875 (General Canvass Book, PDF page 22). PDF so excerpt null."
+    },
+    {
+      "person": "Allison Heimes",
+      "office": "unicameral",
+      "district": "39",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/736732aa20cd01d439cf10f3fe466043/heimes-allison/",
+        "excerpt": "Allison Heimes State Senate, District 39 , NE 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2024/2024%20General%20Canvass%20Book.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Primary LD39: Tony Sorrentino 3,881, Allison Heimes 3,712 (Primary Canvass, PDF page 27). General LD39: Sorrentino 11,847, Heimes 10,896 (General Canvass Book, PDF page 22). PDF so excerpt null."
+    },
+    {
+      "person": "Kameron Neeman",
+      "office": "unicameral",
+      "district": "27",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3511/neeman-kameron/",
+        "excerpt": "Kameron Neeman State Senate, District 27 , NE 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Not on the official 2024 LD27 primary (Jason Prokop 2,756, Dawn Liphardt 2,137; Primary Canvass PDF page 26) or general ballot (Prokop 7,201, Liphardt 6,502; General Canvass PDF page 22). No source found for withdrawal or non-filing, so outcome is unknown."
+    },
+    {
+      "person": "Terrell McKinney",
+      "office": "unicameral",
+      "district": "11",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/5bbca0629ab37acfec48fb204620ed51/mckinney-terrell/",
+        "excerpt": "Terrell McKinney State House, District 11 , NE 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2024/2024%20General%20Canvass%20Book.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "unknown",
+        "term_start": null,
+        "term_end": null,
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Card labels the office 'State House' but Nebraska has one chamber; LD11. Primary 2024 LD11: Terrell McKinney 1,351, Calandra Cooper 328, Ernie Chambers 1,347 (Primary Canvass, PDF page 25). General LD11: McKinney 9,025 (checkmarked winner, General Canvass Book PDF page 21; Write-In Scattering 373). PDF so excerpt null. Term start unverified: the Legislature's constitution and statute pages (nebraskalegislature.gov) were unreachable from the research host (TLS connect timeout), so the term-start rule could not be cited and status is left unknown. SOS Elected Offices and Maps 2022 (https://sos.nebraska.gov/sites/default/files/doc/elections/2022/2022%20Elected%20Offices%20and%20Maps.pdf, PDF) lists Members of the Legislature as 4-Year Terms, even-numbered districts elected 2022 and 2026, odd-numbered 2020 and 2024. "
+    },
+    {
+      "person": "Nate Ostdiek",
+      "office": "unicameral",
+      "district": "6",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/137cda7a845ddcc5306ea3890f724665/ostdiek-nate/",
+        "excerpt": "Nate Ostdiek State Legislature, District 6 , NE 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=LD&map=DIST",
+        "excerpt": "Patrick Leahy Nonpartisan 8,116 Nate Ostdiek Nonpartisan 6,029"
+      },
+      "current": null,
+      "notes": "Stage primary: Run for Something release dated 2025-12-18 lists him (https://runforsomething.net/rfs-press/run-for-something-endorses-56-young-candidates-across-19-states-supporting-the-next-generation-of-leaders/), before the 2026-05-12 primary. Advanced from primary (Patrick Leahy 4,965, Ostdiek 3,402; Primary Canvass PDF page 35). General 2026-11-03 result is UNOFFICIAL (SOS page updated 11/6/2026 4:59 PM CT, not yet canvassed) and the live page will change after the next election, so the excerpt may drift."
+    },
+    {
+      "person": "Jayden Speed",
+      "office": "unicameral",
+      "district": "2",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/009d221dccccedb9f5eeffe6506defe6/speed-jayden/",
+        "excerpt": "Jayden Speed State Legislature, District 2 , NE 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Stage primary: same 2025-12-18 Run for Something release as Ostdiek. Eliminated in 2026-05-12 top-two primary LD2: Jayden L. Speed 1,672, Dean Helmick 4,679, Caitlin Knutson 3,381; Helmick and Knutson advanced (Primary Canvass PDF page 35). PDF so excerpt null."
+    }
+  ],
+  "coverage": [
+    {
+      "group": "wfp",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://workingfamilies.org/candidates/",
+        "https://workingfamilies.org/state/nebraska/"
+      ],
+      "note": "National candidates page Nebraska section lists only county DA and sheriff candidates (out of scope). State page /state/nebraska/ returns 404. No chapter page found."
+    },
+    {
+      "group": "or",
+      "status": "blocked",
+      "checked": [
+        "https://ourrevolution.com/our-champions/",
+        "https://ourrevolution.com/category/past-endorsement/"
+      ],
+      "note": "No Nebraska text on the first page of either; past-endorsement archive pagination and chapter pages not exhausted; /groups/ 404 per earlier notes."
+    },
+    {
+      "group": "dsa",
+      "status": "blocked",
+      "checked": [
+        "https://www.dsanebraska.org/",
+        "https://omahadsa.org/",
+        "https://www.omahadsa.org/2026-omaha-dsa-voter-guide"
+      ],
+      "note": "Omaha DSA 2026 voter guide says the chapter is not doing endorsements. Lincoln DSA homepage has no endorsement page. National electoral.dsausa.org endorsement database not readable (Airtable); 2022 and 2024 chapter endorsements unverified."
+    },
+    {
+      "group": "rfs",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://directory.runforsomething.net/candidates/2022/",
+        "https://directory.runforsomething.net/candidates/2024/",
+        "https://directory.runforsomething.net/candidates/2026/"
+      ],
+      "note": "Ten state legislature cards from saved directory extraction (research_notes/State endorsement gap review/rfs_pccc_directory_cards.tsv), each card re-fetched. Cards for school boards, city councils and other non-legislative offices skipped. No 2023 or 2025 state-level cards."
+    },
+    {
+      "group": "pccc",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://www.boldprogressives.org/2022-champions/",
+        "https://www.boldprogressives.org/candidates/our-endorsements-2022/",
+        "https://www.boldprogressives.org/candidates/our-endorsements-2024/",
+        "https://www.boldprogressives.org/candidates/our-endorsements-2026/"
+      ],
+      "note": "No Nebraska text on 2022 and 2024 pages. 2026 page names only Dan Osborn (U.S. Senate, out of scope)."
+    },
+    {
+      "group": "sunrise",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://www.sunrisemovement.org/endorsements/",
+        "https://www.sunrisemovement.org/hubs/"
+      ],
+      "note": "No Nebraska text on the endorsements or hubs pages. Historical endorsement archives not separately checked."
+    }
+  ],
+  "gaps": [
+    "Term-start rule for Nebraska senators not cited: nebraskalegislature.gov unreachable from the research host (TLS connect timeout via curl, node and WebFetch). Both 'won' entries have current.status unknown. Ballotpedia reportedly gives first Wednesday after first Monday in January for legislators (January 4, 2023 and January 8, 2025), not an official source and not fetched.",
+    "Fredrickson (LD20, 2022) term runs to January 2027 if 4-year terms start January 2023, so he would be serving today, but unverified.",
+    "2022-2024 results come from SOS canvass-book PDFs, which the verifier cannot read, so result excerpts are null. Winner for LD20 2022 read from PDF text column order.",
+    "Rachel Benzoni (LD18, 2022) and Kameron Neeman (LD27, 2024) are absent from official ballots; reason unknown (not found: withdrawal, disqualification or no filing).",
+    "Stage for 2022 and 2024 RFS cards is defaulted to general because cards carry no date.",
+    "2026 general results are unofficial (not canvassed as of 2026-11-08); Ostdiek outcome may change on certification. Governor: no endorsements found from any group; 2022 and 2026 governor races not separately searched beyond group pages.",
+    "Our Revolution archive and national DSA endorsement database not fully read."
+  ]
+}
