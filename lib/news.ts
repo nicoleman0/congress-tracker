@@ -10,9 +10,13 @@ export function searchName(m: Member) {
   return m.name.replace(SUFFIX, "").replace(/,?\s*$/, "").split(" ").filter((w) => !/^[A-Z]\.$/.test(w)).join(" ");
 }
 
-// Plain "Congress" filters out namesakes (boxers, economists) best; OR-ing in titles or the state pulls in roundups.
-export function newsUrl(m: Member) {
-  const q = `"${searchName(m)}" Congress when:30d`;
+// Context words keep out namesakes (boxers, economists) without requiring "Congress", which hid most coverage.
+// The headline filter in aboutMember drops roundups these words pull in.
+export function newsUrl(m: Member, place: string) {
+  const context = m.office === "senate"
+    ? ["Senate", "Sen", "Senator", "Congress", "Democrat", `"${place}"`]
+    : ["Congress", "Rep", "Congressman", "Congresswoman", "House", "Democrat", `"${place}"`];
+  const q = `"${searchName(m)}" (${context.join(" OR ")}) when:90d`;
   return `https://news.google.com/rss/search?${new URLSearchParams({ q, hl: "en-US", gl: "US", ceid: "US:en" })}`;
 }
 
@@ -42,12 +46,11 @@ export function parseRss(xml: string): Headline[] {
 }
 
 // Roundups that mention a member in passing rarely name them in the headline, so require the last name there.
-export function aboutMember(m: Member, items: Headline[], limit = 8): Headline[] {
+export function aboutMember(m: Member, items: Headline[]): Headline[] {
   const last = bare(m.name.replace(SUFFIX, "")).split(" ").at(-1)!;
   const seen = new Set<string>();
   return items
     .filter((h) => h.url.startsWith("https://") && ` ${bare(h.title)} `.includes(` ${last} `))
     .filter((h) => !seen.has(bare(h.title)) && seen.add(bare(h.title)))
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .slice(0, limit);
+    .sort((a, b) => b.date.localeCompare(a.date));
 }

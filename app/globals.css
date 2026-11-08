@@ -558,6 +558,27 @@ p {
   font-size: 0.9rem;
   font-variant-numeric: tabular-nums;
 }
+.pager {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  max-width: var(--measure);
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+}
+.pager button {
+  padding: 0.3rem 0.8rem;
+  font: 600 1rem var(--font-display);
+  color: var(--ultra);
+  background: none;
+  border: 2px solid var(--ultra);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.pager button:disabled { color: var(--muted); border-color: var(--rule); cursor: default; }
+.pager button:not(:disabled):hover { background: var(--paper); }
 
 /* ============================================================
    State index
