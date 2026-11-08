@@ -29,10 +29,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <a className="skip-link" href="#main">Skip to content</a>
         <header className="site-header">
           <Link href="/" className="site-title">{SITE_NAME}</Link>
-          <MemberSearch entries={searchEntries()} />
           <nav aria-label="Main">
             <NavLinks links={NAV} />
           </nav>
+          <MemberSearch entries={searchEntries()} />
         </header>
         <div className="page-wrap page-wrap--wide">
           <main id="main">{children}</main>

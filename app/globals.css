@@ -193,30 +193,59 @@ h1,
   white-space: nowrap;
 }
 
-/* Member search: ultramarine outline only; lime stays with the page's one action. */
+/* Member search: an icon that opens a bar over the nav. Ultramarine only; lime stays with the page's one action. */
+.site-header nav { margin-left: auto; }
 .member-search {
+  --bar: min(22rem, calc(100vw - 2 * var(--gutter)));
   position: relative;
-  flex: 1 1 14rem;
-  max-width: 22rem;
+  display: flex;
+}
+.member-search-toggle {
+  position: relative;
+  z-index: 11;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  color: var(--ultra);
+  background: none;
+  border: 0;
+  border-radius: var(--radius);
+  cursor: pointer;
 }
 .member-search input {
-  width: 100%;
-  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0 2.75rem 0 0.6rem;
   font: inherit;
   font-size: 1rem;
   color: var(--ink);
   background: var(--paper);
   border: 2px solid var(--ultra);
   border-radius: var(--radius);
+  opacity: 0;
+  visibility: hidden;
+  transition: width 0.2s ease, opacity 0.15s ease, visibility 0.2s;
 }
+/* Visible at once on open so the input can take focus; stays visible while it shrinks on close. */
+.member-search.open input { width: var(--bar); opacity: 1; visibility: visible; transition-property: width, opacity; }
+@media (min-width: 761px) {
+  .site-header:has(.member-search.open) nav { visibility: hidden; }
+}
+.member-search input::-webkit-search-cancel-button { -webkit-appearance: none; }
 .member-search input::placeholder { color: var(--muted); }
 .member-search input:focus-visible { outline-offset: 2px; }
 .member-search-results {
   position: absolute;
   z-index: 10;
   top: calc(100% + 2px);
-  left: 0;
   right: 0;
+  width: var(--bar);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -240,7 +269,6 @@ h1,
 
 /* ============================================================
    Hero: title in ultramarine, lime overprint strip for the one action.
-   Home uses the display size; member pages keep the headline size.
    ============================================================ */
 .hero {
   padding: var(--s-4) 0 0;
@@ -256,11 +284,6 @@ h1,
   z-index: 1;
   margin: 0;
   mix-blend-mode: multiply;
-}
-.hero-title--display {
-  font-size: clamp(3.5rem, 9vw, 8.5rem);
-  line-height: 0.86;
-  letter-spacing: -0.035em;
 }
 .hero-card {
   position: relative;
@@ -285,11 +308,16 @@ h1,
       wobble 0.6s ease-in-out;
   }
 }
+/* Home: the card is the headline, so it runs full width and sits level. */
+.hero-id--home { width: 100%; }
+.hero-id--home .hero-card { margin-top: 0; transform: none; animation: none; }
 .hero-role {
-  font: 800 clamp(1.4rem, 2.1vw, 1.85rem)/1 var(--font-display);
+  font: 800 clamp(1.4rem, 2.1vw, 1.85rem)/1.15 var(--font-display);
   letter-spacing: -0.02em;
   margin: 0;
 }
+/* The home h1 prints on lime: no ink mask (it clipped descenders) and no lime ghost. */
+h1.hero-role { text-shadow: none; -webkit-mask: none; mask: none; }
 .hero-detail {
   font-size: 1rem;
   margin: 0;
@@ -333,7 +361,8 @@ h1,
   :root { --header-h: 4.5rem; }
   .site-header { padding-block: var(--s-2); }
   .nav-link { font-size: 0.95rem; }
-  .member-search { order: 1; flex-basis: 100%; max-width: none; }
+  .member-search { order: 1; margin-left: auto; }
+  .site-header nav { order: 2; flex-basis: 100%; margin-left: 0; }
   .hero-id { width: auto; min-width: 0; }
   .hero-card { flex-direction: column; align-items: flex-start; margin-top: var(--s-3); }
   .hero-action { margin-left: 0; margin-top: var(--s-1); }
