@@ -184,6 +184,60 @@ h1,
 .nav-link:hover { color: var(--ultra); text-decoration: underline; }
 .nav-link.active { color: var(--ultra); text-decoration: underline; text-decoration-thickness: 2px; }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Member search: ultramarine outline only; lime stays with the page's one action. */
+.member-search {
+  position: relative;
+  flex: 1 1 14rem;
+  max-width: 22rem;
+}
+.member-search input {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  font: inherit;
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 2px solid var(--ultra);
+  border-radius: var(--radius);
+}
+.member-search input::placeholder { color: var(--muted); }
+.member-search input:focus-visible { outline-offset: 2px; }
+.member-search-results {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--paper);
+  border: 2px solid var(--ultra);
+  border-radius: var(--radius);
+}
+.member-search-results a {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s-2);
+  padding: 0.4rem 0.6rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+.member-search-results a span { color: var(--muted); white-space: nowrap; }
+.member-search-results a:hover,
+.member-search-results a:focus-visible { color: var(--ultra); text-decoration: underline; outline-offset: -2px; }
+.member-search-results li + li { border-top: 1px solid var(--rule); }
+.member-search-empty { padding: 0.4rem 0.6rem; color: var(--muted); }
+
 /* ============================================================
    Hero: title in ultramarine, lime overprint strip for the one action.
    Home uses the display size; member pages keep the headline size.
@@ -279,6 +333,7 @@ h1,
   :root { --header-h: 4.5rem; }
   .site-header { padding-block: var(--s-2); }
   .nav-link { font-size: 0.95rem; }
+  .member-search { order: 1; flex-basis: 100%; max-width: none; }
   .hero-id { width: auto; min-width: 0; }
   .hero-card { flex-direction: column; align-items: flex-start; margin-top: var(--s-3); }
   .hero-action { margin-left: 0; margin-top: var(--s-1); }

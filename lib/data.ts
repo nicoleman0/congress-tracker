@@ -1,5 +1,6 @@
 // The only module that knows where roster data lives. Swap this for a database later.
 import raw from "@/data/members.json";
+import type { SearchEntry } from "@/lib/search";
 import { STATES, type State } from "@/lib/states";
 
 export type Office = "house" | "senate";
@@ -93,3 +94,6 @@ export function seatLabel(m: Member) {
   if (m.office === "senate") return `${m.state} Senate`;
   return m.district === "AL" ? `${m.state} at-large` : `${m.state}-${m.district}`;
 }
+
+export const searchEntries = (): SearchEntry[] =>
+  db.members.map((m) => ({ id: m.id, name: m.name, seat: seatLabel(m), stateName: getState(m.state)!.name }));
