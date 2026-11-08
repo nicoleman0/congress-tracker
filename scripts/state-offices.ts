@@ -1,8 +1,8 @@
-import { createHash } from "node:crypto";
 import { readFile, writeFile } from "node:fs/promises";
 import { Client } from "pg";
 import { STATES } from "../lib/states";
 import { canonical } from "../lib/canonical";
+import { MIGRATION_LOCK, migrate, sha256 as hash, transaction } from "./db";
 export { canonical } from "../lib/canonical";
 
 const tables = {
@@ -20,7 +20,6 @@ type Table = keyof typeof tables;
 type Input = Record<Table, Record<string, unknown>[]>;
 const names = Object.keys(tables) as Table[];
 const stateCodes = new Set(STATES.filter((s) => s.code !== "DC").map((s) => s.code));
-const hash = (s: string) => createHash("sha256").update(s).digest("hex");
 
 export function validateInput(input: unknown): asserts input is Input {
   if (!input || typeof input !== "object" || Array.isArray(input)) throw new Error("input must be an object");
@@ -37,28 +36,6 @@ export function validateInput(input: unknown): asserts input is Input {
       if ((name === "coverage" || name === "seats") && !stateCodes.has(row.state)) throw new Error(`${name}: invalid state`);
     }
   }
-}
-async function transaction<T>(db: Client, fn: (db: Client) => Promise<T>): Promise<T> {
-  await db.query("BEGIN");
-  try { const result = await fn(db); await db.query("COMMIT"); return result; }
-  catch (e) { await db.query("ROLLBACK"); throw e; }
-}
-async function migrate(db: Client) {
-  await transaction(db, async (tx) => {
-    await tx.query("SELECT pg_advisory_xact_lock(73628412)");
-    await tx.query("CREATE SCHEMA IF NOT EXISTS state_offices");
-    await tx.query("CREATE TABLE IF NOT EXISTS state_offices.migrations (version text PRIMARY KEY, hash text NOT NULL)");
-    for (const version of ["001", "002", "003", "004", "005", "006"]) {
-      const sql = await readFile(`db/state-offices/${version}.sql`, "utf8");
-      const old = await tx.query("SELECT hash FROM state_offices.migrations WHERE version = $1", [version]);
-      if (old.rowCount) {
-        if (old.rows[0].hash !== hash(sql)) throw new Error(`migration ${version} differs from applied version`);
-        continue;
-      }
-      await tx.query(sql);
-      await tx.query("INSERT INTO state_offices.migrations VALUES ($1, $2)", [version, hash(sql)]);
-    }
-  });
 }
 export async function batchContents(db: Client, id: string): Promise<Record<string, unknown>> {
   const contents: Record<string, unknown> = {};
@@ -147,7 +124,7 @@ export async function publicationProblems(db: Client, id: string): Promise<strin
 }
 export async function publishInTransaction(tx: Client, id: string, version: string) {
   if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(version)) throw new Error("invalid publication version");
-    await tx.query("SELECT pg_advisory_xact_lock(73628412)");
+    await tx.query("SELECT pg_advisory_xact_lock($1)", [MIGRATION_LOCK]);
     const problems = await publicationProblems(tx, id);
     if (problems.length) throw new Error(problems.join("\n"));
     const batch = (await tx.query("SELECT id, content_hash, imported_at, reviewed_at, reviewer, review_hash FROM state_offices.batches WHERE id=$1", [id])).rows[0];
@@ -166,7 +143,7 @@ async function main() {
   const db = new Client({ connectionString: process.env.DATABASE_URL });
   await db.connect();
   try {
-    if (command === "migrate" && !args.length) await migrate(db);
+    if (command === "migrate" && !args.length) await migrate(db, "state_offices", "db/state-offices");
     else if (command === "import" && args.length === 1) await importBatch(db, args[0]);
     else if (command === "review" && args.length === 2) await review(db, args[0], args[1]);
     else if (command === "show" && args.length === 1) {
