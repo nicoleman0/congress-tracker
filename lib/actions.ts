@@ -4,9 +4,16 @@ import type { Member } from "@/lib/data";
 export type Action = { label: string; href: string; detail?: string };
 
 export const PLUG_IN: Action[] = [
-  { label: "Find a local Indivisible group", href: "https://indivisible.org/groups" },
+  { label: "Find a local Indivisible group", href: "https://indivisible.org/get-involved/find-a-group/" },
   { label: "Find events on Mobilize", href: "https://www.mobilize.us/" },
   { label: "Call with 5 Calls", href: "https://5calls.org/" },
+];
+
+// For states with no listed member: build the opposition to Republicans there.
+export const OPPOSE: Action[] = [
+  { label: "Help Democrats win close races with Swing Left", href: "https://swingleft.org/" },
+  { label: "Register Democratic voters with Field Team 6", href: "https://www.fieldteam6.org/" },
+  { label: "Run for office with Run for Something", href: "https://runforsomething.net/" },
 ];
 
 export const CONTACT_HOUSE: Action = {

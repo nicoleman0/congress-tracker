@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ActionList, MemberList } from "@/components/ui";
-import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN } from "@/lib/actions";
+import { CONTACT_HOUSE, CONTACT_SENATE, OPPOSE, PLUG_IN } from "@/lib/actions";
 import { getState, membersIn } from "@/lib/data";
 import { STATES } from "@/lib/states";
 
@@ -52,6 +52,16 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
           <h2 id="house-title">House</h2>
           <MemberList members={house} />
           <p className="note">Several states redrew their district maps for 2026.</p>
+        </section>
+      )}
+
+      {members.length === 0 && (
+        <section className="section" aria-labelledby="oppose-title">
+          <h2 id="oppose-title">Oppose Republicans here</h2>
+          <ActionList actions={OPPOSE} />
+          <p className="note">
+            Or back a progressive in another state: <Link href="/members">all members</Link>.
+          </p>
         </section>
       )}
 
