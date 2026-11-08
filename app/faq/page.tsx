@@ -19,6 +19,10 @@ const QUESTIONS: { q: string; a: React.ReactNode }[] = [
     ),
   },
   {
+    q: "Is Gracchi affiliated with these groups?",
+    a: "No. Gracchi has no affiliation with any of the endorsing groups.",
+  },
+  {
     q: "My representative isn't listed. Why?",
     a: "They don't meet the rule above. We don't add anyone by judgment.",
   },
