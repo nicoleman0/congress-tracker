@@ -54,11 +54,11 @@ export function readStatePublication(input: unknown, today = new Date()): { vers
     if (["complete_no_entries", "not_applicable"].includes(row.status) && matching.some((e) => decisions.get(e.id)?.outcome === "included")) throw new Error(`state publication: contradictory coverage ${row.state}/${row.group_code}`);
   }
   const now = today.toISOString().slice(0, 10);
-  const members = s.terms.filter((term) => term.status !== "ended").map((term) => {
+  // Uncalled races stay off the site until called (docs/plans/state-offices.md).
+  const members = s.terms.filter((term) => term.status === "serving" || term.status === "incoming").map((term) => {
     const person = lookup(people, term.person_id), seat = lookup(seats, term.seat_id), election = lookup(elections, term.election_id);
     const result = lookup(sources, term.result_source_id);
-    const resultAge = (Date.parse(`${now}T00:00:00Z`) - Date.parse(`${date(result.checked_at)}T00:00:00Z`)) / 86_400_000;
-    if (!stateCodes.includes(seat.state) || !["general", "special"].includes(election.stage) || election.seat_id !== seat.id || (term.status === "serving" && (date(term.starts_on) > now || (term.ends_on && date(term.ends_on) <= now) || !term.service_source_id)) || (term.status === "incoming" && date(term.starts_on) <= now) || (term.status === "unresolved" && (resultAge < 0 || resultAge > 3 || !Number.isFinite(resultAge)))) throw new Error(`state publication: invalid term ${term.id}`);
+    if (!stateCodes.includes(seat.state) || !["general", "special"].includes(election.stage) || election.seat_id !== seat.id || (term.status === "serving" && (date(term.starts_on) > now || (term.ends_on && date(term.ends_on) <= now) || !term.service_source_id)) || (term.status === "incoming" && date(term.starts_on) <= now)) throw new Error(`state publication: invalid term ${term.id}`);
     const endorsements = s.endorsements.filter((e) => e.person_id === person.id && !e.withdrawn && decisions.get(e.id)?.outcome === "included" && decisions.get(e.id)?.term_id === term.id && (() => { const endorsed = lookup(elections, e.election_id); return endorsed.seat_id === seat.id && endorsed.year === election.year && (endorsed.id === election.id || (endorsed.stage === "primary" && endorsed.cycle_election_id === election.id)); })());
     if (!endorsements.length || (!term.contact_url && !term.campaign_url)) throw new Error(`state publication: missing evidence for ${term.id}`);
     return { id: person.id, name: person.name, state: seat.state, seat, term, election, ...(term.service_source_id ? { service: lookup(sources, term.service_source_id) } : {}), result, ...(term.contact_url ? { contactSource: lookup(sources, term.contact_source_id) } : {}), ...(term.campaign_url ? { campaignSource: lookup(sources, term.campaign_source_id) } : {}), endorsers: endorsements.map((e) => ({ issuer: lookup(issuers, e.issuer_id), source: lookup(sources, e.source_id), election: lookup(elections, e.election_id) })), ...(person.portrait_url && person.portrait_credit ? { portrait: { url: person.portrait_url, credit: person.portrait_credit, source: lookup(sources, person.portrait_source_id) } } : {}) };
@@ -71,5 +71,5 @@ const publication = readStatePublication(raw);
 export const statePublicationVersion = publication.version;
 export const statePublicationReviewedAt = publication.reviewedAt;
 export const stateMembers = () => publication.members;
-export const getStateMember = (id: string) => stateMembers().filter((m) => m.id === id).sort((a, b) => ["serving", "incoming", "unresolved"].indexOf(a.term.status) - ["serving", "incoming", "unresolved"].indexOf(b.term.status))[0];
+export const getStateMember = (id: string) => stateMembers().filter((m) => m.id === id).sort((a, b) => ["serving", "incoming"].indexOf(a.term.status) - ["serving", "incoming"].indexOf(b.term.status))[0];
 export const stateSeatLabel = (m: StateMember) => `${m.state} ${m.seat.chamber}${m.seat.district ? ` · District ${m.seat.district}` : ""}${m.seat.seat_label ? ` · ${m.seat.seat_label}` : ""}`;

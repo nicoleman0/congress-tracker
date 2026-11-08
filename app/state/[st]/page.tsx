@@ -24,9 +24,8 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
 
   const members = membersIn(state.code);
   const local = stateMembers().filter((m) => m.state === state.code);
-  const governors = local.filter((m) => m.seat.office === "governor" && m.term.status !== "unresolved");
-  const legislators = local.filter((m) => m.seat.office !== "governor" && m.term.status !== "unresolved");
-  const races = local.filter((m) => m.term.status === "unresolved");
+  const governors = local.filter((m) => m.seat.office === "governor");
+  const legislators = local.filter((m) => m.seat.office !== "governor");
   const senators = members.filter((m) => m.office === "senate");
   const house = members
     .filter((m) => m.office === "house")
@@ -74,7 +73,6 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
           <ul className="roster">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
         </section>
       )}
-      {statePublicationVersion && races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><ul className="roster">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat">{stateSeatLabel(m)} · Not called</span></li>)}</ul></section>}
 
       {members.length === 0 && local.length === 0 && (
         <section className="section" aria-labelledby="oppose-title">

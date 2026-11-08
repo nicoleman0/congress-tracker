@@ -9,7 +9,7 @@ export default function Home() {
   const senate = fresh.filter((m) => m.office === "senate");
   const house = fresh.filter((m) => m.office === "house");
   const total = listedMembers().length;
-  const stateTotal = stateMembers().filter((m) => m.term.status !== "unresolved").length;
+  const stateTotal = stateMembers().length;
 
   return (
     <>
@@ -41,7 +41,7 @@ export default function Home() {
         <h2 id="states-title" className="section-title"><span className="ink">Browse by state</span></h2>
         <ul className="state-grid">
           {STATES.map((s) => {
-            const n = membersIn(s.code).length + stateMembers().filter((m) => m.state === s.code && m.term.status !== "unresolved").length;
+            const n = membersIn(s.code).length + stateMembers().filter((m) => m.state === s.code).length;
             return (
               <li key={s.code}>
                 <Link href={`/state/${s.code.toLowerCase()}`} className={n ? undefined : "state-none"}>{s.name}</Link>

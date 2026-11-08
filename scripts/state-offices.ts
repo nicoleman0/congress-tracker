@@ -91,11 +91,9 @@ export async function publicationProblems(db: Client, id: string): Promise<strin
   for (const row of contradictory.rows) problems.push(`coverage contradicts included endorsement: ${row.state}/${row.group_code}`);
   const invalid = await db.query(`SELECT t.id FROM state_offices.terms t
     LEFT JOIN state_offices.elections e ON e.batch_id=t.batch_id AND e.id=t.election_id
-    LEFT JOIN state_offices.sources result ON result.batch_id=t.batch_id AND result.id=t.result_source_id
     WHERE t.batch_id=$1 AND t.status IN ('serving','incoming','unresolved') AND
       ((t.status='serving' AND (t.starts_on > CURRENT_DATE OR t.ends_on <= CURRENT_DATE OR t.service_source_id IS NULL))
       OR (t.status='incoming' AND t.starts_on <= CURRENT_DATE)
-      OR (t.status='unresolved' AND (result.checked_at IS NULL OR result.checked_at > CURRENT_DATE OR CURRENT_DATE - result.checked_at > 3))
       OR e.id IS NULL OR e.stage NOT IN ('general','special') OR e.seat_id <> t.seat_id OR t.result_source_id IS NULL OR (t.contact_url IS NULL AND t.campaign_url IS NULL)
       OR NOT EXISTS (SELECT 1 FROM state_offices.endorsements d JOIN state_offices.elections de ON de.batch_id=d.batch_id AND de.id=d.election_id
         JOIN state_offices.reconciliations r ON r.batch_id=d.batch_id AND r.endorsement_id=d.id AND r.outcome='included' AND r.term_id=t.id
