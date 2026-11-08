@@ -16,10 +16,7 @@ export async function generateMetadata({ params }: PageProps<"/state/[st]">) {
 
 function NoProgressive({ what }: { what: string }) {
   return (
-    <p className="empty">
-      No progressive {what} listed. Use the links under &ldquo;Oppose and plug in&rdquo; to reach your member
-      and the groups organizing here.
-    </p>
+    <p className="empty">No progressive {what} listed.</p>
   );
 }
 
@@ -64,16 +61,11 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
             No progressive listed in {unlisted.length === 1 ? "district" : "districts"} {unlisted.join(", ")}.
           </p>
         )}
-        <p className="note">
-          District numbers can shift: several states redrew their maps for 2026. Address lookup comes later.
-        </p>
+        <p className="note">Several states redrew their district maps for 2026.</p>
       </section>
 
       <section className="section" aria-labelledby="plug-in-title">
         <h2 id="plug-in-title">Oppose and plug in</h2>
-        <p className="section-intro">
-          If your member isn&apos;t listed above, contact them directly and join the people organizing near you.
-        </p>
         <ActionList actions={[CONTACT_HOUSE, ...(state.senators ? [CONTACT_SENATE] : []), ...PLUG_IN]} />
       </section>
     </>

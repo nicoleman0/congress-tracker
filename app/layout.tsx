@@ -36,10 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </div>
         <footer className="page-wrap page-wrap--wide">
           <div className="footer-inner">
-            <p>
-              Last checked {lastChecked}. Results can change as races are called. Every listing links to its
-              source.
-            </p>
+            <p>Last checked {lastChecked}.</p>
             <nav className="footer-links" aria-label="Site">
               <Link href="/method">method and sources</Link>
               <a href="https://github.com/nicoleman0/congress-tracker">source code</a>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MemberList } from "@/components/ui";
-import { allMembers, lastChecked, newClass } from "@/lib/data";
+import { allMembers, lastChecked, membersIn, newClass } from "@/lib/data";
 import { STATES } from "@/lib/states";
 
 export default function Home() {
@@ -27,11 +27,6 @@ export default function Home() {
         </ul>
       </section>
 
-      <p className="lede">
-        Who they are, how to back them, and where to plug in locally. If your member isn&apos;t a progressive,
-        your state page points you to the groups organizing there.
-      </p>
-
       <section className="section" id="new-class" aria-labelledby="new-class-title">
         <h2 id="new-class-title" className="section-title">The new class</h2>
         <p className="section-intro">Won or leading on November 3, 2026. Sworn in January 3, 2027.</p>
@@ -45,7 +40,7 @@ export default function Home() {
       <section className="section" id="states" aria-labelledby="states-title">
         <h2 id="states-title" className="section-title">Browse by state</h2>
         <ul className="state-grid">
-          {STATES.map((s) => (
+          {STATES.filter((s) => membersIn(s.code).length > 0).map((s) => (
             <li key={s.code}>
               <Link href={`/state/${s.code.toLowerCase()}`}>{s.name}</Link>
             </li>

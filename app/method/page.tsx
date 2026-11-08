@@ -11,7 +11,7 @@ export default function Method() {
 
       <section className="section" aria-labelledby="who-title">
         <h2 id="who-title">Who counts as progressive</h2>
-        <p>A member is listed if at least one of these applies. Each profile shows which.</p>
+        <p>A member is listed if at least one of these applies.</p>
         <ul className="list">
           {groupList().map((g) => (
             <li key={g.code}>
@@ -20,10 +20,7 @@ export default function Method() {
             </li>
           ))}
         </ul>
-        <p className="note">
-          We don&apos;t add anyone by judgment. Senators who aren&apos;t caucus members and weren&apos;t endorsed by
-          these groups are not listed. Governors and state legislators are not covered yet.
-        </p>
+        <p className="note">We don&apos;t add anyone by judgment.</p>
       </section>
 
       <section className="section" aria-labelledby="status-title">
@@ -35,18 +32,12 @@ export default function Method() {
           <li><b>Incumbent</b>: a current caucus member. Their 2026 results are not yet verified.</li>
           <li><b>Lost</b>: another candidate was projected the winner.</li>
         </ul>
-        <p className="note">
-          Each profile shows when its status was last checked. Unresolved races are rechecked daily against NBC
-          News race pages, and every change is reviewed before it goes live.
-        </p>
+        <p className="note">Unresolved races are rechecked daily against NBC News.</p>
       </section>
 
       <section className="section" aria-labelledby="links-title">
         <h2 id="links-title">Campaign links and news</h2>
-        <p>
-          Campaign links are the website each member&apos;s campaign committee filed with the FEC. Headlines come
-          from Google News: recent articles that name the member and Congress. We don&apos;t review them.
-        </p>
+        <p>Campaign links come from FEC filings. Headlines come from Google News.</p>
       </section>
 
       <section className="section" aria-labelledby="coming-title">

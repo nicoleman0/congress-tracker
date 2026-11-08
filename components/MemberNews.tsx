@@ -25,7 +25,7 @@ const day = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", t
 export async function MemberNews({ m }: { m: Member }) {
   const news = await getNews(m);
   if ("error" in news) return <p className="empty">Couldn&apos;t load headlines right now.</p>;
-  if (news.headlines.length === 0) return <p className="empty">No headlines naming them in the past 30 days.</p>;
+  if (news.headlines.length === 0) return <p className="empty">No recent headlines.</p>;
   return (
     <ul className="news-list">
       {news.headlines.map((h) => (

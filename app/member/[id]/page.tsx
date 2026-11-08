@@ -41,7 +41,6 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
             </a>
           </div>
         </div>
-        <p className="meta">{campaign.detail}</p>
       </section>
 
       <div className="page-header">
@@ -58,7 +57,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
         <Suspense fallback={<p className="note">Loading headlines…</p>}>
           <MemberNews m={m} />
         </Suspense>
-        <p className="note">Headlines from Google News that name them, past 30 days. Not reviewed by us.</p>
+        <p className="note">Headlines from Google News.</p>
       </section>
 
       <section className="section" aria-labelledby="why-title">
@@ -82,10 +81,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
 
       <section className="section" aria-labelledby="record-title">
         <h2 id="record-title">Platform and record</h2>
-        <p className="note">
-          Platform positions are coming soon. Once members are seated in January, this section will compare
-          their votes with what they campaigned on.
-        </p>
+        <p className="note">Platform positions coming soon.</p>
       </section>
     </>
   );
