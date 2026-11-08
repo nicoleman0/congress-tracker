@@ -273,7 +273,7 @@
         "OR"
       ],
       "status": "won",
-      "note": "NBC News projects Darializa Avila Chevalier the winner. 87.5% to Jomo Williams's 11.4%, with 89.5% of expected votes in.",
+      "note": "Beat Jomo Williams.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-13-results"
@@ -295,7 +295,7 @@
         "WFP"
       ],
       "status": "won",
-      "note": "NBC News projects Cait Conley the winner. 53% to Mike Lawler's 46.9%, with 95.1% of expected votes in.",
+      "note": "Beat Mike Lawler.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-17-results"
@@ -317,7 +317,7 @@
         "CPC"
       ],
       "status": "won",
-      "note": "NBC News projects Matt Little the winner. 57.1% to Eric Pratt's 42.8%, with 98.9% of expected votes in.",
+      "note": "Beat Eric Pratt.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-us-house-district-2-results"
@@ -338,7 +338,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Aisha Wahab the winner. 57.5% to Melissa Hernandez's 42.5%, with 66.9% of expected votes in.",
+      "note": "Beat Melissa Hernandez.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-14-results"
@@ -358,7 +358,7 @@
         "WFP"
       ],
       "status": "won",
-      "note": "NBC News projects Donavan McKinney the winner. 76.5% to T.P. Nykoriak's 19.9%, with 69.4% of expected votes in.",
+      "note": "Beat T.P. Nykoriak.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-13-results"
@@ -380,7 +380,7 @@
         "JD"
       ],
       "status": "won",
-      "note": "NBC News projects Frederick Haynes III the winner. 82.6% to Everett Jackson's 17.4%, with 99% of expected votes in.",
+      "note": "Beat Everett Jackson.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-30-results"
@@ -399,7 +399,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Analilia Mejia the winner. 60.8% to Joe Hathaway's 38.3%, with 95.7% of expected votes in.",
+      "note": "Beat Joe Hathaway.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-11-results"
@@ -441,7 +441,7 @@
         "WFP"
       ],
       "status": "lost",
-      "note": "NBC News projects Brent Taylor the winner. 48.5% to Brent Taylor's 49.6%, with 99% of expected votes in.",
+      "note": "Lost to Brent Taylor.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/tennessee-us-house-district-9-results"
@@ -464,7 +464,7 @@
         "WFP"
       ],
       "status": "pending",
-      "note": "Trailing, no projection yet. 44.3% to Doris Matsui's 55.7%, with 67% of expected votes in.",
+      "note": "Trails Doris Matsui, 44.3% to 55.7%, with 67% of the vote counted.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-7-results"
@@ -487,7 +487,7 @@
         "WFP"
       ],
       "status": "won",
-      "note": "NBC News projects Angela Gonzales-Torres the winner. 61.9% to Jimmy Gomez's 38.1%, with 92.3% of expected votes in.",
+      "note": "Beat Jimmy Gomez.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-34-results"
@@ -509,7 +509,7 @@
         "CPC"
       ],
       "status": "lost",
-      "note": "NBC News projects John McGuire III the winner. 48% to John McGuire III's 50.2%, with 98.1% of expected votes in.",
+      "note": "Lost to John McGuire III.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-5-results"
@@ -531,7 +531,7 @@
         "OR"
       ],
       "status": "won",
-      "note": "NBC News projects Sam Forstag the winner. 50.3% to Aaron Flint's 46.8%, with 97.7% of expected votes in.",
+      "note": "Beat Aaron Flint.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/montana-us-house-district-1-results"
@@ -663,7 +663,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Yassamin Ansari the winner. 87.6% to Alan Aversa's 6.1%, with 99% of expected votes in.",
+      "note": "Beat Alan Aversa.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/arizona-us-house-district-3-results"
@@ -685,7 +685,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Adelita Grijalva the winner. 72% to Daniel Butierez Sr.'s 28%, with 95.6% of expected votes in.",
+      "note": "Beat Daniel Butierez Sr..",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/arizona-us-house-district-7-results"
@@ -707,7 +707,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Jared Huffman the winner. 65% to Robin Littau's 35%, with 56.4% of expected votes in.",
+      "note": "Beat Robin Littau.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-2-results"
@@ -725,7 +725,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects John Garamendi the winner. 72.7% to Rudy Recile's 27.3%, with 86.4% of expected votes in.",
+      "note": "Beat Rudy Recile.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-8-results"
@@ -747,7 +747,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Mark DeSaulnier the winner. 69.7% to Jeff Frese's 30.3%, with 79.1% of expected votes in.",
+      "note": "Beat Jeff Frese.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-10-results"
@@ -769,7 +769,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Lateefah Simon the winner. 80.6% to Jamie Joyce's 19.4%, with 73.7% of expected votes in.",
+      "note": "Beat Jamie Joyce.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-12-results"
@@ -791,7 +791,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Kevin Mullin the winner. 78.5% to Charles Hoelter's 21.5%, with 66.9% of expected votes in.",
+      "note": "Beat Charles Hoelter.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-15-results"
@@ -813,7 +813,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Ro Khanna the winner. 71.4% to Ritesh Tandon's 28.6%, with 65% of expected votes in.",
+      "note": "Beat Ritesh Tandon.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-17-results"
@@ -835,7 +835,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Jimmy Panetta the winner. 72.7% to Peter Verbica's 27.3%, with 70.3% of expected votes in.",
+      "note": "Beat Peter Verbica.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-19-results"
@@ -857,7 +857,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Judy Chu the winner. 69.6% to April Verlato's 30.4%, with 91% of expected votes in.",
+      "note": "Beat April Verlato.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-28-results"
@@ -875,7 +875,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Luz Rivas the winner. 57.6% to Angélica Dueñas's 42.4%, with 92.6% of expected votes in.",
+      "note": "Beat Angélica Dueñas.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-29-results"
@@ -897,7 +897,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Laura Friedman the winner. 77.4% to Scott Meyers's 22.6%, with 91% of expected votes in.",
+      "note": "Beat Scott Meyers.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-30-results"
@@ -919,7 +919,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Brad Sherman the winner. 67.7% to Larry Thompson's 32.3%, with 85% of expected votes in.",
+      "note": "Beat Larry Thompson.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-32-results"
@@ -941,7 +941,7 @@
         "CAUCUS"
       ],
       "status": "lost",
-      "note": "NBC News projects Angela Gonzales-Torres the winner. 38.1% to Angela Gonzales-Torres's 61.9%, with 92.3% of expected votes in.",
+      "note": "Lost to Angela Gonzales-Torres.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-34-results"
@@ -963,7 +963,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Ted Lieu the winner. 72.6% to Houston Brignano's 27.4%, with 91.5% of expected votes in.",
+      "note": "Beat Houston Brignano.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-36-results"
@@ -985,7 +985,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Sydney Kamlager-Dove the winner. 61.1% to Samantha Mota's 38.9%, with 90.8% of expected votes in.",
+      "note": "Beat Samantha Mota.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-37-results"
@@ -1007,7 +1007,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Mark Takano the winner. 66.7% to Steve Manos's 33.3%, with 58.7% of expected votes in.",
+      "note": "Beat Steve Manos.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-39-results"
@@ -1029,7 +1029,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Robert Garcia the winner. 61.8% to Brian Burley's 38.2%, with 88.1% of expected votes in.",
+      "note": "Beat Brian Burley.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-42-results"
@@ -1051,7 +1051,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Maxine Waters the winner. 82.7% to Cristian Morales's 17.3%, with 92.4% of expected votes in.",
+      "note": "Beat Cristian Morales.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-43-results"
@@ -1073,7 +1073,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Nanette Barragán the winner. 81.5% to Genevieve Angel's 18.5%, with 92.3% of expected votes in.",
+      "note": "Beat Genevieve Angel.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-44-results"
@@ -1091,7 +1091,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Dave Min the winner. 57.8% to Jenny Rae Le Roux's 42.2%, with 82.7% of expected votes in.",
+      "note": "Beat Jenny Rae Le Roux.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-47-results"
@@ -1113,7 +1113,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Mike Levin the winner. 57.7% to Armen Kurdian's 42.3%, with 70.1% of expected votes in.",
+      "note": "Beat Armen Kurdian.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-49-results"
@@ -1135,7 +1135,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Sara Jacobs the winner. 64% to Ricardo Cabrera's 36%, with 69.2% of expected votes in.",
+      "note": "Beat Ricardo Cabrera.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-51-results"
@@ -1157,7 +1157,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Juan Vargas the winner. 69.7% to Jeff Belle's 30.3%, with 68.9% of expected votes in.",
+      "note": "Beat Jeff Belle.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-52-results"
@@ -1175,7 +1175,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Joe Neguse the winner. 74.5% to Kelley Dennison's 23.6%, with 96.6% of expected votes in.",
+      "note": "Beat Kelley Dennison.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/colorado-us-house-district-2-results"
@@ -1197,7 +1197,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Rosa DeLauro the winner. 61.4% to Christopher Lancia's 35.6%, with 98.1% of expected votes in.",
+      "note": "Beat Christopher Lancia.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/connecticut-us-house-district-3-results"
@@ -1219,7 +1219,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Sarah McBride the winner. 64.3% to Joseph Arminio's 35.7%, with 99% of expected votes in.",
+      "note": "Beat Joseph Arminio.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/delaware-us-house-district-1-results"
@@ -1241,7 +1241,7 @@
         "CAUCUS"
       ],
       "status": "leading",
-      "note": "Leading, no projection yet. 50.3% to Dan Green's 49.7%, with 99% of expected votes in.",
+      "note": "Leads Dan Green, 50.3% to 49.7%, with 99% of the vote counted.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-9-results"
@@ -1263,7 +1263,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Maxwell Frost the winner. Unopposed.",
+      "note": "Ran unopposed.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-10-results"
@@ -1285,7 +1285,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Hank Johnson the winner. 82.6% to Jim Duffie's 17.4%, with 99% of expected votes in.",
+      "note": "Beat Jim Duffie.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/georgia-us-house-district-4-results"
@@ -1307,7 +1307,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Nikema Williams the winner. 90.2% to John Salvesen's 9.8%, with 99% of expected votes in.",
+      "note": "Beat John Salvesen.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/georgia-us-house-district-5-results"
@@ -1329,7 +1329,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Jill Tokuda the winner. 66.5% to Brenton Awa's 33.5%, with 99% of expected votes in.",
+      "note": "Beat Brenton Awa.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/hawaii-us-house-district-2-results"
@@ -1351,7 +1351,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Jonathan Jackson the winner. 71.7% to Christian Maxwell's 28.3%, with 93% of expected votes in.",
+      "note": "Beat Christian Maxwell.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/illinois-us-house-district-1-results"
@@ -1369,7 +1369,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Delia Ramirez the winner. 76.6% to Angel Oakley's 23.4%, with 93.8% of expected votes in.",
+      "note": "Beat Angel Oakley.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/illinois-us-house-district-3-results"
@@ -1391,7 +1391,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects André Carson the winner. 77% to Patrick McAuley's 20.4%, with 99% of expected votes in.",
+      "note": "Beat Patrick McAuley.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/indiana-us-house-district-7-results"
@@ -1413,7 +1413,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Morgan McGarvey the winner. 70.3% to Maria Rodriguez's 29.7%, with 99% of expected votes in.",
+      "note": "Beat Maria Rodriguez.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/kentucky-us-house-district-3-results"
@@ -1435,7 +1435,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Troy Carter the winner. 79.9% to Peter Williams's 15.1%, with 99% of expected votes in.",
+      "note": "Beat Peter Williams.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/louisiana-us-house-district-2-results"
@@ -1453,7 +1453,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Chellie Pingree the winner. 65.9% to Ronald Russell's 34.1%, with 92.4% of expected votes in.",
+      "note": "Beat Ronald Russell.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/maine-us-house-district-1-results"
@@ -1475,7 +1475,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Kweisi Mfume the winner. 84.4% to Scott Collier's 15.6%, with 81.8% of expected votes in.",
+      "note": "Beat Scott Collier.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/maryland-us-house-district-7-results"
@@ -1497,7 +1497,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Jamie Raskin the winner. 82.9% to Cheryl Riley's 15.4%, with 77.9% of expected votes in.",
+      "note": "Beat Cheryl Riley.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/maryland-us-house-district-8-results"
@@ -1519,7 +1519,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Jim McGovern the winner. Unopposed.",
+      "note": "Ran unopposed.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-2-results"
@@ -1541,7 +1541,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Lori Trahan the winner. 67.2% to Gary Grossi's 30.3%, with 99% of expected votes in.",
+      "note": "Beat Gary Grossi.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-3-results"
@@ -1563,7 +1563,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Ayanna Pressley the winner. Unopposed.",
+      "note": "Ran unopposed.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/massachusetts-us-house-district-7-results"
@@ -1585,7 +1585,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Debbie Dingell the winner. 67.4% to Heather Smiley's 30.3%, with 99% of expected votes in.",
+      "note": "Beat Heather Smiley.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-6-results"
@@ -1607,7 +1607,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Rashida Tlaib the winner. 76% to James Hooper's 21.2%, with 98.5% of expected votes in.",
+      "note": "Beat James Hooper.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/michigan-us-house-district-12-results"
@@ -1629,7 +1629,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Ilhan Omar the winner. 76.5% to John Nagel's 16.2%, with 99% of expected votes in.",
+      "note": "Beat John Nagel.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/minnesota-us-house-district-5-results"
@@ -1651,7 +1651,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Steven Horsford the winner. 60.4% to Cody Whipple's 37.7%, with 98.6% of expected votes in.",
+      "note": "Beat Cody Whipple.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/nevada-us-house-district-4-results"
@@ -1673,7 +1673,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Donald Norcross the winner. 70.4% to Damon Galdo's 29.6%, with 96.2% of expected votes in.",
+      "note": "Beat Damon Galdo.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-1-results"
@@ -1695,7 +1695,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Frank Pallone the winner. 69.4% to Hillary Herzig's 30.6%, with 96.6% of expected votes in.",
+      "note": "Beat Hillary Herzig.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-6-results"
@@ -1717,7 +1717,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Nellie Pou the winner. 66.7% to Rosie Pino's 31.8%, with 94.6% of expected votes in.",
+      "note": "Beat Rosie Pino.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-9-results"
@@ -1739,7 +1739,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects LaMonica McIver the winner. 84.6% to Carmen Bucco's 15.4%, with 96% of expected votes in.",
+      "note": "Beat Carmen Bucco.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-jersey-us-house-district-10-results"
@@ -1757,7 +1757,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Melanie Stansbury the winner. 63.6% to Ndidiamaka Okpareke's 36.4%, with 98.7% of expected votes in.",
+      "note": "Beat Ndidiamaka Okpareke.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-mexico-us-house-district-1-results"
@@ -1779,7 +1779,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Teresa Leger Fernandez the winner. 61.7% to Martin Zamora's 38.3%, with 98.3% of expected votes in.",
+      "note": "Beat Martin Zamora.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-mexico-us-house-district-3-results"
@@ -1801,7 +1801,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Grace Meng the winner. 68.6% to Joseph Chou's 30.6%, with 88.2% of expected votes in.",
+      "note": "Beat Joseph Chou.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-6-results"
@@ -1823,7 +1823,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Yvette Clarke the winner. 82.1% to Joel Azumah's 17%, with 87.1% of expected votes in.",
+      "note": "Beat Joel Azumah.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-9-results"
@@ -1845,7 +1845,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Alexandria Ocasio-Cortez the winner. 78.2% to Diamant Hysenaj's 21.5%, with 91.5% of expected votes in.",
+      "note": "Beat Diamant Hysenaj.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-14-results"
@@ -1867,7 +1867,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Paul Tonko the winner. 63.6% to Ralph Ambrosio's 36.3%, with 96.4% of expected votes in.",
+      "note": "Beat Ralph Ambrosio.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/new-york-us-house-district-20-results"
@@ -1889,7 +1889,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Valerie Foushee the winner. 79.1% to Max Ganorkar's 18.9%, with 98.9% of expected votes in.",
+      "note": "Beat Max Ganorkar.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/north-carolina-us-house-district-4-results"
@@ -1911,7 +1911,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Alma Adams the winner. 81.2% to Jack Codiga's 18.8%, with 99% of expected votes in.",
+      "note": "Beat Jack Codiga.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/north-carolina-us-house-district-12-results"
@@ -1933,7 +1933,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Shontel Brown the winner. 83.5% to Mike Kirchner's 16.5%, with 97.8% of expected votes in.",
+      "note": "Beat Mike Kirchner.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/ohio-us-house-district-11-results"
@@ -1955,7 +1955,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Suzanne Bonamici the winner. 71% to Barbara Kahl's 28.8%, with 88.4% of expected votes in.",
+      "note": "Beat Barbara Kahl.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-1-results"
@@ -1977,7 +1977,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Maxine Dexter the winner. 77.3% to Loran Ayles's 22.5%, with 91.4% of expected votes in.",
+      "note": "Beat Loran Ayles.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-3-results"
@@ -1999,7 +1999,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Val Hoyle the winner. 53.7% to Monique DeSpain's 42.8%, with 95.1% of expected votes in.",
+      "note": "Beat Monique DeSpain.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-4-results"
@@ -2021,7 +2021,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Andrea Salinas the winner. 58.2% to David Russ's 41.6%, with 75.7% of expected votes in.",
+      "note": "Beat David Russ.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/oregon-us-house-district-6-results"
@@ -2043,7 +2043,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Brendan Boyle the winner. 80.8% to Jessica Arriaga's 19.2%, with 99% of expected votes in.",
+      "note": "Beat Jessica Arriaga.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-2-results"
@@ -2065,7 +2065,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Madeleine Dean the winner. 67.1% to Aurora Stuski's 32.9%, with 99% of expected votes in.",
+      "note": "Beat Aurora Stuski.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-4-results"
@@ -2087,7 +2087,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Mary Gay Scanlon the winner. 72.1% to Nick Manganaro's 27.9%, with 99% of expected votes in.",
+      "note": "Beat Nick Manganaro.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-5-results"
@@ -2109,7 +2109,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Summer Lee the winner. 65.4% to James Hayes's 34.6%, with 99% of expected votes in.",
+      "note": "Beat James Hayes.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-12-results"
@@ -2131,7 +2131,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Chris Deluzio the winner. 62.8% to Tony Guy's 37.2%, with 99% of expected votes in.",
+      "note": "Beat Tony Guy.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/pennsylvania-us-house-district-17-results"
@@ -2153,7 +2153,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Veronica Escobar the winner. 70.8% to Adam Bauman's 29.2%, with 99% of expected votes in.",
+      "note": "Beat Adam Bauman.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-16-results"
@@ -2175,7 +2175,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Christian Menefee the winner. 86% to Ronald Whitfield's 14%, with 97.7% of expected votes in.",
+      "note": "Beat Ronald Whitfield.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-18-results"
@@ -2197,7 +2197,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Joaquin Castro the winner. 77.6% to Edgardo Baez's 22.4%, with 99% of expected votes in.",
+      "note": "Beat Edgardo Baez.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-20-results"
@@ -2219,7 +2219,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Greg Casar the winner. 83.8% to Lauren Peña's 16.2%. Ran in the 37th District after Texas redrew its map.",
+      "note": "Beat Lauren Peña. Ran in the 37th District after Texas redrew its map.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/texas-us-house-district-37-results"
@@ -2241,7 +2241,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Becca Balint the winner. 65.2% to Gerald Malloy's 30.9%, with 99% of expected votes in.",
+      "note": "Beat Gerald Malloy.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/vermont-us-house-district-1-results"
@@ -2263,7 +2263,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Jennifer McClellan the winner. 72.2% to Robert Murray Jr.'s 26.2%, with 97.9% of expected votes in.",
+      "note": "Beat Robert Murray Jr..",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-4-results"
@@ -2285,7 +2285,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Don Beyer the winner. 79.4% to Tony Sabio's 17.9%, with 96% of expected votes in.",
+      "note": "Beat Tony Sabio.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/virginia-us-house-district-8-results"
@@ -2307,7 +2307,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Emily Randall the winner. 63.6% to Teresa Fox's 36.2%, with 86% of expected votes in.",
+      "note": "Beat Teresa Fox.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-6-results"
@@ -2329,7 +2329,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Pramila Jayapal the winner. 87.4% to Nirav Sheth's 12.2%, with 83% of expected votes in.",
+      "note": "Beat Nirav Sheth.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-7-results"
@@ -2351,7 +2351,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Adam Smith the winner. 75.2% to Doug Basler's 24.1%, with 83% of expected votes in.",
+      "note": "Beat Doug Basler.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/washington-us-house-district-9-results"
@@ -2373,7 +2373,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Mark Pocan the winner. Unopposed.",
+      "note": "Ran unopposed.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/wisconsin-us-house-district-2-results"
@@ -2395,7 +2395,7 @@
         "CAUCUS"
       ],
       "status": "won",
-      "note": "NBC News projects Gwen Moore the winner. 80% to Tim Rogers's 17.5%, with 99% of expected votes in.",
+      "note": "Beat Tim Rogers.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/wisconsin-us-house-district-4-results"
