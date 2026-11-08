@@ -70,6 +70,14 @@ export function shapeProblems(r: Research, today = new Date().toISOString().slic
   return p;
 }
 
+// Sources whose text only loads in a browser or in bulk files are checked against the saved copy.
+export function savedCopy(url: string): string | null {
+  const read = (path: string) => fs.existsSync(path) ? fs.readFileSync(path, "utf8") : null;
+  if (url === "https://workingfamilies.org/candidates/") return read("research_notes/national/wfp-2026-candidates.tsv");
+  const os = url.match(/^https:\/\/data\.openstates\.org\/people\/current\/([a-z]{2})\.csv$/);
+  return os ? read(`research_notes/openstates/${os[1].toUpperCase()}.csv`) : null;
+}
+
 async function main() {
   const files = process.argv.slice(2);
   if (!files.length) throw new Error("usage: verify-roster FILE...");
@@ -83,7 +91,7 @@ async function main() {
       { who: e.person, kind: "service", c: e.current?.service_source ?? null },
     ]).filter((x): x is { who: string; kind: string; c: Cite } => !!x.c);
     const pages = new Map<string, string | null>();
-    for (const url of new Set(cites.filter((x) => x.c.excerpt).map((x) => x.c.url))) pages.set(url, await fetchPage(url));
+    for (const url of new Set(cites.filter((x) => x.c.excerpt).map((x) => x.c.url))) pages.set(url, savedCopy(url) ?? await fetchPage(url));
     const results = cites.map((x) => ({ ...x, result: x.c.excerpt ? judge(pages.get(x.c.url) ?? null, x.c.excerpt) : "no excerpt" }));
     const count = (r: string) => results.filter((x) => x.result === r).length;
     console.log(`\n${file}: ${r.endorsements.length} endorsements, ${cites.length} citations`);
