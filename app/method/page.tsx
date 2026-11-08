@@ -1,4 +1,5 @@
 import { groupList } from "@/lib/data";
+import { statePublicationVersion, statePublicationReviewedAt } from "@/lib/state-offices";
 
 export const metadata = { title: "How we pick" };
 
@@ -22,6 +23,13 @@ export default function Method() {
         </ul>
         <p className="note">We don&apos;t add anyone by judgment.</p>
       </section>
+
+      {statePublicationVersion && <section className="section" aria-labelledby="state-title">
+        <h2 id="state-title">Governors and state legislators</h2>
+        <p>We list serving officials and confirmed incoming winners endorsed by Working Families Party, Our Revolution, Democratic Socialists of America, Run for Something, Progressive Change Campaign Committee or Sunrise Movement, including their verified official chapters. An endorsement must be from the election that won the term, including its primary. Withdrawn endorsements do not qualify. Appointments without a qualifying endorsement for the current term are excluded.</p>
+        <p>We show unresolved state races separately and recheck their result sources within three days. Each profile names the issuer and links to its endorsement, service and election sources.</p>
+        <p>Coverage was reviewed against the listed sources on {statePublicationReviewedAt?.slice(0, 10)}. This is not a list of every progressive officeholder.</p>
+      </section>}
 
       <section className="section" aria-labelledby="status-title">
         <h2 id="status-title">Race status</h2>
@@ -60,7 +68,7 @@ export default function Method() {
           <li>Address lookup, once the 2026 district maps are in public data.</li>
           <li>The full House roster from official data after January 3, 2027.</li>
           <li>Votes compared with campaign platforms.</li>
-          <li>Governors and state legislators.</li>
+          {!statePublicationVersion && <li>Governors and state legislators.</li>}
         </ul>
       </section>
     </>

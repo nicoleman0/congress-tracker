@@ -2,6 +2,7 @@
 // Campaign stances and record stances for other bills are left alone. Withdrawn cosponsors are skipped.
 // Usage: DATA_GOV_API_KEY=... tsx scripts/record.ts   (free key at https://api.data.gov/signup/)
 import fs from "node:fs";
+import { assertFederalOffices } from "./federal-offices";
 import type { Member, Stance } from "@/lib/data";
 import { checkedNow } from "@/lib/freshness";
 import { bare } from "@/lib/names";
@@ -65,7 +66,9 @@ async function sponsorsOf(b: Bill) {
 
 async function main() {
   if (!process.env.DATA_GOV_API_KEY) throw new Error("set DATA_GOV_API_KEY (free at https://api.data.gov/signup/)");
-  const members = (JSON.parse(fs.readFileSync(MEMBERS, "utf8")) as { members: Member[] }).members.filter((m) => m.incumbent);
+  const members = (JSON.parse(fs.readFileSync(MEMBERS, "utf8")) as { members: Member[] }).members;
+  assertFederalOffices(members);
+  const incumbents = members.filter((m) => m.incumbent);
   const platform = JSON.parse(fs.readFileSync(PLATFORM, "utf8")) as { stances: Record<string, Stance[]> };
   const now = checkedNow();
   const ours = new Set(BILLS.map(billUrl));
@@ -77,7 +80,7 @@ async function main() {
   for (const b of BILLS) {
     const { sponsors, cosponsors } = await sponsorsOf(b);
     let n = 0;
-    for (const m of members) {
+    for (const m of incumbents) {
       const role = sponsors.some((s) => matches(m, s)) ? "Sponsored" : cosponsors.some((s) => matches(m, s)) ? "Cosponsored" : null;
       if (!role) continue;
       (platform.stances[m.id] ??= []).push(stanceFor(b, role, now));

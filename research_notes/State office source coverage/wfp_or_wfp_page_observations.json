@@ -1,0 +1,593 @@
+[
+  {
+    "state": "Arizona",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 6,
+    "load_more_status": "ok",
+    "state_id": "39",
+    "in_scope_office_label_rows": 13,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Junelle Cavero",
+        "Arizona State House, District 11"
+      ]
+    ]
+  },
+  {
+    "state": "Arkansas",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 1,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  },
+  {
+    "state": "California",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 211,
+    "load_more_status": "ok",
+    "state_id": "40",
+    "in_scope_office_label_rows": 20,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Chris Rogers",
+        "State Assembly, District 2"
+      ]
+    ]
+  },
+  {
+    "state": "Colorado",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 46,
+    "load_more_status": "ok",
+    "state_id": "9",
+    "in_scope_office_label_rows": 26,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Jamie Jeffery",
+        "Colorado State Senate, District 1"
+      ]
+    ]
+  },
+  {
+    "state": "Connecticut",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 72,
+    "load_more_status": "ok",
+    "state_id": "10",
+    "in_scope_office_label_rows": 76,
+    "offices": [
+      "governor",
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Ned Lamont",
+        "Governor"
+      ]
+    ]
+  },
+  {
+    "state": "Delaware",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 3,
+    "load_more_status": "ok",
+    "state_id": "41",
+    "in_scope_office_label_rows": 12,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Michelle Booker",
+        "State Representative, District 2"
+      ]
+    ]
+  },
+  {
+    "state": "District of Columbia",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 8,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  },
+  {
+    "state": "Florida",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 1,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  },
+  {
+    "state": "Georgia",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 21,
+    "load_more_status": "ok",
+    "state_id": "12",
+    "in_scope_office_label_rows": 24,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Gabriel Sanchez",
+        "Georgia State House, District 42"
+      ]
+    ]
+  },
+  {
+    "state": "Kentucky",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 1,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  },
+  {
+    "state": "Louisiana",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 1,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  },
+  {
+    "state": "Maine",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 2,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  },
+  {
+    "state": "Maryland",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 9,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 1,
+    "offices": [
+      "state_lower"
+    ],
+    "sample": [
+      [
+        "Chuck Cook",
+        "Maryland House of Delegates, District 33B"
+      ]
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 3,
+    "load_more_status": "ok",
+    "state_id": "44",
+    "in_scope_office_label_rows": 13,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Lorena Betts",
+        "Massachusetts State House, 16th Middlesex District"
+      ]
+    ]
+  },
+  {
+    "state": "Michigan",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 9,
+    "load_more_status": "ok",
+    "state_id": "45",
+    "in_scope_office_label_rows": 9,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Tonya Meyers Phillips",
+        "Michigan House of Representatives, District 7"
+      ]
+    ]
+  },
+  {
+    "state": "Minnesota",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 2,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  },
+  {
+    "state": "Nebraska",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 3,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  },
+  {
+    "state": "New Jersey",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 8,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  },
+  {
+    "state": "New Mexico",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 28,
+    "load_more_status": "ok",
+    "state_id": "17",
+    "in_scope_office_label_rows": 28,
+    "offices": [
+      "governor",
+      "state_lower"
+    ],
+    "sample": [
+      [
+        "Deb Haaland",
+        "Governor"
+      ]
+    ]
+  },
+  {
+    "state": "New York",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 386,
+    "load_more_status": "ok",
+    "state_id": "18",
+    "in_scope_office_label_rows": 122,
+    "offices": [
+      "governor",
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Kathy Hochul",
+        "Governor"
+      ]
+    ]
+  },
+  {
+    "state": "North Carolina",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 9,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 4,
+    "offices": [
+      "state_lower"
+    ],
+    "sample": [
+      [
+        "Marcia Morey",
+        "State House, District 30"
+      ]
+    ]
+  },
+  {
+    "state": "Ohio",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 13,
+    "load_more_status": "ok",
+    "state_id": "19",
+    "in_scope_office_label_rows": 17,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Charity Martin King",
+        "Ohio House of Representatives, District 2"
+      ]
+    ]
+  },
+  {
+    "state": "Oregon",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 65,
+    "load_more_status": "ok",
+    "state_id": "20",
+    "in_scope_office_label_rows": 32,
+    "offices": [
+      "governor",
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Tina Kotek",
+        "Governor"
+      ]
+    ]
+  },
+  {
+    "state": "Pennsylvania",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 33,
+    "load_more_status": "ok",
+    "state_id": "21",
+    "in_scope_office_label_rows": 39,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Aerion Abney",
+        "State House, District 19"
+      ]
+    ]
+  },
+  {
+    "state": "Rhode Island",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 5,
+    "load_more_status": "ok",
+    "state_id": "22",
+    "in_scope_office_label_rows": 6,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Amy Santiago",
+        "Rhode Island State House, District 7"
+      ]
+    ]
+  },
+  {
+    "state": "South Carolina",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 5,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 4,
+    "offices": [
+      "state_lower"
+    ],
+    "sample": [
+      [
+        "Jumelle Brooks",
+        "South Carolina State House, District 12"
+      ]
+    ]
+  },
+  {
+    "state": "Tennessee",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 5,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 4,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Aftyn Behn",
+        "State House, District 51"
+      ]
+    ]
+  },
+  {
+    "state": "Texas",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 3,
+    "load_more_status": "ok",
+    "state_id": "24",
+    "in_scope_office_label_rows": 2,
+    "offices": [
+      "state_lower"
+    ],
+    "sample": [
+      [
+        "Montserrat Garibay",
+        "Texas House, District 49"
+      ]
+    ]
+  },
+  {
+    "state": "Utah",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 6,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 4,
+    "offices": [
+      "state_lower"
+    ],
+    "sample": [
+      [
+        "Stephen Otterstrom",
+        "State House, District 21"
+      ]
+    ]
+  },
+  {
+    "state": "Washington",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 7,
+    "load_more_status": "ok",
+    "state_id": "25",
+    "in_scope_office_label_rows": 12,
+    "offices": [
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "Kelabe Tewolde",
+        "State House, District 37, Position 1"
+      ]
+    ]
+  },
+  {
+    "state": "Wisconsin",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 10,
+    "additional_rows": 16,
+    "load_more_status": "ok",
+    "state_id": "27",
+    "in_scope_office_label_rows": 25,
+    "offices": [
+      "governor",
+      "state_lower",
+      "state_upper"
+    ],
+    "sample": [
+      [
+        "David Crowley",
+        "Governor"
+      ]
+    ]
+  },
+  {
+    "state": "Wyoming",
+    "source_url": "https://workingfamilies.org/candidates/",
+    "checkedAt": "2026-11-08",
+    "page_year": 2026,
+    "initial_rows": 1,
+    "additional_rows": 0,
+    "load_more_status": "not_required",
+    "state_id": null,
+    "in_scope_office_label_rows": 0,
+    "offices": [],
+    "sample": []
+  }
+]

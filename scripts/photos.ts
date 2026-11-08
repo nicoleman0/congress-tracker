@@ -2,6 +2,7 @@
 // Members not yet sworn in have none and are reported. Writes public/photos/<id>.jpg and data/photos.json.
 // Usage: DATA_GOV_API_KEY=... tsx scripts/photos.ts
 import fs from "node:fs";
+import { assertFederalOffices } from "./federal-offices";
 import sharp from "sharp";
 import type { Member, Photo } from "@/lib/data";
 import { STATES } from "@/lib/states";
@@ -54,6 +55,7 @@ async function image(url: string) {
 async function main() {
   if (!process.env.DATA_GOV_API_KEY) throw new Error("set DATA_GOV_API_KEY (free at https://api.data.gov/signup/)");
   const members = (JSON.parse(fs.readFileSync(MEMBERS, "utf8")) as { members: Member[] }).members;
+  assertFederalOffices(members);
   const list: ApiMember[] = [];
   for (let offset = 0; ; offset += 250) {
     const page = await api(`/member/congress/${CONGRESS}`, { currentMember: "true", limit: "250", offset: String(offset) });

@@ -7,6 +7,7 @@ import { checkedNow } from "@/lib/freshness";
 import { bare } from "@/lib/names";
 import { USER_AGENT } from "@/lib/site";
 import { STATES } from "@/lib/states";
+import { assertFederalOffices } from "./federal-offices";
 
 const DATA = "data/members.json";
 const NBC = "https://www.nbcnews.com/politics/2026-elections";
@@ -62,6 +63,7 @@ export function decide(m: Member, races: Race[]): Decision {
 async function main() {
   const reportPath = process.argv[2];
   const data = JSON.parse(fs.readFileSync(DATA, "utf8")) as { members: Member[] };
+  assertFederalOffices(data.members);
   const now = checkedNow();
   const changes: string[] = [];
   const problems: string[] = [];

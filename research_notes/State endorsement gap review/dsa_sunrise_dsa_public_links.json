@@ -1,0 +1,5450 @@
+{
+  "source_url": "https://airtable.com/embed/appVbWrpnpZXvsVJH/shrorpPIHVt83eIq0?backgroundColor=gray&viewControls=on",
+  "checked_at": "2026-11-08",
+  "records": [
+    {
+      "row": 0,
+      "state": "AL",
+      "chapter": "Birmingham",
+      "type": "Chapter",
+      "website": "https://bhamdsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/BhamDSA/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/bhamdsa"
+        }
+      ]
+    },
+    {
+      "row": 1,
+      "state": "AL",
+      "chapter": "Mobile Bay",
+      "type": "Chapter",
+      "website": "https://mobilebaydsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/mobilebaydsa"
+        },
+        {
+          "column": 6,
+          "url": "http://www.facebook.com/mobiledsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/mobiledsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/mobilebaydsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/mobiledsa"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "state": "AL",
+      "chapter": "North Alabama",
+      "type": "Chapter",
+      "website": "https://www.northal-dsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NorthAlabamaDSA/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsanorthalabama.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsanorthal"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "state": "AL",
+      "chapter": "River Region",
+      "type": "Chapter",
+      "website": "https://www.theriverregiondsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/riverregiondsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/riverregiondsa/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/riverregiondsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/riverregiondsa/"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "state": "AL",
+      "chapter": "The Shoals",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/shoalsdsa"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "state": "AR",
+      "chapter": "Arkansas Valley",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/fortsmithdsa"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "state": "AR",
+      "chapter": "Central Arkansas",
+      "type": "Chapter",
+      "website": "https://centralarkansasdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/CentralArkansasDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/CentralArkDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/central_ar_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "state": "AR",
+      "chapter": "Northwest Arkansas",
+      "type": "Chapter",
+      "website": "https://dsanwa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsaofnwa/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsanwa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/nwadsa/"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "state": "AZ",
+      "chapter": "Flagstaff",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 9,
+      "state": "AZ",
+      "chapter": "Phoenix",
+      "type": "Chapter",
+      "website": "http://phxdsa.org/",
+      "public_links": [
+        {
+          "column": 7,
+          "url": "https://x.com/phxdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/phoenix_dsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://redallover.substack.com/"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "state": "AZ",
+      "chapter": "Pinal County",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://actionnetwork.org/forms/pinal-county-dsa-chapter-interest-form?source=direct_link&"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/pinalcountydsa"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "state": "AZ",
+      "chapter": "Tucson",
+      "type": "Chapter",
+      "website": "https://www.tucsondsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/TucsonDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/tucson-dsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/tucson_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "state": "CA",
+      "chapter": "Central Coast California",
+      "type": "Chapter",
+      "website": "https://www.centralcoastdsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/cc.dsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/centralcoastdsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/centralcoastdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/centralcoastdsa"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "state": "CA",
+      "chapter": "Central Sierra Foothills",
+      "type": "Chapter",
+      "website": "https://www.csf-dsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/foothillsdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/csfdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/csf_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "state": "CA",
+      "chapter": "Central Valley",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 15,
+      "state": "CA",
+      "chapter": "East Bay",
+      "type": "Chapter",
+      "website": "https://eastbaydsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/eastbaydsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/eastbaydsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/dsaeastbay"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsaeastbay.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/eastbaydsa"
+        },
+        {
+          "column": 10,
+          "url": "https://bayareacurrent.com/"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "state": "CA",
+      "chapter": "Humboldt",
+      "type": "Chapter",
+      "website": "https://humboldtdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/humboldtcaDSA/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsahumboldt/"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "state": "CA",
+      "chapter": "Inland Empire",
+      "type": "Chapter",
+      "website": "https://iedsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/inlandempiredsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/InlandEmpireDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/inlandempiredsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/inlandempiredsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://iedsa.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "state": "CA",
+      "chapter": "Kern County CA",
+      "type": "Chapter",
+      "website": "https://dsakern.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsakerncounty"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsakerncounty/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/dsakerncounty"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsakerncounty.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsakerncounty"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "state": "CA",
+      "chapter": "Long Beach",
+      "type": "Chapter",
+      "website": "https://dsalb.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsalongbeach"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSALongBeach"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsa-lb.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa_lb/"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "state": "CA",
+      "chapter": "Los Angeles",
+      "type": "Chapter",
+      "website": "http://www.dsa-la.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsa.la"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSALosAngeles/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/dsa_losangeles"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsa.la"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa_la/"
+        },
+        {
+          "column": 10,
+          "url": "https://dsa-la.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "state": "CA",
+      "chapter": "Marin",
+      "type": "Chapter",
+      "website": "https://marin.dsausa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/marindsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/MarinDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/dsa_marin"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/marin-dsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/marin_dsa"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "state": "CA",
+      "chapter": "North Central Valley",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/NCVDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/ncvdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/northcentralvalleydsa"
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "state": "CA",
+      "chapter": "Orange County",
+      "type": "Chapter",
+      "website": "https://www.ocdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsaorangecounty"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/dsaorangecounty"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/ocdsa"
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "state": "CA",
+      "chapter": "Peninsula California",
+      "type": "Chapter",
+      "website": "https://peninsuladsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/peninsulaDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSA_Peninsula"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/peninsuladsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/peninsuladsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://peninsuladsa.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "state": "CA",
+      "chapter": "Sacramento",
+      "type": "Chapter",
+      "website": "http://www.sacdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSA.Sacramento"
+        },
+        {
+          "column": 7,
+          "url": "http://www.twitter.com/DSASac"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsasac/?hl=en"
+        },
+        {
+          "column": 10,
+          "url": "https://www.sacdsa.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "state": "CA",
+      "chapter": "San Diego",
+      "type": "Chapter",
+      "website": "https://dsasandiego.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsasandiego"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/sandiegodsa/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsasandiego.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa.san.diego/"
+        }
+      ]
+    },
+    {
+      "row": 27,
+      "state": "CA",
+      "chapter": "San Francisco",
+      "type": "Chapter",
+      "website": "https://dsasf.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://lnk.bio/dsasf/"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsasanfrancisco"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/DSA_SF"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsasf.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa_sf/"
+        }
+      ]
+    },
+    {
+      "row": 28,
+      "state": "CA",
+      "chapter": "San Luis Obispo",
+      "type": "Chapter",
+      "website": "http://www.dsaslo.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/slocialism/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/dsa_slo"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa_slo"
+        }
+      ]
+    },
+    {
+      "row": 29,
+      "state": "CA",
+      "chapter": "Santa Barbara",
+      "type": "Chapter",
+      "website": "https://dsasb.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/sbdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsasantabarbara.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsasantabarbara"
+        }
+      ]
+    },
+    {
+      "row": 30,
+      "state": "CA",
+      "chapter": "Santa Cruz",
+      "type": "Chapter",
+      "website": "http://www.dsasantacruz.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSASantaCruz/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSASantaCruz"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsasantacruz/"
+        },
+        {
+          "column": 10,
+          "url": "https://dsasantacruz.org/articles/"
+        }
+      ]
+    },
+    {
+      "row": 31,
+      "state": "CA",
+      "chapter": "Shasta County",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/ShastaDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/ShastaDSA"
+        }
+      ]
+    },
+    {
+      "row": 32,
+      "state": "CA",
+      "chapter": "Silicon Valley",
+      "type": "Chapter",
+      "website": "https://siliconvalleydsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/silicon_valley_dsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/svdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/SV_DSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/siliconvalleydsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/silicon_valley_dsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://siliconvalleydsa.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 33,
+      "state": "CA",
+      "chapter": "Sonoma County",
+      "type": "Chapter",
+      "website": "https://www.socodsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/socodsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/socodsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsasonomacounty/"
+        },
+        {
+          "column": 10,
+          "url": "https://www.socodsa.org/"
+        }
+      ]
+    },
+    {
+      "row": 34,
+      "state": "CA",
+      "chapter": "Ventura County",
+      "type": "Chapter",
+      "website": "https://dsaventuracounty.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSAVenturaCounty/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsa-vc.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsaventuracounty/"
+        }
+      ]
+    },
+    {
+      "row": 35,
+      "state": "CA",
+      "chapter": "Yolo County",
+      "type": "Chapter",
+      "website": "https://yolodsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/YoloDSA"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/people/Yolo-County-Democratic-Socialists-of-America/61583149031578/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/yolodsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/yolodsa"
+        }
+      ]
+    },
+    {
+      "row": 36,
+      "state": "CO",
+      "chapter": "Boulder",
+      "type": "Chapter",
+      "website": "http://www.boulderdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/boulderdsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/BoulderDSA"
+        }
+      ]
+    },
+    {
+      "row": 37,
+      "state": "CO",
+      "chapter": "Colorado Springs",
+      "type": "Chapter",
+      "website": "https://www.cosdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/Cospringsdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/SpringsDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/cospringsdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/cospringsdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/cospringsdsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://substack.com/@thefairsharecos"
+        }
+      ]
+    },
+    {
+      "row": 38,
+      "state": "CO",
+      "chapter": "Denver",
+      "type": "Chapter",
+      "website": "https://denverdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/denverdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/denverdemsocialists"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSAdenver"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/denverdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsadenver/"
+        }
+      ]
+    },
+    {
+      "row": 39,
+      "state": "CO",
+      "chapter": "Mesa County",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/western_colorado_dsa"
+        }
+      ]
+    },
+    {
+      "row": 40,
+      "state": "CO",
+      "chapter": "Northern Colorado",
+      "type": "Chapter",
+      "website": "https://nocodsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsafc"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/nocodsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/nocodsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/nocodsa/"
+        }
+      ]
+    },
+    {
+      "row": 41,
+      "state": "CT",
+      "chapter": "Connecticut",
+      "type": "Chapter",
+      "website": "https://ctdsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/ctdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/ConnecticutDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/connecticutdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/ctdsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/ct.dsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://ctdsa.org/garnet-oak-magazine/"
+        }
+      ]
+    },
+    {
+      "row": 42,
+      "state": "DC, VA, MD",
+      "chapter": "Metro DC",
+      "type": "Chapter",
+      "website": "https://mdcdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/MetroDCDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/mdc_dsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/mdc_dsa/"
+        },
+        {
+          "column": 10,
+          "url": "http://washingtonsocialist.mdcdsa.org"
+        }
+      ]
+    },
+    {
+      "row": 43,
+      "state": "DE",
+      "chapter": "Delaware",
+      "type": "Chapter",
+      "website": "https://dedsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/delawaredsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DelawareDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/delawaredsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/delawaredsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://instagram.com/delawaredsa"
+        }
+      ]
+    },
+    {
+      "row": 44,
+      "state": "FL",
+      "chapter": "Alachua County",
+      "type": "Chapter",
+      "website": "http://alachuadsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/alachuadsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/groups/1211207800424465"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/alachuadsa/"
+        }
+      ]
+    },
+    {
+      "row": 45,
+      "state": "FL",
+      "chapter": "Broward County",
+      "type": "Chapter",
+      "website": "https://browardcountydsa.org/",
+      "public_links": [
+        {
+          "column": 7,
+          "url": "https://x.com/browarddsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/browarddsa"
+        }
+      ]
+    },
+    {
+      "row": 46,
+      "state": "FL",
+      "chapter": "Emerald Coast",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 47,
+      "state": "FL",
+      "chapter": "Jacksonville",
+      "type": "Chapter",
+      "website": "https://linktr.ee/jaxdsa",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/jaxdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/jax_dsa"
+        },
+        {
+          "column": 10,
+          "url": "https://discord.gg/mTDWnR3RVz"
+        }
+      ]
+    },
+    {
+      "row": 48,
+      "state": "FL",
+      "chapter": "Key West",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 49,
+      "state": "FL",
+      "chapter": "Leon County",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 50,
+      "state": "FL",
+      "chapter": "Marion County",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/marioncountydsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/marioncountydsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/marioncountydsa"
+        },
+        {
+          "column": 10,
+          "url": "https://discord.gg/Ej6kPPcqsX"
+        }
+      ]
+    },
+    {
+      "row": 51,
+      "state": "FL",
+      "chapter": "Miami",
+      "type": "Chapter",
+      "website": "http://miamidsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/MiamiDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/MiamiDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/miamidsa/"
+        }
+      ]
+    },
+    {
+      "row": 52,
+      "state": "FL",
+      "chapter": "Orlando",
+      "type": "Chapter",
+      "website": "https://orlando.chapters.dsausa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/OrlandoDSA"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/OrlandoDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/Orlando_DSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsaoforlando.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/orlando_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 53,
+      "state": "FL",
+      "chapter": "Palm Beach & Treasure Coast",
+      "type": "Chapter",
+      "website": "https://palmbeachdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/palmbeachdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/palmbeachdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/PalmBeachDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/pbdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/palmbeachdsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://palmbeachdsa.org/newsletter-updates/"
+        }
+      ]
+    },
+    {
+      "row": 54,
+      "state": "FL",
+      "chapter": "Pasco-Hernando",
+      "type": "Chapter",
+      "website": "https://pascohernando.dsachapters.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/PascoHernandoDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/pasco_hernando"
+        }
+      ]
+    },
+    {
+      "row": 55,
+      "state": "FL",
+      "chapter": "Pensacola",
+      "type": "Chapter",
+      "website": "https://www.pensacoladsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/PensacolaDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/Pensacola_DSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/pensacoladsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/pensacoladsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://www.pensacoladsa.org/blog"
+        }
+      ]
+    },
+    {
+      "row": 56,
+      "state": "FL",
+      "chapter": "Pinellas County",
+      "type": "Chapter",
+      "website": "https://www.pinellasdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/pinellasdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/pinellasdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/pinellasdsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://dsa-pinellas.medium.com/"
+        }
+      ]
+    },
+    {
+      "row": 57,
+      "state": "FL",
+      "chapter": "Polk County",
+      "type": "Chapter",
+      "website": "https://linktr.ee/PolkDSA",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/Democratic-Socialists-of-America-Polk-County-Florida-Chapter-104241527973340"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/PolkDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/polk.dsa/"
+        }
+      ]
+    },
+    {
+      "row": 58,
+      "state": "FL",
+      "chapter": "Space Coast",
+      "type": "Chapter",
+      "website": "http://socialists.space/",
+      "public_links": [
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/spacecoastdsa/"
+        }
+      ]
+    },
+    {
+      "row": 59,
+      "state": "FL",
+      "chapter": "Tampa",
+      "type": "Chapter",
+      "website": "https://www.tampadsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/tampadsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://www.twitter.com/tampadsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/tampadsa/"
+        }
+      ]
+    },
+    {
+      "row": 60,
+      "state": "FL",
+      "chapter": "Volusia",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://solo.to/volusiadsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/p/Volusia-County-DSA-61582536968633/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/volusiadsa/"
+        }
+      ]
+    },
+    {
+      "row": 61,
+      "state": "GA",
+      "chapter": "Athens Area",
+      "type": "Chapter",
+      "website": "https://athensareadsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/AthensAreaDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/athensareadsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/athensareadsa/?hl=en"
+        }
+      ]
+    },
+    {
+      "row": 62,
+      "state": "GA",
+      "chapter": "Atlanta",
+      "type": "Chapter",
+      "website": "https://atldsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/atldemsoc"
+        },
+        {
+          "column": 6,
+          "url": "https://facebook.com/atldemsoc"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/atldemsoc"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/atldemsoc.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://instagram.com/atldemsoc"
+        },
+        {
+          "column": 10,
+          "url": "https://redclaycomrade.org"
+        }
+      ]
+    },
+    {
+      "row": 63,
+      "state": "GA",
+      "chapter": "Middle Georgia",
+      "type": "Chapter",
+      "website": "https://www.mgdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/share/1HB6sAR9zo/"
+        },
+        {
+          "column": 8,
+          "url": "https://web-cdn.bsky.app/profile/midgadsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/middlegeorgiadsa"
+        }
+      ]
+    },
+    {
+      "row": 64,
+      "state": "GA",
+      "chapter": "Northwest Georgia",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/cobbdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/cobbdsa1.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/cobb.dsa"
+        }
+      ]
+    },
+    {
+      "row": 65,
+      "state": "GA",
+      "chapter": "Savannah",
+      "type": "Chapter",
+      "website": "https://www.savgadsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/SavannahDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsasavannah"
+        }
+      ]
+    },
+    {
+      "row": 66,
+      "state": "GA",
+      "chapter": "West Georgia",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/westgadsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/westgadsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/westgadsa/"
+        }
+      ]
+    },
+    {
+      "row": 67,
+      "state": "GA SC",
+      "chapter": "Augusta CSRA",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 10,
+          "url": "https://discord.gg/8dbhh6K43r"
+        }
+      ]
+    },
+    {
+      "row": 68,
+      "state": "HI",
+      "chapter": "Big Island",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/demsochi"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/demsochi/"
+        }
+      ]
+    },
+    {
+      "row": 69,
+      "state": "HI",
+      "chapter": "Maui",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 70,
+      "state": "HI",
+      "chapter": "O'ahu",
+      "type": "Chapter",
+      "website": "https://dsoahu.org/",
+      "public_links": [
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsoahu.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/ds.of.oahu"
+        }
+      ]
+    },
+    {
+      "row": 71,
+      "state": "IA",
+      "chapter": "Cedar Rapids",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/cedarrapidsdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/cedarrapidsdsa"
+        }
+      ]
+    },
+    {
+      "row": 72,
+      "state": "IA",
+      "chapter": "Central Iowa",
+      "type": "Chapter",
+      "website": "https://centraliowadsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsm_dsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/CentralIowaDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/DSM_DSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsa-dsm.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsm_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 73,
+      "state": "IA",
+      "chapter": "Heart of Iowa",
+      "type": "Organizing Committee",
+      "website": "https://heartofiowadsa.weebly.com/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/HeartOfIowaDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/HeartOfIowaDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/heartofiowadsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/heartofiowadsa/"
+        }
+      ]
+    },
+    {
+      "row": 74,
+      "state": "IA",
+      "chapter": "Iowa City",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/IowaCityDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/dsaiowacity"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/iowacitydsa"
+        }
+      ]
+    },
+    {
+      "row": 75,
+      "state": "IA IL",
+      "chapter": "Quad Cities",
+      "type": "Chapter",
+      "website": "https://quadcitiesdsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/quadcitiesdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/quadcitiesdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/quadcitiesdsa"
+        },
+        {
+          "column": 10,
+          "url": "https://quadcitiesdsa.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 76,
+      "state": "ID",
+      "chapter": "Boise",
+      "type": "Chapter",
+      "website": "https://www.boisedsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/BoiseDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/boisedsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/boisedsa/"
+        }
+      ]
+    },
+    {
+      "row": 77,
+      "state": "ID",
+      "chapter": "Southeast Idaho",
+      "type": "Chapter",
+      "website": "https://seidahodsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "http://www.facebook.com/SEIdahoDSA"
+        },
+        {
+          "column": 7,
+          "url": "http://twitter.com/SEIdahoDSA"
+        },
+        {
+          "column": 9,
+          "url": "http://www.instagram.com/seidahodsa/"
+        }
+      ]
+    },
+    {
+      "row": 78,
+      "state": "ID",
+      "chapter": "Southern Idaho",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/southernidahodsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/share/15kJ7DMixW/?mibextid=wwXIfr"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/SouthIdahoDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/southernidahodsa"
+        }
+      ]
+    },
+    {
+      "row": 79,
+      "state": "ID",
+      "chapter": "Sun Valley",
+      "type": "Chapter",
+      "website": "https://sunvalleydsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/share/1CDLtkrtyt/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/sunvalleydsa"
+        },
+        {
+          "column": 10,
+          "url": "https://substack.com/@sunvalleydsa"
+        }
+      ]
+    },
+    {
+      "row": 80,
+      "state": "IL",
+      "chapter": "Champaign-Urbana",
+      "type": "Chapter",
+      "website": "https://cudsa.red/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/chambanadsa"
+        }
+      ]
+    },
+    {
+      "row": 81,
+      "state": "IL",
+      "chapter": "Chicago",
+      "type": "Chapter",
+      "website": "http://www.chicagodsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/Chicago-Democratic-Socialists-of-America-107555372640256/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/chicagocitydsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/chicagodsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/chicagodsa/"
+        },
+        {
+          "column": 10,
+          "url": "http://www.midwestsocialist.com/"
+        }
+      ]
+    },
+    {
+      "row": 82,
+      "state": "IL",
+      "chapter": "East Central Illinois",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 83,
+      "state": "IL",
+      "chapter": "Lakefront",
+      "type": "Chapter",
+      "website": "https://www.lakefront-dsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/share/1AT64ST9CV/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/lakefront.dsa"
+        },
+        {
+          "column": 10,
+          "url": "https://www.lakefront-dsa.org/blog"
+        }
+      ]
+    },
+    {
+      "row": 84,
+      "state": "IL",
+      "chapter": "Land of Lincoln",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/landoflincolndsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/groups/1148356410186380"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/centralildsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/central.il.dsa"
+        }
+      ]
+    },
+    {
+      "row": 85,
+      "state": "IL",
+      "chapter": "Northern Illinois",
+      "type": "Chapter",
+      "website": "https://www.northernillinoisdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/Northern-Illinois-Democratic-Socialists-of-America-442122069460346/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/DSANorthernIL"
+        }
+      ]
+    },
+    {
+      "row": 86,
+      "state": "IL",
+      "chapter": "Southern Illinois",
+      "type": "Chapter",
+      "website": "https://www.soillsocialists.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/southernildsa"
+        },
+        {
+          "column": 7,
+          "url": "http://twitter.com/southern_il_dsa"
+        }
+      ]
+    },
+    {
+      "row": 87,
+      "state": "IL",
+      "chapter": "West Suburban Illinois",
+      "type": "Chapter",
+      "website": "https://wsil.dsachapters.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/WSILDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/wsil.dsachapters.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/wsildsa"
+        }
+      ]
+    },
+    {
+      "row": 88,
+      "state": "IN",
+      "chapter": "Bloomington Indiana",
+      "type": "Chapter",
+      "website": "https://bloomingtondsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/btown_dsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/bloomingtondsa/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/bloomingtondsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/bloomingtondsa"
+        }
+      ]
+    },
+    {
+      "row": 89,
+      "state": "IN",
+      "chapter": "Central Indiana",
+      "type": "Chapter",
+      "website": "https://www.centralindsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "http://facebook.com/centralindsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/centralindsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/centralindsa/"
+        }
+      ]
+    },
+    {
+      "row": 90,
+      "state": "IN",
+      "chapter": "Evansville Riverbend",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/riverbenddsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/riverbenddsa"
+        }
+      ]
+    },
+    {
+      "row": 91,
+      "state": "IN",
+      "chapter": "Fort Wayne",
+      "type": "Chapter",
+      "website": "https://www.fortwaynedsa.com",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/fortwaynedsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/fwdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/fortwayne.dsa/"
+        }
+      ]
+    },
+    {
+      "row": 92,
+      "state": "IN",
+      "chapter": "Greater Lafayette",
+      "type": "Chapter",
+      "website": "https://gldsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/GreaterLafayetteDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/greaterlafayettedsa/"
+        }
+      ]
+    },
+    {
+      "row": 93,
+      "state": "IN",
+      "chapter": "Northern Indiana",
+      "type": "Chapter",
+      "website": "https://northernindianadsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/northernindianadsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/N_Indiana_DSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/northernindianadsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/northernindianadsa"
+        }
+      ]
+    },
+    {
+      "row": 94,
+      "state": "IN",
+      "chapter": "Northwest Indiana",
+      "type": "Chapter",
+      "website": "https://nwi-dsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/nwi_dsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NWIDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/nwidsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/nwidsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/nwidsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://nwi-dsa.org/blog"
+        }
+      ]
+    },
+    {
+      "row": 95,
+      "state": "KS",
+      "chapter": "Flint Hills",
+      "type": "Chapter",
+      "website": "https://www.fhdsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/flinthillsdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/flinthillsdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/fhdsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/flinthillsdsa"
+        }
+      ]
+    },
+    {
+      "row": 96,
+      "state": "KS",
+      "chapter": "Lawrence",
+      "type": "Chapter",
+      "website": "https://www.lfkdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/lawrenceksdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/dsa_lawrenceks"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/lfk_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 97,
+      "state": "KS",
+      "chapter": "Salina",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSASalina/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsasalina"
+        }
+      ]
+    },
+    {
+      "row": 98,
+      "state": "KS",
+      "chapter": "Southeast Kansas",
+      "type": "Chapter",
+      "website": "https://sekdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/profile.php?id=61571063395279"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/sek.dsa/"
+        }
+      ]
+    },
+    {
+      "row": 99,
+      "state": "KS",
+      "chapter": "Topeka",
+      "type": "Chapter",
+      "website": "https://tpdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/TopCityDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/TopekaDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/topeka.dsa/"
+        }
+      ]
+    },
+    {
+      "row": 100,
+      "state": "KS",
+      "chapter": "Wichita",
+      "type": "Chapter",
+      "website": "https://ictdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/WichitaDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/ictdsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/ictdsa"
+        }
+      ]
+    },
+    {
+      "row": 101,
+      "state": "KY",
+      "chapter": "Bluegrass",
+      "type": "Chapter",
+      "website": "https://dsabluegrass.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/bluegrassdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/profile.php?id=61569451675196"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/bluegrassDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/bluegrassDSA"
+        }
+      ]
+    },
+    {
+      "row": 102,
+      "state": "KY",
+      "chapter": "Madison County",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 103,
+      "state": "KY",
+      "chapter": "Owensboro",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 104,
+      "state": "KY IN",
+      "chapter": "Louisville",
+      "type": "Chapter",
+      "website": "https://www.dsalouisville.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsalouisville"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/dsa_louisville"
+        }
+      ]
+    },
+    {
+      "row": 105,
+      "state": "LA",
+      "chapter": "Baton Rouge",
+      "type": "Chapter",
+      "website": "https://brdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/batonrougedsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/batonrougedsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/BatonRougeDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/batonrougedsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/batonrougedsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://brdsa.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 106,
+      "state": "LA",
+      "chapter": "New Orleans",
+      "type": "Chapter",
+      "website": "http://dsaneworleans.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NewOrleansDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/neworleansdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/neworleansdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/neworleansdsa/"
+        }
+      ]
+    },
+    {
+      "row": 107,
+      "state": "LA",
+      "chapter": "Shreveport-Bossier",
+      "type": "Chapter",
+      "website": "https://sites.google.com/view/dsashreveport/home",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsashreveport.roses"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/profile.php?id=61557645466818"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsashreveport/"
+        }
+      ]
+    },
+    {
+      "row": 108,
+      "state": "LA",
+      "chapter": "Southwest Louisiana",
+      "type": "Chapter",
+      "website": "http://dsaswla.com/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSASWLA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSASWLA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsaswla.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsaswla"
+        }
+      ]
+    },
+    {
+      "row": 109,
+      "state": "MA",
+      "chapter": "Berkshires",
+      "type": "Chapter",
+      "website": "https://www.berkshires-dsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/berkshiredsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/BerkshiresDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/BerkshiresDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/berkshiresdsa"
+        },
+        {
+          "column": 10,
+          "url": "https://www.berkshires-dsa.org/blog"
+        }
+      ]
+    },
+    {
+      "row": 110,
+      "state": "MA",
+      "chapter": "Boston",
+      "type": "Chapter",
+      "website": "http://www.bostondsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/pages/Boston-Democratic-Socialists-of-America/282734585192522?fref=ts"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/boston_dsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/boston_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 111,
+      "state": "MA",
+      "chapter": "Cape Cod",
+      "type": "Chapter",
+      "website": "http://www.capecoddsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/CapeCodDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/capecoddsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/capecoddsa/"
+        }
+      ]
+    },
+    {
+      "row": 112,
+      "state": "MA",
+      "chapter": "River Valley",
+      "type": "Chapter",
+      "website": "https://rvdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/rvdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/rivervalleyDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/RiverValleyDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/rivervalleydsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/rivervalleydsa"
+        }
+      ]
+    },
+    {
+      "row": 113,
+      "state": "MA",
+      "chapter": "Worcester",
+      "type": "Chapter",
+      "website": "https://www.worcesterdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/WorcDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/worcdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/worcdsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://working-mass.com/"
+        }
+      ]
+    },
+    {
+      "row": 114,
+      "state": "MD",
+      "chapter": "Frederick",
+      "type": "Chapter",
+      "website": "https://dsafrederick.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/frederickdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/profile.php?id=100083189509046"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsafrederick.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa.frederick"
+        },
+        {
+          "column": 10,
+          "url": "https://dsafrederick.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 115,
+      "state": "MD",
+      "chapter": "Greater Baltimore",
+      "type": "Chapter",
+      "website": "https://www.gbdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/baltimoredsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/BaltimoreDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/baltimoredsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/baltimoredsa/"
+        }
+      ]
+    },
+    {
+      "row": 116,
+      "state": "MD",
+      "chapter": "Southern Maryland",
+      "type": "Chapter",
+      "website": "https://somddsa.org/",
+      "public_links": [
+        {
+          "column": 7,
+          "url": "https://twitter.com/DsaSomd"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsasomd/"
+        }
+      ]
+    },
+    {
+      "row": 117,
+      "state": "ME",
+      "chapter": "Maine",
+      "type": "Chapter",
+      "website": "https://www.mainedsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/maineDSA"
+        },
+        {
+          "column": 6,
+          "url": "https://m.facebook.com/medemsoc"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSA_Maine"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/mainedsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsamaine/"
+        },
+        {
+          "column": 10,
+          "url": "https://pineandroses.org/"
+        }
+      ]
+    },
+    {
+      "row": 118,
+      "state": "MI",
+      "chapter": "Cadillac",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/CadillacDSA"
+        }
+      ]
+    },
+    {
+      "row": 119,
+      "state": "MI",
+      "chapter": "Grand Rapids",
+      "type": "Chapter",
+      "website": "https://www.grdsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/grandrapidsdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/grandrapidsdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://grandrapidsdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/grandrapidsdsa"
+        },
+        {
+          "column": 10,
+          "url": "https://www.grdsa.org/blog"
+        }
+      ]
+    },
+    {
+      "row": 120,
+      "state": "MI",
+      "chapter": "Greater Lansing",
+      "type": "Chapter",
+      "website": "https://www.greaterlansingdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/LansingDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/lansingdsa"
+        }
+      ]
+    },
+    {
+      "row": 121,
+      "state": "MI",
+      "chapter": "Huron Valley",
+      "type": "Chapter",
+      "website": "https://www.hvdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/huronvalleydsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/HuronValleyDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/HuronValleyDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/huronvalleydsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/huronvalleydsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://www.hvdsa.org/news-commentary"
+        }
+      ]
+    },
+    {
+      "row": 122,
+      "state": "MI",
+      "chapter": "Isabella County",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/groups/isabellcountydsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/isabellacountydsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/isabellacountydsa/"
+        }
+      ]
+    },
+    {
+      "row": 123,
+      "state": "MI",
+      "chapter": "Metro Detroit",
+      "type": "Chapter",
+      "website": "https://detroitdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/detroitdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/detroitdsa"
+        },
+        {
+          "column": 9,
+          "url": "http://instagram.com/detroitdsa"
+        },
+        {
+          "column": 10,
+          "url": "https://medium.com/dsa-detroit-newspaper"
+        }
+      ]
+    },
+    {
+      "row": 124,
+      "state": "MI",
+      "chapter": "Northwest Michigan",
+      "type": "Chapter",
+      "website": "https://nwmidsa.org",
+      "public_links": [
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa_northwest_mi/"
+        }
+      ]
+    },
+    {
+      "row": 125,
+      "state": "MI",
+      "chapter": "Saginaw Bay",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/SaginawBayDSA"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/saginawbaydsa/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/saginawbaydsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/saginawbaydsa/"
+        }
+      ]
+    },
+    {
+      "row": 126,
+      "state": "MI",
+      "chapter": "Southwest Michigan",
+      "type": "Chapter",
+      "website": "https://swmidsa.com",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/SWMIDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/SWMIDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/swmidsa.com"
+        }
+      ]
+    },
+    {
+      "row": 127,
+      "state": "MI",
+      "chapter": "Upper Peninsula",
+      "type": "Organizing Committee",
+      "website": "https://www.updsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/updsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/UPDSAMI"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/up_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 128,
+      "state": "MN",
+      "chapter": "Brainerd Lakes Area",
+      "type": "Chapter",
+      "website": "https://linktr.ee/BLA.DSA",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/BrainerdLakesAreaDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/BrainerdMNDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/brainerd.mn.dsa/"
+        }
+      ]
+    },
+    {
+      "row": 129,
+      "state": "MN",
+      "chapter": "Greater Mankato",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 130,
+      "state": "MN",
+      "chapter": "Southeast Minnesota",
+      "type": "Chapter",
+      "website": "https://linktr.ee/semndsa",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/groups/semndsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/semndsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/semndsa/"
+        }
+      ]
+    },
+    {
+      "row": 131,
+      "state": "MN",
+      "chapter": "St. Cloud",
+      "type": "Chapter",
+      "website": "https://www.stclouddsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/people/St-Cloud-DSA/61573917723223/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/dsa_st_cloud"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/stclouddsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/stclouddsa/"
+        }
+      ]
+    },
+    {
+      "row": 132,
+      "state": "MN",
+      "chapter": "Twin Cities",
+      "type": "Chapter",
+      "website": "https://twincitiesdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/TwinCitiesDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/twincitiesdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/twin.cities.dsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://twincitiesdsa.org/topics/blog/"
+        }
+      ]
+    },
+    {
+      "row": 133,
+      "state": "MN",
+      "chapter": "Twin Ports",
+      "type": "Chapter",
+      "website": "https://twinportsdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/twinportsDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/TwinPortsDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa.duluth/"
+        }
+      ]
+    },
+    {
+      "row": 134,
+      "state": "MO",
+      "chapter": "Joplin Area",
+      "type": "Organizing Committee",
+      "website": "https://www.jpa-dsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/joplindsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/profile.php?id=61588691927454"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/joplindsa/"
+        }
+      ]
+    },
+    {
+      "row": 135,
+      "state": "MO",
+      "chapter": "Mid-Missouri",
+      "type": "Chapter",
+      "website": "https://www.midmissouridsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/midmodsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsamidmo"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/midmodsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/midmodsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/midmodsa"
+        },
+        {
+          "column": 10,
+          "url": "https://www.midmissouridsa.org/statements"
+        }
+      ]
+    },
+    {
+      "row": 136,
+      "state": "MO",
+      "chapter": "Ozarks",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/ozarksdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa_ozarks/"
+        }
+      ]
+    },
+    {
+      "row": 137,
+      "state": "MO",
+      "chapter": "Southeast Missouri",
+      "type": "Chapter",
+      "website": "https://southeastmodsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/southeastmodsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/people/Southeast-Missouri-DSA/61575020190014/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/southeastmodsa"
+        }
+      ]
+    },
+    {
+      "row": 138,
+      "state": "MO",
+      "chapter": "St. Louis",
+      "type": "Chapter",
+      "website": "https://stldsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/STLDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/stlouisdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/stldsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/saintlouisdsa/"
+        }
+      ]
+    },
+    {
+      "row": 139,
+      "state": "MO KS",
+      "chapter": "Kansas City",
+      "type": "Chapter",
+      "website": "https://kcdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/kcdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/kansascitydsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/kansascitydsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/kcdsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/kansascitydsa/"
+        }
+      ]
+    },
+    {
+      "row": 140,
+      "state": "MS",
+      "chapter": "Central Mississippi",
+      "type": "Chapter",
+      "website": "https://centralmsdsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/centralmsdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/share/1Dj4mMbyfw/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/centralmsdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/centralms.dsa/"
+        }
+      ]
+    },
+    {
+      "row": 141,
+      "state": "MS",
+      "chapter": "North Mississippi",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 142,
+      "state": "MS",
+      "chapter": "Southern Mississippi",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 143,
+      "state": "MT",
+      "chapter": "Bozeman",
+      "type": "Chapter",
+      "website": "https://bozemandsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/bozemandsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/bozemandsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/bozemandsa"
+        }
+      ]
+    },
+    {
+      "row": 144,
+      "state": "MT",
+      "chapter": "Northwest Montana",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 145,
+      "state": "MT",
+      "chapter": "Western Montana",
+      "type": "Chapter",
+      "website": "https://westernmtdsa.org/index.html",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/western_mt_dsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/westernmtdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/westernmt_dsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/western_mt_dsa"
+        },
+        {
+          "column": 10,
+          "url": "https://westernmtdsa.substack.com/"
+        }
+      ]
+    },
+    {
+      "row": 146,
+      "state": "NC",
+      "chapter": "Asheville",
+      "type": "Chapter",
+      "website": "https://avldsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/AVLDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/AshevilleDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/asheville_dsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://avldsa.medium.com/"
+        }
+      ]
+    },
+    {
+      "row": 147,
+      "state": "NC",
+      "chapter": "Catawba Valley",
+      "type": "Organizing Committee",
+      "website": "https://actionnetwork.org/groups/catawba-valley-dsa",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/people/Catawba-Valley-Democratic-Socialists/61573253738170/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/catawbavalleydsa"
+        }
+      ]
+    },
+    {
+      "row": 148,
+      "state": "NC",
+      "chapter": "Piedmont Triad",
+      "type": "Chapter",
+      "website": "https://www.ptncdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/ptncdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/PiedmontTriadDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/PTNCDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/ptncdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/ptncdsa"
+        }
+      ]
+    },
+    {
+      "row": 149,
+      "state": "NC",
+      "chapter": "Triangle",
+      "type": "Chapter",
+      "website": "https://www.dsanc.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/nctriangledsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSANCTriangle"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/NC_DSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/nctriangledsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/nctriangledsa"
+        },
+        {
+          "column": 10,
+          "url": "https://www.dsanc.org/leftangles"
+        }
+      ]
+    },
+    {
+      "row": 150,
+      "state": "NC",
+      "chapter": "Wilmington",
+      "type": "Chapter",
+      "website": "https://www.wilmingtondsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/Wilmingtondsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/ilm_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 151,
+      "state": "NC SC",
+      "chapter": "Charlotte Metro",
+      "type": "Chapter",
+      "website": "http://www.charlottedsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/cltdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/cltdsa/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/cltdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsaclt/"
+        }
+      ]
+    },
+    {
+      "row": 152,
+      "state": "ND MN",
+      "chapter": "Red River Valley",
+      "type": "Chapter",
+      "website": "https://www.rrvdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/rrvdsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/rrvdsa"
+        }
+      ]
+    },
+    {
+      "row": 153,
+      "state": "NE",
+      "chapter": "Lincoln",
+      "type": "Chapter",
+      "website": "https://www.dsanebraska.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSALincolnNE"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsalincolnne"
+        }
+      ]
+    },
+    {
+      "row": 154,
+      "state": "NE IA",
+      "chapter": "Omaha",
+      "type": "Chapter",
+      "website": "https://omahadsa.org/",
+      "public_links": [
+        {
+          "column": 7,
+          "url": "https://x.com/omahadsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/omahadsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/omahadsa/"
+        }
+      ]
+    },
+    {
+      "row": 155,
+      "state": "NH",
+      "chapter": "Southern New Hampshire",
+      "type": "Chapter",
+      "website": "https://snh.dsachapters.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/southernnhdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/snhdsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/snhdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/southernnhdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/snhdsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://snh.dsachapters.org/statements/"
+        }
+      ]
+    },
+    {
+      "row": 156,
+      "state": "NH VT",
+      "chapter": "Upper Valley",
+      "type": "Chapter",
+      "website": "http://uppervalleydsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://facebook.com/upper-valley-dsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/UV_DSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/uvdsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://www.uppervalleydsa.org/news/statements-articles"
+        }
+      ]
+    },
+    {
+      "row": 157,
+      "state": "NJ",
+      "chapter": "Central New Jersey",
+      "type": "Chapter",
+      "website": "https://central.dsanj.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/CentralNJDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/CentralNJDSA/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/centralnjdsa/"
+        }
+      ]
+    },
+    {
+      "row": 158,
+      "state": "NJ",
+      "chapter": "North New Jersey",
+      "type": "Chapter",
+      "website": "https://north.dsanj.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NorthNJDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/NorthNJDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/north_nj_dsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://medium.com/https://twitter.com/northnjdsa"
+        }
+      ]
+    },
+    {
+      "row": 159,
+      "state": "NJ",
+      "chapter": "South New Jersey",
+      "type": "Chapter",
+      "website": "https://south.dsanj.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsasouthjersey"
+        },
+        {
+          "column": 7,
+          "url": "http://twitter.com/dsasouthjersey"
+        },
+        {
+          "column": 9,
+          "url": "http://www.instagram.com/dsasouthjersey"
+        }
+      ]
+    },
+    {
+      "row": 160,
+      "state": "NM",
+      "chapter": "Albuquerque",
+      "type": "Chapter",
+      "website": "https://abqdsa.org/",
+      "public_links": []
+    },
+    {
+      "row": 161,
+      "state": "NM",
+      "chapter": "San Juan County",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 162,
+      "state": "NM",
+      "chapter": "Santa Fe",
+      "type": "Chapter",
+      "website": "https://www.dsasantafe.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/santafedsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSASantaFe"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/santa.fe.dsa/"
+        }
+      ]
+    },
+    {
+      "row": 163,
+      "state": "NV",
+      "chapter": "Las Vegas",
+      "type": "Chapter",
+      "website": "https://lvdsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/LasVegasDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/LasVegasDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://instagram.com/vegasdsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://lvdsa.org/blog"
+        }
+      ]
+    },
+    {
+      "row": 164,
+      "state": "NV",
+      "chapter": "Northern Nevada",
+      "type": "Chapter",
+      "website": "https://www.nndsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NorthernNevadaDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/NNV_DSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/nn.dsa/"
+        }
+      ]
+    },
+    {
+      "row": 165,
+      "state": "NY",
+      "chapter": "Broome",
+      "type": "Chapter",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 166,
+      "state": "NY",
+      "chapter": "Buffalo",
+      "type": "Chapter",
+      "website": "https://buffalodsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/buffalodsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/BuffaloDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/buffalodsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/buffalodsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/buffalodsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://buffalodsa.org/statements/"
+        }
+      ]
+    },
+    {
+      "row": 167,
+      "state": "NY",
+      "chapter": "Capital District",
+      "type": "Chapter",
+      "website": "https://capitaldistrictdsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/capitaldistrictdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/CapDistrictDSA"
+        }
+      ]
+    },
+    {
+      "row": 168,
+      "state": "NY",
+      "chapter": "High Peaks",
+      "type": "Chapter",
+      "website": "https://www.highpeaksdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/highpeaksdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/highpeaksdsa"
+        }
+      ]
+    },
+    {
+      "row": 169,
+      "state": "NY",
+      "chapter": "Ithaca",
+      "type": "Chapter",
+      "website": "https://ithacadsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/IthacaDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/ithacadsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/ithacadsa"
+        },
+        {
+          "column": 10,
+          "url": "https://ithacadsa.blogspot.com/"
+        }
+      ]
+    },
+    {
+      "row": 170,
+      "state": "NY",
+      "chapter": "Long Island",
+      "type": "Chapter",
+      "website": "https://www.lidsa.org/",
+      "public_links": [
+        {
+          "column": 7,
+          "url": "https://x.com/LongIslandDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/longislanddsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/longislanddsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://www.lidsa.org/red-rose"
+        }
+      ]
+    },
+    {
+      "row": 171,
+      "state": "NY",
+      "chapter": "Lower Hudson Valley",
+      "type": "Chapter",
+      "website": "http://lhvdsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "http://facebook.com/lowerhudsondsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/lhvdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/lhvdsa/"
+        }
+      ]
+    },
+    {
+      "row": 172,
+      "state": "NY",
+      "chapter": "Mid-Hudson Valley",
+      "type": "Chapter",
+      "website": "https://mhvdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/MHVDSA"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/mhvdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/mhvdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/mhvdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/mhvdsa/"
+        }
+      ]
+    },
+    {
+      "row": 173,
+      "state": "NY",
+      "chapter": "New York City",
+      "type": "Chapter",
+      "website": "http://www.socialists.nyc/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/nyc_dsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/nycdsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/nycDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/socialists.nyc"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/nycdsa/?hl=en"
+        }
+      ]
+    },
+    {
+      "row": 174,
+      "state": "NY",
+      "chapter": "Rochester",
+      "type": "Chapter",
+      "website": "https://rocdsa.org , https://linktr.ee/ROCDSA",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/ROCDSA"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/rochesterdsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/rocDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/rocdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/roc.dsa"
+        },
+        {
+          "column": 10,
+          "url": "https://rocdsa.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 175,
+      "state": "NY",
+      "chapter": "Syracuse",
+      "type": "Chapter",
+      "website": "https://syracusedsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/SyracuseDSA"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSASyracuse/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/syrdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/syracusedsa/"
+        }
+      ]
+    },
+    {
+      "row": 176,
+      "state": "NY",
+      "chapter": "Troy",
+      "type": "Chapter",
+      "website": "https://troydsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/troydsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/troydsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/troydsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/troydsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/troydsa"
+        }
+      ]
+    },
+    {
+      "row": 177,
+      "state": "OH",
+      "chapter": "Akron",
+      "type": "Chapter",
+      "website": "https://www.akrondsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/akrondsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/akrondsa"
+        },
+        {
+          "column": 9,
+          "url": "https://instagram.com/akrondsa"
+        }
+      ]
+    },
+    {
+      "row": 178,
+      "state": "OH",
+      "chapter": "Bowling Green",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 179,
+      "state": "OH",
+      "chapter": "Cleveland",
+      "type": "Chapter",
+      "website": "https://dsacleveland.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsacle"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSA_Cleveland"
+        },
+        {
+          "column": 9,
+          "url": "https://instagram.com/dsacleveland"
+        }
+      ]
+    },
+    {
+      "row": 180,
+      "state": "OH",
+      "chapter": "Columbus",
+      "type": "Chapter",
+      "website": "https://www.columbusdsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsacbus"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/ColumbusDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/Columbus_DSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/columbusdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/columbus_dsa/"
+        },
+        {
+          "column": 10,
+          "url": "http://www.columbusdsa.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 181,
+      "state": "OH",
+      "chapter": "Dayton-Miami Valley",
+      "type": "Chapter",
+      "website": "https://www.dsadayton.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsadayton"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsadayton"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/DSA_Dayton"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsadayton.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsadayton/"
+        }
+      ]
+    },
+    {
+      "row": 182,
+      "state": "OH",
+      "chapter": "Mahoning Valley",
+      "type": "Chapter",
+      "website": "http://www.mahoningvalleydsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "http://linktr.ee/MVDSA"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/MahoningValleyDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/MahoningDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/mvdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/mahoning_valley_dsa"
+        }
+      ]
+    },
+    {
+      "row": 183,
+      "state": "OH",
+      "chapter": "Northwest Ohio",
+      "type": "Chapter",
+      "website": "https://nwohiodsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NWOhioDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/nwohiodsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/nwohiodsa/"
+        }
+      ]
+    },
+    {
+      "row": 184,
+      "state": "OH",
+      "chapter": "Scioto Valley",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 185,
+      "state": "OH",
+      "chapter": "Wooster",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/groups/1591322872138371/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/woosterdsa/"
+        }
+      ]
+    },
+    {
+      "row": 186,
+      "state": "OH KY",
+      "chapter": "Metro Cincinnati & Northern Kentucky",
+      "type": "Chapter",
+      "website": "https://dsacincy.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/dsacincy"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsacincy"
+        },
+        {
+          "column": 7,
+          "url": "https://www.x.com/dsacincy"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsacincy.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsacincy"
+        }
+      ]
+    },
+    {
+      "row": 187,
+      "state": "OK",
+      "chapter": "Nine Tribes Area",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/ninetribesdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/ninetribesdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/ninetribesdsa"
+        }
+      ]
+    },
+    {
+      "row": 188,
+      "state": "OK",
+      "chapter": "Oklahoma City",
+      "type": "Chapter",
+      "website": "https://okcdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/okcdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/okcdsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/okcDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/okcdsa/"
+        }
+      ]
+    },
+    {
+      "row": 189,
+      "state": "OK",
+      "chapter": "Southeastern Oklahoma",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 190,
+      "state": "OK",
+      "chapter": "Stillwater",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 191,
+      "state": "OK",
+      "chapter": "Tulsa",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/tulsadsa"
+        },
+        {
+          "column": 6,
+          "url": "https://facebook.com/TulsaDSA1"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/tulsadsa"
+        }
+      ]
+    },
+    {
+      "row": 192,
+      "state": "OR",
+      "chapter": "Central Oregon",
+      "type": "Chapter",
+      "website": "https://www.centraloregondsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/centraloregondsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/centraloregondsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/centraloregondsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://www.centraloregondsa.org/blogs"
+        }
+      ]
+    },
+    {
+      "row": 193,
+      "state": "OR",
+      "chapter": "Eugene-Springfield",
+      "type": "Chapter",
+      "website": "https://dsaeugene.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/people/Eugene-Springfield-DSA/100086715935336/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/DSA_Eugene"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/dsaeugene.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa_eugene/"
+        },
+        {
+          "column": 10,
+          "url": "https://dsaeugene.org/the-newsletter/"
+        }
+      ]
+    },
+    {
+      "row": 194,
+      "state": "OR",
+      "chapter": "Portland",
+      "type": "Chapter",
+      "website": "https://portlanddsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/portlanddsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/PortlandDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/PortlandDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/portlanddsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/portlanddsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://portlanddsa.org/the-thorn/"
+        }
+      ]
+    },
+    {
+      "row": 195,
+      "state": "OR",
+      "chapter": "Salem",
+      "type": "Chapter",
+      "website": "https://www.salemdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/salemoregondsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/salem_dsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/salem_dsa"
+        },
+        {
+          "column": 10,
+          "url": "https://blog.salemdsa.org/"
+        }
+      ]
+    },
+    {
+      "row": 196,
+      "state": "OR",
+      "chapter": "Southern Oregon",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 197,
+      "state": "PA",
+      "chapter": "Centre County",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/centrecodsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/centrecodsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/centrecounty_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 198,
+      "state": "PA",
+      "chapter": "Erie",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/eriedsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/eriedsa"
+        }
+      ]
+    },
+    {
+      "row": 199,
+      "state": "PA",
+      "chapter": "Lehigh Valley",
+      "type": "Chapter",
+      "website": "https://www.lehighvalleydsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/LehighValleyDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSALehighValley"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/LehighValleyDSA"
+        }
+      ]
+    },
+    {
+      "row": 200,
+      "state": "PA",
+      "chapter": "Northeast Pennsylvania",
+      "type": "Chapter",
+      "website": "https://www.nepadsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NEPADemocraticSocialists"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/pa_dsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsanepa/"
+        },
+        {
+          "column": 10,
+          "url": "https://dsanepa.substack.com/"
+        }
+      ]
+    },
+    {
+      "row": 201,
+      "state": "PA",
+      "chapter": "Philadelphia",
+      "type": "Chapter",
+      "website": "https://www.phillydsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/phillydsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/PhillyDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/PhillyDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/phillydsa/"
+        }
+      ]
+    },
+    {
+      "row": 202,
+      "state": "PA",
+      "chapter": "Pittsburgh",
+      "type": "Chapter",
+      "website": "https://www.pghdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/pghDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/pghDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/pghdsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/pghdsa"
+        },
+        {
+          "column": 10,
+          "url": "https://pghdsa.solidarity.tech/chapter-statements"
+        }
+      ]
+    },
+    {
+      "row": 203,
+      "state": "PA",
+      "chapter": "South Central PA",
+      "type": "Chapter",
+      "website": "https://lancdsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/profile.php?id=61556595668615"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/scpadsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/scpa.dsa/"
+        }
+      ]
+    },
+    {
+      "row": 204,
+      "state": "RI",
+      "chapter": "Rhode Island",
+      "type": "Chapter",
+      "website": "https://ridsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/rhodyDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/rhodyDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/rhodydsa/"
+        }
+      ]
+    },
+    {
+      "row": 205,
+      "state": "SC",
+      "chapter": "Charleston",
+      "type": "Chapter",
+      "website": "https://charlestondsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/chsdsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/chsdsa/"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/charlestondsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/charlestondsa"
+        }
+      ]
+    },
+    {
+      "row": 206,
+      "state": "SC",
+      "chapter": "Columbia",
+      "type": "Chapter",
+      "website": "https://dsaofcolumbia.org/",
+      "public_links": [
+        {
+          "column": 7,
+          "url": "https://twitter.com/columbiadsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/columbiadsa/"
+        }
+      ]
+    },
+    {
+      "row": 207,
+      "state": "SC",
+      "chapter": "Upstate South Carolina",
+      "type": "Chapter",
+      "website": "https://www.dsaupstatesc.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://www.atom.bio/dsaupststatesc"
+        },
+        {
+          "column": 8,
+          "url": "http://bsky.app/profile/dsaupstatesc.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/DSAUpstateSC"
+        },
+        {
+          "column": 10,
+          "url": "https://substack.com/@dsaupstatesc?r=5gz3en&utm_medium=ios"
+        }
+      ]
+    },
+    {
+      "row": 208,
+      "state": "SD",
+      "chapter": "Sioux Empire",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/SiouxEmpireDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/SiouxEmpireDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/siouxempiredsa"
+        }
+      ]
+    },
+    {
+      "row": 209,
+      "state": "TN",
+      "chapter": "Chattanooga",
+      "type": "Chapter",
+      "website": "https://chattanoogadsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/ChattanoogaDemocraticSocialistsofAmerica/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/chattanooga_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 210,
+      "state": "TN",
+      "chapter": "Knoxville",
+      "type": "Chapter",
+      "website": "https://knoxvilledsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/KnoxDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/KnoxvilleDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/knoxvilledsa/"
+        }
+      ]
+    },
+    {
+      "row": 211,
+      "state": "TN",
+      "chapter": "Memphis Midsouth",
+      "type": "Chapter",
+      "website": "https://memphisdsa.org/",
+      "public_links": [
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/memphisdemsoc/"
+        }
+      ]
+    },
+    {
+      "row": 212,
+      "state": "TN",
+      "chapter": "Middle Tennessee",
+      "type": "Chapter",
+      "website": "https://midtndsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/MiddleTNDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/MidTNDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/midtndsa/"
+        }
+      ]
+    },
+    {
+      "row": 213,
+      "state": "TN",
+      "chapter": "Northeast Tennessee",
+      "type": "Chapter",
+      "website": "https://northeasttndsa.org",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/northeasttndsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NortheastTnDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/northeasttndsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/northeasttndsa/"
+        }
+      ]
+    },
+    {
+      "row": 214,
+      "state": "TX",
+      "chapter": "Austin",
+      "type": "Chapter",
+      "website": "http://www.austindsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/austindsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/atxdsa"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/austindsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/atxdsa/"
+        },
+        {
+          "column": 10,
+          "url": "https://redfault.com/"
+        }
+      ]
+    },
+    {
+      "row": 215,
+      "state": "TX",
+      "chapter": "Brazos",
+      "type": "Organizing Committee",
+      "website": "https://brazosdsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/BrazosDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/brazosdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/BrazosDSA"
+        }
+      ]
+    },
+    {
+      "row": 216,
+      "state": "TX",
+      "chapter": "Concho Valley",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 217,
+      "state": "TX",
+      "chapter": "Corpus Christi",
+      "type": "Chapter",
+      "website": "http://www.corpuschristidsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/CORPUSDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/corpus_dsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/corpus_dsa/"
+        }
+      ]
+    },
+    {
+      "row": 218,
+      "state": "TX",
+      "chapter": "Fort Worth",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSAFortWorth/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/DSAFortWorth"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsafortworth/"
+        }
+      ]
+    },
+    {
+      "row": 219,
+      "state": "TX",
+      "chapter": "Houston",
+      "type": "Chapter",
+      "website": "https://www.houstondsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/HoustonDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/HoustonDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/houstondsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa.houston/?hl=en"
+        },
+        {
+          "column": 10,
+          "url": "https://houstondsa.org/news/"
+        }
+      ]
+    },
+    {
+      "row": 220,
+      "state": "TX",
+      "chapter": "Laredo",
+      "type": "Chapter",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 221,
+      "state": "TX",
+      "chapter": "Lubbock",
+      "type": "Chapter",
+      "website": "https://lbkdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSA-Lubbock-107477013982472/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/LubbockDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/lubbockdsa/"
+        }
+      ]
+    },
+    {
+      "row": 222,
+      "state": "TX",
+      "chapter": "North Texas",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSANorthTexas"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSA_NorthTexas"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsanorthtexas/"
+        }
+      ]
+    },
+    {
+      "row": 223,
+      "state": "TX",
+      "chapter": "Rio Grande Valley",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/Democratic-Socialists-of-America-Rio-Grande-Valley-Chapter-112267827929901"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/dsa_rgv"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsa_rgv/"
+        }
+      ]
+    },
+    {
+      "row": 224,
+      "state": "TX",
+      "chapter": "San Antonio",
+      "type": "Chapter",
+      "website": "https://www.sanantoniodsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/sanantoniodsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/sanantoniodsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/sanantoniodsa/"
+        }
+      ]
+    },
+    {
+      "row": 225,
+      "state": "TX, NM",
+      "chapter": "Paso del Norte",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/groups/1602347166757894/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/pasodelnortedsa/"
+        }
+      ]
+    },
+    {
+      "row": 226,
+      "state": "UT",
+      "chapter": "Salt Lake",
+      "type": "Chapter",
+      "website": "https://saltlakedsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/slcdsa"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/slcDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/slcdsa/"
+        }
+      ]
+    },
+    {
+      "row": 227,
+      "state": "VA",
+      "chapter": "Charlottesville",
+      "type": "Chapter",
+      "website": "https://charlottesvilledsa.com/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/CvilleDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/cvilledsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/cvilledsa/"
+        }
+      ]
+    },
+    {
+      "row": 228,
+      "state": "VA",
+      "chapter": "New River Valley",
+      "type": "Chapter",
+      "website": "https://www.nrvdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NRVDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/NRVDSA?t=k4u4CO0oV5fKFcsOjKPfmQ&s=09"
+        }
+      ]
+    },
+    {
+      "row": 229,
+      "state": "VA",
+      "chapter": "Richmond",
+      "type": "Chapter",
+      "website": "https://www.dsarichmond.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSARichmond/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/dsarichmond"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsarichmond"
+        }
+      ]
+    },
+    {
+      "row": 230,
+      "state": "VA",
+      "chapter": "Shenandoah Valley",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/svalleydsa"
+        }
+      ]
+    },
+    {
+      "row": 231,
+      "state": "VA",
+      "chapter": "Tidewater",
+      "type": "Chapter",
+      "website": "http://tidewaterdsa.com/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/tidewaterDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/tidewaterdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://instagram.com/tidewaterdsa"
+        },
+        {
+          "column": 10,
+          "url": "http://tidewaterdsa.com/category/statements/"
+        }
+      ]
+    },
+    {
+      "row": 232,
+      "state": "VT",
+      "chapter": "Green Mountain",
+      "type": "Chapter",
+      "website": "https://www.greenmountaindsa.org",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/champvalleydsa"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/GreenMtnDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/greenmountaindsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/greenmountaindsa"
+        },
+        {
+          "column": 10,
+          "url": "https://greenmountaindsa.org/blog"
+        }
+      ]
+    },
+    {
+      "row": 233,
+      "state": "WA",
+      "chapter": "North Olympic",
+      "type": "Chapter",
+      "website": "https://noroly.chapters.dsausa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/NorOlyDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/norolydsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/norolydsa/"
+        }
+      ]
+    },
+    {
+      "row": 234,
+      "state": "WA",
+      "chapter": "Olympia",
+      "type": "Chapter",
+      "website": "https://olydsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/OlympiaDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/dsaolympia"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsaolympia/?hl=en"
+        }
+      ]
+    },
+    {
+      "row": 235,
+      "state": "WA",
+      "chapter": "Palouse",
+      "type": "Chapter",
+      "website": "https://palousedsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/palousedsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/palousedsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/palousedsa/"
+        }
+      ]
+    },
+    {
+      "row": 236,
+      "state": "WA",
+      "chapter": "Seattle",
+      "type": "Chapter",
+      "website": "https://seattledsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/seattledsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/SeattleDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/SeattleDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/seattledsa.org"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/seattledsa"
+        },
+        {
+          "column": 10,
+          "url": "https://seattledsa.org/blog/"
+        }
+      ]
+    },
+    {
+      "row": 237,
+      "state": "WA",
+      "chapter": "Skagit County",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/skagitdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/skagitdsa/"
+        }
+      ]
+    },
+    {
+      "row": 238,
+      "state": "WA",
+      "chapter": "Snohomish County",
+      "type": "Chapter",
+      "website": "https://www.snocodsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSAEverett"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/SnoCoDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/snocodsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/snocodsa/"
+        }
+      ]
+    },
+    {
+      "row": 239,
+      "state": "WA",
+      "chapter": "Spokane",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/SpokaneDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/spokanedsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/spokanedsa/"
+        }
+      ]
+    },
+    {
+      "row": 240,
+      "state": "WA",
+      "chapter": "Tacoma & Pierce County",
+      "type": "Chapter",
+      "website": "https://tacomadsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/TacomaDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/TacomaDSA"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/tacomadsa/"
+        }
+      ]
+    },
+    {
+      "row": 241,
+      "state": "WA",
+      "chapter": "Walla Walla Valley",
+      "type": "Chapter",
+      "website": "",
+      "public_links": [
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsawallawalla/"
+        }
+      ]
+    },
+    {
+      "row": 242,
+      "state": "WA",
+      "chapter": "West Sound",
+      "type": "Chapter",
+      "website": "https://westsound.dsachapters.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "http://linktr.ee/westsounddsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/WestSoundDSA/"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/WestSoundDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/westsounddsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/westsounddsa/"
+        }
+      ]
+    },
+    {
+      "row": 243,
+      "state": "WA",
+      "chapter": "Whatcom County",
+      "type": "Chapter",
+      "website": "https://whatcomdsa.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/whatcomdsa/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/whatcomdsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/whatcomdsa/"
+        }
+      ]
+    },
+    {
+      "row": 244,
+      "state": "WI",
+      "chapter": "Central Wisconsin",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/CentralWisconsinDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/CentralWisDSA"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/centralwisdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/centralwisconsindsa/"
+        }
+      ]
+    },
+    {
+      "row": 245,
+      "state": "WI",
+      "chapter": "Chippewa Valley",
+      "type": "Chapter",
+      "website": "",
+      "public_links": []
+    },
+    {
+      "row": 246,
+      "state": "WI",
+      "chapter": "Coulee Region",
+      "type": "Chapter",
+      "website": "http://coulee.dsawi.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/couleedsa/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/couleedsa/"
+        }
+      ]
+    },
+    {
+      "row": 247,
+      "state": "WI",
+      "chapter": "Madison Area",
+      "type": "Chapter",
+      "website": "https://madison-dsa.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/madisonareadsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/dsamadison"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/DSAMadison"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/dsamadison/"
+        },
+        {
+          "column": 10,
+          "url": "https://redmadison.com/"
+        }
+      ]
+    },
+    {
+      "row": 248,
+      "state": "WI",
+      "chapter": "Milwaukee",
+      "type": "Chapter",
+      "website": "https://milwaukee.dsawi.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/DSAMKE/"
+        },
+        {
+          "column": 7,
+          "url": "https://twitter.com/mkedsa"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/mkedsa/"
+        }
+      ]
+    },
+    {
+      "row": 249,
+      "state": "WI",
+      "chapter": "North East Wisconsin",
+      "type": "Chapter",
+      "website": "https://www.greenbaydsawi.org/",
+      "public_links": [
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/greenbaydsa/"
+        },
+        {
+          "column": 7,
+          "url": "http://x.com/dsagreenbay"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/greenbaydsa.bsky.social"
+        }
+      ]
+    },
+    {
+      "row": 250,
+      "state": "WI",
+      "chapter": "Rock River",
+      "type": "Chapter",
+      "website": "https://rockriver.dsawi.org/",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/RockRiverDSA"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/RockRiverDSA"
+        },
+        {
+          "column": 7,
+          "url": "https://x.com/dsarockriver"
+        },
+        {
+          "column": 8,
+          "url": "https://bsky.app/profile/rockriverdsa.bsky.social"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/rockriverdsa"
+        },
+        {
+          "column": 10,
+          "url": "https://rockriverrose.wordpress.com/"
+        }
+      ]
+    },
+    {
+      "row": 251,
+      "state": "WV, OH",
+      "chapter": "Wheeling",
+      "type": "Organizing Committee",
+      "website": "",
+      "public_links": [
+        {
+          "column": 5,
+          "url": "https://linktr.ee/wheeling.dsa"
+        },
+        {
+          "column": 6,
+          "url": "https://www.facebook.com/WheelingDSA/"
+        },
+        {
+          "column": 9,
+          "url": "https://www.instagram.com/wheeling.dsa/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1772 @@
+{
+  "source_url": "https://airtable.com/embed/appVbWrpnpZXvsVJH/shrorpPIHVt83eIq0?backgroundColor=gray&viewControls=on",
+  "parent_source": "https://www.dsausa.org/chapters/",
+  "checked_at": "2026-11-08",
+  "method": "Firecrawl public rendered HTML; all252 grid rows parsed; columns state,chapter,type,website only; no CSV download obtained",
+  "records": [
+    {
+      "row": 0,
+      "state": "AL",
+      "chapter": "Birmingham",
+      "type": "Chapter",
+      "website": "https://bhamdsa.org"
+    },
+    {
+      "row": 1,
+      "state": "AL",
+      "chapter": "Mobile Bay",
+      "type": "Chapter",
+      "website": "https://mobilebaydsa.org/"
+    },
+    {
+      "row": 2,
+      "state": "AL",
+      "chapter": "North Alabama",
+      "type": "Chapter",
+      "website": "https://www.northal-dsa.org/"
+    },
+    {
+      "row": 3,
+      "state": "AL",
+      "chapter": "River Region",
+      "type": "Chapter",
+      "website": "https://www.theriverregiondsa.org/"
+    },
+    {
+      "row": 4,
+      "state": "AL",
+      "chapter": "The Shoals",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 5,
+      "state": "AR",
+      "chapter": "Arkansas Valley",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 6,
+      "state": "AR",
+      "chapter": "Central Arkansas",
+      "type": "Chapter",
+      "website": "https://centralarkansasdsa.org/"
+    },
+    {
+      "row": 7,
+      "state": "AR",
+      "chapter": "Northwest Arkansas",
+      "type": "Chapter",
+      "website": "https://dsanwa.org/"
+    },
+    {
+      "row": 8,
+      "state": "AZ",
+      "chapter": "Flagstaff",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 9,
+      "state": "AZ",
+      "chapter": "Phoenix",
+      "type": "Chapter",
+      "website": "http://phxdsa.org/"
+    },
+    {
+      "row": 10,
+      "state": "AZ",
+      "chapter": "Pinal County",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 11,
+      "state": "AZ",
+      "chapter": "Tucson",
+      "type": "Chapter",
+      "website": "https://www.tucsondsa.org/"
+    },
+    {
+      "row": 12,
+      "state": "CA",
+      "chapter": "Central Coast California",
+      "type": "Chapter",
+      "website": "https://www.centralcoastdsa.org"
+    },
+    {
+      "row": 13,
+      "state": "CA",
+      "chapter": "Central Sierra Foothills",
+      "type": "Chapter",
+      "website": "https://www.csf-dsa.org/"
+    },
+    {
+      "row": 14,
+      "state": "CA",
+      "chapter": "Central Valley",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 15,
+      "state": "CA",
+      "chapter": "East Bay",
+      "type": "Chapter",
+      "website": "https://eastbaydsa.org"
+    },
+    {
+      "row": 16,
+      "state": "CA",
+      "chapter": "Humboldt",
+      "type": "Chapter",
+      "website": "https://humboldtdsa.org/"
+    },
+    {
+      "row": 17,
+      "state": "CA",
+      "chapter": "Inland Empire",
+      "type": "Chapter",
+      "website": "https://iedsa.org/"
+    },
+    {
+      "row": 18,
+      "state": "CA",
+      "chapter": "Kern County CA",
+      "type": "Chapter",
+      "website": "https://dsakern.org/"
+    },
+    {
+      "row": 19,
+      "state": "CA",
+      "chapter": "Long Beach",
+      "type": "Chapter",
+      "website": "https://dsalb.org/"
+    },
+    {
+      "row": 20,
+      "state": "CA",
+      "chapter": "Los Angeles",
+      "type": "Chapter",
+      "website": "http://www.dsa-la.org/"
+    },
+    {
+      "row": 21,
+      "state": "CA",
+      "chapter": "Marin",
+      "type": "Chapter",
+      "website": "https://marin.dsausa.org/"
+    },
+    {
+      "row": 22,
+      "state": "CA",
+      "chapter": "North Central Valley",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 23,
+      "state": "CA",
+      "chapter": "Orange County",
+      "type": "Chapter",
+      "website": "https://www.ocdsa.org/"
+    },
+    {
+      "row": 24,
+      "state": "CA",
+      "chapter": "Peninsula California",
+      "type": "Chapter",
+      "website": "https://peninsuladsa.org/"
+    },
+    {
+      "row": 25,
+      "state": "CA",
+      "chapter": "Sacramento",
+      "type": "Chapter",
+      "website": "http://www.sacdsa.org/"
+    },
+    {
+      "row": 26,
+      "state": "CA",
+      "chapter": "San Diego",
+      "type": "Chapter",
+      "website": "https://dsasandiego.org/"
+    },
+    {
+      "row": 27,
+      "state": "CA",
+      "chapter": "San Francisco",
+      "type": "Chapter",
+      "website": "https://dsasf.org/"
+    },
+    {
+      "row": 28,
+      "state": "CA",
+      "chapter": "San Luis Obispo",
+      "type": "Chapter",
+      "website": "http://www.dsaslo.org/"
+    },
+    {
+      "row": 29,
+      "state": "CA",
+      "chapter": "Santa Barbara",
+      "type": "Chapter",
+      "website": "https://dsasb.org/"
+    },
+    {
+      "row": 30,
+      "state": "CA",
+      "chapter": "Santa Cruz",
+      "type": "Chapter",
+      "website": "http://www.dsasantacruz.org/"
+    },
+    {
+      "row": 31,
+      "state": "CA",
+      "chapter": "Shasta County",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 32,
+      "state": "CA",
+      "chapter": "Silicon Valley",
+      "type": "Chapter",
+      "website": "https://siliconvalleydsa.org/"
+    },
+    {
+      "row": 33,
+      "state": "CA",
+      "chapter": "Sonoma County",
+      "type": "Chapter",
+      "website": "https://www.socodsa.org/"
+    },
+    {
+      "row": 34,
+      "state": "CA",
+      "chapter": "Ventura County",
+      "type": "Chapter",
+      "website": "https://dsaventuracounty.org"
+    },
+    {
+      "row": 35,
+      "state": "CA",
+      "chapter": "Yolo County",
+      "type": "Chapter",
+      "website": "https://yolodsa.org/"
+    },
+    {
+      "row": 36,
+      "state": "CO",
+      "chapter": "Boulder",
+      "type": "Chapter",
+      "website": "http://www.boulderdsa.org/"
+    },
+    {
+      "row": 37,
+      "state": "CO",
+      "chapter": "Colorado Springs",
+      "type": "Chapter",
+      "website": "https://www.cosdsa.org/"
+    },
+    {
+      "row": 38,
+      "state": "CO",
+      "chapter": "Denver",
+      "type": "Chapter",
+      "website": "https://denverdsa.org/"
+    },
+    {
+      "row": 39,
+      "state": "CO",
+      "chapter": "Mesa County",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 40,
+      "state": "CO",
+      "chapter": "Northern Colorado",
+      "type": "Chapter",
+      "website": "https://nocodsa.org"
+    },
+    {
+      "row": 41,
+      "state": "CT",
+      "chapter": "Connecticut",
+      "type": "Chapter",
+      "website": "https://ctdsa.org"
+    },
+    {
+      "row": 42,
+      "state": "DC, VA, MD",
+      "chapter": "Metro DC",
+      "type": "Chapter",
+      "website": "https://mdcdsa.org/"
+    },
+    {
+      "row": 43,
+      "state": "DE",
+      "chapter": "Delaware",
+      "type": "Chapter",
+      "website": "https://dedsa.org"
+    },
+    {
+      "row": 44,
+      "state": "FL",
+      "chapter": "Alachua County",
+      "type": "Chapter",
+      "website": "http://alachuadsa.org"
+    },
+    {
+      "row": 45,
+      "state": "FL",
+      "chapter": "Broward County",
+      "type": "Chapter",
+      "website": "https://browardcountydsa.org/"
+    },
+    {
+      "row": 46,
+      "state": "FL",
+      "chapter": "Emerald Coast",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 47,
+      "state": "FL",
+      "chapter": "Jacksonville",
+      "type": "Chapter",
+      "website": "https://linktr.ee/jaxdsa"
+    },
+    {
+      "row": 48,
+      "state": "FL",
+      "chapter": "Key West",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 49,
+      "state": "FL",
+      "chapter": "Leon County",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 50,
+      "state": "FL",
+      "chapter": "Marion County",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 51,
+      "state": "FL",
+      "chapter": "Miami",
+      "type": "Chapter",
+      "website": "http://miamidsa.org/"
+    },
+    {
+      "row": 52,
+      "state": "FL",
+      "chapter": "Orlando",
+      "type": "Chapter",
+      "website": "https://orlando.chapters.dsausa.org/"
+    },
+    {
+      "row": 53,
+      "state": "FL",
+      "chapter": "Palm Beach & Treasure Coast",
+      "type": "Chapter",
+      "website": "https://palmbeachdsa.org/"
+    },
+    {
+      "row": 54,
+      "state": "FL",
+      "chapter": "Pasco-Hernando",
+      "type": "Chapter",
+      "website": "https://pascohernando.dsachapters.org"
+    },
+    {
+      "row": 55,
+      "state": "FL",
+      "chapter": "Pensacola",
+      "type": "Chapter",
+      "website": "https://www.pensacoladsa.org/"
+    },
+    {
+      "row": 56,
+      "state": "FL",
+      "chapter": "Pinellas County",
+      "type": "Chapter",
+      "website": "https://www.pinellasdsa.org/"
+    },
+    {
+      "row": 57,
+      "state": "FL",
+      "chapter": "Polk County",
+      "type": "Chapter",
+      "website": "https://linktr.ee/PolkDSA"
+    },
+    {
+      "row": 58,
+      "state": "FL",
+      "chapter": "Space Coast",
+      "type": "Chapter",
+      "website": "http://socialists.space/"
+    },
+    {
+      "row": 59,
+      "state": "FL",
+      "chapter": "Tampa",
+      "type": "Chapter",
+      "website": "https://www.tampadsa.org"
+    },
+    {
+      "row": 60,
+      "state": "FL",
+      "chapter": "Volusia",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 61,
+      "state": "GA",
+      "chapter": "Athens Area",
+      "type": "Chapter",
+      "website": "https://athensareadsa.org"
+    },
+    {
+      "row": 62,
+      "state": "GA",
+      "chapter": "Atlanta",
+      "type": "Chapter",
+      "website": "https://atldsa.org"
+    },
+    {
+      "row": 63,
+      "state": "GA",
+      "chapter": "Middle Georgia",
+      "type": "Chapter",
+      "website": "https://www.mgdsa.org/"
+    },
+    {
+      "row": 64,
+      "state": "GA",
+      "chapter": "Northwest Georgia",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 65,
+      "state": "GA",
+      "chapter": "Savannah",
+      "type": "Chapter",
+      "website": "https://www.savgadsa.org/"
+    },
+    {
+      "row": 66,
+      "state": "GA",
+      "chapter": "West Georgia",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 67,
+      "state": "GA SC",
+      "chapter": "Augusta CSRA",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 68,
+      "state": "HI",
+      "chapter": "Big Island",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 69,
+      "state": "HI",
+      "chapter": "Maui",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 70,
+      "state": "HI",
+      "chapter": "O'ahu",
+      "type": "Chapter",
+      "website": "https://dsoahu.org/"
+    },
+    {
+      "row": 71,
+      "state": "IA",
+      "chapter": "Cedar Rapids",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 72,
+      "state": "IA",
+      "chapter": "Central Iowa",
+      "type": "Chapter",
+      "website": "https://centraliowadsa.org/"
+    },
+    {
+      "row": 73,
+      "state": "IA",
+      "chapter": "Heart of Iowa",
+      "type": "Organizing Committee",
+      "website": "https://heartofiowadsa.weebly.com/"
+    },
+    {
+      "row": 74,
+      "state": "IA",
+      "chapter": "Iowa City",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 75,
+      "state": "IA IL",
+      "chapter": "Quad Cities",
+      "type": "Chapter",
+      "website": "https://quadcitiesdsa.org"
+    },
+    {
+      "row": 76,
+      "state": "ID",
+      "chapter": "Boise",
+      "type": "Chapter",
+      "website": "https://www.boisedsa.org/"
+    },
+    {
+      "row": 77,
+      "state": "ID",
+      "chapter": "Southeast Idaho",
+      "type": "Chapter",
+      "website": "https://seidahodsa.org/"
+    },
+    {
+      "row": 78,
+      "state": "ID",
+      "chapter": "Southern Idaho",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 79,
+      "state": "ID",
+      "chapter": "Sun Valley",
+      "type": "Chapter",
+      "website": "https://sunvalleydsa.org"
+    },
+    {
+      "row": 80,
+      "state": "IL",
+      "chapter": "Champaign-Urbana",
+      "type": "Chapter",
+      "website": "https://cudsa.red/"
+    },
+    {
+      "row": 81,
+      "state": "IL",
+      "chapter": "Chicago",
+      "type": "Chapter",
+      "website": "http://www.chicagodsa.org/"
+    },
+    {
+      "row": 82,
+      "state": "IL",
+      "chapter": "East Central Illinois",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 83,
+      "state": "IL",
+      "chapter": "Lakefront",
+      "type": "Chapter",
+      "website": "https://www.lakefront-dsa.org/"
+    },
+    {
+      "row": 84,
+      "state": "IL",
+      "chapter": "Land of Lincoln",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 85,
+      "state": "IL",
+      "chapter": "Northern Illinois",
+      "type": "Chapter",
+      "website": "https://www.northernillinoisdsa.org/"
+    },
+    {
+      "row": 86,
+      "state": "IL",
+      "chapter": "Southern Illinois",
+      "type": "Chapter",
+      "website": "https://www.soillsocialists.org/"
+    },
+    {
+      "row": 87,
+      "state": "IL",
+      "chapter": "West Suburban Illinois",
+      "type": "Chapter",
+      "website": "https://wsil.dsachapters.org/"
+    },
+    {
+      "row": 88,
+      "state": "IN",
+      "chapter": "Bloomington Indiana",
+      "type": "Chapter",
+      "website": "https://bloomingtondsa.org"
+    },
+    {
+      "row": 89,
+      "state": "IN",
+      "chapter": "Central Indiana",
+      "type": "Chapter",
+      "website": "https://www.centralindsa.org/"
+    },
+    {
+      "row": 90,
+      "state": "IN",
+      "chapter": "Evansville Riverbend",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 91,
+      "state": "IN",
+      "chapter": "Fort Wayne",
+      "type": "Chapter",
+      "website": "https://www.fortwaynedsa.com"
+    },
+    {
+      "row": 92,
+      "state": "IN",
+      "chapter": "Greater Lafayette",
+      "type": "Chapter",
+      "website": "https://gldsa.org/"
+    },
+    {
+      "row": 93,
+      "state": "IN",
+      "chapter": "Northern Indiana",
+      "type": "Chapter",
+      "website": "https://northernindianadsa.org/"
+    },
+    {
+      "row": 94,
+      "state": "IN",
+      "chapter": "Northwest Indiana",
+      "type": "Chapter",
+      "website": "https://nwi-dsa.org"
+    },
+    {
+      "row": 95,
+      "state": "KS",
+      "chapter": "Flint Hills",
+      "type": "Chapter",
+      "website": "https://www.fhdsa.org"
+    },
+    {
+      "row": 96,
+      "state": "KS",
+      "chapter": "Lawrence",
+      "type": "Chapter",
+      "website": "https://www.lfkdsa.org/"
+    },
+    {
+      "row": 97,
+      "state": "KS",
+      "chapter": "Salina",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 98,
+      "state": "KS",
+      "chapter": "Southeast Kansas",
+      "type": "Chapter",
+      "website": "https://sekdsa.org/"
+    },
+    {
+      "row": 99,
+      "state": "KS",
+      "chapter": "Topeka",
+      "type": "Chapter",
+      "website": "https://tpdsa.org/"
+    },
+    {
+      "row": 100,
+      "state": "KS",
+      "chapter": "Wichita",
+      "type": "Chapter",
+      "website": "https://ictdsa.org/"
+    },
+    {
+      "row": 101,
+      "state": "KY",
+      "chapter": "Bluegrass",
+      "type": "Chapter",
+      "website": "https://dsabluegrass.org/"
+    },
+    {
+      "row": 102,
+      "state": "KY",
+      "chapter": "Madison County",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 103,
+      "state": "KY",
+      "chapter": "Owensboro",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 104,
+      "state": "KY IN",
+      "chapter": "Louisville",
+      "type": "Chapter",
+      "website": "https://www.dsalouisville.org/"
+    },
+    {
+      "row": 105,
+      "state": "LA",
+      "chapter": "Baton Rouge",
+      "type": "Chapter",
+      "website": "https://brdsa.org/"
+    },
+    {
+      "row": 106,
+      "state": "LA",
+      "chapter": "New Orleans",
+      "type": "Chapter",
+      "website": "http://dsaneworleans.org/"
+    },
+    {
+      "row": 107,
+      "state": "LA",
+      "chapter": "Shreveport-Bossier",
+      "type": "Chapter",
+      "website": "https://sites.google.com/view/dsashreveport/home"
+    },
+    {
+      "row": 108,
+      "state": "LA",
+      "chapter": "Southwest Louisiana",
+      "type": "Chapter",
+      "website": "http://dsaswla.com/"
+    },
+    {
+      "row": 109,
+      "state": "MA",
+      "chapter": "Berkshires",
+      "type": "Chapter",
+      "website": "https://www.berkshires-dsa.org/"
+    },
+    {
+      "row": 110,
+      "state": "MA",
+      "chapter": "Boston",
+      "type": "Chapter",
+      "website": "http://www.bostondsa.org/"
+    },
+    {
+      "row": 111,
+      "state": "MA",
+      "chapter": "Cape Cod",
+      "type": "Chapter",
+      "website": "http://www.capecoddsa.org/"
+    },
+    {
+      "row": 112,
+      "state": "MA",
+      "chapter": "River Valley",
+      "type": "Chapter",
+      "website": "https://rvdsa.org/"
+    },
+    {
+      "row": 113,
+      "state": "MA",
+      "chapter": "Worcester",
+      "type": "Chapter",
+      "website": "https://www.worcesterdsa.org/"
+    },
+    {
+      "row": 114,
+      "state": "MD",
+      "chapter": "Frederick",
+      "type": "Chapter",
+      "website": "https://dsafrederick.org/"
+    },
+    {
+      "row": 115,
+      "state": "MD",
+      "chapter": "Greater Baltimore",
+      "type": "Chapter",
+      "website": "https://www.gbdsa.org/"
+    },
+    {
+      "row": 116,
+      "state": "MD",
+      "chapter": "Southern Maryland",
+      "type": "Chapter",
+      "website": "https://somddsa.org/"
+    },
+    {
+      "row": 117,
+      "state": "ME",
+      "chapter": "Maine",
+      "type": "Chapter",
+      "website": "https://www.mainedsa.org/"
+    },
+    {
+      "row": 118,
+      "state": "MI",
+      "chapter": "Cadillac",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 119,
+      "state": "MI",
+      "chapter": "Grand Rapids",
+      "type": "Chapter",
+      "website": "https://www.grdsa.org"
+    },
+    {
+      "row": 120,
+      "state": "MI",
+      "chapter": "Greater Lansing",
+      "type": "Chapter",
+      "website": "https://www.greaterlansingdsa.org/"
+    },
+    {
+      "row": 121,
+      "state": "MI",
+      "chapter": "Huron Valley",
+      "type": "Chapter",
+      "website": "https://www.hvdsa.org/"
+    },
+    {
+      "row": 122,
+      "state": "MI",
+      "chapter": "Isabella County",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 123,
+      "state": "MI",
+      "chapter": "Metro Detroit",
+      "type": "Chapter",
+      "website": "https://detroitdsa.org/"
+    },
+    {
+      "row": 124,
+      "state": "MI",
+      "chapter": "Northwest Michigan",
+      "type": "Chapter",
+      "website": "https://nwmidsa.org"
+    },
+    {
+      "row": 125,
+      "state": "MI",
+      "chapter": "Saginaw Bay",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 126,
+      "state": "MI",
+      "chapter": "Southwest Michigan",
+      "type": "Chapter",
+      "website": "https://swmidsa.com"
+    },
+    {
+      "row": 127,
+      "state": "MI",
+      "chapter": "Upper Peninsula",
+      "type": "Organizing Committee",
+      "website": "https://www.updsa.org/"
+    },
+    {
+      "row": 128,
+      "state": "MN",
+      "chapter": "Brainerd Lakes Area",
+      "type": "Chapter",
+      "website": "https://linktr.ee/BLA.DSA"
+    },
+    {
+      "row": 129,
+      "state": "MN",
+      "chapter": "Greater Mankato",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 130,
+      "state": "MN",
+      "chapter": "Southeast Minnesota",
+      "type": "Chapter",
+      "website": "https://linktr.ee/semndsa"
+    },
+    {
+      "row": 131,
+      "state": "MN",
+      "chapter": "St. Cloud",
+      "type": "Chapter",
+      "website": "https://www.stclouddsa.org/"
+    },
+    {
+      "row": 132,
+      "state": "MN",
+      "chapter": "Twin Cities",
+      "type": "Chapter",
+      "website": "https://twincitiesdsa.org/"
+    },
+    {
+      "row": 133,
+      "state": "MN",
+      "chapter": "Twin Ports",
+      "type": "Chapter",
+      "website": "https://twinportsdsa.org/"
+    },
+    {
+      "row": 134,
+      "state": "MO",
+      "chapter": "Joplin Area",
+      "type": "Organizing Committee",
+      "website": "https://www.jpa-dsa.org/"
+    },
+    {
+      "row": 135,
+      "state": "MO",
+      "chapter": "Mid-Missouri",
+      "type": "Chapter",
+      "website": "https://www.midmissouridsa.org/"
+    },
+    {
+      "row": 136,
+      "state": "MO",
+      "chapter": "Ozarks",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 137,
+      "state": "MO",
+      "chapter": "Southeast Missouri",
+      "type": "Chapter",
+      "website": "https://southeastmodsa.org/"
+    },
+    {
+      "row": 138,
+      "state": "MO",
+      "chapter": "St. Louis",
+      "type": "Chapter",
+      "website": "https://stldsa.org/"
+    },
+    {
+      "row": 139,
+      "state": "MO KS",
+      "chapter": "Kansas City",
+      "type": "Chapter",
+      "website": "https://kcdsa.org/"
+    },
+    {
+      "row": 140,
+      "state": "MS",
+      "chapter": "Central Mississippi",
+      "type": "Chapter",
+      "website": "https://centralmsdsa.org"
+    },
+    {
+      "row": 141,
+      "state": "MS",
+      "chapter": "North Mississippi",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 142,
+      "state": "MS",
+      "chapter": "Southern Mississippi",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 143,
+      "state": "MT",
+      "chapter": "Bozeman",
+      "type": "Chapter",
+      "website": "https://bozemandsa.org/"
+    },
+    {
+      "row": 144,
+      "state": "MT",
+      "chapter": "Northwest Montana",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 145,
+      "state": "MT",
+      "chapter": "Western Montana",
+      "type": "Chapter",
+      "website": "https://westernmtdsa.org/index.html"
+    },
+    {
+      "row": 146,
+      "state": "NC",
+      "chapter": "Asheville",
+      "type": "Chapter",
+      "website": "https://avldsa.org/"
+    },
+    {
+      "row": 147,
+      "state": "NC",
+      "chapter": "Catawba Valley",
+      "type": "Organizing Committee",
+      "website": "https://actionnetwork.org/groups/catawba-valley-dsa"
+    },
+    {
+      "row": 148,
+      "state": "NC",
+      "chapter": "Piedmont Triad",
+      "type": "Chapter",
+      "website": "https://www.ptncdsa.org/"
+    },
+    {
+      "row": 149,
+      "state": "NC",
+      "chapter": "Triangle",
+      "type": "Chapter",
+      "website": "https://www.dsanc.org/"
+    },
+    {
+      "row": 150,
+      "state": "NC",
+      "chapter": "Wilmington",
+      "type": "Chapter",
+      "website": "https://www.wilmingtondsa.org/"
+    },
+    {
+      "row": 151,
+      "state": "NC SC",
+      "chapter": "Charlotte Metro",
+      "type": "Chapter",
+      "website": "http://www.charlottedsa.org/"
+    },
+    {
+      "row": 152,
+      "state": "ND MN",
+      "chapter": "Red River Valley",
+      "type": "Chapter",
+      "website": "https://www.rrvdsa.org/"
+    },
+    {
+      "row": 153,
+      "state": "NE",
+      "chapter": "Lincoln",
+      "type": "Chapter",
+      "website": "https://www.dsanebraska.org/"
+    },
+    {
+      "row": 154,
+      "state": "NE IA",
+      "chapter": "Omaha",
+      "type": "Chapter",
+      "website": "https://omahadsa.org/"
+    },
+    {
+      "row": 155,
+      "state": "NH",
+      "chapter": "Southern New Hampshire",
+      "type": "Chapter",
+      "website": "https://snh.dsachapters.org/"
+    },
+    {
+      "row": 156,
+      "state": "NH VT",
+      "chapter": "Upper Valley",
+      "type": "Chapter",
+      "website": "http://uppervalleydsa.org/"
+    },
+    {
+      "row": 157,
+      "state": "NJ",
+      "chapter": "Central New Jersey",
+      "type": "Chapter",
+      "website": "https://central.dsanj.org/"
+    },
+    {
+      "row": 158,
+      "state": "NJ",
+      "chapter": "North New Jersey",
+      "type": "Chapter",
+      "website": "https://north.dsanj.org/"
+    },
+    {
+      "row": 159,
+      "state": "NJ",
+      "chapter": "South New Jersey",
+      "type": "Chapter",
+      "website": "https://south.dsanj.org/"
+    },
+    {
+      "row": 160,
+      "state": "NM",
+      "chapter": "Albuquerque",
+      "type": "Chapter",
+      "website": "https://abqdsa.org/"
+    },
+    {
+      "row": 161,
+      "state": "NM",
+      "chapter": "San Juan County",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 162,
+      "state": "NM",
+      "chapter": "Santa Fe",
+      "type": "Chapter",
+      "website": "https://www.dsasantafe.org/"
+    },
+    {
+      "row": 163,
+      "state": "NV",
+      "chapter": "Las Vegas",
+      "type": "Chapter",
+      "website": "https://lvdsa.org"
+    },
+    {
+      "row": 164,
+      "state": "NV",
+      "chapter": "Northern Nevada",
+      "type": "Chapter",
+      "website": "https://www.nndsa.org/"
+    },
+    {
+      "row": 165,
+      "state": "NY",
+      "chapter": "Broome",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 166,
+      "state": "NY",
+      "chapter": "Buffalo",
+      "type": "Chapter",
+      "website": "https://buffalodsa.org"
+    },
+    {
+      "row": 167,
+      "state": "NY",
+      "chapter": "Capital District",
+      "type": "Chapter",
+      "website": "https://capitaldistrictdsa.org"
+    },
+    {
+      "row": 168,
+      "state": "NY",
+      "chapter": "High Peaks",
+      "type": "Chapter",
+      "website": "https://www.highpeaksdsa.org/"
+    },
+    {
+      "row": 169,
+      "state": "NY",
+      "chapter": "Ithaca",
+      "type": "Chapter",
+      "website": "https://ithacadsa.org/"
+    },
+    {
+      "row": 170,
+      "state": "NY",
+      "chapter": "Long Island",
+      "type": "Chapter",
+      "website": "https://www.lidsa.org/"
+    },
+    {
+      "row": 171,
+      "state": "NY",
+      "chapter": "Lower Hudson Valley",
+      "type": "Chapter",
+      "website": "http://lhvdsa.org"
+    },
+    {
+      "row": 172,
+      "state": "NY",
+      "chapter": "Mid-Hudson Valley",
+      "type": "Chapter",
+      "website": "https://mhvdsa.org/"
+    },
+    {
+      "row": 173,
+      "state": "NY",
+      "chapter": "New York City",
+      "type": "Chapter",
+      "website": "http://www.socialists.nyc/"
+    },
+    {
+      "row": 174,
+      "state": "NY",
+      "chapter": "Rochester",
+      "type": "Chapter",
+      "website": "https://rocdsa.org , https://linktr.ee/ROCDSA"
+    },
+    {
+      "row": 175,
+      "state": "NY",
+      "chapter": "Syracuse",
+      "type": "Chapter",
+      "website": "https://syracusedsa.org"
+    },
+    {
+      "row": 176,
+      "state": "NY",
+      "chapter": "Troy",
+      "type": "Chapter",
+      "website": "https://troydsa.org/"
+    },
+    {
+      "row": 177,
+      "state": "OH",
+      "chapter": "Akron",
+      "type": "Chapter",
+      "website": "https://www.akrondsa.org/"
+    },
+    {
+      "row": 178,
+      "state": "OH",
+      "chapter": "Bowling Green",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 179,
+      "state": "OH",
+      "chapter": "Cleveland",
+      "type": "Chapter",
+      "website": "https://dsacleveland.org/"
+    },
+    {
+      "row": 180,
+      "state": "OH",
+      "chapter": "Columbus",
+      "type": "Chapter",
+      "website": "https://www.columbusdsa.org"
+    },
+    {
+      "row": 181,
+      "state": "OH",
+      "chapter": "Dayton-Miami Valley",
+      "type": "Chapter",
+      "website": "https://www.dsadayton.org/"
+    },
+    {
+      "row": 182,
+      "state": "OH",
+      "chapter": "Mahoning Valley",
+      "type": "Chapter",
+      "website": "http://www.mahoningvalleydsa.org/"
+    },
+    {
+      "row": 183,
+      "state": "OH",
+      "chapter": "Northwest Ohio",
+      "type": "Chapter",
+      "website": "https://nwohiodsa.org/"
+    },
+    {
+      "row": 184,
+      "state": "OH",
+      "chapter": "Scioto Valley",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 185,
+      "state": "OH",
+      "chapter": "Wooster",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 186,
+      "state": "OH KY",
+      "chapter": "Metro Cincinnati & Northern Kentucky",
+      "type": "Chapter",
+      "website": "https://dsacincy.org/"
+    },
+    {
+      "row": 187,
+      "state": "OK",
+      "chapter": "Nine Tribes Area",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 188,
+      "state": "OK",
+      "chapter": "Oklahoma City",
+      "type": "Chapter",
+      "website": "https://okcdsa.org/"
+    },
+    {
+      "row": 189,
+      "state": "OK",
+      "chapter": "Southeastern Oklahoma",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 190,
+      "state": "OK",
+      "chapter": "Stillwater",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 191,
+      "state": "OK",
+      "chapter": "Tulsa",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 192,
+      "state": "OR",
+      "chapter": "Central Oregon",
+      "type": "Chapter",
+      "website": "https://www.centraloregondsa.org/"
+    },
+    {
+      "row": 193,
+      "state": "OR",
+      "chapter": "Eugene-Springfield",
+      "type": "Chapter",
+      "website": "https://dsaeugene.org/"
+    },
+    {
+      "row": 194,
+      "state": "OR",
+      "chapter": "Portland",
+      "type": "Chapter",
+      "website": "https://portlanddsa.org/"
+    },
+    {
+      "row": 195,
+      "state": "OR",
+      "chapter": "Salem",
+      "type": "Chapter",
+      "website": "https://www.salemdsa.org/"
+    },
+    {
+      "row": 196,
+      "state": "OR",
+      "chapter": "Southern Oregon",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 197,
+      "state": "PA",
+      "chapter": "Centre County",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 198,
+      "state": "PA",
+      "chapter": "Erie",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 199,
+      "state": "PA",
+      "chapter": "Lehigh Valley",
+      "type": "Chapter",
+      "website": "https://www.lehighvalleydsa.org/"
+    },
+    {
+      "row": 200,
+      "state": "PA",
+      "chapter": "Northeast Pennsylvania",
+      "type": "Chapter",
+      "website": "https://www.nepadsa.org/"
+    },
+    {
+      "row": 201,
+      "state": "PA",
+      "chapter": "Philadelphia",
+      "type": "Chapter",
+      "website": "https://www.phillydsa.org/"
+    },
+    {
+      "row": 202,
+      "state": "PA",
+      "chapter": "Pittsburgh",
+      "type": "Chapter",
+      "website": "https://www.pghdsa.org/"
+    },
+    {
+      "row": 203,
+      "state": "PA",
+      "chapter": "South Central PA",
+      "type": "Chapter",
+      "website": "https://lancdsa.org"
+    },
+    {
+      "row": 204,
+      "state": "RI",
+      "chapter": "Rhode Island",
+      "type": "Chapter",
+      "website": "https://ridsa.org/"
+    },
+    {
+      "row": 205,
+      "state": "SC",
+      "chapter": "Charleston",
+      "type": "Chapter",
+      "website": "https://charlestondsa.org/"
+    },
+    {
+      "row": 206,
+      "state": "SC",
+      "chapter": "Columbia",
+      "type": "Chapter",
+      "website": "https://dsaofcolumbia.org/"
+    },
+    {
+      "row": 207,
+      "state": "SC",
+      "chapter": "Upstate South Carolina",
+      "type": "Chapter",
+      "website": "https://www.dsaupstatesc.org"
+    },
+    {
+      "row": 208,
+      "state": "SD",
+      "chapter": "Sioux Empire",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 209,
+      "state": "TN",
+      "chapter": "Chattanooga",
+      "type": "Chapter",
+      "website": "https://chattanoogadsa.org/"
+    },
+    {
+      "row": 210,
+      "state": "TN",
+      "chapter": "Knoxville",
+      "type": "Chapter",
+      "website": "https://knoxvilledsa.org"
+    },
+    {
+      "row": 211,
+      "state": "TN",
+      "chapter": "Memphis Midsouth",
+      "type": "Chapter",
+      "website": "https://memphisdsa.org/"
+    },
+    {
+      "row": 212,
+      "state": "TN",
+      "chapter": "Middle Tennessee",
+      "type": "Chapter",
+      "website": "https://midtndsa.org/"
+    },
+    {
+      "row": 213,
+      "state": "TN",
+      "chapter": "Northeast Tennessee",
+      "type": "Chapter",
+      "website": "https://northeasttndsa.org"
+    },
+    {
+      "row": 214,
+      "state": "TX",
+      "chapter": "Austin",
+      "type": "Chapter",
+      "website": "http://www.austindsa.org/"
+    },
+    {
+      "row": 215,
+      "state": "TX",
+      "chapter": "Brazos",
+      "type": "Organizing Committee",
+      "website": "https://brazosdsa.org/"
+    },
+    {
+      "row": 216,
+      "state": "TX",
+      "chapter": "Concho Valley",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 217,
+      "state": "TX",
+      "chapter": "Corpus Christi",
+      "type": "Chapter",
+      "website": "http://www.corpuschristidsa.org/"
+    },
+    {
+      "row": 218,
+      "state": "TX",
+      "chapter": "Fort Worth",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 219,
+      "state": "TX",
+      "chapter": "Houston",
+      "type": "Chapter",
+      "website": "https://www.houstondsa.org"
+    },
+    {
+      "row": 220,
+      "state": "TX",
+      "chapter": "Laredo",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 221,
+      "state": "TX",
+      "chapter": "Lubbock",
+      "type": "Chapter",
+      "website": "https://lbkdsa.org/"
+    },
+    {
+      "row": 222,
+      "state": "TX",
+      "chapter": "North Texas",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 223,
+      "state": "TX",
+      "chapter": "Rio Grande Valley",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 224,
+      "state": "TX",
+      "chapter": "San Antonio",
+      "type": "Chapter",
+      "website": "https://www.sanantoniodsa.org/"
+    },
+    {
+      "row": 225,
+      "state": "TX, NM",
+      "chapter": "Paso del Norte",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 226,
+      "state": "UT",
+      "chapter": "Salt Lake",
+      "type": "Chapter",
+      "website": "https://saltlakedsa.org/"
+    },
+    {
+      "row": 227,
+      "state": "VA",
+      "chapter": "Charlottesville",
+      "type": "Chapter",
+      "website": "https://charlottesvilledsa.com/"
+    },
+    {
+      "row": 228,
+      "state": "VA",
+      "chapter": "New River Valley",
+      "type": "Chapter",
+      "website": "https://www.nrvdsa.org/"
+    },
+    {
+      "row": 229,
+      "state": "VA",
+      "chapter": "Richmond",
+      "type": "Chapter",
+      "website": "https://www.dsarichmond.org/"
+    },
+    {
+      "row": 230,
+      "state": "VA",
+      "chapter": "Shenandoah Valley",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 231,
+      "state": "VA",
+      "chapter": "Tidewater",
+      "type": "Chapter",
+      "website": "http://tidewaterdsa.com/"
+    },
+    {
+      "row": 232,
+      "state": "VT",
+      "chapter": "Green Mountain",
+      "type": "Chapter",
+      "website": "https://www.greenmountaindsa.org"
+    },
+    {
+      "row": 233,
+      "state": "WA",
+      "chapter": "North Olympic",
+      "type": "Chapter",
+      "website": "https://noroly.chapters.dsausa.org/"
+    },
+    {
+      "row": 234,
+      "state": "WA",
+      "chapter": "Olympia",
+      "type": "Chapter",
+      "website": "https://olydsa.org/"
+    },
+    {
+      "row": 235,
+      "state": "WA",
+      "chapter": "Palouse",
+      "type": "Chapter",
+      "website": "https://palousedsa.org/"
+    },
+    {
+      "row": 236,
+      "state": "WA",
+      "chapter": "Seattle",
+      "type": "Chapter",
+      "website": "https://seattledsa.org/"
+    },
+    {
+      "row": 237,
+      "state": "WA",
+      "chapter": "Skagit County",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 238,
+      "state": "WA",
+      "chapter": "Snohomish County",
+      "type": "Chapter",
+      "website": "https://www.snocodsa.org/"
+    },
+    {
+      "row": 239,
+      "state": "WA",
+      "chapter": "Spokane",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 240,
+      "state": "WA",
+      "chapter": "Tacoma & Pierce County",
+      "type": "Chapter",
+      "website": "https://tacomadsa.org/"
+    },
+    {
+      "row": 241,
+      "state": "WA",
+      "chapter": "Walla Walla Valley",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 242,
+      "state": "WA",
+      "chapter": "West Sound",
+      "type": "Chapter",
+      "website": "https://westsound.dsachapters.org/"
+    },
+    {
+      "row": 243,
+      "state": "WA",
+      "chapter": "Whatcom County",
+      "type": "Chapter",
+      "website": "https://whatcomdsa.org/"
+    },
+    {
+      "row": 244,
+      "state": "WI",
+      "chapter": "Central Wisconsin",
+      "type": "Organizing Committee",
+      "website": ""
+    },
+    {
+      "row": 245,
+      "state": "WI",
+      "chapter": "Chippewa Valley",
+      "type": "Chapter",
+      "website": ""
+    },
+    {
+      "row": 246,
+      "state": "WI",
+      "chapter": "Coulee Region",
+      "type": "Chapter",
+      "website": "http://coulee.dsawi.org/"
+    },
+    {
+      "row": 247,
+      "state": "WI",
+      "chapter": "Madison Area",
+      "type": "Chapter",
+      "website": "https://madison-dsa.org/"
+    },
+    {
+      "row": 248,
+      "state": "WI",
+      "chapter": "Milwaukee",
+      "type": "Chapter",
+      "website": "https://milwaukee.dsawi.org/"
+    },
+    {
+      "row": 249,
+      "state": "WI",
+      "chapter": "North East Wisconsin",
+      "type": "Chapter",
+      "website": "https://www.greenbaydsawi.org/"
+    },
+    {
+      "row": 250,
+      "state": "WI",
+      "chapter": "Rock River",
+      "type": "Chapter",
+      "website": "https://rockriver.dsawi.org/"
+    },
+    {
+      "row": 251,
+      "state": "WV, OH",
+      "chapter": "Wheeling",
+      "type": "Organizing Committee",
+      "website": ""
+    }
+  ]
+}

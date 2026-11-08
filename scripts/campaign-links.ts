@@ -5,6 +5,7 @@ import fs from "node:fs";
 import type { Member } from "@/lib/data";
 import { bare } from "@/lib/names";
 import { USER_AGENT } from "@/lib/site";
+import { assertFederalOffices } from "./federal-offices";
 
 const DATA = "data/members.json";
 const FEC = "https://api.open.fec.gov/v1";
@@ -83,6 +84,7 @@ async function main() {
   if (!process.env.DATA_GOV_API_KEY) throw new Error("set DATA_GOV_API_KEY (free at https://api.data.gov/signup/)");
   const all = process.argv.includes("--all");
   const data = JSON.parse(fs.readFileSync(DATA, "utf8")) as { members: Member[] };
+  assertFederalOffices(data.members);
   const added: string[] = [];
   const problems: string[] = [];
 

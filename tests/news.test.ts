@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import type { Member } from "@/lib/data";
-import { aboutMember, newsUrl, parseRss, searchName, type Headline } from "@/lib/news";
+import { aboutMember, newsUrl, parseRss, searchName, stateNewsUrl, type Headline } from "@/lib/news";
 
 const member = (o: Partial<Member>): Member => ({
   id: "x", name: "Melat Kiros", office: "house", incumbent: false, state: "CO", district: "1",
@@ -19,6 +19,11 @@ test("newsUrl adds office and place context over 90 days", () => {
   const q = (m: Member, place: string) => new URL(newsUrl(m, place)).searchParams.get("q")!;
   assert.equal(q(member({}), "Colorado"), '"Melat Kiros" (Congress OR Rep OR Congressman OR Congresswoman OR House OR Democrat OR "Colorado") when:90d');
   assert.match(q(member({ name: "Troy Jackson", office: "senate", district: null }), "Maine"), /^"Troy Jackson" \(Senate OR Sen OR .* OR "Maine"\) when:90d$/);
+});
+
+test("state news uses the state and chamber as context", () => {
+  const q = new URL(stateNewsUrl({ name: "Test Person", stateName: "Nebraska", chamber: "Legislature" })).searchParams.get("q");
+  assert.equal(q, '"Test Person" "Nebraska" ("Legislature" OR legislature OR governor) when:90d');
 });
 
 test("parseRss strips the source suffix and decodes entities", () => {

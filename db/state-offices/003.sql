@@ -1,0 +1,11 @@
+ALTER TABLE state_offices.people ADD COLUMN portrait_url text CHECK (portrait_url IS NULL OR portrait_url ~ '^https://');
+ALTER TABLE state_offices.people ADD COLUMN portrait_credit text;
+ALTER TABLE state_offices.people ADD COLUMN portrait_source_id text;
+ALTER TABLE state_offices.people ADD CONSTRAINT portrait_source FOREIGN KEY (batch_id, portrait_source_id) REFERENCES state_offices.sources(batch_id, id) DEFERRABLE INITIALLY DEFERRED;
+ALTER TABLE state_offices.people ADD CONSTRAINT portrait_provenance CHECK ((portrait_url IS NULL AND portrait_credit IS NULL AND portrait_source_id IS NULL) OR (portrait_url IS NOT NULL AND portrait_credit IS NOT NULL AND portrait_source_id IS NOT NULL));
+ALTER TABLE state_offices.terms ADD COLUMN contact_source_id text;
+ALTER TABLE state_offices.terms ADD COLUMN campaign_source_id text;
+ALTER TABLE state_offices.terms ADD CONSTRAINT contact_source FOREIGN KEY (batch_id, contact_source_id) REFERENCES state_offices.sources(batch_id, id);
+ALTER TABLE state_offices.terms ADD CONSTRAINT campaign_source FOREIGN KEY (batch_id, campaign_source_id) REFERENCES state_offices.sources(batch_id, id);
+ALTER TABLE state_offices.terms ADD CONSTRAINT contact_provenance CHECK ((contact_url IS NULL) = (contact_source_id IS NULL));
+ALTER TABLE state_offices.terms ADD CONSTRAINT campaign_provenance CHECK ((campaign_url IS NULL) = (campaign_source_id IS NULL));

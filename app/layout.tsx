@@ -10,11 +10,12 @@ import { NavLinks } from "@/components/NavLinks";
 import { lastChecked, searchEntries } from "@/lib/data";
 import { formatChecked } from "@/lib/freshness";
 import { REPO_URL, SITE_NAME } from "@/lib/site";
+import { statePublicationReviewedAt, statePublicationVersion } from "@/lib/state-offices";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: { default: SITE_NAME, template: `%s · ${SITE_NAME}` },
-  description: "Who the progressives in Congress are, how to back them, and how to get involved locally.",
+  description: statePublicationVersion ? "Progressives in Congress and state offices, how to back them, and how to get involved locally." : "Who the progressives in Congress are, how to back them, and how to get involved locally.",
 };
 
 export const viewport: Viewport = { themeColor: "#eef0f9" };
@@ -43,7 +44,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="site-footer">
           <div className="page-wrap page-wrap--wide">
             <div className="footer-inner">
-              <p>Last checked {formatChecked(lastChecked)}.</p>
+              <p>{statePublicationVersion ? `Congress checked ${formatChecked(lastChecked)} · state coverage reviewed ${statePublicationReviewedAt?.slice(0, 10)}.` : `Last checked ${formatChecked(lastChecked)}.`}</p>
               <nav className="footer-links" aria-label="Site">
                 <Link href="/faq">faq</Link>
                 <Link href="/method">method and sources</Link>

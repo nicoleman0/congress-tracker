@@ -8,13 +8,16 @@ import { ActionList, STATUS_TEXT } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, campaignAction } from "@/lib/actions";
 import { formatChecked } from "@/lib/freshness";
 import { allMembers, getGroup, getMember, getPhoto, getState, platformOf, seatLabel } from "@/lib/data";
+import { getStateMember, stateMembers } from "@/lib/state-offices";
+import { StateMemberProfile } from "@/components/StateMemberProfile";
 
 export function generateStaticParams() {
-  return allMembers().map((m) => ({ id: m.id }));
+  return [...new Set([...allMembers(), ...stateMembers()].map((m) => m.id))].map((id) => ({ id }));
 }
 
 export async function generateMetadata({ params }: PageProps<"/member/[id]">) {
-  const m = getMember((await params).id);
+  const id = (await params).id;
+  const m = getMember(id) ?? getStateMember(id);
   return { title: m ? m.name : "Not found" };
 }
 
@@ -22,7 +25,10 @@ export async function generateMetadata({ params }: PageProps<"/member/[id]">) {
 export const instant = false;
 
 export default async function MemberPage({ params }: PageProps<"/member/[id]">) {
-  const m = getMember((await params).id);
+  const id = (await params).id;
+  const stateMember = getStateMember(id);
+  if (stateMember) return <StateMemberProfile member={stateMember} otherTerms={stateMembers().filter((m) => m.id === id && m.term.id !== stateMember.term.id)} stateName={getState(stateMember.state)!.name} />;
+  const m = getMember(id);
   if (!m) notFound();
   const state = getState(m.state)!;
   const campaign = campaignAction(m);
