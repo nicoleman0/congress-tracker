@@ -22,7 +22,7 @@ type Entry = {
 };
 type Research = { state: string; researched_at: string; chambers: Record<string, string>; endorsements: Entry[]; coverage: { group: string; status: string; checked: string[]; note: string }[]; gaps: string[] };
 
-export function shapeProblems(r: Research): string[] {
+export function shapeProblems(r: Research, today = new Date().toISOString().slice(0, 10)): string[] {
   const p: string[] = [];
   const add = (cond: unknown, msg: string) => { if (cond) p.push(msg); };
   const cite = (c: Cite | null | undefined, where: string, required: boolean) => {
@@ -52,6 +52,9 @@ export function shapeProblems(r: Research): string[] {
     add(e.current.term_start !== null && !DATE.test(e.current.term_start), `${at}: term_start must be YYYY-MM-DD`);
     add(e.current.term_end !== null && !DATE.test(e.current.term_end), `${at}: term_end must be YYYY-MM-DD`);
     cite(e.current.service_source, `${at} service`, e.current.status === "serving");
+    const { term_start: start, term_end: end } = e.current;
+    const expected = end && end <= today ? "not_serving" : start && start <= today ? "serving" : start ? "incoming" : null;
+    add(expected && e.current.status !== "unknown" && e.current.status !== expected, `${at}: status ${e.current.status} contradicts term ${start} to ${end}`);
     add(e.current.contact_url !== null && !/^https:\/\//.test(e.current.contact_url ?? ""), `${at}: contact_url must be https`);
   });
   const groups = r.coverage.map((c) => c.group).sort();

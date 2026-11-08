@@ -14,7 +14,11 @@ const good = () => ({
 });
 
 test("a well-formed research file has no shape problems", () => {
-  assert.deepEqual(shapeProblems(good()), []);
+  assert.deepEqual(shapeProblems(good(), "2025-06-01"), []);
+});
+
+test("serving status must match the term dates", () => {
+  assert.ok(shapeProblems(good(), "2027-01-01").some((p) => /status serving contradicts term/.test(p)));
 });
 
 test("research shape catches unsourced wins and contradictory coverage", () => {
