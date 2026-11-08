@@ -435,6 +435,16 @@ p {
 .list li + li { margin-top: 0.35rem; }
 .list li::marker { color: var(--ultra); }
 
+.platform { max-width: 68ch; margin: 0; }
+.platform-issue { padding: var(--s-2) 0; border-top: 1px solid var(--rule); }
+.platform dt { font: 700 1.05rem var(--font-display); margin-bottom: 0.25rem; }
+.platform dd { margin: 0; }
+.platform dd + dd { margin-top: 0.35rem; }
+.platform-source { font-size: 0.9rem; color: var(--muted); white-space: nowrap; }
+.platform-source:hover { color: var(--ultra); }
+.platform-checked { font-size: 0.85rem; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.platform-stale { font-size: 0.85rem; color: var(--ultra); font-style: italic; white-space: nowrap; }
+
 /* ============================================================
    Member rows: hairline-ruled, whole row clickable.
    ============================================================ */
@@ -505,6 +515,7 @@ p {
 .chip--pending { border-style: dashed; }
 .chip--incumbent { border-color: var(--rule); color: var(--muted); }
 .chip--lost { border-color: var(--rule); color: var(--muted); text-decoration: line-through; }
+.chip--record { font-size: 0.75rem; vertical-align: 0.1em; }
 
 /* ============================================================
    Action rows: outbound links with a muted detail line.

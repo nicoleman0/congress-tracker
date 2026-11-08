@@ -1,0 +1,56 @@
+# Weekly recheck of platform stances. Merges refreshed dates (which redeploys the site) and keeps one open
+# issue listing stances whose source changed or went offline, for a person to review.
+name: Recheck platform sources
+
+on:
+  schedule:
+    - cron: "0 15 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/check-platform.ts report.md
+      - name: Rebuild bill records
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: |
+          if [ -z "$CONGRESS_API_KEY" ]; then echo "CONGRESS_API_KEY not set; bill records not refreshed." | tee -a report.md; exit 0; fi
+          npx tsx scripts/record.ts | tee -a report.md
+      - run: npm test
+      - name: Open and merge the recheck PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet data/; then echo "No data changes."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898182+github-actions[bot]@users.noreply.github.com"
+          git checkout -B platform-recheck
+          git commit -am "Recheck platform sources $(date -u +%F)"
+          git push --force origin platform-recheck
+          gh pr create --head platform-recheck --base main --title "Recheck platform sources" --body-file report.md
+          gh pr merge platform-recheck --squash --delete-branch
+      - name: Report drift
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Platform sources need review"
+          existing=$(gh issue list --state open --search "$title in:title" --json number -q '.[0].number')
+          if grep -q "^- " report.md; then
+            if [ -n "$existing" ]; then gh issue edit "$existing" --body-file report.md
+            else gh issue create --title "$title" --body-file report.md; fi
+          elif [ -n "$existing" ]; then
+            gh issue close "$existing" --comment "All sources confirmed on $(date -u +%F)."
+          fi

@@ -1,5 +1,6 @@
 // The only module that knows where roster data lives. Swap this for a database later.
 import raw from "@/data/members.json";
+import rawPlatform from "@/data/platform.json";
 import type { SearchEntry } from "@/lib/search";
 import { STATES, type State } from "@/lib/states";
 
@@ -24,6 +25,15 @@ export type Member = {
   campaign?: Campaign;
   checkedAt: string;
 };
+
+// "campaign": the member's campaign site. "office": their official House or Senate site.
+// "congress": a vote or cosponsorship on the public record.
+export type StanceKind = "campaign" | "office" | "congress";
+// `quote` is the passage on the source page the stance paraphrases; scripts/check-platform.ts rechecks it.
+// Record stances have none: scripts/record.ts rebuilds them from Congress.gov.
+export type Stance = { issue: string; text: string; kind: StanceKind; quote?: string; source: Source; checkedAt: string };
+const RECORD_HOSTS = /^https:\/\/(www\.)?(congress\.gov|clerk\.house\.gov|senate\.gov)\//;
+const OFFICE_HOSTS = /^https:\/\/[a-z-]+\.(house|senate)\.gov\//;
 
 // Unresolved races older than this fail the build (scripts/check-stale.ts).
 export const STALE_AFTER_DAYS = 3;
@@ -59,7 +69,24 @@ function load() {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(m.checkedAt)) fail(`${m.id}: checkedAt must be YYYY-MM-DD`);
     return m;
   });
-  return { groups, members };
+
+  const issues = new Map(Object.entries(rawPlatform.issues));
+  const stances = new Map<string, Stance[]>();
+  for (const [id, list] of Object.entries(rawPlatform.stances as Record<string, Stance[]>)) {
+    if (!ids.has(id)) fail(`platform: unknown member ${id}`);
+    for (const s of list) {
+      if (!issues.has(s.issue)) fail(`platform ${id}: unknown issue ${s.issue}`);
+      if (!s.text.trim()) fail(`platform ${id}: empty stance on ${s.issue}`);
+      if (!["campaign", "office", "congress"].includes(s.kind)) fail(`platform ${id}: bad kind ${s.kind}`);
+      if (!s.source?.url.startsWith("https://")) fail(`platform ${id}: source needs an https url`);
+      if (s.kind === "congress" && !RECORD_HOSTS.test(s.source.url)) fail(`platform ${id}: congress stance must cite congress.gov, clerk.house.gov or senate.gov`);
+      if (s.kind !== "congress" && !s.quote?.trim()) fail(`platform ${id}: ${s.issue} needs the quote it paraphrases`);
+      if (s.kind === "office" && !OFFICE_HOSTS.test(s.source.url)) fail(`platform ${id}: office stance must cite a house.gov or senate.gov member site`);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(s.checkedAt)) fail(`platform ${id}: checkedAt must be YYYY-MM-DD`);
+    }
+    stances.set(id, list);
+  }
+  return { groups, members, issues, stances };
 }
 
 export function staleMembers(members: Member[], now: Date): Member[] {
@@ -75,6 +102,14 @@ export const allMembers = (): Member[] => db.members;
 export const getMember = (id: string) => db.members.find((m) => m.id === id);
 export const getGroup = (code: string) => db.groups.get(code)!;
 export const groupList = () => [...db.groups.values()];
+
+// A member's stances grouped by issue, in the fixed issue order.
+export function platformOf(id: string): { issue: string; name: string; stances: Stance[] }[] {
+  const list = db.stances.get(id) ?? [];
+  return [...db.issues]
+    .map(([issue, name]) => ({ issue, name, stances: list.filter((s) => s.issue === issue) }))
+    .filter((g) => g.stances.length > 0);
+}
 
 export const newClass = () =>
   db.members.filter((m) => !m.incumbent && (m.status === "won" || m.status === "leading"));
