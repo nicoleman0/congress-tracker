@@ -75,7 +75,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
       </section>
 
       <section className="section" aria-labelledby="plug-in-title">
-        <h2 id="plug-in-title">Contact and plug in</h2>
+        <h2 id="plug-in-title">Get involved</h2>
         <ActionList actions={[m.office === "senate" ? CONTACT_SENATE : CONTACT_HOUSE, ...PLUG_IN]} />
       </section>
 

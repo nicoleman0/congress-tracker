@@ -11,7 +11,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: { default: SITE_NAME, template: `%s · ${SITE_NAME}` },
-  description: "Who the progressives in Congress are, how to back them, and where to plug in locally.",
+  description: "Who the progressives in Congress are, how to back them, and how to get involved locally.",
 };
 
 export const viewport: Viewport = { themeColor: "#eef0f9" };
@@ -41,6 +41,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="footer-inner">
             <p>Last checked {lastChecked}.</p>
             <nav className="footer-links" aria-label="Site">
+              <Link href="/faq">faq</Link>
               <Link href="/method">method and sources</Link>
               <a href={REPO_URL}>source code</a>
             </nav>

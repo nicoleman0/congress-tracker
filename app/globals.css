@@ -401,6 +401,9 @@ p {
 .section { margin: var(--s-5) 0; }
 .section > h2 { margin: 0 0 var(--s-2); }
 .section > p { max-width: 68ch; }
+.faq > section { margin: var(--s-4) 0; }
+.faq h2 { font-size: 1.35rem; margin: 0 0 var(--s-1); }
+.faq p { max-width: 68ch; margin: 0; }
 .section-title {
   font-size: clamp(2rem, 3.5vw, 2.75rem);
   font-weight: 800;
