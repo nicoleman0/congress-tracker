@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import type { Member } from "@/lib/data";
-import { normalizeSite, pickCandidate, type FecCandidate } from "../scripts/campaign-links";
+import { hijacked, normalizeSite, pickCandidate, type FecCandidate } from "../scripts/campaign-links";
 
 const member = (o: Partial<Member>): Member => ({
   id: "x", name: "Melat Kiros", office: "house", incumbent: false, state: "CO", district: "1",
@@ -18,6 +18,12 @@ test("normalizeSite: bare Form 1 hosts become https, .gov and junk are rejected"
   assert.equal(normalizeSite(""), null);
   assert.equal(normalizeSite(null), null);
   assert.equal(normalizeSite("not a url at all"), null);
+});
+
+test("hijacked: known spam hosts are refused with or without www", () => {
+  assert.equal(hijacked("https://tedlieu.com"), true);
+  assert.equal(hijacked("https://www.maxinewatersforcongress.com"), true);
+  assert.equal(hijacked("https://www.kirosforco.com"), false);
 });
 
 test("pickCandidate: matches on district, last name and first initial or nickname", () => {
