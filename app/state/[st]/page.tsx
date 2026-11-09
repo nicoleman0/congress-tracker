@@ -4,7 +4,6 @@ import { ActionList, MemberList } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, OPPOSE, PLUG_IN } from "@/lib/actions";
 import { getState, membersIn } from "@/lib/data";
 import { STATES } from "@/lib/states";
-import { formatChecked } from "@/lib/freshness";
 import { coverageComplete, GROUP_NAMES, stateCoverage, stateMembers, statePublicationVersion, stateSeatLabel } from "@/lib/state-offices";
 
 export function generateStaticParams() {
@@ -29,6 +28,9 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
   const legislators = local.filter((m) => m.seat.office !== "governor" && m.term.status !== "unresolved");
   const races = local.filter((m) => m.term.status === "unresolved");
   const gaps = stateCoverage(state.code).filter((c) => !coverageComplete(c));
+  const unresearched = gaps.filter((c) => c.status === "in_progress"), blocked = gaps.filter((c) => c.status === "blocked");
+  const list = (rows: typeof gaps) => new Intl.ListFormat("en", { type: "conjunction" }).format(rows.map((c) => GROUP_NAMES[c.group_code]));
+  const checkedOn = gaps.length ? new Date(gaps.map((c) => c.checked_at).sort()[0]).toLocaleDateString("en-US", { dateStyle: "long", timeZone: "UTC" }) : "";
   const senators = members.filter((m) => m.office === "senate");
   const house = members
     .filter((m) => m.office === "house")
@@ -81,8 +83,12 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
       {statePublicationVersion && gaps.length > 0 && (
         <section className="section" aria-labelledby="gaps-title">
           <h2 id="gaps-title">Not fully checked</h2>
-          <p className="jd-note">State-office endorsements from these groups may be missing here.</p>
-          <ul className="roster jd-ruled">{gaps.map((c) => <li key={c.group_code}>{GROUP_NAMES[c.group_code]}<span className="roster-seat jd-secondary">{c.status === "blocked" ? "Some sources could not be checked." : "Not yet researched."} As of {formatChecked(c.checked_at)}.</span></li>)}</ul>
+          <p className="jd-note">
+            {gaps.length === 6 && unresearched.length === 6
+              ? "We haven't yet researched state-office endorsements here."
+              : [unresearched.length > 0 && `Not yet researched: ${list(unresearched)}.`, blocked.length > 0 && `Some sources couldn't be checked for ${list(blocked)}.`].filter(Boolean).join(" ")}{" "}
+            Endorsements may be missing. As of {checkedOn}.
+          </p>
         </section>
       )}
 
