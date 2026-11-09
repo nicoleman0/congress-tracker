@@ -86,4 +86,4 @@ export const stateListings = () => {
     .map((m) => ({ ...m, reelected: m.term.status === "serving" && all.some((o) => o.term.status === "incoming" && key(o) === key(m)) }));
 };
 export const stateStatusNote = (m: StateMember & { reelected: boolean }) => (m.reelected ? " · Re-elected" : m.term.status === "incoming" ? " · Incoming" : "");
-export const stateSeatLabel = (m: StateMember) => `${m.state} ${m.seat.chamber}${m.seat.district ? ` · District ${m.seat.district}` : ""}${m.seat.seat_label ? ` · ${m.seat.seat_label}` : ""}`;
+export const stateSeatLabel = (m: StateMember) => `${m.state} ${m.seat.chamber === "House of Representatives" ? "House" : m.seat.chamber}${m.seat.district ? ` · District ${m.seat.district}` : ""}${m.seat.seat_label ? ` · ${m.seat.seat_label}` : ""}`;
