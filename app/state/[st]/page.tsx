@@ -1,3 +1,4 @@
+import { PaginatedList } from "@/components/PaginatedList";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ActionList, MemberList } from "@/components/ui";
@@ -69,16 +70,16 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
       {statePublicationVersion && governors.length > 0 && (
         <section className="section" aria-labelledby="governor-title">
           <h2 id="governor-title">Governor</h2>
-          <ul className="roster jd-ruled">{governors.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}</ul>
+          <PaginatedList className="roster jd-ruled" label="Governors">{governors.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}</PaginatedList>
         </section>
       )}
       {statePublicationVersion && legislators.length > 0 && (
         <section className="section" aria-labelledby="legislature-title">
           <h2 id="legislature-title">State legislature</h2>
-          <ul className="roster jd-ruled">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}</ul>
+          <PaginatedList className="roster jd-ruled" label="State legislators">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}</PaginatedList>
         </section>
       )}
-      {statePublicationVersion && races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><ul className="roster jd-ruled">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)} · Not called</span></li>)}</ul></section>}
+      {statePublicationVersion && races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><PaginatedList className="roster jd-ruled" label="Unresolved state races">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)} · Not called</span></li>)}</PaginatedList></section>}
 
       {statePublicationVersion && gaps.length > 0 && (
         <section className="section" aria-labelledby="gaps-title">

@@ -1,3 +1,4 @@
+import { PaginatedList } from "@/components/PaginatedList";
 import Link from "next/link";
 import { OfficeFilter } from "@/components/OfficeFilter";
 import { StatusBadge } from "@/components/ui";
@@ -24,10 +25,10 @@ export default async function Members({ searchParams }: PageProps<"/members">) {
   return <>
     <header className="page-header"><h1><span className="jd-ink">All members</span></h1><p className="jd-meta">{federal.length + confirmed.length} listed{races.length > 0 && ` · ${races.length} unresolved state races`}.</p></header>
     {statePublicationVersion && <OfficeFilter office={office} />}
-    <ul className="roster jd-ruled">
+    <PaginatedList key={office} className="roster jd-ruled" label="Members">
       {federal.map((m) => <li key={m.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{seatLabel(m)}{m.status !== "won" && <> <StatusBadge status={m.status} /></>}</span></li>)}
       {confirmed.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}
-    </ul>
-    {races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><ul className="roster jd-ruled">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)} · Not called</span></li>)}</ul></section>}
+    </PaginatedList>
+    {races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><PaginatedList key={`races-${office}`} className="roster jd-ruled" label="Unresolved state races">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)} · Not called</span></li>)}</PaginatedList></section>}
   </>;
 }

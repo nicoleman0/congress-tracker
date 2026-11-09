@@ -1,3 +1,4 @@
+import { PaginatedList } from "@/components/PaginatedList";
 import Link from "next/link";
 import type { Action } from "@/lib/actions";
 import { getGroup, seatLabel, type Member, type Status } from "@/lib/data";
@@ -17,7 +18,7 @@ export function StatusBadge({ status }: { status: Status }) {
 
 export function MemberList({ members }: { members: Member[] }) {
   return (
-    <ul className="member-list jd-ruled jd-ruled--closed">
+    <PaginatedList className="member-list jd-ruled jd-ruled--closed" label="Members">
       {members.map((m) => (
         <li key={m.id}>
           <Link href={`/member/${m.id}`} className="member-row">
@@ -29,7 +30,7 @@ export function MemberList({ members }: { members: Member[] }) {
           </Link>
         </li>
       ))}
-    </ul>
+    </PaginatedList>
   );
 }
 
