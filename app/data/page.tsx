@@ -123,7 +123,7 @@ export default function Data() {
         </div>
 
         <h3 className="subhead">Biggest spenders against them in primaries</h3>
-        <p className="note">Money from groups trying to replace a progressive with a different Democrat.</p>
+        <p className="note">Spending to beat them before the general election, in party primaries and in top-two primaries like California&apos;s.</p>
         <SpenderList spenders={topSpenders(members, "oppose", "primary")} />
 
         <h3 className="subhead">Biggest spenders against them in the general election</h3>
