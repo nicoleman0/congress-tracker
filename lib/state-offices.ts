@@ -11,23 +11,27 @@ type Issuer = { id: string; name: string; group_code: string; parent_id: string 
 type Endorsement = { id: string; person_id: string; issuer_id: string; election_id: string; source_id: string; withdrawn: boolean };
 type Reconciliation = { id: string; endorsement_id: string; outcome: "included" | "excluded" | "unresolved"; reason: string; term_id: string | null };
 type Term = { id: string; person_id: string; seat_id: string; election_id: string | null; starts_on: string; ends_on: string | null; status: "serving" | "incoming" | "unresolved" | "ended"; service_source_id: string | null; result_source_id: string | null; contact_url: string | null; campaign_url: string | null; contact_source_id: string | null; campaign_source_id: string | null };
-type Snapshot = { version: string; batch: { reviewed_at: string | null }; people: Person[]; seats: Seat[]; sources: StateSource[]; elections: Election[]; issuers: Issuer[]; endorsements: Endorsement[]; reconciliations: Reconciliation[]; terms: Term[]; coverage: { state: string; group_code: string; status: string }[] };
+type Snapshot = { version: string; batch: { reviewed_at: string | null }; people: Person[]; seats: Seat[]; sources: StateSource[]; elections: Election[]; issuers: Issuer[]; endorsements: Endorsement[]; reconciliations: Reconciliation[]; terms: Term[]; coverage: Coverage[] };
+export type Coverage = { state: string; group_code: string; status: string; note: string; checked_at: string };
 type Envelope = { version: string; sha256: string; snapshot: Snapshot };
 export type StateMember = { id: string; name: string; state: string; seat: Seat; term: Term; election: Election; service?: StateSource; result: StateSource; contactSource?: StateSource; campaignSource?: StateSource; endorsers: { issuer: Issuer; source: StateSource; election: Election }[]; portrait?: { url: string; credit: string; source: StateSource } };
 const groups = ["wfp", "or", "dsa", "rfs", "pccc", "sunrise"];
+const statuses = ["complete_with_entries", "complete_no_entries", "not_applicable", "blocked", "in_progress"];
+export const coverageComplete = (c: Coverage) => ["complete_with_entries", "complete_no_entries", "not_applicable"].includes(c.status);
 const stateCodes = STATES.filter((s) => s.code !== "DC").map((s) => s.code);
 const date = (s: string) => s.slice(0, 10);
 
-export function readStatePublication(input: unknown, today = new Date()): { version: string | null; reviewedAt: string | null; members: StateMember[] } {
-  if (input === null) return { version: null, reviewedAt: null, members: [] };
+export function readStatePublication(input: unknown, today = new Date()): { version: string | null; reviewedAt: string | null; members: StateMember[]; coverage: Coverage[] } {
+  if (input === null) return { version: null, reviewedAt: null, members: [], coverage: [] };
   const envelope = input as Envelope;
   if (!envelope || typeof envelope !== "object" || !envelope.snapshot || typeof envelope.version !== "string" || envelope.snapshot.version !== envelope.version || !/^[a-f0-9]{64}$/.test(envelope.sha256)) throw new Error("state publication: invalid envelope");
   const digest = createHash("sha256").update(canonical(envelope.snapshot)).digest("hex");
   if (digest !== envelope.sha256) throw new Error("state publication: hash mismatch");
   const s = envelope.snapshot;
   if (!s.batch?.reviewed_at || ![s.people, s.seats, s.sources, s.elections, s.issuers, s.endorsements, s.reconciliations, s.terms, s.coverage].every(Array.isArray)) throw new Error("state publication: invalid snapshot");
-  const covered = new Set(s.coverage.filter((c) => ["complete_with_entries", "complete_no_entries", "not_applicable"].includes(c.status)).map((c) => `${c.state}:${c.group_code}`));
-  if (s.coverage.length !== stateCodes.length * groups.length || covered.size !== s.coverage.length || stateCodes.some((state) => groups.some((group) => !covered.has(`${state}:${group}`)))) throw new Error("state publication: incomplete coverage");
+  // Every state and group needs a row; gaps (blocked, in_progress) are published with their notes.
+  const cells = new Set(s.coverage.filter((c) => statuses.includes(c.status) && c.note?.trim()).map((c) => `${c.state}:${c.group_code}`));
+  if (s.coverage.length !== stateCodes.length * groups.length || cells.size !== s.coverage.length || stateCodes.some((state) => groups.some((group) => !cells.has(`${state}:${group}`)))) throw new Error("state publication: missing coverage rows");
   const byId = <T extends { id: string }>(items: T[]) => {
     const map = new Map(items.map((item) => [item.id, item]));
     if (map.size !== items.length) throw new Error("state publication: duplicate id");
@@ -54,22 +58,35 @@ export function readStatePublication(input: unknown, today = new Date()): { vers
     if (["complete_no_entries", "not_applicable"].includes(row.status) && matching.some((e) => decisions.get(e.id)?.outcome === "included")) throw new Error(`state publication: contradictory coverage ${row.state}/${row.group_code}`);
   }
   const now = today.toISOString().slice(0, 10);
-  const members = s.terms.filter((term) => term.status !== "ended").map((term) => {
+  // Uncalled races stay off the site until called (docs/plans/state-offices.md).
+  const members = s.terms.filter((term) => term.status === "serving" || term.status === "incoming").map((term) => {
     const person = lookup(people, term.person_id), seat = lookup(seats, term.seat_id), election = lookup(elections, term.election_id);
     const result = lookup(sources, term.result_source_id);
-    const resultAge = (Date.parse(`${now}T00:00:00Z`) - Date.parse(`${date(result.checked_at)}T00:00:00Z`)) / 86_400_000;
-    if (!stateCodes.includes(seat.state) || !["general", "special"].includes(election.stage) || election.seat_id !== seat.id || (term.status === "serving" && (date(term.starts_on) > now || (term.ends_on && date(term.ends_on) <= now) || !term.service_source_id)) || (term.status === "incoming" && date(term.starts_on) <= now) || (term.status === "unresolved" && (resultAge < 0 || resultAge > 3 || !Number.isFinite(resultAge)))) throw new Error(`state publication: invalid term ${term.id}`);
+    if (!stateCodes.includes(seat.state) || !["general", "special"].includes(election.stage) || election.seat_id !== seat.id || (term.status === "serving" && (date(term.starts_on) > now || (term.ends_on && date(term.ends_on) <= now) || !term.service_source_id)) || (term.status === "incoming" && date(term.starts_on) <= now)) throw new Error(`state publication: invalid term ${term.id}`);
     const endorsements = s.endorsements.filter((e) => e.person_id === person.id && !e.withdrawn && decisions.get(e.id)?.outcome === "included" && decisions.get(e.id)?.term_id === term.id && (() => { const endorsed = lookup(elections, e.election_id); return endorsed.seat_id === seat.id && endorsed.year === election.year && (endorsed.id === election.id || (endorsed.stage === "primary" && endorsed.cycle_election_id === election.id)); })());
     if (!endorsements.length || (!term.contact_url && !term.campaign_url)) throw new Error(`state publication: missing evidence for ${term.id}`);
     return { id: person.id, name: person.name, state: seat.state, seat, term, election, ...(term.service_source_id ? { service: lookup(sources, term.service_source_id) } : {}), result, ...(term.contact_url ? { contactSource: lookup(sources, term.contact_source_id) } : {}), ...(term.campaign_url ? { campaignSource: lookup(sources, term.campaign_source_id) } : {}), endorsers: endorsements.map((e) => ({ issuer: lookup(issuers, e.issuer_id), source: lookup(sources, e.source_id), election: lookup(elections, e.election_id) })), ...(person.portrait_url && person.portrait_credit ? { portrait: { url: person.portrait_url, credit: person.portrait_credit, source: lookup(sources, person.portrait_source_id) } } : {}) };
   });
   if (!members.some((m) => m.term.status === "serving")) throw new Error("state publication: no serving members");
-  for (const seat of s.seats) if (members.filter((m) => m.seat.id === seat.id && m.term.status === "serving").length > seat.capacity) throw new Error(`state publication: seat capacity exceeded ${seat.id}`);
-  return { version: envelope.version, reviewedAt: s.batch.reviewed_at, members };
+  for (const seat of s.seats) for (const status of ["serving", "incoming"]) if (members.filter((m) => m.seat.id === seat.id && m.term.status === status).length > seat.capacity) throw new Error(`state publication: seat capacity exceeded ${seat.id}`);
+  return { version: envelope.version, reviewedAt: s.batch.reviewed_at, members, coverage: s.coverage };
 }
 const publication = readStatePublication(raw);
 export const statePublicationVersion = publication.version;
 export const statePublicationReviewedAt = publication.reviewedAt;
 export const stateMembers = () => publication.members;
-export const getStateMember = (id: string) => stateMembers().filter((m) => m.id === id).sort((a, b) => ["serving", "incoming", "unresolved"].indexOf(a.term.status) - ["serving", "incoming", "unresolved"].indexOf(b.term.status))[0];
-export const stateSeatLabel = (m: StateMember) => `${m.state} ${m.seat.chamber}${m.seat.district ? ` · District ${m.seat.district}` : ""}${m.seat.seat_label ? ` · ${m.seat.seat_label}` : ""}`;
+export const GROUP_NAMES: Record<string, string> = { wfp: "Working Families Party", or: "Our Revolution", dsa: "DSA", rfs: "Run for Something", pccc: "PCCC", sunrise: "Sunrise Movement" };
+export const stateCoverage = (state: string) => publication.coverage.filter((c) => c.state === state);
+export const getStateMember = (id: string) => stateMembers().filter((m) => m.id === id).sort((a, b) => ["serving", "incoming"].indexOf(a.term.status) - ["serving", "incoming"].indexOf(b.term.status))[0];
+// One row per person and seat: a re-elected member's incoming term folds into their serving one.
+export const stateListings = () => {
+  const all = stateMembers(), key = (m: StateMember) => `${m.id}|${m.seat.id}`;
+  const serving = new Set(all.filter((m) => m.term.status === "serving").map(key));
+  return all.filter((m) => !(m.term.status === "incoming" && serving.has(key(m))))
+    .map((m) => ({ ...m, reelected: m.term.status === "serving" && all.some((o) => o.term.status === "incoming" && key(o) === key(m)) }))
+    .sort((a, b) => stateCodes.indexOf(a.state) - stateCodes.indexOf(b.state) || offices.indexOf(a.seat.office) - offices.indexOf(b.seat.office)
+      || (a.seat.district ?? "").localeCompare(b.seat.district ?? "", "en", { numeric: true }) || a.name.localeCompare(b.name));
+};
+const offices = ["governor", "upper", "lower", "unicameral"];
+export const stateStatusNote = (m: StateMember & { reelected: boolean }) => (m.reelected ? " · Re-elected" : m.term.status === "incoming" ? " · Incoming" : "");
+export const stateSeatLabel = (m: StateMember) => `${m.state} ${m.seat.chamber === "House of Representatives" ? "House" : m.seat.chamber}${m.seat.district ? ` · District ${m.seat.district}` : ""}${m.seat.seat_label ? ` · ${m.seat.seat_label}` : ""}`;

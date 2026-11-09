@@ -608,20 +608,20 @@ p {
   columns: 17rem;
   column-gap: var(--s-4);
 }
+/* Seat under the name: state labels are too long to share a line in a column. */
 .roster li {
   break-inside: avoid;
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: var(--s-1);
-  padding: 0.3rem 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.35rem 0;
 }
 .roster a {
   font: 600 1.05rem var(--font-display);
   text-decoration: none;
 }
 .roster a:hover { text-decoration: underline; text-decoration-thickness: 2px; }
-.roster-seat { white-space: nowrap; }
+.roster-seat { font-size: 0.9rem; }
 
 /* ============================================================
    Footer
@@ -675,4 +675,10 @@ p {
     transition: none !important;
     animation: none !important;
   }
+}
+
+/* Office filter on /members: a short select, clear of the list below. */
+.office-filter {
+  max-width: 20rem;
+  margin-bottom: var(--s-3);
 }

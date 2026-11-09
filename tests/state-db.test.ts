@@ -44,7 +44,8 @@ test("database gates reconciliation and multi-member seat capacity", { skip: !ur
     await db.query("UPDATE state_offices.terms SET status='ended',starts_on='2025-01-01' WHERE batch_id=$1 AND id='c'", [batch]);
     await db.query("UPDATE state_offices.reconciliations SET outcome='excluded',term_id=NULL WHERE batch_id=$1 AND id='c'", [batch]);
     await db.query("UPDATE state_offices.terms SET status='unresolved' WHERE batch_id=$1 AND id='b'", [batch]);
-    assert.ok((await publicationProblems(db, batch)).some((p) => p.includes("term requires reconciliation: b")));
+    // Uncalled races are hidden on the site, so an old result check no longer blocks publication.
+    assert.ok(!(await publicationProblems(db, batch)).some((p) => p.includes("term requires reconciliation: b")));
     await db.query("UPDATE state_offices.terms SET status='serving' WHERE batch_id=$1 AND id='b'", [batch]);
     const reviewHash = createHash("sha256").update(canonical(await batchContents(db, batch))).digest("hex");
     await db.query("UPDATE state_offices.batches SET reviewed_at=now(),reviewer='Test',review_hash=$2 WHERE id=$1", [batch, reviewHash]);

@@ -1,0 +1,1304 @@
+{
+  "state": "DE",
+  "researched_at": "2026-11-08",
+  "chambers": {
+    "upper": "Senate",
+    "lower": "House of Representatives"
+  },
+  "endorsements": [
+    {
+      "person": "Madinah Wilson-Anton",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/09/delaware-progressives-triumph-over-moneyed-incumbents-and-party-insiders/",
+        "excerpt": "WFP-endorsed incumbents Madinah Wilson-Anton and Eric Morrison held off right-wing primary challengers by 2-1 margins"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2022.html",
+        "excerpt": "MADINAH WILSON-ANTON Democratic Party 2,909 262 439 3,610 70.48 TIMOTHY S. CONRAD Republican Party 1,358 52 102 1,512 29.52"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-11-09",
+        "term_end": "2024-11-05",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=232"
+      },
+      "notes": "Primary 2022-09-13: won 1,059 to 506 over Kelly Williams Maresca. General 2022-11-08: won 3,610 to 1,512. Re-elected 2026 unopposed (5,415 votes, unofficial). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: source recap dated 2022-09-14, after the 2022-09-13 primary, so general."
+    },
+    {
+      "person": "Eric Morrison",
+      "office": "lower",
+      "district": "27",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/09/delaware-progressives-triumph-over-moneyed-incumbents-and-party-insiders/",
+        "excerpt": "WFP-endorsed incumbents Madinah Wilson-Anton and Eric Morrison held off right-wing primary challengers by 2-1 margins"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2022.html",
+        "excerpt": "ERIC MORRISON Democratic Party 3,958 325 552 4,835 53.35 JOHN MARINO Republican Party 3,781 138 308 4,227 46.65"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-11-09",
+        "term_end": "2024-11-05",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24001"
+      },
+      "notes": "Primary 2022-09-13: won 1,114 to 573. General 2022-11-08: won 4,835 to 4,227. Re-elected 2026 (6,387 to 3,947 per data.delaware.gov, unofficial). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: source recap dated 2022-09-14, after the 2022-09-13 primary, so general."
+    },
+    {
+      "person": "Sophie Phillips",
+      "office": "lower",
+      "district": "18",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/09/delaware-progressives-triumph-over-moneyed-incumbents-and-party-insiders/",
+        "excerpt": "while Sophie Phillips and Cyndie Romer absolutely dominated their open primaries"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2022.html",
+        "excerpt": "SOPHIE PHILLIPS Democratic Party 3,236 284 540 4,060 71.49 GLORIA HOPE PAYNE Republican Party 1,446 56 117 1,619 28.51"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-11-09",
+        "term_end": "2024-11-05",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24308"
+      },
+      "notes": "Primary 2022-09-13: won 821 to 334. General 2022-11-08: won 4,060 to 1,619. Also on WFP 2026 candidate list (separate entry). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: source recap dated 2022-09-14, after the 2022-09-13 primary, so general."
+    },
+    {
+      "person": "Cyndie Romer",
+      "office": "lower",
+      "district": "25",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/09/delaware-progressives-triumph-over-moneyed-incumbents-and-party-insiders/",
+        "excerpt": "while Sophie Phillips and Cyndie Romer absolutely dominated their open primaries"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2022.html",
+        "excerpt": "CYNDIE ROMER Democratic Party 2,981 329 589 3,899 64.54 LYNN MEY Republican Party 1,891 88 163 2,142 35.46"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-11-09",
+        "term_end": "2024-11-05",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24310"
+      },
+      "notes": "Primary 2022-09-13: won 1,200 to 213. General 2022-11-08: won 3,899 to 2,142. Re-elected 2026 unopposed (5,275 votes, unofficial). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: source recap dated 2022-09-14, after the 2022-09-13 primary, so general."
+    },
+    {
+      "person": "DeShanna Neal",
+      "office": "lower",
+      "district": "13",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2022/09/delaware-progressives-triumph-over-moneyed-incumbents-and-party-insiders/",
+        "excerpt": "and DeShanna Neal triumphed over the House Majority Whip by just 24 votes"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2022.html",
+        "excerpt": "DESHANNA U. NEAL Democratic Party 2,834 257 298 3,389 60.69 CARLUCCI COELHO Republican Party 2,000 67 128 2,195 39.31"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-11-09",
+        "term_end": "2024-11-05",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24307"
+      },
+      "notes": "Primary 2022-09-13: won 669 to 645 over John L. Mitchell Jr. General 2022-11-08: won 3,389 to 2,195. Re-elected 2026 unopposed (5,226 votes, unofficial). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: source recap dated 2022-09-14, after the 2022-09-13 primary, so general."
+    },
+    {
+      "person": "Kerri Evelyn Harris",
+      "office": "lower",
+      "district": "32",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2024/09/kamela-smith-wfp-endorsed-candidate-defeats-incumbent-speaker-of-delaware-house/",
+        "excerpt": "That same year, WFP expanded its bench by electing Reps. Sophie Phillips, Cyndie Romer, and Kerri Evelyn Harris in other state legislative races."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2022.html",
+        "excerpt": "KERRI EVELYN HARRIS Democratic Party 1,945 280 466 2,691 57.97 CHERYL PRECOURT Republican Party 1,626 77 248 1,951 42.03"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-11-09",
+        "term_end": "2024-11-05",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24311"
+      },
+      "notes": "Weaker evidence: source says WFP \"expanded its bench by electing\" Harris and does not use the word endorsed or give a stage. Primary 2022-09-13: won 725 of 1,123 in a four-way race. General 2022-11-08: won 2,691 to 1,951. Re-elected 2026 unopposed (4,203 votes, unofficial). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: announcement date unknown (source is a 2024 article), so general."
+    },
+    {
+      "person": "Branden Fletcher-Dominguez",
+      "office": "lower",
+      "district": "3",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html",
+        "excerpt": "Branden Fletcher Dominguez, an affordable housing advocate, for state House District 3."
+      },
+      "withdrawn": false,
+      "outcome": "withdrew",
+      "result_source": {
+        "url": "https://elections.delaware.gov/candidates/candidatelist/prim_fcddt_2024.html",
+        "excerpt": "State Representative District 3 N Democratic Branden Fletcher Dominguez WITHDRAWN 9/5/2024"
+      },
+      "current": null,
+      "notes": "Official candidate list shows WITHDRAWN 9/5/2024 in one place and \"Withdrawn 7/1/2024\" in the same entry; dates conflict, so no date is asserted. He is not on the 2024 general ballot (HD3 general: Josue O. Ortega unopposed). Source says he had not yet filed as of 2024-05-02. Source page is a Delaware News Journal story republished on Yahoo. Stage: announced 2024-05-02 (Delaware News Journal), before the 2024-09-10 primary."
+    },
+    {
+      "person": "Terrell Williams",
+      "office": "lower",
+      "district": "9",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html",
+        "excerpt": "Odessa resident Terrell A. Williams for state House District 9."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2024.html",
+        "excerpt": "TERRELL A. WILLIAMS Democratic Party 3,723 594 3,527 7,844 47.24 % KEVIN S. HENSLEY Republican Party 4,737 505 3,520 8,762 52.76 %"
+      },
+      "current": null,
+      "notes": "No Democratic primary in HD9 in 2024. Source page is a Delaware News Journal story republished on Yahoo; WFP state page also lists Terrell Williams (not fetched, listing seen only in search snippet). Stage: announced 2024-05-02 (Delaware News Journal), before the 2024-09-10 primary."
+    },
+    {
+      "person": "Kamela Smith",
+      "office": "lower",
+      "district": "15",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2024/09/kamela-smith-wfp-endorsed-candidate-defeats-incumbent-speaker-of-delaware-house/",
+        "excerpt": "The Working Families Party endorsed Smith and spent $20,000 on a direct mail Independent Expenditure program for her."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2024.html",
+        "excerpt": "KAMELA T. SMITH Democratic Party 5,546 676 3,064 9,286 100 %"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-11-06",
+        "term_end": "2026-11-03",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24630"
+      },
+      "notes": "Primary 2024-09-10: Smith 1,453 to incumbent Speaker Valerie Longhurst 1,273 (PR2024 report). General 2024-11-05: unopposed, 9,286 votes. 2026 general: unopposed, 7,009 votes (unofficial). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: announced 2024-05-02 (Delaware News Journal), before the 2024-09-10 primary."
+    },
+    {
+      "person": "Frank Burns",
+      "office": "lower",
+      "district": "21",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html",
+        "excerpt": "Frank Burns for state House District 21. Burns, a Democrat, is looking to flip the seat currently held by House Minority Leader Mike Ramone."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2024.html",
+        "excerpt": "FRANK BURNS Democratic Party 4,824 628 1,963 7,415 57.88 % BRENDA MENNELLA Republican Party 3,897 252 1,248 5,397 42.12 %"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-11-06",
+        "term_end": "2026-11-03",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24631"
+      },
+      "notes": "Primary 2024-09-10: Burns 1,142 to Michael Alexander Smith 1,112. General 2024-11-05: Burns 7,415 to Brenda Mennella 5,397. 2026: also on WFP candidate list (separate entry); unopposed 2026 general, 6,690 votes (unofficial). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: announced 2024-05-02 (Delaware News Journal), before the 2024-09-10 primary."
+    },
+    {
+      "person": "Monica Beard",
+      "office": "lower",
+      "district": "22",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html",
+        "excerpt": "Monica Beard for state House District 22. Beard, a Democrat and policy coordinator for the Delaware Coalition Against Domestic Violence,"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2024.html",
+        "excerpt": "MONICA BEARD Democratic Party 4,395 822 1,886 7,103 45.23 % MICHAEL FRANCIS SMITH Republican Party 6,043 592 1,966 8,601 54.77 %"
+      },
+      "current": null,
+      "notes": "No contested Democratic primary in HD22 in 2024 (none in PR2024 report). Stage: announced 2024-05-02 (Delaware News Journal), before the 2024-09-10 primary."
+    },
+    {
+      "person": "Eric Morrison",
+      "office": "lower",
+      "district": "27",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html",
+        "excerpt": "Eric Morrison for state House District 27. Morrison, who is the incumbent, is being challenged by Democrat Margie López Waite."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2024.html",
+        "excerpt": "ERIC MORRISON Democratic Party 4,713 593 2,460 7,766 56.21 % KRISTINA GRIFFING Republican Party 3,894 262 1,895 6,051 43.79 %"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-11-06",
+        "term_end": "2026-11-03",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24001"
+      },
+      "notes": "Primary 2024-09-10: Morrison 1,570 to Margie Lopez Waite 1,059. General 2024-11-05: Morrison 7,766 to Kristina Griffing 6,051. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: announced 2024-05-02 (Delaware News Journal), before the 2024-09-10 primary."
+    },
+    {
+      "person": "Monica Shockley Porter",
+      "office": "lower",
+      "district": "29",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html",
+        "excerpt": "Monica Shockley Porter for state House District 29. Shockley Porter, a Democrat, is challenging Democratic incumbent state Rep. Bill Bush for the seat."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/PR2024.html",
+        "excerpt": "WILLIAM BUSH 1,076 216 375 1,667 56.6 % MONICA SHOCKLEY PORTER 988 118 172 1,278 43.4 %"
+      },
+      "current": null,
+      "notes": "Lost 2024 Democratic primary. Stage: announced 2024-05-02 (Delaware News Journal), before the 2024-09-10 primary."
+    },
+    {
+      "person": "Collin O'Mara",
+      "office": "governor",
+      "district": null,
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html",
+        "excerpt": "Democratic candidate for governor Collin O'Mara has been endorsed by the state Working Families Party."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/PR2024.html",
+        "excerpt": "MATT MEYER 29,459 4,899 6,160 40,518 46.98 % COLLIN O'MARA 10,962 1,412 1,768 14,142 16.4 %"
+      },
+      "current": null,
+      "notes": "2024 Democratic gubernatorial primary 2024-09-10: Matt Meyer won with 40,518 votes (46.98%); O'Mara 14,142 (16.4%). Governor Meyer is the current office holder; O'Mara is not. Stage: announced 2024-05-02 (Delaware News Journal), before the 2024-09-10 primary."
+    },
+    {
+      "person": "Michelle Booker",
+      "office": "lower",
+      "district": "2",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Michelle Booker State Representative, District 2"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 2\",\"MICHELLE H. BOOKER\",\"Democratic Party\",\"3550\",\"202\",\"1157\",\"4909\",\"100.0\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 2: Michelle H. Booker (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
+      },
+      "notes": "Primary 2026-09-15: Booker 943 to incumbent Stephanie T. Bolden 876. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. New member; legislature profile page (personId 25079) returns an error, so no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general. contact_url is the chamber district listing page because the member profile page errors."
+    },
+    {
+      "person": "Branden Fletcher-Dominguez",
+      "office": "lower",
+      "district": "3",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Branden Fletcher Dominguez State Representative, District 3"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 3\",\"BRANDEN FLETCHER-DOMINGUEZ\",\"Democratic Party\",\"3268\",\"250\",\"842\",\"4360\",\"82.14\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 3: Branden Fletcher-Dominguez (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
+      },
+      "notes": "Primary 2026-09-15: plurality 875 of 2,026 (43.19%) in a four-way race. General: 4,360 votes (82.14%) over Shawn L. Dottery and Dexter Bland. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Withdrew from the 2024 race (separate entry). Profile page (personId 25080) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general. contact_url is the chamber district listing page because the member profile page errors."
+    },
+    {
+      "person": "Rae Krantz",
+      "office": "lower",
+      "district": "6",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/05/delaware-wfp-endorses-slate-of-state-legislative-candidates/",
+        "excerpt": "For Representative, the Party endorsed Shané Darby in District 1; Rae Krantz in District 6; Pamela Salaam in District 16; and Will Imbrie-Moore in District 19."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 6\",\"RACHEL \"\"RAE\"\" KRANTZ\",\"Democratic Party\",\"4777\",\"439\",\"2239\",\"7455\",\"73.052\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 6: Rachel Krantz (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=25082"
+      },
+      "notes": "Primary 2026-09-15: 2,288 votes (62.84%) in a three-way open-seat race. General: 7,455 to Tanya Hettler 2,750. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Roster name is Rachel Krantz; she is on the ballot as Rachel \"Rae\" Krantz. Profile page loads but lists no service dates yet. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary. Also listed on the WFP candidates page."
+    },
+    {
+      "person": "Larry Lambert",
+      "office": "lower",
+      "district": "7",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Larry Lambert State Representative, District 7"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 7\",\"LARRY LAMBERT\",\"Democratic Party\",\"3642\",\"296\",\"2010\",\"5948\",\"77.965\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 7: Larry Lambert (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24002"
+      },
+      "notes": "No 2026 primary in HD7. General: 5,948 to Shane Stoneman 1,681. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Incumbent (House service since 2020 per legislature profile). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general."
+    },
+    {
+      "person": "Sherae'a Moore",
+      "office": "lower",
+      "district": "8",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Sherae’a Moore State Representative, District 8"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 8\",\"SHERAE'A \"\"RAE\"\" MOORE\",\"Democratic Party\",\"3846\",\"359\",\"2556\",\"6761\",\"66.115\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 8: Sherae'a Moore (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=3143"
+      },
+      "notes": "Primary 2026-09-15: Moore 1,259 to Lissa Brutus 449 and Matt Powell 399. General: 6,761 to Gary Taylor 3,465. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Incumbent (House service since 2020 per legislature profile). Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general."
+    },
+    {
+      "person": "Kamela Smith",
+      "office": "lower",
+      "district": "15",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Kamela Smith State Representative, District 15"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 15\",\"KAMELA T. SMITH\",\"Democratic Party\",\"4759\",\"342\",\"1908\",\"7009\",\"100.0\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 15: Kamela T Smith (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24630"
+      },
+      "notes": "No 2026 primary in HD15. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general."
+    },
+    {
+      "person": "Pamela Salaam",
+      "office": "lower",
+      "district": "16",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/05/delaware-wfp-endorses-slate-of-state-legislative-candidates/",
+        "excerpt": "For Representative, the Party endorsed Shané Darby in District 1; Rae Krantz in District 6; Pamela Salaam in District 16; and Will Imbrie-Moore in District 19."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 16\",\"PAMELA SALAAM\",\"Democratic Party\",\"4342\",\"334\",\"1342\",\"6018\",\"84.868\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 16: Pamela Salaam (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
+      },
+      "notes": "Primary 2026-09-15: Salaam 1,348 to incumbent Franklin D. Cooke Jr. 1,001. General: 6,018 to Enala A. Mwashitete 1,073. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Profile page (personId 25084) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary. Also listed on the WFP candidates page. contact_url is the chamber district listing page because the member profile page errors."
+    },
+    {
+      "person": "Sophie Phillips",
+      "office": "lower",
+      "district": "18",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Sophie Phillips State Representative, District 18"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 18\",\"SOPHIE PHILLIPS\",\"Democratic Party\",\"4272\",\"305\",\"1304\",\"5881\",\"100.0\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 18: Sophie Phillips (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24308"
+      },
+      "notes": "No 2026 primary in HD18. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general."
+    },
+    {
+      "person": "Frank Burns",
+      "office": "lower",
+      "district": "21",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Frank Burns State Representative, District 21"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 21\",\"FRANK BURNS\",\"Democratic Party\",\"4829\",\"386\",\"1475\",\"6690\",\"100.0\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 21: Frank Burns (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=24631"
+      },
+      "notes": "No 2026 primary in HD21. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general."
+    },
+    {
+      "person": "Madinah Wilson-Anton",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 26\",\"MADINAH WILSON-ANTON\",\"Democratic Party\",\"3904\",\"256\",\"1255\",\"5415\",\"100.0\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 26: Madinah Wilson-Anton (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=232"
+      },
+      "notes": "Listed under WFP Delaware on the candidates page, but that row sits behind the page's \"View More\" button (loaded by POST to admin-ajax.php, action more_candidates, state 41, count 10), so the excerpt cannot be taken from the static page; the row read \"Madinah Wilson-Anton State Representative, District 26\". No 2026 primary in HD26. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general."
+    },
+    {
+      "person": "Tyeisha Grier",
+      "office": "lower",
+      "district": "28",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://whyy.org/articles/delaware-election-2026-wfp-candidates/",
+        "excerpt": "House District 28: Tyeisha Grier defeated Rep. Bill Carson, D-Smyrna."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 28\",\"TYEISHA \"\"TYE\"\" GRIER\",\"Democratic Party\",\"3893\",\"310\",\"1483\",\"5686\",\"100.0\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 28: Tyeisha Grier (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
+      },
+      "notes": "Source is WHYY listing her under \"Working Families Party September primary winners\"; the WFP candidates page row (behind View More) also lists her as \"Tyeisha Grier State Representative, District 28\". Primary 2026-09-15: Grier 1,085 to incumbent William Carson Jr. 957. General: unopposed. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Profile page (personId 25086) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: candidates page and WHYY story are undated as announcements, so general. contact_url is the chamber district listing page because the member profile page errors."
+    },
+    {
+      "person": "Shay Frisby",
+      "office": "upper",
+      "district": "5",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/05/delaware-wfp-endorses-slate-of-state-legislative-candidates/",
+        "excerpt": "For Senate, WFP endorsed Adriana Bohm in District 1 and Shay Frisby in District 5."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Senator District 5\",\"SHAY FRISBY\",\"Democratic Party\",\"7767\",\"690\",\"3818\",\"12275\",\"68.613\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2030-11-05",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/Senate/SenateDistrict",
+          "excerpt": "District 5: Shay Frisby (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/Chambers/Senate/SenateDistrict"
+      },
+      "notes": "Primary 2026-09-15: Frisby 3,059 to incumbent Ray Seigfried 2,181. General: 12,275 (68.6%) over Brent Burdge and Carolyn Frank. Also endorsed by Delaware DSA (separate entry). 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Four-year Senate term. Profile page (personId 25077) errors, no contact_url. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (Senate 4 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Senate seat on the 2026 ballot again in 2030 assumed from 4-year term. Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary. contact_url is the chamber district listing page because the member profile page errors."
+    },
+    {
+      "person": "Shané Darby",
+      "office": "lower",
+      "district": "1",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/05/delaware-wfp-endorses-slate-of-state-legislative-candidates/",
+        "excerpt": "For Representative, the Party endorsed Shané Darby in District 1; Rae Krantz in District 6; Pamela Salaam in District 16; and Will Imbrie-Moore in District 19."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/PR2026.html",
+        "excerpt": "NNAMDI O. CHUKWUOCHA 1,498 198 470 2,166 56.58 SHANE NICOLE DARBY 1,270 88 304 1,662 43.42"
+      },
+      "current": null,
+      "notes": "Lost 2026-09-15 Democratic primary to incumbent Nnamdi O. Chukwuocha, 2,166 to 1,662. Name spelled Shané Darby in WFP release; ballot name Shane Nicole Darby. Not on the WFP candidates page row set seen. Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary."
+    },
+    {
+      "person": "Will Imbrie-Moore",
+      "office": "lower",
+      "district": "19",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/05/delaware-wfp-endorses-slate-of-state-legislative-candidates/",
+        "excerpt": "For Representative, the Party endorsed Shané Darby in District 1; Rae Krantz in District 6; Pamela Salaam in District 16; and Will Imbrie-Moore in District 19."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/PR2026.html",
+        "excerpt": "WILL IMBRIE-MOORE 703 64 53 820 39.9 KIM WILLIAMS 953 147 135 1,235 60.1"
+      },
+      "current": null,
+      "notes": "Lost 2026-09-15 Democratic primary to incumbent Kim Williams, 1,235 to 820. Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary."
+    },
+    {
+      "person": "Adriana Bohm",
+      "office": "upper",
+      "district": "1",
+      "issuer": "Delaware Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/delaware/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/05/delaware-wfp-endorses-slate-of-state-legislative-candidates/",
+        "excerpt": "For Senate, WFP endorsed Adriana Bohm in District 1 and Shay Frisby in District 5."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/PR2026.html",
+        "excerpt": "ADRIANA LEELA BOHM 2,899 246 666 3,811 49.06 DAN CRUCE 2,689 344 924 3,957 50.94"
+      },
+      "current": null,
+      "notes": "Lost 2026-09-15 Democratic primary to Sen. Dan Cruce, 3,957 to 3,811 (50.94% to 49.06%). Stage: WFP release dated 2026-05-01, before the 2026-09-15 primary."
+    },
+    {
+      "person": "Sarah McBride",
+      "office": "upper",
+      "district": "1",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2022/",
+        "excerpt": "Sarah McBride Delaware Senate, District 1 DE Senator McBride represents the First State Senate District."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2022.html",
+        "excerpt": "SARAH MCBRIDE Democratic Party 10,132 1,073 1,999 13,204 100"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-11-09",
+        "term_end": "2026-11-03",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": null
+      },
+      "notes": "Unopposed in 2022 general. Seat vacated for the U.S. House; filled by special election 2025-02-15 (Dan Cruce). Current SD1 holder per legislature: District 1: Daniel Cruce (D) (https://legis.delaware.gov/Chambers/Senate/SenateDistrict). RFS directory page does not name the year-specific stage; 2022 directory lists her as a candidate. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (Senate 4 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Senate term taken as 4 years: SD1 and SD5 are on the 2026 ballot again. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: directory card undated, so general."
+    },
+    {
+      "person": "Kyle Evans Gay",
+      "office": "upper",
+      "district": "5",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2022/",
+        "excerpt": "Kyle Evans Gay Delaware Senate, District 5 DE Kyle is a mom, an attorney, and Delaware State Senator"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2022.html",
+        "excerpt": "KYLE EVANS GAY Democratic Party 7,986 833 1,652 10,471 66.28 DANIEL R. SCHMICK Republican Party 4,645 231 452 5,328 33.72"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-11-09",
+        "term_end": "2026-11-03",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": null
+      },
+      "notes": "Seat vacated when she became Lieutenant Governor; special election 2025-02-15 won by Ray Seigfried; Shay Frisby won the seat in 2026. Current SD5 holder per legislature: District 5: Shay Frisby (D) (https://legis.delaware.gov/Chambers/Senate/SenateDistrict). The RFS directory page text does not state the endorsement stage; no primary in 2022 for SD5. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (Senate 4 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Senate term taken as 4 years: SD1 and SD5 are on the 2026 ballot again. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: directory card undated, so general."
+    },
+    {
+      "person": "Madinah Wilson-Anton",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2022/",
+        "excerpt": "Madinah Wilson Anton Delaware House, District 26 DE Madinah grew up in the 26th district"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2022.html",
+        "excerpt": "MADINAH WILSON-ANTON Democratic Party 2,909 262 439 3,610 70.48 TIMOTHY S. CONRAD Republican Party 1,358 52 102 1,512 29.52"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-11-09",
+        "term_end": "2024-11-05",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=232"
+      },
+      "notes": "Directory lists her as \"Madinah Wilson Anton\". Primary 2022-09-13 contested (won 1,059 to 506). General 2022-11-08: won 3,610 to 1,512. Re-elected 2026 unopposed. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: directory card undated, so general."
+    },
+    {
+      "person": "Monica Beard",
+      "office": "lower",
+      "district": "22",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2024/",
+        "excerpt": "Monica Beard State House, District 22 DE Monica, a Hockessin native"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2024.html",
+        "excerpt": "MONICA BEARD Democratic Party 4,395 822 1,886 7,103 45.23 % MICHAEL FRANCIS SMITH Republican Party 6,043 592 1,966 8,601 54.77 %"
+      },
+      "current": null,
+      "notes": "Directory card reads \"Monica Beard, State House, District 22\". Also WFP-endorsed (separate entry). Stage: directory card undated, so general."
+    },
+    {
+      "person": "Branden Fletcher-Dominguez",
+      "office": "lower",
+      "district": "3",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2024/",
+        "excerpt": "Branden Fletcher Dominguez State House, District 3 DE Branden is an accomplished Afro-Latino organizer"
+      },
+      "withdrawn": false,
+      "outcome": "withdrew",
+      "result_source": {
+        "url": "https://elections.delaware.gov/candidates/candidatelist/prim_fcddt_2024.html",
+        "excerpt": "State Representative District 3 N Democratic Branden Fletcher Dominguez WITHDRAWN 9/5/2024"
+      },
+      "current": null,
+      "notes": "Directory card reads \"Branden Fletcher Dominguez, State House, District 3\". Withdrawal dates conflict on the official list (see WFP entry). Stage: directory card undated, so general."
+    },
+    {
+      "person": "Terrell Williams",
+      "office": "lower",
+      "district": "9",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2024/",
+        "excerpt": "Terrell Williams State House, District 9 DE Terrell is an accomplished individual"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2024.html",
+        "excerpt": "TERRELL A. WILLIAMS Democratic Party 3,723 594 3,527 7,844 47.24 % KEVIN S. HENSLEY Republican Party 4,737 505 3,520 8,762 52.76 %"
+      },
+      "current": null,
+      "notes": "Directory card reads \"Terrell Williams, State House, District 9\". Also WFP-endorsed (separate entry). Stage: directory card undated, so general."
+    },
+    {
+      "person": "Rae Krantz",
+      "office": "lower",
+      "district": "6",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2026/",
+        "excerpt": "Rae Krantz State Representative, District 6 DE Rae Krantz is a community advocate, software engineer"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 6\",\"RACHEL \"\"RAE\"\" KRANTZ\",\"Democratic Party\",\"4777\",\"439\",\"2239\",\"7455\",\"73.052\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 6: Rachel Krantz (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=25082"
+      },
+      "notes": "RFS press release 2026-06-02 also lists her (saved gap review). Primary 2026-09-15 won 2,288 votes (62.84%). General: 7,455 to Tanya Hettler 2,750. 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: RFS press release dated 2026-06-02, before the 2026-09-15 primary."
+    },
+    {
+      "person": "Madinah Wilson-Anton",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Delaware DSA",
+      "group": "dsa",
+      "issuer_source": "https://dedsa.org",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://bsky.app/profile/delawaredsa.bsky.social/post/3kiyifc4y3f2d",
+        "excerpt": "& DEDSA endorsed member Rep. Madinah Wilson-Anton!"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.delaware.gov/reports/GE2024.html",
+        "excerpt": "MADINAH WILSON-ANTON Democratic Party 4,543 496 2,084 7,123 100 %"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-11-06",
+        "term_end": "2026-11-03",
+        "service_source": {
+          "url": "https://delcode.delaware.gov/constitution/constitution-03.shtml",
+          "excerpt": "who shall be chosen for 2 years. The Senate shall be composed of 21 members, who shall be chosen for 4 years."
+        },
+        "contact_url": "https://legis.delaware.gov/LegislatorDetail?personId=232"
+      },
+      "notes": "Bluesky post dated 2024-01-15 calls her a DEDSA endorsed member. The 2024 election year comes from the DSA national past-endorsements Airtable (saved evidence: \"Endorsed 2024\", election date 11/5/2024, chapter Delaware, HD26), which is a JavaScript grid the checker cannot read. No 2024 primary in HD26. General 2024-11-05: unopposed, 7,123 votes. Re-elected 2026 unopposed. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. That term has ended (today is 2026-11-08), so status is not_serving; any later re-election is a separate term. Stage: Bluesky post dated 2024-01-15, before the 2024-09-10 primary."
+    },
+    {
+      "person": "Riley Figliola",
+      "office": "upper",
+      "district": "1",
+      "issuer": "Delaware DSA",
+      "group": "dsa",
+      "issuer_source": "https://dedsa.org",
+      "election": {
+        "year": 2025,
+        "stage": "special"
+      },
+      "source": {
+        "url": "https://bsky.app/profile/delawaredsa.bsky.social/post/3li43rnly6s27",
+        "excerpt": "We’ve endorsed Riley Figliola for State Senate District 1 in the special election to fill Sarah McBride’s seat!"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.delaware.gov/elections/special/20250215_sd01/2025SpecialElection_SD01_OfficialResults.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Ran on the Nonpartisan Party of Delaware line. Official results PDF (image-based text, not fetchable as plain text) shows 2025-02-15 totals: Dan Cruce (Dem) 3,654; Steven Washington (Rep) 990; Riley \"Liv\" Figliola (Nonpartisan) 88."
+    },
+    {
+      "person": "Shay Frisby",
+      "office": "upper",
+      "district": "5",
+      "issuer": "Delaware DSA",
+      "group": "dsa",
+      "issuer_source": "https://dedsa.org",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://bsky.app/profile/delawaredsa.bsky.social/post/3mzgesfryms2m",
+        "excerpt": "DEDSA has several endorsed candidates fighting in the general election today. - Shay Frisby (SD-5) - Jason Hoover (NCCC-4) - Branden Fletcher-Dominguez (RD-3)"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Senator District 5\",\"SHAY FRISBY\",\"Democratic Party\",\"7767\",\"690\",\"3818\",\"12275\",\"68.613\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2030-11-05",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/Senate/SenateDistrict",
+          "excerpt": "District 5: Shay Frisby (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/Chambers/Senate/SenateDistrict"
+      },
+      "notes": "Post dated 2026-11-03. Earlier DSA primary-stage endorsement not found. Also WFP-endorsed (separate entry). 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (Senate 4 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Senate seat on the 2026 ballot again in 2030 assumed from 4-year term. Stage: post dated 2026-11-03, after the primary. contact_url is the chamber district listing page because the member profile page errors."
+    },
+    {
+      "person": "Branden Fletcher-Dominguez",
+      "office": "lower",
+      "district": "3",
+      "issuer": "Delaware DSA",
+      "group": "dsa",
+      "issuer_source": "https://dedsa.org",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://bsky.app/profile/delawaredsa.bsky.social/post/3mzgesfryms2m",
+        "excerpt": "DEDSA has several endorsed candidates fighting in the general election today. - Shay Frisby (SD-5) - Jason Hoover (NCCC-4) - Branden Fletcher-Dominguez (RD-3)"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://data.delaware.gov/resource/yg7x-kgjc.csv?election_name=2026%20General%20Election",
+        "excerpt": "\"State Representative District 3\",\"BRANDEN FLETCHER-DOMINGUEZ\",\"Democratic Party\",\"3268\",\"250\",\"842\",\"4360\",\"82.14\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-11-04",
+        "term_end": "2028-11-07",
+        "service_source": {
+          "url": "https://legis.delaware.gov/Chambers/House/District",
+          "excerpt": "District 3: Branden Fletcher-Dominguez (D)"
+        },
+        "contact_url": "https://legis.delaware.gov/Chambers/House/District"
+      },
+      "notes": "Post dated 2026-11-03. Earlier DSA primary-stage endorsement not found. Also WFP-endorsed (separate entry). 2026 general figures are from data.delaware.gov, data_as_of 2026-11-04T03:03:18, election-night and not certified. Term rule (Del. Const. art. II sec. 3(e), https://delcode.delaware.gov/constitution/constitution-03.shtml): 'The terms of Senators and Representatives begin on the day next after their election.' term_start = day after the election; term_end = day of the next general election for the same seat (House 2 years per art. II sec. 2, no redistricting shift assumed except as noted), computed, not read from a roster. Term already started on 2026-11-04 under that rule, so status is serving even for first-time members. Stage: post dated 2026-11-03, after the primary. contact_url is the chamber district listing page because the member profile page errors."
+    }
+  ],
+  "coverage": [
+    {
+      "group": "wfp",
+      "status": "blocked",
+      "checked": [
+        "https://workingfamilies.org/state/delaware/",
+        "https://workingfamilies.org/candidates/",
+        "https://workingfamilies.org/2022/09/delaware-progressives-triumph-over-moneyed-incumbents-and-party-insiders/",
+        "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html",
+        "https://workingfamilies.org/2024/09/kamela-smith-wfp-endorsed-candidate-defeats-incumbent-speaker-of-delaware-house/",
+        "https://workingfamilies.org/2026/05/delaware-wfp-endorses-slate-of-state-legislative-candidates/",
+        "https://whyy.org/articles/delaware-election-2026-wfp-candidates/",
+        "https://news.yahoo.com/working-families-endorsed-delaware-governor-155409321.html"
+      ],
+      "note": "Unchecked: the full 2022 WFP slate (only candidates named in a Sept 2022 recap and a later summary were found), and any WFP endorsements in the 2025-02-15 SD1 and SD5 special elections. Read: state page, candidates page (incl. rows behind View More), 2022 recap, 2024 slate, 2026 slate release. 2020 endorsements skipped as out of scope."
+    },
+    {
+      "group": "or",
+      "status": "blocked",
+      "checked": [
+        "https://ourrevolution.com/our-champions/",
+        "https://ourrevolution.com/category/past-endorsement/"
+      ],
+      "note": "Unchecked: Delaware chapter pages (saved evidence: /groups/ returns 404, no chapter page found) and a per-cycle 2022 to 2026 endorsement archive. Read: https://ourrevolution.com/our-champions/ and the past-endorsement category page; neither lists Delaware."
+    },
+    {
+      "group": "dsa",
+      "status": "blocked",
+      "checked": [
+        "https://dedsa.org",
+        "https://bsky.app/profile/delawaredsa.bsky.social",
+        "https://linktr.ee/delawaredsa",
+        "https://electoral.dsausa.org/our-campaigns/past-endorsements/"
+      ],
+      "note": "Unchecked: dedsa.org and the DSA national Airtable/past-endorsements pages render no text, so the full 2022 to 2026 endorsement list could not be read. Entries come from the chapter Bluesky feed (205 items back to 2023-11-05) plus a saved Airtable extract for Wilson-Anton 2024. No 2022 or 2026 primary-stage DSA endorsements found. Lambert and Pinkney are named as endorsed with no election, so they are in gaps, not entries."
+    },
+    {
+      "group": "rfs",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://directory.runforsomething.net/candidates/2022/",
+        "https://directory.runforsomething.net/candidates/2024/",
+        "https://directory.runforsomething.net/candidates/2026/"
+      ],
+      "note": "Directory year pages read for DE state-legislative cards. 2020 cards (Pinkney, McBride, Gay, Wilson-Anton) out of scope. Press-release-only candidacies not re-reconciled; the saved comparison shows only Rae Krantz (HD6, 2026-06-02 release) as a DE state-legislative release row. Governor not endorsed by RFS."
+    },
+    {
+      "group": "pccc",
+      "status": "blocked",
+      "checked": [
+        "https://www.boldprogressives.org/2022-champions/",
+        "https://www.boldprogressives.org/candidates/our-endorsements-2026/",
+        "https://www.boldprogressives.org/2024-champions/"
+      ],
+      "note": "Unchecked: the 2024 champions page returned no text, so 2024 could not be checked. Read: 2022 champions list (Kyra Hoffner, SD-14, a champions list only, not an endorsement) and the 2026 endorsements page (no Delaware row)."
+    },
+    {
+      "group": "sunrise",
+      "status": "blocked",
+      "checked": [
+        "https://sunriseudel.wixsite.com/udel/endorsements",
+        "https://sunriseudel.wixsite.com/udel/current-endorsements",
+        "https://www.sunrisemovement.org/electoral/"
+      ],
+      "note": "Only Delaware hub is Sunrise Newark (University of Delaware microsite on Wix). Endorsement pages render almost no text; saved evidence says the 2020 archive is image-only and no 2022 to 2026 source was verified."
+    }
+  ],
+  "gaps": [
+    "Sunrise: UD hub endorsement pages are JavaScript shells with no readable text; 2022-2026 endorsements unverified.",
+    "DSA national past-endorsements Airtable and dedsa.org are unreadable; Wilson-Anton 2024 election year rests on the saved Airtable extract. Lambert and Pinkney DSA endorsements (post https://bsky.app/profile/delawaredsa.bsky.social/post/3leunj2k6g22v: \"our endorsed non-members Rep. Larry Lambert and Sen. Marie Pinkney\") have no election named and were left out of endorsements. Morrison and Wilson-Anton are called \"elected comrades\" in a 2025-01-03 post (DSA members), not recorded as endorsements.",
+    "WFP candidates page: Wilson-Anton, Grier and Frisby sit behind a View More button loaded by POST, so the static page cannot be used for excerpts; Wilson-Anton excerpt is null.",
+    "WFP 2022: only players named in the Sept 2022 recap and a later WFP summary (Harris) are recorded. A full 2022 slate, and any 2022 or 2024 WFP endorsement of Senate candidates (including Pinkney in SD13), was not found.",
+    "WFP/Our Revolution/PCCC involvement in the 2025-02-15 special elections (SD1, SD5) not found. Only DSA (Figliola, SD1) found. SD1 and SD5 special-election official PDFs are image/PDF evidence.",
+    "2026 general results are election-night data from data.delaware.gov (data_as_of 2026-11-04T03:03:18), uncertified. CSV excerpts may stop matching if the dataset is updated or certified. The 2026 primary report page (PR2026) was data as of 09/18/2026. No certified 2026 results were found.",
+    "Fletcher-Dominguez 2024 withdrawal: official candidate list shows both WITHDRAWN 9/5/2024 and Withdrawn 7/1/2024 on one entry; no date asserted.",
+    "Chapter-level census not possible: WFP Delaware has no separate local chapters found; DSA has one chapter; Our Revolution has no Delaware chapter page found. Local (county/city) endorsements are out of scope and omitted.",
+    "Governor: only WFP 2024 (Collin O'Mara, lost primary) found. No 2026 governor election in Delaware.",
+    "Term end dates are computed from term length (House 2 years, Senate 4 years) and the next general election date, not read from a roster. Senate terms in redistricting years can be 2 years; SD1 and SD5 terms are taken as 4 years because both seats are on the 2026 ballot.",
+    "Stage is unknown for RFS 2022 and 2024 directory cards, the WFP 2026 candidates-page entries (Booker, Fletcher-Dominguez, Lambert, Moore, Smith, Phillips, Burns, Wilson-Anton, Grier) and WFP Harris 2022; all set to general per the brief.",
+    "DSA Lambert (HD7) and Pinkney (SD13): \"endorsed non-members\" in a 2025-01-03 post, no election named, so not entries.",
+    "service_source: 2026 winners cite the legislature district listing; ended terms cite the constitution's term-length text. Legislature profile pages for Booker, Fletcher-Dominguez, Salaam, Grier and Frisby error, so contact_url is null for them."
+  ]
+}

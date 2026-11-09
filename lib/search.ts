@@ -11,15 +11,17 @@ function tokens(s: string): string[] {
     .filter(Boolean);
 }
 
-// Every query piece must start some token. Exact token hits rank first, so "CO-1" puts CO-1 above CO-10.
+// Every query piece must start some token. Exact token hits rank first, so "CO-1" puts CO-1 above CO-10;
+// a whole-query hit ("co1") ranks the congressional seat above a state seat in district 1.
 export function searchMembers(entries: SearchEntry[], query: string, limit = 8): SearchEntry[] {
   const q = norm(query).split(/[^a-z0-9]+/).filter(Boolean);
   if (q.length === 0) return [];
+  const whole = q.join("");
   const scored: { e: SearchEntry; score: number }[] = [];
   for (const e of entries) {
     const t = tokens(`${e.name} ${e.seat} ${e.stateName}`);
     if (!q.every((p) => t.some((x) => x.startsWith(p)))) continue;
-    scored.push({ e, score: q.filter((p) => t.includes(p)).length });
+    scored.push({ e, score: q.filter((p) => t.includes(p)).length + (q.length > 1 && t.includes(whole) ? 1 : 0) });
   }
   return scored
     .sort((a, b) => b.score - a.score || a.e.name.localeCompare(b.e.name))

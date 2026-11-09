@@ -16,21 +16,25 @@ function fixture() {
     endorsements: [{ id: "endorsement", person_id: "synthetic", issuer_id: "issuer", election_id: "election", source_id: "source", withdrawn: false }],
     reconciliations: [{ id: "decision", endorsement_id: "endorsement", outcome: "included", reason: "Test", term_id: "term" }],
     terms: [{ id: "term", person_id: "synthetic", seat_id: "seat", election_id: "election", starts_on: "2026-01-01", ends_on: "2030-01-01", status: "serving", service_source_id: "source", result_source_id: "source", contact_url: "https://example.org/", contact_source_id: "source", campaign_url: null, campaign_source_id: null }],
-    coverage: STATES.filter((s) => s.code !== "DC").flatMap((s) => ["wfp", "or", "dsa", "rfs", "pccc", "sunrise"].map((group_code) => ({ state: s.code, group_code, status: s.code === "NE" && group_code === "dsa" ? "complete_with_entries" : "complete_no_entries" }))),
+    coverage: STATES.filter((s) => s.code !== "DC").flatMap((s) => ["wfp", "or", "dsa", "rfs", "pccc", "sunrise"].map((group_code) => ({ state: s.code, group_code, status: s.code === "NE" && group_code === "dsa" ? "complete_with_entries" : "complete_no_entries", note: "Checked.", checked_at: "2026-11-08" }))),
   };
 }
 function envelope(snapshot: ReturnType<typeof fixture>) {
   return { version: snapshot.version, sha256: createHash("sha256").update(canonical(snapshot)).digest("hex"), snapshot };
 }
 
-test("only a complete, reviewed and unmodified state snapshot loads", () => {
+test("only a reviewed, unmodified snapshot with every coverage row loads", () => {
   assert.deepEqual(readStatePublication(null).members, []);
   const data = fixture();
   const result = readStatePublication(envelope(data), new Date("2026-11-08"));
   assert.equal(result.members[0].endorsers[0].issuer.name, "Test Chapter");
   assert.equal(stateSeatLabel(result.members[0]), "NE Legislature · District A · Seat 2");
-  data.coverage.pop();
-  assert.throws(() => readStatePublication(envelope(data)), /incomplete coverage/);
+  data.coverage[0].status = "blocked";
+  assert.equal(readStatePublication(envelope(data), new Date("2026-11-08")).coverage[0].status, "blocked");
+  data.coverage[0].note = " ";
+  assert.throws(() => readStatePublication(envelope(data)), /missing coverage rows/);
+  data.coverage.shift();
+  assert.throws(() => readStatePublication(envelope(data)), /missing coverage rows/);
   const invalid = envelope(fixture());
   invalid.snapshot.people[0].name = "Changed";
   assert.throws(() => readStatePublication(invalid), /hash mismatch/);
@@ -42,8 +46,28 @@ test("missing evidence and stale or expired terms fail closed", () => {
   assert.throws(() => readStatePublication(envelope(fixture()), new Date("2031-01-01")), /invalid term/);
   const future = fixture(); future.terms[0].status = "incoming";
   assert.throws(() => readStatePublication(envelope(future), new Date("2026-11-08")), /invalid term/);
-  const unresolved = fixture(); unresolved.terms[0].status = "unresolved";
-  assert.throws(() => readStatePublication(envelope(unresolved), new Date("2026-11-12")), /invalid term/);
+});
+
+test("a seat cannot list more incoming winners than it holds", () => {
+  const data = fixture();
+  for (const n of [1, 2, 3]) {
+    data.people.push({ ...data.people[0], id: `p${n}` });
+    data.endorsements.push({ ...data.endorsements[0], id: `e${n}`, person_id: `p${n}` });
+    data.terms.push({ ...data.terms[0], id: `t${n}`, person_id: `p${n}`, status: "incoming", starts_on: "2027-01-01" });
+    data.reconciliations.push({ ...data.reconciliations[0], id: `r${n}`, endorsement_id: `e${n}`, term_id: `t${n}` });
+  }
+  assert.throws(() => readStatePublication(envelope(data), new Date("2026-11-08")), /seat capacity exceeded/);
+  data.terms.pop();
+  assert.equal(readStatePublication(envelope(data), new Date("2026-11-08")).members.length, 3);
+});
+
+test("uncalled races are not listed", () => {
+  const data = fixture();
+  data.terms.push({ ...data.terms[0], id: "race", status: "unresolved", starts_on: "2027-01-01", ends_on: null as unknown as string, service_source_id: null as unknown as string });
+  data.reconciliations.push({ ...data.reconciliations[0], id: "race-decision", endorsement_id: "race-endorsement", term_id: "race" });
+  data.endorsements.push({ ...data.endorsements[0], id: "race-endorsement" });
+  const members = readStatePublication(envelope(data), new Date("2026-11-08")).members;
+  assert.deepEqual(members.map((m) => m.term.id), ["term"]);
 });
 
 test("primary endorsement qualifies only for its linked election", () => {

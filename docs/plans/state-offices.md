@@ -12,17 +12,18 @@ Planning draft, 8 November 2026. Eligibility and nationwide launch scope are agr
 - State-only organizations need a separate agreed list before they can qualify anyone.
 - Keep the existing congressional eligibility rules. The broader list applies to the new state-office roster.
 
-## Proposed listing rules
+## Listing rules
 
-These details complete the agreed scope and need review before roster collection.
+Agreed with the user on 8 November 2026.
 
-- Show qualifying sitting officials and qualifying 2026 winners awaiting inauguration. Show unresolved 2026 races separately from confirmed officeholders.
+- Show qualifying sitting officials and qualifying 2026 winners awaiting inauguration, labelled incoming. Uncalled races are not shown; a winner appears once the race is called.
 - Track the office currently held separately from the office won. An incoming official must not replace the current officeholder before the term starts.
 - A prior endorsement qualifies the term won in that election. It does not carry into a later term without qualifying evidence for that later election.
 - A primary endorsement in the same election cycle can qualify a general-election winner. Record the election stage and any subsequent withdrawal of support.
 - Do not treat party affiliation, organization membership, training, donations or a candidate's unsupported endorsement claim as an endorsement.
 - Retain withdrawn endorsements as evidence, but do not use them to qualify a listing. Another valid endorsement can still qualify it.
-- If an appointment has no qualifying election endorsement for the current term, flag it for a policy decision rather than infer eligibility.
+- A legislator on the official current roster for the endorsed seat (Open States, which links each member's official page) counts as having won it; no separate result source is needed. Incoming winners still need a results source. Agreed 9 November 2026.
+- Appointees without a qualifying endorsement for the election that won their current term are excluded.
 - Mayors, DC Council, lieutenant governors, other statewide offices and territorial offices are outside this release.
 
 ## Source audit before implementation
@@ -98,7 +99,7 @@ Implementation can use several PRs, but intermediate merges must not publish an 
 - Office labels, chamber names, seat identity and term transitions work for the roster's real edge cases. Multi-member districts do not trigger the congressional duplicate-seat rule.
 - Search, filters, counts, profiles, contact links and 404s work across federal and state offices.
 - Federal refresh, FEC, Congress.gov and portrait jobs still operate only on supported federal records.
-- Define how unresolved state races and expiring terms are rechecked before launch. Use the existing three-day unresolved-race freshness requirement unless a different rule is agreed. Keep endorsement, result and service check dates separate.
+- Uncalled state races are not shown, so they need no recheck cadence. Define how expiring terms and incoming handovers are refreshed before launch. Keep endorsement, result and service check dates separate.
 - Tests, lint and production build pass. Check mobile layout and keyboard navigation.
 
 ## Planning limits

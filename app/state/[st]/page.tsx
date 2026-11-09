@@ -4,7 +4,7 @@ import { ActionList, MemberList } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, OPPOSE, PLUG_IN } from "@/lib/actions";
 import { getState, membersIn } from "@/lib/data";
 import { STATES } from "@/lib/states";
-import { stateMembers, statePublicationVersion, stateSeatLabel } from "@/lib/state-offices";
+import { coverageComplete, GROUP_NAMES, stateCoverage, stateListings, stateStatusNote, statePublicationVersion, stateSeatLabel } from "@/lib/state-offices";
 
 export function generateStaticParams() {
   return STATES.map((s) => ({ st: s.code.toLowerCase() }));
@@ -23,10 +23,14 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
   if (!state) notFound();
 
   const members = membersIn(state.code);
-  const local = stateMembers().filter((m) => m.state === state.code);
+  const local = stateListings().filter((m) => m.state === state.code);
   const governors = local.filter((m) => m.seat.office === "governor" && m.term.status !== "unresolved");
   const legislators = local.filter((m) => m.seat.office !== "governor" && m.term.status !== "unresolved");
   const races = local.filter((m) => m.term.status === "unresolved");
+  const gaps = stateCoverage(state.code).filter((c) => !coverageComplete(c));
+  const unresearched = gaps.filter((c) => c.status === "in_progress"), blocked = gaps.filter((c) => c.status === "blocked");
+  const list = (rows: typeof gaps) => new Intl.ListFormat("en", { type: "conjunction" }).format(rows.map((c) => GROUP_NAMES[c.group_code]));
+  const checkedOn = gaps.length ? new Date(gaps.map((c) => c.checked_at).sort()[0]).toLocaleDateString("en-US", { dateStyle: "long", timeZone: "UTC" }) : "";
   const senators = members.filter((m) => m.office === "senate");
   const house = members
     .filter((m) => m.office === "house")
@@ -65,16 +69,28 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
       {statePublicationVersion && governors.length > 0 && (
         <section className="section" aria-labelledby="governor-title">
           <h2 id="governor-title">Governor</h2>
-          <ul className="roster jd-ruled">{governors.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
+          <ul className="roster jd-ruled">{governors.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}</ul>
         </section>
       )}
       {statePublicationVersion && legislators.length > 0 && (
         <section className="section" aria-labelledby="legislature-title">
           <h2 id="legislature-title">State legislature</h2>
-          <ul className="roster jd-ruled">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
+          <ul className="roster jd-ruled">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}</ul>
         </section>
       )}
       {statePublicationVersion && races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><ul className="roster jd-ruled">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)} · Not called</span></li>)}</ul></section>}
+
+      {statePublicationVersion && gaps.length > 0 && (
+        <section className="section" aria-labelledby="gaps-title">
+          <h2 id="gaps-title">Not fully checked</h2>
+          <p className="jd-note">
+            {gaps.length === 6 && unresearched.length === 6
+              ? "We haven't yet researched state-office endorsements here."
+              : [unresearched.length > 0 && `Not yet researched: ${list(unresearched)}.`, blocked.length > 0 && `Some sources couldn't be checked for ${list(blocked)}.`].filter(Boolean).join(" ")}{" "}
+            Endorsements may be missing. As of {checkedOn}.
+          </p>
+        </section>
+      )}
 
       {members.length === 0 && local.length === 0 && (
         <section className="section" aria-labelledby="oppose-title">

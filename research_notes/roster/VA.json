@@ -1,0 +1,1764 @@
+{
+  "state": "VA",
+  "researched_at": "2026-11-08",
+  "chambers": {
+    "upper": "Senate",
+    "lower": "House of Delegates"
+  },
+  "endorsements": [
+    {
+      "person": "Briana Sewell",
+      "office": "lower",
+      "district": "25",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Briana Sewell Virginia House, District 25"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164764_table.csv?split_party=false",
+        "excerpt": "Briana D. Sewell John S. Gray Write-Ins Total Votes Cast Democratic Republican State House District 25 13404 8263 106 21773"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164764, https://historical.elections.virginia.gov/elections/view/164764): Briana D. Sewell 13404, John S. Gray 8263. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Travis Nembhard",
+      "office": "lower",
+      "district": "22",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Travis Nembhard State House, District 22"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164760_table.csv?split_party=false",
+        "excerpt": "Ian Travis Lovejoy Travis S. Nembhard Write-Ins Total Votes Cast Republican Democratic State House District 22 16032 14616 70 30718"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164760, https://historical.elections.virginia.gov/elections/view/164760): Ian Travis Lovejoy 16032, Travis S. Nembhard 14616."
+    },
+    {
+      "person": "Adele McClure",
+      "office": "lower",
+      "district": "2",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Adele McClure Virginia House, District 2"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164651_table.csv?split_party=false",
+        "excerpt": "Adele Y. McClure Write-Ins Total Votes Cast Democratic State House District 2 17409 859 18268"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160327, https://historical.elections.virginia.gov/elections/view/160327): won, votes Adele Y. McClure 6267, Kevin S. Saucedo-Broach 728. General 2023-11-07 (contest 164651, https://historical.elections.virginia.gov/elections/view/164651): Adele Y. McClure 17409. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Michael Feggans",
+      "office": "lower",
+      "district": "97",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Michael Feggans State House, District 97"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164772_table.csv?split_party=false",
+        "excerpt": "Michael B. Feggans Karen S. Greenhalgh Write-Ins Total Votes Cast Democratic Republican State House District 97 12734 11555 28 24317"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164772, https://historical.elections.virginia.gov/elections/view/164772): Michael B. Feggans 12734, Karen S. Greenhalgh 11555. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Jade Harris",
+      "office": "upper",
+      "district": "3",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Jade Harris Virginia Senate, District 3"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164644_table.csv?split_party=false",
+        "excerpt": "Christopher T. Head Jade D. Harris Write-Ins Total Votes Cast Republican Democratic State Senate District 3 41381 21353 83 62817"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164644, https://historical.elections.virginia.gov/elections/view/164644): Christopher T. Head 41381, Jade D. Harris 21353."
+    },
+    {
+      "person": "Lily Franklin",
+      "office": "lower",
+      "district": "41",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Lily Franklin Virginia House, District 41"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164749_table.csv?split_party=false",
+        "excerpt": "J. Christian \"Chris\" Obenshain Lily V. Franklin Write-Ins Total Votes Cast Republican Democratic State House District 41 12529 12346 29 24904"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164749, https://historical.elections.virginia.gov/elections/view/164749): J. Christian \"Chris\" Obenshain 12529, Lily V. Franklin 12346."
+    },
+    {
+      "person": "Russet Perry",
+      "office": "upper",
+      "district": "31",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Russet Perry Virginia Senate, District 31"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164718_table.csv?split_party=false",
+        "excerpt": "Russet W. Perry Juan Pablo Segura Write-Ins Total Votes Cast Democratic Republican State Senate District 31 46821 41755 196 88772"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-01-10",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://apps.senate.virginia.gov/Senator/index.php",
+          "excerpt": "Russet W. Perry District 31 Party:"
+        },
+        "contact_url": "https://apps.senate.virginia.gov/Senator/memberpage.php?id=S125"
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160349, https://historical.elections.virginia.gov/elections/view/160349): won, votes Russet W. Perry 8733, Zachary J. Cummings 4688. General 2023-11-07 (contest 164718, https://historical.elections.virginia.gov/elections/view/164718): Russet W. Perry 46821, Juan Pablo Segura 41755. Term rule (Va. Code 24.2-214, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-214/): terms begin on the second Wednesday in January succeeding the election (four years). term_start 2024-01-10 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://apps.senate.virginia.gov/Senator/index.php)."
+    },
+    {
+      "person": "Heidi Drauschak",
+      "office": "upper",
+      "district": "35",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Heidi Drauschak Virginia Senate, District 35"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/160338_table.csv?split_party=false",
+        "excerpt": "David W. Marsden Heidi Drauschak Write-Ins Total Votes Cast Undervotes State Senate District 35 12179 7260 0 19439 0"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160338, https://historical.elections.virginia.gov/elections/view/160338): lost; winner David W. Marsden, votes David W. Marsden 12179, Heidi Drauschak 7260. Lost the primary, so no general-election result for this person."
+    },
+    {
+      "person": "Suhas Subramanyam",
+      "office": "upper",
+      "district": "32",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Suhas Subramanyam Virginia Senate, District 32"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164741_table.csv?split_party=false",
+        "excerpt": "Suhas Subramanyam Gregory J. Moulthrop Write-Ins Total Votes Cast Democratic Republican State Senate District 32 36590 23541 300 60431"
+      },
+      "current": {
+        "status": "unknown",
+        "term_start": "2024-01-10",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://apps.senate.virginia.gov/Senator/index.php",
+          "excerpt": "Kannan Srinivasan District 32 Party:"
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160356, https://historical.elections.virginia.gov/elections/view/160356): won, votes Suhas Subramanyam 11178, Ibraheem S. Samirah 4000. General 2023-11-07 (contest 164741, https://historical.elections.virginia.gov/elections/view/164741): Suhas Subramanyam 36590, Gregory J. Moulthrop 23541. The current Senate roster lists Kannan Srinivasan for district 32, not this person, so the status is left unknown: the term-start rule alone would give serving, but the roster contradicts it. No official resignation page was fetched; the reason is not stated. Term rule (Va. Code 24.2-214, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-214/): terms begin on the second Wednesday in January succeeding the election (four years). term_start 2024-01-10 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster."
+    },
+    {
+      "person": "Irene Shin",
+      "office": "lower",
+      "district": "8",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Irene Shin Virginia House, District 8"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164710_table.csv?split_party=false",
+        "excerpt": "Irene Shin Max B. Fisher Write-Ins Total Votes Cast Democratic Republican State House District 8 14851 7023 79 21953"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164710, https://historical.elections.virginia.gov/elections/view/164710): Irene Shin 14851, Max B. Fisher 7023. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Phil Hernandez",
+      "office": "lower",
+      "district": "94",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Phil Hernandez Virginia House, District 94"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164754_table.csv?split_party=false",
+        "excerpt": "Phil M. Hernandez Andrew B. \"Andy\" Pittman Write-Ins Total Votes Cast Democratic Republican State House District 94 8187 6481 28 14696"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164754, https://historical.elections.virginia.gov/elections/view/164754): Phil M. Hernandez 8187, Andrew B. \"Andy\" Pittman 6481. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Kellen Squire",
+      "office": "lower",
+      "district": "55",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Kellen Squire Virginia House, District 55"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/160322_table.csv?split_party=false",
+        "excerpt": "Amy J. Laufer Kellen J. Squire Write-Ins Total Votes Cast Undervotes State House District 55 8340 3624 0 11964 0"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160322, https://historical.elections.virginia.gov/elections/view/160322): lost; winner Amy J. Laufer, votes Amy J. Laufer 8340, Kellen J. Squire 3624. Lost the primary, so no general-election result for this person."
+    },
+    {
+      "person": "Ben Litchfield",
+      "office": "upper",
+      "district": "27",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Ben Litchfield Virginia Senate, District 27"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/160350_table.csv?split_party=false",
+        "excerpt": "Joel L. Griffin Benjamin Litchfield Write-Ins Total Votes Cast Undervotes State Senate District 27 6331 4239 0 10570 0"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160350, https://historical.elections.virginia.gov/elections/view/160350): lost; winner Joel L. Griffin, votes Joel L. Griffin 6331, Benjamin Litchfield 4239. Lost the primary, so no general-election result for this person."
+    },
+    {
+      "person": "Zach Coltrain",
+      "office": "lower",
+      "district": "98",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Zach Coltrain Virginia House, District 98"
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "Run for Something directory card (no endorsement date shown, so stage is general by rule). The official 2023 results for House District 98 (General 2023-11-07, contest 164771, https://historical.elections.virginia.gov/elections/view/164771) list only Barry D. Knight and write-ins, and no Democratic primary for the seat appears in the 2023 results export. He is therefore not on the ballot, but the cause (withdrawal, failure to qualify) is not documented, so outcome is left unknown rather than lost."
+    },
+    {
+      "person": "Victor McKenzie Jr",
+      "office": "lower",
+      "district": "82",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Victor McKenzie Jr Virginia House, District 82"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/160334_table.csv?split_party=false",
+        "excerpt": "Kimberly Pope Adams Victor K. McKenzie Jr Write-Ins Total Votes Cast Undervotes State House District 82 5199 3368 0 8567 0"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160334, https://historical.elections.virginia.gov/elections/view/160334): lost; winner Kimberly Pope Adams, votes Kimberly Pope Adams 5199, Victor K. McKenzie, Jr 3368. Lost the primary, so no general-election result for this person."
+    },
+    {
+      "person": "Elizabeth Bennett-Parker",
+      "office": "lower",
+      "district": "5",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Elizabeth Bennett-Parker Virginia House, District 5"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164641_table.csv?split_party=false",
+        "excerpt": "Elizabeth B. Bennett-Parker Write-Ins Total Votes Cast Democratic State House District 5 22359 2111 24470"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164641, https://historical.elections.virginia.gov/elections/view/164641): Elizabeth B. Bennett-Parker 22359. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Victoria Luevanos",
+      "office": "upper",
+      "district": "20",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Victoria Luevanos State Senate, District 20"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164635_table.csv?split_party=false",
+        "excerpt": "William R. \"Bill\" DeSteph Victoria A. Luevanos Write-Ins Total Votes Cast Republican Democratic State Senate District 20 36545 27560 126 64231"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164635, https://historical.elections.virginia.gov/elections/view/164635): William R. \"Bill\" DeSteph 36545, Victoria A. Luevanos 27560."
+    },
+    {
+      "person": "Nadarius Clark",
+      "office": "lower",
+      "district": "84",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Nadarius Clark Virginia House, District 84"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164681_table.csv?split_party=false",
+        "excerpt": "Nadarius E. Clark Michael J. Dillender Write-Ins Total Votes Cast Democratic Republican State House District 84 15899 14046 58 30003"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160333, https://historical.elections.virginia.gov/elections/view/160333): won, votes Nadarius E. Clark 4176, Michele E. Joyce 934. General 2023-11-07 (contest 164681, https://historical.elections.virginia.gov/elections/view/164681): Nadarius E. Clark 15899, Michael J. Dillender 14046. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Kimberly Pope Adams",
+      "office": "lower",
+      "district": "82",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Kimberly Pope Adams Virginia House, District 82"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164696_table.csv?split_party=false",
+        "excerpt": "Kim A. Taylor Kimberly Pope Adams Write-Ins Total Votes Cast Republican Democratic State House District 82 14286 14208 48 28542"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160334, https://historical.elections.virginia.gov/elections/view/160334): won, votes Kimberly Pope Adams 5199, Victor K. McKenzie, Jr 3368. General 2023-11-07 (contest 164696, https://historical.elections.virginia.gov/elections/view/164696): Kim A. Taylor 14286, Kimberly Pope Adams 14208."
+    },
+    {
+      "person": "Jolicia Ward",
+      "office": "upper",
+      "district": "25",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Jolicia Ward State Senate, District 25"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164666_table.csv?split_party=false",
+        "excerpt": "Richard H. Stuart Jolicia A. Ward Write-Ins Total Votes Cast Republican Democratic State Senate District 25 42650 26287 93 69030"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164666, https://historical.elections.virginia.gov/elections/view/164666): Richard H. Stuart 42650, Jolicia A. Ward 26287."
+    },
+    {
+      "person": "Stephen Miller-Pitts",
+      "office": "lower",
+      "district": "75",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Stephen Miller-Pitts State House, District 75"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164683_table.csv?split_party=false",
+        "excerpt": "Carrie Emerson Coyner Stephen C. Miller-Pitts Jr. Write-Ins Total Votes Cast Republican Democratic State House District 75 11042 9831 57 20930"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164683, https://historical.elections.virginia.gov/elections/view/164683): Carrie Emerson Coyner 11042, Stephen C. Miller-Pitts, Jr. 9831."
+    },
+    {
+      "person": "Destiny LeVere Bolling",
+      "office": "lower",
+      "district": "80",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Destiny LeVere Bolling State House, District 80"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164735_table.csv?split_party=false",
+        "excerpt": "Destiny L. Levere Bolling Write-Ins Total Votes Cast Democratic State House District 80 20570 1088 21658"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160352, https://historical.elections.virginia.gov/elections/view/160352): won, votes Destiny Levere L. Bolling 5648, John R. Dantzler, Jr 1952. General 2023-11-07 (contest 164735, https://historical.elections.virginia.gov/elections/view/164735): Destiny L. Levere Bolling 20570. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Susanna Gibson",
+      "office": "lower",
+      "district": "57",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Susanna Gibson Virginia House, District 57"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164726_table.csv?split_party=false",
+        "excerpt": "David L. Owen Susanna S. Gibson Write-Ins Total Votes Cast Republican Democratic State House District 57 18198 17483 165 35846"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160351, https://historical.elections.virginia.gov/elections/view/160351): won, votes Susanna S. Gibson 3181, Robert C. Shippee 2574. General 2023-11-07 (contest 164726, https://historical.elections.virginia.gov/elections/view/164726): David L. Owen 18198, Susanna S. Gibson 17483."
+    },
+    {
+      "person": "Joshua Thomas",
+      "office": "lower",
+      "district": "21",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Josh Thomas State House, District 21"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164761_table.csv?split_party=false",
+        "excerpt": "Josh E. Thomas John T. Stirrup Write-Ins Total Votes Cast Democratic Republican State House District 21 13926 12951 50 26927"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164761, https://historical.elections.virginia.gov/elections/view/164761): Josh E. Thomas 13926, John T. Stirrup 12951. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Natan McKenzie",
+      "office": "upper",
+      "district": "12",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Natan McKenzie State Senate, District 12"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164685_table.csv?split_party=false",
+        "excerpt": "Glen H. Sturtevant Jr. Natan D. McKenzie Write-Ins Total Votes Cast Republican Democratic State Senate District 12 44597 36689 213 81499"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2023-11-07 (contest 164685, https://historical.elections.virginia.gov/elections/view/164685): Glen H. Sturtevant Jr. 44597, Natan D. McKenzie 36689."
+    },
+    {
+      "person": "Makya Little",
+      "office": "lower",
+      "district": "19",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2023/",
+        "excerpt": "Makya Little Virginia House, District 19"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/160347_table.csv?split_party=false",
+        "excerpt": "Rozia A. Henson Jr Makya R. Little Natalie Louise Shorter Write-Ins Total Votes Cast Undervotes State House District 19 1388 1339 858 0 3585 0"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2023-06-20 (contest 160347, https://historical.elections.virginia.gov/elections/view/160347): lost; winner Rozia A. Henson, Jr, votes Rozia A. Henson, Jr 1388, Makya R. Little 1339, Natalie Louise Shorter 858. Lost the primary, so no general-election result for this person."
+    },
+    {
+      "person": "Andrew Schear",
+      "office": "lower",
+      "district": "57",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Andrew Schear House of Delegates, District 57"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/160955_table.csv?split_party=false",
+        "excerpt": "May Nivar Andrew G. Schear Total Votes Cast Democratic Democratic State House District 57 4393 2577 6970"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). Democratic primary 2025-06-17 (contest 160955, https://historical.elections.virginia.gov/elections/view/160955): lost; winner May Nivar, votes May Nivar 4393, Andrew G. Schear 2577. Lost the primary, so no general-election result for this person."
+    },
+    {
+      "person": "John McAuliff",
+      "office": "lower",
+      "district": "30",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "John McAuliff House of Delegates, District 30"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165220_table.csv?split_party=false",
+        "excerpt": "John Chilton McAuliff Geary M. Higgins Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 30 22393 21544 70 44007 44007"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "McAuliff, John C Capitol Office: 720 District: 30"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0395"
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165220, https://historical.elections.virginia.gov/elections/view/165220): John Chilton McAuliff 22393, Geary M. Higgins 21544. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Joshua Thomas",
+      "office": "lower",
+      "district": "21",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Joshua Thomas House of Delegates, District 21"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165506_table.csv?split_party=false",
+        "excerpt": "Joshua E. Thomas Gregory Lee \"Greg\" Gorham Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 21 18386 13017 51 31454 31454"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Thomas, Josh Capitol Office: 903 District: 21"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0382"
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165506, https://historical.elections.virginia.gov/elections/view/165506): Joshua E. Thomas 18386, Gregory Lee \"Greg\" Gorham 13017. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Nadarius Clark",
+      "office": "lower",
+      "district": "84",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Nadarius Clark House of Delegates, District 84"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165141_table.csv?split_party=false",
+        "excerpt": "Nadarius E. Clark Felisha R. L. Storm Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 84 23034 15192 44 38270 38270"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Clark, Nadarius E. Capitol Office: 906 District: 84"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0336"
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165141, https://historical.elections.virginia.gov/elections/view/165141): Nadarius E. Clark 23034, Felisha R. L. Storm 15192. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Liz Richardson",
+      "office": "lower",
+      "district": "100",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Liz Richardson House of Delegates, District 100"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164999_table.csv?split_party=false",
+        "excerpt": "Robert S. Bloxom Jr. Liz W. Richardson Write-Ins Total Votes Cast Total Ballots Cast Republican Democratic State House District 100 17887 15905 43 33835 33835"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 164999, https://historical.elections.virginia.gov/elections/view/164999): Robert S. Bloxom, Jr. 17887, Liz W. Richardson 15905."
+    },
+    {
+      "person": "Adele McClure",
+      "office": "lower",
+      "district": "2",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Delegate Adele McClure House of Delegates, District 2"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165042_table.csv?split_party=false",
+        "excerpt": "Adele Y. McClure Wendy K. Sigley Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 2 26953 6072 55 33080 33080"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "McClure, Adele Y. Capitol Office: 1102 District: 2"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0375"
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165042, https://historical.elections.virginia.gov/elections/view/165042): Adele Y. McClure 26953, Wendy K. Sigley 6072. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Lily Franklin",
+      "office": "lower",
+      "district": "41",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Lily Franklin House of Delegates, District 41"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165408_table.csv?split_party=false",
+        "excerpt": "Lily V. Franklin J. Christian \"Chris\" Obenshain Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 41 17683 15460 41 33184 33184"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Franklin, Lily V. Capitol Office: 721 District: 41"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0393"
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165408, https://historical.elections.virginia.gov/elections/view/165408): Lily V. Franklin 17683, J. Christian \"Chris\" Obenshain 15460. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Jonas Eppert",
+      "office": "lower",
+      "district": "74",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Jonas Eppert House of Delegates, District 74"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165143_table.csv?split_party=false",
+        "excerpt": "Mike A. Cherry Jonas J. Eppert Write-Ins Total Votes Cast Total Ballots Cast Republican Democratic State House District 74 20822 18818 96 39736 39736"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165143, https://historical.elections.virginia.gov/elections/view/165143): Mike A. Cherry 20822, Jonas J. Eppert 18818."
+    },
+    {
+      "person": "Risë Hayes",
+      "office": "lower",
+      "district": "52",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Risë Hayes State Delegate, District 52"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165095_table.csv?split_party=false",
+        "excerpt": "Wendell S. Walker Rise Marie Hayes Write-Ins Total Votes Cast Total Ballots Cast Republican Democratic State House District 52 16656 13167 39 29862 29862"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165095, https://historical.elections.virginia.gov/elections/view/165095): Wendell S. Walker 16656, Rise Marie Hayes 13167."
+    },
+    {
+      "person": "Rodney K. Nickens, Jr.",
+      "office": "lower",
+      "district": "90",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Rodney K. Nickens, Jr. House of Delegates, District 90"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165132_table.csv?split_party=false",
+        "excerpt": "James A. \"Jay\" Leftwich Jr. Rodney K. Nickens Jr. Write-Ins Total Votes Cast Total Ballots Cast Republican Democratic State House District 90 23070 15749 86 38905 38905"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165132, https://historical.elections.virginia.gov/elections/view/165132): James A. \"Jay\" Leftwich, Jr. 23070, Rodney K. Nickens, Jr. 15749."
+    },
+    {
+      "person": "Shane Boswell",
+      "office": "lower",
+      "district": "31",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Shane Boswell House of Delegates, District 31"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165147_table.csv?split_party=false",
+        "excerpt": "Delores R. Oates J. Shane Boswell Write-Ins Total Votes Cast Total Ballots Cast Republican Democratic State House District 31 22550 15130 55 37735 37735"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165147, https://historical.elections.virginia.gov/elections/view/165147): Delores R. Oates 22550, J. Shane Boswell 15130. Official name on the ballot is J. Shane Boswell."
+    },
+    {
+      "person": "Elaine Walters",
+      "office": "lower",
+      "district": "68",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Elaine Walters House of Delegates, District 68"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165186_table.csv?split_party=false",
+        "excerpt": "M. Keith Hodges Elaine G. Walters Write-Ins Total Votes Cast Total Ballots Cast Republican Democratic State House District 68 28074 13443 32 41549 41549"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165186, https://historical.elections.virginia.gov/elections/view/165186): M. Keith Hodges 28074, Elaine G. Walters 13443."
+    },
+    {
+      "person": "Makayla Venable",
+      "office": "lower",
+      "district": "36",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "makayla venable House of Delegates, District 36"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165044_table.csv?split_party=false",
+        "excerpt": "Ellen H. Campbell Makayla R. Venable Write-Ins Total Votes Cast Total Ballots Cast Republican Democratic State House District 36 20945 15352 41 36338 36338"
+      },
+      "current": null,
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165044, https://historical.elections.virginia.gov/elections/view/165044): Ellen H. Campbell 20945, Makayla R. Venable 15352."
+    },
+    {
+      "person": "Stacey Carroll",
+      "office": "lower",
+      "district": "64",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidates/2025/",
+        "excerpt": "Stacey Carroll House of Delegates, District 64"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165584_table.csv?split_party=false",
+        "excerpt": "Stacey A. Carroll Paul Vincent Milde III Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 64 19416 17047 51 36514 36514"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Carroll, Stacey A. Capitol Office: 817 District: 64"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0388"
+      },
+      "notes": "Run for Something directory card (the directory shows no endorsement date, so stage is general by rule). General 2025-11-04 (contest 165584, https://historical.elections.virginia.gov/elections/view/165584): Stacey A. Carroll 19416, Paul Vincent Milde, III 17047. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Nadarius Clark",
+      "office": "lower",
+      "district": "84",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2023-general-election-guide/",
+        "excerpt": "Nadarius Clark, Rozia Henson, Adele McClure, and Joshua Cole are all vying for key seats in the Virginia State House"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164681_table.csv?split_party=false",
+        "excerpt": "Nadarius E. Clark Michael J. Dillender Write-Ins Total Votes Cast Democratic Republican State House District 84 15899 14046 58 30003"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Source: Our Revolution 2023 General Election Guide, which presents \"Our Revolution's slate of progressives\" for Virginia and names no districts; district is taken from the official results by exact name match. Guide is for the 2023-11-07 general, so stage is general. The 2023 General Election Recap (https://ourrevolution.com/2023-general-election-recap/) also lists the same names as winners. Democratic primary 2023-06-20 (contest 160333, https://historical.elections.virginia.gov/elections/view/160333): won, votes Nadarius E. Clark 4176, Michele E. Joyce 934. General 2023-11-07 (contest 164681, https://historical.elections.virginia.gov/elections/view/164681): Nadarius E. Clark 15899, Michael J. Dillender 14046. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Rozia Henson",
+      "office": "lower",
+      "district": "19",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2023-general-election-guide/",
+        "excerpt": "Nadarius Clark, Rozia Henson, Adele McClure, and Joshua Cole are all vying for key seats in the Virginia State House"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164716_table.csv?split_party=false",
+        "excerpt": "Rozia A. \"J.R.\" Henson Jr. Write-Ins Total Votes Cast Democratic State House District 19 9937 962 10899"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Source: Our Revolution 2023 General Election Guide, which presents \"Our Revolution's slate of progressives\" for Virginia and names no districts; district is taken from the official results by exact name match. Guide is for the 2023-11-07 general, so stage is general. The 2023 General Election Recap (https://ourrevolution.com/2023-general-election-recap/) also lists the same names as winners. Democratic primary 2023-06-20 (contest 160347, https://historical.elections.virginia.gov/elections/view/160347): won, votes Rozia A. Henson, Jr 1388, Makya R. Little 1339, Natalie Louise Shorter 858. General 2023-11-07 (contest 164716, https://historical.elections.virginia.gov/elections/view/164716): Rozia A. \"J.R.\" Henson, Jr. 9937. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Adele McClure",
+      "office": "lower",
+      "district": "2",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2023-general-election-guide/",
+        "excerpt": "Nadarius Clark, Rozia Henson, Adele McClure, and Joshua Cole are all vying for key seats in the Virginia State House"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164651_table.csv?split_party=false",
+        "excerpt": "Adele Y. McClure Write-Ins Total Votes Cast Democratic State House District 2 17409 859 18268"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Source: Our Revolution 2023 General Election Guide, which presents \"Our Revolution's slate of progressives\" for Virginia and names no districts; district is taken from the official results by exact name match. Guide is for the 2023-11-07 general, so stage is general. The 2023 General Election Recap (https://ourrevolution.com/2023-general-election-recap/) also lists the same names as winners. Democratic primary 2023-06-20 (contest 160327, https://historical.elections.virginia.gov/elections/view/160327): won, votes Adele Y. McClure 6267, Kevin S. Saucedo-Broach 728. General 2023-11-07 (contest 164651, https://historical.elections.virginia.gov/elections/view/164651): Adele Y. McClure 17409. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Joshua Cole",
+      "office": "lower",
+      "district": "65",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2023-general-election-guide/",
+        "excerpt": "Nadarius Clark, Rozia Henson, Adele McClure, and Joshua Cole are all vying for key seats in the Virginia State House"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164722_table.csv?split_party=false",
+        "excerpt": "Joshua G. Cole Lee Peters III Write-Ins Total Votes Cast Democratic Republican State House District 65 15406 13656 92 29154"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2024-01-10",
+        "term_end": "2026-01-13",
+        "service_source": {
+          "url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/",
+          "excerpt": "The members of the House of Delegates shall be elected at the general election in November 1995, and every two years thereafter for terms of two years, to begin on the second Wednesday in January succeeding their election."
+        },
+        "contact_url": null
+      },
+      "notes": "Source: Our Revolution 2023 General Election Guide, which presents \"Our Revolution's slate of progressives\" for Virginia and names no districts; district is taken from the official results by exact name match. Guide is for the 2023-11-07 general, so stage is general. The 2023 General Election Recap (https://ourrevolution.com/2023-general-election-recap/) also lists the same names as winners. General 2023-11-07 (contest 164722, https://historical.elections.virginia.gov/elections/view/164722): Joshua G. Cole 15406, Lee Peters, III 13656. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2024-01-10 is that Wednesday and term_end 2026-01-13 is the day before the successor term's start, both computed from the rule, not read from a roster. That term has ended; any later re-election is a separate term."
+    },
+    {
+      "person": "Jennifer Carroll Foy",
+      "office": "upper",
+      "district": "33",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2023-general-election-guide/",
+        "excerpt": "Jennifer Carroll Foy, Stella Pekarsky, and Lachrecse Aird could win races that block a Republican takeover of the State Senate"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164702_table.csv?split_party=false",
+        "excerpt": "Jennifer D. Carroll Foy Mike L. Van Meter Write-Ins Total Votes Cast Democratic Republican State Senate District 33 35003 20525 169 55697"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-01-10",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://apps.senate.virginia.gov/Senator/index.php",
+          "excerpt": "Jennifer D. Carroll Foy District 33 Party:"
+        },
+        "contact_url": "https://apps.senate.virginia.gov/Senator/memberpage.php?id=S117"
+      },
+      "notes": "Source: Our Revolution 2023 General Election Guide, which presents \"Our Revolution's slate of progressives\" for Virginia and names no districts; district is taken from the official results by exact name match. Guide is for the 2023-11-07 general, so stage is general. The 2023 General Election Recap (https://ourrevolution.com/2023-general-election-recap/) also lists the same names as winners. Democratic primary 2023-06-20 (contest 160340, https://historical.elections.virginia.gov/elections/view/160340): won, votes Jennifer D. Carroll Foy 9627, Hala Sophia Ayala 5691. General 2023-11-07 (contest 164702, https://historical.elections.virginia.gov/elections/view/164702): Jennifer D. Carroll Foy 35003, Mike L. Van Meter 20525. Term rule (Va. Code 24.2-214, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-214/): terms begin on the second Wednesday in January succeeding the election (four years). term_start 2024-01-10 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://apps.senate.virginia.gov/Senator/index.php)."
+    },
+    {
+      "person": "Stella Pekarsky",
+      "office": "upper",
+      "district": "36",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2023-general-election-guide/",
+        "excerpt": "Jennifer Carroll Foy, Stella Pekarsky, and Lachrecse Aird could win races that block a Republican takeover of the State Senate"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164706_table.csv?split_party=false",
+        "excerpt": "Stella G. Pekarsky Julie Anna Perry Write-Ins Total Votes Cast Democratic Republican State Senate District 36 36802 23458 223 60483"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-01-10",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://apps.senate.virginia.gov/Senator/index.php",
+          "excerpt": "Stella G. Pekarsky District 36 Party:"
+        },
+        "contact_url": "https://apps.senate.virginia.gov/Senator/memberpage.php?id=S124"
+      },
+      "notes": "Source: Our Revolution 2023 General Election Guide, which presents \"Our Revolution's slate of progressives\" for Virginia and names no districts; district is taken from the official results by exact name match. Guide is for the 2023-11-07 general, so stage is general. The 2023 General Election Recap (https://ourrevolution.com/2023-general-election-recap/) also lists the same names as winners. Democratic primary 2023-06-20 (contest 160342, https://historical.elections.virginia.gov/elections/view/160342): won, votes Stella G. Pekarsky 8083, George L. Barker 7322. General 2023-11-07 (contest 164706, https://historical.elections.virginia.gov/elections/view/164706): Stella G. Pekarsky 36802, Julie Anna Perry 23458. Term rule (Va. Code 24.2-214, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-214/): terms begin on the second Wednesday in January succeeding the election (four years). term_start 2024-01-10 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://apps.senate.virginia.gov/Senator/index.php)."
+    },
+    {
+      "person": "Lashrecse Aird",
+      "office": "upper",
+      "district": "13",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2023,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2023-general-election-guide/",
+        "excerpt": "Jennifer Carroll Foy, Stella Pekarsky, and Lachrecse Aird could win races that block a Republican takeover of the State Senate"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/164671_table.csv?split_party=false",
+        "excerpt": "Lashrecse D. Aird Eric F. Ditri Write-Ins Total Votes Cast Democratic Republican State Senate District 13 35472 23727 98 59297"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-01-10",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://apps.senate.virginia.gov/Senator/index.php",
+          "excerpt": "Lashrecse D. Aird District 13 Party:"
+        },
+        "contact_url": "https://apps.senate.virginia.gov/Senator/memberpage.php?id=S115"
+      },
+      "notes": "Source: Our Revolution 2023 General Election Guide, which presents \"Our Revolution's slate of progressives\" for Virginia and names no districts; district is taken from the official results by exact name match. Guide is for the 2023-11-07 general, so stage is general. The 2023 General Election Recap (https://ourrevolution.com/2023-general-election-recap/) also lists the same names as winners. Guide spells the name \"Lachrecse Aird\". Democratic primary 2023-06-20 (contest 160328, https://historical.elections.virginia.gov/elections/view/160328): won, votes Lashrecse D. Aird 15297, Joseph D. Morrissey 6557. General 2023-11-07 (contest 164671, https://historical.elections.virginia.gov/elections/view/164671): Lashrecse D. Aird 35472, Eric F. Ditri 23727. Term rule (Va. Code 24.2-214, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-214/): terms begin on the second Wednesday in January succeeding the election (four years). term_start 2024-01-10 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://apps.senate.virginia.gov/Senator/index.php)."
+    },
+    {
+      "person": "Joshua Cole",
+      "office": "lower",
+      "district": "65",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/joshua-cole-delegate-virginia-hd-65/",
+        "excerpt": "We support Joshua Cole for re-election to Virginia’s House of Delegates"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165252_table.csv?split_party=false",
+        "excerpt": "Joshua G. Cole Sean C. Steinway Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 65 20659 14358 68 35085 35085"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Cole, Joshua G. Capitol Office: 913 District: 65"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0314"
+      },
+      "notes": "Post titled \"Joshua Cole DELEGATE VIRGINIA HD-65\" says \"Election Day is June 17th!\" so stage is primary. General 2025-11-04 (contest 165252, https://historical.elections.virginia.gov/elections/view/165252): Joshua G. Cole 20659, Sean C. Steinway 14358. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Elizabeth Guzmán",
+      "office": "lower",
+      "district": "22",
+      "issuer": "Working Families Party",
+      "group": "wfp",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://royalexaminer.com/working-families-party-pushes-dem-hold-in-house-snubs-top-of-ticket/",
+        "excerpt": "The WFP also endorsed Democrat Elizabeth Guzmán for the 22nd District House of Delegates seat"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165505_table.csv?split_party=false",
+        "excerpt": "Elizabeth R. Guzman Ian T. Lovejoy Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 22 20297 16624 56 36977 36977"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Guzman, Elizabeth R. Capitol Office: 920 District: 22"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0297"
+      },
+      "notes": "Source is a Virginia Mercury / VCU Capital News Service story dated 2025-09-17, republished by Royal Examiner (the Mercury site returns 403 to scripted fetches). It reports the party's endorsements and quotes WFP staff. Dated after the 2025-06-17 primary, so stage is general. WFP has no Virginia page on workingfamilies.org. General 2025-11-04 (contest 165505, https://historical.elections.virginia.gov/elections/view/165505): Elizabeth R. Guzman 20297, Ian T. Lovejoy 16624. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Joshua Cole",
+      "office": "lower",
+      "district": "65",
+      "issuer": "Working Families Party",
+      "group": "wfp",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://royalexaminer.com/working-families-party-pushes-dem-hold-in-house-snubs-top-of-ticket/",
+        "excerpt": "District 65: Incumbent Del. Josh Cole vs. Republican challenger Sean Steinway"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165252_table.csv?split_party=false",
+        "excerpt": "Joshua G. Cole Sean C. Steinway Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 65 20659 14358 68 35085 35085"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Cole, Joshua G. Capitol Office: 913 District: 65"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0314"
+      },
+      "notes": "Source is a Virginia Mercury / VCU Capital News Service story dated 2025-09-17, republished by Royal Examiner (the Mercury site returns 403 to scripted fetches). It reports the party's endorsements and quotes WFP staff. Dated after the 2025-06-17 primary, so stage is general. WFP has no Virginia page on workingfamilies.org. General 2025-11-04 (contest 165252, https://historical.elections.virginia.gov/elections/view/165252): Joshua G. Cole 20659, Sean C. Steinway 14358. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Nicole Cole",
+      "office": "lower",
+      "district": "66",
+      "issuer": "Working Families Party",
+      "group": "wfp",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://royalexaminer.com/working-families-party-pushes-dem-hold-in-house-snubs-top-of-ticket/",
+        "excerpt": "District 66: Nicole Cole vs. Republican incumbent Del. Bobby Orrock"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165105_table.csv?split_party=false",
+        "excerpt": "Nicole Tarlton Cole Robert D. \"Bobby\" Orrock Sr. Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 66 18831 17248 33 36112 36112"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Cole, Nicole Capitol Office: 818 District: 66"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0389"
+      },
+      "notes": "Source is a Virginia Mercury / VCU Capital News Service story dated 2025-09-17, republished by Royal Examiner (the Mercury site returns 403 to scripted fetches). It reports the party's endorsements and quotes WFP staff. Dated after the 2025-06-17 primary, so stage is general. WFP has no Virginia page on workingfamilies.org. General 2025-11-04 (contest 165105, https://historical.elections.virginia.gov/elections/view/165105): Nicole Tarlton Cole 18831, Robert D. \"Bobby\" Orrock, Sr. 17248. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Jessica Anderson",
+      "office": "lower",
+      "district": "71",
+      "issuer": "Working Families Party",
+      "group": "wfp",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://royalexaminer.com/working-families-party-pushes-dem-hold-in-house-snubs-top-of-ticket/",
+        "excerpt": "District 71: Jessica Anderson vs. Republican incumbent Del. Amanda Batten"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165332_table.csv?split_party=false",
+        "excerpt": "Jessica L. Anderson Amanda E. Batten Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 71 23910 20979 59 44948 44948"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Anderson, Jessica L. Capitol Office: 804 District: 71"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0386"
+      },
+      "notes": "Source is a Virginia Mercury / VCU Capital News Service story dated 2025-09-17, republished by Royal Examiner (the Mercury site returns 403 to scripted fetches). It reports the party's endorsements and quotes WFP staff. Dated after the 2025-06-17 primary, so stage is general. WFP has no Virginia page on workingfamilies.org. General 2025-11-04 (contest 165332, https://historical.elections.virginia.gov/elections/view/165332): Jessica L. Anderson 23910, Amanda E. Batten 20979. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Leslie Mehta",
+      "office": "lower",
+      "district": "73",
+      "issuer": "Working Families Party",
+      "group": "wfp",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://royalexaminer.com/working-families-party-pushes-dem-hold-in-house-snubs-top-of-ticket/",
+        "excerpt": "District 73: Leslie Mehta vs. Republican incumbent Del. Mark Earley Jr."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165145_table.csv?split_party=false",
+        "excerpt": "Leslie C. Mehta Mark L. Earley Jr. Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 73 26122 24275 54 50451 50451"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Mehta, Leslie Chambers Capitol Office: 821 District: 73"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0396"
+      },
+      "notes": "Source is a Virginia Mercury / VCU Capital News Service story dated 2025-09-17, republished by Royal Examiner (the Mercury site returns 403 to scripted fetches). It reports the party's endorsements and quotes WFP staff. Dated after the 2025-06-17 primary, so stage is general. WFP has no Virginia page on workingfamilies.org. Democratic primary 2025-06-17 (contest 160953, https://historical.elections.virginia.gov/elections/view/160953): won, votes Leslie C. Mehta 5341, Justin David Woodford 1653. General 2025-11-04 (contest 165145, https://historical.elections.virginia.gov/elections/view/165145): Leslie C. Mehta 26122, Mark L. Earley, Jr. 24275. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Kimberly Pope Adams",
+      "office": "lower",
+      "district": "82",
+      "issuer": "Working Families Party",
+      "group": "wfp",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://royalexaminer.com/working-families-party-pushes-dem-hold-in-house-snubs-top-of-ticket/",
+        "excerpt": "District 82: Kimberly Pope Adams vs. Republican incumbent Del. Kim Taylor"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165182_table.csv?split_party=false",
+        "excerpt": "Kimberly Pope Adams Kim A. Taylor Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 82 18529 15848 40 34417 34417"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Pope Adams, Kimberly Capitol Office: 820 District: 82"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0399"
+      },
+      "notes": "Source is a Virginia Mercury / VCU Capital News Service story dated 2025-09-17, republished by Royal Examiner (the Mercury site returns 403 to scripted fetches). It reports the party's endorsements and quotes WFP staff. Dated after the 2025-06-17 primary, so stage is general. WFP has no Virginia page on workingfamilies.org. General 2025-11-04 (contest 165182, https://historical.elections.virginia.gov/elections/view/165182): Kimberly Pope Adams 18529, Kim A. Taylor 15848. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Nadarius Clark",
+      "office": "lower",
+      "district": "84",
+      "issuer": "Working Families Party",
+      "group": "wfp",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://royalexaminer.com/working-families-party-pushes-dem-hold-in-house-snubs-top-of-ticket/",
+        "excerpt": "District 84: Incumbent Del. Nadarius Clark vs. Republican challenger Felisha Rose Leffler Storm"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165141_table.csv?split_party=false",
+        "excerpt": "Nadarius E. Clark Felisha R. L. Storm Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 84 23034 15192 44 38270 38270"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Clark, Nadarius E. Capitol Office: 906 District: 84"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0336"
+      },
+      "notes": "Source is a Virginia Mercury / VCU Capital News Service story dated 2025-09-17, republished by Royal Examiner (the Mercury site returns 403 to scripted fetches). It reports the party's endorsements and quotes WFP staff. Dated after the 2025-06-17 primary, so stage is general. WFP has no Virginia page on workingfamilies.org. General 2025-11-04 (contest 165141, https://historical.elections.virginia.gov/elections/view/165141): Nadarius E. Clark 23034, Felisha R. L. Storm 15192. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Michael Feggans",
+      "office": "lower",
+      "district": "97",
+      "issuer": "Working Families Party",
+      "group": "wfp",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://royalexaminer.com/working-families-party-pushes-dem-hold-in-house-snubs-top-of-ticket/",
+        "excerpt": "District 97: Incumbent Del. Michael Feggans vs. Republican challenger Tim Anderson"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165615_table.csv?split_party=false",
+        "excerpt": "Michael B. Feggans Timothy V. Anderson Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 97 17496 12926 54 30476 30476"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Feggans, Michael Capitol Office: 1104 District: 97"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0360"
+      },
+      "notes": "Source is a Virginia Mercury / VCU Capital News Service story dated 2025-09-17, republished by Royal Examiner (the Mercury site returns 403 to scripted fetches). It reports the party's endorsements and quotes WFP staff. Dated after the 2025-06-17 primary, so stage is general. WFP has no Virginia page on workingfamilies.org. General 2025-11-04 (contest 165615, https://historical.elections.virginia.gov/elections/view/165615): Michael B. Feggans 17496, Timothy V. Anderson 12926. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    },
+    {
+      "person": "Jessica Anderson",
+      "office": "lower",
+      "district": "71",
+      "issuer": "Progressive Change Campaign Committee",
+      "group": "pccc",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://secure.actblue.com/entity/fundraisers/140550",
+        "excerpt": "We have endorsed an exciting slate of progressive candidates in Virginia! Progressive Change Campaign Committee (PCCC) Support Jessica Anderson for VA House of Delegates today"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://va2.elstats.civera.com/api/download_contest/165332_table.csv?split_party=false",
+        "excerpt": "Jessica L. Anderson Amanda E. Batten Write-Ins Total Votes Cast Total Ballots Cast Democratic Republican State House District 71 23910 20979 59 44948 44948"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2026-01-14",
+        "term_end": "2028-01-11",
+        "service_source": {
+          "url": "https://house.vga.virginia.gov/members",
+          "excerpt": "Anderson, Jessica L. Capitol Office: 804 District: 71"
+        },
+        "contact_url": "https://house.vga.virginia.gov/members/H0386"
+      },
+      "notes": "ActBlue entity page listing fundraisers (\"Elect NJ/VA Democrats in 2025!\"); the page does not state the entity name, and the PCCC attribution rests on the adjacent author line. The page has no date, so stage is general by rule. General 2025-11-04 (contest 165332, https://historical.elections.virginia.gov/elections/view/165332): Jessica L. Anderson 23910, Amanda E. Batten 20979. Term rule (Va. Code 24.2-215, https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-215/): terms begin on the second Wednesday in January succeeding the election (two years). term_start 2026-01-14 is that Wednesday and term_end 2028-01-11 is the day before the successor term's start, both computed from the rule, not read from a roster. Current member confirmed on the official roster (https://house.vga.virginia.gov/members)."
+    }
+  ],
+  "coverage": [
+    {
+      "group": "wfp",
+      "status": "blocked",
+      "checked": [
+        "https://workingfamilies.org/state-sitemap.xml",
+        "https://workingfamilies.org/state/virginia/",
+        "https://workingfamilies.org/post-sitemap.xml",
+        "https://royalexaminer.com/working-families-party-pushes-dem-hold-in-house-snubs-top-of-ticket/"
+      ],
+      "note": "workingfamilies.org has no Virginia state page (404) and no Virginia legislative posts in its post sitemap. The 2025 slate (8 legislative candidates plus a lieutenant governor pick, excluded) comes from press coverage only. Virginia Mercury, RVA Magazine and Blue Voter Guide were not fetchable by script (403), so the full WFP Virginia list and any 2023 slate are unverified."
+    },
+    {
+      "group": "or",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://ourrevolution.com/2023-general-election-guide/",
+        "https://ourrevolution.com/2023-general-election-recap/",
+        "https://ourrevolution.com/joshua-cole-delegate-virginia-hd-65/",
+        "https://ourrevolution.com/category/endorsement/va/",
+        "https://ourrevolution.com/wp-json/wp/v2/posts?search=virginia"
+      ],
+      "note": "National site: 2023 general guide and recap (7 names), 2025 primary post (Cole). Site search for virginia, delegate and house of delegates found nothing else in scope. Our Revolution Northern Virginia was not checked beyond a web search that found no slate."
+    },
+    {
+      "group": "dsa",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://mdcdsa.org/endorsements/",
+        "https://mdcdsa.org/2026endorsements/",
+        "https://mdcdsa.org/statements/",
+        "https://www.dsarichmond.org/",
+        "https://tidewaterdsa.com/",
+        "https://charlottesvilledsa.com/",
+        "https://www.nrvdsa.org/"
+      ],
+      "note": "No 2023 to 2026 Virginia governor or General Assembly endorsement found on these chapter pages. The Metro DC DSA 2026 page lists Virginia constitutional amendments only; its only Virginia House of Delegates statement is a 2021 endorsement (out of scope). Social media and image-only posts were not audited; Shenandoah Valley is an organizing committee and was not checked."
+    },
+    {
+      "group": "rfs",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://directory.runforsomething.net/candidates/2022/",
+        "https://directory.runforsomething.net/candidates/2023/",
+        "https://directory.runforsomething.net/candidates/2024/",
+        "https://directory.runforsomething.net/candidates/2025/",
+        "https://directory.runforsomething.net/candidates/2026/"
+      ],
+      "note": "Directory cards for 2023 (26 state legislative) and 2025 (14). The 2022, 2024 and 2026 directories list Virginia local candidates only. The 2021 cohort is out of scope (those terms ended in January 2024). RFS release-only candidacies noted in earlier repo reviews were not reconciled."
+    },
+    {
+      "group": "pccc",
+      "status": "blocked",
+      "checked": [
+        "https://www.boldprogressives.org/2023-champions/",
+        "https://www.boldprogressives.org/",
+        "https://secure.actblue.com/entity/fundraisers/140550",
+        "https://bluevoterguide.org/endorser-org/Progressive_Change_Campaign_Committee_(PCCC)/VA/1945"
+      ],
+      "note": "The 2023 champions page lists 25 Virginia legislative names but is a champions list, not an endorsement statement, so none are entered. One 2025 endorsement (Jessica Anderson) rests on an ActBlue fundraiser page that does not name its entity. Blue Voter Guide returned a bot challenge, and no PCCC-hosted 2025 Virginia list was found."
+    },
+    {
+      "group": "sunrise",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://www.sunrisemovement.org/endorsements/",
+        "https://www.sunrisemovement.org/movement-updates/virginia-endorsements/",
+        "https://www.sunrisemovement.org/wp-json/wp/v2/search?search=virginia"
+      ],
+      "note": "Only Virginia endorsement found is the 2021-03-22 release for Jennifer Carroll Foy (governor, 2021 primary) and Sam Rasoul (lieutenant governor); the 2021 election is outside scope because its term ended in January 2026. Local hubs (for example Sunrise Tidewater) were not audited."
+    }
+  ],
+  "gaps": [
+    "Official results come from the Virginia Department of Elections historical site (historical.elections.virginia.gov). Result excerpts are quoted from the per-contest table export on va2.elstats.civera.com (the site's own 'Results CSV' download), because the contest pages render vote totals with JavaScript.",
+    "Term rule: Va. Code 24.2-215 (House of Delegates) and 24.2-214 (Senate), https://law.lis.virginia.gov/vacode/title24.2/chapter2/. Terms begin on the second Wednesday in January after the election. Term dates are computed from the rule.",
+    "Roster check: House roster https://house.vga.virginia.gov/members and Senate roster https://apps.senate.virginia.gov/Senator/index.php were fetched 2026-11-08. Governor 2025: no in-scope endorsement by any of the six groups found (WFP stated it would not endorse Abigail Spanberger).",
+    "PCCC 2023 champions list (https://www.boldprogressives.org/2023-champions/) names 25 Virginia legislative candidates; not entered because a champions list alone is not an endorsement. Its Victor McKenzie entry is labeled VA-SD-82, and the official contest is House District 82.",
+    "Working Families Party 2023 Virginia slate not found. Blue Voter Guide (bot-blocked) lists WFP as endorser of Jennifer Carroll Foy for 2023 State Senate District 33 per search snippet only; not entered.",
+    "Our Revolution 2023 guide names no districts or endorsement dates and uses the spellings 'Lachrecse' and 'Carrol'; districts come from exact-name matches in official results. Our Revolution Northern Virginia chapter list not found.",
+    "Run for Something cards carry no endorsement date, so every RFS entry is stage general; several endorsees (for example Drauschak, Litchfield, Squire, Victor McKenzie, Makya Little, Schear, Nickens) lost their primaries and may have been endorsed for the primary. The 2025 RFS directory page may not be exhaustive.",
+    "2023 and 2025 special elections (2023-01-10, 2023-03-28, 2024-01-09, 2025-01-07, 2026-01-06 to 2026-03-17) were searched in the official export for endorsee names; no endorsee appears.",
+    "Zach Coltrain (RFS 2023, HD 98): absent from official results; outcome unknown."
+  ]
+}

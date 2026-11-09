@@ -37,7 +37,7 @@ const QUESTIONS: { q: string; a: React.ReactNode }[] = [
   },
   {
     q: "Where do race results come from?",
-    a: statePublicationVersion ? `Congressional races use news outlets' projections. State profiles cite their election-result sources. Uncalled races must be checked within ${STALE_AFTER_DAYS} days.` : `News outlets' projections. Uncalled races are rechecked daily against NBC News, and the site won't publish if one goes ${STALE_AFTER_DAYS} days without a check.`,
+    a: statePublicationVersion ? `Congressional races use news outlets' projections. Uncalled congressional races are rechecked daily and the site won't publish if one goes ${STALE_AFTER_DAYS} days without a check. State profiles cite their election-result sources, and uncalled state races aren't listed.` : `News outlets' projections. Uncalled races are rechecked daily against NBC News, and the site won't publish if one goes ${STALE_AFTER_DAYS} days without a check.`,
   },
   {
     q: "Where do the headlines come from?",

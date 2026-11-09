@@ -1,0 +1,206 @@
+{
+  "fetched_at": "2026-11-08T23:03:51.127Z",
+  "license": "CC0 (https://openstates.org/data/)",
+  "states": {
+    "AL": {
+      "url": "https://data.openstates.org/people/current/al.csv",
+      "rows": 140
+    },
+    "AK": {
+      "url": "https://data.openstates.org/people/current/ak.csv",
+      "rows": 60
+    },
+    "AZ": {
+      "url": "https://data.openstates.org/people/current/az.csv",
+      "rows": 90
+    },
+    "AR": {
+      "url": "https://data.openstates.org/people/current/ar.csv",
+      "rows": 132
+    },
+    "CA": {
+      "url": "https://data.openstates.org/people/current/ca.csv",
+      "rows": 118
+    },
+    "CO": {
+      "url": "https://data.openstates.org/people/current/co.csv",
+      "rows": 100
+    },
+    "CT": {
+      "url": "https://data.openstates.org/people/current/ct.csv",
+      "rows": 187
+    },
+    "DE": {
+      "url": "https://data.openstates.org/people/current/de.csv",
+      "rows": 62
+    },
+    "FL": {
+      "url": "https://data.openstates.org/people/current/fl.csv",
+      "rows": 155
+    },
+    "GA": {
+      "url": "https://data.openstates.org/people/current/ga.csv",
+      "rows": 236
+    },
+    "HI": {
+      "url": "https://data.openstates.org/people/current/hi.csv",
+      "rows": 76
+    },
+    "ID": {
+      "url": "https://data.openstates.org/people/current/id.csv",
+      "rows": 105
+    },
+    "IL": {
+      "url": "https://data.openstates.org/people/current/il.csv",
+      "rows": 177
+    },
+    "IN": {
+      "url": "https://data.openstates.org/people/current/in.csv",
+      "rows": 150
+    },
+    "IA": {
+      "url": "https://data.openstates.org/people/current/ia.csv",
+      "rows": 148
+    },
+    "KS": {
+      "url": "https://data.openstates.org/people/current/ks.csv",
+      "rows": 165
+    },
+    "KY": {
+      "url": "https://data.openstates.org/people/current/ky.csv",
+      "rows": 138
+    },
+    "LA": {
+      "url": "https://data.openstates.org/people/current/la.csv",
+      "rows": 141
+    },
+    "ME": {
+      "url": "https://data.openstates.org/people/current/me.csv",
+      "rows": 188
+    },
+    "MD": {
+      "url": "https://data.openstates.org/people/current/md.csv",
+      "rows": 188
+    },
+    "MA": {
+      "url": "https://data.openstates.org/people/current/ma.csv",
+      "rows": 197
+    },
+    "MI": {
+      "url": "https://data.openstates.org/people/current/mi.csv",
+      "rows": 148
+    },
+    "MN": {
+      "url": "https://data.openstates.org/people/current/mn.csv",
+      "rows": 200
+    },
+    "MS": {
+      "url": "https://data.openstates.org/people/current/ms.csv",
+      "rows": 171
+    },
+    "MO": {
+      "url": "https://data.openstates.org/people/current/mo.csv",
+      "rows": 188
+    },
+    "MT": {
+      "url": "https://data.openstates.org/people/current/mt.csv",
+      "rows": 150
+    },
+    "NE": {
+      "url": "https://data.openstates.org/people/current/ne.csv",
+      "rows": 49
+    },
+    "NV": {
+      "url": "https://data.openstates.org/people/current/nv.csv",
+      "rows": 63
+    },
+    "NH": {
+      "url": "https://data.openstates.org/people/current/nh.csv",
+      "rows": 406
+    },
+    "NJ": {
+      "url": "https://data.openstates.org/people/current/nj.csv",
+      "rows": 120
+    },
+    "NM": {
+      "url": "https://data.openstates.org/people/current/nm.csv",
+      "rows": 109
+    },
+    "NY": {
+      "url": "https://data.openstates.org/people/current/ny.csv",
+      "rows": 212
+    },
+    "NC": {
+      "url": "https://data.openstates.org/people/current/nc.csv",
+      "rows": 170
+    },
+    "ND": {
+      "url": "https://data.openstates.org/people/current/nd.csv",
+      "rows": 141
+    },
+    "OH": {
+      "url": "https://data.openstates.org/people/current/oh.csv",
+      "rows": 130
+    },
+    "OK": {
+      "url": "https://data.openstates.org/people/current/ok.csv",
+      "rows": 146
+    },
+    "OR": {
+      "url": "https://data.openstates.org/people/current/or.csv",
+      "rows": 90
+    },
+    "PA": {
+      "url": "https://data.openstates.org/people/current/pa.csv",
+      "rows": 253
+    },
+    "RI": {
+      "url": "https://data.openstates.org/people/current/ri.csv",
+      "rows": 112
+    },
+    "SC": {
+      "url": "https://data.openstates.org/people/current/sc.csv",
+      "rows": 170
+    },
+    "SD": {
+      "url": "https://data.openstates.org/people/current/sd.csv",
+      "rows": 105
+    },
+    "TN": {
+      "url": "https://data.openstates.org/people/current/tn.csv",
+      "rows": 131
+    },
+    "TX": {
+      "url": "https://data.openstates.org/people/current/tx.csv",
+      "rows": 178
+    },
+    "UT": {
+      "url": "https://data.openstates.org/people/current/ut.csv",
+      "rows": 103
+    },
+    "VT": {
+      "url": "https://data.openstates.org/people/current/vt.csv",
+      "rows": 180
+    },
+    "VA": {
+      "url": "https://data.openstates.org/people/current/va.csv",
+      "rows": 139
+    },
+    "WA": {
+      "url": "https://data.openstates.org/people/current/wa.csv",
+      "rows": 147
+    },
+    "WV": {
+      "url": "https://data.openstates.org/people/current/wv.csv",
+      "rows": 134
+    },
+    "WI": {
+      "url": "https://data.openstates.org/people/current/wi.csv",
+      "rows": 132
+    },
+    "WY": {
+      "url": "https://data.openstates.org/people/current/wy.csv",
+      "rows": 93
+    }
+  }
+}

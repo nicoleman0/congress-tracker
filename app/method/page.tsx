@@ -27,7 +27,7 @@ export default function Method() {
       {statePublicationVersion && <section className="section" aria-labelledby="state-title">
         <h2 id="state-title">Governors and state legislators</h2>
         <p>We list serving officials and confirmed incoming winners endorsed by Working Families Party, Our Revolution, Democratic Socialists of America, Run for Something, Progressive Change Campaign Committee or Sunrise Movement, including their verified official chapters. An endorsement must be from the election that won the term, including its primary. Withdrawn endorsements do not qualify. Appointments without a qualifying endorsement for the current term are excluded.</p>
-        <p>We show unresolved state races separately and recheck their result sources within three days. Each profile names the issuer and links to its endorsement, service and election sources.</p>
+        <p>Winners not yet sworn in are marked incoming. A state race appears only once it is called. Each profile names the issuer and links to its endorsement, service and election sources.</p>
         <p>Coverage was reviewed against the listed sources on {statePublicationReviewedAt?.slice(0, 10)}. This is not a list of every progressive officeholder.</p>
       </section>}
 

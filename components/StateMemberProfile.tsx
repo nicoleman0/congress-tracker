@@ -31,7 +31,7 @@ async function StateNews({ member, stateName }: { member: StateMember; stateName
   if (!news.headlines.length) return <p className="empty">No headlines in the last 90 days.</p>;
   return <><NewsPager headlines={news.headlines} /><p className="jd-note">Headlines from Google News, filtered by name.</p></>;
 }
-const status = (member: StateMember) => member.term.status === "serving" ? `Serving · term began ${member.term.starts_on.slice(0, 10)}` : member.term.status === "incoming" ? `Incoming · term begins ${member.term.starts_on.slice(0, 10)}` : "Race not called";
+const status = (member: StateMember) => member.term.status === "serving" ? `Serving · term began ${member.term.starts_on.slice(0, 10)}` : `Incoming · term begins ${member.term.starts_on.slice(0, 10)}`;
 export function StateMemberProfile({ member, otherTerms, stateName }: { member: StateMember; otherTerms: StateMember[]; stateName: string }) {
   return <>
     <section className="hero" aria-labelledby="member-name">

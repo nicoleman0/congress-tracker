@@ -34,7 +34,7 @@ export function judge(page: string | null, quote: string): Result {
 }
 
 // One retry: campaign hosts drop the odd request, and a single miss shouldn't read as drift.
-async function fetchPage(url: string): Promise<string | null> {
+export async function fetchPage(url: string): Promise<string | null> {
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
       const res = await fetch(url, { headers: { "user-agent": BROWSER_UA }, signal: AbortSignal.timeout(20_000) });
