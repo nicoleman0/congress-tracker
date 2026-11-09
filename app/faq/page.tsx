@@ -61,7 +61,7 @@ export default function Faq() {
   return (
     <>
       <header className="page-header">
-        <h1><span className="ink">FAQ</span></h1>
+        <h1><span className="jd-ink">FAQ</span></h1>
       </header>
       <div className="faq">
         {QUESTIONS.map(({ q, a }, i) => (
