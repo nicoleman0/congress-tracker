@@ -44,6 +44,15 @@ export function seat(office: string): { chamber: string; district: string } | nu
     office.match(/,\s*([A-Za-z]+ \d+)\s*,/)?.[1] ?? "";
   return { chamber, district: district.trim() };
 }
+// Token set for county-style districts, so "Hillsborough District 29" matches "Hillsborough 29" and "1st Suffolk" matches "First Suffolk".
+const ORDINALS = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"];
+const NOISE = new Set(["state", "house", "senate", "representative", "representatives", "of", "district", "and", "the", "legislature", "assembly", "general", "court"]);
+export function districtKey(text: string, stateName = "", code = ""): string {
+  const drop = new Set([...NOISE, ...stateName.toLowerCase().split(" "), code.toLowerCase()]);
+  return text.toLowerCase().replace(/&#0?38;|&amp;|&/g, " ").replace(/[^a-z0-9]+/g, " ").split(" ")
+    .map((t) => (ORDINALS.includes(t) ? String(ORDINALS.indexOf(t) + 1) : t.replace(/^(\d+)(st|nd|rd|th)$/, "$1")))
+    .filter((t) => t && !drop.has(t)).sort().join(" ");
+}
 const norm = (s: string) => bare(s.replace(/\b(rep|sen|del|dr|jr|sr|ii|iii)\.?(?=\s|$)/gi, "")).replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim();
 const last = (s: string) => norm(s).split(" ").at(-1) ?? "";
 
@@ -73,7 +82,13 @@ function main() {
     let match = "no_seat_parsed", m: Member | undefined;
     if (s?.chamber === "governor") match = "governor";
     else if (s) {
-      const sameSeat = roster(l.state).filter((x) => (x.chamber === s.chamber || x.chamber === "legislature") && (!s.district || norm(x.district) === norm(s.district)));
+      const inChamber = roster(l.state).filter((x) => x.chamber === s.chamber || x.chamber === "legislature");
+      let sameSeat = inChamber.filter((x) => !s.district || norm(x.district) === norm(s.district));
+      if (!sameSeat.length) {
+        const name = STATES.find((x) => x.code === l.state)?.name ?? "";
+        const key = districtKey(l.office, name, l.state);
+        sameSeat = inChamber.filter((x) => districtKey(x.district) === key);
+      }
       m = sameSeat.find((x) => last(x.name) === last(l.name));
       match = m ? (s.district ? "seated" : "seated_name_only") : sameSeat.length ? "other_holder" : "seat_not_found";
     }

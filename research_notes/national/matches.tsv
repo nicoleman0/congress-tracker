@@ -182,9 +182,9 @@ wfp	2026	MA	John Drinkwater	Massachusetts State House, 17th Middlesex District	o
 wfp	2026	MA	Tara Hong	Massachusetts State House, 18th Middlesex District	seated	Tara Hong	lower	18th Middlesex	https://malegislature.gov/Legislators/Profile/TTH1	https://workingfamilies.org/candidates/
 wfp	2026	MA	Ben Ewen-Campen	Massachusetts State House, 27th Middlesex District	other_holder					https://workingfamilies.org/candidates/
 wfp	2026	MA	Shannon Teabo	Massachusetts State House, Worcester &#038; Hampshire District	other_holder					https://workingfamilies.org/candidates/
-wfp	2026	MA	Latoya Gayle	Massachusetts State Senate, 1st Suffolk District	seat_not_found					https://workingfamilies.org/candidates/
+wfp	2026	MA	Latoya Gayle	Massachusetts State Senate, 1st Suffolk District	other_holder					https://workingfamilies.org/candidates/
 wfp	2026	MA	Daniel Lander	Massachusetts State Senate, Suffolk and Middlesex District	other_holder					https://workingfamilies.org/candidates/
-wfp	2026	MA	Carey McDonald	Massachusetts State Senate, 5th Middlesex District	seat_not_found					https://workingfamilies.org/candidates/
+wfp	2026	MA	Carey McDonald	Massachusetts State Senate, 5th Middlesex District	other_holder					https://workingfamilies.org/candidates/
 wfp	2026	MI	Tonya Meyers Phillips	Michigan House of Representatives, District 7	seated	Tonya Phillips	lower	7	https://housedems.com/tonya-myers-phillips/	https://workingfamilies.org/candidates/
 wfp	2026	MI	Chris Gilmer-Hill	Michigan House of Representatives, District 8	other_holder					https://workingfamilies.org/candidates/
 wfp	2026	MI	Kimberly Fisher	Michigan House of Representatives, District 11	other_holder					https://workingfamilies.org/candidates/
@@ -688,7 +688,7 @@ rfs	2022	MI	Noah Arbit	Michigan House, District 20, MI	seated	Noah Arbit	lower	2
 rfs	2022	GA	Matielyn Jones	Georgia Senate, District 45, GA	seated	Emanuel Jones	upper	10	https://www.legis.ga.gov/members/senate	https://directory.runforsomething.net/candidate/2789/jones-matielyn/
 rfs	2022	MD	Keenon James	Maryland House, District 23, MD	other_holder					https://directory.runforsomething.net/candidate/2543/james-keenon/
 rfs	2022	VT	Scott Weathers	Vermont House, Lamoille-1, VT	other_holder					https://directory.runforsomething.net/candidate/2947/weathers-scott/
-rfs	2022	MA	Sam Montaño	Massachusetts House, Suffolk 15, MA	seat_not_found					https://directory.runforsomething.net/candidate/2870/montano-sam/
+rfs	2022	MA	Sam Montaño	Massachusetts House, Suffolk 15, MA	seated	Sam Montaño	lower	15th Suffolk	https://malegislature.gov/Legislators/Profile/S_M1	https://directory.runforsomething.net/candidate/2870/montano-sam/
 rfs	2022	AL	Brit Blalock	Alabama House, District 54, AL	other_holder					https://directory.runforsomething.net/candidate/2199/blalock-brit/
 rfs	2022	OK	Chaunté Gilmore	Oklahoma House, District 100, OK	other_holder					https://directory.runforsomething.net/candidate/2948/gilmore-chaunte/
 rfs	2022	WI	Dan Larsen	Wisconsin Assembly, District 60, WI	other_holder					https://directory.runforsomething.net/candidate/2877/larsen-daniel/
@@ -714,7 +714,7 @@ rfs	2022	GA	Beth Moore	Georgia Senate, District 7, GA	other_holder					https://d
 rfs	2022	TX	Alexandra Guio	Texas House, District 114, TX	other_holder					https://directory.runforsomething.net/candidate/2210/guio-alexandra/
 rfs	2022	WV	Kayla Young	West Virginia House, District 56, WV	seated	Kayla Young	lower	56	https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Young	https://directory.runforsomething.net/candidate/2957/young-kayla/
 rfs	2022	AZ	Laura Terech	Arizona House, District 4, AZ	other_holder					https://directory.runforsomething.net/candidate/2801/terech-laura/
-rfs	2022	NH	Curt DeVetter	New Hampshire House, Hillsborough District 29, NH	seat_not_found					https://directory.runforsomething.net/candidate/2887/devetter-curtis/
+rfs	2022	NH	Curt DeVetter	New Hampshire House, Hillsborough District 29, NH	other_holder					https://directory.runforsomething.net/candidate/2887/devetter-curtis/
 rfs	2022	TX	Jonathan Hildner TEXAS HOUSE, DISTRICT 54, TX	Texas House, District 54, TX	other_holder					https://directory.runforsomething.net/candidate/2212/hildner-jonathan/
 rfs	2022	DE	Sarah McBride	Delaware Senate, District 1, DE	other_holder					https://directory.runforsomething.net/candidate/2958/mcbride-sarah/
 rfs	2022	ME	Nina Milliken	Maine House, District 16, ME	seated	Nina Milliken	lower	16	https://legislature.maine.gov/house/house/MemberProfiles/Details/1462	https://directory.runforsomething.net/candidate/2888/milliken-nina/
@@ -738,14 +738,14 @@ rfs	2022	NV	Will Rucker	Nevada Assembly, District 13, NV	other_holder					https:
 rfs	2022	SC	Heather Bauer	South Carolina House, District 75, SC	seated	Heather Bauer	lower	75	https://scstatehouse.gov/member.php?code=0125568167	https://directory.runforsomething.net/candidate/2727/bauer-heather/
 rfs	2022	ME	Danielle Fienberg	Maine Senate, District 2, ME	other_holder					https://directory.runforsomething.net/candidate/3141/fienberg-danielle/
 rfs	2022	PA	Kris Walski	Pennsylvania House, District 18, PA	other_holder					https://directory.runforsomething.net/candidate/2815/walski-kris/
-rfs	2022	NH	Jessica Grill	New Hampshire House, Hillsborough District 18, NH	seat_not_found					https://directory.runforsomething.net/candidate/2898/grill-jessica/
+rfs	2022	NH	Jessica Grill	New Hampshire House, Hillsborough District 18, NH	seated	Jessica Grill	lower	Hillsborough 18	https://gc.nh.gov/house/members/member.aspx?pid=10797	https://directory.runforsomething.net/candidate/2898/grill-jessica/
 rfs	2022	MI	Neil Oza	Michigan House, District 55, MI	other_holder					https://directory.runforsomething.net/candidate/2578/oza-neil/
 rfs	2022	AZ	Oscar De Los Santos	Arizona House, District 11, AZ	seated	Oscar De Los Santos	lower	11	https://www.azleg.gov/house-member/?legislature=56&session=127&legislator=2158	https://directory.runforsomething.net/candidate/2972/de-los-santos-oscar/
 rfs	2022	FL	Tiffany Hughes	Florida House, District 39, FL	other_holder					https://directory.runforsomething.net/candidate/2734/hughes-tiffany/
 rfs	2022	VT	Taylor Small	Vermont House, Chittenden 21, VT	other_holder					https://directory.runforsomething.net/candidate/2816/small-taylor/
 rfs	2022	VT	Wichie Artu	Vermont Senate, Windham County District, VT	other_holder					https://directory.runforsomething.net/candidate/2899/artu-wichie/
 rfs	2022	OK	Rico Trayvon Smith	Oklahoma Senate, District 48, OK	other_holder					https://directory.runforsomething.net/candidate/2735/smith-rico/
-rfs	2022	NH	Miles Brown	New Hampshire House, Grafton District 12, NH	seat_not_found					https://directory.runforsomething.net/candidate/2900/brown-miles/
+rfs	2022	NH	Miles Brown	New Hampshire House, Grafton District 12, NH	other_holder					https://directory.runforsomething.net/candidate/2900/brown-miles/
 rfs	2022	PA	Meg Rosenfeld	Pennsylvania House, District 139, PA	other_holder					https://directory.runforsomething.net/candidate/2588/rosenfeld-meg/
 rfs	2022	IN	Dr. Victoria Garcia Wilburn	Indiana House, District 32, IN	seated	Victoria Garcia Wilburn	lower	32	https://iga.in.gov/legislative/2024/legislators/legislator_victoria_garcia_wilburn_1	https://directory.runforsomething.net/candidate/2234/wilburn-victoria/
 rfs	2022	RI	Giona Picheco	Rhode Island House, District 14, RI	other_holder					https://directory.runforsomething.net/candidate/2977/picheco-giona/
@@ -805,7 +805,7 @@ rfs	2022	MI	Jaime Churches	Michigan House, District 27, MI	other_holder					http
 rfs	2022	RI	Kelsey K. Coletta	Rhode Island House, District 42, RI	other_holder					https://directory.runforsomething.net/candidate/2999/coletta-kelsey/
 rfs	2022	CO	Lindsey Daugherty	Colorado House, District 24, CO	other_holder					https://directory.runforsomething.net/candidate/2269/daugherty-lindsey/
 rfs	2022	TN	Kate Craig	Tennessee Senate, District 3, TN	other_holder					https://directory.runforsomething.net/candidate/2838/craig-kate/
-rfs	2022	NH	Robin Vogt	New Hampshire House, Rockingham District 21, NH	seat_not_found					https://directory.runforsomething.net/candidate/2926/vogt-robin/
+rfs	2022	NH	Robin Vogt	New Hampshire House, Rockingham District 21, NH	other_holder					https://directory.runforsomething.net/candidate/2926/vogt-robin/
 rfs	2022	OH	Michele Grim	Ohio House, District 43, OH	seated	Michele Grim	lower	43	https://www.ohiohouse.gov/members/michele-grim	https://directory.runforsomething.net/candidate/2839/grim-michele/
 rfs	2022	NY	Jen Lunsford	New York Assembly, District  135, NY	seated	Jen Lunsford	lower	135	https://assembly.state.ny.us/mem/Jen-Lunsford	https://directory.runforsomething.net/candidate/2271/lunsford-jennifer/
 rfs	2022	SC	Ashlyn Preaux	South Carolina House, District 61, SC	other_holder					https://directory.runforsomething.net/candidate/2841/preaux-ashlyn/
@@ -1011,7 +1011,7 @@ rfs	2024	MO	Casey Cassidy	State House, District 117, MO	other_holder					https:/
 rfs	2024	MO	Ray Reed	State House, District  83, MO	seated	Ray Reed	lower	83	https://house.mo.gov/MemberDetails.aspx?district=083	https://directory.runforsomething.net/candidate/3980/reed-ray/
 rfs	2024	WV	Lucia Valentine	House of Delegates, District 97, WV	other_holder					https://directory.runforsomething.net/candidate/a5fa094fc2bd3b32dce44a9da7ebe692/valentine-lucia/
 rfs	2024	AZ	Brian Garcia	State House, District 8, AZ	seated	Brian Garcia	lower	8	https://www.azleg.gov/house-member/?legislature=57&session=129&legislator=2358	https://directory.runforsomething.net/candidate/6e51c084e8a58f096e7bff22b5bb5d14/garcia-brian/
-rfs	2024	NH	Michael Boucher	House of Representatives, Rockingham District 18, NH	seat_not_found					https://directory.runforsomething.net/candidate/9709f2a22e8e757a66ee430bfc46de35/boucher-michael/
+rfs	2024	NH	Michael Boucher	House of Representatives, Rockingham District 18, NH	other_holder					https://directory.runforsomething.net/candidate/9709f2a22e8e757a66ee430bfc46de35/boucher-michael/
 rfs	2024	FL	Ashley Gantt	State House, District 109, FL	seated	Ashley Gantt	lower	109	https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4897&LegislativeTermId=90	https://directory.runforsomething.net/candidate/ec06dadfcab7adcea88a80e3c5d67ed0/gantt-ashley/
 rfs	2024	PA	Mercedes Evans	State House, District 103, PA	seated	Carol Hill-Evans	lower	95	https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1749	https://directory.runforsomething.net/candidate/3915/evans-mercedes/
 rfs	2024	OH	Desiree Tims	State House, District 38, OH	seated	Desireè Tims	lower	38	https://ohiohouse.gov/members/desiree-tims	https://directory.runforsomething.net/candidate/4129/tims-desiree/
@@ -1073,7 +1073,7 @@ rfs	2024	IL	Graciela Guzman	State Senate, District 20, IL	seated	Graciela Guzmá
 rfs	2024	MI	Joey Andrews	State House, District 38, MI	seated	Joey Andrews	lower	38	https://housedems.com/joey-andrews/	https://directory.runforsomething.net/candidate/4117/andrews-joey/
 rfs	2024	FL	Emily Rodrigues	State House, District 98, FL	other_holder					https://directory.runforsomething.net/candidate/0f8ff36083b504c147f9c7ad7dcec8ff/rodrigues-emily/
 rfs	2024	WA	Adam Bernbaum	State House, District 24, WA	seated	Adam Bernbaum	lower	24	https://housedemocrats.wa.gov/bernbaum/	https://directory.runforsomething.net/candidate/5828430068202956351/bernbaum-adam/
-rfs	2024	NH	Jennifer Mandelbaum	State House, District 21, Rockingham, NH	seat_not_found					https://directory.runforsomething.net/candidate/4077/mandelbaum-jennifer/
+rfs	2024	NH	Jennifer Mandelbaum	State House, District 21, Rockingham, NH	seated	Jennifer Mandelbaum	lower	Rockingham 21	https://gc.nh.gov/house/members/member.aspx?pid=11135	https://directory.runforsomething.net/candidate/4077/mandelbaum-jennifer/
 rfs	2024	IA	Matt Blake	State Senate, District 22, IA	seated	Matt Blake	upper	22	https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37460	https://directory.runforsomething.net/candidate/3928/blake-matt/
 rfs	2024	KS	Alexis Simmons	State House, District 58, KS	seated	Alexis Simmons	lower	58	https://www.kslegislature.gov/legislators/rep_simmons_alexis_1/	https://directory.runforsomething.net/candidate/843955fb72e1267385f0903a3470a074/simmons-alexis/
 rfs	2024	NY	Chloe Pierce	State Assembly, District 107, NY	other_holder					https://directory.runforsomething.net/candidate/4018/pierce-chloe/
