@@ -4,7 +4,8 @@ import { ActionList, MemberList } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, OPPOSE, PLUG_IN } from "@/lib/actions";
 import { getState, membersIn } from "@/lib/data";
 import { STATES } from "@/lib/states";
-import { stateMembers, statePublicationVersion, stateSeatLabel } from "@/lib/state-offices";
+import { formatChecked } from "@/lib/freshness";
+import { coverageComplete, GROUP_NAMES, stateCoverage, stateMembers, statePublicationVersion, stateSeatLabel } from "@/lib/state-offices";
 
 export function generateStaticParams() {
   return STATES.map((s) => ({ st: s.code.toLowerCase() }));
@@ -26,6 +27,7 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
   const local = stateMembers().filter((m) => m.state === state.code);
   const governors = local.filter((m) => m.seat.office === "governor");
   const legislators = local.filter((m) => m.seat.office !== "governor");
+  const gaps = stateCoverage(state.code).filter((c) => !coverageComplete(c));
   const senators = members.filter((m) => m.office === "senate");
   const house = members
     .filter((m) => m.office === "house")
@@ -71,6 +73,14 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
         <section className="section" aria-labelledby="legislature-title">
           <h2 id="legislature-title">State legislature</h2>
           <ul className="roster">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
+        </section>
+      )}
+
+      {statePublicationVersion && gaps.length > 0 && (
+        <section className="section" aria-labelledby="gaps-title">
+          <h2 id="gaps-title">Not fully checked</h2>
+          <p className="note">State-office endorsements from these groups may be missing here.</p>
+          <ul className="roster">{gaps.map((c) => <li key={c.group_code}>{GROUP_NAMES[c.group_code]}<span className="roster-seat">{c.status === "blocked" ? "Some sources could not be checked." : "Not yet researched."} As of {formatChecked(c.checked_at)}.</span></li>)}</ul>
         </section>
       )}
 
