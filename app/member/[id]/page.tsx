@@ -71,7 +71,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
 
       <div className="page-header">
         <p className="lede">{m.note}</p>
-        <p className="meta">
+        <p className="jd-meta">
           Source:{" "}
           <a href={m.source.url} target="_blank" rel="noopener noreferrer">{m.source.label}</a>
           {" · "}Last checked {formatChecked(m.checkedAt)}
@@ -80,7 +80,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
 
       <section className="section" aria-labelledby="news-title">
         <h2 id="news-title">In the news</h2>
-        <Suspense fallback={<p className="note">Loading headlines…</p>}>
+        <Suspense fallback={<p className="jd-note">Loading headlines…</p>}>
           <MemberNews m={m} />
         </Suspense>
       </section>
@@ -107,10 +107,10 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
       <section className="section" aria-labelledby="record-title">
         <h2 id="record-title">Platform and record</h2>
         {platform.length === 0 ? (
-          <p className="note">No sourced positions yet.</p>
+          <p className="jd-note">No sourced positions yet.</p>
         ) : (
           <>
-            <p className="note">
+            <p className="jd-note">
               <Link href="/method">How we source this</Link>.
             </p>
             <dl className="platform">
@@ -135,9 +135,9 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
       <section className="section" aria-labelledby="money-title">
         <h2 id="money-title">Outside money</h2>
         {moneyFile().missing.includes(m.id) ? (
-          <p className="note">We don&apos;t have an FEC committee on file for {m.name} yet.</p>
+          <p className="jd-note">We don&apos;t have an FEC committee on file for {m.name} yet.</p>
         ) : spends.length === 0 ? (
-          <p className="note">No outside spending for or against {m.name} reported to the FEC in {moneyFile().cycle}.</p>
+          <p className="jd-note">No outside spending for or against {m.name} reported to the FEC in {moneyFile().cycle}.</p>
         ) : (
           <OutsideMoney spends={spends} />
         )}
