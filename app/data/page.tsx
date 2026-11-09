@@ -84,8 +84,8 @@ export default function Data() {
                   <li><span className="swatch swatch--mark" /> Majority, {seats.majority}</li>
                 </ul>
                 <p className="meta">
-                  {b.returning} returning · {b.new} new{b.unresolved > 0 && ` · ${b.unresolved} more not decided`}.{" "}
-                  Democrats: <a href={dems.source.url} target="_blank" rel="noopener noreferrer">{dems.source.label}</a>, {formatChecked(dems.checkedAt)}, {dems.uncalled} races uncalled.
+                  {b.returning} returning · {b.new} new{b.unresolved > 0 && ` · ${b.unresolved} undecided`} · Democrats per{" "}
+                  <a href={dems.source.url} target="_blank" rel="noopener noreferrer">{dems.source.label}</a>, {dems.checkedAt.slice(0, 10)}, {dems.uncalled} uncalled
                 </p>
               </div>
             );
