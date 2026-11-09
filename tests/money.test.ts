@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { allMembers, type Member } from "@/lib/data";
 import { blocSize, issueCoverage, validateChambers, type Chamber } from "@/lib/metrics";
-import { dollars, mostOpposed, topSpenders, validateMoney, type Spend } from "@/lib/money";
+import { committeeName, dollars, mostOpposed, topSpenders, validateMoney, type Spend } from "@/lib/money";
 import { candidateIdsFor, stageOf, summarize } from "../scripts/outside-money";
 
 const base = allMembers()[0];
@@ -86,4 +86,18 @@ test("chamber counts must cover the listed members and fit the chamber", () => {
   assert.doesNotThrow(() => validateChambers({ house: ch(200, 10), senate: ch(50) }, bloc));
   assert.throws(() => validateChambers({ house: ch(1), senate: ch(50) }, bloc), /fewer than 2/);
   assert.throws(() => validateChambers({ house: ch(430, 10), senate: ch(50) }, bloc), /more seats/);
+});
+
+test("committee names drop legal clauses and read in title case", () => {
+  assert.equal(committeeName("UNITED DEMOCRACY PROJECT ('UDP')"), "United Democracy Project");
+  assert.equal(committeeName("AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION"), "Americans for Prosperity Action");
+  assert.equal(committeeName("THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY"), "The Conservative Caucus");
+  assert.equal(committeeName("A STRONGER MICHIGAN"), "A Stronger Michigan");
+  assert.equal(committeeName("SEIU COPE (SERVICE EMPLOYEES INTERNATIONAL UNION COMMITTEE ON POLITICAL EDUCATION)"), "SEIU COPE");
+  assert.equal(committeeName("PALESTINE AMERICAN LEAGUE - PAC"), "Palestine American League - PAC");
+  assert.equal(committeeName("PENNSYLVANIA PRO-LIFE FEDERATION PAC"), "Pennsylvania Pro-Life Federation PAC");
+  assert.equal(committeeName("FLORIDA'S VOICE PAC"), "Florida's Voice PAC");
+  assert.equal(committeeName("SOUTH BAY AFL-CIO LABOR COUNCIL"), "South Bay AFL-CIO Labor Council");
+  assert.equal(committeeName("THOMAS PAINE SOCIETY L.L.C."), "Thomas Paine Society");
+  assert.equal(committeeName("MOVEON.ORG POLITICAL ACTION"), "MoveOn.org Political Action");
 });
