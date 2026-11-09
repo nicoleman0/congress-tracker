@@ -77,8 +77,8 @@ export async function publicationProblems(db: Client, id: string): Promise<strin
   const coverage = await db.query("SELECT state, group_code, status FROM state_offices.coverage WHERE batch_id=$1", [id]);
   const blankNotes = await db.query("SELECT state,group_code FROM state_offices.coverage WHERE batch_id=$1 AND length(trim(note))=0", [id]);
   for (const row of blankNotes.rows) problems.push(`coverage requires a review note: ${row.state}/${row.group_code}`);
-  const complete = new Set(coverage.rows.filter((r) => ["complete_with_entries", "complete_no_entries", "not_applicable"].includes(r.status)).map((r) => `${r.state}:${r.group_code}`));
-  for (const state of stateCodes) for (const group of ["wfp", "or", "dsa", "rfs", "pccc", "sunrise"]) if (!complete.has(`${state}:${group}`)) problems.push(`coverage incomplete: ${state}/${group}`);
+  const rows = new Set(coverage.rows.map((r) => `${r.state}:${r.group_code}`));
+  for (const state of stateCodes) for (const group of ["wfp", "or", "dsa", "rfs", "pccc", "sunrise"]) if (!rows.has(`${state}:${group}`)) problems.push(`coverage row missing: ${state}/${group}`);
   const missingEntries = await db.query(`SELECT c.state,c.group_code FROM state_offices.coverage c WHERE c.batch_id=$1 AND c.status='complete_with_entries'
     AND NOT EXISTS (SELECT 1 FROM state_offices.endorsements d JOIN state_offices.issuers i ON i.batch_id=d.batch_id AND i.id=d.issuer_id
       JOIN state_offices.elections e ON e.batch_id=d.batch_id AND e.id=d.election_id JOIN state_offices.seats s ON s.batch_id=e.batch_id AND s.id=e.seat_id
@@ -157,7 +157,7 @@ async function main() {
       await writeFile(args[1], JSON.stringify(draft, null, 2) + "\n", { flag: "wx" });
     }
     else if (command === "check" && args.length === 1) { const problems = await publicationProblems(db, args[0]); if (problems.length) throw new Error(problems.join("\n")); console.log("Ready for publication"); }
-    else if (command === "publish" && args.length === 3 && args[2] === "--confirm-complete") await publish(db, args[0], args[1]);
+    else if (command === "publish" && args.length === 3 && args[2] === "--confirm-gaps") await publish(db, args[0], args[1]);
     else if (command === "select" && args.length === 1) await db.query("INSERT INTO state_offices.selected_publication (version) VALUES ($1) ON CONFLICT (singleton) DO UPDATE SET version=EXCLUDED.version", [args[0]]);
     else if (command === "export" && args.length === 2) {
       const result = await db.query("SELECT snapshot, content_hash FROM state_offices.publications WHERE version=$1", [args[0]]);
@@ -165,7 +165,7 @@ async function main() {
       const content = canonical(result.rows[0].snapshot);
       if (hash(content) !== result.rows[0].content_hash) throw new Error("publication hash mismatch");
       await writeFile(args[1], JSON.stringify({ version: args[0], sha256: result.rows[0].content_hash, snapshot: result.rows[0].snapshot }, null, 2) + "\n", { flag: "wx" });
-    } else throw new Error("usage: state-offices migrate | import FILE | show BATCH | draft BATCH FILE | review BATCH REVIEWER | check BATCH | publish BATCH VERSION --confirm-complete | select VERSION | export VERSION FILE");
+    } else throw new Error("usage: state-offices migrate | import FILE | show BATCH | draft BATCH FILE | review BATCH REVIEWER | check BATCH | publish BATCH VERSION --confirm-gaps | select VERSION | export VERSION FILE");
   } finally { await db.end(); }
 }
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error.message); process.exitCode = 1; });

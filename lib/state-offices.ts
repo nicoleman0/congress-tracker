@@ -11,23 +11,27 @@ type Issuer = { id: string; name: string; group_code: string; parent_id: string 
 type Endorsement = { id: string; person_id: string; issuer_id: string; election_id: string; source_id: string; withdrawn: boolean };
 type Reconciliation = { id: string; endorsement_id: string; outcome: "included" | "excluded" | "unresolved"; reason: string; term_id: string | null };
 type Term = { id: string; person_id: string; seat_id: string; election_id: string | null; starts_on: string; ends_on: string | null; status: "serving" | "incoming" | "unresolved" | "ended"; service_source_id: string | null; result_source_id: string | null; contact_url: string | null; campaign_url: string | null; contact_source_id: string | null; campaign_source_id: string | null };
-type Snapshot = { version: string; batch: { reviewed_at: string | null }; people: Person[]; seats: Seat[]; sources: StateSource[]; elections: Election[]; issuers: Issuer[]; endorsements: Endorsement[]; reconciliations: Reconciliation[]; terms: Term[]; coverage: { state: string; group_code: string; status: string }[] };
+type Snapshot = { version: string; batch: { reviewed_at: string | null }; people: Person[]; seats: Seat[]; sources: StateSource[]; elections: Election[]; issuers: Issuer[]; endorsements: Endorsement[]; reconciliations: Reconciliation[]; terms: Term[]; coverage: Coverage[] };
+export type Coverage = { state: string; group_code: string; status: string; note: string; checked_at: string };
 type Envelope = { version: string; sha256: string; snapshot: Snapshot };
 export type StateMember = { id: string; name: string; state: string; seat: Seat; term: Term; election: Election; service?: StateSource; result: StateSource; contactSource?: StateSource; campaignSource?: StateSource; endorsers: { issuer: Issuer; source: StateSource; election: Election }[]; portrait?: { url: string; credit: string; source: StateSource } };
 const groups = ["wfp", "or", "dsa", "rfs", "pccc", "sunrise"];
+const statuses = ["complete_with_entries", "complete_no_entries", "not_applicable", "blocked", "in_progress"];
+export const coverageComplete = (c: Coverage) => ["complete_with_entries", "complete_no_entries", "not_applicable"].includes(c.status);
 const stateCodes = STATES.filter((s) => s.code !== "DC").map((s) => s.code);
 const date = (s: string) => s.slice(0, 10);
 
-export function readStatePublication(input: unknown, today = new Date()): { version: string | null; reviewedAt: string | null; members: StateMember[] } {
-  if (input === null) return { version: null, reviewedAt: null, members: [] };
+export function readStatePublication(input: unknown, today = new Date()): { version: string | null; reviewedAt: string | null; members: StateMember[]; coverage: Coverage[] } {
+  if (input === null) return { version: null, reviewedAt: null, members: [], coverage: [] };
   const envelope = input as Envelope;
   if (!envelope || typeof envelope !== "object" || !envelope.snapshot || typeof envelope.version !== "string" || envelope.snapshot.version !== envelope.version || !/^[a-f0-9]{64}$/.test(envelope.sha256)) throw new Error("state publication: invalid envelope");
   const digest = createHash("sha256").update(canonical(envelope.snapshot)).digest("hex");
   if (digest !== envelope.sha256) throw new Error("state publication: hash mismatch");
   const s = envelope.snapshot;
   if (!s.batch?.reviewed_at || ![s.people, s.seats, s.sources, s.elections, s.issuers, s.endorsements, s.reconciliations, s.terms, s.coverage].every(Array.isArray)) throw new Error("state publication: invalid snapshot");
-  const covered = new Set(s.coverage.filter((c) => ["complete_with_entries", "complete_no_entries", "not_applicable"].includes(c.status)).map((c) => `${c.state}:${c.group_code}`));
-  if (s.coverage.length !== stateCodes.length * groups.length || covered.size !== s.coverage.length || stateCodes.some((state) => groups.some((group) => !covered.has(`${state}:${group}`)))) throw new Error("state publication: incomplete coverage");
+  // Every state and group needs a row; gaps (blocked, in_progress) are published with their notes.
+  const cells = new Set(s.coverage.filter((c) => statuses.includes(c.status) && c.note?.trim()).map((c) => `${c.state}:${c.group_code}`));
+  if (s.coverage.length !== stateCodes.length * groups.length || cells.size !== s.coverage.length || stateCodes.some((state) => groups.some((group) => !cells.has(`${state}:${group}`)))) throw new Error("state publication: missing coverage rows");
   const byId = <T extends { id: string }>(items: T[]) => {
     const map = new Map(items.map((item) => [item.id, item]));
     if (map.size !== items.length) throw new Error("state publication: duplicate id");
@@ -65,11 +69,13 @@ export function readStatePublication(input: unknown, today = new Date()): { vers
   });
   if (!members.some((m) => m.term.status === "serving")) throw new Error("state publication: no serving members");
   for (const seat of s.seats) if (members.filter((m) => m.seat.id === seat.id && m.term.status === "serving").length > seat.capacity) throw new Error(`state publication: seat capacity exceeded ${seat.id}`);
-  return { version: envelope.version, reviewedAt: s.batch.reviewed_at, members };
+  return { version: envelope.version, reviewedAt: s.batch.reviewed_at, members, coverage: s.coverage };
 }
 const publication = readStatePublication(raw);
 export const statePublicationVersion = publication.version;
 export const statePublicationReviewedAt = publication.reviewedAt;
 export const stateMembers = () => publication.members;
+export const GROUP_NAMES: Record<string, string> = { wfp: "Working Families Party", or: "Our Revolution", dsa: "DSA", rfs: "Run for Something", pccc: "PCCC", sunrise: "Sunrise Movement" };
+export const stateCoverage = (state: string) => publication.coverage.filter((c) => c.state === state);
 export const getStateMember = (id: string) => stateMembers().filter((m) => m.id === id).sort((a, b) => ["serving", "incoming"].indexOf(a.term.status) - ["serving", "incoming"].indexOf(b.term.status))[0];
 export const stateSeatLabel = (m: StateMember) => `${m.state} ${m.seat.chamber}${m.seat.district ? ` · District ${m.seat.district}` : ""}${m.seat.seat_label ? ` · ${m.seat.seat_label}` : ""}`;

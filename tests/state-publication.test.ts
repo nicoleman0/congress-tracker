@@ -16,21 +16,25 @@ function fixture() {
     endorsements: [{ id: "endorsement", person_id: "synthetic", issuer_id: "issuer", election_id: "election", source_id: "source", withdrawn: false }],
     reconciliations: [{ id: "decision", endorsement_id: "endorsement", outcome: "included", reason: "Test", term_id: "term" }],
     terms: [{ id: "term", person_id: "synthetic", seat_id: "seat", election_id: "election", starts_on: "2026-01-01", ends_on: "2030-01-01", status: "serving", service_source_id: "source", result_source_id: "source", contact_url: "https://example.org/", contact_source_id: "source", campaign_url: null, campaign_source_id: null }],
-    coverage: STATES.filter((s) => s.code !== "DC").flatMap((s) => ["wfp", "or", "dsa", "rfs", "pccc", "sunrise"].map((group_code) => ({ state: s.code, group_code, status: s.code === "NE" && group_code === "dsa" ? "complete_with_entries" : "complete_no_entries" }))),
+    coverage: STATES.filter((s) => s.code !== "DC").flatMap((s) => ["wfp", "or", "dsa", "rfs", "pccc", "sunrise"].map((group_code) => ({ state: s.code, group_code, status: s.code === "NE" && group_code === "dsa" ? "complete_with_entries" : "complete_no_entries", note: "Checked.", checked_at: "2026-11-08" }))),
   };
 }
 function envelope(snapshot: ReturnType<typeof fixture>) {
   return { version: snapshot.version, sha256: createHash("sha256").update(canonical(snapshot)).digest("hex"), snapshot };
 }
 
-test("only a complete, reviewed and unmodified state snapshot loads", () => {
+test("only a reviewed, unmodified snapshot with every coverage row loads", () => {
   assert.deepEqual(readStatePublication(null).members, []);
   const data = fixture();
   const result = readStatePublication(envelope(data), new Date("2026-11-08"));
   assert.equal(result.members[0].endorsers[0].issuer.name, "Test Chapter");
   assert.equal(stateSeatLabel(result.members[0]), "NE Legislature · District A · Seat 2");
-  data.coverage.pop();
-  assert.throws(() => readStatePublication(envelope(data)), /incomplete coverage/);
+  data.coverage[0].status = "blocked";
+  assert.equal(readStatePublication(envelope(data), new Date("2026-11-08")).coverage[0].status, "blocked");
+  data.coverage[0].note = " ";
+  assert.throws(() => readStatePublication(envelope(data)), /missing coverage rows/);
+  data.coverage.shift();
+  assert.throws(() => readStatePublication(envelope(data)), /missing coverage rows/);
   const invalid = envelope(fixture());
   invalid.snapshot.people[0].name = "Changed";
   assert.throws(() => readStatePublication(invalid), /hash mismatch/);
