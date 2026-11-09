@@ -18,8 +18,10 @@ Per-state agents cost 150k–300k tokens each. Don't launch more full-state agen
 
 ## Next
 
-1. Write the converter from research files plus `matches.tsv` into the import format in `scripts/state-offices.ts` (`validateInput`).
-2. Recheck 2026 results once certified; many entries are `pending`.
-3. Before launch, the user decides whether to publish with a dated list of known coverage gaps, since several groups can't be fully checked (Instagram-only Sunrise hubs, blocked chapter sites).
+Decided 2026-11-09: ship with dated coverage gaps. The gate accepts `blocked` and `in_progress` cells; state pages list them. States without research get `in_progress`.
+
+1. Build the batch: `tsx scripts/roster-import.ts OUT research_notes/roster/*.json`, then `import`, `review`, `check`, `publish --confirm-gaps`, `export` (see `db/state-offices/README.md`).
+2. Recheck 2026 results once certified; many entries are `pending` or `unknown` and are excluded until then.
+3. Not yet used: `matches.tsv` for the 38 unresearched states. Its 2026 WFP matches are sitting incumbents, so they need 2026 results before they qualify.
 
 Untracked `scripts/outside-money.ts` is not part of this work and breaks `tsc` (missing `lib/money.ts`).
