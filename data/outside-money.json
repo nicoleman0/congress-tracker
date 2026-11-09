@@ -1,0 +1,4408 @@
+{
+  "cycle": 2026,
+  "checkedAt": "2026-11-08T23:00Z",
+  "missing": [
+    "ca-36-lieu",
+    "ca-43-waters"
+  ],
+  "spending": {
+    "ca-22-villegas": [
+      {
+        "committee": "C00504530",
+        "name": "CLF",
+        "side": "oppose",
+        "stage": "general",
+        "total": 3492886.6,
+        "count": 13
+      },
+      {
+        "committee": "C00859660",
+        "name": "NEW DEMOCRAT MAJORITY",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 757805.91,
+        "count": 4
+      },
+      {
+        "committee": "C00908707",
+        "name": "BDA PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 600000,
+        "count": 3
+      },
+      {
+        "committee": "C00011114",
+        "name": "AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES  P E O P L E",
+        "side": "support",
+        "stage": "general",
+        "total": 578900,
+        "count": 2
+      },
+      {
+        "committee": "C00710848",
+        "name": "DMFI PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 500000,
+        "count": 1
+      },
+      {
+        "committee": "C00843110",
+        "name": "LEADERS WE DESERVE",
+        "side": "support",
+        "stage": "primary",
+        "total": 450168.88,
+        "count": 27
+      },
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 437300.91,
+        "count": 11
+      },
+      {
+        "committee": "C00490375",
+        "name": "NATIONAL NURSES UNITED FOR PATIENT PROTECTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 400000,
+        "count": 1
+      },
+      {
+        "committee": "C00888081",
+        "name": "HEALTH CARE SAVES LIVES",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 307309.41,
+        "count": 4
+      },
+      {
+        "committee": "C00737411",
+        "name": "THE GOVERNING MAJORITY FUND",
+        "side": "oppose",
+        "stage": "general",
+        "total": 301406.32,
+        "count": 11
+      },
+      {
+        "committee": "C00513176",
+        "name": "CONGRESSIONAL PROGRESSIVE CAUCUS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 203125,
+        "count": 2
+      },
+      {
+        "committee": "C90023458",
+        "name": "MAREMOTO ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 171308.1,
+        "count": 7
+      },
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 162000,
+        "count": 2
+      },
+      {
+        "committee": "C00504530",
+        "name": "CLF",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 86096.85,
+        "count": 5
+      },
+      {
+        "committee": "C00947721",
+        "name": "HUERTA DEMOCRACY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 78979.95,
+        "count": 7
+      },
+      {
+        "committee": "C00957357",
+        "name": "UNITED FOR WATER JUSTICE, SPONSORED BY CWC ACTIONFUND",
+        "side": "support",
+        "stage": "general",
+        "total": 68306.03,
+        "count": 8
+      },
+      {
+        "committee": "C00888081",
+        "name": "HEALTH CARE SAVES LIVES",
+        "side": "support",
+        "stage": "general",
+        "total": 66709.67,
+        "count": 6
+      },
+      {
+        "committee": "C90018334",
+        "name": "COMMUNITY WATER CENTER ACTION FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 46205,
+        "count": 4
+      },
+      {
+        "committee": "C00633248",
+        "name": "314 ACTION FUND",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 36700,
+        "count": 2
+      },
+      {
+        "committee": "C00678839",
+        "name": "INDIVISIBLE ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 20622.67,
+        "count": 6
+      },
+      {
+        "committee": "C00800995",
+        "name": "DEMOCRATIC MESSAGING PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 20300,
+        "count": 2
+      },
+      {
+        "committee": "C00890723",
+        "name": "LUCETE LEADERSHIP FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 16743.5,
+        "count": 6
+      },
+      {
+        "committee": "C00738039",
+        "name": "MIJENTE PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 15471.48,
+        "count": 1
+      },
+      {
+        "committee": "C00341396",
+        "name": "MOVEON.ORG POLITICAL ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 3972.86,
+        "count": 3
+      },
+      {
+        "committee": "C90018904",
+        "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+        "side": "oppose",
+        "stage": "general",
+        "total": 3567.61,
+        "count": 8
+      },
+      {
+        "committee": "C00742205",
+        "name": "SURJ PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 2998.95,
+        "count": 13
+      },
+      {
+        "committee": "C00936831",
+        "name": "CENTRAL VALLEY FOR WORKING FAMILIES",
+        "side": "support",
+        "stage": "primary",
+        "total": 1409.2,
+        "count": 1
+      },
+      {
+        "committee": "C00640300",
+        "name": "ACTIVATE AMERICA",
+        "side": "support",
+        "stage": "general",
+        "total": 1396.8,
+        "count": 7
+      },
+      {
+        "committee": "C00835041",
+        "name": "FORWARD BLUE",
+        "side": "support",
+        "stage": "primary",
+        "total": 1192.47,
+        "count": 1
+      },
+      {
+        "committee": "C90023318",
+        "name": "ORGANIZE FOR PEACE",
+        "side": "support",
+        "stage": "primary",
+        "total": 1131.63,
+        "count": 5
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 953.64,
+        "count": 3
+      },
+      {
+        "committee": "C90017492",
+        "name": "INDIVISIBLE PROJECT INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 471.76,
+        "count": 1
+      },
+      {
+        "committee": "C00877845",
+        "name": "GRAYPAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 406.69,
+        "count": 1
+      },
+      {
+        "committee": "C90019357",
+        "name": "FOOD AND WATER ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 333,
+        "count": 1
+      },
+      {
+        "committee": "C00878025",
+        "name": "MOMSRISING PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 242.85,
+        "count": 4
+      },
+      {
+        "committee": "C00742205",
+        "name": "SURJ PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 88.88,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 68.56,
+        "count": 8
+      },
+      {
+        "committee": "C00955138",
+        "name": "BUILDING TOGETHER",
+        "side": "support",
+        "stage": "general",
+        "total": 67.46,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 66.74,
+        "count": 3
+      }
+    ],
+    "co-01-kiros": [
+      {
+        "committee": "C00871368",
+        "name": "PROJECT 218",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 400000,
+        "count": 3
+      },
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 306460.01,
+        "count": 7
+      },
+      {
+        "committee": "C00949248",
+        "name": "PRO-CHOICE MAJORITY ACTION",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 275000,
+        "count": 2
+      },
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 150000,
+        "count": 1
+      },
+      {
+        "committee": "C00949065",
+        "name": "YOUNG PEOPLE FOR A NEW ERA",
+        "side": "support",
+        "stage": "primary",
+        "total": 10260.5,
+        "count": 3
+      },
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 4115.39,
+        "count": 2
+      },
+      {
+        "committee": "C00897314",
+        "name": "SF SOLIDARITY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 495.31,
+        "count": 1
+      },
+      {
+        "committee": "C90023367",
+        "name": "NEO PHILANTHROPY ACTION FUND INC.",
+        "side": "support",
+        "stage": "primary",
+        "total": 176.95,
+        "count": 4
+      },
+      {
+        "committee": "C90023318",
+        "name": "ORGANIZE FOR PEACE",
+        "side": "support",
+        "stage": "primary",
+        "total": 116.01,
+        "count": 1
+      }
+    ],
+    "mi-07-lawrence": [
+      {
+        "committee": "C00504530",
+        "name": "CLF",
+        "side": "oppose",
+        "stage": "general",
+        "total": 2772859.51,
+        "count": 12
+      },
+      {
+        "committee": "C00844530",
+        "name": "ROLLING SEA ACTION FUND",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 1024952.18,
+        "count": 2
+      },
+      {
+        "committee": "C00879221",
+        "name": "CRUSH MAGA PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 909204.04,
+        "count": 3
+      },
+      {
+        "committee": "C00487470",
+        "name": "CLUB FOR GROWTH ACTION",
+        "side": "oppose",
+        "stage": "general",
+        "total": 605152.17,
+        "count": 9
+      },
+      {
+        "committee": "C00490375",
+        "name": "NATIONAL NURSES UNITED FOR PATIENT PROTECTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 400000,
+        "count": 1
+      },
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 242460,
+        "count": 5
+      },
+      {
+        "committee": "C00495028",
+        "name": "HMP",
+        "side": "support",
+        "stage": "general",
+        "total": 140519.89,
+        "count": 4
+      },
+      {
+        "committee": "C00859660",
+        "name": "NEW DEMOCRAT MAJORITY",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 47884,
+        "count": 2
+      },
+      {
+        "committee": "C00341396",
+        "name": "MOVEON.ORG POLITICAL ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 27255.24,
+        "count": 10
+      },
+      {
+        "committee": "C90023599",
+        "name": "CAMPAIGN FOR WORKING CLASS COMMUNITIES",
+        "side": "support",
+        "stage": "general",
+        "total": 20334.35,
+        "count": 44
+      },
+      {
+        "committee": "C00800995",
+        "name": "DEMOCRATIC MESSAGING PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 10150,
+        "count": 2
+      },
+      {
+        "committee": "C00580068",
+        "name": "PROGRESSIVE TURNOUT PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 10011.67,
+        "count": 1
+      },
+      {
+        "committee": "C00678839",
+        "name": "INDIVISIBLE ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 6370.41,
+        "count": 5
+      },
+      {
+        "committee": "C00341396",
+        "name": "MOVEON.ORG POLITICAL ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 2361.12,
+        "count": 1
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 1769.23,
+        "count": 6
+      },
+      {
+        "committee": "C90023599",
+        "name": "CAMPAIGN FOR WORKING CLASS COMMUNITIES",
+        "side": "support",
+        "stage": "primary",
+        "total": 748.24,
+        "count": 1
+      },
+      {
+        "committee": "C00955138",
+        "name": "BUILDING TOGETHER",
+        "side": "support",
+        "stage": "general",
+        "total": 219.66,
+        "count": 1
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 75,
+        "count": 1
+      },
+      {
+        "committee": "C90020058",
+        "name": "RED WINE AND BLUE",
+        "side": "support",
+        "stage": "general",
+        "total": 69.09,
+        "count": 1
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 50,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 30.41,
+        "count": 2
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ny-07-valdez": [
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 427875,
+        "count": 2
+      },
+      {
+        "committee": "C00948851",
+        "name": "NEW YORKERS FOR LOWER COSTS",
+        "side": "support",
+        "stage": "primary",
+        "total": 357242.18,
+        "count": 7
+      },
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 278500,
+        "count": 3
+      },
+      {
+        "committee": "C00843110",
+        "name": "LEADERS WE DESERVE",
+        "side": "support",
+        "stage": "primary",
+        "total": 175000,
+        "count": 2
+      },
+      {
+        "committee": "C00893461",
+        "name": "CHRISTOPHER STREET PROJECT PAC (CSP PAC)",
+        "side": "support",
+        "stage": "primary",
+        "total": 3300,
+        "count": 1
+      },
+      {
+        "committee": "C00002840",
+        "name": "UAW - V - CAP (UAW VOLUNTARY COMMUNITY ACTION PROGRAM) 'INT'L UNION UNITED AUTOMOBILE AEROSPACE & AGRICULTURAL IMPLEMENT WORKERS OF AMERICA UAW",
+        "side": "support",
+        "stage": "general",
+        "total": 1280,
+        "count": 2
+      },
+      {
+        "committee": "C00453704",
+        "name": "EMGAGE FEDERAL POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 746.81,
+        "count": 3
+      }
+    ],
+    "ny-10-lander": [
+      {
+        "committee": "C00932897",
+        "name": "NEW YORKERS FIGHTING BACK (NYFB)",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 189039,
+        "count": 3
+      },
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 84000,
+        "count": 1
+      },
+      {
+        "committee": "C00851584",
+        "name": "NEW ENGAGEMENT PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 30000,
+        "count": 1
+      },
+      {
+        "committee": "C00341396",
+        "name": "MOVEON.ORG POLITICAL ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 24873.62,
+        "count": 13
+      },
+      {
+        "committee": "C00678839",
+        "name": "INDIVISIBLE ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 24161.64,
+        "count": 7
+      },
+      {
+        "committee": "C90017492",
+        "name": "INDIVISIBLE PROJECT INC.",
+        "side": "support",
+        "stage": "primary",
+        "total": 1048.36,
+        "count": 1
+      },
+      {
+        "committee": "C00453704",
+        "name": "EMGAGE FEDERAL POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 731.07,
+        "count": 2
+      },
+      {
+        "committee": "C00002840",
+        "name": "UAW - V - CAP (UAW VOLUNTARY COMMUNITY ACTION PROGRAM) 'INT'L UNION UNITED AUTOMOBILE AEROSPACE & AGRICULTURAL IMPLEMENT WORKERS OF AMERICA UAW",
+        "side": "support",
+        "stage": "general",
+        "total": 583.98,
+        "count": 1
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 300,
+        "count": 3
+      }
+    ],
+    "ny-12-lasher": [
+      {
+        "committee": "C00936591",
+        "name": "STAND FOR NEW YORK PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 10775519.72,
+        "count": 56
+      },
+      {
+        "committee": "C00744185",
+        "name": "NUESTRO PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 3017409.56,
+        "count": 13
+      }
+    ],
+    "nj-12-hamawy": [
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 1553845,
+        "count": 4
+      },
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 191329.29,
+        "count": 4
+      },
+      {
+        "committee": "C00685552",
+        "name": "MEDICARE FOR ALL",
+        "side": "support",
+        "stage": "primary",
+        "total": 150950,
+        "count": 2
+      },
+      {
+        "committee": "C00453704",
+        "name": "EMGAGE FEDERAL POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 16906.49,
+        "count": 7
+      },
+      {
+        "committee": "C00881011",
+        "name": "UNITY & JUSTICE FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 9580.74,
+        "count": 11
+      },
+      {
+        "committee": "C00893461",
+        "name": "CHRISTOPHER STREET PROJECT PAC (CSP PAC)",
+        "side": "support",
+        "stage": "primary",
+        "total": 5000,
+        "count": 1
+      }
+    ],
+    "oh-07-poindexter": [
+      {
+        "committee": "C00504530",
+        "name": "CLF",
+        "side": "oppose",
+        "stage": "general",
+        "total": 1126780.54,
+        "count": 3
+      },
+      {
+        "committee": "C00928374",
+        "name": "JOBS AND DEMOCRACY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 570203.89,
+        "count": 4
+      },
+      {
+        "committee": "C00908707",
+        "name": "BDA PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 198019.35,
+        "count": 1
+      },
+      {
+        "committee": "C00580068",
+        "name": "PROGRESSIVE TURNOUT PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 97697.52,
+        "count": 4
+      },
+      {
+        "committee": "C90018904",
+        "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+        "side": "oppose",
+        "stage": "general",
+        "total": 6810.15,
+        "count": 11
+      },
+      {
+        "committee": "C90021726",
+        "name": "OHIO CITIZEN ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 6137.21,
+        "count": 2
+      },
+      {
+        "committee": "C00800995",
+        "name": "DEMOCRATIC MESSAGING PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 5075,
+        "count": 2
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 1561.53,
+        "count": 4
+      },
+      {
+        "committee": "C00678839",
+        "name": "INDIVISIBLE ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 1250,
+        "count": 1
+      },
+      {
+        "committee": "C00930321",
+        "name": "NEIGHBOR VOICES PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 270.67,
+        "count": 3
+      },
+      {
+        "committee": "C00955138",
+        "name": "BUILDING TOGETHER",
+        "side": "support",
+        "stage": "general",
+        "total": 159.33,
+        "count": 1
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 75,
+        "count": 1
+      }
+    ],
+    "pa-03-rabb": [
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 455355.99,
+        "count": 3
+      },
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 374231.57,
+        "count": 7
+      },
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 260000,
+        "count": 3
+      },
+      {
+        "committee": "C00513176",
+        "name": "CONGRESSIONAL PROGRESSIVE CAUCUS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 200137.5,
+        "count": 3
+      },
+      {
+        "committee": "C00902189",
+        "name": "FREEDOM PA",
+        "side": "support",
+        "stage": "primary",
+        "total": 125844.07,
+        "count": 33
+      },
+      {
+        "committee": "C00685552",
+        "name": "MEDICARE FOR ALL",
+        "side": "support",
+        "stage": "primary",
+        "total": 100137.5,
+        "count": 2
+      },
+      {
+        "committee": "C00761064",
+        "name": "API PA VOTES",
+        "side": "support",
+        "stage": "primary",
+        "total": 40014.5,
+        "count": 35
+      },
+      {
+        "committee": "C00689745",
+        "name": "MAKE THE ROAD ACTION POLITICAL COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 32648.04,
+        "count": 10
+      },
+      {
+        "committee": "C00839407",
+        "name": "GET OUT THE VOTE PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 15340.93,
+        "count": 1
+      },
+      {
+        "committee": "C90022914",
+        "name": "STRAIGHT AHEAD ORGANIZATION",
+        "side": "support",
+        "stage": "primary",
+        "total": 15000,
+        "count": 1
+      },
+      {
+        "committee": "C00576215",
+        "name": "CHARTER SCHOOLS ACTION PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 5627.6,
+        "count": 1
+      },
+      {
+        "committee": "C90019357",
+        "name": "FOOD AND WATER ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 259.36,
+        "count": 1
+      },
+      {
+        "committee": "C00172361",
+        "name": "PENNSYLVANIA PRO-LIFE FEDERATION PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 22.94,
+        "count": 1
+      }
+    ],
+    "pa-07-brooks": [
+      {
+        "committee": "C00504530",
+        "name": "CLF",
+        "side": "oppose",
+        "stage": "general",
+        "total": 2310915.81,
+        "count": 5
+      },
+      {
+        "committee": "C00936153",
+        "name": "STRONGER TOGETHER PA",
+        "side": "support",
+        "stage": "primary",
+        "total": 1781524,
+        "count": 21
+      },
+      {
+        "committee": "C00948208",
+        "name": "LEAD LEFT PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 312371.76,
+        "count": 7
+      },
+      {
+        "committee": "C00928374",
+        "name": "JOBS AND DEMOCRACY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 249750,
+        "count": 1
+      },
+      {
+        "committee": "C00513176",
+        "name": "CONGRESSIONAL PROGRESSIVE CAUCUS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 140300,
+        "count": 2
+      },
+      {
+        "committee": "C00685552",
+        "name": "MEDICARE FOR ALL",
+        "side": "support",
+        "stage": "primary",
+        "total": 99625,
+        "count": 2
+      },
+      {
+        "committee": "C00895730",
+        "name": "DLP PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 88321.5,
+        "count": 4
+      },
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 41020.59,
+        "count": 3
+      },
+      {
+        "committee": "C00647966",
+        "name": "RURAL FREEDOM NETWORK",
+        "side": "support",
+        "stage": "general",
+        "total": 30756.92,
+        "count": 5
+      },
+      {
+        "committee": "C00689745",
+        "name": "MAKE THE ROAD ACTION POLITICAL COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 30559.95,
+        "count": 9
+      },
+      {
+        "committee": "C00495028",
+        "name": "HMP",
+        "side": "support",
+        "stage": "general",
+        "total": 30281.38,
+        "count": 4
+      },
+      {
+        "committee": "C00934059",
+        "name": "SENIORS EMPOWERING AN EFFECTIVE DEMOCRACY (SEED-PAC)",
+        "side": "support",
+        "stage": "general",
+        "total": 24592.37,
+        "count": 4
+      },
+      {
+        "committee": "C00580068",
+        "name": "PROGRESSIVE TURNOUT PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 23285.26,
+        "count": 1
+      },
+      {
+        "committee": "C90023599",
+        "name": "CAMPAIGN FOR WORKING CLASS COMMUNITIES",
+        "side": "support",
+        "stage": "general",
+        "total": 17294.56,
+        "count": 44
+      },
+      {
+        "committee": "C00897363",
+        "name": "BLUE MAJORITY PROJECT",
+        "side": "support",
+        "stage": "primary",
+        "total": 16643.34,
+        "count": 3
+      },
+      {
+        "committee": "C90020231",
+        "name": "THOMAS PAINE SOCIETY L.L.C.",
+        "side": "support",
+        "stage": "general",
+        "total": 15852,
+        "count": 5
+      },
+      {
+        "committee": "C00800995",
+        "name": "DEMOCRATIC MESSAGING PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 10150,
+        "count": 2
+      },
+      {
+        "committee": "C00704593",
+        "name": "BLUE BATTLEGROUND PROJECT",
+        "side": "support",
+        "stage": "primary",
+        "total": 9116.67,
+        "count": 1
+      },
+      {
+        "committee": "C00924159",
+        "name": "KITCHEN TABLE VALUES PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 8840,
+        "count": 5
+      },
+      {
+        "committee": "C00948000",
+        "name": "MAJORITY BLUE PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 4941.66,
+        "count": 2
+      },
+      {
+        "committee": "C00933614",
+        "name": "BLUE SHIFT PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 4708.33,
+        "count": 2
+      },
+      {
+        "committee": "C00669259",
+        "name": "FF PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 4500,
+        "count": 2
+      },
+      {
+        "committee": "C00004036",
+        "name": "SEIU COPE (SERVICE EMPLOYEES INTERNATIONAL UNION COMMITTEE ON POLITICAL EDUCATION)",
+        "side": "support",
+        "stage": "primary",
+        "total": 3140.99,
+        "count": 3
+      },
+      {
+        "committee": "C90023748",
+        "name": "EQUAL EXCHANGE",
+        "side": "support",
+        "stage": "general",
+        "total": 3060.85,
+        "count": 8
+      },
+      {
+        "committee": "C00934273",
+        "name": "DEMOCRATIC FUTURE PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 2600,
+        "count": 2
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 1299.08,
+        "count": 6
+      },
+      {
+        "committee": "C00933796",
+        "name": "BLUE DEMOCRACY NETWORK",
+        "side": "support",
+        "stage": "primary",
+        "total": 1075,
+        "count": 2
+      },
+      {
+        "committee": "C00948109",
+        "name": "BLUE MAJORITY MAKERS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 766.66,
+        "count": 2
+      },
+      {
+        "committee": "C00640300",
+        "name": "ACTIVATE AMERICA",
+        "side": "support",
+        "stage": "general",
+        "total": 756.48,
+        "count": 1
+      },
+      {
+        "committee": "C00738237",
+        "name": "PEOPLE'S ACTION POWER",
+        "side": "support",
+        "stage": "primary",
+        "total": 530.05,
+        "count": 1
+      },
+      {
+        "committee": "C00902189",
+        "name": "FREEDOM PA",
+        "side": "support",
+        "stage": "general",
+        "total": 450,
+        "count": 1
+      },
+      {
+        "committee": "C00878025",
+        "name": "MOMSRISING PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 303.59,
+        "count": 2
+      },
+      {
+        "committee": "C90020058",
+        "name": "RED WINE AND BLUE",
+        "side": "support",
+        "stage": "general",
+        "total": 236.06,
+        "count": 2
+      },
+      {
+        "committee": "C00742205",
+        "name": "SURJ PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 187.51,
+        "count": 1
+      },
+      {
+        "committee": "C00955138",
+        "name": "BUILDING TOGETHER",
+        "side": "support",
+        "stage": "general",
+        "total": 139.58,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 110.71,
+        "count": 5
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 50,
+        "count": 1
+      },
+      {
+        "committee": "C00172361",
+        "name": "PENNSYLVANIA PRO-LIFE FEDERATION PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 22.94,
+        "count": 1
+      }
+    ],
+    "tx-23-padilla-stout": [
+      {
+        "committee": "C00552851",
+        "name": "FREEDOM CAUCUS FUND",
+        "side": "oppose",
+        "stage": "general",
+        "total": 173252.23,
+        "count": 2
+      },
+      {
+        "committee": "C00953893",
+        "name": "FORWRD-TX",
+        "side": "support",
+        "stage": "general",
+        "total": 13466.16,
+        "count": 20
+      }
+    ],
+    "ny-13-avila-chevalier": [
+      {
+        "committee": "C00854299",
+        "name": "BOLD AMERICA",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 1524101.65,
+        "count": 10
+      },
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 1003820.69,
+        "count": 17
+      },
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 844250,
+        "count": 4
+      },
+      {
+        "committee": "C00678839",
+        "name": "INDIVISIBLE ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 29859.54,
+        "count": 8
+      },
+      {
+        "committee": "C90011800",
+        "name": "CATHOLICVOTE.ORG",
+        "side": "oppose",
+        "stage": "general",
+        "total": 12160.98,
+        "count": 1
+      },
+      {
+        "committee": "C00879080",
+        "name": "CITIZENS AGAINST AIPAC CORRUPTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 5000,
+        "count": 1
+      },
+      {
+        "committee": "C00453704",
+        "name": "EMGAGE FEDERAL POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 4673.27,
+        "count": 4
+      },
+      {
+        "committee": "C00562777",
+        "name": "LATINO VICTORY FUND",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 3950,
+        "count": 3
+      },
+      {
+        "committee": "C90015181",
+        "name": "LATINO VICTORY PROJECT",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 2600,
+        "count": 1
+      },
+      {
+        "committee": "C90023367",
+        "name": "NEO PHILANTHROPY ACTION FUND INC.",
+        "side": "support",
+        "stage": "primary",
+        "total": 788.95,
+        "count": 4
+      },
+      {
+        "committee": "C00002840",
+        "name": "UAW - V - CAP (UAW VOLUNTARY COMMUNITY ACTION PROGRAM) 'INT'L UNION UNITED AUTOMOBILE AEROSPACE & AGRICULTURAL IMPLEMENT WORKERS OF AMERICA UAW",
+        "side": "support",
+        "stage": "general",
+        "total": 552.66,
+        "count": 1
+      }
+    ],
+    "ny-17-conley": [
+      {
+        "committee": "C00504530",
+        "name": "CLF",
+        "side": "oppose",
+        "stage": "general",
+        "total": 3086233.46,
+        "count": 10
+      },
+      {
+        "committee": "C00950352",
+        "name": "PROGRESSIVE CHAMPIONS PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 1500000,
+        "count": 1
+      },
+      {
+        "committee": "C00418897",
+        "name": "VOTEVETS",
+        "side": "support",
+        "stage": "primary",
+        "total": 1076875.22,
+        "count": 9
+      },
+      {
+        "committee": "C00859660",
+        "name": "NEW DEMOCRAT MAJORITY",
+        "side": "support",
+        "stage": "primary",
+        "total": 522759,
+        "count": 2
+      },
+      {
+        "committee": "C90015140",
+        "name": "AFT SOLIDARITY",
+        "side": "support",
+        "stage": "primary",
+        "total": 150000,
+        "count": 1
+      },
+      {
+        "committee": "C00737411",
+        "name": "THE GOVERNING MAJORITY FUND",
+        "side": "oppose",
+        "stage": "general",
+        "total": 32951.81,
+        "count": 2
+      },
+      {
+        "committee": "C00800995",
+        "name": "DEMOCRATIC MESSAGING PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 20300,
+        "count": 2
+      },
+      {
+        "committee": "C00647966",
+        "name": "RURAL FREEDOM NETWORK",
+        "side": "support",
+        "stage": "general",
+        "total": 16265.26,
+        "count": 3
+      },
+      {
+        "committee": "C00943811",
+        "name": "NEW YORKERS FOR A RETURN TO FAIR AND HONEST GOVERNMENT",
+        "side": "support",
+        "stage": "general",
+        "total": 2750,
+        "count": 1
+      },
+      {
+        "committee": "C00859355",
+        "name": "BATTLEGROUND NEW YORK",
+        "side": "support",
+        "stage": "general",
+        "total": 1717.62,
+        "count": 2
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 1336.01,
+        "count": 5
+      },
+      {
+        "committee": "C00710848",
+        "name": "DMFI PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 381.82,
+        "count": 1
+      },
+      {
+        "committee": "C00684969",
+        "name": "JDCA PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 377.4,
+        "count": 2
+      },
+      {
+        "committee": "C00955138",
+        "name": "BUILDING TOGETHER",
+        "side": "support",
+        "stage": "general",
+        "total": 154.89,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 17.22,
+        "count": 4
+      }
+    ],
+    "mn-02-little": [
+      {
+        "committee": "C00685552",
+        "name": "MEDICARE FOR ALL",
+        "side": "support",
+        "stage": "primary",
+        "total": 200000,
+        "count": 3
+      },
+      {
+        "committee": "C00513176",
+        "name": "CONGRESSIONAL PROGRESSIVE CAUCUS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 150662.5,
+        "count": 4
+      },
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 71432.21,
+        "count": 2
+      },
+      {
+        "committee": "C00490375",
+        "name": "NATIONAL NURSES UNITED FOR PATIENT PROTECTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 61394.92,
+        "count": 2
+      },
+      {
+        "committee": "C00745745",
+        "name": "IN UNION USA",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 17392.52,
+        "count": 2
+      },
+      {
+        "committee": "C00684530",
+        "name": "PLANNED PARENTHOOD OF MINNESOTA POLITICAL ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 693.63,
+        "count": 2
+      },
+      {
+        "committee": "C00955138",
+        "name": "BUILDING TOGETHER",
+        "side": "support",
+        "stage": "general",
+        "total": 237.36,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-14-wahab": [
+      {
+        "committee": "C00799031",
+        "name": "UNITED DEMOCRACY PROJECT ('UDP')",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 1642139.53,
+        "count": 5
+      },
+      {
+        "committee": "C00626119",
+        "name": "COMMITTEE FOR WORKING FAMILIES, SPONSORED BY LABOR ORGANIZATIONS",
+        "side": "support",
+        "stage": "primary",
+        "total": 684195.37,
+        "count": 20
+      },
+      {
+        "committee": "C00854299",
+        "name": "BOLD AMERICA",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 610970.5,
+        "count": 5
+      },
+      {
+        "committee": "C00956144",
+        "name": "SAFER ALAMEDA COUNTY PAC",
+        "side": "oppose",
+        "stage": "special",
+        "total": 375201.33,
+        "count": 10
+      },
+      {
+        "committee": "C00935015",
+        "name": "SD 2026",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 165000,
+        "count": 2
+      },
+      {
+        "committee": "C00815753",
+        "name": "J STREET ACTION FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 104048.34,
+        "count": 4
+      },
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "special",
+        "total": 90200,
+        "count": 4
+      },
+      {
+        "committee": "C00375279",
+        "name": "ALAMEDA COUNTY DEMOCRATIC CENTRAL COMMITTEE",
+        "side": "support",
+        "stage": "special",
+        "total": 36085.78,
+        "count": 8
+      },
+      {
+        "committee": "C00375279",
+        "name": "ALAMEDA COUNTY DEMOCRATIC CENTRAL COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 19355.53,
+        "count": 4
+      },
+      {
+        "committee": "C00888081",
+        "name": "HEALTH CARE SAVES LIVES",
+        "side": "support",
+        "stage": "general",
+        "total": 4018.91,
+        "count": 4
+      },
+      {
+        "committee": "C00881011",
+        "name": "UNITY & JUSTICE FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 1791.6,
+        "count": 20
+      },
+      {
+        "committee": "C00888081",
+        "name": "HEALTH CARE SAVES LIVES",
+        "side": "support",
+        "stage": "primary",
+        "total": 1476.99,
+        "count": 7
+      },
+      {
+        "committee": "C00888081",
+        "name": "HEALTH CARE SAVES LIVES",
+        "side": "support",
+        "stage": "special",
+        "total": 1039.95,
+        "count": 3
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "mi-13-mckinney": [
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 460546.7,
+        "count": 12
+      },
+      {
+        "committee": "C00490375",
+        "name": "NATIONAL NURSES UNITED FOR PATIENT PROTECTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 400000,
+        "count": 1
+      },
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 297869.11,
+        "count": 14
+      },
+      {
+        "committee": "C00848440",
+        "name": "PROTECT PROGRESS",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 268690,
+        "count": 5
+      },
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 150000,
+        "count": 2
+      },
+      {
+        "committee": "C00844530",
+        "name": "ROLLING SEA ACTION FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 50000,
+        "count": 1
+      },
+      {
+        "committee": "C00453704",
+        "name": "EMGAGE FEDERAL POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 39753.65,
+        "count": 9
+      },
+      {
+        "committee": "C00004036",
+        "name": "SEIU COPE (SERVICE EMPLOYEES INTERNATIONAL UNION COMMITTEE ON POLITICAL EDUCATION)",
+        "side": "support",
+        "stage": "primary",
+        "total": 17142.6,
+        "count": 4
+      },
+      {
+        "committee": "C00678839",
+        "name": "INDIVISIBLE ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 12170.41,
+        "count": 5
+      },
+      {
+        "committee": "C00881011",
+        "name": "UNITY & JUSTICE FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 10406.25,
+        "count": 8
+      },
+      {
+        "committee": "C00523621",
+        "name": "UNITED WE CAN",
+        "side": "support",
+        "stage": "primary",
+        "total": 5375,
+        "count": 1
+      },
+      {
+        "committee": "C00523621",
+        "name": "UNITED WE CAN",
+        "side": "support",
+        "stage": "general",
+        "total": 2057.93,
+        "count": 1
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 175,
+        "count": 4
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "tx-30-haynes": [
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 100000,
+        "count": 2
+      },
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 100000,
+        "count": 3
+      }
+    ],
+    "nj-11-mejia": [
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "special",
+        "total": 273619.71,
+        "count": 12
+      },
+      {
+        "committee": "C00513176",
+        "name": "CONGRESSIONAL PROGRESSIVE CAUCUS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 50000,
+        "count": 1
+      },
+      {
+        "committee": "C00685552",
+        "name": "MEDICARE FOR ALL",
+        "side": "support",
+        "stage": "primary",
+        "total": 50000,
+        "count": 2
+      },
+      {
+        "committee": "C90019969",
+        "name": "GARDEN STATE FORWARD",
+        "side": "support",
+        "stage": "special",
+        "total": 40000,
+        "count": 1
+      },
+      {
+        "committee": "C00879080",
+        "name": "CITIZENS AGAINST AIPAC CORRUPTION",
+        "side": "support",
+        "stage": "special",
+        "total": 35000,
+        "count": 3
+      },
+      {
+        "committee": "C00689745",
+        "name": "MAKE THE ROAD ACTION POLITICAL COMMITTEE",
+        "side": "support",
+        "stage": "special",
+        "total": 14961.82,
+        "count": 4
+      },
+      {
+        "committee": "C90020363",
+        "name": "NAKASEC ACTION FUND",
+        "side": "support",
+        "stage": "special",
+        "total": 11775.04,
+        "count": 19
+      },
+      {
+        "committee": "C00736009",
+        "name": "POPULAR DEMOCRACY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 6200.25,
+        "count": 1
+      },
+      {
+        "committee": "C00877845",
+        "name": "GRAYPAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 999.31,
+        "count": 1
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "special",
+        "total": 262.5,
+        "count": 4
+      }
+    ],
+    "dc-al-white": [
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 40000,
+        "count": 1
+      },
+      {
+        "committee": "C90023334",
+        "name": "REGIONAL ALLIANCE FOR SMALL BUSINESS EXECUTIVES",
+        "side": "support",
+        "stage": "primary",
+        "total": 10000,
+        "count": 1
+      }
+    ],
+    "tn-09-pearson": [
+      {
+        "committee": "C00816173",
+        "name": "TENNESSEE IMMIGRANT AND REFUGEE RIGHTS COALITION VOTES ACTION PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 17628,
+        "count": 1
+      },
+      {
+        "committee": "C00678839",
+        "name": "INDIVISIBLE ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 14658.88,
+        "count": 4
+      },
+      {
+        "committee": "C00827618",
+        "name": "THE EQUITY ALLIANCE FUND ACTION PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 2829.35,
+        "count": 4
+      },
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 1234.13,
+        "count": 1
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 75,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-07-vang": [
+      {
+        "committee": "C00959841",
+        "name": "AFFORDABLE CALIFORNIA 2026",
+        "side": "oppose",
+        "stage": "general",
+        "total": 400000,
+        "count": 2
+      },
+      {
+        "committee": "C00843110",
+        "name": "LEADERS WE DESERVE",
+        "side": "support",
+        "stage": "general",
+        "total": 347838.24,
+        "count": 9
+      },
+      {
+        "committee": "C00490375",
+        "name": "NATIONAL NURSES UNITED FOR PATIENT PROTECTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 300000,
+        "count": 2
+      },
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 180605.72,
+        "count": 8
+      },
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 30000,
+        "count": 2
+      },
+      {
+        "committee": "C90011800",
+        "name": "CATHOLICVOTE.ORG",
+        "side": "oppose",
+        "stage": "general",
+        "total": 12160.98,
+        "count": 1
+      },
+      {
+        "committee": "C00949958",
+        "name": "PALESTINE AMERICAN LEAGUE - PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 779.73,
+        "count": 3
+      }
+    ],
+    "ca-34-gonzales-torres": [
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 3350.13,
+        "count": 1
+      }
+    ],
+    "va-05-perriello": [
+      {
+        "committee": "C00833103",
+        "name": "VOTERS OF TOMORROW PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 7323.35,
+        "count": 5
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 2266.08,
+        "count": 6
+      }
+    ],
+    "mt-01-forstag": [
+      {
+        "committee": "C00580068",
+        "name": "PROGRESSIVE TURNOUT PROJECT",
+        "side": "support",
+        "stage": "primary",
+        "total": 239520.14,
+        "count": 5
+      },
+      {
+        "committee": "C00580068",
+        "name": "PROGRESSIVE TURNOUT PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 102664.59,
+        "count": 5
+      },
+      {
+        "committee": "C00418897",
+        "name": "VOTEVETS",
+        "side": "support",
+        "stage": "general",
+        "total": 67500,
+        "count": 1
+      },
+      {
+        "committee": "C00957340",
+        "name": "MOVING MONTANA FORWARD",
+        "side": "support",
+        "stage": "general",
+        "total": 26000,
+        "count": 1
+      },
+      {
+        "committee": "C00868604",
+        "name": "MONTANANS FOR PUBLIC LANDS",
+        "side": "support",
+        "stage": "general",
+        "total": 25101.04,
+        "count": 3
+      },
+      {
+        "committee": "C90017898",
+        "name": "PROTECT OUR WINTERS ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 8048.51,
+        "count": 109
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 949.89,
+        "count": 3
+      },
+      {
+        "committee": "C00833103",
+        "name": "VOTERS OF TOMORROW PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 860.51,
+        "count": 3
+      },
+      {
+        "committee": "C00955138",
+        "name": "BUILDING TOGETHER",
+        "side": "support",
+        "stage": "general",
+        "total": 123.66,
+        "count": 1
+      }
+    ],
+    "fl-24-jones": [
+      {
+        "committee": "C00935015",
+        "name": "SD 2026",
+        "side": "support",
+        "stage": "primary",
+        "total": 1752402.26,
+        "count": 25
+      },
+      {
+        "committee": "C00952630",
+        "name": "FLORIDA'S VOICE PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 271755,
+        "count": 20
+      },
+      {
+        "committee": "C00550970",
+        "name": "EQUALITY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 181213.72,
+        "count": 5
+      },
+      {
+        "committee": "C00914259",
+        "name": "GOOD GROWTH",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 83333.33,
+        "count": 1
+      },
+      {
+        "committee": "C00953257",
+        "name": "AMERICAN MADE POLITICAL ACTION COMMITTEE (AMERICAN MADE PAC)",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 28264.29,
+        "count": 2
+      },
+      {
+        "committee": "C00758508",
+        "name": "OUR BLUE DEMOCRACY",
+        "side": "support",
+        "stage": "primary",
+        "total": 332.65,
+        "count": 2
+      }
+    ],
+    "mi-sen-el-sayed": [
+      {
+        "committee": "C00799031",
+        "name": "UNITED DEMOCRACY PROJECT ('UDP')",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 20140908.74,
+        "count": 25
+      },
+      {
+        "committee": "C00919373",
+        "name": "FIGHTING FOR MICHIGAN PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 2289245.76,
+        "count": 22
+      },
+      {
+        "committee": "C00544387",
+        "name": "AMERICAN PRINCIPLES PROJECT PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 611000,
+        "count": 2
+      },
+      {
+        "committee": "C00490375",
+        "name": "NATIONAL NURSES UNITED FOR PATIENT PROTECTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 489664.76,
+        "count": 2
+      },
+      {
+        "committee": "C00932723",
+        "name": "AMERICAN PRIORITIES (AP)",
+        "side": "support",
+        "stage": "primary",
+        "total": 372026.35,
+        "count": 5
+      },
+      {
+        "committee": "C00687103",
+        "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+        "side": "oppose",
+        "stage": "general",
+        "total": 299866.5,
+        "count": 3
+      },
+      {
+        "committee": "C00620021",
+        "name": "COMMON DEFENSE ACTION FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 289664.76,
+        "count": 1
+      },
+      {
+        "committee": "C00875039",
+        "name": "HIGH PLAINS PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 257500,
+        "count": 3
+      },
+      {
+        "committee": "C00961276",
+        "name": "LOWER COSTS NOW",
+        "side": "support",
+        "stage": "general",
+        "total": 242543.71,
+        "count": 3
+      },
+      {
+        "committee": "C99002396",
+        "name": "AMERICAN POLITICAL ACTION COMMITTEE",
+        "side": "oppose",
+        "stage": "general",
+        "total": 238712,
+        "count": 3
+      },
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 159232.59,
+        "count": 10
+      },
+      {
+        "committee": "C00952259",
+        "name": "A STRONGER MICHIGAN",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 150000,
+        "count": 1
+      },
+      {
+        "committee": "C00341396",
+        "name": "MOVEON.ORG POLITICAL ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 107298.46,
+        "count": 18
+      },
+      {
+        "committee": "C00573261",
+        "name": "END CITIZENS UNITED",
+        "side": "support",
+        "stage": "general",
+        "total": 100000,
+        "count": 1
+      },
+      {
+        "committee": "C00953406",
+        "name": "THE FRONT LINE ACTION",
+        "side": "oppose",
+        "stage": "general",
+        "total": 92187.5,
+        "count": 2
+      },
+      {
+        "committee": "C00754069",
+        "name": "PAF",
+        "side": "support",
+        "stage": "general",
+        "total": 59430.12,
+        "count": 2
+      },
+      {
+        "committee": "C00879080",
+        "name": "CITIZENS AGAINST AIPAC CORRUPTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 57721.63,
+        "count": 3
+      },
+      {
+        "committee": "C00580068",
+        "name": "PROGRESSIVE TURNOUT PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 51895.94,
+        "count": 2
+      },
+      {
+        "committee": "C00800995",
+        "name": "DEMOCRATIC MESSAGING PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 40600,
+        "count": 2
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 36624.31,
+        "count": 9
+      },
+      {
+        "committee": "C00881011",
+        "name": "UNITY & JUSTICE FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 27881.25,
+        "count": 28
+      },
+      {
+        "committee": "C00453704",
+        "name": "EMGAGE FEDERAL POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 17721.44,
+        "count": 7
+      },
+      {
+        "committee": "C90018904",
+        "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+        "side": "oppose",
+        "stage": "general",
+        "total": 14443.58,
+        "count": 25
+      },
+      {
+        "committee": "C00835041",
+        "name": "FORWARD BLUE",
+        "side": "support",
+        "stage": "primary",
+        "total": 14243.57,
+        "count": 2
+      },
+      {
+        "committee": "C00341396",
+        "name": "MOVEON.ORG POLITICAL ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 12407.97,
+        "count": 4
+      },
+      {
+        "committee": "C00523621",
+        "name": "UNITED WE CAN",
+        "side": "support",
+        "stage": "general",
+        "total": 10821.07,
+        "count": 1
+      },
+      {
+        "committee": "C00930321",
+        "name": "NEIGHBOR VOICES PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 9903.33,
+        "count": 25
+      },
+      {
+        "committee": "C00678839",
+        "name": "INDIVISIBLE ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 9670.41,
+        "count": 4
+      },
+      {
+        "committee": "C00574178",
+        "name": "RIGHT TO LIFE OF MICHIGAN VICTORY FUND",
+        "side": "oppose",
+        "stage": "general",
+        "total": 8671.12,
+        "count": 3
+      },
+      {
+        "committee": "C00640300",
+        "name": "ACTIVATE AMERICA",
+        "side": "support",
+        "stage": "general",
+        "total": 7249.11,
+        "count": 1
+      },
+      {
+        "committee": "C90020231",
+        "name": "THOMAS PAINE SOCIETY L.L.C.",
+        "side": "support",
+        "stage": "general",
+        "total": 4485,
+        "count": 1
+      },
+      {
+        "committee": "C90023821",
+        "name": "CLIMATE LEADERSHIP ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 2063.21,
+        "count": 27
+      },
+      {
+        "committee": "C00620971",
+        "name": "FOR OUR FUTURE",
+        "side": "support",
+        "stage": "general",
+        "total": 1653.26,
+        "count": 2
+      },
+      {
+        "committee": "C00895011",
+        "name": "DISRUPT",
+        "side": "support",
+        "stage": "primary",
+        "total": 1025,
+        "count": 1
+      },
+      {
+        "committee": "C00741041",
+        "name": "END THE OCCUPATION",
+        "side": "support",
+        "stage": "primary",
+        "total": 750,
+        "count": 1
+      },
+      {
+        "committee": "C00740514",
+        "name": "CONCERNED CITIZEN",
+        "side": "support",
+        "stage": "general",
+        "total": 689.74,
+        "count": 1
+      },
+      {
+        "committee": "C90023367",
+        "name": "NEO PHILANTHROPY ACTION FUND INC.",
+        "side": "support",
+        "stage": "primary",
+        "total": 562.68,
+        "count": 2
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 312,
+        "count": 5
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 200,
+        "count": 3
+      },
+      {
+        "committee": "C00878025",
+        "name": "MOMSRISING PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 134.4,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 132.89,
+        "count": 7
+      },
+      {
+        "committee": "C90020058",
+        "name": "RED WINE AND BLUE",
+        "side": "support",
+        "stage": "general",
+        "total": 69.09,
+        "count": 1
+      },
+      {
+        "committee": "C90023367",
+        "name": "NEO PHILANTHROPY ACTION FUND INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 34,
+        "count": 1
+      }
+    ],
+    "me-sen-jackson": [
+      {
+        "committee": "C00915595",
+        "name": "GOVERNMENT THAT WORKS PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 1647244.71,
+        "count": 8
+      },
+      {
+        "committee": "C90011172",
+        "name": "AFSCME WORKING FAMILIES FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 87881.75,
+        "count": 1
+      },
+      {
+        "committee": "C99002396",
+        "name": "AMERICAN POLITICAL ACTION COMMITTEE",
+        "side": "oppose",
+        "stage": "general",
+        "total": 42900,
+        "count": 3
+      },
+      {
+        "committee": "C90018904",
+        "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+        "side": "oppose",
+        "stage": "general",
+        "total": 24783.87,
+        "count": 21
+      },
+      {
+        "committee": "C00580068",
+        "name": "PROGRESSIVE TURNOUT PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 14535.38,
+        "count": 1
+      },
+      {
+        "committee": "C90023573",
+        "name": "REGISTRATION NATION ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 2915,
+        "count": 2
+      },
+      {
+        "committee": "C00640300",
+        "name": "ACTIVATE AMERICA",
+        "side": "support",
+        "stage": "general",
+        "total": 2806.51,
+        "count": 5
+      },
+      {
+        "committee": "C00341396",
+        "name": "MOVEON.ORG POLITICAL ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 2567.6,
+        "count": 2
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 1014.72,
+        "count": 4
+      },
+      {
+        "committee": "C00951376",
+        "name": "DEMOCRATS FIGHT BACK PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 269.5,
+        "count": 1
+      },
+      {
+        "committee": "C00930321",
+        "name": "NEIGHBOR VOICES PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 259.33,
+        "count": 13
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 201.3,
+        "count": 10
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 75,
+        "count": 1
+      },
+      {
+        "committee": "C00878025",
+        "name": "MOMSRISING PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 31.65,
+        "count": 3
+      }
+    ],
+    "tx-sen-talarico": [
+      {
+        "committee": "C00901223",
+        "name": "LONE STAR LIBERTY PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 7720655,
+        "count": 3
+      },
+      {
+        "committee": "C00918268",
+        "name": "LONE STAR RISING PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 3980261.86,
+        "count": 16
+      },
+      {
+        "committee": "C00961276",
+        "name": "LOWER COSTS NOW",
+        "side": "support",
+        "stage": "general",
+        "total": 1241445.64,
+        "count": 4
+      },
+      {
+        "committee": "C00918268",
+        "name": "LONE STAR RISING PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 1234564.75,
+        "count": 4
+      },
+      {
+        "committee": "C00890608",
+        "name": "PROTECTING AMERICA'S FUTURE",
+        "side": "oppose",
+        "stage": "general",
+        "total": 670065.92,
+        "count": 7
+      },
+      {
+        "committee": "C99002396",
+        "name": "AMERICAN POLITICAL ACTION COMMITTEE",
+        "side": "oppose",
+        "stage": "general",
+        "total": 533069,
+        "count": 10
+      },
+      {
+        "committee": "C00930099",
+        "name": "FORWARD TEXAS",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 505023.93,
+        "count": 5
+      },
+      {
+        "committee": "C00887968",
+        "name": "EVANGELICALS FOR A BETTER FUTURE",
+        "side": "support",
+        "stage": "general",
+        "total": 400000,
+        "count": 1
+      },
+      {
+        "committee": "C00625533",
+        "name": "NEW AMERICAN JOBS FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 274380,
+        "count": 2
+      },
+      {
+        "committee": "C00756940",
+        "name": "TEXAS ORGANIZING PROJECT POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "general",
+        "total": 185080.37,
+        "count": 13
+      },
+      {
+        "committee": "C00909994",
+        "name": "FIELD TEAM 6, INC.",
+        "side": "support",
+        "stage": "general",
+        "total": 102470.35,
+        "count": 38
+      },
+      {
+        "committee": "C00580068",
+        "name": "PROGRESSIVE TURNOUT PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 94314.39,
+        "count": 3
+      },
+      {
+        "committee": "C00562777",
+        "name": "LATINO VICTORY FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 82500,
+        "count": 5
+      },
+      {
+        "committee": "C00835041",
+        "name": "FORWARD BLUE",
+        "side": "support",
+        "stage": "general",
+        "total": 45559.38,
+        "count": 2
+      },
+      {
+        "committee": "C00844613",
+        "name": "WIN IT BACK PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 42986.36,
+        "count": 3
+      },
+      {
+        "committee": "C00686832",
+        "name": "WAY TO LEAD PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 30982.5,
+        "count": 2
+      },
+      {
+        "committee": "C00754069",
+        "name": "PAF",
+        "side": "support",
+        "stage": "general",
+        "total": 26020.8,
+        "count": 2
+      },
+      {
+        "committee": "C90020231",
+        "name": "THOMAS PAINE SOCIETY L.L.C.",
+        "side": "support",
+        "stage": "general",
+        "total": 21941.5,
+        "count": 18
+      },
+      {
+        "committee": "C90018904",
+        "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+        "side": "oppose",
+        "stage": "general",
+        "total": 20284.91,
+        "count": 32
+      },
+      {
+        "committee": "C00640300",
+        "name": "ACTIVATE AMERICA",
+        "side": "support",
+        "stage": "general",
+        "total": 18826.4,
+        "count": 15
+      },
+      {
+        "committee": "C00738039",
+        "name": "MIJENTE PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 15988.27,
+        "count": 4
+      },
+      {
+        "committee": "C00812792",
+        "name": "EVERY STATE",
+        "side": "support",
+        "stage": "primary",
+        "total": 10000,
+        "count": 4
+      },
+      {
+        "committee": "C00895011",
+        "name": "DISRUPT",
+        "side": "support",
+        "stage": "primary",
+        "total": 9375,
+        "count": 1
+      },
+      {
+        "committee": "C00341396",
+        "name": "MOVEON.ORG POLITICAL ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 3494.44,
+        "count": 1
+      },
+      {
+        "committee": "C00909465",
+        "name": "INDIGO PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 2994.78,
+        "count": 4
+      },
+      {
+        "committee": "C00684969",
+        "name": "JDCA PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 1942.82,
+        "count": 7
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 944.79,
+        "count": 15
+      },
+      {
+        "committee": "C00878025",
+        "name": "MOMSRISING PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 699.97,
+        "count": 2
+      },
+      {
+        "committee": "C90023821",
+        "name": "CLIMATE LEADERSHIP ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 608.34,
+        "count": 11
+      },
+      {
+        "committee": "C00933796",
+        "name": "BLUE DEMOCRACY NETWORK",
+        "side": "support",
+        "stage": "general",
+        "total": 550,
+        "count": 1
+      },
+      {
+        "committee": "C00669259",
+        "name": "FF PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 500,
+        "count": 2
+      },
+      {
+        "committee": "C00740514",
+        "name": "CONCERNED CITIZEN",
+        "side": "support",
+        "stage": "general",
+        "total": 475.03,
+        "count": 1
+      }
+    ],
+    "az-3-ansari": [
+      {
+        "committee": "C00285593",
+        "name": "WESTERN STATES REGIONAL COUNCIL OF CARPENTERS LEGISLATIVE IMPROVEMENT CMTE UNITED BROTHERHOOD OF CARPENTERS & JOINERS OF AMERICA",
+        "side": "support",
+        "stage": "general",
+        "total": 3375.27,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "az-7-grijalva": [
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 134000,
+        "count": 5
+      },
+      {
+        "committee": "C00513176",
+        "name": "CONGRESSIONAL PROGRESSIVE CAUCUS PAC",
+        "side": "support",
+        "stage": "special",
+        "total": 80000,
+        "count": 2
+      },
+      {
+        "committee": "C00486845",
+        "name": "LCV VICTORY FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 60026.56,
+        "count": 3
+      },
+      {
+        "committee": "C00897926",
+        "name": "PROGRESSIVE PROMISE",
+        "side": "support",
+        "stage": "special",
+        "total": 50000,
+        "count": 1
+      },
+      {
+        "committee": "C00897926",
+        "name": "PROGRESSIVE PROMISE",
+        "side": "support",
+        "stage": "primary",
+        "total": 45000,
+        "count": 1
+      },
+      {
+        "committee": "C00908160",
+        "name": "TUCSON FAMILIES FED UP PAC",
+        "side": "oppose",
+        "stage": "special",
+        "total": 33282.5,
+        "count": 1
+      },
+      {
+        "committee": "C00731372",
+        "name": "VOTE NURSES VALUES POLITICAL ACTION COMMITTEE: CALIFORNIA NURSES ASSOCIATION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10000,
+        "count": 1
+      },
+      {
+        "committee": "C00758011",
+        "name": "VOTAR ES PODER PAC",
+        "side": "support",
+        "stage": "special",
+        "total": 6015,
+        "count": 4
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 240,
+        "count": 3
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-2-huffman": [
+      {
+        "committee": "C00405233",
+        "name": "SONOMA COUNTY DEMOCRATIC PARTY",
+        "side": "support",
+        "stage": "primary",
+        "total": 1320.4,
+        "count": 2
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-8-garamendi": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-10-desaulnier": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-12-simon": [
+      {
+        "committee": "C00848440",
+        "name": "PROTECT PROGRESS",
+        "side": "support",
+        "stage": "primary",
+        "total": 111598.74,
+        "count": 2
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-15-mullin": [
+      {
+        "committee": "C00705277",
+        "name": "ALICE B. TOKLAS LGBTQ DEMOCRATIC CLUB FEDERAL PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 490.33,
+        "count": 3
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-17-khanna": [
+      {
+        "committee": "C00853119",
+        "name": "VIABLE PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 37500,
+        "count": 1
+      },
+      {
+        "committee": "C90012444",
+        "name": "SOUTH BAY AFL-CIO LABOR COUNCIL",
+        "side": "support",
+        "stage": "primary",
+        "total": 258.02,
+        "count": 4
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 150,
+        "count": 1
+      },
+      {
+        "committee": "C90012444",
+        "name": "SOUTH BAY AFL-CIO LABOR COUNCIL",
+        "side": "support",
+        "stage": "general",
+        "total": 87.41,
+        "count": 2
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-19-panetta": [
+      {
+        "committee": "C00923417",
+        "name": "THINK BIG",
+        "side": "support",
+        "stage": "primary",
+        "total": 599280.17,
+        "count": 4
+      },
+      {
+        "committee": "C90012444",
+        "name": "SOUTH BAY AFL-CIO LABOR COUNCIL",
+        "side": "support",
+        "stage": "primary",
+        "total": 258.01,
+        "count": 4
+      },
+      {
+        "committee": "C90012444",
+        "name": "SOUTH BAY AFL-CIO LABOR COUNCIL",
+        "side": "support",
+        "stage": "general",
+        "total": 87.41,
+        "count": 2
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-28-chu": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00884049",
+        "name": "PLANNED PARENTHOOD ADVOCATES PASADENA AND SAN GABRIEL VALLEY PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 6.61,
+        "count": 7
+      }
+    ],
+    "ca-29-rivas": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00687491",
+        "name": "PLANNED PARENTHOOD ADVOCACY PROJECT LOS ANGELES COUNTY ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 0.18,
+        "count": 1
+      }
+    ],
+    "ca-30-friedman": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00687491",
+        "name": "PLANNED PARENTHOOD ADVOCACY PROJECT LOS ANGELES COUNTY ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 0.19,
+        "count": 1
+      }
+    ],
+    "ca-32-sherman": [
+      {
+        "committee": "C00914838",
+        "name": "VALLEY-WESTSIDE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 940000,
+        "count": 3
+      },
+      {
+        "committee": "C00945824",
+        "name": "NEW ERA LEADERSHIP",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 400832.5,
+        "count": 19
+      },
+      {
+        "committee": "C00030718",
+        "name": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 34078,
+        "count": 4
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00687491",
+        "name": "PLANNED PARENTHOOD ADVOCACY PROJECT LOS ANGELES COUNTY ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 0.19,
+        "count": 1
+      }
+    ],
+    "ca-34-gomez": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00687491",
+        "name": "PLANNED PARENTHOOD ADVOCACY PROJECT LOS ANGELES COUNTY ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 0.18,
+        "count": 1
+      },
+      {
+        "committee": "C00799031",
+        "name": "UNITED DEMOCRACY PROJECT ('UDP')",
+        "side": "support",
+        "stage": "general",
+        "total": -28159.84,
+        "count": 1
+      }
+    ],
+    "ca-37-kamlager-dove": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00687491",
+        "name": "PLANNED PARENTHOOD ADVOCACY PROJECT LOS ANGELES COUNTY ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 0.19,
+        "count": 1
+      }
+    ],
+    "ca-39-takano": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00688432",
+        "name": "PLANNED PARENTHOOD ACTION FUND OF THE PACIFIC SOUTHWEST PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 8.08,
+        "count": 2
+      }
+    ],
+    "ca-42-garcia": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ca-44-barragan": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00687491",
+        "name": "PLANNED PARENTHOOD ADVOCACY PROJECT LOS ANGELES COUNTY ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 0.19,
+        "count": 1
+      }
+    ],
+    "ca-47-min": [
+      {
+        "committee": "C00848440",
+        "name": "PROTECT PROGRESS",
+        "side": "support",
+        "stage": "primary",
+        "total": 107939.7,
+        "count": 2
+      },
+      {
+        "committee": "C00495028",
+        "name": "HMP",
+        "side": "support",
+        "stage": "general",
+        "total": 15178.33,
+        "count": 1
+      },
+      {
+        "committee": "C90018904",
+        "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 4551.51,
+        "count": 6
+      },
+      {
+        "committee": "C00888081",
+        "name": "HEALTH CARE SAVES LIVES",
+        "side": "support",
+        "stage": "general",
+        "total": 2501.68,
+        "count": 1
+      },
+      {
+        "committee": "C00640300",
+        "name": "ACTIVATE AMERICA",
+        "side": "support",
+        "stage": "general",
+        "total": 680.77,
+        "count": 1
+      },
+      {
+        "committee": "C00675058",
+        "name": "ALISO NIGUEL DEMOCRATIC CLUB",
+        "side": "support",
+        "stage": "general",
+        "total": 335.71,
+        "count": 50
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 298.67,
+        "count": 7
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00687848",
+        "name": "PLANNED PARENTHOOD OF ORANGE AND SAN BERNARDINO COUNTIES' COMMUNITY ACTION FUND PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 6.32,
+        "count": 3
+      }
+    ],
+    "ca-49-levin": [
+      {
+        "committee": "C90018904",
+        "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 4551.51,
+        "count": 6
+      },
+      {
+        "committee": "C00640300",
+        "name": "ACTIVATE AMERICA",
+        "side": "support",
+        "stage": "general",
+        "total": 394.8,
+        "count": 5
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 86.33,
+        "count": 4
+      },
+      {
+        "committee": "C00687848",
+        "name": "PLANNED PARENTHOOD OF ORANGE AND SAN BERNARDINO COUNTIES' COMMUNITY ACTION FUND PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 22.64,
+        "count": 9
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00688432",
+        "name": "PLANNED PARENTHOOD ACTION FUND OF THE PACIFIC SOUTHWEST PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 8.08,
+        "count": 2
+      },
+      {
+        "committee": "C00687848",
+        "name": "PLANNED PARENTHOOD OF ORANGE AND SAN BERNARDINO COUNTIES' COMMUNITY ACTION FUND PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 6.32,
+        "count": 3
+      },
+      {
+        "committee": "C00688432",
+        "name": "PLANNED PARENTHOOD ACTION FUND OF THE PACIFIC SOUTHWEST PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 1.68,
+        "count": 1
+      }
+    ],
+    "ca-51-jacobs": [
+      {
+        "committee": "C00688432",
+        "name": "PLANNED PARENTHOOD ACTION FUND OF THE PACIFIC SOUTHWEST PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 8.08,
+        "count": 2
+      }
+    ],
+    "ca-52-vargas": [
+      {
+        "committee": "C00688432",
+        "name": "PLANNED PARENTHOOD ACTION FUND OF THE PACIFIC SOUTHWEST PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 8.08,
+        "count": 2
+      }
+    ],
+    "ct-3-delauro": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "de-al-mcbride": [
+      {
+        "committee": "C00878025",
+        "name": "MOMSRISING PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 200.48,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "fl-9-soto": [
+      {
+        "committee": "C00580068",
+        "name": "PROGRESSIVE TURNOUT PROJECT",
+        "side": "support",
+        "stage": "general",
+        "total": 40575.64,
+        "count": 2
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 8,
+        "count": 1
+      }
+    ],
+    "fl-10-frost": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "hi-2-tokuda": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "me-1-pingree": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "md-8-raskin": [
+      {
+        "committee": "C00489815",
+        "name": "NEA ADVOCACY FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 3971.03,
+        "count": 2
+      },
+      {
+        "committee": "C00881011",
+        "name": "UNITY & JUSTICE FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 173.84,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ma-2-mcgovern": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ma-7-pressley": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "mi-6-dingell": [
+      {
+        "committee": "C00523621",
+        "name": "UNITED WE CAN",
+        "side": "support",
+        "stage": "general",
+        "total": 10821.07,
+        "count": 2
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "mi-12-tlaib": [
+      {
+        "committee": "C00882431",
+        "name": "EMPOWERING BLACK AMERICANS PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 10000,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "mn-5-omar": [
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 3699.64,
+        "count": 1
+      },
+      {
+        "committee": "C00738815",
+        "name": "TAKEACTION MN FEDERAL FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 48.18,
+        "count": 1
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 37.5,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "nv-4-horsford": [
+      {
+        "committee": "C00844530",
+        "name": "ROLLING SEA ACTION FUND",
+        "side": "support",
+        "stage": "general",
+        "total": 150000,
+        "count": 1
+      },
+      {
+        "committee": "C00285593",
+        "name": "WESTERN STATES REGIONAL COUNCIL OF CARPENTERS LEGISLATIVE IMPROVEMENT CMTE UNITED BROTHERHOOD OF CARPENTERS & JOINERS OF AMERICA",
+        "side": "support",
+        "stage": "general",
+        "total": 6062.99,
+        "count": 1
+      },
+      {
+        "committee": "C00955138",
+        "name": "BUILDING TOGETHER",
+        "side": "support",
+        "stage": "general",
+        "total": 226.23,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 159.33,
+        "count": 5
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "general",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "nj-1-norcross": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "nj-6-pallone": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "nj-9-pou": [
+      {
+        "committee": "C90020231",
+        "name": "THOMAS PAINE SOCIETY L.L.C.",
+        "side": "support",
+        "stage": "general",
+        "total": 10200,
+        "count": 5
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 236.01,
+        "count": 8
+      },
+      {
+        "committee": "C00955138",
+        "name": "BUILDING TOGETHER",
+        "side": "support",
+        "stage": "general",
+        "total": 77.99,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "nj-10-mciver": [
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 112.5,
+        "count": 2
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "nm-1-stansbury": [
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 53.34,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "nm-3-fernandez": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ny-6-meng": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ny-9-clarke": [
+      {
+        "committee": "C00923417",
+        "name": "THINK BIG",
+        "side": "support",
+        "stage": "primary",
+        "total": 289695.39,
+        "count": 5
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ny-14-ocasio-cortez": [
+      {
+        "committee": "C00878025",
+        "name": "MOMSRISING PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 6315.47,
+        "count": 2
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "ny-20-tonko": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "nc-4-foushee": [
+      {
+        "committee": "C00928374",
+        "name": "JOBS AND DEMOCRACY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 1621658.36,
+        "count": 6
+      },
+      {
+        "committee": "C00931774",
+        "name": "ARTICLE ONE PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 600000,
+        "count": 1
+      },
+      {
+        "committee": "C00630665",
+        "name": "JUSTICE DEMOCRATS PAC",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 218400,
+        "count": 4
+      },
+      {
+        "committee": "C00844530",
+        "name": "ROLLING SEA ACTION FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 150000,
+        "count": 2
+      },
+      {
+        "committee": "C00879080",
+        "name": "CITIZENS AGAINST AIPAC CORRUPTION",
+        "side": "oppose",
+        "stage": "primary",
+        "total": 23500,
+        "count": 3
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "nc-12-adams": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "oh-11-brown": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "or-4-hoyle": [
+      {
+        "committee": "C00921262",
+        "name": "SAFER STRONGER OREGON PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 300000,
+        "count": 1
+      },
+      {
+        "committee": "C00923417",
+        "name": "THINK BIG",
+        "side": "support",
+        "stage": "primary",
+        "total": 292418.65,
+        "count": 3
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 53.33,
+        "count": 1
+      }
+    ],
+    "or-6-salinas": [
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 243,
+        "count": 8
+      }
+    ],
+    "pa-2-boyle": [
+      {
+        "committee": "C00761064",
+        "name": "API PA VOTES",
+        "side": "support",
+        "stage": "general",
+        "total": 95.16,
+        "count": 1
+      },
+      {
+        "committee": "C00172361",
+        "name": "PENNSYLVANIA PRO-LIFE FEDERATION PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 22.94,
+        "count": 1
+      }
+    ],
+    "pa-4-dean": [
+      {
+        "committee": "C00761064",
+        "name": "API PA VOTES",
+        "side": "support",
+        "stage": "general",
+        "total": 95.16,
+        "count": 1
+      },
+      {
+        "committee": "C00172361",
+        "name": "PENNSYLVANIA PRO-LIFE FEDERATION PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 22.94,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "pa-5-scanlon": [
+      {
+        "committee": "C00761064",
+        "name": "API PA VOTES",
+        "side": "support",
+        "stage": "general",
+        "total": 95.16,
+        "count": 1
+      },
+      {
+        "committee": "C00172361",
+        "name": "PENNSYLVANIA PRO-LIFE FEDERATION PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 22.94,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "pa-12-lee": [
+      {
+        "committee": "C00606962",
+        "name": "WORKING FAMILIES PARTY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 13861.33,
+        "count": 5
+      },
+      {
+        "committee": "C00873877",
+        "name": "SOLIDARITY VICTORY PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 9168.75,
+        "count": 2
+      },
+      {
+        "committee": "C90022914",
+        "name": "STRAIGHT AHEAD ORGANIZATION",
+        "side": "support",
+        "stage": "primary",
+        "total": 3500,
+        "count": 3
+      },
+      {
+        "committee": "C00873877",
+        "name": "SOLIDARITY VICTORY PAC",
+        "side": "support",
+        "stage": "general",
+        "total": 2946.83,
+        "count": 4
+      },
+      {
+        "committee": "C00647966",
+        "name": "RURAL FREEDOM NETWORK",
+        "side": "support",
+        "stage": "general",
+        "total": 1417.22,
+        "count": 3
+      },
+      {
+        "committee": "C00761064",
+        "name": "API PA VOTES",
+        "side": "support",
+        "stage": "general",
+        "total": 95.16,
+        "count": 1
+      },
+      {
+        "committee": "C90020058",
+        "name": "RED WINE AND BLUE",
+        "side": "support",
+        "stage": "general",
+        "total": 69.09,
+        "count": 1
+      },
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 37.5,
+        "count": 1
+      },
+      {
+        "committee": "C00172361",
+        "name": "PENNSYLVANIA PRO-LIFE FEDERATION PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 22.94,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "pa-17-deluzio": [
+      {
+        "committee": "C00004036",
+        "name": "SEIU COPE (SERVICE EMPLOYEES INTERNATIONAL UNION COMMITTEE ON POLITICAL EDUCATION)",
+        "side": "support",
+        "stage": "general",
+        "total": 12237.09,
+        "count": 2
+      },
+      {
+        "committee": "C00761064",
+        "name": "API PA VOTES",
+        "side": "support",
+        "stage": "general",
+        "total": 1140.68,
+        "count": 20
+      },
+      {
+        "committee": "C00882381",
+        "name": "PEOPLE POWER PENNSYLVANIA",
+        "side": "support",
+        "stage": "general",
+        "total": 498.56,
+        "count": 19
+      },
+      {
+        "committee": "C90020058",
+        "name": "RED WINE AND BLUE",
+        "side": "support",
+        "stage": "general",
+        "total": 149.52,
+        "count": 2
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 106.66,
+        "count": 2
+      },
+      {
+        "committee": "C00172361",
+        "name": "PENNSYLVANIA PRO-LIFE FEDERATION PAC",
+        "side": "oppose",
+        "stage": "general",
+        "total": 22.94,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "tx-18-menefee": [
+      {
+        "committee": "C00848440",
+        "name": "PROTECT PROGRESS",
+        "side": "support",
+        "stage": "primary",
+        "total": 6471279.97,
+        "count": 28
+      },
+      {
+        "committee": "C00843110",
+        "name": "LEADERS WE DESERVE",
+        "side": "support",
+        "stage": "primary",
+        "total": 286584.18,
+        "count": 19
+      },
+      {
+        "committee": "C00871368",
+        "name": "PROJECT 218",
+        "side": "support",
+        "stage": "primary",
+        "total": 199999.87,
+        "count": 3
+      },
+      {
+        "committee": "C00513176",
+        "name": "CONGRESSIONAL PROGRESSIVE CAUCUS PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 100000,
+        "count": 1
+      },
+      {
+        "committee": "C00756940",
+        "name": "TEXAS ORGANIZING PROJECT POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "general",
+        "total": 41105.44,
+        "count": 7
+      },
+      {
+        "committee": "C00756940",
+        "name": "TEXAS ORGANIZING PROJECT POLITICAL ACTION COMMITTEE",
+        "side": "support",
+        "stage": "primary",
+        "total": 7771.94,
+        "count": 13
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "tx-37-casar": [
+      {
+        "committee": "C00776419",
+        "name": "THE PEOPLE UNITED PAC",
+        "side": "support",
+        "stage": "primary",
+        "total": 37.5,
+        "count": 1
+      }
+    ],
+    "vt-al-balint": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "wa-6-randall": [
+      {
+        "committee": "C90019514",
+        "name": "FUSE WASHINGTON",
+        "side": "support",
+        "stage": "general",
+        "total": 395.76,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      },
+      {
+        "committee": "C00802389",
+        "name": "GIVEGREEN UNITED ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "wa-7-jayapal": [
+      {
+        "committee": "C90019514",
+        "name": "FUSE WASHINGTON",
+        "side": "support",
+        "stage": "general",
+        "total": 339.22,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "wa-9-smith": [
+      {
+        "committee": "C90019514",
+        "name": "FUSE WASHINGTON",
+        "side": "support",
+        "stage": "general",
+        "total": 367.49,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "wi-2-pocan": [
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ],
+    "wi-4-moore": [
+      {
+        "committee": "C00844530",
+        "name": "ROLLING SEA ACTION FUND",
+        "side": "support",
+        "stage": "primary",
+        "total": 25000,
+        "count": 1
+      },
+      {
+        "committee": "C00626036",
+        "name": "GRASSROOTS NORTH SHORE",
+        "side": "support",
+        "stage": "general",
+        "total": 122.33,
+        "count": 6
+      },
+      {
+        "committee": "C00626036",
+        "name": "GRASSROOTS NORTH SHORE",
+        "side": "support",
+        "stage": "primary",
+        "total": 32.56,
+        "count": 1
+      },
+      {
+        "committee": "C00483693",
+        "name": "SIERRA CLUB INDEPENDENT ACTION",
+        "side": "support",
+        "stage": "primary",
+        "total": 10,
+        "count": 1
+      }
+    ]
+  }
+}

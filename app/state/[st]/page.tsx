@@ -37,9 +37,9 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
     <>
       <header className="page-header">
         <Link href="/#states" className="crumb">All states</Link>
-        <h1><span className="ink">{state.name}</span></h1>
+        <h1><span className="jd-ink">{state.name}</span></h1>
         {house.length > 0 && (
-          <p className="meta">
+          <p className="jd-meta">
             {house.length} progressive House {house.length === 1 ? "listing" : "listings"} across {state.seats}{" "}
             {state.seats === 1 ? "seat" : "seats"}.
           </p>
@@ -59,28 +59,29 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
         <section className="section" aria-labelledby="house-title">
           <h2 id="house-title">House</h2>
           <MemberList members={house} />
-          <p className="note">Several states redrew their district maps for 2026.</p>
+          <p className="jd-note">Several states redrew their district maps for 2026.</p>
         </section>
       )}
 
       {statePublicationVersion && governors.length > 0 && (
         <section className="section" aria-labelledby="governor-title">
           <h2 id="governor-title">Governor</h2>
-          <ul className="roster">{governors.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
+          <ul className="roster jd-ruled">{governors.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
         </section>
       )}
       {statePublicationVersion && legislators.length > 0 && (
         <section className="section" aria-labelledby="legislature-title">
           <h2 id="legislature-title">State legislature</h2>
-          <ul className="roster">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
+          <ul className="roster jd-ruled">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
         </section>
       )}
+      {statePublicationVersion && races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><ul className="roster jd-ruled">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)} · Not called</span></li>)}</ul></section>}
 
       {statePublicationVersion && gaps.length > 0 && (
         <section className="section" aria-labelledby="gaps-title">
           <h2 id="gaps-title">Not fully checked</h2>
           <p className="note">State-office endorsements from these groups may be missing here.</p>
-          <ul className="roster">{gaps.map((c) => <li key={c.group_code}>{GROUP_NAMES[c.group_code]}<span className="roster-seat">{c.status === "blocked" ? "Some sources could not be checked." : "Not yet researched."} As of {formatChecked(c.checked_at)}.</span></li>)}</ul>
+          <ul className="roster jd-ruled">{gaps.map((c) => <li key={c.group_code}>{GROUP_NAMES[c.group_code]}<span className="roster-seat jd-secondary">{c.status === "blocked" ? "Some sources could not be checked." : "Not yet researched."} As of {formatChecked(c.checked_at)}.</span></li>)}</ul>
         </section>
       )}
 
@@ -88,7 +89,7 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
         <section className="section" aria-labelledby="oppose-title">
           <h2 id="oppose-title">Oppose Republicans here</h2>
           <ActionList actions={OPPOSE} />
-          <p className="note">
+          <p className="jd-note">
             Or back a progressive in another state: <Link href="/members">all members</Link>.
           </p>
         </section>

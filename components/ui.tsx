@@ -17,15 +17,15 @@ export function StatusBadge({ status }: { status: Status }) {
 
 export function MemberList({ members }: { members: Member[] }) {
   return (
-    <ul className="member-list">
+    <ul className="member-list jd-ruled jd-ruled--closed">
       {members.map((m) => (
         <li key={m.id}>
           <Link href={`/member/${m.id}`} className="member-row">
             <span className="member-name">{m.name}</span>
-            <span className="member-seat">
+            <span className="member-seat jd-muted">
               {seatLabel(m)} <StatusBadge status={m.status} />
             </span>
-            <span className="member-groups">{m.endorsedBy.map((c) => getGroup(c).name).join(" · ")}</span>
+            <span className="member-groups jd-muted">{m.endorsedBy.map((c) => getGroup(c).name).join(" · ")}</span>
           </Link>
         </li>
       ))}
@@ -35,13 +35,13 @@ export function MemberList({ members }: { members: Member[] }) {
 
 export function ActionList({ actions }: { actions: Action[] }) {
   return (
-    <ul className="action-list">
+    <ul className="action-list jd-ruled jd-ruled--closed">
       {actions.map((a) => (
         <li key={a.href + a.label}>
           <a href={a.href} target="_blank" rel="noopener noreferrer" className="action-link">
             {a.label} ↗
           </a>
-          {a.detail && <span className="action-detail">{a.detail}</span>}
+          {a.detail && <span className="action-detail jd-muted">{a.detail}</span>}
         </li>
       ))}
     </ul>

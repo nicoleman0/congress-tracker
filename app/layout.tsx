@@ -11,6 +11,7 @@ import { lastChecked, searchEntries } from "@/lib/data";
 import { formatChecked } from "@/lib/freshness";
 import { REPO_URL, SITE_NAME } from "@/lib/site";
 import { statePublicationReviewedAt, statePublicationVersion } from "@/lib/state-offices";
+import "jackdaw/index.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export const viewport: Viewport = { themeColor: "#eef0f9" };
 const NAV = [
   { href: "/#states", label: "states" },
   { href: "/members", label: "members" },
+  { href: "/data", label: "by the numbers" },
   { href: "/method", label: "how we pick" },
 ];
 

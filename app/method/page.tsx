@@ -7,7 +7,7 @@ export default function Method() {
   return (
     <>
       <header className="page-header">
-        <h1><span className="ink">How we pick</span></h1>
+        <h1><span className="jd-ink">How we pick</span></h1>
       </header>
 
       <section className="section" aria-labelledby="who-title">
@@ -21,7 +21,7 @@ export default function Method() {
             </li>
           ))}
         </ul>
-        <p className="note">We don&apos;t add anyone by judgment.</p>
+        <p className="jd-note">We don&apos;t add anyone by judgment.</p>
       </section>
 
       {statePublicationVersion && <section className="section" aria-labelledby="state-title">
@@ -40,7 +40,7 @@ export default function Method() {
           <li><b>Incumbent</b>: a current caucus member whose seat was not on the 2026 ballot.</li>
           <li><b>Lost</b>: another candidate was projected the winner.</li>
         </ul>
-        <p className="note">Unresolved races are rechecked daily against NBC News.</p>
+        <p className="jd-note">Unresolved races are rechecked daily against NBC News.</p>
       </section>
 
       <section className="section" aria-labelledby="links-title">
@@ -59,6 +59,17 @@ export default function Method() {
         <p>
           Entries marked Record are sponsorships or cosponsorships of a few benchmark bills, taken from Congress.gov
           and rebuilt weekly. A missing issue means we found nothing on it, not that the member opposes it.
+        </p>
+      </section>
+
+      <section className="section" aria-labelledby="money-method-title">
+        <h2 id="money-method-title">Outside money</h2>
+        <p>
+          Outside money is independent expenditures: spending for or against a candidate by a group that doesn&apos;t
+          coordinate with the campaign. We take it from FEC filings for each member&apos;s candidate id, and rebuild it weekly.
+          We count regular reports only, leave out memo lines, and check our sums against the FEC&apos;s own totals.
+          The 24- and 48-hour notices filed before an election repeat what later reports contain, so we skip them.
+          That means the newest spending appears a few weeks late.
         </p>
       </section>
 

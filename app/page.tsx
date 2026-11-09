@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-id hero-id--home">
-          <div className="hero-card">
+          <div className="hero-card jd-paper-sheet">
             <h1 id="hero-title" className="hero-role">{statePublicationVersion ? "Progressives in Congress and state offices" : "The progressives in Congress"}</h1>
             <p className="hero-detail">{statePublicationVersion ? `${total} in Congress · ${stateTotal} state office listings` : `${total} listed`}</p>
             <a className="hero-action" href="#states">Find your state</a>
@@ -29,7 +29,7 @@ export default function Home() {
       </section>
 
       <section className="section" id="new-class" aria-labelledby="new-class-title">
-        <h2 id="new-class-title" className="section-title"><span className="ink">The new class</span></h2>
+        <h2 id="new-class-title" className="section-title"><span className="jd-ink">The new class</span></h2>
         <p className="section-intro">Won or leading on November 3, 2026. Sworn in January 3, 2027.</p>
         <h3 className="subhead">Senate</h3>
         <MemberList members={senate} />
@@ -38,14 +38,14 @@ export default function Home() {
       </section>
 
       <section className="section" id="states" aria-labelledby="states-title">
-        <h2 id="states-title" className="section-title"><span className="ink">Browse by state</span></h2>
-        <ul className="state-grid">
+        <h2 id="states-title" className="section-title"><span className="jd-ink">Browse by state</span></h2>
+        <ul className="state-grid jd-ruled">
           {STATES.map((s) => {
             const n = membersIn(s.code).length + stateMembers().filter((m) => m.state === s.code).length;
             return (
               <li key={s.code}>
                 <Link href={`/state/${s.code.toLowerCase()}`} className={n ? undefined : "state-none"}>{s.name}</Link>
-                {n > 0 && <span className="state-count">{n}</span>}
+                {n > 0 && <span className="state-count jd-secondary">{n}</span>}
               </li>
             );
           })}
