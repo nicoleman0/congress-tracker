@@ -101,12 +101,19 @@ async function main() {
       const saved = savedCopy(url);
       if (saved !== null) { pages.set(url, saved); continue; }
       const host = new URL(url).host;
-      const wait = (lastHit.get(host) ?? 0) + 1500 - Date.now();
+      // Ballotpedia rate-limits after a few dozen quick requests.
+      const wait = (lastHit.get(host) ?? 0) + (host === "ballotpedia.org" ? 5000 : 1500) - Date.now();
       if (wait > 0) await new Promise((r) => setTimeout(r, wait));
       pages.set(url, await fetchPage(url));
       lastHit.set(host, Date.now());
     }
-    const results = cites.map((x) => ({ ...x, result: x.c.excerpt ? judge(pages.get(x.c.url) ?? null, x.c.excerpt) : "no excerpt" }));
+    // A bot-check page can't confirm or refute an excerpt; report it as unreachable, not drifted.
+    const blocked = (page: string | null | undefined) => !!page && page.length < 50_000 && /captcha|challenge|just a moment/i.test(page);
+    const results = cites.map((x) => {
+      const page = pages.get(x.c.url) ?? null;
+      const result = !x.c.excerpt ? "no excerpt" : judge(page, x.c.excerpt);
+      return { ...x, result: result === "drifted" && blocked(page) ? "unreachable" : result };
+    });
     const count = (r: string) => results.filter((x) => x.result === r).length;
     console.log(`\n${file}: ${r.endorsements.length} endorsements, ${cites.length} citations`);
     console.log(`  confirmed ${count("confirmed")} · drifted ${count("drifted")} · unreachable ${count("unreachable")} · no excerpt ${count("no excerpt")}`);
