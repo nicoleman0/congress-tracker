@@ -83,7 +83,10 @@ export const stateListings = () => {
   const all = stateMembers(), key = (m: StateMember) => `${m.id}|${m.seat.id}`;
   const serving = new Set(all.filter((m) => m.term.status === "serving").map(key));
   return all.filter((m) => !(m.term.status === "incoming" && serving.has(key(m))))
-    .map((m) => ({ ...m, reelected: m.term.status === "serving" && all.some((o) => o.term.status === "incoming" && key(o) === key(m)) }));
+    .map((m) => ({ ...m, reelected: m.term.status === "serving" && all.some((o) => o.term.status === "incoming" && key(o) === key(m)) }))
+    .sort((a, b) => stateCodes.indexOf(a.state) - stateCodes.indexOf(b.state) || offices.indexOf(a.seat.office) - offices.indexOf(b.seat.office)
+      || (a.seat.district ?? "").localeCompare(b.seat.district ?? "", "en", { numeric: true }) || a.name.localeCompare(b.name));
 };
+const offices = ["governor", "upper", "lower", "unicameral"];
 export const stateStatusNote = (m: StateMember & { reelected: boolean }) => (m.reelected ? " · Re-elected" : m.term.status === "incoming" ? " · Incoming" : "");
 export const stateSeatLabel = (m: StateMember) => `${m.state} ${m.seat.chamber === "House of Representatives" ? "House" : m.seat.chamber}${m.seat.district ? ` · District ${m.seat.district}` : ""}${m.seat.seat_label ? ` · ${m.seat.seat_label}` : ""}`;
