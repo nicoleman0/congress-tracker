@@ -1,0 +1,1964 @@
+{
+  "state": "CA",
+  "researched_at": "2026-11-09",
+  "chambers": {
+    "upper": "Senate",
+    "lower": "Assembly"
+  },
+  "endorsements": [
+    {
+      "person": "Aisha Wahab",
+      "office": "upper",
+      "district": "10",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Aisha Wahab Senate District 10"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/60-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-12-05",
+        "term_end": "2026-12-06",
+        "service_source": {
+          "url": "https://localnewsmatters.org/2026/09/04/wahabs-move-to-congress-leaves-state-senate-seat-vacant-until-november-election/",
+          "excerpt": "Now that former California state senator Aisha Wahab, D-Hayward, is officially a member of Congress, her state office will remain empty until after the November general election"
+        },
+        "contact_url": null
+      },
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 general (district 10): Aisha Wahab (DEM) 114,997 votes, 53.7%; Lily Mei (DEM) 99,011 votes, 46.3%; primary: Lily Mei (DEM) 47,149 votes, 33.1%; Aisha Wahab (DEM) 42,731 votes, 30.0%; Paul J Pimentel (REP) 30,742 votes, 21.6% (top 3 of 6). Left the Senate mid-term for Congress: won the CA-14 special election on 2026-08-18 and was sworn in 2026-09-02 (Bay City News via Local News Matters, 2026-09-04); SD 10 is vacant. Not in the Open States roster. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Sara Aminzadeh",
+      "office": "lower",
+      "district": "12",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Sara Aminzadeh Assembly District 12"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 general (district 12): Damon Connolly (DEM) 92,287 votes, 51.8%; Sara Aminzadeh (DEM) 85,900 votes, 48.2%; primary: Damon Connolly (DEM) 42,950 votes, 37.1%; Sara Aminzadeh (DEM) 41,934 votes, 36.2%; Steve Schwartz (DEM) 16,612 votes, 14.3% (top 3 of 5)."
+    },
+    {
+      "person": "Jennifer Esteen",
+      "office": "lower",
+      "district": "20",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Jennifer Esteen Assembly District 20"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/104-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 primary, district 20: Liz Ortega (DEM) 23,503 votes, 32.2%; Shawn Kumagai (DEM) 17,481 votes, 23.9%; Jennifer Esteen (DEM) 16,211 votes, 22.2% (top 3 of 4). Not in the general election top two."
+    },
+    {
+      "person": "James Coleman",
+      "office": "lower",
+      "district": "21",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "James Coleman Assembly District 21"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/104-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 primary, district 21: Diane Papan (DEM) 40,434 votes, 41.3%; Giselle Hale (DEM) 19,400 votes, 19.8%; Mark Gilham (REP) 19,078 votes, 19.5% (top 3 of 7). Not in the general election top two."
+    },
+    {
+      "person": "Alex Lee",
+      "office": "lower",
+      "district": "24",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Alex Lee Assembly District 24"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-12-05",
+        "term_end": "2024-12-01",
+        "service_source": {
+          "url": "https://www.legalfina.com/en/laws/ca/california_constitution/legislative",
+          "excerpt": "The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election."
+        },
+        "contact_url": null
+      },
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 general (district 24): Alex Lee (DEM) 75,232 votes, 69.1%; Bob Brunton (REP) 33,662 votes, 30.9%; primary: Alex Lee (DEM) 26,531 votes, 38.5%; Bob Brunton (REP) 14,730 votes, 21.4%; Kansen Chu (DEM) 12,683 votes, 18.4% (top 3 of 5). Term won in 2022 ended 2024-12-01. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Ash Kalra",
+      "office": "lower",
+      "district": "25",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Ash Kalra Assembly District 25"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-12-05",
+        "term_end": "2024-12-01",
+        "service_source": {
+          "url": "https://www.legalfina.com/en/laws/ca/california_constitution/legislative",
+          "excerpt": "The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election."
+        },
+        "contact_url": null
+      },
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 general (district 25): Ash Kalra (DEM) 74,546 votes, 70.0%; Ted Stroll (REP) 31,893 votes, 30.0%; primary: Ash Kalra (DEM) 47,942 votes, 71.5%; Ted Stroll (REP) 19,123 votes, 28.5%. Term won in 2022 ended 2024-12-01. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Bryan Osorio",
+      "office": "upper",
+      "district": "16",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Bryan Osorio Senate District 16"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/99-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 primary, district 16: David Shepard (REP) 32,579 votes, 43.4%; Melissa Hurtado (DEM) 22,162 votes, 29.5%; Nicole Parra (DEM) 9,921 votes, 13.2% (top 3 of 5). Not in the general election top two."
+    },
+    {
+      "person": "Lola Smallwood-Cuevas",
+      "office": "upper",
+      "district": "28",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Lola Smallwood-Cuevas Senate District 28"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/60-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2022-12-05",
+        "term_end": "2026-12-06",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ca.csv",
+          "excerpt": "Lola Smallwood-Cuevas"
+        },
+        "contact_url": "https://sd28.senate.ca.gov/"
+      },
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 general (district 28): Lola Smallwood-Cuevas (DEM) 117,315 votes, 59.9%; Cheryl C. Turner (DEM) 78,453 votes, 40.1%; primary: Lola Smallwood-Cuevas (DEM) 63,211 votes, 44.8%; Cheryl C. Turner (DEM) 42,728 votes, 30.3%; Joe Lisuzzo (REP) 20,785 votes, 14.7% (top 3 of 5). Open States current roster lists Lola Smallwood-Cuevas for Senate district 28. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Caroline Menjivar",
+      "office": "upper",
+      "district": "20",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Caroline Menjivar Senate District 20"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/60-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2022-12-05",
+        "term_end": "2026-12-06",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ca.csv",
+          "excerpt": "Caroline Menjivar"
+        },
+        "contact_url": "https://sd20.senate.ca.gov/"
+      },
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 general (district 20): Caroline Menjivar (DEM) 88,358 votes, 58.5%; Daniel Hertzberg (DEM) 62,787 votes, 41.5%; primary: Daniel Hertzberg (DEM) 33,449 votes, 30.8%; Caroline Menjivar (DEM) 32,302 votes, 29.8%; Ely De La Cruz Ayao (REP) 27,713 votes, 25.5% (top 3 of 4). Open States current roster lists Caroline Menjivar for Senate district 20. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Elizabeth Alcantar",
+      "office": "lower",
+      "district": "64",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Elizabeth Alcantar Assembly District 64"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/104-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 primary, district 64: Raul Ortiz, Jr. (REP) 18,048 votes, 33.0%; Blanca Pacheco (DEM) 12,640 votes, 23.1%; Elizabeth Alcantar (DEM) 9,558 votes, 17.5% (top 3 of 6). Not in the general election top two."
+    },
+    {
+      "person": "Fatima Iqbal-Zubair",
+      "office": "lower",
+      "district": "65",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Fatima Iqbal-Zubair Assembly District 65"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 general (district 65): Mike Anthony Gipson (DEM) 43,118 votes, 61.7%; Fatima Iqbal-Zubair (DEM) 26,719 votes, 38.3%; primary: Mike Anthony Gipson (DEM) 28,801 votes, 68.0%; Fatima Iqbal-Zubair (DEM) 13,162 votes, 31.1%; Lydia Gutierrez (REP (W/I)) 414 votes, 1.0%."
+    },
+    {
+      "person": "Corey Jackson",
+      "office": "lower",
+      "district": "60",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Corey Jackson Assembly District 60"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-12-05",
+        "term_end": "2024-12-01",
+        "service_source": {
+          "url": "https://www.legalfina.com/en/laws/ca/california_constitution/legislative",
+          "excerpt": "The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election."
+        },
+        "contact_url": null
+      },
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 general (district 60): Corey A Jackson (DEM) 39,260 votes, 54.7%; Hector Diaz-Nava (REP) 32,574 votes, 45.3%; primary: Hector Diaz-Nava (REP) 16,518 votes, 39.9%; Corey A Jackson (DEM) 11,158 votes, 27.0%; Esther Portillo (DEM) 8,219 votes, 19.9% (top 3 of 4). Term won in 2022 ended 2024-12-01. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Bulmaro Vicente",
+      "office": "lower",
+      "district": "68",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Bulmaro Vicente Assembly District 68"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/104-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 primary, district 68: Avelino Valencia (DEM) 22,635 votes, 48.3%; Mike Tardif (REP) 11,034 votes, 23.5%; Bulmaro \"Boomer\" Vicente (DEM) 7,029 votes, 15.0% (top 3 of 4). Not in the general election top two."
+    },
+    {
+      "person": "Georgette Gomez",
+      "office": "lower",
+      "district": "80",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Georgette Gomez Assembly District 80"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "WFP 'California Squad' page; the press release of 2022-03-18 (https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/) announced the slate before the 2022-06-07 primary. District as stated by WFP; SOV district is used for the result. Result: 2022 general (district 80): David Alvarez (DEM) 67,309 votes, 69.3%; Georgette Gómez (DEM) 29,869 votes, 30.7%; primary: Georgette Gómez (DEM) 25,308 votes, 36.4%; David Alvarez (DEM) 21,548 votes, 31.0%; John Vogel Garcia (REP) 14,162 votes, 20.3% (top 3 of 4)."
+    },
+    {
+      "person": "Tina McKinnor",
+      "office": "lower",
+      "district": "62",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2022,
+        "stage": "special"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/california-squad/",
+        "excerpt": "Tina McKinnor Assembly District 62"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/11-ad62-general-official-canvass.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": null,
+        "term_end": "2022-12-04",
+        "service_source": {
+          "url": "https://www.legalfina.com/en/laws/ca/california_constitution/legislative",
+          "excerpt": "The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election."
+        },
+        "contact_url": null
+      },
+      "notes": "WFP press release 2022-03-18: 'in the 62nd Assembly District special election, the party endorsed Tina McKinnor'. Her regular 2022 election (AD 61) is not listed as a separate WFP endorsement in these pages. Result: AD 62 special general, 2022-06-07 (official canvass): Tina Simone McKinnor (DEM) 31,348 (52.5%); Robert Pullen-Miles (DEM) 28,359 (47.5%). Special primary 2022-04-05: https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/10-ad62-primary-official-canvass.pdf. Vacancy from the resignation of Autumn Burke. Won the AD 62 special election; that term ended before the 2022-12-05 start of the next term (term_end computed; swearing-in date for the special term not sourced, term_start left null). Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Jovanka Beckles",
+      "office": "upper",
+      "district": "7",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ballotpedia.org/Endorsements_by_California_Working_Families_Party",
+        "excerpt": "Jovanka Beckles source (D) California State Senate District 7 (2024)"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/37-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Source is Ballotpedia's list of endorsements by the California WFP, not a WFP page; no date, so stage is general. No 2024 California legislative slate page was found on workingfamilies.org (see gaps). Result: 2024 general (district 7): Jesse Arreguín (DEM) 199,423 votes, 57.2%; Jovanka Beckles (DEM) 149,415 votes, 42.8%; primary: Jesse Arreguín (DEM) 61,892 votes, 32.1%; Jovanka Beckles (DEM) 34,085 votes, 17.7%; Dan Kalb (DEM) 28,881 votes, 15.0% (top 3 of 6)."
+    },
+    {
+      "person": "Alex Mohajer",
+      "office": "upper",
+      "district": "37",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://alexmohajer.com/progressive-change-campaign-committee-endorses-alex-mohajer-for-california-state-senate-district-37/",
+        "excerpt": "Mohajer has earned endorsements from CA Working Families Party, Our Revolution, Climate Action California, and others."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/92-state-senators-formatted.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Campaign-hosted claim (page dated 2024-02-12, before the 2024-03-05 primary); no WFP page found. Result: 2024 primary, district 37: Josh Newman (DEM) 67,109 votes, 43.6%; Steven \"Steve\" Choi (REP) 48,364 votes, 31.5%; Alex Mohajer (DEM) 18,550 votes, 12.1% (top 3 of 8). Not in the general election top two."
+    },
+    {
+      "person": "Chris Rogers",
+      "office": "lower",
+      "district": "2",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Chris Rogers State Assembly, District 2"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 2: Chris Rogers (DEM) 107,900 votes, 69.7%; Michael Greer (REP) 46,846 votes, 30.3%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Jackie Elward",
+      "office": "lower",
+      "district": "12",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Jackie Elward State Assembly, District 12"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 12: Eric Lucan (DEM) 45,350 votes, 28.3%; Jackie Elward (DEM) 36,196 votes, 22.6%; Eryn Cervantes (REP) 31,106 votes, 19.4% (top 3 of 6). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Liz Ortega",
+      "office": "lower",
+      "district": "20",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Liz Ortega State Assembly, District 20"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 20: Liz Ortega (DEM) 76,306 votes, 75.1%; Patricia Muga (REP) 25,262 votes, 24.9%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Alex Lee",
+      "office": "lower",
+      "district": "24",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Alex Lee State Assembly, District 24"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 24: Alex Lee (DEM) 55,856 votes, 65.4%; Max Hsia (REP) 21,339 votes, 25.0%; Yang Shao (NPP) 8,233 votes, 9.6%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Ash Kalra",
+      "office": "lower",
+      "district": "25",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Ash Kalra State Assembly, District 25"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 25: Ash Kalra (DEM) 56,052 votes, 72.2%; Himat Singh Bainiwal (REP) 21,609 votes, 27.8%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Damon Connolly",
+      "office": "upper",
+      "district": "2",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Damon Connolly State Senate, District 12"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). WFP lists 'State Senate, District 12'; the Statement of Vote shows Connolly in Senate District 2, which the district field uses (WFP's number looks like a typo; confirm with WFP). Endorser lists district 12; the Statement of Vote has the candidate in district 2, used here. Result: Advanced from the 2026 primary, district 2: Damon Connolly (DEM) 232,240 votes, 73.4%; Tief Gibbs (REP) 51,149 votes, 16.2%; Aaron Smith (REP) 33,112 votes, 10.5%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Sean Frame",
+      "office": "upper",
+      "district": "6",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Sean Frame State Senate, Distrcit 6"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 6: Roger Niello (REP) 160,336 votes, 56.2%; Sean Frame (DEM) 81,323 votes, 28.5%; Sara Velasco (DEM) 43,708 votes, 15.3%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Leila Namvar",
+      "office": "lower",
+      "district": "47",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Leila Namvar Sate Assembly, District 47"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 47: Greg Wallis (REP) 68,831 votes, 48.1%; Leila Namvar (DEM) 46,256 votes, 32.3%; Jason Byors (DEM) 27,915 votes, 19.5%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Clarissa Cervantes",
+      "office": "lower",
+      "district": "58",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Clarissa Cervantes State Assembly, District 58"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 58: Clarissa Cervantes (DEM) 45,598 votes, 54.5%; Leticia Castillo (REP) 38,002 votes, 45.5%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Corey Jackson",
+      "office": "lower",
+      "district": "60",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Corey Jackson State Assembly, District 60"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 60: Corey A Jackson (DEM) 40,189 votes, 59.8%; Ed Delgado (REP) 16,898 votes, 25.1%; Ron Edwards (REP) 10,119 votes, 15.1%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Nick Schultz",
+      "office": "lower",
+      "district": "44",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Nick Schultz State Assembly, District 44"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 44: Nicholas \"Nick\" Schultz (DEM) 97,191 votes, 71.2%; Carolyn Daniels (REP) 28,269 votes, 20.7%; Charlotte Gerry (REP) 11,094 votes, 8.1%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Isaac Bryan",
+      "office": "lower",
+      "district": "55",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Isaac Bryan State Assembly, District 55"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 55: Isaac G. Bryan (DEM) 79,396 votes, 64.6%; Ashley M. Brown (DEM) 23,242 votes, 18.9%; Keith G. Cascio (REP) 18,847 votes, 15.3% (top 3 of 4). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Sade Elhawary",
+      "office": "lower",
+      "district": "57",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Sade Elhawary State Assembly, District 57"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 57: Sade Elhawary (DEM) 40,160 votes, 85.7%; Constance Jewel Menzies (REP) 6,701 votes, 14.3%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Tina McKinnor",
+      "office": "lower",
+      "district": "61",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Tina McKinnor State Assembly, District 61"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 61: Tina Simone McKinnor (DEM) 79,047 votes, 98.6%; Brian Lockwood (REP (W/I)) 1,104 votes, 1.4%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Caroline Menjivar",
+      "office": "upper",
+      "district": "20",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Caroline Menjivar State Senate, District 20"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 20: Caroline Menjivar (DEM) 97,191 votes, 62.0%; Tony Rodriguez (REP) 43,622 votes, 27.8%; Roberto David LaCarra (DEM) 15,832 votes, 10.1%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "John Erickson",
+      "office": "upper",
+      "district": "24",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "John Erickson State Senate, District 24"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 24: John M. Erickson (DEM) 62,397 votes, 30.5%; Brian Goldsmith (DEM) 55,627 votes, 27.2%; Sion Roy (DEM) 41,956 votes, 20.5% (top 3 of 7). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Sarah Rascón",
+      "office": "upper",
+      "district": "26",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Sarah Rascón State Senate, District 26"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 26: Sara Hernandez (DEM) 54,799 votes, 33.1%; Sarah Rascón (DEM) 34,158 votes, 20.6%; Wendy Carrillo (DEM) 24,111 votes, 14.6% (top 3 of 7). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Lola Smallwood-Cuevas",
+      "office": "upper",
+      "district": "28",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Lola Smallwood-Cuevas State Senate, District 28"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 28: Lola Smallwood-Cuevas (DEM) 151,178 votes, 77.5%; Joe Lisuzzo (REP) 31,606 votes, 16.2%; Daphne D. Bradford (NPP) 12,265 votes, 6.3%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Jessie Lopez",
+      "office": "lower",
+      "district": "68",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Jessie Lopez State Assembly, District 68"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 68: David Penaloza (DEM) 23,305 votes, 32.5%; Jessie Lopez (DEM) 22,504 votes, 31.4%; Mayra Ruiz (REP) 21,047 votes, 29.4% (top 3 of 4). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Chris Kluwe",
+      "office": "lower",
+      "district": "72",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Chris Kluwe State Assembly, District 72"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 72: Chris Kluwe (DEM) 70,530 votes, 43.8%; Gracey Van Der Mark (REP) 60,688 votes, 37.7%; Matthew Harper (REP) 26,435 votes, 16.4% (top 3 of 4). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Lashae Sharp-Collins",
+      "office": "lower",
+      "district": "79",
+      "issuer": "California Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/california/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Lashae Sharp-Collins State Assembly, District 79"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "WFP 2026 candidates list (saved copy research_notes/national/wfp-2026-candidates.tsv, fetched 2026-11-08); the list is undated, so stage is general. Office text copied as listed (verbatim, including WFP's typos). Result: Advanced from the 2026 primary, district 79: LaShae Sharp-Collins (DEM) 55,472 votes, 64.7%; Andrew Lawson (REP) 30,320 votes, 35.3%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Sean Frame",
+      "office": "upper",
+      "district": "6",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/ca-house-senate/",
+        "excerpt": "Sean Frame — State Senate District 6"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Our Revolution national page 'CA HOUSE & SENATE', published 2026-05-02 (before the 2026-06-02 primary). Page intro: 'Our Revolution is proud to support a powerful slate of candidates for the California State Assembly and Senate'. Result: Advanced from the 2026 primary, district 6: Roger Niello (REP) 160,336 votes, 56.2%; Sean Frame (DEM) 81,323 votes, 28.5%; Sara Velasco (DEM) 43,708 votes, 15.3%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Fatima Iqbal-Zubair",
+      "office": "lower",
+      "district": "65",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/ca-house-senate/",
+        "excerpt": "Fatima Iqbal-Zubair — Assembly District 65"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Our Revolution national page 'CA HOUSE & SENATE', published 2026-05-02 (before the 2026-06-02 primary). Page intro: 'Our Revolution is proud to support a powerful slate of candidates for the California State Assembly and Senate'. Result: 2026 primary (June 2, 2026), district 65, top-two: Ayanna Davis (DEM) 33,514 votes, 46.3%; Lydia A. Gutiérrez (REP) 13,940 votes, 19.2%; Fatima Iqbal-Zubair (DEM) 13,123 votes, 18.1% (top 3 of 6). Did not advance."
+    },
+    {
+      "person": "Jackie Elward",
+      "office": "lower",
+      "district": "12",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/ca-house-senate/",
+        "excerpt": "Jackie Elward — Assembly District 12"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Our Revolution national page 'CA HOUSE & SENATE', published 2026-05-02 (before the 2026-06-02 primary). Page intro: 'Our Revolution is proud to support a powerful slate of candidates for the California State Assembly and Senate'. Result: Advanced from the 2026 primary, district 12: Eric Lucan (DEM) 45,350 votes, 28.3%; Jackie Elward (DEM) 36,196 votes, 22.6%; Eryn Cervantes (REP) 31,106 votes, 19.4% (top 3 of 6). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Chris Kluwe",
+      "office": "lower",
+      "district": "72",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/ca-house-senate/",
+        "excerpt": "Chris Kluwe — Assembly District 72"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Our Revolution national page 'CA HOUSE & SENATE', published 2026-05-02 (before the 2026-06-02 primary). Page intro: 'Our Revolution is proud to support a powerful slate of candidates for the California State Assembly and Senate'. Result: Advanced from the 2026 primary, district 72: Chris Kluwe (DEM) 70,530 votes, 43.8%; Gracey Van Der Mark (REP) 60,688 votes, 37.7%; Matthew Harper (REP) 26,435 votes, 16.4% (top 3 of 4). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Liz Ortega",
+      "office": "lower",
+      "district": "20",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/ca-house-senate/",
+        "excerpt": "Liz Ortega — Assembly District 20"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Our Revolution national page 'CA HOUSE & SENATE', published 2026-05-02 (before the 2026-06-02 primary). Page intro: 'Our Revolution is proud to support a powerful slate of candidates for the California State Assembly and Senate'. Result: Advanced from the 2026 primary, district 20: Liz Ortega (DEM) 76,306 votes, 75.1%; Patricia Muga (REP) 25,262 votes, 24.9%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Alex Lee",
+      "office": "lower",
+      "district": "24",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/ca-house-senate/",
+        "excerpt": "Alex Lee — Assembly District 24"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Our Revolution national page 'CA HOUSE & SENATE', published 2026-05-02 (before the 2026-06-02 primary). Page intro: 'Our Revolution is proud to support a powerful slate of candidates for the California State Assembly and Senate'. Result: Advanced from the 2026 primary, district 24: Alex Lee (DEM) 55,856 votes, 65.4%; Max Hsia (REP) 21,339 votes, 25.0%; Yang Shao (NPP) 8,233 votes, 9.6%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Ash Kalra",
+      "office": "lower",
+      "district": "25",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/ca-house-senate/",
+        "excerpt": "Ash Kalra — Assembly District 25"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Our Revolution national page 'CA HOUSE & SENATE', published 2026-05-02 (before the 2026-06-02 primary). Page intro: 'Our Revolution is proud to support a powerful slate of candidates for the California State Assembly and Senate'. Result: Advanced from the 2026 primary, district 25: Ash Kalra (DEM) 56,052 votes, 72.2%; Himat Singh Bainiwal (REP) 21,609 votes, 27.8%. 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Sarah Rascón",
+      "office": "upper",
+      "district": "26",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/sarah-rascon-for-california-state-senate-sd-26/",
+        "excerpt": "Our Revolution is backing Sarah Rascón for California State Senate District 26"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Page published 2026-10-01 (after the primary). Result: Advanced from the 2026 primary, district 26: Sara Hernandez (DEM) 54,799 votes, 33.1%; Sarah Rascón (DEM) 34,158 votes, 20.6%; Wendy Carrillo (DEM) 24,111 votes, 14.6% (top 3 of 7). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Jessie Lopez",
+      "office": "lower",
+      "district": "68",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/jessie-lopez-for-california-state-assembly-district-68/",
+        "excerpt": "Our Revolution is proud to endorse Jessie Lopez for California State Assembly District 68"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Page published 2026-08-18 (after the primary). Result: Advanced from the 2026 primary, district 68: David Penaloza (DEM) 23,305 votes, 32.5%; Jessie Lopez (DEM) 22,504 votes, 31.4%; Mayra Ruiz (REP) 21,047 votes, 29.4% (top 3 of 4). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Sean Frame",
+      "office": "lower",
+      "district": "6",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2024-california-voter-guide/",
+        "excerpt": "Sean Frame for CA Assembly (District 6)"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/97-state-assembly-updated.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Our Revolution '2024 California Voter Guide', published 2024-01-23 (before the 2024-03-05 primary). Listed in the Sacramento County Progressive Power Slate. Result: 2024 primary, district 6: Maggy Krell (DEM) 25,879 votes, 44.6%; Carlos Marquez III (DEM) 9,337 votes, 16.1%; Rosanna Herber (DEM) 9,257 votes, 15.9% (top 3 of 6). Not in the general election top two."
+    },
+    {
+      "person": "Jovanka Beckles",
+      "office": "upper",
+      "district": "7",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/jovanka-beckles-for-state-senate/",
+        "excerpt": "Our Revolution is excited to endorse Jovanka Beckles for California State Senate in 2024!"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/37-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Our Revolution post dated 2023-09-23. Result: 2024 general (district 7): Jesse Arreguín (DEM) 199,423 votes, 57.2%; Jovanka Beckles (DEM) 149,415 votes, 42.8%; primary: Jesse Arreguín (DEM) 61,892 votes, 32.1%; Jovanka Beckles (DEM) 34,085 votes, 17.7%; Dan Kalb (DEM) 28,881 votes, 15.0% (top 3 of 6)."
+    },
+    {
+      "person": "Marisol Rubio",
+      "office": "upper",
+      "district": "9",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2024-california-voter-guide/",
+        "excerpt": "Our Revolution is proud to endorse two candidates for CA State Senate, Marisol Rubio (D-9) and Jovanka Beckles (D-7)"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/37-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Our Revolution '2024 California Voter Guide', published 2024-01-23 (before the 2024-03-05 primary). Result: 2024 general (district 9): Tim Grayson (DEM) 193,558 votes, 52.0%; Marisol Rubio (DEM) 178,776 votes, 48.0%; primary: Tim Grayson (DEM) 103,121 votes, 59.3%; Marisol Rubio (DEM) 70,043 votes, 40.3%; David Minor (REP (W/I)) 410 votes, 0.2% (top 3 of 4)."
+    },
+    {
+      "person": "Monica Wilson",
+      "office": "lower",
+      "district": "15",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2024-california-voter-guide/",
+        "excerpt": "they can also cast a ballot for Monica Wilson for CA Assembly in District 15"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/97-state-assembly-updated.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Our Revolution '2024 California Voter Guide', published 2024-01-23 (before the 2024-03-05 primary). Wording is 'cast a ballot for' within the endorsed Contra Costa slate. Result: 2024 primary, district 15: Sonia Ledo (REP) 30,962 votes, 31.9%; Anamarie Avila Farias (DEM) 29,525 votes, 30.4%; Monica E. Wilson (DEM) 24,792 votes, 25.5% (top 3 of 4). Not in the general election top two."
+    },
+    {
+      "person": "Alex Mohajer",
+      "office": "upper",
+      "district": "37",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://alexmohajer.com/alex-mohajer-for-state-senate-campaign-announces-additional-endorsements-2/",
+        "excerpt": "Our Revolution and Alliance of Californians for Community Empowerment Endorse Alex Mohajer for State Senate"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/92-state-senators-formatted.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Campaign-hosted announcement dated 2024-02-02; the 2024 Our Revolution guide also lists him in its Southern California slate. Result: 2024 primary, district 37: Josh Newman (DEM) 67,109 votes, 43.6%; Steven \"Steve\" Choi (REP) 48,364 votes, 31.5%; Alex Mohajer (DEM) 18,550 votes, 12.1% (top 3 of 8). Not in the general election top two."
+    },
+    {
+      "person": "Sade Elhawary",
+      "office": "lower",
+      "district": "57",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2024-california-voter-guide/",
+        "excerpt": "Our Revolution is endorsing Sade Elhawary for CA State Assembly (District 57)."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/42-state-assembly.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-12-02",
+        "term_end": "2026-12-06",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ca.csv",
+          "excerpt": "Sade Elhawary"
+        },
+        "contact_url": "https://a57.asmdc.org/"
+      },
+      "notes": "Our Revolution '2024 California Voter Guide', published 2024-01-23 (before the 2024-03-05 primary). Result: 2024 general (district 57): Sade Elhawary (DEM) 54,117 votes, 61.1%; Efren Martinez (DEM) 34,506 votes, 38.9%; primary: Efren Martinez (DEM) 8,891 votes, 32.7%; Sade Elhawary (DEM) 8,443 votes, 31.1%; Dulce Vasquez (DEM) 3,648 votes, 13.4% (top 3 of 5). Open States current roster lists Sade Elhawary for Assembly district 57. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Tina McKinnor",
+      "office": "lower",
+      "district": "61",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/2024-california-voter-guide/",
+        "excerpt": "Our Revolution supports Tina McKinnor for CA State Assembly (District 61)."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/42-state-assembly.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-12-02",
+        "term_end": "2026-12-06",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ca.csv",
+          "excerpt": "Tina McKinnor"
+        },
+        "contact_url": "https://a61.asmdc.org/"
+      },
+      "notes": "Our Revolution '2024 California Voter Guide', published 2024-01-23 (before the 2024-03-05 primary). Wording is 'supports', within the guide's list of slates of candidates endorsed by Our Revolution. Result: 2024 general (district 61): Tina Simone McKinnor (DEM) 121,661 votes, 76.5%; Alfonso Hernandez (REP) 37,375 votes, 23.5%; primary: Tina Simone McKinnor (DEM) 52,273 votes, 79.5%; Alfonso Hernandez (REP) 13,487 votes, 20.5%. Open States current roster lists Tina McKinnor for Assembly district 61. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Jovanka Beckles",
+      "office": "upper",
+      "district": "7",
+      "issuer": "East Bay Democratic Socialists of America",
+      "group": "dsa",
+      "issuer_source": "https://eastbaydsa.org",
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://www.californiadsa.org/news/2024-voter-guide",
+        "excerpt": "East Bay DSA has endorsed AC Transit Board director and former Richmond City Council member Jovanka Beckles."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/37-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "California DSA 2024 General Election Voter Guide (post-primary). Also endorsed in the 2018 Assembly race (out of scope). Result: 2024 general (district 7): Jesse Arreguín (DEM) 199,423 votes, 57.2%; Jovanka Beckles (DEM) 149,415 votes, 42.8%; primary: Jesse Arreguín (DEM) 61,892 votes, 32.1%; Jovanka Beckles (DEM) 34,085 votes, 17.7%; Dan Kalb (DEM) 28,881 votes, 15.0% (top 3 of 6)."
+    },
+    {
+      "person": "Fatima Iqbal-Zubair",
+      "office": "lower",
+      "district": "65",
+      "issuer": "DSA Los Angeles / Long Beach (national table lists chapter as 'Los Angeles Long Beach')",
+      "group": "dsa",
+      "issuer_source": "http://www.dsa-la.org/",
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://airtable.com/embed/app41ni7RJppgXEBL/shrlm0oDQJkJsCnSr?backgroundColor=grayLight&viewControls=on",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Only evidence is DSA national past-endorsements Airtable (saved: research_notes/State endorsement gap review/dsa_sunrise_dsa_past_state_sources.json row 128: 'Fatima Iqbal-Zubair', 'Los Angeles Long Beach', 'CA State Assembly District 65', 'Endorsed 2022', election date 11/8/2022). It is a JavaScript grid with no checkable text. No chapter page found; DSA-LA site blocked automated access. Stage general from the table's election date. Result: 2022 general (district 65): Mike Anthony Gipson (DEM) 43,118 votes, 61.7%; Fatima Iqbal-Zubair (DEM) 26,719 votes, 38.3%; primary: Mike Anthony Gipson (DEM) 28,801 votes, 68.0%; Fatima Iqbal-Zubair (DEM) 13,162 votes, 31.1%; Lydia Gutierrez (REP (W/I)) 414 votes, 1.0%."
+    },
+    {
+      "person": "James Coleman",
+      "office": "lower",
+      "district": "21",
+      "issuer": "Peninsula California Democratic Socialists of America",
+      "group": "dsa",
+      "issuer_source": "https://peninsuladsa.org/",
+      "election": {
+        "year": 2022,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://airtable.com/embed/app41ni7RJppgXEBL/shrlm0oDQJkJsCnSr?backgroundColor=grayLight&viewControls=on",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/104-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Only evidence is the DSA national past-endorsements Airtable (saved JSON row 166: 'James Coleman', 'Peninsula California', 'California State Assembly, District 21', 'Endorsed 2022', election date 6/7/2022). No checkable text; no chapter page found. Jacobin (2022-03) calls him a democratic socialist but does not report a chapter endorsement. Result: 2022 primary, district 21: Diane Papan (DEM) 40,434 votes, 41.3%; Giselle Hale (DEM) 19,400 votes, 19.8%; Mark Gilham (REP) 19,078 votes, 19.5% (top 3 of 7). Not in the general election top two."
+    },
+    {
+      "person": "Alex Mohajer",
+      "office": "upper",
+      "district": "37",
+      "issuer": "Progressive Change Campaign Committee",
+      "group": "pccc",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://alexmohajer.com/progressive-change-campaign-committee-endorses-alex-mohajer-for-california-state-senate-district-37/",
+        "excerpt": "Today, the Progressive Change Campaign Committee (PCCC) is endorsing Alex Mohajer for California State Senate, District 37"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/92-state-senators-formatted.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "Campaign-hosted page dated 2024-02-12 quoting a PCCC statement; no boldprogressives.org page found. Result: 2024 primary, district 37: Josh Newman (DEM) 67,109 votes, 43.6%; Steven \"Steve\" Choi (REP) 48,364 votes, 31.5%; Alex Mohajer (DEM) 18,550 votes, 12.1% (top 3 of 8). Not in the general election top two."
+    },
+    {
+      "person": "Jessie Lopez",
+      "office": "lower",
+      "district": "68",
+      "issuer": "Sunrise Movement Orange County",
+      "group": "sunrise",
+      "issuer_source": "https://hubs.sunrisemovement.org/orange-county",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://www.sunriseoc.org/voter-guides/orange-county",
+        "excerpt": "California State Assembly District 68: Jessie Lopez - PROUDLY ENDORSED BY sUNRISE OC"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Sunrise OC 2026 midterms voter guide (post-primary, listing Nov 3 ballot; undated, stage general). Guide separates 'Endorse' from 'Recommend'; only explicit endorsements are listed. Result: Advanced from the 2026 primary, district 68: David Penaloza (DEM) 23,305 votes, 32.5%; Jessie Lopez (DEM) 22,504 votes, 31.4%; Mayra Ruiz (REP) 21,047 votes, 29.4% (top 3 of 4). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Chris Kluwe",
+      "office": "lower",
+      "district": "72",
+      "issuer": "Sunrise Movement Orange County",
+      "group": "sunrise",
+      "issuer_source": "https://hubs.sunrisemovement.org/orange-county",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://www.sunriseoc.org/voter-guides/orange-county",
+        "excerpt": "California State Assembly District 72: Chris Kluwe - PROUDLY ENDORSED BY sUNRISE OC"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "Same guide and caveats as above. Result: Advanced from the 2026 primary, district 72: Chris Kluwe (DEM) 70,530 votes, 43.8%; Gracey Van Der Mark (REP) 60,688 votes, 37.7%; Matthew Harper (REP) 26,435 votes, 16.4% (top 3 of 4). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "James Aguilar",
+      "office": "lower",
+      "district": "18",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/1722/aguilar-james/",
+        "excerpt": "James Aguilar California Assembly, District 18 , CA 2021 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'California Assembly, District 18, CA'. Card is from the 2021 directory and names no election; assumed to be for the 2022 cycle because that is the next Assembly election (not stated by RFS). Card does not give a stage, so stage is general. Result: Name not found in the 2022 primary or general Statement of Vote (Statement of Vote, 2022 State Assembly); no ballot appearance or withdrawal source found."
+    },
+    {
+      "person": "Bulmaro Vicente",
+      "office": "lower",
+      "district": "68",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2472/vicente-bulmaro-boomer/",
+        "excerpt": "Bulmaro \"Boomer\" Vicente California Assembly, District 68 , CA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/104-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'California Assembly, District 68, CA'. Card does not give a stage, so stage is general. Result: 2022 primary, district 68: Avelino Valencia (DEM) 22,635 votes, 48.3%; Mike Tardif (REP) 11,034 votes, 23.5%; Bulmaro \"Boomer\" Vicente (DEM) 7,029 votes, 15.0% (top 3 of 4). Not in the general election top two."
+    },
+    {
+      "person": "Bryan Osorio",
+      "office": "upper",
+      "district": "16",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2522/osorio-bryan/",
+        "excerpt": "Bryan Osorio California Senate, District 16 , CA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/99-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'California Senate, District 16, CA'. Card does not give a stage, so stage is general. Result: 2022 primary, district 16: David Shepard (REP) 32,579 votes, 43.4%; Melissa Hurtado (DEM) 22,162 votes, 29.5%; Nicole Parra (DEM) 9,921 votes, 13.2% (top 3 of 5). Not in the general election top two."
+    },
+    {
+      "person": "James Coleman",
+      "office": "lower",
+      "district": "21",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2219/coleman-james/",
+        "excerpt": "James Hsuchen Coleman California Assembly, District 21 , CA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-primary/sov/104-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'California Assembly, District 21, CA'. Card does not give a stage, so stage is general. Result: 2022 primary, district 21: Diane Papan (DEM) 40,434 votes, 41.3%; Giselle Hale (DEM) 19,400 votes, 19.8%; Mark Gilham (REP) 19,078 votes, 19.5% (top 3 of 7). Not in the general election top two."
+    },
+    {
+      "person": "Christy Holstege",
+      "office": "lower",
+      "district": "47",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2007/holstege-christy/",
+        "excerpt": "Christy Holstege California Assembly, District 42 , CA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'California Assembly, District 42, CA'. Card does not give a stage, so stage is general. Endorser lists district 42; the Statement of Vote has the candidate in district 47, used here. Result: 2022 general (district 47): Greg Wallis (REP) 84,752 votes, 50.0%; Christy Holstege (DEM) 84,667 votes, 50.0%; primary: Christy Holstege (DEM) 51,169 votes, 46.5%; Greg Wallis (REP) 37,996 votes, 34.5%; Gary Michaels (REP) 12,716 votes, 11.6% (top 3 of 4)."
+    },
+    {
+      "person": "Fatima Iqbal-Zubair",
+      "office": "lower",
+      "district": "65",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/1930/iqbal-zubair-fatima/",
+        "excerpt": "Fatima Iqbal-Zubair California Assembly, District 64 , CA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'California Assembly, District 64, CA'. Card does not give a stage, so stage is general. Endorser lists district 64; the Statement of Vote has the candidate in district 65, used here. Result: 2022 general (district 65): Mike Anthony Gipson (DEM) 43,118 votes, 61.7%; Fatima Iqbal-Zubair (DEM) 26,719 votes, 38.3%; primary: Mike Anthony Gipson (DEM) 28,801 votes, 68.0%; Fatima Iqbal-Zubair (DEM) 13,162 votes, 31.1%; Lydia Gutierrez (REP (W/I)) 414 votes, 1.0%."
+    },
+    {
+      "person": "Alex Lee",
+      "office": "lower",
+      "district": "24",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2048/lee-alex/",
+        "excerpt": "Alex Lee California Assembly, District 25 , CA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/65-state-assemblymember.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2022-12-05",
+        "term_end": "2024-12-01",
+        "service_source": {
+          "url": "https://www.legalfina.com/en/laws/ca/california_constitution/legislative",
+          "excerpt": "The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election."
+        },
+        "contact_url": null
+      },
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'California Assembly, District 25, CA'. Card does not give a stage, so stage is general. Endorser lists district 25; the Statement of Vote has the candidate in district 24, used here. Result: 2022 general (district 24): Alex Lee (DEM) 75,232 votes, 69.1%; Bob Brunton (REP) 33,662 votes, 30.9%; primary: Alex Lee (DEM) 26,531 votes, 38.5%; Bob Brunton (REP) 14,730 votes, 21.4%; Kansen Chu (DEM) 12,683 votes, 18.4% (top 3 of 5). Term won in 2022 ended 2024-12-01. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Ricardo Ortega Martinez",
+      "office": "lower",
+      "district": "34",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3728/ortega-martinez-ricardo/",
+        "excerpt": "Ricardo Ortega Martinez State Assembly, District 34 , CA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/42-state-assembly.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State Assembly, District 34, CA'. Card does not give a stage, so stage is general. Result: 2024 general (district 34): Tom Lackey (REP) 117,751 votes, 62.0%; Ricardo Ortega (DEM) 72,152 votes, 38.0%; primary: Tom Lackey (REP) 58,283 votes, 66.1%; Ricardo Ortega (DEM) 29,848 votes, 33.9%."
+    },
+    {
+      "person": "Jessica Caloza",
+      "office": "lower",
+      "district": "52",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3825/caloza-jessica/",
+        "excerpt": "Jessica Caloza State Assembly, District 52 , CA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/42-state-assembly.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-12-02",
+        "term_end": "2026-12-06",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ca.csv",
+          "excerpt": "Jessica Caloza"
+        },
+        "contact_url": "https://a52.asmdc.org/"
+      },
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State Assembly, District 52, CA'. Card does not give a stage, so stage is general. Result: 2024 general (district 52): Jessica Caloza (DEM) 108,882 votes, 66.9%; Franky Carrillo (DEM) 53,820 votes, 33.1%; primary: Jessica Caloza (DEM) 23,391 votes, 39.4%; Franky Carrillo (DEM) 20,569 votes, 34.7%; David Girón (DEM) 9,184 votes, 15.5% (top 3 of 6). Open States current roster lists Jessica Caloza for Assembly district 52. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Sade Elhawary",
+      "office": "lower",
+      "district": "57",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3827/elhawary-sade/",
+        "excerpt": "Sade Elhawary State House, District 57 , CA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/42-state-assembly.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-12-02",
+        "term_end": "2026-12-06",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ca.csv",
+          "excerpt": "Sade Elhawary"
+        },
+        "contact_url": "https://a57.asmdc.org/"
+      },
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State House, District 57, CA'. Card does not give a stage, so stage is general. Result: 2024 general (district 57): Sade Elhawary (DEM) 54,117 votes, 61.1%; Efren Martinez (DEM) 34,506 votes, 38.9%; primary: Efren Martinez (DEM) 8,891 votes, 32.7%; Sade Elhawary (DEM) 8,443 votes, 31.1%; Dulce Vasquez (DEM) 3,648 votes, 13.4% (top 3 of 5). Open States current roster lists Sade Elhawary for Assembly district 57. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Sasha Renee Perez",
+      "office": "upper",
+      "district": "25",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/8713dc7bc51e254a90cb5cc714f68e52/renee-perez-sasha/",
+        "excerpt": "Sasha Renée Pérez State Senate, District 25 , CA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/37-state-senator.pdf",
+        "excerpt": null
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2024-12-02",
+        "term_end": "2028-12-03",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ca.csv",
+          "excerpt": "Sasha Pérez"
+        },
+        "contact_url": "https://sd25.senate.ca.gov/"
+      },
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State Senate, District 25, CA'. Card does not give a stage, so stage is general. Result: 2024 general (district 25): Sasha Renée Pérez (DEM) 243,371 votes, 59.6%; Elizabeth Wong Ahlers (REP) 164,757 votes, 40.4%; primary: Elizabeth Wong Ahlers (REP) 73,002 votes, 35.7%; Sasha Renée Pérez (DEM) 67,266 votes, 32.9%; Yvonne Yiu (DEM) 35,693 votes, 17.5% (top 3 of 5). Open States current roster lists Sasha Pérez for Senate district 25. Term rule: Cal. Const. art. IV, sec. 2(a)(3) (https://www.legalfina.com/en/laws/ca/california_constitution/legislative): 'The terms of a Senator or a Member of the Assembly shall commence on the first Monday in December next following her or his election.' Assembly 2-year terms (sec. 2(a)(2)), Senate 4-year terms, 20 to begin every 2 years (sec. 2(a)(1)). term_end is the day before the first Monday in December that opens the next term, computed from the term length, not read from a roster."
+    },
+    {
+      "person": "Dulce Vasquez",
+      "office": "lower",
+      "district": "57",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3645/vasquez-dulce/",
+        "excerpt": "Dulce Vasquez State Assembly, District 57 , CA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/97-state-assembly-updated.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State Assembly, District 57, CA'. Card does not give a stage, so stage is general. Result: 2024 primary, district 57: Efren Martinez (DEM) 8,891 votes, 32.7%; Sade Elhawary (DEM) 8,443 votes, 31.1%; Dulce Vasquez (DEM) 3,648 votes, 13.4% (top 3 of 5). Not in the general election top two."
+    },
+    {
+      "person": "Walter Garcia",
+      "office": "lower",
+      "district": "43",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/4092/garcia-walter/",
+        "excerpt": "Walter Garcia State Assembly, District 43 , CA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/97-state-assembly-updated.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State Assembly, District 43, CA'. Card does not give a stage, so stage is general. Result: 2024 primary, district 43: Celeste Rodriguez (DEM) 20,485 votes, 43.5%; Victoria Garcia (REP) 11,077 votes, 23.5%; Walter Garcia (DEM) 8,070 votes, 17.1% (top 3 of 6). Not in the general election top two."
+    },
+    {
+      "person": "Alex Mohajer",
+      "office": "upper",
+      "district": "37",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3876/mohajer-alex/",
+        "excerpt": "Alex Mohajer State Senate, District 37 , CA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/92-state-senators-formatted.pdf",
+        "excerpt": null
+      },
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State Senate, District 37, CA'. Card does not give a stage, so stage is general. Result: 2024 primary, district 37: Josh Newman (DEM) 67,109 votes, 43.6%; Steven \"Steve\" Choi (REP) 48,364 votes, 31.5%; Alex Mohajer (DEM) 18,550 votes, 12.1% (top 3 of 8). Not in the general election top two."
+    },
+    {
+      "person": "Ari Ruiz",
+      "office": "lower",
+      "district": "52",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3890/ruiz-ari/",
+        "excerpt": "Ari Ruiz State Assembly, District 52 , CA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "unknown",
+      "result_source": null,
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State Assembly, District 52, CA'. Card does not give a stage, so stage is general. Result: Name not found in the 2024 primary or general Statement of Vote (Statement of Vote, 2024 State Assembly); no ballot appearance or withdrawal source found."
+    },
+    {
+      "person": "Matthew Adams",
+      "office": "lower",
+      "district": "9",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/874a33c6af7e9cd605cc52f3169d173d/adams-matthew/",
+        "excerpt": "Matthew Adams State Assembly, District 9 , CA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State Assembly, District 9, CA'. Card does not give a stage, so stage is general. Result: Advanced from the 2026 primary, district 9: Heath Flora (REP) 33,684 votes, 30.6%; Matthew Adams (DEM) 28,522 votes, 25.9%; Jim Shoemaker (REP) 25,029 votes, 22.7% (top 3 of 6). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    },
+    {
+      "person": "Jessie Lopez",
+      "office": "lower",
+      "district": "68",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/7c7d80adcc72529ab659a9553fc9a75a/lopez-jessie/",
+        "excerpt": "Jessie Lopez State Assembly, District 68 , CA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "pending",
+      "result_source": null,
+      "current": null,
+      "notes": "RFS directory profile (card text as excerpt). Card says: 'State Assembly, District 68, CA'. Card does not give a stage, so stage is general. Result: Advanced from the 2026 primary, district 68: David Penaloza (DEM) 23,305 votes, 32.5%; Jessie Lopez (DEM) 22,504 votes, 31.4%; Mayra Ruiz (REP) 21,047 votes, 29.4% (top 3 of 4). 2026 general (Nov 3, 2026) result not recorded: the Secretary of State results site (electionresults.sos.ca.gov) blocks automated access (Incapsula) and the Statement of Vote for the general is not published yet."
+    }
+  ],
+  "coverage": [
+    {
+      "group": "wfp",
+      "status": "blocked",
+      "checked": [
+        "https://workingfamilies.org/state/california/",
+        "https://workingfamilies.org/news/california/",
+        "https://workingfamilies.org/candidates/",
+        "https://workingfamilies.org/california-squad/",
+        "https://workingfamilies.org/2022/03/california-working-families-party-introduces-california-squad-ahead-of-2022-state-legislative-races/",
+        "https://ballotpedia.org/Endorsements_by_California_Working_Families_Party"
+      ],
+      "note": "2026 list (saved) and 2022 California Squad are complete. No 2024 legislative slate page found on workingfamilies.org; 2024 entries rest on Ballotpedia (Beckles) and a campaign page (Mohajer), so other 2024 endorsees (a progressive voter guide lists Eloise Gomez Reyes, Braden Murphy, Javier Hernandez as WFP-endorsed) are unverified. Local WFP pages (San Francisco, Orange County) and 2023/2025 specials not checked."
+    },
+    {
+      "group": "or",
+      "status": "blocked",
+      "checked": [
+        "https://ourrevolution.com/category/endorsement/ca/",
+        "https://ourrevolution.com/ca-house-senate/",
+        "https://ourrevolution.com/2024-california-voter-guide/",
+        "https://ourrevolution.com/tag/ca/"
+      ],
+      "note": "2026 and 2024 national-site pages read. No 2022 OR slate found. OR chapters (e.g. Wellstone Progressive Democrats/Our Revolution Sacramento, Our Revolution Long Beach) not checked. The 2024 guide covers Sacramento, Alameda, Contra Costa and Southern California slates only as written; other 2024 posts may exist."
+    },
+    {
+      "group": "dsa",
+      "status": "blocked",
+      "checked": [
+        "https://www.californiadsa.org/voterguide",
+        "https://www.californiadsa.org/news/2024-voter-guide",
+        "https://dsa-la.org/2026-dsa-la-endorsements/",
+        "https://2026.dsa-la.org/count-me-in-electing-socialists-in-los-angeles-in-2026",
+        "https://www.ocdsa.org/2026-general-election-endorsements/",
+        "https://www.dsasandiego.org/endorsements",
+        "https://dsasf.org/vote",
+        "https://peninsuladsa.org/voter-guide-2026/",
+        "https://www.dsalb.org/electoral-endorsements",
+        "https://www.centralcoastdsa.org/voter-guide-2026",
+        "https://iedsa.org/endorsements/",
+        "https://eastbaydsa.org/",
+        "http://www.sacdsa.org/",
+        "https://siliconvalleydsa.org/electoral/",
+        "https://dsaventuracounty.org/2026/10/21/2026-midterm-voter-guide/",
+        "https://www.dsasb.org/voter-guide-2026"
+      ],
+      "note": "Found: East Bay DSA 2024 (Beckles), and two 2022 rows from the national Airtable (no chapter page). No 2026 chapter endorsements of legislators found on the pages that render text. Not checked or unreadable: DSA-LA 2022/2024 pages (dsa-la.org returns a Cloudflare block), East Bay, Sacramento, Silicon Valley, Sonoma, Marin, Humboldt, Kern, Santa Cruz and other chapter archives, SLO and Santa Barbara and Inland Empire (JavaScript pages with no text), all chapter social feeds, DSA Long Beach 2022-2024 archives."
+    },
+    {
+      "group": "rfs",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://directory.runforsomething.net/candidates/2022/",
+        "https://directory.runforsomething.net/candidates/2024/",
+        "https://directory.runforsomething.net/candidates/2026/",
+        "research_notes/State endorsement gap review/rfs_pccc_directory_cards.tsv"
+      ],
+      "note": "All California cards for 2021-2026 with a state legislative office, from the saved directory table; each profile page re-read for the excerpt. 2020 cards (elections of 2020) are out of scope. Cards for 2022 to 2026 with non-legislative offices are skipped."
+    },
+    {
+      "group": "pccc",
+      "status": "blocked",
+      "checked": [
+        "https://alexmohajer.com/progressive-change-campaign-committee-endorses-alex-mohajer-for-california-state-senate-district-37/",
+        "https://www.boldprogressives.org/"
+      ],
+      "note": "One endorsement found (Mohajer, 2024) through a campaign page. boldprogressives.org per-cycle endorsement archives and the Blue Voter Guide PCCC California page (403) were not read. The 2020 and 2022 'champions' lists are not endorsements."
+    },
+    {
+      "group": "sunrise",
+      "status": "blocked",
+      "checked": [
+        "https://www.sunriseoc.org/voter-guides/orange-county",
+        "https://sunrisemovementla.org/endorsements"
+      ],
+      "note": "Sunrise OC 2026 read. Sunrise LA endorsement page is for 2020 (out of scope). Other CA hubs (Bay Area, Long Beach, Foothills, UC Santa Cruz) and 2022/2024 cycles not checked or only the homepages; most hub pages are Instagram only."
+    }
+  ],
+  "gaps": [
+    "2026 general-election results are not recorded. electionresults.sos.ca.gov is behind an Incapsula block for automated clients and the Statement of Vote for 2026-11-03 is not published. All 2026 endorsees who advanced from the 2026-06-02 primary are 'pending' with current null; re-run after certification to set won/lost and incoming status (terms begin 2026-12-07).",
+    "Results come from Secretary of State Statement of Vote PDFs (and AD 62 special canvass). These render no text for the checker, so result excerpts are null; the figures read from the matching .xlsx are in each entry's notes.",
+    "2022 Our Revolution slate not found; 2024 WFP legislative slate not found on workingfamilies.org.",
+    "California DSA 2026 voter guide (https://www.californiadsa.org/voterguide) recommends many legislators (e.g. Chris Kluwe AD 72, Jessie Lopez AD 68, Sean Frame SD 6, John Erickson SD 24, Sarah Rascon SD 26, Lola Smallwood-Cuevas SD 28, Caroline Menjivar SD 20, Chris Rogers AD 2) but states that recommendations are not endorsements. None is listed as a DSA entry. DSA San Diego's guide recommends LaShae Sharp-Collins (AD 79) and DSA Long Beach's guide recommends John Erickson (SD 24); also recommendations only.",
+    "DSA-LA's own pages are blocked (Cloudflare) so DSA-LA endorsements of Assembly or Senate candidates in 2022, 2024 and 2026 could not be checked. Blue Voter Guide (403) was reported by a search result to list DSA-LA Assembly endorsements in ADs 40, 54 and 57; unverified and not included.",
+    "DSA national Airtable rows for Fatima Iqbal-Zubair (2022, AD 65) and James Coleman (2022, AD 21) have no checkable text; entries cite the Airtable embed with a null excerpt. A Political Revolution page (pol-rev.com, an aggregator) tags Iqbal-Zubair's 2026 AD 65 run as DSA-endorsed; not used.",
+    "Blue Voter Guide, a search result, and pol-rev.com list further OR/WFP/PCCC California legislative endorsements without dates (e.g. Eloise Gomez Reyes SD 29, Braden Murphy, Javier Hernandez AD 53 as WFP 2024; Marisol Rubio and others); only items on issuer pages or quoted campaign pages are entered.",
+    "Eloise Gomez Reyes and similar 2024 progressive-guide leads, plus the Courage California slates, are not in scope groups and were not entered.",
+    "Damon Connolly: WFP's 2026 list says State Senate District 12; the Statement of Vote has him in SD 2. District field uses 2 with a note.",
+    "Georgette Gomez (WFP 2022, AD 80), James Aguilar (RFS 2021 card, AD 18) and Ari Ruiz (RFS 2024 card, AD 52): see entries. Gomez is in the SOV as 'Georgette Gómez' and lost; Aguilar and Ruiz are not in the SOV for the named seat and are 'unknown'. RFS cards for Iqbal-Zubair (2022, 'District 64'), Holstege ('District 42'), Alex Lee ('District 25') and Perez ('State Senate 25') give a different district than the ballot in places; the SOV district is used and noted.",
+    "WFP's 2022 California Squad page lists Tina McKinnor for the AD 62 special; her regular 2022 AD 61 election is not entered as a separate endorsement. The special-term start date was not sourced (term_start null).",
+    "Sunrise Movement OC is the only Sunrise source with explicit 'ENDORSED' wording; its guide is undated. Sunrise guides use 'Recommend' for others, which are excluded.",
+    "No special elections since 2022 other than AD 62 were checked against endorsements; the August 2026 CA-14 special and legislative specials listed at 270toWin were not examined.",
+    "Term_end values are computed from the constitution (first Monday in December), not read from a roster. The constitution text is cited from legalfina.com because leginfo.legislature.ca.gov returns 403 to automated requests."
+  ]
+}
