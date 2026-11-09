@@ -21,12 +21,12 @@ export default async function Members({ searchParams }: PageProps<"/members">) {
   const races = state.filter((m) => m.term.status === "unresolved");
   const federal = office === "all" || office === "congress" ? members : [];
   return <>
-    <header className="page-header"><h1><span className="ink">All members</span></h1><p className="meta">{federal.length + confirmed.length} listed{races.length > 0 && ` · ${races.length} unresolved state races`}.</p></header>
+    <header className="page-header"><h1><span className="ink">All members</span></h1><p className="jd-meta">{federal.length + confirmed.length} listed{races.length > 0 && ` · ${races.length} unresolved state races`}.</p></header>
     {statePublicationVersion && <nav aria-label="Filter by office"><ul className="list">{[["all", "All offices"], ["congress", "Congress"], ["governor", "Governors"], ["legislature", "State legislatures"]].map(([value, label]) => <li key={value}><Link href={value === "all" ? "/members" : `/members?office=${value}`} aria-current={office === value ? "page" : undefined}>{label}</Link></li>)}</ul></nav>}
     <ul className="roster jd-ruled">
-      {federal.map((m) => <li key={m.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat">{seatLabel(m)}{m.status !== "won" && <> <StatusBadge status={m.status} /></>}</span></li>)}
-      {confirmed.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}
+      {federal.map((m) => <li key={m.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{seatLabel(m)}{m.status !== "won" && <> <StatusBadge status={m.status} /></>}</span></li>)}
+      {confirmed.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}
     </ul>
-    {races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><ul className="roster jd-ruled">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat">{stateSeatLabel(m)} · Not called</span></li>)}</ul></section>}
+    {races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><ul className="roster jd-ruled">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)} · Not called</span></li>)}</ul></section>}
   </>;
 }

@@ -12,6 +12,6 @@ export function CheckedDate({ date }: { date: string }) {
   return stale ? (
     <span className="platform-stale">Not reconfirmed since {shown}</span>
   ) : (
-    <span className="platform-checked">Checked {shown}</span>
+    <span className="platform-checked jd-small">Checked {shown}</span>
   );
 }

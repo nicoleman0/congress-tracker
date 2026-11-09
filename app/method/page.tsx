@@ -21,7 +21,7 @@ export default function Method() {
             </li>
           ))}
         </ul>
-        <p className="note">We don&apos;t add anyone by judgment.</p>
+        <p className="jd-note">We don&apos;t add anyone by judgment.</p>
       </section>
 
       {statePublicationVersion && <section className="section" aria-labelledby="state-title">
@@ -40,7 +40,7 @@ export default function Method() {
           <li><b>Incumbent</b>: a current caucus member whose seat was not on the 2026 ballot.</li>
           <li><b>Lost</b>: another candidate was projected the winner.</li>
         </ul>
-        <p className="note">Unresolved races are rechecked daily against NBC News.</p>
+        <p className="jd-note">Unresolved races are rechecked daily against NBC News.</p>
       </section>
 
       <section className="section" aria-labelledby="links-title">

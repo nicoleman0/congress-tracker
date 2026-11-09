@@ -23,7 +23,7 @@ export function NewsPager({ headlines }: { headlines: Headline[] }) {
         {shown.map((h) => (
           <li key={h.url}>
             <a href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
-            <span className="news-source">{h.source} · {day.format(new Date(h.date))}</span>
+            <span className="news-source jd-secondary">{h.source} · {day.format(new Date(h.date))}</span>
           </li>
         ))}
       </ul>

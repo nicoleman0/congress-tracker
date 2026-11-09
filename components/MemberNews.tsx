@@ -30,7 +30,7 @@ export async function MemberNews({ m }: { m: Member }) {
   return (
     <>
       <NewsPager headlines={news.headlines} />
-      <p className="note">
+      <p className="jd-note">
         {news.headlines.length} headlines from {outlets} {outlets === 1 ? "outlet" : "outlets"} in the last 90 days, via Google News.
       </p>
     </>

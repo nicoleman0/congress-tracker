@@ -383,14 +383,8 @@ p {
   max-width: var(--measure);
   margin: 0 0 var(--s-2);
 }
-.meta {
-  color: var(--muted);
-  font-size: 0.95rem;
-  font-variant-numeric: tabular-nums;
-  margin: var(--s-1) 0 0;
-}
-.meta a { color: var(--muted); }
-.meta a:hover { color: var(--ultra); }
+.jd-meta a { color: var(--muted); }
+.jd-meta a:hover { color: var(--ultra); }
 
 .section { margin: var(--s-5) 0; }
 .section > h2 { margin: 0 0 var(--s-2); }
@@ -407,11 +401,6 @@ p {
 .section-intro { color: var(--muted); max-width: 68ch; margin: 0 0 var(--s-3); }
 .subhead { margin: var(--s-4) 0 var(--s-1); }
 
-.note {
-  font-size: 0.95rem;
-  color: var(--muted);
-  max-width: 68ch;
-}
 .empty {
   margin: 0;
   padding-left: 1.2rem;
@@ -440,13 +429,13 @@ p {
 .bars .jd-bar, .issue-bars .jd-bar { grid-column: 1 / -1; }
 .bars-label { font-weight: 600; }
 .bars-value { font-variant-numeric: tabular-nums; text-align: right; }
-.bars-detail { display: block; grid-column: 1 / -1; font-size: 0.9rem; font-weight: 400; color: var(--muted); }
+.bars-detail { display: block; grid-column: 1 / -1; font-weight: 400; }
 .issue-bars summary { cursor: pointer; list-style: none; }
 .issue-bars summary::-webkit-details-marker { display: none; }
 .issue-bars summary .bars-label::after { content: " +"; color: var(--ultra); }
 .issue-bars details[open] summary .bars-label::after { content: " −"; }
 .name-list { columns: 16rem; padding-left: 1.2rem; margin: var(--s-1) 0 var(--s-2); }
-.name-list .meta { font-size: 0.85rem; }
+.name-list .jd-meta { font-size: 0.85rem; }
 
 .platform { max-width: 68ch; margin: 0; }
 .platform-issue { padding: var(--s-2) 0; }
@@ -455,7 +444,7 @@ p {
 .platform dd + dd { margin-top: 0.35rem; }
 .platform-source { font-size: 0.9rem; color: var(--muted); white-space: nowrap; }
 .platform-source:hover { color: var(--ultra); }
-.platform-checked { font-size: 0.85rem; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.platform-checked { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .platform-stale { font-size: 0.85rem; color: var(--ultra); font-style: italic; white-space: nowrap; }
 
 /* Outside money: one segmented bar per side, both on the same scale. */
@@ -467,7 +456,6 @@ p {
 .money-all summary { cursor: pointer; color: var(--ultra); width: fit-content; }
 .money-all ol { list-style: none; padding: 0; margin: var(--s-1) 0 0; }
 .money-all li { display: flex; justify-content: space-between; gap: var(--s-2); padding: 0.35rem 0; }
-.money-stage { font-size: 0.85rem; color: var(--muted); }
 
 /* ============================================================
    Member rows: hairline-ruled, whole row clickable.
@@ -508,15 +496,11 @@ p {
   display: flex;
   align-items: baseline;
   gap: var(--s-1);
-  color: var(--muted);
-  font-size: 0.95rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
 .member-groups {
   grid-column: 1 / -1;
-  color: var(--muted);
-  font-size: 0.95rem;
 }
 @media (max-width: 700px) {
   .member-row { grid-template-columns: 1fr; }
@@ -557,8 +541,6 @@ p {
 .action-link:hover { text-decoration: underline; text-decoration-thickness: 2px; }
 .action-detail {
   display: block;
-  color: var(--muted);
-  font-size: 0.95rem;
 }
 
 /* ============================================================
@@ -583,8 +565,6 @@ p {
 .news-list a:hover { color: var(--ultra); text-decoration: underline; }
 .news-source {
   display: block;
-  color: var(--muted);
-  font-size: 0.9rem;
   font-variant-numeric: tabular-nums;
 }
 .pager {
@@ -631,7 +611,7 @@ p {
 .state-grid li { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-1); }
 /* States with no listed member stay reachable but recede. */
 .state-grid a.state-none { color: var(--muted); font-weight: 500; }
-.state-count { color: var(--muted); font-size: 0.9rem; font-variant-numeric: tabular-nums; }
+.state-count { font-variant-numeric: tabular-nums; }
 
 /* Full roster in columns, dense enough to scan in one screen. */
 .roster {
@@ -654,7 +634,7 @@ p {
   text-decoration: none;
 }
 .roster a:hover { text-decoration: underline; text-decoration-thickness: 2px; }
-.roster-seat { color: var(--muted); font-size: 0.9rem; white-space: nowrap; }
+.roster-seat { white-space: nowrap; }
 
 /* ============================================================
    Footer

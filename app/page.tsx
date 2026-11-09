@@ -45,7 +45,7 @@ export default function Home() {
             return (
               <li key={s.code}>
                 <Link href={`/state/${s.code.toLowerCase()}`} className={n ? undefined : "state-none"}>{s.name}</Link>
-                {n > 0 && <span className="state-count">{n}</span>}
+                {n > 0 && <span className="state-count jd-secondary">{n}</span>}
               </li>
             );
           })}

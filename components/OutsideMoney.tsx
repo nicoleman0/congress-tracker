@@ -72,7 +72,7 @@ export function OutsideMoney({ spends }: { spends: Spend[] }) {
               <ol className="jd-ruled">
                 {groups.map((g) => (
                   <li key={g.committee}>
-                    <span><Spender g={g} /> <span className="money-stage">{g.stages.join(", ")}</span></span>
+                    <span><Spender g={g} /> <span className="money-stage jd-small">{g.stages.join(", ")}</span></span>
                     <span className="money-amount">{dollars(g.total)}</span>
                   </li>
                 ))}
@@ -81,7 +81,7 @@ export function OutsideMoney({ spends }: { spends: Spend[] }) {
           </div>
         );
       })}
-      <p className="note">
+      <p className="jd-note">
         Source: FEC, {formatChecked(moneyFile().checkedAt)}. Late-October spending posts after December 3.{" "}
         <Link href="/data#money-title">How this compares</Link>.
       </p>

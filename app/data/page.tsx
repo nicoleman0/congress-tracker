@@ -23,7 +23,7 @@ function Meter({ value, total, mark, under, label }: { value: number; total: num
 function MemberLinks({ members }: { members: Member[] }) {
   return (
     <ul className="name-list">
-      {members.map((m) => <li key={m.id}><Link href={`/member/${m.id}`}>{m.name}</Link> <span className="meta">{seatLabel(m)}</span></li>)}
+      {members.map((m) => <li key={m.id}><Link href={`/member/${m.id}`}>{m.name}</Link> <span className="jd-meta">{seatLabel(m)}</span></li>)}
     </ul>
   );
 }
@@ -37,7 +37,7 @@ function SpenderList({ spenders }: { spenders: Spender[] }) {
         <li key={s.committee}>
           <span className="bars-label">
             <a href={fecSpenderUrl(s.committee)} target="_blank" rel="noopener noreferrer">{committeeName(s.name)}</a>
-            <span className="bars-detail">
+            <span className="bars-detail jd-secondary">
               {s.members.slice(0, 3).map((x, i) => <span key={x.member.id}>{i > 0 && ", "}<Link href={`/member/${x.member.id}`}>{x.member.name}</Link></span>)}
               {s.members.length > 3 && ` and ${s.members.length - 3} more`}
             </span>
@@ -64,7 +64,7 @@ export default function Data() {
       <header className="page-header">
         <h1><span className="ink">By the numbers</span></h1>
         <p className="lede">How many progressives will sit in Congress, where they stand, and who spent money to beat them.</p>
-        <p className="meta">Counts cover the {members.length} members we list. <Link href="/method">How we pick</Link>.</p>
+        <p className="jd-meta">Counts cover the {members.length} members we list. <Link href="/method">How we pick</Link>.</p>
       </header>
 
       <section className="section" aria-labelledby="bloc-title">
@@ -84,7 +84,7 @@ export default function Data() {
                   <li><span className="jd-swatch jd-swatch--under" /> All Democrats</li>
                   <li><span className="jd-swatch jd-swatch--mark" /> Majority, {seats.majority}</li>
                 </ul>
-                <p className="meta">
+                <p className="jd-meta">
                   {b.returning} returning · {b.new} new{b.unresolved > 0 && ` · ${b.unresolved} undecided`} · Democrats per{" "}
                   <a href={dems.source.url} target="_blank" rel="noopener noreferrer">{dems.source.label}</a>, {dems.checkedAt.slice(0, 10)}, {dems.uncalled} uncalled
                 </p>
@@ -92,7 +92,7 @@ export default function Data() {
             );
           })}
         </div>
-        <p className="note">Only one senator, Bernie Sanders, is in the <a href={CAUCUS_URL} target="_blank" rel="noopener noreferrer">Progressive Caucus</a>. The other three were endorsed in 2026.</p>
+        <p className="jd-note">Only one senator, Bernie Sanders, is in the <a href={CAUCUS_URL} target="_blank" rel="noopener noreferrer">Progressive Caucus</a>. The other three were endorsed in 2026.</p>
       </section>
 
       <section className="section" aria-labelledby="issues-title">
@@ -106,14 +106,14 @@ export default function Data() {
                   <span className="bars-label">{c.name}</span>
                   <span className="bars-value">{c.members.length} of {members.length}</span>
                   <Meter value={c.members.length} total={members.length} label={`${c.name}: ${c.members.length} of ${members.length}`} />
-                  {c.onRecord.length > 0 && <span className="bars-detail">{c.onRecord.length} back it with a sponsored or cosponsored bill</span>}
+                  {c.onRecord.length > 0 && <span className="bars-detail jd-secondary">{c.onRecord.length} back it with a sponsored or cosponsored bill</span>}
                 </summary>
                 <MemberLinks members={c.members} />
               </details>
             </li>
           ))}
         </ul>
-        <p className="note">A missing position means we found nothing, not that the member opposes it.</p>
+        <p className="jd-note">A missing position means we found nothing, not that the member opposes it.</p>
       </section>
 
       <section className="section" aria-labelledby="money-title">
@@ -134,7 +134,7 @@ export default function Data() {
         </div>
 
         <h3 className="subhead">Biggest spenders against them in primaries</h3>
-        <p className="note">Spending to beat them before the general election, in party primaries and in top-two primaries like California&apos;s.</p>
+        <p className="jd-note">Spending to beat them before the general election, in party primaries and in top-two primaries like California&apos;s.</p>
         <SpenderList spenders={topSpenders(members, "oppose", "primary")} />
 
         <h3 className="subhead">Biggest spenders against them in the general election</h3>
@@ -144,7 +144,7 @@ export default function Data() {
         <ol className="bars jd-ruled">
           {targeted.slice(0, TOP).map((t) => (
             <li key={t.member.id}>
-              <span className="bars-label"><Link href={`/member/${t.member.id}`}>{t.member.name}</Link> <span className="meta">{seatLabel(t.member)}</span></span>
+              <span className="bars-label"><Link href={`/member/${t.member.id}`}>{t.member.name}</Link> <span className="jd-meta">{seatLabel(t.member)}</span></span>
               <span className="bars-value">{dollars(t.against)}</span>
               <Meter value={t.against} total={targetMax} label={`${t.member.name}: ${dollars(t.against)} against`} />
             </li>
@@ -154,7 +154,7 @@ export default function Data() {
         <h3 className="subhead">Biggest spenders for them</h3>
         <SpenderList spenders={topSpenders(members, "support")} />
 
-        <p className="note">
+        <p className="jd-note">
           Source: FEC, {formatChecked(money.checkedAt)}. Excludes late-October spending until December 3 filings, and candidates who lost primaries. <Link href="/method">Method</Link>.
         </p>
       </section>
