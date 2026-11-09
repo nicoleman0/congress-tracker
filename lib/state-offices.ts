@@ -78,4 +78,12 @@ export const stateMembers = () => publication.members;
 export const GROUP_NAMES: Record<string, string> = { wfp: "Working Families Party", or: "Our Revolution", dsa: "DSA", rfs: "Run for Something", pccc: "PCCC", sunrise: "Sunrise Movement" };
 export const stateCoverage = (state: string) => publication.coverage.filter((c) => c.state === state);
 export const getStateMember = (id: string) => stateMembers().filter((m) => m.id === id).sort((a, b) => ["serving", "incoming"].indexOf(a.term.status) - ["serving", "incoming"].indexOf(b.term.status))[0];
+// One row per person and seat: a re-elected member's incoming term folds into their serving one.
+export const stateListings = () => {
+  const all = stateMembers(), key = (m: StateMember) => `${m.id}|${m.seat.id}`;
+  const serving = new Set(all.filter((m) => m.term.status === "serving").map(key));
+  return all.filter((m) => !(m.term.status === "incoming" && serving.has(key(m))))
+    .map((m) => ({ ...m, reelected: m.term.status === "serving" && all.some((o) => o.term.status === "incoming" && key(o) === key(m)) }));
+};
+export const stateStatusNote = (m: StateMember & { reelected: boolean }) => (m.reelected ? " · Re-elected" : m.term.status === "incoming" ? " · Incoming" : "");
 export const stateSeatLabel = (m: StateMember) => `${m.state} ${m.seat.chamber}${m.seat.district ? ` · District ${m.seat.district}` : ""}${m.seat.seat_label ? ` · ${m.seat.seat_label}` : ""}`;

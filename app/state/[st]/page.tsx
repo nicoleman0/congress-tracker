@@ -4,7 +4,7 @@ import { ActionList, MemberList } from "@/components/ui";
 import { CONTACT_HOUSE, CONTACT_SENATE, OPPOSE, PLUG_IN } from "@/lib/actions";
 import { getState, membersIn } from "@/lib/data";
 import { STATES } from "@/lib/states";
-import { coverageComplete, GROUP_NAMES, stateCoverage, stateMembers, statePublicationVersion, stateSeatLabel } from "@/lib/state-offices";
+import { coverageComplete, GROUP_NAMES, stateCoverage, stateListings, stateStatusNote, statePublicationVersion, stateSeatLabel } from "@/lib/state-offices";
 
 export function generateStaticParams() {
   return STATES.map((s) => ({ st: s.code.toLowerCase() }));
@@ -23,7 +23,7 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
   if (!state) notFound();
 
   const members = membersIn(state.code);
-  const local = stateMembers().filter((m) => m.state === state.code);
+  const local = stateListings().filter((m) => m.state === state.code);
   const governors = local.filter((m) => m.seat.office === "governor" && m.term.status !== "unresolved");
   const legislators = local.filter((m) => m.seat.office !== "governor" && m.term.status !== "unresolved");
   const races = local.filter((m) => m.term.status === "unresolved");
@@ -69,13 +69,13 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
       {statePublicationVersion && governors.length > 0 && (
         <section className="section" aria-labelledby="governor-title">
           <h2 id="governor-title">Governor</h2>
-          <ul className="roster jd-ruled">{governors.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
+          <ul className="roster jd-ruled">{governors.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}</ul>
         </section>
       )}
       {statePublicationVersion && legislators.length > 0 && (
         <section className="section" aria-labelledby="legislature-title">
           <h2 id="legislature-title">State legislature</h2>
-          <ul className="roster jd-ruled">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{m.term.status === "incoming" && " · Incoming"}</span></li>)}</ul>
+          <ul className="roster jd-ruled">{legislators.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}</ul>
         </section>
       )}
       {statePublicationVersion && races.length > 0 && <section className="section" aria-labelledby="races-title"><h2 id="races-title">Unresolved state races</h2><ul className="roster jd-ruled">{races.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)} · Not called</span></li>)}</ul></section>}

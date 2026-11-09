@@ -2,14 +2,14 @@ import Link from "next/link";
 import { MemberList } from "@/components/ui";
 import { listedMembers, membersIn, newClass } from "@/lib/data";
 import { STATES } from "@/lib/states";
-import { stateMembers, statePublicationVersion } from "@/lib/state-offices";
+import { stateListings, statePublicationVersion } from "@/lib/state-offices";
 
 export default function Home() {
   const fresh = newClass();
   const senate = fresh.filter((m) => m.office === "senate");
   const house = fresh.filter((m) => m.office === "house");
   const total = listedMembers().length;
-  const stateTotal = stateMembers().length;
+  const stateTotal = stateListings().length;
 
   return (
     <>
@@ -41,7 +41,7 @@ export default function Home() {
         <h2 id="states-title" className="section-title"><span className="jd-ink">Browse by state</span></h2>
         <ul className="state-grid jd-ruled">
           {STATES.map((s) => {
-            const n = membersIn(s.code).length + stateMembers().filter((m) => m.state === s.code).length;
+            const n = membersIn(s.code).length + stateListings().filter((m) => m.state === s.code).length;
             return (
               <li key={s.code}>
                 <Link href={`/state/${s.code.toLowerCase()}`} className={n ? undefined : "state-none"}>{s.name}</Link>
