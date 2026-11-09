@@ -430,10 +430,6 @@ p {
 .bars-label { font-weight: 600; }
 .bars-value { font-variant-numeric: tabular-nums; text-align: right; }
 .bars-detail { display: block; grid-column: 1 / -1; font-weight: 400; }
-.issue-bars summary { cursor: pointer; list-style: none; }
-.issue-bars summary::-webkit-details-marker { display: none; }
-.issue-bars summary .bars-label::after { content: " +"; color: var(--ultra); }
-.issue-bars details[open] summary .bars-label::after { content: " −"; }
 .name-list { columns: 16rem; padding-left: 1.2rem; margin: var(--s-1) 0 var(--s-2); }
 .name-list .jd-meta { font-size: 0.85rem; }
 
@@ -453,7 +449,7 @@ p {
 .money-total { font-size: 1.5rem; font-variant-numeric: tabular-nums; }
 .money-amount { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .money-all { margin-top: var(--s-1); font-size: 0.9rem; }
-.money-all summary { cursor: pointer; color: var(--ultra); width: fit-content; }
+.money-all summary { color: var(--ultra); width: fit-content; }
 .money-all ol { list-style: none; padding: 0; margin: var(--s-1) 0 0; }
 .money-all li { display: flex; justify-content: space-between; gap: var(--s-2); padding: 0.35rem 0; }
 
