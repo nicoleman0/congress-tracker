@@ -22,6 +22,7 @@ Agreed with the user on 8 November 2026.
 - A primary endorsement in the same election cycle can qualify a general-election winner. Record the election stage and any subsequent withdrawal of support.
 - Do not treat party affiliation, organization membership, training, donations or a candidate's unsupported endorsement claim as an endorsement.
 - Retain withdrawn endorsements as evidence, but do not use them to qualify a listing. Another valid endorsement can still qualify it.
+- A legislator on the official current roster for the endorsed seat (Open States, which links each member's official page) counts as having won it; no separate result source is needed. Incoming winners still need a results source. Agreed 9 November 2026.
 - Appointees without a qualifying endorsement for the election that won their current term are excluded.
 - Mayors, DC Council, lieutenant governors, other statewide offices and territorial offices are outside this release.
 

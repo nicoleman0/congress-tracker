@@ -95,7 +95,17 @@ async function main() {
       { who: e.person, kind: "service", c: e.current?.service_source ?? null },
     ]).filter((x): x is { who: string; kind: string; c: Cite } => !!x.c);
     const pages = new Map<string, string | null>();
-    for (const url of new Set(cites.filter((x) => x.c.excerpt).map((x) => x.c.url))) pages.set(url, savedCopy(url) ?? await fetchPage(url));
+    // Some hosts (Ballotpedia) return empty pages when hit quickly, so space requests to the same host.
+    const lastHit = new Map<string, number>();
+    for (const url of new Set(cites.filter((x) => x.c.excerpt).map((x) => x.c.url))) {
+      const saved = savedCopy(url);
+      if (saved !== null) { pages.set(url, saved); continue; }
+      const host = new URL(url).host;
+      const wait = (lastHit.get(host) ?? 0) + 1500 - Date.now();
+      if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+      pages.set(url, await fetchPage(url));
+      lastHit.set(host, Date.now());
+    }
     const results = cites.map((x) => ({ ...x, result: x.c.excerpt ? judge(pages.get(x.c.url) ?? null, x.c.excerpt) : "no excerpt" }));
     const count = (r: string) => results.filter((x) => x.result === r).length;
     console.log(`\n${file}: ${r.endorsements.length} endorsements, ${cites.length} citations`);
