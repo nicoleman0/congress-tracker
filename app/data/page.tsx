@@ -101,9 +101,9 @@ export default function Data() {
         <ul className="issue-bars">
           {coverage.map((c) => (
             <li key={c.issue}>
-              <details>
+              <details className="jd-disclosure jd-disclosure--marked">
                 <summary className="jd-ruled-row">
-                  <span className="bars-label">{c.name}</span>
+                  <span className="bars-label jd-disclosure__label">{c.name}</span>
                   <span className="bars-value">{c.members.length} of {members.length}</span>
                   <Meter value={c.members.length} total={members.length} label={`${c.name}: ${c.members.length} of ${members.length}`} />
                   {c.onRecord.length > 0 && <span className="bars-detail jd-secondary">{c.onRecord.length} back it with a sponsored or cosponsored bill</span>}
