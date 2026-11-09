@@ -1,3 +1,4 @@
+import { PaginatedList } from "@/components/PaginatedList";
 import type { CSSProperties } from "react";
 import Link from "next/link";
 import { getGroup, listedMembers, seatLabel, type Member } from "@/lib/data";
@@ -22,9 +23,9 @@ function Meter({ value, total, mark, under, label }: { value: number; total: num
 
 function MemberLinks({ members }: { members: Member[] }) {
   return (
-    <ul className="name-list">
+    <PaginatedList className="name-list" label="Members on record">
       {members.map((m) => <li key={m.id}><Link href={`/member/${m.id}`}>{m.name}</Link> <span className="jd-meta">{seatLabel(m)}</span></li>)}
-    </ul>
+    </PaginatedList>
   );
 }
 

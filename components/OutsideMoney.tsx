@@ -1,3 +1,4 @@
+import { PaginatedList } from "@/components/PaginatedList";
 import type { CSSProperties } from "react";
 import Link from "next/link";
 import { formatChecked } from "@/lib/freshness";
@@ -69,14 +70,14 @@ export function OutsideMoney({ spends }: { spends: Spend[] }) {
             </ul>
             <details className="money-all jd-disclosure">
               <summary>All {groups.length} {groups.length === 1 ? "group" : "groups"} by election</summary>
-              <ol className="jd-ruled">
+              <PaginatedList ordered className="jd-ruled" label={`${side === "oppose" ? "Opposing" : "Supporting"} groups`}>
                 {groups.map((g) => (
                   <li key={g.committee}>
                     <span><Spender g={g} /> <span className="jd-small">{g.stages.join(", ")}</span></span>
                     <span className="money-amount">{dollars(g.total)}</span>
                   </li>
                 ))}
-              </ol>
+              </PaginatedList>
             </details>
           </div>
         );
