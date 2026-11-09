@@ -25,8 +25,9 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
 
   const members = membersIn(state.code);
   const local = stateMembers().filter((m) => m.state === state.code);
-  const governors = local.filter((m) => m.seat.office === "governor");
-  const legislators = local.filter((m) => m.seat.office !== "governor");
+  const governors = local.filter((m) => m.seat.office === "governor" && m.term.status !== "unresolved");
+  const legislators = local.filter((m) => m.seat.office !== "governor" && m.term.status !== "unresolved");
+  const races = local.filter((m) => m.term.status === "unresolved");
   const gaps = stateCoverage(state.code).filter((c) => !coverageComplete(c));
   const senators = members.filter((m) => m.office === "senate");
   const house = members
@@ -80,7 +81,7 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
       {statePublicationVersion && gaps.length > 0 && (
         <section className="section" aria-labelledby="gaps-title">
           <h2 id="gaps-title">Not fully checked</h2>
-          <p className="note">State-office endorsements from these groups may be missing here.</p>
+          <p className="jd-note">State-office endorsements from these groups may be missing here.</p>
           <ul className="roster jd-ruled">{gaps.map((c) => <li key={c.group_code}>{GROUP_NAMES[c.group_code]}<span className="roster-seat jd-secondary">{c.status === "blocked" ? "Some sources could not be checked." : "Not yet researched."} As of {formatChecked(c.checked_at)}.</span></li>)}</ul>
         </section>
       )}
