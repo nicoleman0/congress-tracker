@@ -62,7 +62,7 @@ export default function Data() {
   return (
     <>
       <header className="page-header">
-        <h1><span className="ink">By the numbers</span></h1>
+        <h1><span className="jd-ink">By the numbers</span></h1>
         <p className="lede">How many progressives will sit in Congress, where they stand, and who spent money to beat them.</p>
         <p className="jd-meta">Counts cover the {members.length} members we list. <Link href="/method">How we pick</Link>.</p>
       </header>

@@ -7,7 +7,7 @@ export default function Method() {
   return (
     <>
       <header className="page-header">
-        <h1><span className="ink">How we pick</span></h1>
+        <h1><span className="jd-ink">How we pick</span></h1>
       </header>
 
       <section className="section" aria-labelledby="who-title">

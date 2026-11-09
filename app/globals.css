@@ -115,15 +115,6 @@ p {
   text-wrap: pretty;
 }
 
-/* Display type prints unevenly: blotchy ink density, and a lime pass that
-   slipped a little. Inline, so the masked box covers descenders: Chrome
-   clips a block's mask to its tight line box despite no-clip. */
-.ink {
-  text-shadow: max(2px, 0.03em) max(1px, 0.02em) 0 var(--lime);
-  -webkit-mask: var(--ink-mask) 0 0 / 260px 260px repeat;
-  mask: var(--ink-mask) 0 0 / 260px 260px repeat;
-}
-
 /* ============================================================
    Header / nav
    ============================================================ */
