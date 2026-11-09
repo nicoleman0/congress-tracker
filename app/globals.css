@@ -1,35 +1,5 @@
-/* Two-ink riso print, carried over from corvus-dev.com (~/dev/blog, DESIGN.md there).
-   Ultramarine prints everything; lime marks the one action on a screen. Light only. */
 :root {
-  color-scheme: light;
-
-  --font-display: "Funnel Display Variable", "Helvetica Neue", Arial, sans-serif;
-  --font-body: "Funnel Sans Variable", "Helvetica Neue", Arial, sans-serif;
-
-  --measure: 42rem;
-  --wide: 76rem;
-  --gutter: clamp(1.25rem, 5vw, 4rem);
-  --radius: 2px;
   --header-h: 5.5rem;
-
-  --s-1: 0.5rem;
-  --s-2: 1rem;
-  --s-3: 1.5rem;
-  --s-4: 2.5rem;
-  --s-5: 4rem;
-  --s-6: 6.5rem;
-
-  --ground: #eef0f9;
-  --paper: #ffffff;
-  --ultra: #2f17f0;
-  --ultra-deep: #2410c4;
-  --lime: #c4f01c;
-  --ink: #17161f;
-  --muted: #4a4a63;
-  --rule: color-mix(in srgb, var(--ultra) 28%, transparent);
-
-  /* Alpha mask for uneven riso ink: slow blotches times fine speckle. */
-  --ink-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='i' x='0' y='0' width='100%25' height='100%25'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.025' numOctaves='2' seed='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0' result='a'/%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' seed='9' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0' result='b'/%3E%3CfeComposite in='a' in2='b' operator='arithmetic' k2='-1.1' k3='-1' k4='2.05'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23i)'/%3E%3C/svg%3E");
 }
 
 /* ============================================================
