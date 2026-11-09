@@ -22,6 +22,7 @@ Decided 2026-11-09: ship with dated coverage gaps. The gate accepts `blocked` an
 
 1. Build the batch: `tsx scripts/roster-import.ts OUT research_notes/roster/*.json`, then `import`, `review`, `check`, `publish --confirm-gaps`, `export` (see `db/state-offices/README.md`).
 2. Recheck 2026 results once certified; many entries are `pending` or `unknown` and are excluded until then.
-3. Not yet used: `matches.tsv` for the 38 unresearched states. Its 2026 WFP matches are sitting incumbents, so they need 2026 results before they qualify.
-
-Untracked `scripts/outside-money.ts` is not part of this work and breaks `tsc` (missing `lib/money.ts`).
+3. Parked 2026-11-09 for cost. The 38 unresearched states stay `in_progress`. Pick up after 2026 certification with one results pass, not per-state agents.
+   - `scripts/roster-seed.ts` drafts research files for those states from `matches.tsv`, term rules and `cycle-check.tsv`. It needs sourced term rules per state before it can list anyone.
+   - `research_notes/national/term-rules/batch2.json` is partial and unverified (KS, LA, MD, MO only; one KS excerpt is known wrong). Haiku agents were blocked by most .gov statute pages; fetch them with `scripts/check-platform.ts` instead.
+   - `research_notes/national/cycle-check.tsv` has no verbatim excerpts and many answers come from search snippets. The seed script only trusts a `yes` that cites a results URL.
