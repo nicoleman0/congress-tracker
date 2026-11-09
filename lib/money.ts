@@ -61,3 +61,36 @@ export const mostOpposed = (members = listedMembers(), spending = file.spending)
 
 export const dollars = (n: number) =>
   n >= 1_000_000 ? `$${(n / 1_000_000).toFixed(1)} million` : `$${Math.round(n).toLocaleString("en-US")}`;
+
+// FEC names are all caps with legal clauses. Readable form: drop "(…)", "DBA …", "INC." and the like, then title-case.
+const ACRONYMS = new Set("AFL AFP AFSCME AFT AIPAC AP API BDA CAP CIO CLF COPE CSP CVA CWC DLP DMFI FF HMP JDCA LCV LGBTQ MAGA MN NAKASEC NEA NY NYFB PA PAC PAF SD SEED SEIU SF SURJ TX UAW UDP USA".split(" "));
+const SMALL = new Set("a an and at by for in of on or the to with".split(" "));
+const NAME_OVERRIDES: Record<string, string> = {
+  "AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES  P E O P L E": "AFSCME People",
+  "CATHOLICVOTE.ORG": "CatholicVote.org",
+  "GIVEGREEN UNITED ACTION": "GiveGreen United Action",
+  "GRAYPAC": "GrayPAC",
+  "MOMSRISING PAC": "MomsRising PAC",
+  "MOVEON.ORG POLITICAL ACTION": "MoveOn.org Political Action",
+  "TAKEACTION MN FEDERAL FUND": "TakeAction MN Federal Fund",
+  "VOTEVETS": "VoteVets",
+  "UAW - V - CAP (UAW VOLUNTARY COMMUNITY ACTION PROGRAM) 'INT'L UNION UNITED AUTOMOBILE AEROSPACE & AGRICULTURAL IMPLEMENT WORKERS OF AMERICA UAW": "UAW V-CAP",
+  "WESTERN STATES REGIONAL COUNCIL OF CARPENTERS LEGISLATIVE IMPROVEMENT CMTE UNITED BROTHERHOOD OF CARPENTERS & JOINERS OF AMERICA": "Western States Regional Council of Carpenters",
+};
+
+const caseWord = (w: string, first: boolean) =>
+  w.split("-").map((p) => {
+    if (ACRONYMS.has(p.replace(/[^A-Z]/g, ""))) return p;
+    const lower = p.toLowerCase();
+    return !first && SMALL.has(lower) ? lower : lower.charAt(0).toUpperCase() + lower.slice(1);
+  }).join("-");
+
+export function committeeName(fecName: string): string {
+  if (NAME_OVERRIDES[fecName]) return NAME_OVERRIDES[fecName];
+  const core = fecName
+    .split(/\s*\(|\s+DBA\s|,\s*SPONSORED BY\s|:\s/)[0]
+    .replace(/,?\s+(INC|L\.L\.C|LLC)\.?$/, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  return core.split(" ").map((w, i) => caseWord(w, i === 0)).join(" ");
+}
