@@ -21,9 +21,9 @@ test("seat matches put the exact district first", () => {
 });
 
 test("state name matches every member there", () => {
-  const ids = find("Colorado");
-  assert.ok(ids.length > 0);
-  assert.ok(ids.every((id) => id.startsWith("co-")));
+  const found = searchMembers(searchEntries(), "Colorado", 200);
+  assert.ok(found.length > 0);
+  assert.ok(found.every((e) => e.stateName === "Colorado"));
 });
 
 test("blank or unmatched queries return nothing", () => {
