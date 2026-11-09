@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getGroup, listedMembers, seatLabel, type Member } from "@/lib/data";
 import { formatChecked } from "@/lib/freshness";
-import { blocSize, issueCoverage, SEATS } from "@/lib/metrics";
+import { blocSize, chamber, issueCoverage, SEATS } from "@/lib/metrics";
 import { dollars, fecSpenderUrl, moneyFile, mostOpposed, sum, topSpenders, type Spender } from "@/lib/money";
 
 export const metadata = { title: "By the numbers" };
@@ -9,9 +9,10 @@ export const metadata = { title: "By the numbers" };
 const TOP = 10;
 const CAUCUS_URL = getGroup("CAUCUS").url;
 
-function Meter({ value, total, mark, label }: { value: number; total: number; mark?: number; label: string }) {
+function Meter({ value, total, mark, under, label }: { value: number; total: number; mark?: number; under?: number; label: string }) {
   return (
     <div className="meter" role="img" aria-label={label}>
+      {under !== undefined && <span className="meter-fill meter-fill--under" style={{ width: `${(under / total) * 100}%` }} />}
       <span className="meter-fill" style={{ width: `${(value / total) * 100}%` }} />
       {mark && <span className="meter-mark" style={{ left: `${(mark / total) * 100}%` }} />}
     </div>
@@ -68,20 +69,29 @@ export default function Data() {
       <section className="section" aria-labelledby="bloc-title">
         <h2 id="bloc-title">How big is the bloc</h2>
         <div className="stat-grid">
-          {[house, senate].map((b) => (
-            <div key={b.office} className="stat">
-              <p className="stat-number">{b.seated} <span className="stat-of">of {SEATS[b.office].total}</span></p>
-              <p className="stat-label">{b.office === "house" ? "House" : "Senate"} seats from January 3, 2027</p>
-              <Meter value={b.seated} total={SEATS[b.office].total} mark={SEATS[b.office].majority}
-                label={`${b.seated} of ${SEATS[b.office].total} seats; ${SEATS[b.office].majority} is a majority`} />
-              <p className="meta">{b.returning} returning · {b.new} new · {SEATS[b.office].majority} is a majority{b.unresolved > 0 && ` · ${b.unresolved} more race${b.unresolved > 1 ? "s" : ""} not decided`}</p>
-            </div>
-          ))}
+          {[house, senate].map((b) => {
+            const seats = SEATS[b.office];
+            const dems = chamber(b.office);
+            return (
+              <div key={b.office} className="stat">
+                <p className="stat-number">{b.seated} <span className="stat-of">of {dems.democrats} Democrats</span></p>
+                <p className="stat-label">{b.office === "house" ? "House" : "Senate"} seats from January 3, 2027</p>
+                <Meter value={b.seated} under={dems.democrats} total={seats.total} mark={seats.majority}
+                  label={`${b.seated} progressives among ${dems.democrats} Democrats, of ${seats.total} seats; ${seats.majority} is a majority`} />
+                <ul className="legend">
+                  <li><span className="swatch" /> Progressives listed here</li>
+                  <li><span className="swatch swatch--under" /> All Democrats</li>
+                  <li><span className="swatch swatch--mark" /> Majority, {seats.majority}</li>
+                </ul>
+                <p className="meta">
+                  {b.returning} returning · {b.new} new{b.unresolved > 0 && ` · ${b.unresolved} undecided`} · Democrats per{" "}
+                  <a href={dems.source.url} target="_blank" rel="noopener noreferrer">{dems.source.label}</a>, {dems.checkedAt.slice(0, 10)}, {dems.uncalled} uncalled
+                </p>
+              </div>
+            );
+          })}
         </div>
-        <p className="note">
-          The Senate count is low by design. Only one senator, Bernie Sanders, belongs to the{" "}
-          <a href={CAUCUS_URL} target="_blank" rel="noopener noreferrer">Progressive Caucus</a>, so the rest are senators endorsed by our groups in 2026.
-        </p>
+        <p className="note">Only one senator, Bernie Sanders, is in the <a href={CAUCUS_URL} target="_blank" rel="noopener noreferrer">Progressive Caucus</a>. The other three were endorsed in 2026.</p>
       </section>
 
       <section className="section" aria-labelledby="issues-title">
@@ -144,10 +154,7 @@ export default function Data() {
         <SpenderList spenders={topSpenders(members, "support")} />
 
         <p className="note">
-          From independent expenditures filed with the FEC, checked {formatChecked(money.checkedAt)}. We count regular reports only.
-          Spending in the last weeks before November 3 shows up once post-election reports are filed, due December 3, 2026.
-          Candidates who lost their primary aren&apos;t listed here, so primary spending against progressives is higher than shown.
-          {money.missing.length > 0 && ` ${money.missing.length} members have no FEC committee on file with us and are left out.`}
+          Source: FEC, {formatChecked(money.checkedAt)}. Excludes late-October spending until December 3 filings, and candidates who lost primaries. <Link href="/method">Method</Link>.
         </p>
       </section>
     </>

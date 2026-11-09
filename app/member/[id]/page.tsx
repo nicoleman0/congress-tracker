@@ -133,7 +133,9 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
       </section>
       <section className="section" aria-labelledby="money-title">
         <h2 id="money-title">Outside money</h2>
-        {spends.length === 0 ? (
+        {moneyFile().missing.includes(m.id) ? (
+          <p className="note">We don&apos;t have an FEC committee on file for {m.name} yet.</p>
+        ) : spends.length === 0 ? (
           <p className="note">No outside spending for or against {m.name} reported to the FEC in {moneyFile().cycle}.</p>
         ) : (
           <>
@@ -158,7 +160,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
                 );
               })}
             </dl>
-            <p className="note">Independent expenditures from FEC regular reports, checked {formatChecked(moneyFile().checkedAt)}. Late-October spending appears after December 3 filings.</p>
+            <p className="note">Source: FEC, {formatChecked(moneyFile().checkedAt)}. Late-October spending posts after December 3.</p>
           </>
         )}
       </section>
