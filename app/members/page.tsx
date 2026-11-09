@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { OfficeFilter } from "@/components/OfficeFilter";
 import { StatusBadge } from "@/components/ui";
 import { listedMembers, seatLabel, type Member } from "@/lib/data";
 import { stateListings, stateStatusNote, statePublicationVersion, stateSeatLabel } from "@/lib/state-offices";
@@ -22,7 +23,7 @@ export default async function Members({ searchParams }: PageProps<"/members">) {
   const federal = office === "all" || office === "congress" ? members : [];
   return <>
     <header className="page-header"><h1><span className="jd-ink">All members</span></h1><p className="jd-meta">{federal.length + confirmed.length} listed{races.length > 0 && ` · ${races.length} unresolved state races`}.</p></header>
-    {statePublicationVersion && <nav aria-label="Filter by office"><ul className="list">{[["all", "All offices"], ["congress", "Congress"], ["governor", "Governors"], ["legislature", "State legislatures"]].map(([value, label]) => <li key={value}><Link href={value === "all" ? "/members" : `/members?office=${value}`} aria-current={office === value ? "page" : undefined}>{label}</Link></li>)}</ul></nav>}
+    {statePublicationVersion && <OfficeFilter office={office} />}
     <ul className="roster jd-ruled">
       {federal.map((m) => <li key={m.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{seatLabel(m)}{m.status !== "won" && <> <StatusBadge status={m.status} /></>}</span></li>)}
       {confirmed.map((m) => <li key={m.term.id}><Link href={`/member/${m.id}`}>{m.name}</Link><span className="roster-seat jd-secondary">{stateSeatLabel(m)}{stateStatusNote(m)}</span></li>)}

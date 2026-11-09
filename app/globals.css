@@ -676,3 +676,9 @@ p {
     animation: none !important;
   }
 }
+
+/* Office filter on /members: a short select, clear of the list below. */
+.office-filter {
+  max-width: 20rem;
+  margin-bottom: var(--s-3);
+}
