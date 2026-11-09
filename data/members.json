@@ -496,14 +496,14 @@
         "WFP"
       ],
       "status": "pending",
-      "note": "Trails Doris Matsui, 44.3% to 55.7%, with 67% of the vote counted.",
+      "note": "Trails Doris Matsui, 44.2% to 55.8%, with 68.5% of the vote counted.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-7-results"
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09T23:15Z",
       "campaign": {
         "url": "https://www.maiforus.com",
         "fec": "C00918037"
@@ -1290,7 +1290,7 @@
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/florida-us-house-district-9-results"
       },
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09T23:15Z",
       "campaign": {
         "url": "https://www.darrensoto.com",
         "fec": "C00581074"
