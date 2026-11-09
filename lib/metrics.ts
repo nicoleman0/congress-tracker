@@ -1,10 +1,28 @@
 // Counts derived from the roster and platform, for the data page.
-import { listedMembers, platformOf, type Member, type Office } from "@/lib/data";
+import rawChambers from "@/data/chambers.json";
+import { listedMembers, platformOf, type Member, type Office, type Source } from "@/lib/data";
+import { CHECKED_AT } from "@/lib/freshness";
 
 export const SEATS: Record<Office, { total: number; majority: number }> = {
   house: { total: 435, majority: 218 },
   senate: { total: 100, majority: 51 },
 };
+
+// Democratic seats (with independents who caucus with them) in the next Congress, from projected results.
+export type Chamber = { democrats: number; uncalled: number; source: Source; checkedAt: string };
+
+export function validateChambers(c: Record<Office, Chamber>, bloc: Bloc[]): Record<Office, Chamber> {
+  for (const b of bloc) {
+    const ch = c[b.office];
+    const fail = (msg: string): never => { throw new Error(`data/chambers.json ${b.office}: ${msg}`); };
+    if (!ch) fail("missing");
+    if (ch.democrats < b.seated) fail(`${ch.democrats} Democrats is fewer than ${b.seated} listed members`);
+    if (ch.democrats + ch.uncalled > SEATS[b.office].total) fail("more seats than the chamber has");
+    if (!ch.source?.url.startsWith("https://")) fail("source needs an https url");
+    if (!CHECKED_AT.test(ch.checkedAt)) fail("checkedAt must be YYYY-MM-DD or YYYY-MM-DDTHH:MMZ");
+  }
+  return c;
+}
 
 export type Bloc = { office: Office; seated: number; returning: number; new: number; unresolved: number };
 
@@ -38,3 +56,6 @@ export function issueCoverage(members: Member[] = listedMembers(), platform = pl
   }
   return [...by.values()].sort((a, b) => b.members.length - a.members.length);
 }
+
+const chambers = validateChambers(rawChambers as Record<Office, Chamber>, blocSize());
+export const chamber = (office: Office) => chambers[office];

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { allMembers, type Member } from "@/lib/data";
-import { blocSize, issueCoverage } from "@/lib/metrics";
+import { blocSize, issueCoverage, validateChambers, type Chamber } from "@/lib/metrics";
 import { dollars, mostOpposed, topSpenders, validateMoney, type Spend } from "@/lib/money";
 import { candidateIdsFor, stageOf, summarize } from "../scripts/outside-money";
 
@@ -78,4 +78,12 @@ test("issue coverage counts members per issue and bill records apart", () => {
   const platform = (id: string) => ({ a: [{ issue: "labor", name: "Labor", stances: [stance("congress")] }], b: [{ issue: "labor", name: "Labor", stances: [stance("campaign")] }] }[id] ?? []);
   const [labor] = issueCoverage([mk("a"), mk("b"), mk("c")], platform);
   assert.deepEqual([labor.members.map((m) => m.id), labor.onRecord.map((m) => m.id)], [["a", "b"], ["a"]]);
+});
+
+test("chamber counts must cover the listed members and fit the chamber", () => {
+  const ch = (democrats: number, uncalled = 0): Chamber => ({ democrats, uncalled, source: { label: "s", url: "https://x" }, checkedAt: "2026-11-09" });
+  const bloc = blocSize([mk("h1", { office: "house", status: "won" }), mk("h2", { office: "house", status: "won" })]);
+  assert.doesNotThrow(() => validateChambers({ house: ch(200, 10), senate: ch(50) }, bloc));
+  assert.throws(() => validateChambers({ house: ch(1), senate: ch(50) }, bloc), /fewer than 2/);
+  assert.throws(() => validateChambers({ house: ch(430, 10), senate: ch(50) }, bloc), /more seats/);
 });

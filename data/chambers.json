@@ -1,0 +1,14 @@
+{
+  "house": {
+    "democrats": 252,
+    "uncalled": 21,
+    "source": { "label": "NBC News", "url": "https://www.nbcnews.com/politics/2026-elections/house-results" },
+    "checkedAt": "2026-11-09T02:03Z"
+  },
+  "senate": {
+    "democrats": 54,
+    "uncalled": 2,
+    "source": { "label": "NBC News", "url": "https://www.nbcnews.com/politics/2026-elections/senate-results" },
+    "checkedAt": "2026-11-09T02:03Z"
+  }
+}
