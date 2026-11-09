@@ -72,7 +72,7 @@ export function OutsideMoney({ spends }: { spends: Spend[] }) {
               <ol className="jd-ruled">
                 {groups.map((g) => (
                   <li key={g.committee}>
-                    <span><Spender g={g} /> <span className="money-stage jd-small">{g.stages.join(", ")}</span></span>
+                    <span><Spender g={g} /> <span className="jd-small">{g.stages.join(", ")}</span></span>
                     <span className="money-amount">{dollars(g.total)}</span>
                   </li>
                 ))}
