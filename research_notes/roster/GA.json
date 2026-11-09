@@ -1,0 +1,2170 @@
+{
+  "state": "GA",
+  "researched_at": "2026-11-09",
+  "chambers": {
+    "upper": "Senate",
+    "lower": "House of Representatives"
+  },
+  "endorsements": [
+    {
+      "person": "Gabriel Sanchez",
+      "office": "lower",
+      "district": "42",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "excerpt": "Rep. Gabriel Sanchez for State House District 42"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"82\",\"name\":\"Gabriel Sanchez (I) (Dem)\",\"ballotOrder\":90,\"voteCount\":16603,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5068"
+      },
+      "notes": "Georgia WFP primary-endorsement press release dated 2026-03-19, before the 2026-05-19 primary. Also on the national candidate list (https://workingfamilies.org/candidates/). SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 42 - Dem): Gabriel Sanchez (I) 6,217; Carlos Vilela 1,346. General 2026-11-03 (State House of Representatives - District 42): Gabriel Sanchez (I) (Dem) 16,603; André Stafford (Rep) 5,771. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Gabriel Sanchez for this seat now, official page https://www.legis.ga.gov/members/house/5068."
+    },
+    {
+      "person": "Cynthia Starke-Jones",
+      "office": "lower",
+      "district": "19",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Cynthia Starke-Jones Georgia State House, District 19"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"36\",\"name\":\"Cynthia Starke-Jones (Dem)\",\"ballotOrder\":59,\"voteCount\":14893,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 19 - Dem): Cynthia Starke-Jones 6,022. General 2026-11-03 (State House of Representatives - District 19): Cynthia Starke-Jones (Dem) 14,893; Joseph Gullett (I)(Rep) 13,785. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Danielle Bell",
+      "office": "lower",
+      "district": "44",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Danielle Bell Georgia State House, District 44"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"46\",\"name\":\"Danielle Bell (Dem)\",\"ballotOrder\":75,\"voteCount\":14539,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 44 - Dem): Danielle Bell 5,233. General 2026-11-03 (State House of Representatives - District 44): Danielle Bell (Dem) 14,539; Don L. Parsons (I) (Rep) 13,410. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Michelle Schreiner",
+      "office": "lower",
+      "district": "45",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Michelle Schreiner Georgia State House, District 45"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"90\",\"name\":\"Michelle Schreiner (Dem)\",\"ballotOrder\":98,\"voteCount\":15287,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) does not list this candidate among its wins. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 45 - Dem): Michelle Schreiner 5,382. General 2026-11-03 (State House of Representatives - District 45): Sharon Cooper (I) (Rep) 16,416; Michelle Schreiner (Dem) 15,287. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified."
+    },
+    {
+      "person": "Dumont Walker",
+      "office": "lower",
+      "district": "46",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Dumont Walker Georgia State House, District 46"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"48\",\"name\":\"Dumont J. Walker (Dem)\",\"ballotOrder\":78,\"voteCount\":14972,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) does not list this candidate among its wins. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 46 - Dem): Dumont J. Walker 5,375. General 2026-11-03 (State House of Representatives - District 46): John Carson (I) (Rep) 16,021; Dumont J. Walker (Dem) 14,972. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified."
+    },
+    {
+      "person": "Bryce Berry",
+      "office": "lower",
+      "district": "56",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "excerpt": "Rep. Bryce Berry for State House District 56"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"64\",\"name\":\"Bryce Berry (I)(Dem)\",\"ballotOrder\":102,\"voteCount\":18469,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5069"
+      },
+      "notes": "Georgia WFP primary-endorsement press release dated 2026-03-19, before the 2026-05-19 primary. Also on the national candidate list (https://workingfamilies.org/candidates/). SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 56 - Dem): Bryce Berry (I) 6,935. General 2026-11-03 (State House of Representatives - District 56): Bryce Berry (I)(Dem) 18,469. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Bryce Berry for this seat now, official page https://www.legis.ga.gov/members/house/5069."
+    },
+    {
+      "person": "Mathewos Samson",
+      "office": "lower",
+      "district": "58",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Mathewos Samson Georgia State House, District 58"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"68\",\"name\":\"Mathewos Samson (Dem)\",\"ballotOrder\":108,\"voteCount\":22022,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 58 - Dem): Demetria Henderson 3,967; Mathewos Samson 2,994; Kyle Lamont 2,262; Edith M. Ladipo 957. Democratic primary runoff 2026-06-16 (State House of Representatives - District 58 - Dem): Mathewos Samson 3,539; Demetria Henderson 1,802. General 2026-11-03 (State House of Representatives - District 58): Mathewos Samson (Dem) 22,022; Torrey Balam (Rep) 1,889. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Kenn Collier",
+      "office": "lower",
+      "district": "62",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "excerpt": "Kenn Collier for State House District 62"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"74\",\"name\":\"Kenn Collier (Dem)\",\"ballotOrder\":118,\"voteCount\":23011,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "Georgia WFP primary-endorsement press release dated 2026-03-19, before the 2026-05-19 primary. Also on the national candidate list (https://workingfamilies.org/candidates/). SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 62 - Dem): Kenn Collier 4,305; Kavon Arnold 3,596; Matt Rinker 2,687; W Horace Roseberry III 653. Democratic primary runoff 2026-06-16 (State House of Representatives - District 62 - Dem): Kenn Collier 3,359; Kavon Arnold 2,046. General 2026-11-03 (State House of Representatives - District 62): Kenn Collier (Dem) 23,011. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Kim Schofield",
+      "office": "lower",
+      "district": "63",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Kim Schofield Georgia State House, District 63"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"75\",\"name\":\"Kim Schofield (I)(Dem)\",\"ballotOrder\":120,\"voteCount\":20592,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/4916"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 63 - Dem): Kim Schofield (I) 8,858. General 2026-11-03 (State House of Representatives - District 63): Kim Schofield (I)(Dem) 20,592. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Kim Schofield for this seat now, official page https://www.legis.ga.gov/members/house/4916."
+    },
+    {
+      "person": "Bentley Hudgins",
+      "office": "lower",
+      "district": "90",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Bentley Hudgins Georgia State House, District 90"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"55\",\"name\":\"Bentley Hudgins (Dem)\",\"ballotOrder\":90,\"voteCount\":27921,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 90 - Dem): Bentley Hudgins 7,046; Leisa Stafford 3,627. General 2026-11-03 (State House of Representatives - District 90): Bentley Hudgins (Dem) 27,921; Samantha Boston (Rep) 2,280. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Jyot Singh",
+      "office": "lower",
+      "district": "97",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "excerpt": "Jyot Singh for State House District 97"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"59\",\"name\":\"Jyot Singh (Dem)\",\"ballotOrder\":97,\"voteCount\":13820,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "Georgia WFP primary-endorsement press release dated 2026-03-19, before the 2026-05-19 primary. Also on the national candidate list (https://workingfamilies.org/candidates/). SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 97 - Dem): Jyot Singh 3,401; Jacques Laurent 2,351. General 2026-11-03 (State House of Representatives - District 97): Jyot Singh (Dem) 13,820; Yassin Moghazy (Rep) 6,509. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Marvin Lim",
+      "office": "lower",
+      "district": "98",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "excerpt": "Rep. Marvin Lim for State House District 98"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"60\",\"name\":\"Marvin Lim (I) (Dem)\",\"ballotOrder\":99,\"voteCount\":8173,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/4999"
+      },
+      "notes": "Georgia WFP primary-endorsement press release dated 2026-03-19, before the 2026-05-19 primary. Also on the national candidate list (https://workingfamilies.org/candidates/). SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 98 - Dem): Marvin Lim (I) 1,739; Brenda Lopez Romero 1,094. General 2026-11-03 (State House of Representatives - District 98): Marvin Lim (I) (Dem) 8,173. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Marvin Lim for this seat now, official page https://www.legis.ga.gov/members/house/4999."
+    },
+    {
+      "person": "Michelle Kang",
+      "office": "lower",
+      "district": "99",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "excerpt": "Michelle Kang for State House District 99"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"62\",\"name\":\"Michelle Kang (Dem)\",\"ballotOrder\":102,\"voteCount\":13695,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "Georgia WFP primary-endorsement press release dated 2026-03-19, before the 2026-05-19 primary. Also on the national candidate list (https://workingfamilies.org/candidates/). SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 99 - Dem): Michelle Kang 3,814; Shelly John Abraham 1,522. General 2026-11-03 (State House of Representatives - District 99): Michelle Kang (Dem) 13,695; Matt Reeves (I) (Rep) 9,734. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Akbar Ali",
+      "office": "lower",
+      "district": "106",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Akbar Ali Georgia State House, District 106"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"71\",\"name\":\"Akbar Ali (I) (Dem)\",\"ballotOrder\":117,\"voteCount\":16632,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5089"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 106 - Dem): Akbar Ali (I) 5,371. General 2026-11-03 (State House of Representatives - District 106): Akbar Ali (I) (Dem) 16,632. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Akbar Ali for this seat now, official page https://www.legis.ga.gov/members/house/5089."
+    },
+    {
+      "person": "Juan Estrada",
+      "office": "lower",
+      "district": "109",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Juan Estrada Georgia State House, District 109"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"76\",\"name\":\"Juan Estrada (Dem)\",\"ballotOrder\":125,\"voteCount\":10666,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 109 - Dem): Juan Estrada 1,982; Nico Parra 974. General 2026-11-03 (State House of Representatives - District 109): Juan Estrada (Dem) 10,666. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Regina Lewis-Ward",
+      "office": "lower",
+      "district": "115",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Regina Lewis-Ward Georgia State House, District 115"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"44\",\"name\":\"Regina Lewis-Ward (I) (Dem)\",\"ballotOrder\":68,\"voteCount\":27104,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5001"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 115 - Dem): Regina Lewis-Ward (I) 15,289. General 2026-11-03 (State House of Representatives - District 115): Regina Lewis-Ward (I) (Dem) 27,104; Darius L. Francis (Rep) 3,629. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Regina Lewis-Ward for this seat now, official page https://www.legis.ga.gov/members/house/5001."
+    },
+    {
+      "person": "El-Mahdi Holly",
+      "office": "lower",
+      "district": "116",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "El-Mahdi Holly Georgia State House, District 116"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"46\",\"name\":\"El-Mahdi Holly (I) (Dem)\",\"ballotOrder\":71,\"voteCount\":22687,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/4954"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 116 - Dem): El-Mahdi Holly (I) 11,697. General 2026-11-03 (State House of Representatives - District 116): El-Mahdi Holly (I) (Dem) 22,687; Samie Lee Conyers (Rep) 3,255. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists El-Mahdi Holly for this seat now, official page https://www.legis.ga.gov/members/house/4954."
+    },
+    {
+      "person": "Suzanna Karatassos",
+      "office": "lower",
+      "district": "120",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Suzanna Karatassos Georgia State House, District 120"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"35\",\"name\":\"Suzanna Karatassos (Dem)\",\"ballotOrder\":57,\"voteCount\":12109,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) does not list this candidate among its wins. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 120 - Dem): Suzanna Karatassos 5,304. General 2026-11-03 (State House of Representatives - District 120): Gary \"Ward\" Black, Jr. (Rep) 13,066; Suzanna Karatassos (Dem) 12,109. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified."
+    },
+    {
+      "person": "Anissa Jones",
+      "office": "lower",
+      "district": "143",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Anissa Jones Georgia State House, District 143"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"31\",\"name\":\"Anissa M. Jones (I) (Dem)\",\"ballotOrder\":52,\"voteCount\":14136,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5081"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 143 - Dem): Anissa M. Jones (I) 5,349. General 2026-11-03 (State House of Representatives - District 143): Anissa M. Jones (I) (Dem) 14,136. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Nissa Jones for this seat now, official page https://www.legis.ga.gov/members/house/5081."
+    },
+    {
+      "person": "Ethan Wolfe",
+      "office": "lower",
+      "district": "151",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Ethan Wolfe Georgia State House, District 151"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"29\",\"name\":\"Ethan Wolfe (Dem)\",\"ballotOrder\":46,\"voteCount\":8024,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) does not list this candidate among its wins. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 151 - Dem): Ethan Wolfe 4,535. General 2026-11-03 (State House of Representatives - District 151): Mike Cheokas (I)(Rep) 9,404; Ethan Wolfe (Dem) 8,024; Travis Lockhart (Ind) 2,212. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified."
+    },
+    {
+      "person": "Stephanie Burgess",
+      "office": "lower",
+      "district": "164",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Stephanie Burgess Georgia State House, District 164"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"29\",\"name\":\"Stephanie O Burgess (Dem)\",\"ballotOrder\":48,\"voteCount\":12459,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 164 - Dem): Stephanie O Burgess 4,860. General 2026-11-03 (State House of Representatives - District 164): Stephanie O Burgess (Dem) 12,459; Ron Stephens (I) (Rep) 11,239. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Ruwa Romman",
+      "office": "upper",
+      "district": "7",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "excerpt": "Rep. Ruwa Romman for State Senate District 7"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"33\",\"name\":\"Ruwa Romman (Dem)\",\"ballotOrder\":56,\"voteCount\":45703,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/senate"
+      },
+      "notes": "Georgia WFP primary-endorsement press release dated 2026-03-19, before the 2026-05-19 primary. Also on the national candidate list (https://workingfamilies.org/candidates/). SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State Senate - District 7/ Senador Estatal del Distrito 7 - Dem): Ruwa Romman 6,859; Rahul Garabadu 5,960; Astrid S. Ross 5,133. Democratic primary runoff 2026-06-16 (State Senate - District 7/ Senador Estatal del Distrito 7 - Dem): Ruwa Romman 4,638; Rahul Garabadu 3,076. General 2026-11-03 (State Senate - District 7/ Senador Estatal del Distrito 7): Ruwa Romman (Dem) 45,703; Aizaz Shahbaz Shaikh (Rep) 23,550. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Nikki Merritt",
+      "office": "upper",
+      "district": "9",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Nikki Merritt Georgia State Senate, District 9"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"35\",\"name\":\"Nikki Merritt (I) (Dem)\",\"ballotOrder\":59,\"voteCount\":52964,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/senate/4978"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State Senate - District 9/ Senador Estatal del Distrito 9 - Dem): Nikki Merritt (I) 21,199. General 2026-11-03 (State Senate - District 9/ Senador Estatal del Distrito 9): Nikki Merritt (I) (Dem) 52,964; Michael Johnson (Rep) 21,563. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Nikki Merritt for this seat now, official page https://www.legis.ga.gov/members/senate/4978."
+    },
+    {
+      "person": "Kenya Wicks",
+      "office": "upper",
+      "district": "34",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Kenya Wicks Georgia State Senate, District 34"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"28\",\"name\":\"Kenya Wicks (I)(Dem)\",\"ballotOrder\":48,\"voteCount\":54849,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/senate/5065"
+      },
+      "notes": "From WFP's national 2026 candidate list, which is undated, so stage defaults to general. WFP's 2026-11-04 post (https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/) also lists this candidate as a win. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State Senate - District 34 - Dem): Kenya Wicks (I) 19,778; Gabriel Martin 5,594. General 2026-11-03 (State Senate - District 34): Kenya Wicks (I)(Dem) 54,849. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Kenya Wicks for this seat now, official page https://www.legis.ga.gov/members/senate/5065."
+    },
+    {
+      "person": "Aaron Baker",
+      "office": "lower",
+      "district": "51",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "excerpt": "Aaron Baker for State House District 51"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-GeneralPrimary51926.json",
+        "excerpt": "\"id\":\"128\",\"name\":\"Aaron Baker\",\"ballotOrder\":128,\"voteCount\":2901,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Georgia WFP primary-endorsement press release dated 2026-03-19, before the 2026-05-19 primary. Not on the national candidate list (https://workingfamilies.org/candidates/), which is current as of 2026-11-08. SOS results export GeneralPrimary51926 (page https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926). Democratic primary 2026-05-19 (State House of Representatives - District 51 - Dem): Esther Panitch (I) 3,767; Aaron Baker 2,901."
+    },
+    {
+      "person": "Alana Sanders",
+      "office": "lower",
+      "district": "113",
+      "issuer": "Georgia Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/georgia/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "excerpt": "Alana Sanders for State House District 113"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-GeneralPrimary51926.json",
+        "excerpt": "\"id\":\"98\",\"name\":\"Alana Sanders\",\"ballotOrder\":98,\"voteCount\":4341,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Georgia WFP primary-endorsement press release dated 2026-03-19, before the 2026-05-19 primary. Not on the national candidate list (https://workingfamilies.org/candidates/), which is current as of 2026-11-08. SOS results export GeneralPrimary51926 (page https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926). Democratic primary 2026-05-19 (State House of Representatives - District 113 - Dem): Karla Daniels Hooper 5,109; Alana Sanders 4,341."
+    },
+    {
+      "person": "Ruwa Romman",
+      "office": "upper",
+      "district": "7",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/rep-ruwa-romman-for-georgia-state-senate/",
+        "excerpt": "Our Revolution is proud to endorse Representative Ruwa Romman for State Senate"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"33\",\"name\":\"Ruwa Romman (Dem)\",\"ballotOrder\":56,\"voteCount\":45703,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/senate"
+      },
+      "notes": "Post published 2026-05-07 (page metadata article:published_time), before the 2026-05-19 primary. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State Senate - District 7/ Senador Estatal del Distrito 7 - Dem): Ruwa Romman 6,859; Rahul Garabadu 5,960; Astrid S. Ross 5,133. Democratic primary runoff 2026-06-16 (State Senate - District 7/ Senador Estatal del Distrito 7 - Dem): Ruwa Romman 4,638; Rahul Garabadu 3,076. General 2026-11-03 (State Senate - District 7/ Senador Estatal del Distrito 7): Ruwa Romman (Dem) 45,703; Aizaz Shahbaz Shaikh (Rep) 23,550. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Mathewos Samson",
+      "office": "lower",
+      "district": "58",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/mathewos-samson-for-georgia-state-house-district-58/",
+        "excerpt": "Our Revolution is proud to endorse Mathewos Samson for Georgia State House District 58"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"68\",\"name\":\"Mathewos Samson (Dem)\",\"ballotOrder\":108,\"voteCount\":22022,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "Post published 2026-10-15 (page metadata article:published_time), after Samson won the 2026-06-16 primary runoff. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 58 - Dem): Demetria Henderson 3,967; Mathewos Samson 2,994; Kyle Lamont 2,262; Edith M. Ladipo 957. Democratic primary runoff 2026-06-16 (State House of Representatives - District 58 - Dem): Mathewos Samson 3,539; Demetria Henderson 1,802. General 2026-11-03 (State House of Representatives - District 58): Mathewos Samson (Dem) 22,022; Torrey Balam (Rep) 1,889. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Gabriel Sanchez",
+      "office": "lower",
+      "district": "42",
+      "issuer": "Atlanta DSA",
+      "group": "dsa",
+      "issuer_source": "https://atldsa.org/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://airtable.com/embed/app41ni7RJppgXEBL/shrlm0oDQJkJsCnSr?backgroundColor=grayLight&viewControls=on",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"37\",\"name\":\"Gabriel Sanchez (Dem)\",\"ballotOrder\":56,\"voteCount\":16689,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2025-01-13",
+        "term_end": "2027-01-11",
+        "status": "serving",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ga.csv",
+          "excerpt": "Gabriel Sanchez"
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5068"
+      },
+      "notes": "Source is DSA's shared past-endorsements Airtable grid (row 47, endorsing chapter Atlanta, 'State Representative, District 42', 'Endorsed 2024', election date 5/21/2024, the primary date). The embed is JavaScript-rendered, so no excerpt can be checked; the row is saved in research_notes/State endorsement gap review/dsa_sunrise_dsa_past_state_sources.json. Atlanta DSA's 2025-12-22 post (https://atldsa.org/2025/12/22/sanchez-endorsement/) says 'In 2024, we made history by electing Representative Sanchez'. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State House of Representatives - District 42 - Dem): Gabriel Sanchez 2,253; Teri Anulewicz (I) 1,713. General 2024-11-05 (State House of Representatives - District 42): Gabriel Sanchez (Dem) 16,689; Diane E. Jackson (Rep) 9,673. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2025-01-13) and ends at the next convening (2027-01-11). Both dates are computed from the rule, not read from a roster. Holds the seat per Open States roster (Open States name: Gabriel Sanchez); official page https://www.legis.ga.gov/members/house/5068."
+    },
+    {
+      "person": "Gabriel Sanchez",
+      "office": "lower",
+      "district": "42",
+      "issuer": "Atlanta DSA",
+      "group": "dsa",
+      "issuer_source": "https://atldsa.org/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://atldsa.org/2025/12/22/sanchez-endorsement/",
+        "excerpt": "Atlanta DSA is proud to once again endorse our comrade Gabriel Sanchez for re-election to the Georgia State House, representing District 42."
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"82\",\"name\":\"Gabriel Sanchez (I) (Dem)\",\"ballotOrder\":90,\"voteCount\":16603,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5068"
+      },
+      "notes": "Post dated 2025-12-22, before the 2026-05-19 primary. Also on https://atldsa.org/candidates/. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 42 - Dem): Gabriel Sanchez (I) 6,217; Carlos Vilela 1,346. General 2026-11-03 (State House of Representatives - District 42): Gabriel Sanchez (I) (Dem) 16,603; André Stafford (Rep) 5,771. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Incumbent re-elected: Open States lists Gabriel Sanchez for this seat now, official page https://www.legis.ga.gov/members/house/5068."
+    },
+    {
+      "person": "Mathewos Samson",
+      "office": "lower",
+      "district": "58",
+      "issuer": "Atlanta DSA",
+      "group": "dsa",
+      "issuer_source": "https://atldsa.org/",
+      "election": {
+        "year": 2026,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://atldsa.org/candidates/",
+        "excerpt": "Atlanta DSA is proud to endorse our Socialist Slate for the Georgia State House MATHEWOS SAMSON District 58"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"68\",\"name\":\"Mathewos Samson (Dem)\",\"ballotOrder\":108,\"voteCount\":22022,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "Candidates page is undated. DSA's current-endorsements Airtable grid (row 13, endorsing chapter Atlanta, election date 6/16/2026, the primary runoff date; saved in dsa_sunrise_dsa_current_state_sources.json) places the endorsement at the primary stage. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 58 - Dem): Demetria Henderson 3,967; Mathewos Samson 2,994; Kyle Lamont 2,262; Edith M. Ladipo 957. Democratic primary runoff 2026-06-16 (State House of Representatives - District 58 - Dem): Mathewos Samson 3,539; Demetria Henderson 1,802. General 2026-11-03 (State House of Representatives - District 58): Mathewos Samson (Dem) 22,022; Torrey Balam (Rep) 1,889. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Phil Olaleye",
+      "office": "lower",
+      "district": "59",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2418/olaleye-phil/",
+        "excerpt": "Phil Olaleye Georgia House, District 59 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022NovGen.json",
+        "excerpt": "\"id\":\"127\",\"name\":\"Phil Olaleye (Dem)\",\"ballotOrder\":1,\"voteCount\":18983,\"politicalParty\":\"DEM\""
+      },
+      "current": {
+        "term_start": "2023-01-09",
+        "term_end": "2025-01-13",
+        "status": "not_serving",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2022NovGen). Democratic primary 2022-05-24 (DEM - State House Dist 59): Phil Olaleye 3,765; Toney Collins 3,228. General 2022-11-08 (State House Dist 59): Phil Olaleye (Dem) 18,983. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2023-01-09) and ends at the next convening (2025-01-13). Both dates are computed from the rule, not read from a roster. That term ended on convening of the next General Assembly; a later re-election is a separate term."
+    },
+    {
+      "person": "Bentley Hudgins",
+      "office": "lower",
+      "district": "90",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2424/hudgins-andrew/",
+        "excerpt": "Bentley Hudgins Georgia House, District 90 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022MayGenPri.json",
+        "excerpt": "\"id\":\"120\",\"name\":\"Bentley Hudgins\",\"ballotOrder\":3,\"voteCount\":1627,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022MayGenPri (page https://results.sos.ga.gov/results/public/Georgia/elections/2022MayGenPri). Democratic primary 2022-05-24 (State House of Representatives - District 90 - Dem): Saira Draper 4,788; Michelle Schreiner 3,877; Bentley Hudgins 1,627; Peter Hubbard 659; Stewart Parnacott 298."
+    },
+    {
+      "person": "Marvin Lim",
+      "office": "lower",
+      "district": "98",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/1846/lim-marvin/",
+        "excerpt": "Marvin Lim Georgia House, District 99 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022NovGen.json",
+        "excerpt": "\"id\":\"65\",\"name\":\"Marvin Lim (I) (Dem)\",\"ballotOrder\":1,\"voteCount\":6064,\"politicalParty\":\"DEM\""
+      },
+      "current": {
+        "term_start": "2023-01-09",
+        "term_end": "2025-01-13",
+        "status": "not_serving",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. The card says House District 99 (his pre-2022-redistricting seat); the 2022 SOS results list him in District 98, so district is 98. SOS results export 2022NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2022NovGen). Democratic primary 2022-05-24 (State House of Representatives - District 98 - Dem): Marvin Lim (I) 1,714. General 2022-11-08 (State House of Representatives - District 98): Marvin Lim (I) (Dem) 6,064. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2023-01-09) and ends at the next convening (2025-01-13). Both dates are computed from the rule, not read from a roster. That term ended on convening of the next General Assembly; a later re-election is a separate term."
+    },
+    {
+      "person": "Nabilah Islam",
+      "office": "upper",
+      "district": "7",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2482/islam-nabilah/",
+        "excerpt": "Nabilah Islam Georgia Senate, District 7 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022NovGen.json",
+        "excerpt": "\"id\":\"39\",\"name\":\"Nabilah Islam (Dem)\",\"ballotOrder\":2,\"voteCount\":32665,\"politicalParty\":\"DEM\""
+      },
+      "current": {
+        "term_start": "2023-01-09",
+        "term_end": "2025-01-13",
+        "status": "not_serving",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2022NovGen). Democratic primary 2022-05-24 (State Senate - District 7/ Senador Estatal del Distrito 7 - Dem): Nabilah Islam 5,745; Beth Moore 5,668. General 2022-11-08 (State Senate - District 7/ Senador Estatal del Distrito 7): Nabilah Islam (Dem) 32,665; Josh McKay (Rep) 29,148. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2023-01-09) and ends at the next convening (2025-01-13). Both dates are computed from the rule, not read from a roster. That term ended on convening of the next General Assembly; a later re-election is a separate term."
+    },
+    {
+      "person": "Chase Stell",
+      "office": "upper",
+      "district": "36",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2491/stell-chase/",
+        "excerpt": "Chase Stell Georgia Senate, District 36 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022MayGenPri.json",
+        "excerpt": "\"id\":\"164\",\"name\":\"Chase Stell\",\"ballotOrder\":3,\"voteCount\":1730,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022MayGenPri (page https://results.sos.ga.gov/results/public/Georgia/elections/2022MayGenPri). Democratic primary 2022-05-24 (DEM - State Senate Dist 36): Nan Orrock (I) 16,485; Asa Smith 3,643; Chase Stell 1,730."
+    },
+    {
+      "person": "Gabrielle Rogers",
+      "office": "lower",
+      "district": "88",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2501/rogers-gabrielle/",
+        "excerpt": "Gabrielle Rogers Georgia House, District 88 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022MayGenPri.json",
+        "excerpt": "\"id\":\"114\",\"name\":\"Gabrielle Rogers\",\"ballotOrder\":2,\"voteCount\":2491,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022MayGenPri (page https://results.sos.ga.gov/results/public/Georgia/elections/2022MayGenPri). Democratic primary 2022-05-24 (State House of Representatives - District 88 - Dem): Billy Mitchell (I) 4,576; Gabrielle Rogers 2,491."
+    },
+    {
+      "person": "Matielyn Jones",
+      "office": "upper",
+      "district": "45",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2789/jones-matielyn/",
+        "excerpt": "Matielyn Jones Georgia Senate, District 45 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022NovGen.json",
+        "excerpt": "\"id\":\"29\",\"name\":\"Matielyn Jones (Dem)\",\"ballotOrder\":2,\"voteCount\":26163,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2022NovGen). Democratic primary 2022-05-24 (State Senate - District 45 - Dem): Matielyn Jones 7,544. General 2022-11-08 (State Senate - District 45): Clint Dixon (I) (Rep) 41,416; Matielyn Jones (Dem) 26,163."
+    },
+    {
+      "person": "Beth Moore",
+      "office": "upper",
+      "district": "7",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2554/moore-beth/",
+        "excerpt": "Beth Moore Georgia Senate, District 7 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022MayGenPri.json",
+        "excerpt": "\"id\":\"106\",\"name\":\"Beth Moore\",\"ballotOrder\":2,\"voteCount\":5668,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022MayGenPri (page https://results.sos.ga.gov/results/public/Georgia/elections/2022MayGenPri). Democratic primary 2022-05-24 (State Senate - District 7/ Senador Estatal del Distrito 7 - Dem): Nabilah Islam 5,745; Beth Moore 5,668."
+    },
+    {
+      "person": "Rebecca Mitchell",
+      "office": "lower",
+      "district": "106",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/1893/mitchell-rebecca/",
+        "excerpt": "Rebecca Mitchell, DVM, PhD Georgia House, District 106 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022MayGenPri.json",
+        "excerpt": "\"id\":\"156\",\"name\":\"Rebecca Mitchell (I)\",\"ballotOrder\":2,\"voteCount\":2132,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022MayGenPri (page https://results.sos.ga.gov/results/public/Georgia/elections/2022MayGenPri). Democratic primary 2022-05-24 (State House of Representatives - District 106 - Dem): Shelly Hutchinson (I) 3,016; Rebecca Mitchell (I) 2,132."
+    },
+    {
+      "person": "Saira Draper",
+      "office": "lower",
+      "district": "90",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2616/draper-saira/",
+        "excerpt": "Saira Draper Georgia House, District 90 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022NovGen.json",
+        "excerpt": "\"id\":\"67\",\"name\":\"Saira Draper (Dem)\",\"ballotOrder\":2,\"voteCount\":27228,\"politicalParty\":\"DEM\""
+      },
+      "current": {
+        "term_start": "2023-01-09",
+        "term_end": "2025-01-13",
+        "status": "not_serving",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2022NovGen). Democratic primary 2022-05-24 (State House of Representatives - District 90 - Dem): Saira Draper 4,788; Michelle Schreiner 3,877; Bentley Hudgins 1,627; Peter Hubbard 659; Stewart Parnacott 298. Democratic primary runoff 2022-06-21 (State House of Representatives - District 90 - Dem): Saira Draper 3,470; Michelle Schreiner 2,921. General 2022-11-08 (State House of Representatives - District 90): Saira Draper (Dem) 27,228; Jodi Diodati (Rep) 1,892. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2023-01-09) and ends at the next convening (2025-01-13). Both dates are computed from the rule, not read from a roster. That term ended on convening of the next General Assembly; a later re-election is a separate term."
+    },
+    {
+      "person": "Thomas Casez",
+      "office": "lower",
+      "district": "40",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2622/casez-thomas/",
+        "excerpt": "Thomas Casez Georgia House, District 40 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022MayGenPri.json",
+        "excerpt": "\"id\":\"142\",\"name\":\"Thomas Casez\",\"ballotOrder\":1,\"voteCount\":2281,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022MayGenPri (page https://results.sos.ga.gov/results/public/Georgia/elections/2022MayGenPri). Democratic primary 2022-05-24 (State House of Representatives - District 40 - Dem): Doug Stoner 3,360; Thomas Casez 2,281."
+    },
+    {
+      "person": "Ariel Phillips",
+      "office": "lower",
+      "district": "147",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3064/phillips-ariel/",
+        "excerpt": "Ariel Phillips Georgia House, District 147 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022NovGen.json",
+        "excerpt": "\"id\":\"43\",\"name\":\"Ariel Phillips (Dem)\",\"ballotOrder\":2,\"voteCount\":8848,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2022NovGen). Democratic primary 2022-05-24 (State House of Representatives - District 147 - Dem): Ariel Phillips 3,078. General 2022-11-08 (State House of Representatives - District 147): Bethany Ballard (Rep) 11,175; Ariel Phillips (Dem) 8,848."
+    },
+    {
+      "person": "Kim Jackson",
+      "office": "upper",
+      "district": "41",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2350/jackson-kim/",
+        "excerpt": "Senator Kim Jackson Georgia Senate, District 41 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022NovGen.json",
+        "excerpt": "\"id\":\"41\",\"name\":\"Kim Jackson (I) (Dem)\",\"ballotOrder\":2,\"voteCount\":51512,\"politicalParty\":\"DEM\""
+      },
+      "current": {
+        "term_start": "2023-01-09",
+        "term_end": "2025-01-13",
+        "status": "not_serving",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2022NovGen). Democratic primary 2022-05-24 (State Senate - District 41 - Dem): Kim Jackson (I) 19,260. General 2022-11-08 (State Senate - District 41): Kim Jackson (I) (Dem) 51,512; Jayre Jones (Rep) 11,195. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2023-01-09) and ends at the next convening (2025-01-13). Both dates are computed from the rule, not read from a roster. That term ended on convening of the next General Assembly; a later re-election is a separate term."
+    },
+    {
+      "person": "Madeline Ryan Smith",
+      "office": "lower",
+      "district": "158",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3093/smith-madeline/",
+        "excerpt": "Madeline Ryan Smith Georgia House, District 158 , GA 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2022NovGen.json",
+        "excerpt": "\"id\":\"37\",\"name\":\"Madeline Ryan Smith (Dem)\",\"ballotOrder\":2,\"voteCount\":5580,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2022NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2022NovGen). Democratic primary 2022-05-24 (State House - District 158 - Dem): Madeline Ryan Smith 1,712. General 2022-11-08 (State House - District 158): Butch Parrish (I) (Rep) 13,968; Madeline Ryan Smith (Dem) 5,580."
+    },
+    {
+      "person": "Saira Draper",
+      "office": "lower",
+      "district": "90",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3650/draper-saira/",
+        "excerpt": "Saira Draper State House, District 90 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"185\",\"name\":\"Saira Draper (I) (Dem)\",\"ballotOrder\":56,\"voteCount\":30637,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2025-01-13",
+        "term_end": "2027-01-11",
+        "status": "serving",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ga.csv",
+          "excerpt": "Saira Draper"
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5038"
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State House of Representatives - District 90 - Dem): Saira Draper (I) 5,957; Becky Evans (I) 2,852. General 2024-11-05 (State House of Representatives - District 90): Saira Draper (I) (Dem) 30,637. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2025-01-13) and ends at the next convening (2027-01-11). Both dates are computed from the rule, not read from a roster. Holds the seat per Open States roster (Open States name: Saira Draper); official page https://www.legis.ga.gov/members/house/5038."
+    },
+    {
+      "person": "Danielle Bell",
+      "office": "lower",
+      "district": "44",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/ade5de4157c4868f6a79139640983f84/bell-danielle/",
+        "excerpt": "Danielle Bell State House, District 44 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"26\",\"name\":\"Danielle Bell (Dem)\",\"ballotOrder\":38,\"voteCount\":14571,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State House of Representatives - District 44 - Dem): Danielle Bell 2,302. General 2024-11-05 (State House of Representatives - District 44): Don L. Parsons (I) (Rep) 19,216; Danielle Bell (Dem) 14,571."
+    },
+    {
+      "person": "Gabriel Sanchez",
+      "office": "lower",
+      "district": "42",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/5829285327514467316/sanchez-gabriel/",
+        "excerpt": "Gabriel Sanchez State House, District 42 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"37\",\"name\":\"Gabriel Sanchez (Dem)\",\"ballotOrder\":56,\"voteCount\":16689,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2025-01-13",
+        "term_end": "2027-01-11",
+        "status": "serving",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ga.csv",
+          "excerpt": "Gabriel Sanchez"
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5068"
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State House of Representatives - District 42 - Dem): Gabriel Sanchez 2,253; Teri Anulewicz (I) 1,713. General 2024-11-05 (State House of Representatives - District 42): Gabriel Sanchez (Dem) 16,689; Diane E. Jackson (Rep) 9,673. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2025-01-13) and ends at the next convening (2027-01-11). Both dates are computed from the rule, not read from a roster. Holds the seat per Open States roster (Open States name: Gabriel Sanchez); official page https://www.legis.ga.gov/members/house/5068."
+    },
+    {
+      "person": "Ruwa Romman",
+      "office": "lower",
+      "district": "97",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3766/romman-ruwa/",
+        "excerpt": "Ruwa Romman State House, District 97 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"42\",\"name\":\"Ruwa Romman (I) (Dem)\",\"ballotOrder\":63,\"voteCount\":14536,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2025-01-13",
+        "term_end": "2027-01-11",
+        "status": "serving",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ga.csv",
+          "excerpt": "Ruwa Romman"
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5039"
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State House of Representatives - District 97 - Dem): Ruwa Romman (I) 2,314. General 2024-11-05 (State House of Representatives - District 97): Ruwa Romman (I) (Dem) 14,536; Michael Allen Corbin (Rep) 10,167. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2025-01-13) and ends at the next convening (2027-01-11). Both dates are computed from the rule, not read from a roster. Holds the seat per Open States roster (Open States name: Ruwa Romman); official page https://www.legis.ga.gov/members/house/5039."
+    },
+    {
+      "person": "Nabilah Islam Parkes",
+      "office": "upper",
+      "district": "7",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/e20ec356c240f17795674f73f399b503/islam-parkes-nabilah/",
+        "excerpt": "Nabilah Islam Parkes State Senate, District 7 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"18\",\"name\":\"Nabilah Islam Parkes (I) (Dem)\",\"ballotOrder\":24,\"voteCount\":46748,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2025-01-13",
+        "term_end": "2027-01-11",
+        "status": "not_serving",
+        "service_source": {
+          "url": "https://www.wrdw.com/2026/03/14/ga-state-senator-resigns-calls-legislature-where-good-ideas-go-die/",
+          "excerpt": "A Georgia state senator has resigned to focus on her campaign for lieutenant governor."
+        },
+        "contact_url": null
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State Senate - District 7/ Senador Estatal del Distrito 7 - Dem): Nabilah Islam Parkes (I) 6,915. General 2024-11-05 (State Senate - District 7): Nabilah Islam Parkes (I) (Dem) 46,748; J. Gregory Howard (Rep) 38,222. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2025-01-13) and ends at the next convening (2027-01-11). Both dates are computed from the rule, not read from a roster. Left mid-term: resigned in March 2026 (WRDW, published 2026-03-13: she resigned to focus on her campaign for lieutenant governor; her resignation letter went to Gov. Kemp). Open States now lists Adrienne White (Carden) for District 7."
+    },
+    {
+      "person": "Ashwin Ramaswami",
+      "office": "upper",
+      "district": "48",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/8801f9e3d1e38409bda382409627d6b9/ramaswami-ashwin/",
+        "excerpt": "Ashwin Ramaswami State Senate, District 48 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"12\",\"name\":\"Ashwin Ramaswami (Dem)\",\"ballotOrder\":15,\"voteCount\":44863,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State Senate - District 48 - Dem): Ashwin Ramaswami 5,425. General 2024-11-05 (State Senate - District 48): Shawn Still (I) (Rep) 51,773; Ashwin Ramaswami (Dem) 44,863."
+    },
+    {
+      "person": "Bryce Berry",
+      "office": "lower",
+      "district": "56",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/4130/berry-bryce/",
+        "excerpt": "Bryce Berry State House, District 56 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"47\",\"name\":\"Bryce Berry (Dem)\",\"ballotOrder\":69,\"voteCount\":19223,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2025-01-13",
+        "term_end": "2027-01-11",
+        "status": "serving",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ga.csv",
+          "excerpt": "Bryce Berry"
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5069"
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State House of Representatives - District 56 - Dem): Bryce Berry 1,976; William \"\"Leonard\"\" Watkins 763; Adalina \"\"Ada\"\" Merello 721; Corwin CP Monson 194. General 2024-11-05 (State House of Representatives - District 56): Bryce Berry (Dem) 19,223; Mesha K. Mainor (I) (Rep) 3,722. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2025-01-13) and ends at the next convening (2027-01-11). Both dates are computed from the rule, not read from a roster. Holds the seat per Open States roster (Open States name: Bryce Berry); official page https://www.legis.ga.gov/members/house/5069."
+    },
+    {
+      "person": "Kay Turner",
+      "office": "lower",
+      "district": "125",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/e3812afcbb3d2dcf01e10d61b48b5d9e/turner-kay/",
+        "excerpt": "Kay Turner State House Representative, District 125 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"15\",\"name\":\"Kay Turner (Dem)\",\"ballotOrder\":20,\"voteCount\":11194,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. Turner also appeared in the 2024-02-13 special election for District 125 (Kay Turner (Dem) 612; Gary Richardson (Rep) 1,694; CJ Pearson (Rep) 1,390; Jim Steed (Rep) 794; John Turpish (Lib) 27; Richardson won the 2024-03-12 runoff 3,916 to 2,589, source https://results.sos.ga.gov/cdn/results/Georgia/export-2024FebSpec.json). The card names no election; entered for the 2024 regular election. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State House of Representatives - District 125 - Dem): Kay Turner 1,144. General 2024-11-05 (State House of Representatives - District 125): Gary Richardson (I) (Rep) 20,341; Kay Turner (Dem) 11,194."
+    },
+    {
+      "person": "Mary Ann Santos",
+      "office": "lower",
+      "district": "117",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/d426d5ad295b6239f5b0cec7ae5c10a7/santos-mary-ann/",
+        "excerpt": "Mary Ann Santos State House, District 117 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"46\",\"name\":\"Mary Ann Santos (Dem)\",\"ballotOrder\":39,\"voteCount\":24820,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2025-01-13",
+        "term_end": "2027-01-11",
+        "status": "serving",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ga.csv",
+          "excerpt": "Mary Ann Santos"
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5078"
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State House of Representatives - District 117 - Dem): Mary Ann Santos 3,491. General 2024-11-05 (State House of Representatives - District 117): Mary Ann Santos (Dem) 24,820. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2025-01-13) and ends at the next convening (2027-01-11). Both dates are computed from the rule, not read from a roster. Holds the seat per Open States roster (Open States name: Mary Ann Santos); official page https://www.legis.ga.gov/members/house/5078."
+    },
+    {
+      "person": "Madeline Smith",
+      "office": "lower",
+      "district": "158",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3790/smith-madeline/",
+        "excerpt": "Madeline Smith State House, District 158 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"11\",\"name\":\"Madeline Ryan Smith  (Dem)\",\"ballotOrder\":14,\"voteCount\":6711,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State House of Representatives - District 158 - Dem): Madeline Ryan Smith  1,239. General 2024-11-05 (State House of Representatives - District 158): Butch Parrish (I) (Rep) 18,048; Madeline Ryan Smith  (Dem) 6,711."
+    },
+    {
+      "person": "Hamza Nazir",
+      "office": "upper",
+      "district": "27",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/a16c96eb8304bed5375c0f44aef0ae3e/nazir-hamza/",
+        "excerpt": "Hamza Nazir State Senate, District 27 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json",
+        "excerpt": "\"id\":\"10\",\"name\":\"Hamza Nazir (Dem)\",\"ballotOrder\":12,\"voteCount\":28008,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024NovGen (page https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen). Democratic primary 2024-05-21 (State Senate - District 27 - Dem): Hamza Nazir 3,026. General 2024-11-05 (State Senate - District 27): Greg Dolezal (I) (Rep) 76,783; Hamza Nazir (Dem) 28,008."
+    },
+    {
+      "person": "Joshua Anthony",
+      "office": "lower",
+      "district": "153",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/5836549759681901070/anthony-joshua/",
+        "excerpt": "Joshua  Anthony State House, District 153 , GA 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-2024MayGenPri.json",
+        "excerpt": "\"id\":\"10\",\"name\":\"Joshua Anthony\",\"ballotOrder\":1,\"voteCount\":982,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 2024MayGenPri (page https://results.sos.ga.gov/results/public/Georgia/elections/2024MayGenPri). Democratic primary 2024-05-21 (State House of Representatives - District 153 - Dem): David Sampson (I) 2,644; Joshua Anthony 982; Tracy Taylor 943."
+    },
+    {
+      "person": "Margaret Spear",
+      "office": "lower",
+      "district": "3",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/80b248b7278dabd1b4a9f1044f51d8b8/spear-margaret/",
+        "excerpt": "Margaret Spear State Representative, District 3 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"30\",\"name\":\"Margaret Spear (Dem)\",\"ballotOrder\":50,\"voteCount\":6223,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 3 - Dem): Margaret Spear 1,729. General 2026-11-03 (State House of Representatives - District 3): Mitchell Horner (I)(Rep) 14,000; Margaret Spear (Dem) 6,223. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified."
+    },
+    {
+      "person": "Mathewos Samson",
+      "office": "lower",
+      "district": "58",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/301a8f675cbb669ac8676114eecf4462/samson-mathewos/",
+        "excerpt": "Mathewos Samson State Representative, District 58 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"68\",\"name\":\"Mathewos Samson (Dem)\",\"ballotOrder\":108,\"voteCount\":22022,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 58 - Dem): Demetria Henderson 3,967; Mathewos Samson 2,994; Kyle Lamont 2,262; Edith M. Ladipo 957. Democratic primary runoff 2026-06-16 (State House of Representatives - District 58 - Dem): Mathewos Samson 3,539; Demetria Henderson 1,802. General 2026-11-03 (State House of Representatives - District 58): Mathewos Samson (Dem) 22,022; Torrey Balam (Rep) 1,889. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Ray Smith",
+      "office": "upper",
+      "district": "46",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/88578830a058a4e583c848a4269d7a2d/smith-ray/",
+        "excerpt": "Ray Smith State Senator, District 46 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"26\",\"name\":\"Ray Smith (Dem)\",\"ballotOrder\":44,\"voteCount\":37052,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State Senate - District 46 - Dem): Ray Smith 8,677; William Gaulden 5,817. General 2026-11-03 (State Senate - District 46): Marc McMain (Rep) 44,679; Ray Smith (Dem) 37,052. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified."
+    },
+    {
+      "person": "Whitney Echenique",
+      "office": "lower",
+      "district": "2",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/772dd25c61a3c8b0c48e24f7b78e1d91/echenique-whitney/",
+        "excerpt": "Whitney Echenique State Representative, District 2 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"30\",\"name\":\"Whitney Echenique (Dem)\",\"ballotOrder\":50,\"voteCount\":5194,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 2 - Dem): Whitney Echenique 1,303. General 2026-11-03 (State House of Representatives - District 2): Steve Tarvin (I)(Rep) 16,076; Whitney Echenique (Dem) 5,194. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified."
+    },
+    {
+      "person": "Blake Robinson",
+      "office": "lower",
+      "district": "177",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2010db159c8d66a41831bcd20c7f9658/robinson-blake/",
+        "excerpt": "Blake Robinson State Representative, District 177 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-GeneralPrimary51926.json",
+        "excerpt": "\"id\":\"93\",\"name\":\"Blake Alexander Robinson\",\"ballotOrder\":93,\"voteCount\":421,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. Robinson also ran in the 2026-05-12 special election for District 177 (Alvin Payton, Jr. 587; Eric G. Howard 325; Kristina Cheek McBride 296; Tim Huff 230; Blake Alexander Robinson 203; Payton won the 2026-06-09 runoff 371 to 180). The card names no election; entered for the 2026 regular election. SOS results export GeneralPrimary51926 (page https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926). Democratic primary 2026-05-19 (State House of Representatives - District 177 - Dem): Elsie Cason Napier 1,197; Alvin Payton, Jr. 1,025; Kristina Cheek McBride 747; Eric G Howard 605; Blake Alexander Robinson 421."
+    },
+    {
+      "person": "Juan Estrada",
+      "office": "lower",
+      "district": "109",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/148fb1b358c17574a58bbfadb8473154/estrada-juan/",
+        "excerpt": "Juan Estrada State Representative, District 109 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"76\",\"name\":\"Juan Estrada (Dem)\",\"ballotOrder\":125,\"voteCount\":10666,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 109 - Dem): Juan Estrada 1,982; Nico Parra 974. General 2026-11-03 (State House of Representatives - District 109): Juan Estrada (Dem) 10,666. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Nico Parra",
+      "office": "lower",
+      "district": "109",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/bbca43ea4d327c5d9682d0dc2b05d5d5/parra-nico/",
+        "excerpt": "Nico Parra State Representative, District 109 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-GeneralPrimary51926.json",
+        "excerpt": "\"id\":\"167\",\"name\":\"Nico Parra\",\"ballotOrder\":170,\"voteCount\":974,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export GeneralPrimary51926 (page https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926). Democratic primary 2026-05-19 (State House of Representatives - District 109 - Dem): Juan Estrada 1,982; Nico Parra 974."
+    },
+    {
+      "person": "Zae Brewer",
+      "office": "lower",
+      "district": "95",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/22bfa111e096039c49e2f9ef69050a7b/brewer-zae/",
+        "excerpt": "Zae Brewer State House of Representatives, District 95 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-GeneralPrimary51926.json",
+        "excerpt": "\"id\":\"138\",\"name\":\"Zae Brewer\",\"ballotOrder\":141,\"voteCount\":1382,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export GeneralPrimary51926 (page https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926). Democratic primary 2026-05-19 (State House of Representatives - District 95 - Dem): Darshun Nicole Kendrick (I) 5,563; Stacy Jay Johnson 3,054; Zae Brewer 1,382."
+    },
+    {
+      "person": "Corey Foreman",
+      "office": "upper",
+      "district": "1",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/c7c64ca200b4ba09a6ee6e57f0cb20d6/foreman-corey/",
+        "excerpt": "Corey Foreman State Senate, District 1 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"31\",\"name\":\"Corey Foreman (Dem)\",\"ballotOrder\":43,\"voteCount\":35384,\"politicalParty\":\"Dem\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State Senate - District 1 - Dem): Corey Foreman 9,203; Barbara Gooby 6,508. General 2026-11-03 (State Senate - District 1): Ben Watson (I) (Rep) 38,695; Corey Foreman (Dem) 35,384. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified."
+    },
+    {
+      "person": "Jay Morris",
+      "office": "lower",
+      "district": "165",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/bc190b67c8294aab5b6b0ef14d936d85/morris-jay/",
+        "excerpt": "Jay Morris State Representative, District 165 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-GeneralPrimary51926.json",
+        "excerpt": "\"id\":\"90\",\"name\":\"Jaylen Jay Morris\",\"ballotOrder\":104,\"voteCount\":877,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export GeneralPrimary51926 (page https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926). Democratic primary 2026-05-19 (State House of Representatives - District 165 - Dem): MiQuan Green 4,209; Kendra Clark 2,787; Jaylen Jay Morris 877."
+    },
+    {
+      "person": "Shelly Abraham",
+      "office": "lower",
+      "district": "99",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/557a359579a83198222cb517dc5d8abe/abraham-shelly/",
+        "excerpt": "Shelly Abraham State Representative, District 99 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-GeneralPrimary51926.json",
+        "excerpt": "\"id\":\"149\",\"name\":\"Shelly John Abraham\",\"ballotOrder\":152,\"voteCount\":1522,\"politicalParty\":\"DEM\""
+      },
+      "current": null,
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export GeneralPrimary51926 (page https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926). Democratic primary 2026-05-19 (State House of Representatives - District 99 - Dem): Michelle Kang 3,814; Shelly John Abraham 1,522."
+    },
+    {
+      "person": "Bentley Hudgins",
+      "office": "lower",
+      "district": "90",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/b399b42aeaf88525416cad81481caa78/hudgins-bentley/",
+        "excerpt": "Bentley Hudgins State Representative, District 90 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"55\",\"name\":\"Bentley Hudgins (Dem)\",\"ballotOrder\":90,\"voteCount\":27921,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 90 - Dem): Bentley Hudgins 7,046; Leisa Stafford 3,627. General 2026-11-03 (State House of Representatives - District 90): Bentley Hudgins (Dem) 27,921; Samantha Boston (Rep) 2,280. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Danielle Bell",
+      "office": "lower",
+      "district": "44",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/b6d630508105fb3304115253206b9cc1/bell-danielle/",
+        "excerpt": "Danielle Bell State Representative, District 44 , GA 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json",
+        "excerpt": "\"id\":\"46\",\"name\":\"Danielle Bell (Dem)\",\"ballotOrder\":75,\"voteCount\":14539,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "term_start": "2027-01-11",
+        "term_end": "2029-01-08",
+        "status": "incoming",
+        "service_source": {
+          "url": "https://ballotpedia.org/Article_III,_Georgia_Constitution",
+          "excerpt": "The members of the General Assembly shall be elected by the qualified electors of their respective districts for a term of two years and shall serve until the time fixed for the convening of the next General Assembly."
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house"
+      },
+      "notes": "Run for Something directory card; the directory shows no endorsement date, so stage is general by rule. SOS results export 11032026GeneralAndSpecialElection (page https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection). Democratic primary 2026-05-19 (State House of Representatives - District 44 - Dem): Danielle Bell 5,233. General 2026-11-03 (State House of Representatives - District 44): Danielle Bell (Dem) 14,539; Don L. Parsons (I) (Rep) 13,410. General-election totals are the unofficial SOS figures in the export created 2026-11-08; not yet certified. Term rule: Ga. Const. art. III, sec. II, para. V(a) (text via Ballotpedia, because sos.ga.gov and Justia return 403 to automated requests): members are elected for two years and 'shall serve until the time fixed for the convening of the next General Assembly'; art. III, sec. IV, para. I(a): the Senate and House organize each odd-numbered year and the General Assembly meets 'on the second Monday in January'. So a term starts at the January convening after the election (second Monday in January: 2027-01-11) and ends at the next convening (2029-01-08). Both dates are computed from the rule, not read from a roster. Not yet on the Open States roster for this seat (members appear there once seated), so contact_url is the General Assembly's official member directory."
+    },
+    {
+      "person": "Akbar Ali",
+      "office": "lower",
+      "district": "106",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2025,
+        "stage": "special"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3d42e87ce40d908fdd48fbab02509b29/ali-akbar/",
+        "excerpt": "Akbar Ali State House, District 106 , GA 2025 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://results.sos.ga.gov/cdn/results/Georgia/export-December2nd2025Runoffs.json",
+        "excerpt": "\"id\":\"MuhammadAkbarAli(Dem)-1-Dem\",\"name\":\"Muhammad Akbar Ali (Dem)\",\"ballotOrder\":1,\"voteCount\":949,\"politicalParty\":\"Dem\""
+      },
+      "current": {
+        "status": "serving",
+        "term_start": null,
+        "term_end": "2027-01-11",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/ga.csv",
+          "excerpt": "Akbar Ali"
+        },
+        "contact_url": "https://www.legis.ga.gov/members/house/5089"
+      },
+      "notes": "Run for Something directory card dated 2025 (undated otherwise); it says he is running for District 106 and names no election. The only 2025 District 106 election was the special election, so it is entered as that. 2025-11-04 special election (District 106): Marqus A. Cole (Dem) 3,171; Muhammad Akbar Ali (Dem) 2,613; Jamie Parker (Rep) 2,355 (https://results.sos.ga.gov/cdn/results/Georgia/export-MunicipalGeneralSpecialElectionPSC11042025.json). 2025-12-02 runoff: Muhammad Akbar Ali (Dem) 949; Marqus A. Cole (Dem) 794. Holds the seat per Open States roster; official page https://www.legis.ga.gov/members/house/5089. term_start is the date he took office, which no source found gives, so it is null. term_end 2027-01-11 is the convening that ends the term of the 2024 election he filled (rule: Ga. Const. art. III, sec. II, para. V(a), 'shall serve until the time fixed for the convening of the next General Assembly', via https://ballotpedia.org/Article_III,_Georgia_Constitution; 2027-01-11 is the second Monday in January 2027). His regular 2026 election is a separate entry (WFP)."
+    }
+  ],
+  "coverage": [
+    {
+      "group": "wfp",
+      "status": "blocked",
+      "checked": [
+        "https://workingfamilies.org/state/georgia/",
+        "https://workingfamilies.org/candidates/",
+        "https://workingfamilies.org/post-sitemap.xml",
+        "https://workingfamilies.org/2026/03/georgia-wfp-announces-2026-primary-endorsements/",
+        "https://workingfamilies.org/2026/11/georgia-working-families-party-celebrates-historic-wins/",
+        "https://workingfamilies.org/2024/11/ga-working-families-party-remains-inspired-by-unshakable-movement/",
+        "https://workingfamilies.org/2022/05/meet-erick-allen-georgia-working-families-party-endorsement-interview/"
+      ],
+      "note": "2026 is covered by the saved national list (24 Georgia legislative rows) plus the 2026-03-19 press release, which adds Aaron Baker (HD51) and Alana Sanders (HD113). Every Georgia post in the post sitemap was read. 2022 has only statewide interview posts (Lt. Governor, Secretary of State, Labor Commissioner; out of scope). 2024 has no dated endorsement list; the 2024-11-07 post calls some legislators 'champions' without saying endorsed, so none are entered. Blocked because no 2022 or 2024 legislative or governor endorsement list could be established, and local chapters were not enumerated."
+    },
+    {
+      "group": "or",
+      "status": "blocked",
+      "checked": [
+        "https://ourrevolution.com/category/ga/",
+        "https://ourrevolution.com/post-sitemap.xml",
+        "https://ourrevolution.com/rep-ruwa-romman-for-georgia-state-senate/",
+        "https://ourrevolution.com/mathewos-samson-for-georgia-state-house-district-58/"
+      ],
+      "note": "The Georgia category and the post sitemap show three Georgia posts: Romman (SD7), Samson (HD58) and Peter Hubbard (Public Service Commission, out of scope). No 2022 or 2024 Georgia legislative or governor endorsement found. Blocked because local Our Revolution groups were not enumerated and the site search is not an archive."
+    },
+    {
+      "group": "dsa",
+      "status": "blocked",
+      "checked": [
+        "https://airtable.com/embed/app41ni7RJppgXEBL/shrlm0oDQJkJsCnSr?backgroundColor=grayLight&viewControls=on",
+        "https://airtable.com/embed/app41ni7RJppgXEBL/shrlP3Do8lp7E52Ev?backgroundColor=grayLight&viewControls=on",
+        "https://atldsa.org/candidates/",
+        "https://atldsa.org/category/news/",
+        "https://atldsa.org/voter-guide-2026/",
+        "https://www.athensareadsa.org/endorsement",
+        "https://www.savgadsa.org/org-groups/electoral/"
+      ],
+      "note": "Atlanta DSA endorses Gabriel Sanchez (2024, 2026) and Mathewos Samson (2026); the 2024 row comes from the national Airtable grid, saved. Atlanta DSA's 2026 voter guide covers statewide races only. Athens Area and Savannah pages describe a process but list no candidates. Not checked: Middle Georgia, West Georgia, Augusta CSRA, and Northwest Georgia (organizing committee, no site) chapter feeds; older Atlanta DSA endorsement pages for 2022."
+    },
+    {
+      "group": "rfs",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://directory.runforsomething.net/candidates/2022/",
+        "https://directory.runforsomething.net/candidates/2024/",
+        "https://directory.runforsomething.net/candidates/2025/",
+        "https://directory.runforsomething.net/candidates/2026/"
+      ],
+      "note": "Saved directory cards (research_notes/State endorsement gap review/rfs_pccc_directory_cards.tsv) for 2022, 2024, 2025 and 2026 were filtered to Georgia state legislative cards (40) and each profile page was re-fetched. 2020 cards are outside the elections in scope. The 2025 legislative card (Akbar Ali) is entered as the 2025 District 106 special election. 2021, 2023 and 2025 city and county cards are out of scope. RFS does not endorse governors."
+    },
+    {
+      "group": "pccc",
+      "status": "complete_no_entries",
+      "checked": [
+        "https://www.boldprogressives.org/candidates/our-endorsements-2022/",
+        "https://www.boldprogressives.org/candidates/our-endorsements-2024/",
+        "https://www.boldprogressives.org/candidates/our-endorsements-2026/"
+      ],
+      "note": "The 2022, 2024 and 2026 endorsement pages name no Georgia candidate. The 2024 page still shows a 2022-era Oregon item, so it looks stale and its completeness is unproven. Champions lists are not endorsements and were not used."
+    },
+    {
+      "group": "sunrise",
+      "status": "blocked",
+      "checked": [
+        "https://www.sunrisemovement.org/endorsements/",
+        "https://www.sunrisemovement.org/electoral/",
+        "https://www.sunrisemovement.org/hubs/"
+      ],
+      "note": "sunrisemovement.org returned HTTP 403 to automated requests and I did not work around it. A web search found no Sunrise endorsement of a Georgia state legislative or governor candidate for 2022, 2024 or 2026, but that is not proof of none."
+    }
+  ],
+  "gaps": [
+    "2026 general-election results (2026-11-03) are the unofficial Secretary of State export created 2026-11-08 (https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json), not certified. Every endorsee's margin is over 3 percentage points, so outcomes are entered as won or lost; re-run after certification. The same export shows Keisha Lance Bottoms ahead for governor (2,271,816 to 1,909,727 for Rick Jackson), but no tracked group was found endorsing her.",
+    "Result sources are JSON exports from results.sos.ga.gov (the site is a JavaScript app with no static pages). Excerpts are the endorsee's option record, e.g. name, ballotOrder, voteCount; opposing votes are in notes. The 2026 primary export (GeneralPrimary51926) is about 161 MB and the 2024 general about 34 MB, so the verifier's 20 s fetch may time out and report them unreachable.",
+    "Term rule: Ga. Const. art. III, sec. II, para. V(a) ('shall serve until the time fixed for the convening of the next General Assembly') and art. III, sec. IV, para. I(a) ('second Monday in January'), cited through Ballotpedia because the official constitution PDF (https://sos.ga.gov/sites/default/files/2022-02/state_constitution.pdf) and Justia return 403 to automated requests. Term start and end dates are computed convening dates (second Monday in January), not read from a roster.",
+    "Governor: no WFP, Our Revolution, PCCC, DSA or Sunrise endorsement for the 2022 or 2026 governor's race was found. WFP's 2022 national memo describes support but is not an explicit endorsement (per the saved gap review).",
+    "WFP 2024-11-07 post (https://workingfamilies.org/2024/11/ga-working-families-party-remains-inspired-by-unshakable-movement/) names Nabilah Islam Parkes (SD7), Nikki Merritt (SD9), Ruwa Romman (HD97) as 'bold leaders' and Anissa Jones (HD143), Bryce Berry (HD56), Gabriel Sanchez (HD42) as 'incoming champions' but never says 'endorsed', so no 2024 WFP entries were made. Ballotpedia's 'Endorsements by Georgia Working Families Party' page returned an empty body.",
+    "WFP 2026 national list rows are undated, so stage defaults to general for the 15 not in the 2026-03-19 press release; some were probably endorsed before the primary. Aaron Baker (HD51) and Alana Sanders (HD113) are in the press release but not on the national list; both lost their primaries.",
+    "Run for Something cards are undated, so stage defaults to general (2022, 2024, 2026). Marvin Lim's 2022 card says District 99, but the SOS 2022 results list him in District 98, so the entry uses 98. Akbar Ali's 2025 card names no election; entered as the 2025 District 106 special election. Kay Turner (HD125, 2024) and Blake Robinson (HD177, 2026) also ran in special elections; their cards name no election, so regular elections are entered and the specials are in notes.",
+    "Akbar Ali's term_start for the special-election term is null: no source found gives the date he took office.",
+    "Open States lists Anissa Jones's seat (HD143) under the name 'Nissa Jones'; matched by seat, not name.",
+    "Nabilah Islam Parkes (SD7, won 2024) resigned in March 2026 (WRDW). Open States now lists Adrienne White (Carden) for SD7; how she took the seat (appointment or special election) was not researched, and she has no tracked endorsement.",
+    "Incoming 2026 winners who are not yet on the Open States roster use the General Assembly member directory pages (https://www.legis.ga.gov/members/house and /senate) as contact_url, since no individual official pages exist yet. Ruwa Romman moves from HD97 to SD7, so her 2026 entries also use the Senate directory.",
+    "Georgia special elections since 2022 (HD7, HD68, HD75, HD119, HD129, HD139, HD23, HD121, HD94, HD130, SD11, SD21, SD30, SD35, SD18, SD53 and others) were scanned in the SOS exports for the names of tracked endorsees; only the District 106, 125 and 177 matches above were found.",
+    "The 2022 Georgia WFP endorsement-interview posts (Erick Allen, Jason Hayes, Nicole Horn, William Boddie, Michael Owens, Renitta Shannon, Bee Nguyen) are for statewide offices, which are out of scope."
+  ]
+}
