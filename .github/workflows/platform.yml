@@ -1,4 +1,4 @@
-# Weekly recheck of platform stances. Merges refreshed dates (which redeploys the site) and keeps one open
+# Weekly recheck of platform stances and FEC outside spending. Merges refreshed dates (which redeploys the site) and keeps one open
 # issue listing stances whose source changed or went offline, for a person to review.
 name: Recheck platform sources
 
@@ -27,6 +27,10 @@ jobs:
         env:
           DATA_GOV_API_KEY: ${{ secrets.DATA_GOV_API_KEY }}
         run: npx tsx scripts/record.ts | tee -a report.md
+      - name: Rebuild outside money
+        env:
+          DATA_GOV_API_KEY: ${{ secrets.DATA_GOV_API_KEY }}
+        run: npx tsx scripts/outside-money.ts | tee -a report.md
       - run: npm test
       - name: Open and merge the recheck PR
         env:

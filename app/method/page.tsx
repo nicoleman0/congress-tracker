@@ -62,6 +62,17 @@ export default function Method() {
         </p>
       </section>
 
+      <section className="section" aria-labelledby="money-method-title">
+        <h2 id="money-method-title">Outside money</h2>
+        <p>
+          Outside money is independent expenditures: spending for or against a candidate by a group that doesn&apos;t
+          coordinate with the campaign. We take it from FEC filings for each member&apos;s candidate id, and rebuild it weekly.
+          We count regular reports only, leave out memo lines, and check our sums against the FEC&apos;s own totals.
+          The 24- and 48-hour notices filed before an election repeat what later reports contain, so we skip them.
+          That means the newest spending appears a few weeks late.
+        </p>
+      </section>
+
       <section className="section" aria-labelledby="coming-title">
         <h2 id="coming-title">What&apos;s coming</h2>
         <ul className="list">

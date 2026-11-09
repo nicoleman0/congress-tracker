@@ -459,6 +459,28 @@ p {
 .list li + li { margin-top: 0.35rem; }
 .list li::marker { color: var(--ultra); }
 
+/* Data page: single-series ultramarine bars, values always printed beside them. */
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: var(--s-3); margin: var(--s-3) 0; }
+.stat { border-top: 2px solid var(--ultra); padding-top: var(--s-2); }
+.stat-number { font: 800 clamp(2rem, 4vw, 2.75rem)/1.1 var(--font-display); margin: 0; font-variant-numeric: tabular-nums; }
+.stat-of { font-size: 0.5em; font-weight: 600; color: var(--muted); }
+.stat-label { margin: 0.25rem 0 var(--s-1); }
+.meter { position: relative; height: 0.75rem; background: color-mix(in srgb, var(--ultra) 10%, transparent); border-radius: var(--radius); }
+.meter-fill { position: absolute; inset: 0 auto 0 0; background: var(--ultra); border-radius: 0 4px 4px 0; }
+.meter-mark { position: absolute; top: -0.3rem; bottom: -0.3rem; width: 2px; background: var(--ink); }
+.bars, .issue-bars { list-style: none; padding: 0; margin: var(--s-2) 0; max-width: 52rem; }
+.bars li, .issue-bars summary { display: grid; grid-template-columns: 1fr auto; gap: 0.25rem var(--s-2); padding: 0.6rem 0; border-top: 1px solid var(--rule); }
+.bars .meter, .issue-bars .meter { grid-column: 1 / -1; }
+.bars-label { font-weight: 600; }
+.bars-value { font-variant-numeric: tabular-nums; text-align: right; }
+.bars-detail { display: block; grid-column: 1 / -1; font-size: 0.9rem; font-weight: 400; color: var(--muted); }
+.issue-bars summary { cursor: pointer; list-style: none; }
+.issue-bars summary::-webkit-details-marker { display: none; }
+.issue-bars summary .bars-label::after { content: " +"; color: var(--ultra); }
+.issue-bars details[open] summary .bars-label::after { content: " −"; }
+.name-list { columns: 16rem; padding-left: 1.2rem; margin: var(--s-1) 0 var(--s-2); }
+.name-list .meta { font-size: 0.85rem; }
+
 .platform { max-width: 68ch; margin: 0; }
 .platform-issue { padding: var(--s-2) 0; border-top: 1px solid var(--rule); }
 .platform dt { font: 700 1.05rem var(--font-display); margin-bottom: 0.25rem; }
