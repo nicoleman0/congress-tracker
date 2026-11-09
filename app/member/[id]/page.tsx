@@ -115,7 +115,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
             </p>
             <dl className="platform">
               {platform.map((g) => (
-                <div key={g.issue} className="platform-issue">
+                <div key={g.issue} className="platform-issue jd-ruled-row">
                   <dt>{g.name}</dt>
                   {g.stances.map((s) => (
                     <dd key={s.source.url + s.text}>

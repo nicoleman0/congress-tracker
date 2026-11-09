@@ -39,7 +39,7 @@ export default function Home() {
 
       <section className="section" id="states" aria-labelledby="states-title">
         <h2 id="states-title" className="section-title"><span className="ink">Browse by state</span></h2>
-        <ul className="state-grid">
+        <ul className="state-grid jd-ruled">
           {STATES.map((s) => {
             const n = membersIn(s.code).length + stateMembers().filter((m) => m.state === s.code && m.term.status !== "unresolved").length;
             return (

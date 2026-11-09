@@ -32,7 +32,7 @@ function SpenderList({ spenders }: { spenders: Spender[] }) {
   if (spenders.length === 0) return <p className="empty">None reported.</p>;
   const max = spenders[0].total;
   return (
-    <ol className="bars">
+    <ol className="bars jd-ruled">
       {spenders.slice(0, TOP).map((s) => (
         <li key={s.committee}>
           <span className="bars-label">
@@ -102,7 +102,7 @@ export default function Data() {
           {coverage.map((c) => (
             <li key={c.issue}>
               <details>
-                <summary>
+                <summary className="jd-ruled-row">
                   <span className="bars-label">{c.name}</span>
                   <span className="bars-value">{c.members.length} of {members.length}</span>
                   <Meter value={c.members.length} total={members.length} label={`${c.name}: ${c.members.length} of ${members.length}`} />
@@ -141,7 +141,7 @@ export default function Data() {
         <SpenderList spenders={topSpenders(members, "oppose", "general")} />
 
         <h3 className="subhead">Members most targeted</h3>
-        <ol className="bars">
+        <ol className="bars jd-ruled">
           {targeted.slice(0, TOP).map((t) => (
             <li key={t.member.id}>
               <span className="bars-label"><Link href={`/member/${t.member.id}`}>{t.member.name}</Link> <span className="meta">{seatLabel(t.member)}</span></span>

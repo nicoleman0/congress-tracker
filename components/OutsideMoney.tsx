@@ -69,7 +69,7 @@ export function OutsideMoney({ spends }: { spends: Spend[] }) {
             </ul>
             <details className="money-all">
               <summary>All {groups.length} {groups.length === 1 ? "group" : "groups"} by election</summary>
-              <ol>
+              <ol className="jd-ruled">
                 {groups.map((g) => (
                   <li key={g.committee}>
                     <span><Spender g={g} /> <span className="money-stage">{g.stages.join(", ")}</span></span>
