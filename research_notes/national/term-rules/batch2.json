@@ -1,0 +1,993 @@
+[
+  {
+    "state": "KS",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "House of Representatives"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 4,
+        "start_rule": "Terms commence on the second Monday of January of the year following the election.",
+        "source": {
+          "url": "https://ksrevisor.gov/kanconst/093_002_0002.html",
+          "excerpt": "Senators shall be elected for four year terms. The terms of representatives and senators shall commence on the second Monday of January of the year following election."
+        },
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2023-01-09",
+            "term_end": "2027-01-10"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2025-01-13",
+            "term_end": "2029-01-07"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          }
+        ],
+        "notes": "Seat schedule not verified. Kansas Senate cycle conflicts across sources: Ballotpedia shows 2024 Senate results, Prediction Edge says no Senate race in 2026 (special only), Wichita Public Library says all 40 seats are up in 2028. The 2022 'some' is unverified. Confirm with the Kansas Secretary of State."
+      },
+      {
+        "chamber": "lower",
+        "term_years": 2,
+        "start_rule": "Terms commence on the second Monday of January of the year following the election.",
+        "source": {
+          "url": "https://ksrevisor.gov/kanconst/093_002_0002.html",
+          "excerpt": "Representatives shall be elected for two year terms. The terms of representatives and senators shall commence on the second Monday of January of the year following election."
+        },
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2023-01-09",
+            "term_end": "2025-01-12"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2025-01-13",
+            "term_end": "2027-01-10"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2027-01-11",
+            "term_end": "2029-01-07"
+          }
+        ],
+        "notes": "2026 all 125 seats per Prediction Edge (secondary source). Even-year elections assumed; 2026 counted as scheduled."
+      }
+    ]
+  },
+  {
+    "state": "KY",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "House of Representatives"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 4,
+        "start_rule": "Per Section 30 (Ballotpedia transcription), terms begin on the first day of January after the election.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2023-01-01",
+            "term_end": "2026-12-31"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2025-01-01",
+            "term_end": "2028-12-31"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2027-01-01",
+            "term_end": "2030-12-31"
+          }
+        ],
+        "notes": "Official HTML for Sections 30 and 31 not available: apps.legislature.ky.gov ViewConstitution?rsn=30 and rsn=31 return PDFs, which the rules exclude. Terms and start rule come from Ballotpedia transcriptions of Sections 30 and 31 (not verified against the official text). Section 31 (Ballotpedia): one senator elected per district every two years, so about half the seats are up in each even year: 'some'."
+      },
+      {
+        "chamber": "lower",
+        "term_years": 2,
+        "start_rule": "Per Section 30 (Ballotpedia transcription), terms begin on the first day of January after the election.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2023-01-01",
+            "term_end": "2024-12-31"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2025-01-01",
+            "term_end": "2026-12-31"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2027-01-01",
+            "term_end": "2028-12-31"
+          }
+        ],
+        "notes": "Official HTML for Sections 30 and 31 not available: apps.legislature.ky.gov ViewConstitution?rsn=30 and rsn=31 return PDFs, which the rules exclude. Terms and start rule come from Ballotpedia transcriptions of Sections 30 and 31 (not verified against the official text)."
+      }
+    ]
+  },
+  {
+    "state": "LA",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "House of Representatives"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 4,
+        "start_rule": "Members take office on the same day as the governor, which the constitution sets at noon on the second Monday in January following the election (Art. III, Sec. 5(A) and Art. IV).",
+        "source": {
+          "url": "https://senate.la.gov/Documents/Constitution/article3.htm",
+          "excerpt": "A member of the legislature shall be elected for a four-year term."
+        },
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2023,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2024-01-08",
+            "term_end": "2028-01-09"
+          },
+          {
+            "year": 2024,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          }
+        ],
+        "notes": "Art. III, Sec. 5(A): \"Members of the legislature shall take office on the same day as the governor and other officials elected statewide.\" Governor's start rule, Art. IV, https://senate.la.gov/Documents/Constitution/article4.htm: \"The term of each such official shall begin at noon on the second Monday in January next following the election.\" Elections in odd years (2023, 2027); 2025 treated as none per the odd-year cycle. Verify 2025 has no legislative race."
+      },
+      {
+        "chamber": "lower",
+        "term_years": 4,
+        "start_rule": "Members take office on the same day as the governor, which the constitution sets at noon on the second Monday in January following the election (Art. III, Sec. 5(A) and Art. IV).",
+        "source": {
+          "url": "https://senate.la.gov/Documents/Constitution/article3.htm",
+          "excerpt": "A member of the legislature shall be elected for a four-year term."
+        },
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2023,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2024-01-08",
+            "term_end": "2028-01-09"
+          },
+          {
+            "year": 2024,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          }
+        ],
+        "notes": "Same as upper. Art. III, Sec. 4(C) covers both chambers. Governor's start rule quote is in the upper-chamber notes."
+      }
+    ]
+  },
+  {
+    "state": "MD",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "House of Delegates"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 4,
+        "start_rule": "Terms begin on the second Wednesday of January following the election (Art. III, Sec. 6).",
+        "source": {
+          "url": "https://msa.maryland.gov/msa/mdmanual/43const/html/03art3.html",
+          "excerpt": "to serve for a term of four years beginning on the second Wednesday of January following his election"
+        },
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2023-01-11",
+            "term_end": "2027-01-12"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2027-01-13",
+            "term_end": "2031-01-07"
+          }
+        ],
+        "notes": "Sec. 6 covers all General Assembly members. Elections in gubernatorial years (2022, 2026)."
+      },
+      {
+        "chamber": "lower",
+        "term_years": 4,
+        "start_rule": "Terms begin on the second Wednesday of January following the election (Art. III, Sec. 6).",
+        "source": {
+          "url": "https://msa.maryland.gov/msa/mdmanual/43const/html/03art3.html",
+          "excerpt": "to serve for a term of four years beginning on the second Wednesday of January following his election"
+        },
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2023-01-11",
+            "term_end": "2027-01-12"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2027-01-13",
+            "term_end": "2031-01-07"
+          }
+        ],
+        "notes": "Same text as upper (Art. III, Sec. 6, which applies to all General Assembly members)."
+      }
+    ]
+  },
+  {
+    "state": "MA",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "House of Representatives"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 2,
+        "start_rule": "Terms begin on the first Wednesday in January after the election (per secondary sources, unverified).",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2023-01-04",
+            "term_end": "2024-12-31"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2025-01-01",
+            "term_end": "2027-01-05"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2027-01-06",
+            "term_end": "2029-01-02"
+          }
+        ],
+        "notes": "Official text not reached: malegislature.gov did not respond to curl. Two-year term and first-Wednesday-in-January start come from counselstack and Ballotpedia snippets (not official). Verify against the official constitution before use."
+      },
+      {
+        "chamber": "lower",
+        "term_years": 2,
+        "start_rule": "Terms begin on the first Wednesday in January after the election (per secondary sources, unverified).",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2023-01-04",
+            "term_end": "2024-12-31"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2025-01-01",
+            "term_end": "2027-01-05"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2027-01-06",
+            "term_end": "2029-01-02"
+          }
+        ],
+        "notes": "Official text not reached: malegislature.gov did not respond to curl. Two-year term and first-Wednesday-in-January start come from counselstack and Ballotpedia snippets (not official). Verify against the official constitution before use."
+      }
+    ]
+  },
+  {
+    "state": "MN",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "House of Representatives"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 4,
+        "start_rule": "Unverified. Expected: first Tuesday after the first Monday in January after the election.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2023-01-03",
+            "term_end": "2027-01-04"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2025-01-07",
+            "term_end": "2029-01-01"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2027-01-05",
+            "term_end": "2031-01-06"
+          }
+        ],
+        "notes": "Official text not found: the fetched revisor.mn.gov constitution page has no Article IV text (page truncated). Term lengths and start rule are from memory/unverified; check revisor.mn.gov Article IV. Senate seat schedule (2024 'some') is unverified."
+      },
+      {
+        "chamber": "lower",
+        "term_years": 2,
+        "start_rule": "Unverified. Expected: first Tuesday after the first Monday in January after the election.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2023-01-03",
+            "term_end": "2025-01-06"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2025-01-07",
+            "term_end": "2027-01-04"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2027-01-05",
+            "term_end": "2029-01-01"
+          }
+        ],
+        "notes": "Official text not found: the fetched revisor.mn.gov constitution page has no Article IV text (page truncated). Term lengths and start rule are from memory/unverified; check revisor.mn.gov Article IV."
+      }
+    ]
+  },
+  {
+    "state": "MS",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "House of Representatives"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 4,
+        "start_rule": "Unverified. Expected: first Tuesday after the first Monday in January after the election.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2023,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2024-01-02",
+            "term_end": "2028-01-03"
+          },
+          {
+            "year": 2024,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          }
+        ],
+        "notes": "Official text not reached. Four-year terms and odd-year elections per Ballotpedia; start rule ('first Tuesday after first Monday in January') unverified. Verify with the Mississippi Constitution Sections 34-35."
+      },
+      {
+        "chamber": "lower",
+        "term_years": 4,
+        "start_rule": "Unverified. Expected: first Tuesday after the first Monday in January after the election.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2023,
+            "seats": "all",
+            "term_years": 4,
+            "term_start": "2024-01-02",
+            "term_end": "2028-01-03"
+          },
+          {
+            "year": 2024,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          }
+        ],
+        "notes": "Official text not reached. Four-year terms and odd-year elections per Ballotpedia; start rule ('first Tuesday after first Monday in January') unverified. Verify with the Mississippi Constitution Sections 34-35."
+      }
+    ]
+  },
+  {
+    "state": "MO",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "House of Representatives"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 4,
+        "start_rule": "The source does not state when a term begins. Sec. 20 sets when the general assembly convenes (first Wednesday after the first Monday in January after each general election). Term start below uses that date as a proxy; unverified.",
+        "source": {
+          "url": "https://revisor.mo.gov/main/ViewChapter.aspx?chapter=III&constit=y",
+          "excerpt": "The senate shall consist of thirty-four members elected by the qualified voters of the senatorial districts for a term of four years."
+        },
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2023-01-04",
+            "term_end": "2027-01-05"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2025-01-08",
+            "term_end": "2029-01-02"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2027-01-06",
+            "term_end": "2031-01-07"
+          }
+        ],
+        "notes": "Sec. 11: senators elected in alternating classes every two years, so about half the seats are up in each even year. Sec. 20 quote: \"The general assembly shall meet on the first Wednesday after the first Monday in January following each general election.\""
+      },
+      {
+        "chamber": "lower",
+        "term_years": 2,
+        "start_rule": "Not stated in the fetched text. Term start uses the Sec. 20 convening date as a proxy; unverified.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2023-01-04",
+            "term_end": "2025-01-07"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2025-01-08",
+            "term_end": "2027-01-05"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2027-01-06",
+            "term_end": "2029-01-02"
+          }
+        ],
+        "notes": "Sec. 3(a) says the house 'shall consist of one hundred sixty-three members elected at each general election' and does not state the two-year term in the fetched text. Two-year term is assumed; verify."
+      }
+    ]
+  },
+  {
+    "state": "MT",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "House of Representatives"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 4,
+        "start_rule": "Unverified. Expected: first Monday in January after the election.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2023-01-02",
+            "term_end": "2027-01-03"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2025-01-06",
+            "term_end": "2028-12-31"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2027-01-04",
+            "term_end": "2031-01-05"
+          }
+        ],
+        "notes": "Official section not reached: archive.legmt.gov section pages return 404 via curl. Term lengths per Ballotpedia (Art. V, Sec. 2 in the old numbering). Start rule unverified. Verify against Art. V, Sec. 3 (Election and terms). Senate half-seat schedule unverified."
+      },
+      {
+        "chamber": "lower",
+        "term_years": 2,
+        "start_rule": "Unverified. Expected: first Monday in January after the election.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2023-01-02",
+            "term_end": "2025-01-05"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2025-01-06",
+            "term_end": "2027-01-03"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2027-01-04",
+            "term_end": "2028-12-31"
+          }
+        ],
+        "notes": "Official section not reached: archive.legmt.gov section pages return 404 via curl. Term lengths per Ballotpedia (Art. V, Sec. 2 in the old numbering). Start rule unverified. Verify against Art. V, Sec. 3 (Election and terms)."
+      }
+    ]
+  },
+  {
+    "state": "NV",
+    "chambers": {
+      "upper": "Senate",
+      "lower": "Assembly"
+    },
+    "rules": [
+      {
+        "chamber": "upper",
+        "term_years": 4,
+        "start_rule": "Unverified. Term start uses first Monday in February after the election as a placeholder.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2023-02-06",
+            "term_end": "2027-01-31"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2025-02-03",
+            "term_end": "2029-02-04"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "some",
+            "term_years": 4,
+            "term_start": "2027-02-01",
+            "term_end": "2031-02-02"
+          }
+        ],
+        "notes": "Official text not reached: leg.state.nv.us returns 403 to curl. Snippets did not confirm the start date. Start rule below is unverified; a 1999 SJR 17 draft (not current law) describes the term beginning the day after election. Senate half-seat schedule unverified."
+      },
+      {
+        "chamber": "lower",
+        "term_years": 2,
+        "start_rule": "Unverified. Term start uses first Monday in February after the election as a placeholder.",
+        "source": null,
+        "elections": [
+          {
+            "year": 2022,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2023-02-06",
+            "term_end": "2025-02-02"
+          },
+          {
+            "year": 2023,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2024,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2025-02-03",
+            "term_end": "2027-01-31"
+          },
+          {
+            "year": 2025,
+            "seats": "none",
+            "term_years": null,
+            "term_start": null,
+            "term_end": null
+          },
+          {
+            "year": 2026,
+            "seats": "all",
+            "term_years": 2,
+            "term_start": "2027-02-01",
+            "term_end": "2029-02-04"
+          }
+        ],
+        "notes": "Official text not reached: leg.state.nv.us returns 403 to curl. Snippets did not confirm the start date. Start rule below is unverified; a 1999 SJR 17 draft (not current law) describes the term beginning the day after election."
+      }
+    ]
+  }
+]

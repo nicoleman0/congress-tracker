@@ -1,0 +1,31 @@
+group	year	state	name	won_that_year	current_term_from_that_year	term_end	result_url	result_excerpt	notes
+dsa	2022	IL	Rachel Ventura	yes	no				Won 2022 (Ballotpedia). Re-elected Nov 2024 (Patch: 43,117 vs 28,516, unofficial). Current term is the 2024 one. Official IL page not fetched.
+dsa	2022	MD	Gabriel Acevero	yes	yes	2027-01-13	https://elections.maryland.gov/elections/archive/2022/general_results/gen_results_2022_7_58.html		Official row: 23,104 votes, 33.04%, Winner Selected. Term end from BallotReady. Excerpt not verified verbatim. 2026 result not checked.
+dsa	2020	RI	David Morales	yes	no		http://www.ri.gov/election/results/2020/general_election/races/349.html		Official: 4,069 votes (96.0%), unopposed. Re-elected Nov 2024 per Ballotpedia, so the 2020 term is not current. Excerpt not verified verbatim.
+dsa	2020	MN	Jen McEwen	yes	no				Won 2020 SD 7 (30,526 votes, 68.4%). Seat renumbered to SD 8 in 2022 redistricting. Serving SD 8 from 2023 implies a 2022 win; not checked directly.
+rfs	2022	MD	Nick Allen	yes	yes	2027-01-13	https://elections.maryland.gov/elections/archive/2022/general_results/gen_results_2022_7_12.html		Official row: 18,062 votes, 19.82%, Winner Selected. Excerpt not verified verbatim (name and image in same row). 2026 result not checked.
+rfs	2022	UT	Nate Blouin	yes	yes				Won 2022 SD 13: 22,311 votes (71.76%), Salt Lake County canvass. Took office Jan 1 2023. No later election found. Term end not verified.
+rfs	2022	MD	Ashanti Martinez	no	no				Lost the July 19 2022 Democratic primary (4,494 votes, 13.91%). Not a 2022 general winner. Seated later by a route not checked.
+rfs	2022	IN	Andrea Hunley	yes	no	2026-11-04			Won 2022 SD 46: 19,503 votes (72.9%), Ballotpedia. Ballotpedia lists term ending Nov 4 2026. Seat newly created in redistricting. 2026 result not checked.
+rfs	2022	IL	Rachel Ventura	yes	no				Same person and seat as row 2. Re-elected 2024.
+rfs	2022	MD	Joe Vogel	yes	yes	2027-01-13	https://elections.maryland.gov/elections/archive/2022/general_results/gen_results_2022_7_24.html		Official row: 27,415 votes, 27.53%, Winner Selected. Term end from Ballotpedia-based search. Excerpt not verified verbatim. 2026 result not checked.
+rfs	2022	RI	Tiara Mack	yes	no		https://www.ri.gov/election/results/2022/general_election/races/13.html		Official: 3,521 votes, 84.2%. Re-elected Nov 2024 per Ballotpedia. Excerpt not verified (name and count on separate lines).
+rfs	2022	AZ	Priya Sundareshan	yes	no				Won 2022 SD 18 per Ballotpedia. Vote totals differ by source (67,343 vs 67,121). Seat drawn for 2022. Re-elected Nov 2024 per Ballotpedia.
+rfs	2022	NC	Sydney Batch	yes	no				Won 2022 SD 17 (45,279, 51.83%, Wikipedia). Re-elected Nov 2024 (71,610 votes, NCSBE canvass per search). Took the seat by appointment in Jan 2021. Current term is the 2024 one.
+rfs	2022	RI	Jonathon Acosta	yes	no		https://www.ri.gov/election/results/2022/general_election/races/23.html		Official: 1,572 votes, 71.6%. Re-elected Nov 2024 per Ballotpedia (3,846, 96.5%). Excerpt not verified (name and count on separate lines).
+rfs	2022	OR	WLnsvey Campos	yes	unknown				Won Nov 2022 special for SD 18 per Ballotpedia. Term end after the special not verified. Later elections not checked. Seated record spells the name Wlnsvey.
+rfs	2022	IN	J.D. Ford	yes	unknown				Won 2022 SD 29 per Ballotpedia (22,670 votes; state tables 51.7%). Term end not checked. Hunley's Indiana 2022 term ends Nov 4 2026; not confirmed for Ford.
+rfs	2022	MN	Zaynab Mohamed	yes	yes				Won 2022 SD 63 (85.6%, Ballotpedia). Took office 2023. Term end and 2026 result not verified.
+rfs	2022	AL	Phillip Ensler	yes	unknown				Won 2022 HD 74 (about 60%, news reports; no official table fetched). Alabama 2022 term end not verified. Announced July 2025 he would not seek re-election in 2026.
+rfs	2022	IA	Zach Wahls	yes	yes	2027-01-02			Won 2022 SD 43 (21,146 votes, 97.5%, Ballotpedia). Odd-numbered district, not up in 2024. Seat newly drawn for 2022.
+rfs	2022	NC	DeAndrea Salvador	yes	no				Won 2022 SD 39 (46,423, 63.66%, Tuesday Forum). Re-elected 2024, apparently uncontested (one source). Wikipedia table labels the 2024 result as 2022.
+rfs	2023	TN	Aftyn Behn	yes	no				Won Sept 14 2023 special, HD 51 (about 75.6%). Re-elected Nov 5 2024 per Ballotpedia. Year matches the special.
+rfs	2023	MS	Justis Gibbs	yes	yes				Unopposed in Nov 7 2023 general, HD 72 (Ballotpedia). Took office Jan 2 2024. Term end not verified.
+rfs	2023	MS	Zakiya Summers	yes	yes	2028-01-04			Won Nov 7 2023 general, HD 68 (Ballotpedia). Ballotpedia lists current term ending Jan 4 2028.
+rfs	2023	MS	Fabian Nelson	yes	yes				Unopposed in Nov 7 2023 general, HD 66, after Aug 29 2023 runoff (Ballotpedia). Took office Jan 2 2024. Term end not verified.
+rfs	2025	NJ	Katie Brennan	yes	yes				Won Nov 4 2025 general with Ravinder Bhalla, LD 32 (Ballotpedia). Took office Jan 13 2026. State results PDF could not be read; excerpt not verified.
+rfs	2025	TX	Taylor Rehmet	no	no				Nov 4 2025 was a first round with no majority. Won the Jan 31 2026 special runoff, SD 9 (57.2%, unofficial). Card year looks wrong: the winning vote was 2026.
+rfs	2025	NJ	Balvir Singh	yes	yes				Won Nov 4 2025 general, AD 7 (Ballotpedia). Appointed Jan 2025 to Herb Conaway's seat. Ballotpedia lists term through Jan 2028. Official totals not fetched.
+rfs	2025	MN	Amanda Hemmingsen-Jaeger	yes	yes		https://mn.electionarchives.lib.umn.edu/candidate/amanda-hemmingsen-jaeger		Won Nov 4 2025 special, SD 47: 13,527 votes (61.69%, UMN archive). Term ends Jan 2027. Excerpt not verified (candidate page has no name in the row). 2026 result not checked.
+rfs	2025	WA	Victoria Hunt	yes	yes	2029-01-08	https://results.vote.wa.gov/results/20251104/legislative-district-5-state-senator.html		Official county snapshot: 28,466 votes, 56.29%. Appointed June 3 2025, won Nov 4 2025 special general. Term through Jan 8 2029 per Ballotpedia. Excerpt not verified (name and count on separate lines).
+rfs	2025	FL	RaShon Young	yes	yes				Won Sept 2 2025 special, HD 40 (75.1%, 7,331 votes, Ballotpedia). Current term runs to the Nov 2026 organization session; exact date not verified. 2026 result not checked.
