@@ -11,6 +11,7 @@ import { lastChecked, searchEntries } from "@/lib/data";
 import { formatChecked } from "@/lib/freshness";
 import { REPO_URL, SITE_NAME } from "@/lib/site";
 import { statePublicationReviewedAt, statePublicationVersion } from "@/lib/state-offices";
+import "jackdaw/index.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
