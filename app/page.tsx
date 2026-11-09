@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-id hero-id--home">
-          <div className="hero-card">
+          <div className="hero-card jd-paper-sheet">
             <h1 id="hero-title" className="hero-role">{statePublicationVersion ? "Progressives in Congress and state offices" : "The progressives in Congress"}</h1>
             <p className="hero-detail">{statePublicationVersion ? `${total} in Congress · ${stateTotal} state office listings` : `${total} listed`}</p>
             <a className="hero-action" href="#states">Find your state</a>

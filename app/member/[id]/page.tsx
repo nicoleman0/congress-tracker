@@ -45,7 +45,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
         <div className="hero-row">
           <div className="hero-id">
             <h1 id="member-name" className="hero-title"><span className="jd-ink">{m.name}</span></h1>
-            <div className="hero-card">
+            <div className="hero-card jd-paper-sheet">
               <p className="hero-role">{seatLabel(m)}</p>
               <p className="hero-detail">
                 {STATUS_TEXT[m.status]}

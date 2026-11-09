@@ -38,7 +38,7 @@ export function StateMemberProfile({ member, otherTerms, stateName }: { member: 
       <Link href={`/state/${member.state.toLowerCase()}`} className="crumb">{stateName}</Link>
       <div className="hero-row"><div className="hero-id">
         <h1 id="member-name" className="hero-title"><span className="jd-ink">{member.name}</span></h1>
-        <div className="hero-card"><p className="hero-role">{stateSeatLabel(member)}</p><p className="hero-detail">{status(member)}</p>
+        <div className="hero-card jd-paper-sheet"><p className="hero-role">{stateSeatLabel(member)}</p><p className="hero-detail">{status(member)}</p>
           {member.term.contact_url && <a className="hero-action" href={member.term.contact_url} target="_blank" rel="noopener noreferrer">Contact office ↗</a>}
           {member.term.campaign_url && <a className="hero-action" href={member.term.campaign_url} target="_blank" rel="noopener noreferrer">Campaign ↗</a>}
         </div>
