@@ -114,9 +114,9 @@ export async function publicationProblems(db: Client, id: string): Promise<strin
       (d.withdrawn OR t.person_id<>d.person_id OR t.status NOT IN ('serving','incoming','unresolved') OR te.seat_id<>de.seat_id OR te.year<>de.year OR NOT (de.id=te.id OR (de.stage='primary' AND de.cycle_election_id=te.id)))))`, [id]);
   for (const row of unreconciled.rows) problems.push(`endorsement requires reconciliation: ${row.id}`);
   const overlap = await db.query(`SELECT a.seat_id FROM state_offices.terms a JOIN state_offices.seats s ON s.batch_id=a.batch_id AND s.id=a.seat_id
-    JOIN state_offices.terms b ON b.batch_id=a.batch_id AND b.seat_id=a.seat_id AND b.status='serving'
+    JOIN state_offices.terms b ON b.batch_id=a.batch_id AND b.seat_id=a.seat_id AND b.status=a.status
       AND daterange(b.starts_on,b.ends_on,'[)') @> a.starts_on
-    WHERE a.batch_id=$1 AND a.status='serving' GROUP BY a.id, a.seat_id, s.capacity HAVING count(*) > s.capacity`, [id]);
+    WHERE a.batch_id=$1 AND a.status IN ('serving','incoming') GROUP BY a.id, a.seat_id, s.capacity HAVING count(*) > s.capacity`, [id]);
   for (const row of overlap.rows) problems.push(`seat capacity exceeded: ${row.seat_id}`);
   return problems;
 }

@@ -68,7 +68,7 @@ export function readStatePublication(input: unknown, today = new Date()): { vers
     return { id: person.id, name: person.name, state: seat.state, seat, term, election, ...(term.service_source_id ? { service: lookup(sources, term.service_source_id) } : {}), result, ...(term.contact_url ? { contactSource: lookup(sources, term.contact_source_id) } : {}), ...(term.campaign_url ? { campaignSource: lookup(sources, term.campaign_source_id) } : {}), endorsers: endorsements.map((e) => ({ issuer: lookup(issuers, e.issuer_id), source: lookup(sources, e.source_id), election: lookup(elections, e.election_id) })), ...(person.portrait_url && person.portrait_credit ? { portrait: { url: person.portrait_url, credit: person.portrait_credit, source: lookup(sources, person.portrait_source_id) } } : {}) };
   });
   if (!members.some((m) => m.term.status === "serving")) throw new Error("state publication: no serving members");
-  for (const seat of s.seats) if (members.filter((m) => m.seat.id === seat.id && m.term.status === "serving").length > seat.capacity) throw new Error(`state publication: seat capacity exceeded ${seat.id}`);
+  for (const seat of s.seats) for (const status of ["serving", "incoming"]) if (members.filter((m) => m.seat.id === seat.id && m.term.status === status).length > seat.capacity) throw new Error(`state publication: seat capacity exceeded ${seat.id}`);
   return { version: envelope.version, reviewedAt: s.batch.reviewed_at, members, coverage: s.coverage };
 }
 const publication = readStatePublication(raw);

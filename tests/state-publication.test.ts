@@ -48,6 +48,19 @@ test("missing evidence and stale or expired terms fail closed", () => {
   assert.throws(() => readStatePublication(envelope(future), new Date("2026-11-08")), /invalid term/);
 });
 
+test("a seat cannot list more incoming winners than it holds", () => {
+  const data = fixture();
+  for (const n of [1, 2, 3]) {
+    data.people.push({ ...data.people[0], id: `p${n}` });
+    data.endorsements.push({ ...data.endorsements[0], id: `e${n}`, person_id: `p${n}` });
+    data.terms.push({ ...data.terms[0], id: `t${n}`, person_id: `p${n}`, status: "incoming", starts_on: "2027-01-01" });
+    data.reconciliations.push({ ...data.reconciliations[0], id: `r${n}`, endorsement_id: `e${n}`, term_id: `t${n}` });
+  }
+  assert.throws(() => readStatePublication(envelope(data), new Date("2026-11-08")), /seat capacity exceeded/);
+  data.terms.pop();
+  assert.equal(readStatePublication(envelope(data), new Date("2026-11-08")).members.length, 3);
+});
+
 test("uncalled races are not listed", () => {
   const data = fixture();
   data.terms.push({ ...data.terms[0], id: "race", status: "unresolved", starts_on: "2027-01-01", ends_on: null as unknown as string, service_source_id: null as unknown as string });
