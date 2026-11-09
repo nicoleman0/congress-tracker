@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import Link from "next/link";
 import { formatChecked } from "@/lib/freshness";
 import { committeeName, dollars, fecSpenderUrl, moneyFile, type Spend, type Stage } from "@/lib/money";
@@ -41,27 +42,27 @@ export function OutsideMoney({ spends }: { spends: Spend[] }) {
         const rest = groups.slice(TOP);
         const restTotal = rest.reduce((n, g) => n + g.total, 0);
         return (
-          <div key={side} className={`money-side money-side--${side}`}>
+          <div key={side} className={`money-side jd-tone--${side}`}>
             <h3 className="money-head">
               {side === "oppose" ? "Against" : "For"} <span className="money-total">{dollars(total)}</span>
             </h3>
-            <div className="money-bar" style={{ width: `${(total / max) * 100}%` }} aria-hidden="true">
+            <div className="jd-bar jd-bar--segmented" style={{ "--v": `${(total / max) * 100}%` } as CSSProperties} aria-hidden="true">
               {top.map((g, i) => (
-                <span key={g.committee} className="money-seg" data-rank={i} style={{ flexGrow: g.total }}>
+                <span key={g.committee} className="jd-bar__segment" data-rank={i} style={{ "--v": g.total } as CSSProperties}>
                   {g.total / max >= LABEL_SHARE && g.name}
                 </span>
               ))}
-              {rest.length > 0 && <span className="money-seg" data-rank="rest" style={{ flexGrow: restTotal }} />}
+              {rest.length > 0 && <span className="jd-bar__segment" data-rank="rest" style={{ "--v": restTotal } as CSSProperties} />}
             </div>
-            <ul className="money-legend">
+            <ul className="jd-legend">
               {top.map((g, i) => (
                 <li key={g.committee}>
-                  <span className="money-swatch" data-rank={i} /> <Spender g={g} /> <span className="money-amount">{dollars(g.total)}</span>
+                  <span className="jd-swatch" data-rank={i} /> <Spender g={g} /> <span className="money-amount">{dollars(g.total)}</span>
                 </li>
               ))}
               {rest.length > 0 && (
                 <li>
-                  <span className="money-swatch" data-rank="rest" /> {rest.length} {rest.length === 1 ? "other" : "others"}{" "}
+                  <span className="jd-swatch" data-rank="rest" /> {rest.length} {rest.length === 1 ? "other" : "others"}{" "}
                   <span className="money-amount">{dollars(restTotal)}</span>
                 </li>
               )}

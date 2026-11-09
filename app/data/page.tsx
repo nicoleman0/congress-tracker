@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import Link from "next/link";
 import { getGroup, listedMembers, seatLabel, type Member } from "@/lib/data";
 import { formatChecked } from "@/lib/freshness";
@@ -11,10 +12,10 @@ const CAUCUS_URL = getGroup("CAUCUS").url;
 
 function Meter({ value, total, mark, under, label }: { value: number; total: number; mark?: number; under?: number; label: string }) {
   return (
-    <div className="meter" role="img" aria-label={label}>
-      {under !== undefined && <span className="meter-fill meter-fill--under" style={{ width: `${(under / total) * 100}%` }} />}
-      <span className="meter-fill" style={{ width: `${(value / total) * 100}%` }} />
-      {mark && <span className="meter-mark" style={{ left: `${(mark / total) * 100}%` }} />}
+    <div className="jd-bar" role="img" aria-label={label}>
+      {under !== undefined && <span className="jd-bar__fill jd-bar__fill--under" style={{ "--v": `${(under / total) * 100}%` } as CSSProperties} />}
+      <span className="jd-bar__fill" style={{ "--v": `${(value / total) * 100}%` } as CSSProperties} />
+      {mark && <span className="jd-bar__mark" style={{ "--v": `${(mark / total) * 100}%` } as CSSProperties} />}
     </div>
   );
 }
@@ -78,10 +79,10 @@ export default function Data() {
                 <p className="stat-label">{b.office === "house" ? "House" : "Senate"} seats from January 3, 2027</p>
                 <Meter value={b.seated} under={dems.democrats} total={seats.total} mark={seats.majority}
                   label={`${b.seated} progressives among ${dems.democrats} Democrats, of ${seats.total} seats; ${seats.majority} is a majority`} />
-                <ul className="legend">
-                  <li><span className="swatch" /> Progressives listed here</li>
-                  <li><span className="swatch swatch--under" /> All Democrats</li>
-                  <li><span className="swatch swatch--mark" /> Majority, {seats.majority}</li>
+                <ul className="jd-legend">
+                  <li><span className="jd-swatch" /> Progressives listed here</li>
+                  <li><span className="jd-swatch jd-swatch--under" /> All Democrats</li>
+                  <li><span className="jd-swatch jd-swatch--mark" /> Majority, {seats.majority}</li>
                 </ul>
                 <p className="meta">
                   {b.returning} returning · {b.new} new{b.unresolved > 0 && ` · ${b.unresolved} undecided`} · Democrats per{" "}
