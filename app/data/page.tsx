@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getGroup, listedMembers, seatLabel, type Member } from "@/lib/data";
 import { formatChecked } from "@/lib/freshness";
 import { blocSize, chamber, issueCoverage, SEATS } from "@/lib/metrics";
-import { dollars, fecSpenderUrl, moneyFile, mostOpposed, sum, topSpenders, type Spender } from "@/lib/money";
+import { committeeName, dollars, fecSpenderUrl, moneyFile, mostOpposed, sum, topSpenders, type Spender } from "@/lib/money";
 
 export const metadata = { title: "By the numbers" };
 
@@ -35,14 +35,14 @@ function SpenderList({ spenders }: { spenders: Spender[] }) {
       {spenders.slice(0, TOP).map((s) => (
         <li key={s.committee}>
           <span className="bars-label">
-            <a href={fecSpenderUrl(s.committee)} target="_blank" rel="noopener noreferrer">{s.name}</a>
+            <a href={fecSpenderUrl(s.committee)} target="_blank" rel="noopener noreferrer">{committeeName(s.name)}</a>
             <span className="bars-detail">
               {s.members.slice(0, 3).map((x, i) => <span key={x.member.id}>{i > 0 && ", "}<Link href={`/member/${x.member.id}`}>{x.member.name}</Link></span>)}
               {s.members.length > 3 && ` and ${s.members.length - 3} more`}
             </span>
           </span>
           <span className="bars-value">{dollars(s.total)}</span>
-          <Meter value={s.total} total={max} label={`${s.name}: ${dollars(s.total)}`} />
+          <Meter value={s.total} total={max} label={`${committeeName(s.name)}: ${dollars(s.total)}`} />
         </li>
       ))}
     </ol>

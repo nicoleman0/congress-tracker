@@ -9,7 +9,8 @@ import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, campaignAction } from "@/lib/ac
 import { formatChecked } from "@/lib/freshness";
 import { allMembers, getGroup, getMember, getPhoto, getState, platformOf, seatLabel } from "@/lib/data";
 import { getStateMember, stateMembers } from "@/lib/state-offices";
-import { dollars, fecSpenderUrl, moneyFile, spendingOn, sum } from "@/lib/money";
+import { moneyFile, spendingOn } from "@/lib/money";
+import { OutsideMoney } from "@/components/OutsideMoney";
 import { StateMemberProfile } from "@/components/StateMemberProfile";
 
 export function generateStaticParams() {
@@ -138,30 +139,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
         ) : spends.length === 0 ? (
           <p className="note">No outside spending for or against {m.name} reported to the FEC in {moneyFile().cycle}.</p>
         ) : (
-          <>
-            <p>
-              Groups reported spending {dollars(sum(spends, "oppose"))} against {m.name} and {dollars(sum(spends, "support"))} for them in {moneyFile().cycle}.{" "}
-              <Link href="/data#money-title">How this compares</Link>.
-            </p>
-            <dl className="platform">
-              {(["oppose", "support"] as const).map((side) => {
-                const list = spends.filter((s) => s.side === side);
-                return list.length > 0 && (
-                  <div key={side} className="platform-issue">
-                    <dt>{side === "oppose" ? "Against" : "For"}</dt>
-                    {list.slice(0, 8).map((s) => (
-                      <dd key={s.committee + s.stage}>
-                        <a href={fecSpenderUrl(s.committee)} target="_blank" rel="noopener noreferrer">{s.name}</a>: {dollars(s.total)}{" "}
-                        <span className="platform-checked">{s.stage}</span>
-                      </dd>
-                    ))}
-                    {list.length > 8 && <dd className="note">and {list.length - 8} smaller</dd>}
-                  </div>
-                );
-              })}
-            </dl>
-            <p className="note">Source: FEC, {formatChecked(moneyFile().checkedAt)}. Late-October spending posts after December 3.</p>
-          </>
+          <OutsideMoney spends={spends} />
         )}
       </section>
     </>
