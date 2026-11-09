@@ -1,0 +1,2381 @@
+{
+  "state": "MI",
+  "researched_at": "2026-11-09",
+  "chambers": {
+    "upper": "Senate",
+    "lower": "House of Representatives"
+  },
+  "endorsements": [
+    {
+      "person": "Abbas Alawieh",
+      "office": "upper",
+      "district": "2",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Abbas Alawieh Michigan State Senate, District 2"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_2",
+        "excerpt": "Abbas Alawieh (D) defeated Harry Sawicki (R) and Larry Betts (Working Class Party) in the general election for Michigan State Senate District 2 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2030-12-31",
+        "service_source": null,
+        "contact_url": "https://senate.michigan.gov/senators/senatorinfo_list.html"
+      },
+      "notes": "Stage general: no announcement date on the page, defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: Senate terms are four years, concurrent with the governor (Mich. Const. art. IV, sec. 2) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Pamela Pugh",
+      "office": "upper",
+      "district": "35",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "special"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/2026/01/wfp-endorses-pamela-pugh-for-michigan-senate/",
+        "excerpt": "Working Families Party is proud to endorse Dr. Pamela Pugh in her race to represent the 35th District in the Michigan Senate."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_35",
+        "excerpt": "Chedrick Greene 60.4 16,085 Pamela Pugh 27.7 7,373"
+      },
+      "current": null,
+      "notes": "Special election for Senate District 35 (primary 2026-02-03); endorsement dated 2026-01-16. Lost the special Democratic primary on 2026-02-03 (Chedrick Greene 60.4%, Pamela Pugh 27.7%)."
+    },
+    {
+      "person": "Tonya Myers Phillips",
+      "office": "lower",
+      "district": "7",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Tonya Meyers Phillips Michigan House of Representatives, District 7"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_7",
+        "excerpt": "Incumbent Tonya Myers Phillips (D) defeated Reginald Moorer (R) in the general election for Michigan House of Representatives District 7 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Tonya Phillips"
+        },
+        "contact_url": "https://housedems.com/tonya-myers-phillips/"
+      },
+      "notes": "Stage general: no announcement date on the page, defaulted per brief. WFP page spells the name \"Tonya Meyers Phillips\"; Open States and Ballotpedia use \"Myers\". Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Incumbent re-elected: Open States current roster lists \"Tonya Phillips\" for the current term; the new term starts 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Chris Gilmer-Hill",
+      "office": "lower",
+      "district": "8",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Chris Gilmer-Hill Michigan House of Representatives, District 8"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_8",
+        "excerpt": "Chris Gilmer-Hill (D) defeated Bruce Langran (R) and Stephen Boyle (G) in the general election for Michigan House of Representatives District 8 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: no announcement date on the page, defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Kimberly Fisher",
+      "office": "lower",
+      "district": "11",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Kimberly Fisher Michigan House of Representatives, District 11"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_11",
+        "excerpt": "Kimberly Fisher (D) defeated Matthew Stafford (R) in the general election for Michigan House of Representatives District 11 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: no announcement date on the page, defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Jason Morgan",
+      "office": "lower",
+      "district": "23",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Jason Morgan Michigan House of Representatives, District 23"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_23",
+        "excerpt": "Incumbent Jason Morgan (D) defeated Miriam Corvino (R) and Christina Marudas (G) in the general election for Michigan House of Representatives District 23 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Jason Morgan"
+        },
+        "contact_url": "https://housedems.com/Jason-Morgan/"
+      },
+      "notes": "Stage general: no announcement date on the page, defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Incumbent re-elected: Open States current roster lists \"Jason Morgan\" for the current term; the new term starts 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Dylan Wegela",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Dylan Wegela Michigan House of Representatives, District 26"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_26",
+        "excerpt": "Incumbent Dylan Wegela (D) defeated Chris Dobis (R) in the general election for Michigan House of Representatives District 26 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Dylan Wegela"
+        },
+        "contact_url": "https://housedems.com/Dylan-Wegela/"
+      },
+      "notes": "Stage general: no announcement date on the page, defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Incumbent re-elected: Open States current roster lists \"Dylan Wegela\" for the current term; the new term starts 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Jaime Churches",
+      "office": "lower",
+      "district": "27",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Jaime Churches Michigan House of Representatives, District 27"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_27",
+        "excerpt": "Jaime Churches (D) defeated incumbent Rylee Linting (R) in the general election for Michigan House of Representatives District 27 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: no announcement date on the page, defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Katrina Manetta",
+      "office": "lower",
+      "district": "58",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Katrina Manetta Michigan House of Representatives, District 58"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_58",
+        "excerpt": "Katrina Manetta (D) defeated incumbent Ron Robinson (R) in the general election for Michigan House of Representatives District 58 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: no announcement date on the page, defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Emily Dievendorf",
+      "office": "lower",
+      "district": "77",
+      "issuer": "Michigan Working Families Party",
+      "group": "wfp",
+      "issuer_source": "https://workingfamilies.org/state/michigan/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://workingfamilies.org/candidates/",
+        "excerpt": "Emily Dievendorf Michigan House of Representatives, District 77"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_77",
+        "excerpt": "Incumbent Emily Dievendorf (D) defeated Sally Jo Nelton (R) and Jennifer Long (L) in the general election for Michigan House of Representatives District 77 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Emily Dievendorf"
+        },
+        "contact_url": "https://housedems.com/Emily-Dievendorf/"
+      },
+      "notes": "Stage general: no announcement date on the page, defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Incumbent re-elected: Open States current roster lists \"Emily Dievendorf\" for the current term; the new term starts 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Layla Taha",
+      "office": "lower",
+      "district": "25",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/michigan-endorsements-2024/",
+        "excerpt": "Layla Taha for State House (HD-25) and Alyshia Dyer for Washtenaw Co. Sheriff— all endorsed by Our Revolution."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_25",
+        "excerpt": "Incumbent Peter Herzberg (D) defeated Layla Taha (D)"
+      },
+      "current": null,
+      "notes": "Stage primary: post says \"Vote by Aug. 6th\", the 2024 primary date. Lost the Democratic primary (August 6, 2024)."
+    },
+    {
+      "person": "Justin Onwenu",
+      "office": "upper",
+      "district": "1",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/endorsing-leaders-for-michigan-house/",
+        "excerpt": "Justin Onwenu for State Senate — District 1"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_1",
+        "excerpt": "Justin Onwenu (D) defeated Patrick O'Connell (R) in the general election for Michigan State Senate District 1 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2030-12-31",
+        "service_source": null,
+        "contact_url": "https://senate.michigan.gov/senators/senatorinfo_list.html"
+      },
+      "notes": "Stage general: post says early voting starts October 24, after the August 4 primary. Same text appears at /endorsing-leaders-for-michigan-senate/. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: Senate terms are four years, concurrent with the governor (Mich. Const. art. IV, sec. 2) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Abbas Alawieh",
+      "office": "upper",
+      "district": "2",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/endorsing-leaders-for-michigan-house/",
+        "excerpt": "Abbas Alawieh for State Senate (District 2)"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_2",
+        "excerpt": "Abbas Alawieh (D) defeated Harry Sawicki (R) and Larry Betts (Working Class Party) in the general election for Michigan State Senate District 2 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2030-12-31",
+        "service_source": null,
+        "contact_url": "https://senate.michigan.gov/senators/senatorinfo_list.html"
+      },
+      "notes": "Stage general: post says early voting starts October 24, after the August 4 primary. Same text appears at /endorsing-leaders-for-michigan-senate/. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: Senate terms are four years, concurrent with the governor (Mich. Const. art. IV, sec. 2) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Joanna Whaley",
+      "office": "lower",
+      "district": "2",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/endorsing-leaders-for-michigan-house/",
+        "excerpt": "Joanna Whaley for State House (District 2)"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_2",
+        "excerpt": "Joanna Whaley (D) defeated Ronald Kokinda (R) in the general election for Michigan House of Representatives District 2 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: post says early voting starts October 24, after the August 4 primary. Same text appears at /endorsing-leaders-for-michigan-senate/. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Chris Gilmer-Hill",
+      "office": "lower",
+      "district": "8",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/endorsing-leaders-for-michigan-house/",
+        "excerpt": "Chris Gilmer-Hill for State House (District 8)"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_8",
+        "excerpt": "Chris Gilmer-Hill (D) defeated Bruce Langran (R) and Stephen Boyle (G) in the general election for Michigan House of Representatives District 8 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: post says early voting starts October 24, after the August 4 primary. Same text appears at /endorsing-leaders-for-michigan-senate/. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Dylan Wegela",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/endorsing-leaders-for-michigan-house/",
+        "excerpt": "Dylan Wegela for State House — District 26"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_26",
+        "excerpt": "Incumbent Dylan Wegela (D) defeated Chris Dobis (R) in the general election for Michigan House of Representatives District 26 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Dylan Wegela"
+        },
+        "contact_url": "https://housedems.com/Dylan-Wegela/"
+      },
+      "notes": "Stage general: post says early voting starts October 24, after the August 4 primary. Same text appears at /endorsing-leaders-for-michigan-senate/. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Incumbent re-elected: Open States current roster lists \"Dylan Wegela\" for the current term; the new term starts 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Jen Strebs",
+      "office": "lower",
+      "district": "41",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/endorsing-leaders-for-michigan-house/",
+        "excerpt": "Jen Strebs for State House (District 41)"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_41",
+        "excerpt": "Jen Strebs (D) defeated Nicole Sabel (R), Rafael Wolf (L), and Marcus Irvine (Independent) in the general election for Michigan House of Representatives District 41 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: post says early voting starts October 24, after the August 4 primary. Same text appears at /endorsing-leaders-for-michigan-senate/. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Rachel Crowther",
+      "office": "lower",
+      "district": "90",
+      "issuer": "Our Revolution",
+      "group": "or",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://ourrevolution.com/endorsing-leaders-for-michigan-house/",
+        "excerpt": "Rachel Crowther for State House — District 90"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_90",
+        "excerpt": "Lynn Afendoulis (R) defeated Rachel Crowther (D) in the general election for Michigan House of Representatives District 90 on November 3, 2026"
+      },
+      "current": null,
+      "notes": "Stage general: post says early voting starts October 24, after the August 4 primary. Same text appears at /endorsing-leaders-for-michigan-senate/. Lost the general election (November 3, 2026)."
+    },
+    {
+      "person": "Layla Taha",
+      "office": "lower",
+      "district": "25",
+      "issuer": "Metro Detroit DSA",
+      "group": "dsa",
+      "issuer_source": "https://metrodetroitdsa.org/",
+      "election": {
+        "year": 2024,
+        "stage": "special"
+      },
+      "source": {
+        "url": "https://jacobin.com/2024/01/layla-taha-socialist-michigan-state-house",
+        "excerpt": "and her campaign has been endorsed by Tlaib as well as the Detroit chapter of DSA."
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_25",
+        "excerpt": "Peter Herzberg (D) defeated Andrea Rutkowski (D), Layla Taha (D)"
+      },
+      "current": null,
+      "notes": "Special election for House District 25 (special primary 2024-01-30). Jacobin (2024-01) reports the Detroit chapter endorsement; Metro Detroit DSA own 2024 page (metrodetroitdsa.com/our_2024_endorsements) returned 404. Lost the special Democratic primary on 2024-01-30; Peter Herzberg won that primary and holds the seat (Ballotpedia HD25 page)."
+    },
+    {
+      "person": "Layla Taha",
+      "office": "lower",
+      "district": "25",
+      "issuer": "Metro Detroit DSA",
+      "group": "dsa",
+      "issuer_source": "https://metrodetroitdsa.org/",
+      "election": {
+        "year": 2024,
+        "stage": "primary"
+      },
+      "source": {
+        "url": "https://airtable.com/embed/app41ni7RJppgXEBL/shrlm0oDQJkJsCnSr?backgroundColor=grayLight&viewControls=on",
+        "excerpt": null
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_25",
+        "excerpt": "Incumbent Peter Herzberg (D) defeated Layla Taha (D)"
+      },
+      "current": null,
+      "notes": "Stage primary: national DSA past-endorsements table (saved record, row 37) lists \"Michigan State Representative, HD 25\", Metro Detroit, Endorsed 2024, election_date 8/6/2024. Airtable grid renders client-side, so there is no verifiable text excerpt. Lost the Democratic primary (August 6, 2024)."
+    },
+    {
+      "person": "Chris Gilmer-Hill",
+      "office": "lower",
+      "district": "8",
+      "issuer": "Metro Detroit DSA",
+      "group": "dsa",
+      "issuer_source": "https://metrodetroitdsa.org/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://metrodetroitdsa.org/2026-slate/",
+        "excerpt": "Chris Gilmer-Hill MI House of Representatives District 8"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_8",
+        "excerpt": "Chris Gilmer-Hill (D) defeated Bruce Langran (R) and Stephen Boyle (G) in the general election for Michigan House of Representatives District 8 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: slate page is undated, defaulted per brief. National DSA table lists the same endorsement (election_date 11/3/2026). Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Dylan Wegela",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Metro Detroit DSA",
+      "group": "dsa",
+      "issuer_source": "https://metrodetroitdsa.org/",
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://metrodetroitdsa.org/2026-slate/",
+        "excerpt": "Dylan Wegela MI House of Representatives District 26"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_26",
+        "excerpt": "Incumbent Dylan Wegela (D) defeated Chris Dobis (R) in the general election for Michigan House of Representatives District 26 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Dylan Wegela"
+        },
+        "contact_url": "https://housedems.com/Dylan-Wegela/"
+      },
+      "notes": "Stage general: slate page is undated, defaulted per brief. National DSA table lists the same endorsement (election_date 8/4/2026). Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Incumbent re-elected: Open States current roster lists \"Dylan Wegela\" for the current term; the new term starts 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Mallory McMorrow",
+      "office": "upper",
+      "district": "8",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2339/mcmorrow-mallory/",
+        "excerpt": "Mallory McMorrow Michigan Senate, District 8, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_8",
+        "excerpt": "Incumbent Mallory McMorrow (D) defeated Brandon Ronald Simpson (R) in the general election for Michigan State Senate District 8 on November 8, 2022"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2023-01-01",
+        "term_end": "2026-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Mallory McMorrow"
+        },
+        "contact_url": "https://senatedems.com/mcmorrow"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Serving: listed in Open States current roster as \"Mallory McMorrow\", district 8. Term rule: Senate terms are four years, concurrent with the governor (Mich. Const. art. IV, sec. 2) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Kelsey Heck Wood",
+      "office": "upper",
+      "district": "14",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2677/heck-wood-kelsey/",
+        "excerpt": "Kelsey Heck Wood Michigan Senate, District 14, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_14",
+        "excerpt": "Sue Shink (D) defeated Kelsey Heck Wood (D) and Val Cochran Toops (D) in the Democratic primary for Michigan State Senate District 14 on August 2, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 2, 2022)."
+    },
+    {
+      "person": "Katybeth Davis",
+      "office": "upper",
+      "district": "16",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2469/davis-katybeth/",
+        "excerpt": "Katybeth Davis Michigan Senate, District 16, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_16",
+        "excerpt": "Joseph Bellino (R) defeated Katybeth Davis (D) in the general election for Michigan State Senate District 16 on November 8, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 8, 2022)."
+    },
+    {
+      "person": "Natalie Price",
+      "office": "lower",
+      "district": "5",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2828/price-natalie/",
+        "excerpt": "Natalie Price Michigan House, District 5, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_5",
+        "excerpt": "Natalie Price (D) defeated Paul Taros (R) in the general election for Michigan House of Representatives District 5 on November 8, 2022"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2023-01-01",
+        "term_end": "2024-12-31",
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. 2022 House term ended 2024-12-31. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Caprice A. Jackson",
+      "office": "lower",
+      "district": "18",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2930/jackson-caprice/",
+        "excerpt": "Caprice A. Jackson Michigan House, District 18, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_18",
+        "excerpt": "Jason Hoskins (D) defeated Caprice A. Jackson (D) in the Democratic primary for Michigan House of Representatives District 18 on August 2, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 2, 2022)."
+    },
+    {
+      "person": "Jason Hoskins",
+      "office": "lower",
+      "district": "18",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2787/hoskins-jason/",
+        "excerpt": "Jason Hoskins Michigan House, District 18, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_18",
+        "excerpt": "Jason Hoskins (D) defeated Wendy Webster Jackson (R) in the general election for Michigan House of Representatives District 18 on November 8, 2022"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2023-01-01",
+        "term_end": "2024-12-31",
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. 2022 House term ended 2024-12-31. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Noah Arbit",
+      "office": "lower",
+      "district": "20",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2694/arbit-noah/",
+        "excerpt": "Noah Arbit Michigan House, District 20, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_20",
+        "excerpt": "Noah Arbit (D) defeated Albert Mansour (R) in the general election for Michigan House of Representatives District 20 on November 8, 2022"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2023-01-01",
+        "term_end": "2024-12-31",
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. 2022 House term ended 2024-12-31. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Jason Morgan",
+      "office": "lower",
+      "district": "23",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2766/morgan-jason/",
+        "excerpt": "Jason Morgan Michigan House, District 23, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_23",
+        "excerpt": "Jason Morgan (D) defeated Richard L. Sharland (R) in the general election for Michigan House of Representatives District 23 on November 8, 2022"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2023-01-01",
+        "term_end": "2024-12-31",
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. 2022 House term ended 2024-12-31. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Ranjeev Puri",
+      "office": "lower",
+      "district": "24",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2311/puri-ranjeev/",
+        "excerpt": "Ranjeev Puri Michigan House, District 24, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_24",
+        "excerpt": "Incumbent Ranjeev Puri (D) defeated John Anthony (R) in the general election for Michigan House of Representatives District 24 on November 8, 2022"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2023-01-01",
+        "term_end": "2024-12-31",
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. 2022 House term ended 2024-12-31. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Dylan Wegela",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2565/wegela-dylan/",
+        "excerpt": "Dylan Wegela Michigan House, District 26, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_26",
+        "excerpt": "Dylan Wegela (D) defeated James Townsend (R) in the general election for Michigan House of Representatives District 26 on November 8, 2022"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2023-01-01",
+        "term_end": "2024-12-31",
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. 2022 House term ended 2024-12-31. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Jaime Churches",
+      "office": "lower",
+      "district": "27",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2266/churches-jaime/",
+        "excerpt": "Jaime Churches Michigan House, District 27, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_27",
+        "excerpt": "Jaime Churches (D) defeated Bob Howey (R) in the general election for Michigan House of Representatives District 27 on November 8, 2022"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2023-01-01",
+        "term_end": "2024-12-31",
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. 2022 House term ended 2024-12-31. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Rob Kull",
+      "office": "lower",
+      "district": "28",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2427/kull-robert/",
+        "excerpt": "Rob Kull Michigan House, District 28, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_28",
+        "excerpt": "Jamie Thompson (R) defeated Rob Kull (D) in the general election for Michigan House of Representatives District 28 on November 8, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 8, 2022)."
+    },
+    {
+      "person": "Jimmie Wilson Jr.",
+      "office": "lower",
+      "district": "32",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2508/wilson-jimmie/",
+        "excerpt": "Jimmie Wilson Jr. Michigan House, District 32, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_32",
+        "excerpt": "Jimmie Wilson Jr. (D) defeated Martin Church (R) in the general election for Michigan House of Representatives District 32 on November 8, 2022"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2023-01-01",
+        "term_end": "2024-12-31",
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. 2022 House term ended 2024-12-31. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Marshall Averill",
+      "office": "lower",
+      "district": "32",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2777/averill-marshall/",
+        "excerpt": "Marshall Averill Michigan House, District 32, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_32",
+        "excerpt": "Jimmie Wilson Jr. 46.8 5,803 Submit photo Robyn L. McCoy 36.5 4,529 Submit photo Carol Smith 5.9 727 Submit photo Marshall Averill 5.3 654"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the 2022-08-02 Democratic primary (5.3%); Jimmie Wilson Jr. won it and the general."
+    },
+    {
+      "person": "Justin Mendoza",
+      "office": "lower",
+      "district": "42",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2665/mendoza-justin/",
+        "excerpt": "Justin Mendoza Michigan House, District 42, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_42",
+        "excerpt": "Incumbent Matt Hall (R) defeated Justin Mendoza (D) in the general election for Michigan House of Representatives District 42 on November 8, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 8, 2022)."
+    },
+    {
+      "person": "Sarah May-Seward",
+      "office": "lower",
+      "district": "51",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3152/may-seward-sarah/",
+        "excerpt": "Sarah May-Seward Michigan House, District 51, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_51",
+        "excerpt": "Incumbent Matt Maddock (R) defeated Sarah May-Seward (D) in the general election for Michigan House of Representatives District 51 on November 8, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 8, 2022)."
+    },
+    {
+      "person": "Neil Oza",
+      "office": "lower",
+      "district": "55",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2578/oza-neil/",
+        "excerpt": "Neil Oza Michigan House, District 55, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_55",
+        "excerpt": "Patricia Bernard (D) defeated Neil R. Oza (D) in the Democratic primary for Michigan House of Representatives District 55 on August 2, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 2, 2022)."
+    },
+    {
+      "person": "Jasper Martus",
+      "office": "lower",
+      "district": "69",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2445/martus-jasper/",
+        "excerpt": "Jasper Martus Michigan House, District 69, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_69",
+        "excerpt": "Jasper Martus (D) defeated Jesse Couch (R) and Adam Childress (L) in the general election for Michigan House of Representatives District 69 on November 8, 2022"
+      },
+      "current": {
+        "status": "not_serving",
+        "term_start": "2023-01-01",
+        "term_end": "2024-12-31",
+        "service_source": null,
+        "contact_url": null
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. 2022 House term ended 2024-12-31. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Carlee Knott",
+      "office": "lower",
+      "district": "74",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2826/knott-carlee/",
+        "excerpt": "Carlee Knott Michigan House, District 74, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_74",
+        "excerpt": "Incumbent Kara Hope (D) defeated Carlee Knott (D) and Albert Kelley Jr. (D) in the Democratic primary for Michigan House of Representatives District 74 on August 2, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 2, 2022)."
+    },
+    {
+      "person": "Logan Byrne",
+      "office": "lower",
+      "district": "77",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2278/byrne-logan/",
+        "excerpt": "Logan Byrne Michigan House, District 77, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_77",
+        "excerpt": "Emily Dievendorf (D) defeated Jon Horford (D) and Logan Byrne (D) in the Democratic primary for Michigan House of Representatives District 77 on August 2, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 2, 2022)."
+    },
+    {
+      "person": "Larry Jackson",
+      "office": "lower",
+      "district": "86",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2553/jackson-larry/",
+        "excerpt": "Larry Jackson Michigan House, District 86, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_86",
+        "excerpt": "Nancy De Boer (R) defeated Larry Jackson (D) in the general election for Michigan House of Representatives District 86 on November 8, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 8, 2022)."
+    },
+    {
+      "person": "Debra Warren",
+      "office": "lower",
+      "district": "87",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2748/warren-debra/",
+        "excerpt": "Debra Warren Michigan House, District 87, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_87",
+        "excerpt": "Will Snyder (D) defeated Debra Warren (D), Eddie Jenkins III (D), and Brennen Gorman (D) in the Democratic primary for Michigan House of Representatives District 87 on August 2, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 2, 2022)."
+    },
+    {
+      "person": "Michael Brodsky",
+      "office": "lower",
+      "district": "103",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2022,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/2729/brodsky-michael/",
+        "excerpt": "Michael Brodsky Michigan House, District 103, MI 2022 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_103",
+        "excerpt": "Betsy Coffia (D) defeated Michael Brodsky (D) in the Democratic primary for Michigan House of Representatives District 103 on August 2, 2022"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 2, 2022)."
+    },
+    {
+      "person": "Natalie Price",
+      "office": "lower",
+      "district": "6",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/4065/price-natalie/",
+        "excerpt": "Natalie Price State House, District 5, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_6",
+        "excerpt": "Incumbent Natalie Price (D) defeated Brent Lamkin (R) in the general election for Michigan House of Representatives District 6 on November 5, 2024"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2025-01-01",
+        "term_end": "2026-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Natalie Price"
+        },
+        "contact_url": "https://housedems.com/Natalie-Price/"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. RFS card says District 5; she held HD5 from 2023, and Ballotpedia shows her withdrawn or disqualified in the HD5 2024 primary and winning HD6 in 2024 (HD6 incumbent on page: Natalie Price, assumed office 2025-01-01). Recorded as HD6, the seat she contested. Serving: listed in Open States current roster as \"Natalie Price\", district 6. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Layla Taha",
+      "office": "lower",
+      "district": "25",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/0bced6982f97261adba3b8cdc3870a8c/taha-layla/",
+        "excerpt": "Layla Taha State House, District 25, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_25",
+        "excerpt": "Incumbent Peter Herzberg (D) defeated Layla Taha (D)"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 6, 2024)."
+    },
+    {
+      "person": "Dylan Wegela",
+      "office": "lower",
+      "district": "26",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/4055/wegela-dylan/",
+        "excerpt": "Dylan Wegela State House, District 26, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_26",
+        "excerpt": "Incumbent Dylan Wegela (D) defeated Jeff Gorman (R) in the general election for Michigan House of Representatives District 26 on November 5, 2024"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2025-01-01",
+        "term_end": "2026-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Dylan Wegela"
+        },
+        "contact_url": "https://housedems.com/Dylan-Wegela/"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Serving: listed in Open States current roster as \"Dylan Wegela\", district 26. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Jaime Churches",
+      "office": "lower",
+      "district": "27",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3924/churches-jaime/",
+        "excerpt": "Jaime Churches State House, District 27, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_27",
+        "excerpt": "Rylee Linting (R) defeated incumbent Jaime Churches (D) in the general election for Michigan House of Representatives District 27 on November 5, 2024"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 5, 2024)."
+    },
+    {
+      "person": "Kyle Wright",
+      "office": "lower",
+      "district": "29",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/0e0c5533356317ccc6c5b91c6a124896/wright-kyle/",
+        "excerpt": "Kyle Wright State House, District 29, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_29",
+        "excerpt": "Incumbent James DeSana (R) defeated Kyle Wright (D) in the general election for Michigan House of Representatives District 29 on November 5, 2024"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 5, 2024)."
+    },
+    {
+      "person": "Jimmie Wilson Jr.",
+      "office": "lower",
+      "district": "32",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/0f7636a29ea00747949f08d3f8fa722f/wilson-jimmie/",
+        "excerpt": "Jimmie Wilson State House, District 32, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_32",
+        "excerpt": "Incumbent Jimmie Wilson Jr. (D) defeated Martin Church (R) and Ryan Sample (G) in the general election for Michigan House of Representatives District 32 on November 5, 2024"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2025-01-01",
+        "term_end": "2026-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Jimmie Wilson"
+        },
+        "contact_url": "https://housedems.com/Jimmie-Wilson-Jr/"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Serving: listed in Open States current roster as \"Jimmie Wilson\", district 32. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Morgan Foreman",
+      "office": "lower",
+      "district": "33",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/f5aed4f001e9a8a9462544ba0740794e/foreman-morgan/",
+        "excerpt": "Morgan Foreman State House, District 33, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_33",
+        "excerpt": "Morgan Foreman (D) defeated Jason Rogers (R) in the general election for Michigan House of Representatives District 33 on November 5, 2024"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2025-01-01",
+        "term_end": "2026-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Morgan Foreman"
+        },
+        "contact_url": "https://housedems.com/morgan-foreman/"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Serving: listed in Open States current roster as \"Morgan Foreman\", district 33. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Joey Andrews",
+      "office": "lower",
+      "district": "38",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/4117/andrews-joey/",
+        "excerpt": "Joey Andrews State House, District 38, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_38",
+        "excerpt": "Incumbent Joey Andrews (D) defeated Kevin Whiteford (R) in the general election for Michigan House of Representatives District 38 on November 5, 2024"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2025-01-01",
+        "term_end": "2026-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Joey Andrews"
+        },
+        "contact_url": "https://housedems.com/joey-andrews/"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Serving: listed in Open States current roster as \"Joey Andrews\", district 38. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Austin Marsman",
+      "office": "lower",
+      "district": "42",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/cedfb800cc560c08e8a0e3369e7306d6/marsman-austin/",
+        "excerpt": "Austin Marsman State House, District 42, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_42",
+        "excerpt": "Incumbent Matt Hall (R) defeated Austin Marsman (D) in the general election for Michigan House of Representatives District 42 on November 5, 2024"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 5, 2024)."
+    },
+    {
+      "person": "Carrie Rheingans",
+      "office": "lower",
+      "district": "47",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/4078/rheingans-carrie/",
+        "excerpt": "Carrie Rheingans State House, District 47, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_47",
+        "excerpt": "Incumbent Carrie Rheingans (D) defeated Teresa Spiegelberg (R) and Aaron Wright (G) in the general election for Michigan House of Representatives District 47 on November 5, 2024"
+      },
+      "current": {
+        "status": "serving",
+        "term_start": "2025-01-01",
+        "term_end": "2026-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Carrie Rheingans"
+        },
+        "contact_url": "https://housedems.com/Carrie-Rheingans/"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Serving: listed in Open States current roster as \"Carrie Rheingans\", district 47. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Trevis Harrold",
+      "office": "lower",
+      "district": "55",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/3886/harrold-trevis/",
+        "excerpt": "Trevis Harrold State House, District 55, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_55",
+        "excerpt": "Incumbent Mark Tisdel (R) defeated Trevis Harrold (D) in the general election for Michigan House of Representatives District 55 on November 5, 2024"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 5, 2024)."
+    },
+    {
+      "person": "Aisha Farooqi",
+      "office": "lower",
+      "district": "57",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/0580a1bbed5f9a79150866883ab5703e/farooqi-aisha/",
+        "excerpt": "Aisha Farooqi State House, District 57, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_57",
+        "excerpt": "Incumbent Thomas Kuhn (R) defeated Aisha Farooqi (D) in the general election for Michigan House of Representatives District 57 on November 5, 2024"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 5, 2024)."
+    },
+    {
+      "person": "Tyler Fox",
+      "office": "lower",
+      "district": "57",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/36f77cbe8d205c33d723bcd182057496/fox-tyler/",
+        "excerpt": "Tyler Fox State House, District 57, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_57",
+        "excerpt": "Aisha Farooqi (D) defeated Tyler Fox (D) and Douglas Waggener (D) in the Democratic primary for Michigan House of Representatives District 57 on August 6, 2024"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 6, 2024)."
+    },
+    {
+      "person": "Abby Klomparens",
+      "office": "lower",
+      "district": "86",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2024,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/04dd184b017aab1c76628a645ea55f74/klomparens-abby/",
+        "excerpt": "Abby Klomparens State House, District 86, MI 2024 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_86",
+        "excerpt": "Incumbent Nancy De Boer (R) defeated Abby Klomparens (D) in the general election for Michigan House of Representatives District 86 on November 5, 2024"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 5, 2024)."
+    },
+    {
+      "person": "Justin Onwenu",
+      "office": "upper",
+      "district": "1",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/4d4529c903e810381421407810c8944d/onwenu-justin/",
+        "excerpt": "Justin Onwenu State Senate, District 1, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_1",
+        "excerpt": "Justin Onwenu (D) defeated Patrick O'Connell (R) in the general election for Michigan State Senate District 1 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2030-12-31",
+        "service_source": null,
+        "contact_url": "https://senate.michigan.gov/senators/senatorinfo_list.html"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: Senate terms are four years, concurrent with the governor (Mich. Const. art. IV, sec. 2) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Abbas Alawieh",
+      "office": "upper",
+      "district": "2",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/ebf41a9e2207b4118a24de8feeae7e77/alawieh-abbas/",
+        "excerpt": "Abbas Alawieh State Senate, District 2, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_2",
+        "excerpt": "Abbas Alawieh (D) defeated Harry Sawicki (R) and Larry Betts (Working Class Party) in the general election for Michigan State Senate District 2 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2030-12-31",
+        "service_source": null,
+        "contact_url": "https://senate.michigan.gov/senators/senatorinfo_list.html"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: Senate terms are four years, concurrent with the governor (Mich. Const. art. IV, sec. 2) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Eboni Taylor",
+      "office": "upper",
+      "district": "3",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/136f1703cb504e146b10837906c47f23/taylor-eboni/",
+        "excerpt": "Eboni Taylor State Senate, District 3, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_3",
+        "excerpt": "John Conyers III 24.4 9,416 Adam Hollier 19.4 7,483 Eboni Taylor 18.8 7,240"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the 2026-08-04 Democratic primary (18.8%); John Conyers III won it and leads the general per Ballotpedia."
+    },
+    {
+      "person": "Amanda Treppa",
+      "office": "upper",
+      "district": "10",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/7913347d61af78a9d29534d924ccdd8c/treppa-amanda/",
+        "excerpt": "Amanda Treppa State Senate, District 10, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_10",
+        "excerpt": "Natalie Price (D) defeated Amanda Treppa (D) and Mark Murphy (D) in the Democratic primary for Michigan State Senate District 10 on August 4, 2026"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 4, 2026)."
+    },
+    {
+      "person": "Rebecca Amidon",
+      "office": "upper",
+      "district": "32",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/aa2d074526737feff08773577d3a2c58/amidon-rebecca/",
+        "excerpt": "Rebecca Amidon State Senator, District 32, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_32",
+        "excerpt": "Rebecca Amidon (D) defeated Kim Cole (R) in the general election for Michigan State Senate District 32 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2030-12-31",
+        "service_source": null,
+        "contact_url": "https://senate.michigan.gov/senators/senatorinfo_list.html"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: Senate terms are four years, concurrent with the governor (Mich. Const. art. IV, sec. 2) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Kate Gallup",
+      "office": "upper",
+      "district": "37",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/723f5e3ee8f42246ea2e161ef2e83df9/gallup-kate/",
+        "excerpt": "Kate Gallup State Senator, District 37, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_State_Senate_District_37",
+        "excerpt": "Incumbent John Damoose (R) defeated Kate Gallup (D) in the general election for Michigan State Senate District 37 on November 3, 2026"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 3, 2026)."
+    },
+    {
+      "person": "Joanna Whaley",
+      "office": "lower",
+      "district": "2",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/6d5f23ba4f86909e0d2769e7f39dd552/whaley-joanna/",
+        "excerpt": "Joanna Whaley State Representative, District 2, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_2",
+        "excerpt": "Joanna Whaley (D) defeated Ronald Kokinda (R) in the general election for Michigan House of Representatives District 2 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Candace Calloway",
+      "office": "lower",
+      "district": "5",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/f66822df2c04156095b62ca7708c8ede/calloway-candace/",
+        "excerpt": "Candace Calloway State Representative, District 5, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_5",
+        "excerpt": "Candace Calloway (D) defeated Chris Venable (R) in the general election for Michigan House of Representatives District 5 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Kali Scales",
+      "office": "lower",
+      "district": "5",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/dd4765d980634faa61bc27aa27edc02d/scales-kali/",
+        "excerpt": "Kali Scales State House of Representatives, District 5, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "withdrew",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_5",
+        "excerpt": "Withdrawn or disqualified candidates Kali Scales (D)"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Ballotpedia lists the candidate under \"Withdrawn or disqualified candidates\" for the 2026 Democratic primary; it does not say which. Recorded as withdrew."
+    },
+    {
+      "person": "Chris Gilmer-Hill",
+      "office": "lower",
+      "district": "8",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/b98a6b6d484f8532b57eaea22a8b34d1/gilmer-hill-chris/",
+        "excerpt": "Chris Gilmer-Hill State Representative, District 8, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_8",
+        "excerpt": "Chris Gilmer-Hill (D) defeated Bruce Langran (R) and Stephen Boyle (G) in the general election for Michigan House of Representatives District 8 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Deanne Austin",
+      "office": "lower",
+      "district": "8",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/ea3d492730018708f997ce651a29aeeb/austin-deanne/",
+        "excerpt": "Deanne Austin State Representative, District 8, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_8",
+        "excerpt": "Chris Gilmer-Hill (D) defeated incumbent Helena Scott (D), Deanne Austin (D), and Fedor Kinaya (D) in the Democratic primary for Michigan House of Representatives District 8 on August 4, 2026"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 4, 2026)."
+    },
+    {
+      "person": "Kimberly Fisher",
+      "office": "lower",
+      "district": "11",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/1caecd134ea9e689d9b3a07693d0d95b/fisher-kimberly/",
+        "excerpt": "Kimberly Fisher State House of Representatives, District 11, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_11",
+        "excerpt": "Kimberly Fisher (D) defeated Matthew Stafford (R) in the general election for Michigan House of Representatives District 11 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Jalal Abdallah",
+      "office": "lower",
+      "district": "15",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/fbba507e3cb8edfd571067c1d331fb0e/abdallah-jalal/",
+        "excerpt": "Jalal Abdallah State Representative, District 15, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_15",
+        "excerpt": "Jalal Abdallah (D) defeated Hassan Nehme (R) in the general election for Michigan House of Representatives District 15 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Jaime Churches",
+      "office": "lower",
+      "district": "27",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/d456165b9dc118c3ba56648ac852eb3b/churches-jaime/",
+        "excerpt": "jaime churches State Representative, District 27, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_27",
+        "excerpt": "Jaime Churches (D) defeated incumbent Rylee Linting (R) in the general election for Michigan House of Representatives District 27 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Joey Andrews",
+      "office": "lower",
+      "district": "38",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/6c8889d149598c028d88faab249afbe5/andrews-joey/",
+        "excerpt": "Joey Andrews State Representative, District 38, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_38",
+        "excerpt": "Incumbent Joey Andrews (D) defeated Mark Krieger (R) and Jett Newton (G) in the general election for Michigan House of Representatives District 38 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": {
+          "url": "https://data.openstates.org/people/current/mi.csv",
+          "excerpt": "Joey Andrews"
+        },
+        "contact_url": "https://housedems.com/joey-andrews/"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Incumbent re-elected: Open States current roster lists \"Joey Andrews\" for the current term; the new term starts 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Alex Hawkins",
+      "office": "lower",
+      "district": "55",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/ad18fc52de775511edd283dbf49e5a3b/hawkins-alex/",
+        "excerpt": "Alex Hawkins State Representative, District 55, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_55",
+        "excerpt": "Alex Hawkins (D) defeated incumbent Mark Tisdel (R) in the general election for Michigan House of Representatives District 55 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Tom Turner",
+      "office": "lower",
+      "district": "57",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/042420fb419997712125430a44ccc937/turner-tom/",
+        "excerpt": "Tom Turner State Representative, District 57, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_57",
+        "excerpt": "Tom Turner (D) defeated incumbent Thomas Kuhn (R) in the general election for Michigan House of Representatives District 57 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Katrina Manetta",
+      "office": "lower",
+      "district": "58",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/869c3c12897cd405372405fa26d81e7e/manetta-katrina/",
+        "excerpt": "Katrina Manetta State Representative, District 58, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_58",
+        "excerpt": "Katrina Manetta (D) defeated incumbent Ron Robinson (R) in the general election for Michigan House of Representatives District 58 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "TyJuan Thirdgill",
+      "office": "lower",
+      "district": "74",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/0303d5ee728c5be655fc772b7fd39d18/thirdgill-tyjuan/",
+        "excerpt": "TyJuan Thirdgill State Representative, District 74, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_74",
+        "excerpt": "Harold Pope (D) defeated TyJuan Thirdgill (D) and Aaron Iturralde (D) in the Democratic primary for Michigan House of Representatives District 74 on August 4, 2026"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the Democratic primary (August 4, 2026)."
+    },
+    {
+      "person": "Joseph McClusky",
+      "office": "lower",
+      "district": "86",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/6e5d34ce06d9f4f0997bb065deceff27/mcclusky-joseph/",
+        "excerpt": "Joseph McClusky State Representative, District 86, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "won",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_86",
+        "excerpt": "Joseph McClusky (D) defeated incumbent Nancy De Boer (R) in the general election for Michigan House of Representatives District 86 on November 3, 2026"
+      },
+      "current": {
+        "status": "incoming",
+        "term_start": "2027-01-01",
+        "term_end": "2028-12-31",
+        "service_source": null,
+        "contact_url": "https://www.house.mi.gov/AllRepresentatives"
+      },
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Won per Ballotpedia, which warns vote totals may change until certified; official results at mielections.us were unreachable. Not yet seated, so absent from Open States; contact_url is the chamber member directory, which will list the member after 2027-01-01. Term rule: House terms are two years (Mich. Const. art. IV, sec. 3) and begin at noon on January 1 after the election (MCL 168.173; en.wikipedia.org/wiki/Michigan_Legislature states the same; the constitution text read does not give the start date)."
+    },
+    {
+      "person": "Aaron Bailey",
+      "office": "lower",
+      "district": "92",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/716fbe5aaf478be57dcde6cc7eba9c8b/bailey-aaron/",
+        "excerpt": "Aaron Bailey State Representative, District 92, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "withdrew",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_92",
+        "excerpt": "Withdrawn or disqualified candidates J. Aaron Bailey (D)"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Ballotpedia lists the candidate under \"Withdrawn or disqualified candidates\" for the 2026 Democratic primary; it does not say which. Recorded as withdrew. Ballotpedia names him \"J. Aaron Bailey\"."
+    },
+    {
+      "person": "Mitchell Distin",
+      "office": "lower",
+      "district": "104",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/6d7119d6f3167d0f6c63397420a4ab53/distin-mitchell/",
+        "excerpt": "Mitchell Distin State Representative, District 104, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_104",
+        "excerpt": "Incumbent John Roth (R) defeated Mitchell Distin (D) and Alexander Jarvis (L) in the general election for Michigan House of Representatives District 104 on November 3, 2026"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 3, 2026)."
+    },
+    {
+      "person": "Melissa Perron",
+      "office": "lower",
+      "district": "107",
+      "issuer": "Run for Something",
+      "group": "rfs",
+      "issuer_source": null,
+      "election": {
+        "year": 2026,
+        "stage": "general"
+      },
+      "source": {
+        "url": "https://directory.runforsomething.net/candidate/da929c50ca14632ea14ffa277d63e052/perron-melissa/",
+        "excerpt": "Melissa Perron State Representative, District 107, MI 2026 Endorsement"
+      },
+      "withdrawn": false,
+      "outcome": "lost",
+      "result_source": {
+        "url": "https://ballotpedia.org/Michigan_House_of_Representatives_District_107",
+        "excerpt": "Incumbent Parker Fairbairn (R) defeated Melissa Perron (D) in the general election for Michigan House of Representatives District 107 on November 3, 2026"
+      },
+      "current": null,
+      "notes": "Stage general: card carries no announcement date; defaulted per brief. Lost the general election (November 3, 2026)."
+    }
+  ],
+  "coverage": [
+    {
+      "group": "wfp",
+      "status": "blocked",
+      "checked": [
+        "https://workingfamilies.org/candidates/",
+        "https://workingfamilies.org/state/michigan/",
+        "https://workingfamilies.org/2026/01/wfp-endorses-pamela-pugh-for-michigan-senate/"
+      ],
+      "note": "2026 list read from the saved national file (9 state legislative rows) plus the Pugh special-election release. No 2022 or 2024 state legislative or governor endorsements found, but the WFP Michigan news archive and local chapters were not enumerated for those cycles. WFP lists Garlin Gilchrist for Secretary of State and Eli Savit for Attorney General (out of scope)."
+    },
+    {
+      "group": "or",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://ourrevolution.com/endorsing-leaders-for-michigan-house/",
+        "https://ourrevolution.com/endorsing-leaders-for-michigan-senate/",
+        "https://ourrevolution.com/michigan-endorsements-2024/",
+        "https://ourrevolution.com/category/past-endorsement/past-mi/"
+      ],
+      "note": "2026 House/Senate posts, 2024 post, and the past-MI category (only the 2024 post is there). No 2022 Michigan post found, no governor endorsement found. OR local chapters were not enumerated."
+    },
+    {
+      "group": "dsa",
+      "status": "blocked",
+      "checked": [
+        "https://metrodetroitdsa.org/2026-slate/",
+        "https://jacobin.com/2024/01/layla-taha-socialist-michigan-state-house",
+        "https://www.hvdsa.org/endorsed-candidates",
+        "https://www.grdsa.org/2026-grdsa-voter-guide/",
+        "https://www.greaterlansingdsa.org/electoral_committee",
+        "https://swmidsa.com",
+        "https://nwmidsa.org"
+      ],
+      "note": "Metro Detroit 2026 slate and the national DSA tables read. Metro Detroit 2022 and 2024 pages are gone (2024 page returns 404), so a 2024 Dylan Wegela endorsement could not be checked. Huron Valley (Ann Arbor), Greater Lansing, Grand Rapids (voter guide gives recommendations, not endorsements), Southwest and Northwest Michigan show no state legislative endorsements. Saginaw Bay, Cadillac, Isabella County, Upper Peninsula not reviewed (social-only or organizing committees)."
+    },
+    {
+      "group": "rfs",
+      "status": "complete_with_entries",
+      "checked": [
+        "https://directory.runforsomething.net/candidates/2022/",
+        "https://directory.runforsomething.net/candidates/2024/",
+        "https://directory.runforsomething.net/candidates/2026/"
+      ],
+      "note": "Saved directory cards for 2022, 2024, 2026 (in-scope state legislative cards). 2020 cards are for terms that ended in 2022. No state legislative cards in 2023 or 2025. RFS does not endorse governors."
+    },
+    {
+      "group": "pccc",
+      "status": "blocked",
+      "checked": [
+        "https://www.boldprogressives.org/candidates/",
+        "https://www.boldprogressives.org/2020-champions/"
+      ],
+      "note": "The candidates page lists no Michigan state candidates. The 2020 champions list is not an endorsement and its terms ended in 2022. Yearly pages for 2022, 2024, 2026 return 404, so those cycles are not confirmed."
+    },
+    {
+      "group": "sunrise",
+      "status": "blocked",
+      "checked": [
+        "https://www.sunrisemovement.org/endorsements/",
+        "https://www.sunrisemovement.org/endorsement/",
+        "https://hubs.sunrisemovement.org/michigan-state-university/"
+      ],
+      "note": "National endorsement pages list only Michigan congressional candidates (MI-13 and others). Past-cycle archives and the Sunrise Michigan State University hub were not exhaustively checked; a web search found no 2022 to 2026 state legislative or governor endorsement."
+    }
+  ],
+  "gaps": [
+    "Official results (mielections.us) did not respond from this machine (connection timeout on every URL). All results cite Ballotpedia district pages; the 2026 results there are uncertified.",
+    "The Michigan constitution text read (art. IV sec. 2 and 3, via Ballotpedia) gives term lengths but not the January 1 start date. Start dates rest on MCL 168.173 (legislature.mi.gov was unreachable; text seen only through a search summary) and en.wikipedia.org/wiki/Michigan_Legislature. Governor term rule not needed (no governor entries).",
+    "No governor endorsements (2022 or 2026) found for any group. 2022 governor not searched beyond a web search; 2026 search found none.",
+    "Dylan Wegela: Metro Detroit DSA 2024 endorsement reported by a search summary but its page (metrodetroitdsa.com/our_2024_endorsements) returns 404; not entered.",
+    "Layla Taha DSA 2024 primary entry has no text excerpt (Airtable grid renders client-side).",
+    "Aaron Bailey (HD92) and Kali Scales (HD5), 2026: Ballotpedia lists both under \"Withdrawn or disqualified candidates\"; recorded outcome withdrew, reason unknown.",
+    "Natalie Price 2024: RFS card says District 5; recorded as District 6 (the seat she contested and won per Ballotpedia).",
+    "Tonya Myers Phillips: WFP list spells it \"Meyers\".",
+    "Mid-2026 specials: only Senate District 35 (Pugh) and House District 25 (Taha) were found for endorsed people; other Michigan special elections since 2022 were not enumerated.",
+    "Incoming new members (2026 winners not yet seated) have no official member page; contact_url is the chamber directory.",
+    "Jaz Martus appears in Open States as \"Jaz Martus\"; her 2022 term ended so no service citation is used."
+  ]
+}
