@@ -19,7 +19,7 @@ export function NewsPager({ headlines }: { headlines: Headline[] }) {
 
   return (
     <>
-      <ul className="news-list" ref={list}>
+      <ul className="news-list jd-ruled" ref={list}>
         {shown.map((h) => (
           <li key={h.url}>
             <a href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>

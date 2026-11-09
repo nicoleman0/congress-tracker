@@ -17,7 +17,7 @@ export function StatusBadge({ status }: { status: Status }) {
 
 export function MemberList({ members }: { members: Member[] }) {
   return (
-    <ul className="member-list">
+    <ul className="member-list jd-ruled jd-ruled--closed">
       {members.map((m) => (
         <li key={m.id}>
           <Link href={`/member/${m.id}`} className="member-row">
@@ -35,7 +35,7 @@ export function MemberList({ members }: { members: Member[] }) {
 
 export function ActionList({ actions }: { actions: Action[] }) {
   return (
-    <ul className="action-list">
+    <ul className="action-list jd-ruled jd-ruled--closed">
       {actions.map((a) => (
         <li key={a.href + a.label}>
           <a href={a.href} target="_blank" rel="noopener noreferrer" className="action-link">
