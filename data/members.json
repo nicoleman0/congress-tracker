@@ -495,15 +495,15 @@
         "JD",
         "WFP"
       ],
-      "status": "pending",
-      "note": "Trails Doris Matsui, 44.2% to 55.8%, with 69.7% of the vote counted.",
+      "status": "lost",
+      "note": "Lost to Doris Matsui.",
       "source": {
         "label": "NBC News",
         "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-7-results"
       },
       "office": "house",
       "incumbent": false,
-      "checkedAt": "2026-11-10T20:42Z",
+      "checkedAt": "2026-11-11T21:01Z",
       "campaign": {
         "url": "https://www.maiforus.com",
         "fec": "C00918037"
