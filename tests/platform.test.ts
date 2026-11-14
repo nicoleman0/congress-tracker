@@ -16,8 +16,8 @@ test("a missing quote is drift and a missing page is unreachable", () => {
 });
 
 test("a failed fetch says whether the page is gone or a bot check refused it", () => {
-  assert.equal(failure(404, new Headers()), "HTTP 404");
-  assert.equal(failure(403, new Headers({ "cf-mitigated": "challenge" })), "bot check, HTTP 403");
+  assert.deepEqual(failure(404, new Headers()), { why: "HTTP 404", blocked: false });
+  assert.deepEqual(failure(403, new Headers({ "cf-mitigated": "challenge" })), { why: "bot check, HTTP 403", blocked: true });
 });
 
 test("stances go stale 60 days after their last check", () => {

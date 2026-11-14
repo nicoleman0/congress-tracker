@@ -33,27 +33,29 @@ export function judge(page: string | null, quote: string): Result {
   return normalize(page).includes(normalize(quote)) ? "confirmed" : "drifted";
 }
 
-export type Fetched = { page: string | null; why?: string };
+// `blocked` marks a bot check: the page may be fine, but this machine can't tell.
+export type Fetched = { page: string | null; why?: string; blocked?: boolean };
 
 // Why a response can't be read. A dead page needs a data fix; a bot check or a dropped request does not.
-export function failure(status: number, headers: Headers): string {
-  return headers.get("cf-mitigated") === "challenge" ? `bot check, HTTP ${status}` : `HTTP ${status}`;
+export function failure(status: number, headers: Headers): { why: string; blocked: boolean } {
+  const blocked = headers.get("cf-mitigated") === "challenge";
+  return { why: blocked ? `bot check, HTTP ${status}` : `HTTP ${status}`, blocked };
 }
 
 // One retry: campaign hosts drop the odd request, and a single miss shouldn't read as drift.
 export async function fetchSource(url: string): Promise<Fetched> {
-  let why = "";
+  let failed = { why: "", blocked: false };
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
       const res = await fetch(url, { headers: { "user-agent": BROWSER_UA }, signal: AbortSignal.timeout(20_000) });
       if (res.ok) return { page: await res.text() };
-      why = failure(res.status, res.headers);
+      failed = failure(res.status, res.headers);
     } catch (e) {
-      why = e instanceof Error && e.name === "TimeoutError" ? "timed out" : "no response";
+      failed = { why: e instanceof Error && e.name === "TimeoutError" ? "timed out" : "no response", blocked: false };
     }
     await new Promise((r) => setTimeout(r, 3_000));
   }
-  return { page: null, why };
+  return { page: null, ...failed };
 }
 
 export const fetchPage = async (url: string) => (await fetchSource(url)).page;
@@ -75,13 +77,16 @@ async function main() {
     (await Promise.all(batch.map(fetchSource))).forEach((p, j) => pages.set(batch[j], p));
   }
 
-  const problems: Record<Exclude<Result, "confirmed">, string[]> = { drifted: [], unreachable: [] };
+  const problems: Record<Exclude<Result, "confirmed"> | "blocked", string[]> = { drifted: [], unreachable: [], blocked: [] };
   let confirmed = 0;
   for (const { id, s } of checked) {
-    const { page, why } = pages.get(s.source.url)!;
+    const { page, why, blocked } = pages.get(s.source.url)!;
     const r = judge(page, s.quote!);
-    if (r === "confirmed") { s.checkedAt = now; confirmed++; }
-    else problems[r].push(`- ${id} (${s.issue}): ${s.source.url} — ${why ? `${why}, ` : ""}last confirmed ${s.checkedAt}`);
+    if (r === "confirmed") { s.checkedAt = now; confirmed++; continue; }
+    // The workflow keeps the review issue open while any "- " line exists, so blocked sources use "* ".
+    problems[blocked ? "blocked" : r].push(
+      `${blocked ? "*" : "-"} ${id} (${s.issue}): ${s.source.url} — ${why ? `${why}, ` : ""}last confirmed ${s.checkedAt}`,
+    );
   }
   fs.writeFileSync(PLATFORM, JSON.stringify(data, null, 2) + "\n");
 
@@ -89,6 +94,9 @@ async function main() {
     `Rechecked ${checked.length} platform stances against ${urls.length} source pages: ${confirmed} confirmed.`,
     "", `### Quote no longer on the page (${problems.drifted.length})`, ...problems.drifted,
     "", `### Source unreachable (${problems.unreachable.length})`, ...problems.unreachable,
+    "", `### Blocked by a bot check (${problems.blocked.length})`,
+    ...(problems.blocked.length ? ["Not checked from here. Run the script from another network to confirm these.", ""] : []),
+    ...problems.blocked,
   ].join("\n");
   if (out) fs.writeFileSync(out, report + "\n");
   console.log(report);
