@@ -1,13 +1,21 @@
 // Standing actions built from a member's fields. Outbound tools are linked, not rebuilt.
 import type { Member } from "@/lib/data";
+import type { State } from "@/lib/states";
 
 export type Action = { label: string; href: string; detail?: string };
 
-export const PLUG_IN: Action[] = [
-  { label: "Find a local Indivisible group", href: "https://indivisible.org/get-involved/find-a-group/" },
-  { label: "Find events on Mobilize", href: "https://www.mobilize.us/" },
-  { label: "Call with 5 Calls", href: "https://5calls.org/" },
-];
+// Pass a state to open each tool on that state where the tool has such a view. Only Mobilize does;
+// Indivisible, 5 Calls, Swing Left, Field Team 6 and Run for Something had none on 2026-11-14.
+export function plugIn(state?: State): Action[] {
+  return [
+    { label: "Find a local Indivisible group", href: "https://indivisible.org/get-involved/find-a-group/" },
+    state
+      ? // Checked 2026-11-14: ?state= takes the uppercase two-letter code and filters on the server.
+        { label: `Find events in ${state.name} on Mobilize`, href: `https://www.mobilize.us/?state=${state.code}` }
+      : { label: "Find events on Mobilize", href: "https://www.mobilize.us/" },
+    { label: "Call with 5 Calls", href: "https://5calls.org/" },
+  ];
+}
 
 // For states with no listed member: build the opposition to Republicans there.
 export const OPPOSE: Action[] = [
