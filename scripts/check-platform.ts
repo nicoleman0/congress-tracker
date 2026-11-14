@@ -33,19 +33,30 @@ export function judge(page: string | null, quote: string): Result {
   return normalize(page).includes(normalize(quote)) ? "confirmed" : "drifted";
 }
 
+export type Fetched = { page: string | null; why?: string };
+
+// Why a response can't be read. A dead page needs a data fix; a bot check or a dropped request does not.
+export function failure(status: number, headers: Headers): string {
+  return headers.get("cf-mitigated") === "challenge" ? `bot check, HTTP ${status}` : `HTTP ${status}`;
+}
+
 // One retry: campaign hosts drop the odd request, and a single miss shouldn't read as drift.
-export async function fetchPage(url: string): Promise<string | null> {
+export async function fetchSource(url: string): Promise<Fetched> {
+  let why = "";
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
       const res = await fetch(url, { headers: { "user-agent": BROWSER_UA }, signal: AbortSignal.timeout(20_000) });
-      if (res.ok) return await res.text();
-    } catch {
-      // retried below
+      if (res.ok) return { page: await res.text() };
+      why = failure(res.status, res.headers);
+    } catch (e) {
+      why = e instanceof Error && e.name === "TimeoutError" ? "timed out" : "no response";
     }
     await new Promise((r) => setTimeout(r, 3_000));
   }
-  return null;
+  return { page: null, why };
 }
+
+export const fetchPage = async (url: string) => (await fetchSource(url)).page;
 
 async function main() {
   const out = process.argv[2];
@@ -58,18 +69,19 @@ async function main() {
   if (missing.length) throw new Error(`stances without a quote: ${missing.map(({ id, s }) => `${id}/${s.issue}`).join(", ")}`);
 
   const urls = [...new Set(checked.map(({ s }) => s.source.url))];
-  const pages = new Map<string, string | null>();
+  const pages = new Map<string, Fetched>();
   for (let i = 0; i < urls.length; i += 6) {
     const batch = urls.slice(i, i + 6);
-    (await Promise.all(batch.map(fetchPage))).forEach((p, j) => pages.set(batch[j], p));
+    (await Promise.all(batch.map(fetchSource))).forEach((p, j) => pages.set(batch[j], p));
   }
 
   const problems: Record<Exclude<Result, "confirmed">, string[]> = { drifted: [], unreachable: [] };
   let confirmed = 0;
   for (const { id, s } of checked) {
-    const r = judge(pages.get(s.source.url) ?? null, s.quote!);
+    const { page, why } = pages.get(s.source.url)!;
+    const r = judge(page, s.quote!);
     if (r === "confirmed") { s.checkedAt = now; confirmed++; }
-    else problems[r].push(`- ${id} (${s.issue}): ${s.source.url} — last confirmed ${s.checkedAt}`);
+    else problems[r].push(`- ${id} (${s.issue}): ${s.source.url} — ${why ? `${why}, ` : ""}last confirmed ${s.checkedAt}`);
   }
   fs.writeFileSync(PLATFORM, JSON.stringify(data, null, 2) + "\n");
 
