@@ -2,7 +2,7 @@ import { PaginatedList } from "@/components/PaginatedList";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ActionList, MemberList } from "@/components/ui";
-import { CONTACT_HOUSE, CONTACT_SENATE, OPPOSE, PLUG_IN } from "@/lib/actions";
+import { CONTACT_HOUSE, CONTACT_SENATE, OPPOSE, plugIn } from "@/lib/actions";
 import { getState, membersIn } from "@/lib/data";
 import { STATES } from "@/lib/states";
 import { coverageComplete, GROUP_NAMES, stateCoverage, stateListings, stateStatusNote, statePublicationVersion, stateSeatLabel } from "@/lib/state-offices";
@@ -105,7 +105,7 @@ export default async function StatePage({ params }: PageProps<"/state/[st]">) {
 
       <section className="section" aria-labelledby="plug-in-title">
         <h2 id="plug-in-title">Get involved</h2>
-        <ActionList actions={[CONTACT_HOUSE, ...(state.senators ? [CONTACT_SENATE] : []), ...PLUG_IN]} />
+        <ActionList actions={[CONTACT_HOUSE, ...(state.senators ? [CONTACT_SENATE] : []), ...plugIn(state)]} />
       </section>
     </>
   );

@@ -5,7 +5,7 @@ import { Suspense } from "react";
 import { CheckedDate } from "@/components/CheckedDate";
 import { MemberNews } from "@/components/MemberNews";
 import { ActionList, STATUS_TEXT } from "@/components/ui";
-import { CONTACT_HOUSE, CONTACT_SENATE, PLUG_IN, campaignAction } from "@/lib/actions";
+import { CONTACT_HOUSE, CONTACT_SENATE, campaignAction, plugIn } from "@/lib/actions";
 import { formatChecked } from "@/lib/freshness";
 import { allMembers, getGroup, getMember, getPhoto, getState, platformOf, seatLabel } from "@/lib/data";
 import { getStateMember, stateMembers } from "@/lib/state-offices";
@@ -101,7 +101,7 @@ export default async function MemberPage({ params }: PageProps<"/member/[id]">) 
 
       <section className="section" aria-labelledby="plug-in-title">
         <h2 id="plug-in-title">Get involved</h2>
-        <ActionList actions={[m.office === "senate" ? CONTACT_SENATE : CONTACT_HOUSE, ...PLUG_IN]} />
+        <ActionList actions={[m.office === "senate" ? CONTACT_SENATE : CONTACT_HOUSE, ...plugIn()]} />
       </section>
 
       <section className="section" aria-labelledby="record-title">
