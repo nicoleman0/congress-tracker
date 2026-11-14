@@ -1,5 +1,6 @@
 # Weekly recheck of platform stances and FEC outside spending. Merges refreshed dates (which redeploys the site) and keeps one open
-# issue listing stances whose source changed or went offline, for a person to review.
+# issue listing stances whose source changed or went offline, for a person to review. Bot-checked sources are listed but don't
+# hold the issue open.
 name: Recheck platform sources
 
 on:
@@ -54,5 +55,5 @@ jobs:
             if [ -n "$existing" ]; then gh issue edit "$existing" --body-file report.md
             else gh issue create --title "$title" --body-file report.md; fi
           elif [ -n "$existing" ]; then
-            gh issue close "$existing" --comment "All sources confirmed on $(date -u +%F)."
+            gh issue close "$existing" --comment "Nothing left to review on $(date -u +%F)."
           fi
